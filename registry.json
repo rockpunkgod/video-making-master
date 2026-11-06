@@ -402,7 +402,7 @@
     },
     {
       "name": "ae-advanced-compositing",
-      "version": "0.1.10",
+      "version": "0.1.11",
       "status": "candidate",
       "execution_status": "native_p13_p15_p16_and_p17_tunnel_streak_candidates",
       "path": "skills/after-effects/ae-advanced-compositing",
@@ -425,7 +425,9 @@
         "Course16 editable Colorama/Glow noise styling component with course fade",
         "Course16 native Colorama/Screen/FindEdges/black-key assembly, linked fades and white contour depth animation",
         "Course17 first contour disabled, static null shift and expression-plus-keyframe outer rotation/fade",
-        "Course17 seven keyed noise layers, editable native RGB Curves, dualGlow and outer X-scale collapse"
+        "Course17 seven keyed noise layers, editable native RGB Curves, dualGlow and outer X-scale collapse",
+        "Course17 two staggered native19-path groups with editable channel curves and per-layer color",
+        "Course18 high-quality alpha proxies for eligible flat precompositions; explicit collapsed3D rejection and final proxy policy"
       ],
       "sources": [
         {
@@ -434,7 +436,8 @@
             13,
             15,
             16,
-            17
+            17,
+            18
           ]
         }
       ],
@@ -451,7 +454,8 @@
         "P16 styled assembly technical gates pass; estimated mask/palette/key timing, gray streaks/red lines and missing human review keep candidate",
         "P17 tunnel key times, raw rotation endpoint and easing inferred; later streak/line styling and three-material suite incomplete",
         "P17 streak curves/key times estimated; camera/random identities, cyber-line continuation, title and three materials unresolved",
-        "P17 two19-path groups and dualGlow native-tested; final first-group state, curves/key timing, reference playback, title/full-film and three materials unverified"
+        "P17 two19-path groups and dualGlow native-tested; final first-group state, curves/key timing, reference playback, title/full-film and three materials unverified",
+        "Course18 proxy suite covers3 distinct native components and final-policy variant; final~25s camera/drift/text assembly not reproduced, broader material/generalization and exact course-film acceptance remain"
       ],
       "additional_evidence": [
         "evaluations/course-p15-radial-001/summary.json",
@@ -463,7 +467,8 @@
         "evaluations/course-p16-styled-assembly-001/summary.json",
         "evaluations/course-p17-tunnel-001/summary.json",
         "evaluations/course-p17-streak-style-001/summary.json",
-        "evaluations/course-p17-line-style-001/summary.json"
+        "evaluations/course-p17-line-style-001/summary.json",
+        "evaluations/course-p18-proxy-suite-001/summary.json"
       ],
       "human_reviews": [
         {

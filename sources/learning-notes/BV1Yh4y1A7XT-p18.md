@@ -1,0 +1,11 @@
+# 18 Faster Workflow with Animation Proxies
+
+来源：https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=18 。Ego Lite实际访问页面；Watch23个全局帧及20个1080p参数/结尾帧全部查看，554秒已有本机模型离线转录并通读。没有安装ASR或上传音频。
+
+00:31–01:37先演示默认代理Draft/Half；01:50–02:38作者改用常规RenderQueue的Best/Full、QuickTime ProRes4444、RGB+Alpha、预乘。02:48–03:45设置代理、开关、源改动后重新渲染再指定文件；04:15–06:35对100层核心重复。05:28–05:45提醒修剪无效尾部，不能无脑渲染长合成。06:46–07:10提醒折叠变换层依赖内部3D数据，不适合平面代理。
+
+实际制作线条、102层核心、文字三个不同原生输入，并制作最终Use No Proxies的独立变体。每例保留原图层，真实ProRes4444/Alpha全帧解码、代理开关/原图层修改重开恢复，以及深色/白底对照通过。已有噪波折叠依赖被原生检查实际拒绝。具体报告evaluations/course-p18-proxy-suite-001/summary.json，操作入口在ae-advanced-compositing的course-proxies.md。诊断底板与包装层明确是测试适配，不是课程美术步骤。
+
+07:14–08:46结尾很重要：作者明确说已在课外更改相机，并加入文字，要求学员继续对照最终片头调整；没有显示完整制作动作或全部数值。07:25画面中可读Camera父级drift、T1_ctrl及TECHNOLOGY/INTERNET/BIG DATA、vig、核心/点阵/噪波；06:50底部11–19层可读ATTENTION/FINANCIALIZED/ADVERTISING及其余组件。时间轴显示约25秒，与早期20秒粗排不同。08:00相机展开可见Position/Z Rotation/DOF/Blur Level多键，但当前0时刻值不能当作播放画面的终点值；也没有逐键读出位置。结尾线条层Scale170/201/170是可读状态，不能直接推广到全时段。
+
+这些证据说明现有20秒总装不是最终课程片头；不能只移动旧标题到相机前方就声称课程完成。后续需要按最终参考重建相机、漂移父级、分组文字和整体时序，对画面反推的参数明确标注并实际验证。代理闭环通过不解决这项缺口。

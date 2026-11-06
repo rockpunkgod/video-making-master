@@ -24,7 +24,7 @@ try{
  if(app.project&&app.project.file)restore=app.project.file.fsName;
  for(var pi=0;pi<paths.length;pi++){
   closeOwned();app.open(new File(paths[pi]));var media=[];
-  for(var j=1;j<=app.project.numItems;j++){var item=app.project.item(j);if(item instanceof FootageItem&&item.file)media.push({name:item.name,path:item.file.fsName,exists:item.file.exists,missing:item.footageMissing});}
+  for(var j=1;j<=app.project.numItems;j++){var item=app.project.item(j);if(item instanceof FootageItem&&item.file)media.push({name:item.name,path:item.file.fsName,exists:item.file.exists,missing:item.footageMissing});if((item instanceof CompItem||item instanceof FootageItem)&&item.proxySource&&item.proxySource.file){var pf=item.proxySource.file;media.push({name:item.name,kind:'proxy',path:pf.fsName,exists:pf.exists,missing:!pf.exists,use_proxy:item.useProxy});}}
   rows.push({project:paths[pi],media:media});write({status:'running',completed:rows.length,total:paths.length,projects:rows});
  }
  closeOwned();if(restore)app.open(new File(restore));write({status:'completed',completed:rows.length,total:paths.length,projects:rows,projects_modified:false,previous_project_restored:restore});

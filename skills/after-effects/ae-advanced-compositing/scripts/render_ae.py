@@ -8,7 +8,9 @@ from validate_video import validate
 
 def check_output(root,cfg):
     report=validate(root/'final.mp4',cfg)
-    if cfg.get('name') == 'COURSE_P17_LINE_STYLE':
+    if cfg.get('name') == 'COURSE_P18_PROXY_DEMO':
+        from validate_proxy import validate as validate_branch
+    elif cfg.get('name') == 'COURSE_P17_LINE_STYLE':
         from validate_line_style import validate as validate_branch
     elif cfg.get('name') == 'COURSE_P17_STREAK_STYLE':
         from validate_streak_style import validate as validate_branch

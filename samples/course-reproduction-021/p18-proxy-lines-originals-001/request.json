@@ -1,0 +1,53 @@
+{
+  "name": "COURSE_P18_PROXY_DEMO",
+  "target": "P17_CYBER_LINES",
+  "width": 1080,
+  "height": 1080,
+  "fps": 30,
+  "duration": 5,
+  "motion_expectation": "required",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=18",
+  "final_policy": "originals",
+  "checkpoints": [
+    0,
+    5,
+    15,
+    30,
+    44,
+    90,
+    149
+  ],
+  "white_checkpoints": [
+    30,
+    90
+  ],
+  "status": "candidate",
+  "inputs": {
+    "main": {
+      "project": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-reproduction-021/p18-proxy-lines-originals-001/inputs/main/project.aep",
+      "sha256": "0a18219dc63916fb4b3d6a562757d3d8d6a6a0941a4e840d77bcba23c0f88de1"
+    },
+    "template": {
+      "project": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-reproduction-021/p18-proxy-lines-originals-001/inputs/template/project.aep",
+      "sha256": "7b22d434d0351c40caa2c2e19b65949649309e459fa0886cc325bb91e16b688c"
+    }
+  },
+  "provenance": {
+    "observed": [
+      "P18 01:50\u201302:38 Best/Full native QuickTime AppleProRes4444, RGB+Alpha, premultiplied",
+      "02:48\u201303:45 assign proxy file, enable/disable and replace after changes",
+      "04:15\u201306:35 repeat for100-layer core; respect used duration",
+      "06:46\u201307:10 avoid collapsed3D proxies; flatMOV cannot transmit inner3D"
+    ],
+    "test_adaptation": [
+      "Native reusable bake wrapper replaces tutorial direct RenderQueue insertion, same full-size pixels",
+      "Dark and white diagnostic backplates test alpha; they are QA compositions, not course artwork",
+      "Third text case and final originals policy are explicit generalization/variant"
+    ],
+    "unverified": [
+      "Interactive playback FPS and arbitrary host compatibility",
+      "P18 final camera/text changes are offscreen and not implemented here"
+    ]
+  },
+  "variant": true
+}

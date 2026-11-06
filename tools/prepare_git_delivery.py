@@ -7,6 +7,10 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 CASES=[
+ 'samples/course-reproduction-021/p18-proxy-lines-003',
+ 'samples/course-reproduction-021/p18-proxy-core-001',
+ 'samples/course-reproduction-021/p18-proxy-type-001',
+ 'samples/course-reproduction-021/p18-proxy-lines-originals-001',
  'samples/course-reproduction-020/p17-line-style-003',
  'samples/course-reproduction-020/p17-line-style-variation-002',
  'samples/course-reproduction-019/p17-streak-style-003',
@@ -80,7 +84,7 @@ for name in CASES:
   if not path.is_file():continue
   rel=path.relative_to(folder)
   if rel.parts[0] in {'inputs','assets'}:
-   if path.suffix.lower() in {'.aep','.png','.jpg','.jpeg','.wav','.mp3','.mp4','.json','.md'}:chosen.append(path)
+   if path.suffix.lower() in {'.aep','.png','.jpg','.jpeg','.wav','.mp3','.mp4','.mov','.json','.md'}:chosen.append(path)
   elif len(rel.parts)==1 and (path.name in {'project.aep','project.prproj','final.mp4','native-mix.wav','credits.md'} or path.suffix.lower()=='.json'):
    chosen.append(path)
   elif len(rel.parts)==1 and path.name.startswith('native-still-') and path.suffix.lower()=='.png':
@@ -94,7 +98,7 @@ for path in (ROOT/'evaluations').rglob('*'):
 # These are necessary inputs, not disposable renders. Read the actual saved
 # Adobe dependencies before cleanup instead of guessing from folder names.
 supplemental=[]
-for name in ['native-media-dependencies.json','pr-media-dependencies.json','native-media-dependencies-p15.json','native-media-dependencies-p15-polar.json','native-media-dependencies-p15-streaks.json','native-media-dependencies-p15-assembly.json','native-media-dependencies-p16-core.json','native-media-dependencies-p16-noise.json','native-media-dependencies-p16-style.json','native-media-dependencies-p17-tunnel.json','native-media-dependencies-p17-streak.json','native-media-dependencies-p17-lines.json']:
+for name in ['native-media-dependencies.json','pr-media-dependencies.json','native-media-dependencies-p15.json','native-media-dependencies-p15-polar.json','native-media-dependencies-p15-streaks.json','native-media-dependencies-p15-assembly.json','native-media-dependencies-p16-core.json','native-media-dependencies-p16-noise.json','native-media-dependencies-p16-style.json','native-media-dependencies-p17-tunnel.json','native-media-dependencies-p17-streak.json','native-media-dependencies-p17-lines.json','native-media-dependencies-p18-proxies.json']:
  audit=ROOT/'reports'/name
  if not audit.is_file():continue
  data=json.loads(audit.read_text(encoding='utf-8-sig'))
@@ -110,8 +114,13 @@ chosen=sorted(set(chosen))
 records=[]
 for path in chosen:
  size=path.stat().st_size
- if size>=100_000_000:raise ValueError('GitHub single-file limit requires another delivery method: '+str(path))
- records.append(dict(path=path.relative_to(ROOT).as_posix(),bytes=size,sha256=hashlib.sha256(path.read_bytes()).hexdigest()))
+ rel=path.relative_to(ROOT).as_posix();is_lfs=False
+ if size>=100_000_000 or path.suffix.lower()=='.mov':
+  is_lfs=subprocess.check_output(['git','check-attr','filter','--',rel],cwd=ROOT,text=True).strip().endswith(': filter: lfs')
+ if size>=100_000_000 and not is_lfs:raise ValueError('GitHub single-file limit requires explicit Git LFS delivery: '+str(path))
+ record=dict(path=rel,bytes=size,sha256=hashlib.sha256(path.read_bytes()).hexdigest())
+ if is_lfs:record['storage']='git-lfs'
+ records.append(record)
 manifest=dict(scope='Standalone video-skills-lab progress snapshot; overall curriculum incomplete',cases=CASES,files=records,
  supplemental_native_media=sorted({p.relative_to(ROOT).as_posix() for p in supplemental}),
  excluded=['tutorial media and frames in cache','local environments and models','duplicate/failed intermediate native binaries','Adobe preset files derived from installed vendor files','Adobe autosave and transport data','repeated native audio/video exports'],

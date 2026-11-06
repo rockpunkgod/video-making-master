@@ -2,6 +2,8 @@
 import hashlib,json,re,subprocess
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
+manifest=json.loads((root/'reports/git-delivery-manifest.json').read_text(encoding='utf-8'))
+lfs_records={r['path']:r for r in manifest['files'] if r.get('storage')=='git-lfs'}
 raw=subprocess.check_output(['git','ls-files','-z'],cwd=root);names=[n.decode('utf-8') for n in raw.split(b'\0') if n]
 bad=[];json_count=0;py_count=0
 pattern=re.compile(rb'github_pat_[A-Za-z0-9_]{20,}|ghp_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9]{24,}|-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----')
@@ -9,7 +11,11 @@ for name in names:
  p=root/name;parts=p.relative_to(root).parts
  if any(s in {'.venv','cache','__pycache__','.env','.git-credentials'} for s in parts) or p.suffix=='.pyc':bad.append('forbidden path '+name)
  data=p.read_bytes()
- if p.stat().st_size>=100_000_000:bad.append('oversize '+name)
+ if p.stat().st_size>=100_000_000 and name not in lfs_records:bad.append('oversize without explicit LFS '+name)
+ if name in lfs_records:
+  expected=('version https://git-lfs.github.com/spec/v1\noid sha256:'+hashlib.sha256(data).hexdigest()+'\nsize '+str(len(data))+'\n').encode('ascii')
+  pointer=subprocess.check_output(['git','show',':'+name],cwd=root)
+  if pointer!=expected:bad.append('LFS pointer does not match actual native media '+name)
  if p.suffix.lower() in {'.py','.jsx','.ps1','.mjs','.json','.md','.txt','.log'}:
   if pattern.search(data):bad.append('possible credential '+name)
  if p.suffix=='.json':
@@ -18,7 +24,6 @@ for name in names:
  if p.suffix=='.py':
   try:compile(data,str(p),'exec');py_count+=1
   except Exception as e:bad.append('Python syntax invalid '+name+': '+str(e))
-manifest=json.loads((root/'reports/git-delivery-manifest.json').read_text(encoding='utf-8'))
 for r in manifest['files']:
  if r['path'] not in names:bad.append('unstaged delivery '+r['path']);continue
  if hashlib.sha256((root/r['path']).read_bytes()).hexdigest()!=r['sha256']:bad.append('delivery SHA changed '+r['path'])

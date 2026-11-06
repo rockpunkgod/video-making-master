@@ -1,0 +1,28 @@
+{
+  "skill": "ae-advanced-compositing",
+  "branch": "course18-proxies",
+  "status": "candidate",
+  "steps": [
+    "Audit collapsed uses before reducing project",
+    "Render native Best/Full ProRes4444 with alpha",
+    "Assign proxy, edit/reopen/toggle/restore original",
+    "Compare native alpha on dark/white and render declared final policy"
+  ],
+  "provenance": {
+    "observed": [
+      "P18 01:50\u201302:38 Best/Full native QuickTime AppleProRes4444, RGB+Alpha, premultiplied",
+      "02:48\u201303:45 assign proxy file, enable/disable and replace after changes",
+      "04:15\u201306:35 repeat for100-layer core; respect used duration",
+      "06:46\u201307:10 avoid collapsed3D proxies; flatMOV cannot transmit inner3D"
+    ],
+    "test_adaptation": [
+      "Native reusable bake wrapper replaces tutorial direct RenderQueue insertion, same full-size pixels",
+      "Dark and white diagnostic backplates test alpha; they are QA compositions, not course artwork",
+      "Third text case and final originals policy are explicit generalization/variant"
+    ],
+    "unverified": [
+      "Interactive playback FPS and arbitrary host compatibility",
+      "P18 final camera/text changes are offscreen and not implemented here"
+    ]
+  }
+}

@@ -1,0 +1,709 @@
+{
+  "status": "candidate_native_course18_proxy_suite",
+  "date": "2026-11-07",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=18",
+  "cases": [
+    {
+      "case": "p18-proxy-lines-003",
+      "directory": "samples/course-reproduction-021/p18-proxy-lines-003",
+      "target": "P17_CYBER_LINES",
+      "video_sha256": "57b5b8ea95452053e2d650cc5b9d553bbf0151a8b9e96758aaffba1139aee6bf",
+      "project_sha256": "420bc775e144dc45eacc7535e560e74e31aca4ef76a10a7293457a663628a9d7",
+      "proxy_sha256": "e16428a1983fc87c3ae2be6eb540b3fc08b92027b74aa801419a4ca989ffb6a9",
+      "proxy_bytes": 195001668,
+      "frames": 150,
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "technical_status": "passed",
+      "native_checks": {
+        "reopened": true,
+        "alpha": true,
+        "codec": true,
+        "proxy_enabled": true,
+        "source_structure": true,
+        "editable": true,
+        "toggle": true,
+        "eligible": true,
+        "render_policy": true,
+        "full_duration": true,
+        "original_render_best": true,
+        "native_depth": true,
+        "proxy_alpha_color_equivalence": true,
+        "native_final_checkpoints": true
+      },
+      "original_edit": {
+        "layer": "CYBER_LINES_2",
+        "original": 100,
+        "edited_reopened": 99,
+        "restored": 100
+      },
+      "proxy_toggle": {
+        "disabled_reopened": false,
+        "enabled_reopened": true
+      },
+      "alpha_color_checks": [
+        {
+          "frame": 0,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.00018518518518518518,
+          "foreground_rgb_error_255": 0.16666666666666666,
+          "foreground_pixels": 2,
+          "passed": true
+        },
+        {
+          "frame": 5,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.0007407407407407407,
+          "foreground_rgb_error_255": 0.023809523809523808,
+          "foreground_pixels": 70,
+          "passed": true
+        },
+        {
+          "frame": 15,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.0025,
+          "foreground_rgb_error_255": 0.019550342130987292,
+          "foreground_pixels": 682,
+          "passed": true
+        },
+        {
+          "frame": 30,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.0062037037037037035,
+          "foreground_rgb_error_255": 0.018787878787878787,
+          "foreground_pixels": 2200,
+          "passed": true
+        },
+        {
+          "frame": 44,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.007199074074074074,
+          "foreground_rgb_error_255": 0.01722949689869056,
+          "foreground_pixels": 2902,
+          "passed": true
+        },
+        {
+          "frame": 90,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.007199074074074074,
+          "foreground_rgb_error_255": 0.01722949689869056,
+          "foreground_pixels": 2902,
+          "passed": true
+        },
+        {
+          "frame": 149,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.007199074074074074,
+          "foreground_rgb_error_255": 0.01722949689869056,
+          "foreground_pixels": 2902,
+          "passed": true
+        },
+        {
+          "frame": 30,
+          "backplate": "white",
+          "mean_rgb_error_255": 0.004930555555555555,
+          "foreground_rgb_error_255": 0.017595307917888565,
+          "foreground_pixels": 3410,
+          "passed": true
+        },
+        {
+          "frame": 90,
+          "backplate": "white",
+          "mean_rgb_error_255": 0.006435185185185185,
+          "foreground_rgb_error_255": 0.017776825872777898,
+          "foreground_pixels": 4669,
+          "passed": true
+        }
+      ],
+      "final_checks": [
+        {
+          "frame": 0,
+          "mean_luma_error_255": 0.9358333333333333,
+          "passed": true
+        },
+        {
+          "frame": 5,
+          "mean_luma_error_255": 0.9271527777777778,
+          "passed": true
+        },
+        {
+          "frame": 15,
+          "mean_luma_error_255": 0.8827083333333333,
+          "passed": true
+        },
+        {
+          "frame": 30,
+          "mean_luma_error_255": 0.7890972222222222,
+          "passed": true
+        },
+        {
+          "frame": 44,
+          "mean_luma_error_255": 0.73875,
+          "passed": true
+        },
+        {
+          "frame": 90,
+          "mean_luma_error_255": 0.7364583333333333,
+          "passed": true
+        },
+        {
+          "frame": 149,
+          "mean_luma_error_255": 0.7352777777777778,
+          "passed": true
+        }
+      ],
+      "timing": {
+        "original_median_ms": 452,
+        "proxy_median_ms": 349,
+        "ratio": 1.2951289398280803,
+        "cache_purge_confirmed": true,
+        "scope": "Selected native PNG exports, includes compression/wait/IO; not interactive playback FPS or a general speed guarantee"
+      },
+      "final_proxy_policy": "Use All Proxies",
+      "meaningful_native_pngs_viewed": 18,
+      "retained_final_checkpoint_copies": 7
+    },
+    {
+      "case": "p18-proxy-core-001",
+      "directory": "samples/course-reproduction-021/p18-proxy-core-001",
+      "target": "COURSE_P16_CORE",
+      "video_sha256": "6ad2e74f3d34ce950c1869ce10d01460a03e9164e3d4c3fb40609f94a6a35749",
+      "project_sha256": "62a88f24c195c6a8733095385962d1e9398756714f8d848da973cc2279100d55",
+      "proxy_sha256": "fcad003ba03bd3ca51a264cff18291f6cfd9fae22f9159f1c323c3201f88d00f",
+      "proxy_bytes": 253515396,
+      "frames": 151,
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "technical_status": "passed",
+      "native_checks": {
+        "reopened": true,
+        "alpha": true,
+        "codec": true,
+        "proxy_enabled": true,
+        "source_structure": true,
+        "editable": true,
+        "toggle": true,
+        "eligible": true,
+        "render_policy": true,
+        "full_duration": true,
+        "original_render_best": true,
+        "native_depth": true,
+        "proxy_alpha_color_equivalence": true,
+        "native_final_checkpoints": true
+      },
+      "original_edit": {
+        "layer": "baseShape_176",
+        "original": 100,
+        "edited_reopened": 99,
+        "restored": 100
+      },
+      "proxy_toggle": {
+        "disabled_reopened": false,
+        "enabled_reopened": true
+      },
+      "alpha_color_checks": [
+        {
+          "frame": 0,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.0,
+          "foreground_rgb_error_255": 0,
+          "foreground_pixels": 0,
+          "passed": true
+        },
+        {
+          "frame": 5,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.0,
+          "foreground_rgb_error_255": 0,
+          "foreground_pixels": 0,
+          "passed": true
+        },
+        {
+          "frame": 15,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.0009722222222222222,
+          "foreground_rgb_error_255": 0.012411347517730497,
+          "foreground_pixels": 940,
+          "passed": true
+        },
+        {
+          "frame": 30,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.012175925925925925,
+          "foreground_rgb_error_255": 0.018837284832737902,
+          "foreground_pixels": 9237,
+          "passed": true
+        },
+        {
+          "frame": 44,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.008402777777777778,
+          "foreground_rgb_error_255": 0.017228898219197916,
+          "foreground_pixels": 6907,
+          "passed": true
+        },
+        {
+          "frame": 90,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.008726851851851852,
+          "foreground_rgb_error_255": 0.017833044148833622,
+          "foreground_pixels": 6916,
+          "passed": true
+        },
+        {
+          "frame": 150,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.009236111111111112,
+          "foreground_rgb_error_255": 0.018875211199613808,
+          "foreground_pixels": 6905,
+          "passed": true
+        },
+        {
+          "frame": 30,
+          "backplate": "white",
+          "mean_rgb_error_255": 0.012037037037037037,
+          "foreground_rgb_error_255": 0.018794673633032184,
+          "foreground_pixels": 9187,
+          "passed": true
+        },
+        {
+          "frame": 90,
+          "backplate": "white",
+          "mean_rgb_error_255": 0.008310185185185184,
+          "foreground_rgb_error_255": 0.017179154034935758,
+          "foreground_pixels": 6927,
+          "passed": true
+        }
+      ],
+      "final_checks": [
+        {
+          "frame": 0,
+          "mean_luma_error_255": 0.9361111111111111,
+          "passed": true
+        },
+        {
+          "frame": 5,
+          "mean_luma_error_255": 0.9360416666666667,
+          "passed": true
+        },
+        {
+          "frame": 15,
+          "mean_luma_error_255": 0.8936111111111111,
+          "passed": true
+        },
+        {
+          "frame": 30,
+          "mean_luma_error_255": 0.6971527777777777,
+          "passed": true
+        },
+        {
+          "frame": 44,
+          "mean_luma_error_255": 0.698125,
+          "passed": true
+        },
+        {
+          "frame": 90,
+          "mean_luma_error_255": 0.7156944444444444,
+          "passed": true
+        },
+        {
+          "frame": 150,
+          "mean_luma_error_255": 0.7582638888888888,
+          "passed": true
+        }
+      ],
+      "timing": {
+        "original_median_ms": 785,
+        "proxy_median_ms": 520,
+        "ratio": 1.5096153846153846,
+        "cache_purge_confirmed": true,
+        "scope": "Selected native PNG exports, includes compression/wait/IO; not interactive playback FPS or a general speed guarantee"
+      },
+      "final_proxy_policy": "Use All Proxies",
+      "meaningful_native_pngs_viewed": 18,
+      "retained_final_checkpoint_copies": 7
+    },
+    {
+      "case": "p18-proxy-type-001",
+      "directory": "samples/course-reproduction-021/p18-proxy-type-001",
+      "target": "COURSE_P14_TYPE_REVEAL",
+      "video_sha256": "2a56eb814588cd8444ae0f46e21bfb6c794ec4265c34f5f8498ee7352be39de2",
+      "project_sha256": "8ed665ea8afef30946e2c6b6e72c731241ee54984522f7eb4a366f0e266afeff",
+      "proxy_sha256": "1bb87a17a475ca1fb39d2a984cc9c99b9fdde5280c92b8960ea153b4bdef3670",
+      "proxy_bytes": 11662004,
+      "frames": 151,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "technical_status": "passed",
+      "native_checks": {
+        "reopened": true,
+        "alpha": true,
+        "codec": true,
+        "proxy_enabled": true,
+        "source_structure": true,
+        "editable": true,
+        "toggle": true,
+        "eligible": true,
+        "render_policy": true,
+        "full_duration": true,
+        "original_render_best": true,
+        "native_depth": true,
+        "proxy_alpha_color_equivalence": true,
+        "native_final_checkpoints": true
+      },
+      "original_edit": {
+        "layer": "TITLE",
+        "original": 100,
+        "edited_reopened": 99,
+        "restored": 100
+      },
+      "proxy_toggle": {
+        "disabled_reopened": false,
+        "enabled_reopened": true
+      },
+      "alpha_color_checks": [
+        {
+          "frame": 0,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.0,
+          "foreground_rgb_error_255": 0,
+          "foreground_pixels": 0,
+          "passed": true
+        },
+        {
+          "frame": 5,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.00020833333333333335,
+          "foreground_rgb_error_255": 0.006521739130434782,
+          "foreground_pixels": 460,
+          "passed": true
+        },
+        {
+          "frame": 15,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.0005324074074074074,
+          "foreground_rgb_error_255": 0.008078679311556024,
+          "foreground_pixels": 949,
+          "passed": true
+        },
+        {
+          "frame": 30,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.0009027777777777777,
+          "foreground_rgb_error_255": 0.008980454305335447,
+          "foreground_pixels": 1262,
+          "passed": true
+        },
+        {
+          "frame": 44,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.0009027777777777777,
+          "foreground_rgb_error_255": 0.008980454305335447,
+          "foreground_pixels": 1262,
+          "passed": true
+        },
+        {
+          "frame": 90,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.0009027777777777777,
+          "foreground_rgb_error_255": 0.008980454305335447,
+          "foreground_pixels": 1262,
+          "passed": true
+        },
+        {
+          "frame": 150,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.0009027777777777777,
+          "foreground_rgb_error_255": 0.008980454305335447,
+          "foreground_pixels": 1262,
+          "passed": true
+        },
+        {
+          "frame": 30,
+          "backplate": "white",
+          "mean_rgb_error_255": 0.0,
+          "foreground_rgb_error_255": 0,
+          "foreground_pixels": 0,
+          "passed": true
+        },
+        {
+          "frame": 90,
+          "backplate": "white",
+          "mean_rgb_error_255": 0.0,
+          "foreground_rgb_error_255": 0,
+          "foreground_pixels": 0,
+          "passed": true
+        }
+      ],
+      "final_checks": [
+        {
+          "frame": 0,
+          "mean_luma_error_255": 0.9305555555555556,
+          "passed": true
+        },
+        {
+          "frame": 5,
+          "mean_luma_error_255": 0.9113194444444445,
+          "passed": true
+        },
+        {
+          "frame": 15,
+          "mean_luma_error_255": 0.8903472222222222,
+          "passed": true
+        },
+        {
+          "frame": 30,
+          "mean_luma_error_255": 0.8718055555555555,
+          "passed": true
+        },
+        {
+          "frame": 44,
+          "mean_luma_error_255": 0.8718055555555555,
+          "passed": true
+        },
+        {
+          "frame": 90,
+          "mean_luma_error_255": 0.871875,
+          "passed": true
+        },
+        {
+          "frame": 150,
+          "mean_luma_error_255": 0.8718055555555555,
+          "passed": true
+        }
+      ],
+      "timing": {
+        "original_median_ms": 241,
+        "proxy_median_ms": 240,
+        "ratio": 1.0041666666666667,
+        "cache_purge_confirmed": true,
+        "scope": "Selected native PNG exports, includes compression/wait/IO; not interactive playback FPS or a general speed guarantee"
+      },
+      "final_proxy_policy": "Use All Proxies",
+      "meaningful_native_pngs_viewed": 18,
+      "retained_final_checkpoint_copies": 7
+    },
+    {
+      "case": "p18-proxy-lines-originals-001",
+      "directory": "samples/course-reproduction-021/p18-proxy-lines-originals-001",
+      "target": "P17_CYBER_LINES",
+      "video_sha256": "092c87af205a5ad6520d9cf268454f183b6235ba1681ad3b1368c13574dbb524",
+      "project_sha256": "74dcdef5a4ef1a0004e61a4b782a04eb83f6e257020053c0db95e87d93bddad5",
+      "proxy_sha256": "4655132d6ab220557e2ffe03909fd07df0f6b30addb00f97fd48d07578264660",
+      "proxy_bytes": 195001668,
+      "frames": 150,
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "technical_status": "passed",
+      "native_checks": {
+        "reopened": true,
+        "alpha": true,
+        "codec": true,
+        "proxy_enabled": true,
+        "source_structure": true,
+        "editable": true,
+        "toggle": true,
+        "eligible": true,
+        "render_policy": true,
+        "full_duration": true,
+        "original_render_best": true,
+        "native_depth": true,
+        "proxy_alpha_color_equivalence": true,
+        "native_final_checkpoints": true
+      },
+      "original_edit": {
+        "layer": "CYBER_LINES_2",
+        "original": 100,
+        "edited_reopened": 99,
+        "restored": 100
+      },
+      "proxy_toggle": {
+        "disabled_reopened": false,
+        "enabled_reopened": true
+      },
+      "alpha_color_checks": [
+        {
+          "frame": 0,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.00018518518518518518,
+          "foreground_rgb_error_255": 0.16666666666666666,
+          "foreground_pixels": 2,
+          "passed": true
+        },
+        {
+          "frame": 5,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.0007407407407407407,
+          "foreground_rgb_error_255": 0.023809523809523808,
+          "foreground_pixels": 70,
+          "passed": true
+        },
+        {
+          "frame": 15,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.0025,
+          "foreground_rgb_error_255": 0.019550342130987292,
+          "foreground_pixels": 682,
+          "passed": true
+        },
+        {
+          "frame": 30,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.0062037037037037035,
+          "foreground_rgb_error_255": 0.018787878787878787,
+          "foreground_pixels": 2200,
+          "passed": true
+        },
+        {
+          "frame": 44,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.007199074074074074,
+          "foreground_rgb_error_255": 0.01722949689869056,
+          "foreground_pixels": 2902,
+          "passed": true
+        },
+        {
+          "frame": 90,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.007199074074074074,
+          "foreground_rgb_error_255": 0.01722949689869056,
+          "foreground_pixels": 2902,
+          "passed": true
+        },
+        {
+          "frame": 149,
+          "backplate": "dark",
+          "mean_rgb_error_255": 0.007199074074074074,
+          "foreground_rgb_error_255": 0.01722949689869056,
+          "foreground_pixels": 2902,
+          "passed": true
+        },
+        {
+          "frame": 30,
+          "backplate": "white",
+          "mean_rgb_error_255": 0.004930555555555555,
+          "foreground_rgb_error_255": 0.017595307917888565,
+          "foreground_pixels": 3410,
+          "passed": true
+        },
+        {
+          "frame": 90,
+          "backplate": "white",
+          "mean_rgb_error_255": 0.006435185185185185,
+          "foreground_rgb_error_255": 0.017776825872777898,
+          "foreground_pixels": 4669,
+          "passed": true
+        }
+      ],
+      "final_checks": [
+        {
+          "frame": 0,
+          "mean_luma_error_255": 0.93625,
+          "passed": true
+        },
+        {
+          "frame": 5,
+          "mean_luma_error_255": 0.9279166666666666,
+          "passed": true
+        },
+        {
+          "frame": 15,
+          "mean_luma_error_255": 0.8878472222222222,
+          "passed": true
+        },
+        {
+          "frame": 30,
+          "mean_luma_error_255": 0.7777083333333333,
+          "passed": true
+        },
+        {
+          "frame": 44,
+          "mean_luma_error_255": 0.74125,
+          "passed": true
+        },
+        {
+          "frame": 90,
+          "mean_luma_error_255": 0.7382638888888889,
+          "passed": true
+        },
+        {
+          "frame": 149,
+          "mean_luma_error_255": 0.7358333333333333,
+          "passed": true
+        }
+      ],
+      "timing": {
+        "original_median_ms": 448,
+        "proxy_median_ms": 347,
+        "ratio": 1.2910662824207493,
+        "cache_purge_confirmed": true,
+        "scope": "Selected native PNG exports, includes compression/wait/IO; not interactive playback FPS or a general speed guarantee"
+      },
+      "final_proxy_policy": "Use No Proxies",
+      "meaningful_native_pngs_viewed": 18,
+      "retained_final_checkpoint_copies": 7
+    }
+  ],
+  "parameter_variant": {
+    "parameter": "Final RenderQueue proxy policy",
+    "same_original_checkpoints": true,
+    "policies": [
+      "Use All Proxies",
+      "Use No Proxies"
+    ]
+  },
+  "distinct_inputs": [
+    "38-path staggered lines",
+    "102-layer animated hollow core",
+    "Character-selector typography"
+  ],
+  "negative": "collapse-negative.json",
+  "native_media_audit": "reports/native-media-dependencies-p18-proxies.json",
+  "course_fidelity": {
+    "proxy_method": "Native Best/Full ProRes4444 RGB+Alpha and manual assignment reproduced with explicit 2D wrapper/QA-backplate adaptations",
+    "final_film": "not reproduced",
+    "human_review": "No new acceptance requested; prior component acceptances not transferred",
+    "limits": [
+      "P18 final camera/text edits performed offscreen by instructor",
+      "Existing20s rough layout differs from final~25s timeline",
+      "Exact inherited component curves/random identities remain candidate",
+      "Interactive FPS and arbitrary projects/hosts not verified"
+    ]
+  },
+  "visual_inspection": {
+    "native_original_and_proxy_pngs_viewed": 72,
+    "findings": [
+      "Same growth/hold states for lines before and after proxy",
+      "Hollow core unfolding and semi-transparent cyan edges preserved on dark and white",
+      "Text reveal preserved; white-on-white frame naturally has no contrast",
+      "Backgrounds are QA backplates, not new course art; no new aesthetic approval claimed"
+    ]
+  },
+  "performance": {
+    "scope": "Selected native PNG export medians, includes IO/compression/waits and cache clearing; existing local ASR also running during this suite",
+    "speedup_ratios": [
+      1.2951289398280803,
+      1.5096153846153846,
+      1.0041666666666667,
+      1.2910662824207493
+    ],
+    "conclusion": "Heavy core/lines reduced these measured export times; cheap text almost unchanged. No interactive-playback or universal acceleration claim."
+  },
+  "failures_and_superseded": [
+    "lines001 prepared only; superseded to use identical PNG completion waits for timing",
+    "lines002 native MOV valid but original-edit test rejected ShapeLayer due to host instanceof behavior; corrected in003",
+    "Native Depth setSetting is read-only; solved with GUI-edited own AEP template, real codec checked",
+    "Collapsed noise refused before project reduction, not silently flattened"
+  ],
+  "large_media": "Necessary proxy.mov files retained and published through existing Git LFS; no quality reduction",
+  "skill_version": "0.1.11",
+  "verified": false
+}

@@ -11,3 +11,5 @@ __pycache__/
 samples/**
 evaluations/**
 %SystemDrive%/
+**/Adobe After Effects 自动保存/
+**/*.aep 日志/

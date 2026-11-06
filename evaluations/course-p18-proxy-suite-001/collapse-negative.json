@@ -1,0 +1,12 @@
+{
+  "status": "failed",
+  "stage": "collapsed3D eligibility",
+  "reason": "Proxy would flatten collapsed3D source",
+  "blocked_uses": [
+    {
+      "comp": "COURSE_P17_LINE_STYLE",
+      "layer": "ROLE_NOISE",
+      "collapse": true
+    }
+  ]
+}

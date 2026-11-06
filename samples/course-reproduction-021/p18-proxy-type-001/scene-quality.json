@@ -1,0 +1,139 @@
+{
+  "status": "passed",
+  "checks": {
+    "reopened": true,
+    "alpha": true,
+    "codec": true,
+    "proxy_enabled": true,
+    "source_structure": true,
+    "editable": true,
+    "toggle": true,
+    "eligible": true,
+    "render_policy": true,
+    "full_duration": true,
+    "original_render_best": true,
+    "native_depth": true,
+    "proxy_alpha_color_equivalence": true,
+    "native_final_checkpoints": true
+  },
+  "alpha_color_checkpoints": [
+    {
+      "frame": 0,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.0,
+      "foreground_rgb_error_255": 0,
+      "foreground_pixels": 0,
+      "passed": true
+    },
+    {
+      "frame": 5,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.00020833333333333335,
+      "foreground_rgb_error_255": 0.006521739130434782,
+      "foreground_pixels": 460,
+      "passed": true
+    },
+    {
+      "frame": 15,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.0005324074074074074,
+      "foreground_rgb_error_255": 0.008078679311556024,
+      "foreground_pixels": 949,
+      "passed": true
+    },
+    {
+      "frame": 30,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.0009027777777777777,
+      "foreground_rgb_error_255": 0.008980454305335447,
+      "foreground_pixels": 1262,
+      "passed": true
+    },
+    {
+      "frame": 44,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.0009027777777777777,
+      "foreground_rgb_error_255": 0.008980454305335447,
+      "foreground_pixels": 1262,
+      "passed": true
+    },
+    {
+      "frame": 90,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.0009027777777777777,
+      "foreground_rgb_error_255": 0.008980454305335447,
+      "foreground_pixels": 1262,
+      "passed": true
+    },
+    {
+      "frame": 150,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.0009027777777777777,
+      "foreground_rgb_error_255": 0.008980454305335447,
+      "foreground_pixels": 1262,
+      "passed": true
+    },
+    {
+      "frame": 30,
+      "backplate": "white",
+      "mean_rgb_error_255": 0.0,
+      "foreground_rgb_error_255": 0,
+      "foreground_pixels": 0,
+      "passed": true
+    },
+    {
+      "frame": 90,
+      "backplate": "white",
+      "mean_rgb_error_255": 0.0,
+      "foreground_rgb_error_255": 0,
+      "foreground_pixels": 0,
+      "passed": true
+    }
+  ],
+  "final_checkpoints": [
+    {
+      "frame": 0,
+      "mean_luma_error_255": 0.9305555555555556,
+      "passed": true
+    },
+    {
+      "frame": 5,
+      "mean_luma_error_255": 0.9113194444444445,
+      "passed": true
+    },
+    {
+      "frame": 15,
+      "mean_luma_error_255": 0.8903472222222222,
+      "passed": true
+    },
+    {
+      "frame": 30,
+      "mean_luma_error_255": 0.8718055555555555,
+      "passed": true
+    },
+    {
+      "frame": 44,
+      "mean_luma_error_255": 0.8718055555555555,
+      "passed": true
+    },
+    {
+      "frame": 90,
+      "mean_luma_error_255": 0.871875,
+      "passed": true
+    },
+    {
+      "frame": 150,
+      "mean_luma_error_255": 0.8718055555555555,
+      "passed": true
+    }
+  ],
+  "timing": {
+    "original_median_ms": 241,
+    "proxy_median_ms": 240,
+    "ratio": 1.0041666666666667,
+    "cache_purge_confirmed": true,
+    "scope": "Selected native PNG exports, includes compression/wait/IO; not interactive playback FPS or a general speed guarantee"
+  },
+  "course_fidelity": "unverified final-film; proxy workflow candidate",
+  "scope": "Native full-size alpha proxy workflow only; original complex component remains editable; QA dark/white backplates are explicit test adaptations"
+}

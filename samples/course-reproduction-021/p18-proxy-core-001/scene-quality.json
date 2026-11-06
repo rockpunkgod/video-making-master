@@ -1,0 +1,139 @@
+{
+  "status": "passed",
+  "checks": {
+    "reopened": true,
+    "alpha": true,
+    "codec": true,
+    "proxy_enabled": true,
+    "source_structure": true,
+    "editable": true,
+    "toggle": true,
+    "eligible": true,
+    "render_policy": true,
+    "full_duration": true,
+    "original_render_best": true,
+    "native_depth": true,
+    "proxy_alpha_color_equivalence": true,
+    "native_final_checkpoints": true
+  },
+  "alpha_color_checkpoints": [
+    {
+      "frame": 0,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.0,
+      "foreground_rgb_error_255": 0,
+      "foreground_pixels": 0,
+      "passed": true
+    },
+    {
+      "frame": 5,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.0,
+      "foreground_rgb_error_255": 0,
+      "foreground_pixels": 0,
+      "passed": true
+    },
+    {
+      "frame": 15,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.0009722222222222222,
+      "foreground_rgb_error_255": 0.012411347517730497,
+      "foreground_pixels": 940,
+      "passed": true
+    },
+    {
+      "frame": 30,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.012175925925925925,
+      "foreground_rgb_error_255": 0.018837284832737902,
+      "foreground_pixels": 9237,
+      "passed": true
+    },
+    {
+      "frame": 44,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.008402777777777778,
+      "foreground_rgb_error_255": 0.017228898219197916,
+      "foreground_pixels": 6907,
+      "passed": true
+    },
+    {
+      "frame": 90,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.008726851851851852,
+      "foreground_rgb_error_255": 0.017833044148833622,
+      "foreground_pixels": 6916,
+      "passed": true
+    },
+    {
+      "frame": 150,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.009236111111111112,
+      "foreground_rgb_error_255": 0.018875211199613808,
+      "foreground_pixels": 6905,
+      "passed": true
+    },
+    {
+      "frame": 30,
+      "backplate": "white",
+      "mean_rgb_error_255": 0.012037037037037037,
+      "foreground_rgb_error_255": 0.018794673633032184,
+      "foreground_pixels": 9187,
+      "passed": true
+    },
+    {
+      "frame": 90,
+      "backplate": "white",
+      "mean_rgb_error_255": 0.008310185185185184,
+      "foreground_rgb_error_255": 0.017179154034935758,
+      "foreground_pixels": 6927,
+      "passed": true
+    }
+  ],
+  "final_checkpoints": [
+    {
+      "frame": 0,
+      "mean_luma_error_255": 0.9361111111111111,
+      "passed": true
+    },
+    {
+      "frame": 5,
+      "mean_luma_error_255": 0.9360416666666667,
+      "passed": true
+    },
+    {
+      "frame": 15,
+      "mean_luma_error_255": 0.8936111111111111,
+      "passed": true
+    },
+    {
+      "frame": 30,
+      "mean_luma_error_255": 0.6971527777777777,
+      "passed": true
+    },
+    {
+      "frame": 44,
+      "mean_luma_error_255": 0.698125,
+      "passed": true
+    },
+    {
+      "frame": 90,
+      "mean_luma_error_255": 0.7156944444444444,
+      "passed": true
+    },
+    {
+      "frame": 150,
+      "mean_luma_error_255": 0.7582638888888888,
+      "passed": true
+    }
+  ],
+  "timing": {
+    "original_median_ms": 785,
+    "proxy_median_ms": 520,
+    "ratio": 1.5096153846153846,
+    "cache_purge_confirmed": true,
+    "scope": "Selected native PNG exports, includes compression/wait/IO; not interactive playback FPS or a general speed guarantee"
+  },
+  "course_fidelity": "unverified final-film; proxy workflow candidate",
+  "scope": "Native full-size alpha proxy workflow only; original complex component remains editable; QA dark/white backplates are explicit test adaptations"
+}

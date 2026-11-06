@@ -1,0 +1,44 @@
+{
+  "attach_failure": {
+    "status": "failed",
+    "stage": "original remains editable",
+    "error": "Error: No supported static-opacity original layer for edit test",
+    "line": 31
+  },
+  "host_inspection": [
+    {
+      "name": "P17_LINES_GLOW",
+      "match": "ADBE AV Layer",
+      "av": true,
+      "null_layer": false,
+      "adj": true,
+      "keys": 0,
+      "expression": "",
+      "enabled": false,
+      "value": 100
+    },
+    {
+      "name": "CYBER_LINES_2",
+      "match": "ADBE Vector Layer",
+      "av": false,
+      "null_layer": false,
+      "adj": false,
+      "keys": 0,
+      "expression": "",
+      "enabled": false,
+      "value": 100
+    },
+    {
+      "name": "CYBER_LINES",
+      "match": "ADBE Vector Layer",
+      "av": false,
+      "null_layer": false,
+      "adj": false,
+      "keys": 0,
+      "expression": "",
+      "enabled": false,
+      "value": 100
+    }
+  ],
+  "fix": "Explicitly include ShapeLayer/TextLayer in original edit test; on this host neither inherits instanceof AVLayer"
+}

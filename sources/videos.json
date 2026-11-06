@@ -13,7 +13,7 @@
         "ae-advanced-expressions"
       ],
       "passes": {
-        "global": "p1,p5–p17 reviewed; p5–p17 full existing-local-model transcripts read. p2–p4,p18–p20 remain unlearned",
+        "global": "p1,p5–p20 reviewed; p5–p20 full existing-local-model transcripts read. p19/p20 are conceptual/process lessons, not new executable effect demonstrations. p2–p4 remain unlearned.",
         "detail": "p5/p6 original-method verified within scope; p7 Tint accepted with material gap; p8/p9 native suites; p10 replay006 direction accepted after original-left clarification, two real seed variants, exact absolute seeds not recovered; p11 eight real static spatial cases; p12 three real static Path/Mirror cases and native coordinate probes; p14 full ASR plus9global and22cue frame views, four real native character-animation cases, baseline002 user accepted; p13 22 global/18 cue frames and full local transcript read; composition settings, selective collapse, Linear Color Key, dot time-remap formula observed; final camera timing and noise transforms need detail checks; no native p13 production; p13 four real native spatial composites,40 targeted cue views in total including1080p final500/20/2000 and35mm dialog; camera frame indices/final count still inferred; P15 24global+13targeted frame views, native radial002 and slow002 made; radial baseline overall user accepted, polar/streak/main assembly not made; P15 19 additional targeted frames reviewed, polar002 and9-layer variation real native210-frame each;3-layer isolated Skill build/render passed; native interpolation100%=1 and Rect-to-Polar enum1 GUI-confirmed. Streak final24.6/2270/503/seed713/Z0..2000 read but production not done; P15 24 further cue views distinguish background Scale159 from intermediate432/253 and streak mainZ-17230 from earlier-16540; streak14-layer baseline and10-layer isolated-copy variation made, native210-frame each. Position base0 and old Scale handling remain inferred; Latest P15 main11-layer assembly003 and Blend150 isolated variant actual native480frames each, title behind camera remains unresolved. P16 24global/25targeted frames and full existing-local-model ASR read;00:26–06:30 core100-layer and80-layer/speed65 isolated variation actually made. Rest of P16 detail not yet extracted. P16 noise and assembly styling now made; see p16 notes and exact evidence. P17 full1254s transcript read;24global+20tunnel+14streak technical frames actually viewed; tunnel candidate native build/render under verification. Later streak/line production not completed. P17 streaks:31 additional detail frames and12 dense08:34–08:41 frames inspected; single-layer staging corrected to final7 noise layers. Native RGB Curves rebuilt from11:50; seven-layer candidate produced.16 cyber-line detail frames12:30–20:30 inspected; exact final parameters still under extraction.",
         "abstraction": "p5/p6 verified; p7,p11,p12 candidate extensions; p8/p9/p10/p14 advanced-expressions0.4.0 candidate; p14 three new Latin text inputs passed; p13 advanced-compositing0.1.0 candidate, rough layout only; advanced-compositing0.1.1 radial template branch candidate, self-contained isolated native build and72-frame render passed Advanced-compositing0.1.5 adds course16 dynamic core candidate; not complete film.",
         "technical": "p10 profile source-timing maps to79 actual native/rendered update frames; initial300 digits intentionally displays9 rows as in reference. p12 exact code,12 paths,Mirror540/540,geometry/edit/reopen/static150-frame and luma-symmetry checks pass. No final-project animation completion claim. P14 native151-frame curves, editable text/reopen and full151-frame decode pass; sampled per-character pixel motion errors below0.046px; frozen-video negative control rejected. Source curve fit approximate. P13 main480frame/native key edit and12 independent time offsets passed; actual negative remap readback0 and keyTime1/1024-frame quantization measured. Baseline blank tail9.667s remains unfinished. P15 polar each-layer210-frame offset/evolution/depth checks and offset-expression edit/reopen/restore pass; actual frozen-video negative rejected; exact noise identity and3-material generalization unresolved. P15 streak zero spatial drift/evolution/Scale errors and actual seed edit/reopen/restore pass; main composite not yet made. P16 per-layer151-frame formula checks, alpha matte, native3-effect chain, actual controller edit/reopen/restore and151-frame decode pass; frozen video negative rejected; baseline overall user accepted, exact easing/material generalization unresolved."
@@ -152,6 +152,26 @@
           "status": "candidate_native_line_style",
           "evidence": "evaluations/course-p17-line-style-001/summary.json",
           "scope": "Two20s cases, native editable projects and11PNG each; not full-film, exact course fidelity or three-material acceptance"
+        },
+        {
+          "date": "2026-11-07",
+          "part": 18,
+          "status": "native_proxy_suite_passed_candidate",
+          "evidence": "evaluations/course-p18-proxy-suite-001/summary.json",
+          "scope": "Three distinct native inputs and final-policy variant; offscreen final camera/text changes unresolved"
+        },
+        {
+          "date": "2026-11-07",
+          "parts": [
+            19,
+            20
+          ],
+          "status": "global_frames_and_full_transcripts_reviewed_conceptual",
+          "notes": [
+            "sources/learning-notes/BV1Yh4y1A7XT-p19.md",
+            "sources/learning-notes/BV1Yh4y1A7XT-p20.md"
+          ],
+          "scope": "Process and collaboration principles fused; no new effect or unreviewed external code executed"
         }
       ]
     },

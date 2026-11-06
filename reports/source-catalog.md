@@ -4,7 +4,7 @@
 
 |序号|来源|章节数|候选技术|学习状态|
 |---|---|---:|---|---|
-|1|[AE教程-使用表达式制作高级复杂图形动画 Advanced After Effects Coding for Motion Design](https://www.bilibili.com/video/BV1Yh4y1A7XT/)|20|ae-procedural-motion, ae-advanced-expressions|局部取证，尚未完整学习|
+|1|[AE教程-使用表达式制作高级复杂图形动画 Advanced After Effects Coding for Motion Design](https://www.bilibili.com/video/BV1Yh4y1A7XT/)|20|ae-procedural-motion, ae-advanced-expressions|第5–18有原生分支，19/20方法课已读；2–4及最终整片仍缺|
 |2|[【自用】Ae表达式教程（高级课程不适合新手）](https://www.bilibili.com/video/BV1c7GTzMEh5/)|36|ae-advanced-expressions|仅页面与目录|
 |3|[Projection 3D V5 for After Effects Tutorial - YouTube](https://www.youtube.com/watch?v=PbVB52WCUDE)|1|ae-3d-projection, ae-cinematic-camera|局部取证，尚未完整学习|
 |4|[【AE跟踪】Mocha中文教程全解析](https://www.bilibili.com/video/BV1VE411r7Z5/)|35|ae-mocha-tracking|仅页面与目录|

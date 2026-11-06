@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course-reproduction-021\\p18-proxy-type-001\\final.mp4",
+  "sha256": "2a56eb814588cd8444ae0f46e21bfb6c794ec4265c34f5f8498ee7352be39de2",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "difference_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30.0,
+    "duration": 5.033333,
+    "decoded_frames": 151,
+    "unique_thumbnail_frames": 70
+  },
+  "temporal_contract": {
+    "expectation": "required",
+    "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+    "decoded_difference_frames": 150,
+    "maximum_mean_luma_difference": 1.33789,
+    "codec_noise_threshold": 0.1
+  },
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": "",
+  "scene_quality": "scene-quality.json"
+}

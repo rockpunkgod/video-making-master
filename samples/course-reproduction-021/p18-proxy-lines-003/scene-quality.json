@@ -1,0 +1,139 @@
+{
+  "status": "passed",
+  "checks": {
+    "reopened": true,
+    "alpha": true,
+    "codec": true,
+    "proxy_enabled": true,
+    "source_structure": true,
+    "editable": true,
+    "toggle": true,
+    "eligible": true,
+    "render_policy": true,
+    "full_duration": true,
+    "original_render_best": true,
+    "native_depth": true,
+    "proxy_alpha_color_equivalence": true,
+    "native_final_checkpoints": true
+  },
+  "alpha_color_checkpoints": [
+    {
+      "frame": 0,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.00018518518518518518,
+      "foreground_rgb_error_255": 0.16666666666666666,
+      "foreground_pixels": 2,
+      "passed": true
+    },
+    {
+      "frame": 5,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.0007407407407407407,
+      "foreground_rgb_error_255": 0.023809523809523808,
+      "foreground_pixels": 70,
+      "passed": true
+    },
+    {
+      "frame": 15,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.0025,
+      "foreground_rgb_error_255": 0.019550342130987292,
+      "foreground_pixels": 682,
+      "passed": true
+    },
+    {
+      "frame": 30,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.0062037037037037035,
+      "foreground_rgb_error_255": 0.018787878787878787,
+      "foreground_pixels": 2200,
+      "passed": true
+    },
+    {
+      "frame": 44,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.007199074074074074,
+      "foreground_rgb_error_255": 0.01722949689869056,
+      "foreground_pixels": 2902,
+      "passed": true
+    },
+    {
+      "frame": 90,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.007199074074074074,
+      "foreground_rgb_error_255": 0.01722949689869056,
+      "foreground_pixels": 2902,
+      "passed": true
+    },
+    {
+      "frame": 149,
+      "backplate": "dark",
+      "mean_rgb_error_255": 0.007199074074074074,
+      "foreground_rgb_error_255": 0.01722949689869056,
+      "foreground_pixels": 2902,
+      "passed": true
+    },
+    {
+      "frame": 30,
+      "backplate": "white",
+      "mean_rgb_error_255": 0.004930555555555555,
+      "foreground_rgb_error_255": 0.017595307917888565,
+      "foreground_pixels": 3410,
+      "passed": true
+    },
+    {
+      "frame": 90,
+      "backplate": "white",
+      "mean_rgb_error_255": 0.006435185185185185,
+      "foreground_rgb_error_255": 0.017776825872777898,
+      "foreground_pixels": 4669,
+      "passed": true
+    }
+  ],
+  "final_checkpoints": [
+    {
+      "frame": 0,
+      "mean_luma_error_255": 0.9358333333333333,
+      "passed": true
+    },
+    {
+      "frame": 5,
+      "mean_luma_error_255": 0.9271527777777778,
+      "passed": true
+    },
+    {
+      "frame": 15,
+      "mean_luma_error_255": 0.8827083333333333,
+      "passed": true
+    },
+    {
+      "frame": 30,
+      "mean_luma_error_255": 0.7890972222222222,
+      "passed": true
+    },
+    {
+      "frame": 44,
+      "mean_luma_error_255": 0.73875,
+      "passed": true
+    },
+    {
+      "frame": 90,
+      "mean_luma_error_255": 0.7364583333333333,
+      "passed": true
+    },
+    {
+      "frame": 149,
+      "mean_luma_error_255": 0.7352777777777778,
+      "passed": true
+    }
+  ],
+  "timing": {
+    "original_median_ms": 452,
+    "proxy_median_ms": 349,
+    "ratio": 1.2951289398280803,
+    "cache_purge_confirmed": true,
+    "scope": "Selected native PNG exports, includes compression/wait/IO; not interactive playback FPS or a general speed guarantee"
+  },
+  "course_fidelity": "unverified final-film; proxy workflow candidate",
+  "scope": "Native full-size alpha proxy workflow only; original complex component remains editable; QA dark/white backplates are explicit test adaptations"
+}
