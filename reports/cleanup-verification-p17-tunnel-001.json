@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "retained_delivery_files": 1066,
+  "changed": [],
+  "cleanup": "reports/cleanup-result-p17-tunnel-001.json",
+  "active_learning_inputs": [
+    "cache/course-hires/BV1Yh4y1A7XT-p17-1080.mp4",
+    "cache/watch/watch-ed4ubkh8/download/run-zqk0bbs2/video.mp4",
+    "cache/local-transcripts/BV1Yh4y1A7XT-p17-full-001/transcript.json",
+    "cache/watch/watch-lhh44ipy/frames"
+  ],
+  "scope": "Only completed tunnel scope cleaned; unfinished course17 streak/line learning media retained outside cleaned scopes"
+}
