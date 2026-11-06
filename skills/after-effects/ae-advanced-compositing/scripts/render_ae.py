@@ -8,7 +8,7 @@ from validate_video import validate
 
 def check_output(root,cfg):
     report=validate(root/'final.mp4',cfg)
-    if cfg.get('name') in {'P15_RADIAL', 'COURSE_P15_POLAR'}:
+    if cfg.get('name') in {'P15_RADIAL', 'COURSE_P15_POLAR', 'COURSE_P15_STREAKS'}:
         from validate_radial import validate as validate_branch
     else:
         from validate_scene import validate as validate_branch

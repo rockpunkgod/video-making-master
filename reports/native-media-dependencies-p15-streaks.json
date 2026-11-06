@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "projects": [
+    {
+      "project": "E:/自媒体/video-skills-lab/samples/course-reproduction-013/p15-streaks-001/project.aep",
+      "sha256": "63c4b324e714371305c832a7813fe6721849aee3641c26e5dd6dd519cd043bc0",
+      "media": [],
+      "origin": "Actual native saved/reopened build audit; target AEP unchanged after audit"
+    },
+    {
+      "project": "E:/自媒体/video-skills-lab/samples/course-reproduction-013/p15-streaks-variation-001/project.aep",
+      "sha256": "f030b1173210be4e3d267c4f74f363c579da2f27feb5cf140fd3902e04158d20",
+      "media": [],
+      "origin": "Actual native saved/reopened build audit; target AEP unchanged after audit"
+    }
+  ]
+}

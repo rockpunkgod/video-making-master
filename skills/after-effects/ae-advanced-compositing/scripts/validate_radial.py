@@ -29,7 +29,7 @@ def validate(directory):
         rendered = thumbnail(root / 'final.mp4', frame)
         error = sum(abs(a-b) for a, b in zip(native, rendered)) / len(native)
         rows.append(dict(frame=frame, mean_luma_error_255=error, passed=error <= 8))
-    coverage_key = 'native_frames_checked' if cfg.get('name') == 'COURSE_P15_POLAR' else 'evolution_frames_checked'
+    coverage_key = 'native_frames_checked' if cfg.get('name') in {'COURSE_P15_POLAR', 'COURSE_P15_STREAKS'} else 'evolution_frames_checked'
     checks = dict(checkpoints=all(r['passed'] for r in rows),
                   native_evolution_coverage=receipt.get(coverage_key) == frames,
                   native_expression_errors=receipt.get('expression_errors') == [],
@@ -39,6 +39,11 @@ def validate(directory):
                       native_offset=receipt.get('max_offset_error', 999) < 1e-5,
                       native_evolution=receipt.get('max_evolution_error', 999) < 1e-5,
                       native_z_spacing=receipt.get('max_z_error', 999) < 1e-5)
+    if cfg.get('name') == 'COURSE_P15_STREAKS':
+        checks.update(native_layer_count=len(receipt.get('layers', [])) == cfg['count'],
+                      native_zero_drift=receipt.get('max_position_drift', 999) < 1e-5,
+                      native_evolution=receipt.get('max_evolution_error', 999) < 1e-5,
+                      native_scale=receipt.get('max_scale_error', 999) < 1e-5)
     report = dict(status='passed' if all(checks.values()) else 'failed', checks=checks, checkpoints=rows,
                   tolerance='Mean absolute luma error <=8/255 on160x90 checkpoints; allows codec differences',
                   scope='Native/render consistency at sampled frames plus native evolution coverage; no course aesthetics or material-generalization claim')

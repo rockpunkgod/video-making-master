@@ -1,0 +1,177 @@
+{
+  "status": "candidate_native_streaks_with_inferred_reconstruction",
+  "date": "2026-11-06",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=15",
+  "cases": [
+    {
+      "case": "p15-streaks-001",
+      "directory": "samples/course-reproduction-013/p15-streaks-001",
+      "project_sha256": "63c4b324e714371305c832a7813fe6721849aee3641c26e5dd6dd519cd043bc0",
+      "video_sha256": "1cf3f90cb437827a5c82db1e051473bf717bdb584cc8891a3ad6c65163f890e2",
+      "frames": 210,
+      "native_layers": 14,
+      "max_position_drift": 0,
+      "max_evolution_error": 0,
+      "max_scale_error": 0,
+      "native_seed_edit": {
+        "before": [
+          1922.44781315291,
+          540,
+          752.501706767944
+        ],
+        "changed": [
+          1403.79650571193,
+          540,
+          680.074879126641
+        ],
+        "restored": [
+          1922.44781315291,
+          540,
+          752.501706767944
+        ]
+      },
+      "full_decode": true,
+      "native_render_check": {
+        "status": "passed",
+        "checks": {
+          "checkpoints": true,
+          "native_evolution_coverage": true,
+          "native_expression_errors": true,
+          "native_project_reopened": true,
+          "native_layer_count": true,
+          "native_zero_drift": true,
+          "native_evolution": true,
+          "native_scale": true
+        },
+        "checkpoints": [
+          {
+            "frame": 0,
+            "mean_luma_error_255": 0.39340277777777777,
+            "passed": true
+          },
+          {
+            "frame": 30,
+            "mean_luma_error_255": 0.36444444444444446,
+            "passed": true
+          },
+          {
+            "frame": 105,
+            "mean_luma_error_255": 0.3502777777777778,
+            "passed": true
+          },
+          {
+            "frame": 209,
+            "mean_luma_error_255": 0.3315972222222222,
+            "passed": true
+          }
+        ],
+        "tolerance": "Mean absolute luma error <=8/255 on160x90 checkpoints; allows codec differences",
+        "scope": "Native/render consistency at sampled frames plus native evolution coverage; no course aesthetics or material-generalization claim"
+      },
+      "visual_review": "Four actual native contact frames per case inspected; density/pattern differ with random identities; no course-match approval claimed",
+      "human_review": "not_requested"
+    },
+    {
+      "case": "p15-streaks-variation-001",
+      "directory": "samples/course-reproduction-013/p15-streaks-variation-001",
+      "project_sha256": "f030b1173210be4e3d267c4f74f363c579da2f27feb5cf140fd3902e04158d20",
+      "video_sha256": "52fee9bea57391c08be30bae13298bf616b25ceb495c7e17c2510273da7b95dc",
+      "frames": 210,
+      "native_layers": 10,
+      "max_position_drift": 0,
+      "max_evolution_error": 0,
+      "max_scale_error": 0,
+      "native_seed_edit": {
+        "before": [
+          -823.267526742832,
+          540,
+          1201.09965964246
+        ],
+        "changed": [
+          387.032930169961,
+          540,
+          413.542425449365
+        ],
+        "restored": [
+          -823.267526742832,
+          540,
+          1201.09965964246
+        ]
+      },
+      "full_decode": true,
+      "native_render_check": {
+        "status": "passed",
+        "checks": {
+          "checkpoints": true,
+          "native_evolution_coverage": true,
+          "native_expression_errors": true,
+          "native_project_reopened": true,
+          "native_layer_count": true,
+          "native_zero_drift": true,
+          "native_evolution": true,
+          "native_scale": true
+        },
+        "checkpoints": [
+          {
+            "frame": 0,
+            "mean_luma_error_255": 0.4072222222222222,
+            "passed": true
+          },
+          {
+            "frame": 30,
+            "mean_luma_error_255": 0.36104166666666665,
+            "passed": true
+          },
+          {
+            "frame": 105,
+            "mean_luma_error_255": 0.3502777777777778,
+            "passed": true
+          },
+          {
+            "frame": 209,
+            "mean_luma_error_255": 0.21013888888888888,
+            "passed": true
+          }
+        ],
+        "tolerance": "Mean absolute luma error <=8/255 on160x90 checkpoints; allows codec differences",
+        "scope": "Native/render consistency at sampled frames plus native evolution coverage; no course aesthetics or material-generalization claim"
+      },
+      "visual_review": "Four actual native contact frames per case inspected; density/pattern differ with random identities; no course-match approval claimed",
+      "human_review": "not_requested"
+    }
+  ],
+  "isolated_execution": {
+    "case": "p15-streaks-variation-001",
+    "status": "passed",
+    "scope": "Build script, JSX, runner, renderer, validation, own input AEP/profile copied to standalone directory; no external lab code dependency"
+  },
+  "observed": {
+    "noise_width": 24.6,
+    "noise_height": 2270,
+    "scale": 503,
+    "spatial_seed": 713,
+    "drift": 0,
+    "x_bounds": [
+      -1084,
+      3130
+    ],
+    "y": 540,
+    "z_bounds": [
+      0,
+      2000
+    ]
+  },
+  "inferred": [
+    "Position base0 and final+value use after property paste not directly displayed",
+    "Old Scale expression replaced with constant to reproduce visible503; source operation unknown",
+    "14 noise layers inferred from16-layer timeline",
+    "Exact random layer identities differ"
+  ],
+  "human_review": "No new question requested; standalone final-depth source clip does not show a clean continuous animation. Main-assembly comparison remains required",
+  "gaps": [
+    "Exact course code/Scale handling not established",
+    "Three distinct materials not tested",
+    "P15 gradient background and main assembly unfinished"
+  ],
+  "overall_project_complete": false
+}

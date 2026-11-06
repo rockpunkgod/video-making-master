@@ -1,0 +1,23 @@
+{
+  "name": "COURSE_P15_STREAKS",
+  "width": 1080,
+  "height": 1080,
+  "fps": 30,
+  "duration": 7,
+  "input_project": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-reproduction-013/p15-streaks-001/inputs/noise.aep",
+  "input_comp": "COURSE_P07_DIGITAL_BLOCKS",
+  "input_sha256": "19f2374c9e1127e5a51d30f6dca65865a2fbe799f9a025eb0cb56b9ef49326bb",
+  "seed": 713,
+  "count": 14,
+  "scale": 503,
+  "depth": 2000,
+  "status": "candidate",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=15",
+  "source_interval": "09:47,11:41,19:25",
+  "inferred": [
+    "Position base0",
+    "old Scale expression replaced to match visible503",
+    "noise count14 and exact layer identities"
+  ],
+  "variant": false
+}

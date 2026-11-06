@@ -1,6 +1,8 @@
 {
   "scope": "Standalone video-skills-lab progress snapshot; overall curriculum incomplete",
   "cases": [
+    "samples/course-reproduction-013/p15-streaks-001",
+    "samples/course-reproduction-013/p15-streaks-variation-001",
     "samples/course-reproduction-012/p15-polar-002",
     "samples/course-reproduction-012/p15-polar-variation-001",
     "samples/course-reproduction-011/p15-radial-002",
@@ -535,6 +537,11 @@
       "path": "evaluations/course-p15-radial-001/superseded-color001-receipt.json",
       "bytes": 3811,
       "sha256": "80587bf0246ac282422550ebdbfe4aad756eac53a32cf7a37df8288640376c5f"
+    },
+    {
+      "path": "evaluations/course-p15-streaks-001/summary.json",
+      "bytes": 6001,
+      "sha256": "97eda09081e2b704d8ada3f550040a3dfbec73e9ee3599bfdd4f19c63a655511"
     },
     {
       "path": "evaluations/first-skill.json",
@@ -3397,6 +3404,126 @@
       "sha256": "531b34f6a51a793695ab0bf7edb13e8844c7f9e398fdefa57402758012d39ff8"
     },
     {
+      "path": "samples/course-reproduction-013/p15-streaks-001/final.mp4",
+      "bytes": 9147385,
+      "sha256": "1cf3f90cb437827a5c82db1e051473bf717bdb584cc8891a3ad6c65163f890e2"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-001/inputs/noise.aep",
+      "bytes": 527085,
+      "sha256": "19f2374c9e1127e5a51d30f6dca65865a2fbe799f9a025eb0cb56b9ef49326bb"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-001/native-still-0.png",
+      "bytes": 13743,
+      "sha256": "14327ee062d0c95b8cb5bd859753473f8dcffe14fa98cf5d2d8e50c968e874d0"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-001/native-still-105.png",
+      "bytes": 13789,
+      "sha256": "d6b9655b4bae1de69bc684a2ce7fdff863e66f50b0eb0ebc8c91fc106e2885af"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-001/native-still-209.png",
+      "bytes": 12895,
+      "sha256": "76ec6913bcbb0b14890e7983c80fc40841987ce57b19950fe54c864eed0d0fa3"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-001/native-still-30.png",
+      "bytes": 13636,
+      "sha256": "6105c1eda3576069b946c6237c38ea233850c08deffa47c32edeb6aaea10383f"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-001/plan.json",
+      "bytes": 789,
+      "sha256": "8a7730ea5e1ada423e3fbe19e6b4f14dcb048fb549bafd6607e8fe2a2873937e"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-001/project.aep",
+      "bytes": 439441,
+      "sha256": "63c4b324e714371305c832a7813fe6721849aee3641c26e5dd6dd519cd043bc0"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-001/quality.json",
+      "bytes": 1120,
+      "sha256": "9d04e801aeb1c4253fee3173b61df6a05822346813c325cee78c72fa694d04ff"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-001/receipt.json",
+      "bytes": 8441,
+      "sha256": "f8d8dbd9f9403104bf68a07733bc2ba9bc7f23a0f49a5871475f881b3ebb3322"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-001/request.json",
+      "bytes": 740,
+      "sha256": "40ed753db9aba528aa8eb5f9e262102bddff1b22d0de3dce698a5f4c0ea3e8ef"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-001/scene-quality.json",
+      "bytes": 1012,
+      "sha256": "7bd20712f31631a7ec1b0bdfe0cdc62bf32701015cbf92cffb4213969a73f13f"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-variation-001/final.mp4",
+      "bytes": 7293868,
+      "sha256": "52fee9bea57391c08be30bae13298bf616b25ceb495c7e17c2510273da7b95dc"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-variation-001/inputs/noise.aep",
+      "bytes": 527085,
+      "sha256": "19f2374c9e1127e5a51d30f6dca65865a2fbe799f9a025eb0cb56b9ef49326bb"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-variation-001/native-still-0.png",
+      "bytes": 13445,
+      "sha256": "32fddb4c6ca1db1b40f5ad1c8fe89c82c77a758c3b623d5965d407d735fe7afb"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-variation-001/native-still-105.png",
+      "bytes": 13181,
+      "sha256": "60d6c1caff2115436d3fb26ce5ca101a980593e509ad4ff6714130c7502a673f"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-variation-001/native-still-209.png",
+      "bytes": 12398,
+      "sha256": "79484e9522f5b1df7ff6f92df21cfc4951c80cf4f0f17803a0052ae9b6ba0a97"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-variation-001/native-still-30.png",
+      "bytes": 13209,
+      "sha256": "4cf3a1322e13444a9da7f0b09e6d1fa354fe8ae7d56f5d65137b417ad9ce40ad"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-variation-001/plan.json",
+      "bytes": 789,
+      "sha256": "8a7730ea5e1ada423e3fbe19e6b4f14dcb048fb549bafd6607e8fe2a2873937e"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-variation-001/project.aep",
+      "bytes": 374675,
+      "sha256": "f030b1173210be4e3d267c4f74f363c579da2f27feb5cf140fd3902e04158d20"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-variation-001/quality.json",
+      "bytes": 1130,
+      "sha256": "ba34fc30fd6c05ee881829c0541ea030cbe535e4129bd94efbb144ae16aaf805"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-variation-001/receipt.json",
+      "bytes": 6195,
+      "sha256": "ba1c0301fb7b97cf47c06bb16a5e5ed389a6c40990955d2dac5ab24bc040fb6d"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-variation-001/request.json",
+      "bytes": 753,
+      "sha256": "7f3eddcb9ceeaf09b77cf350184cdc1e6e048f9f106eb430f32308bc2d5f232a"
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-variation-001/scene-quality.json",
+      "bytes": 1012,
+      "sha256": "1ef276ae999a614b53c0769348d04ea537b3a1a1c277ad718191dd1f7fc6acd8"
+    },
+    {
       "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/assets.json",
       "bytes": 3976,
       "sha256": "9544dead507abc1e5e63152574fa5b94a67908d2b5d649788572fb7b9396cca1"
@@ -4293,5 +4420,5 @@
     "repeated native audio/video exports"
   ],
   "portability": "Native projects retain original Windows media paths. Rebuild from the bundled scripts or relink the bundled inputs/assets; historical report references may point to local-only artifacts.",
-  "total_selected_bytes": 693686832
+  "total_selected_bytes": 712130649
 }

@@ -1,0 +1,19 @@
+{
+  "skill": "ae-advanced-compositing",
+  "branch": "course15-streaks",
+  "status": "candidate",
+  "steps": [
+    "Reuse own noise rig",
+    "Apply observed noise width/height",
+    "Use prior-course random Position and final zero drift/Z bounds",
+    "Reconstruct visible final scale and retain14 noise layers",
+    "Native seed edit/save/reopen/restore and per-frame checks",
+    "Adobe render and original comparison"
+  ],
+  "inferred": [
+    "Base Position0 inferred from copied prior-course Position property",
+    "Scale503 visible; replacing inherited scale expression with constant is reconstruction, not observed source code",
+    "14 noise layers inferred from16-layer timeline including Camera1 and controls",
+    "Exact noise random identities unproven"
+  ]
+}
