@@ -1,0 +1,598 @@
+{
+  "status": "planned",
+  "scopes": [
+    "samples/course-reproduction-015",
+    "cache/p16-probe-gui-001",
+    "cache/isolated-p16-core-001",
+    "cache/p16-negative-001",
+    "cache/watch/watch-mymykvb2",
+    "cache/watch/watch-7wgw9dbq",
+    "cache/watch/watch-f42mj5_8",
+    "cache/watch/watch-v3s2gjsb",
+    "cache/local-transcripts/BV1Yh4y1A7XT-p16-full-001",
+    "cache/reviews/p16-core-original-vs-001"
+  ],
+  "published_commit": "0205b7661955aca5228fee94b72b94c400907377",
+  "manifest_sha256": "3fe06af447ea1a080d81b5197029f0a1ef06296c206875735baf4c4e0bf84eac",
+  "files": 141,
+  "bytes": 65794280,
+  "keep_active": [
+    "cache/course-hires/BV1Yh4y1A7XT-p13-1080.mp4",
+    "cache/course-hires/BV1Yh4y1A7XT-p15-1080.mp4",
+    "cache/course-hires/BV1Yh4y1A7XT-p16-1080.mp4",
+    "cache/local-transcripts/BV1Yh4y1A7XT-p15-full-001/transcript.json",
+    "cache/local-transcripts/BV1Yh4y1A7XT-p16-full-001/transcript.json",
+    "cache/reviews/p15-assembly-original-vs-003/comparison.mp4",
+    "cache/watch/watch-mymykvb2/download/run-b863q78i/video.mp4",
+    "cache/watch/watch-z3iierxa/download/run-nv1kht5f/video.mp4"
+  ],
+  "protected_delivery_files": 692,
+  "skipped_links": [],
+  "targets": [
+    {
+      "path": "cache/isolated-p16-core-001/assets/course-p15-gradient-template.aep",
+      "bytes": 94791
+    },
+    {
+      "path": "cache/isolated-p16-core-001/assets/course-p15-radial-template.aep",
+      "bytes": 157305
+    },
+    {
+      "path": "cache/isolated-p16-core-001/assets/fonts/DMSans-Bold.ttf",
+      "bytes": 73452
+    },
+    {
+      "path": "cache/isolated-p16-core-001/assets/fonts/OFL.txt",
+      "bytes": 4388
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/assembly-inputs/background.aep",
+      "bytes": 94791
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/assembly-inputs/main.aep",
+      "bytes": 3380451
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/assembly-inputs/polar.aep",
+      "bytes": 325153
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/assembly-inputs/radial.aep",
+      "bytes": 157305
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/assembly-inputs/streaks.aep",
+      "bytes": 439441
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/assembly-inputs/title.aep",
+      "bytes": 114789
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/core-geometry.json",
+      "bytes": 3729
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/core-texture.json",
+      "bytes": 3726
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/core-typography.json",
+      "bytes": 3735
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/course-assembly.json",
+      "bytes": 3491
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/course-composite.json",
+      "bytes": 3527
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/course-core.json",
+      "bytes": 1550
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/course-polar.json",
+      "bytes": 492
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/course-radial.json",
+      "bytes": 411
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/course-streaks.json",
+      "bytes": 632
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/inputs/contours.aep",
+      "bytes": 381155
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/inputs/core.aep",
+      "bytes": 2035913
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/inputs/dots.aep",
+      "bytes": 418837
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/inputs/geometry-core.aep",
+      "bytes": 2041851
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/inputs/geometry.png",
+      "bytes": 3436
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/inputs/lines.aep",
+      "bytes": 124271
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/inputs/noise.aep",
+      "bytes": 527085
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/inputs/texture-core.aep",
+      "bytes": 2041851
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/inputs/texture.png",
+      "bytes": 3230
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/inputs/typography-core.aep",
+      "bytes": 2041855
+    },
+    {
+      "path": "cache/isolated-p16-core-001/examples/inputs/typography.png",
+      "bytes": 5414
+    },
+    {
+      "path": "cache/isolated-p16-core-001/references/course-assembly.md",
+      "bytes": 3216
+    },
+    {
+      "path": "cache/isolated-p16-core-001/references/course-composite.md",
+      "bytes": 3754
+    },
+    {
+      "path": "cache/isolated-p16-core-001/references/course-polar.md",
+      "bytes": 3009
+    },
+    {
+      "path": "cache/isolated-p16-core-001/references/course-radial.md",
+      "bytes": 2184
+    },
+    {
+      "path": "cache/isolated-p16-core-001/references/course-streaks.md",
+      "bytes": 2472
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/__pycache__/render_ae.cpython-313.pyc",
+      "bytes": 6955
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/__pycache__/validate_assembly.cpython-313.pyc",
+      "bytes": 6393
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/__pycache__/validate_radial.cpython-313.pyc",
+      "bytes": 5981
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/__pycache__/validate_video.cpython-313.pyc",
+      "bytes": 8561
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/assembly.jsx",
+      "bytes": 8076
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/build_assembly.py",
+      "bytes": 2332
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/build_composite.py",
+      "bytes": 3784
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/build_core.py",
+      "bytes": 2150
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/build_noise_asset.py",
+      "bytes": 2718
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/build_radial.py",
+      "bytes": 2557
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/build_streaks.py",
+      "bytes": 2760
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/composite.jsx",
+      "bytes": 13061
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/core.jsx",
+      "bytes": 7285
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/json_encode_adobe.jsx",
+      "bytes": 1080
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/noise_asset.jsx",
+      "bytes": 6497
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/radial.jsx",
+      "bytes": 4316
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/render_ae.py",
+      "bytes": 3745
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/run_ae.py",
+      "bytes": 2350
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/streaks.jsx",
+      "bytes": 7045
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/validate_assembly.py",
+      "bytes": 3584
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/validate_radial.py",
+      "bytes": 3816
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/validate_scene.py",
+      "bytes": 4971
+    },
+    {
+      "path": "cache/isolated-p16-core-001/scripts/validate_video.py",
+      "bytes": 4570
+    },
+    {
+      "path": "cache/isolated-p16-core-001/SKILL.md",
+      "bytes": 4251
+    },
+    {
+      "path": "cache/isolated-p16-core-001/tests/assembly-results.json",
+      "bytes": 7776
+    },
+    {
+      "path": "cache/isolated-p16-core-001/tests/polar-results.json",
+      "bytes": 6159
+    },
+    {
+      "path": "cache/isolated-p16-core-001/tests/radial-results.json",
+      "bytes": 3467
+    },
+    {
+      "path": "cache/isolated-p16-core-001/tests/results.json",
+      "bytes": 7139
+    },
+    {
+      "path": "cache/isolated-p16-core-001/tests/streaks-results.json",
+      "bytes": 6001
+    },
+    {
+      "path": "cache/local-transcripts/BV1Yh4y1A7XT-p16-full-001/input.wav",
+      "bytes": 38040636
+    },
+    {
+      "path": "cache/local-transcripts/BV1Yh4y1A7XT-p16-full-001/transcript.srt",
+      "bytes": 16924
+    },
+    {
+      "path": "cache/p16-negative-001/frozen.mp4",
+      "bytes": 147534
+    },
+    {
+      "path": "cache/p16-probe-gui-001/ack.txt",
+      "bytes": 10
+    },
+    {
+      "path": "cache/p16-probe-gui-001/configure.jsx",
+      "bytes": 606
+    },
+    {
+      "path": "cache/p16-probe-gui-001/effect-before.png",
+      "bytes": 266822
+    },
+    {
+      "path": "cache/p16-probe-gui-001/p16-core-build-001.log",
+      "bytes": 28687
+    },
+    {
+      "path": "cache/p16-probe-gui-001/p16-core-variation-build-001.log",
+      "bytes": 28739
+    },
+    {
+      "path": "cache/p16-probe-gui-001/p16-native-probe.log",
+      "bytes": 57946
+    },
+    {
+      "path": "cache/p16-probe-gui-001/p16-transcribe-001.log",
+      "bytes": 34247
+    },
+    {
+      "path": "cache/p16-probe-gui-001/vector-type.png",
+      "bytes": 298946
+    },
+    {
+      "path": "cache/reviews/p16-core-original-vs-001/comparison.mp4",
+      "bytes": 1068330
+    },
+    {
+      "path": "cache/reviews/p16-core-original-vs-001/comparison.png",
+      "bytes": 84754
+    },
+    {
+      "path": "cache/reviews/p16-core-original-vs-001/original-course.mp4",
+      "bytes": 604381
+    },
+    {
+      "path": "cache/reviews/p16-core-original-vs-001/review.json",
+      "bytes": 717
+    },
+    {
+      "path": "cache/watch/watch-7wgw9dbq/frames/cue_0000.jpg",
+      "bytes": 134656
+    },
+    {
+      "path": "cache/watch/watch-7wgw9dbq/frames/cue_0001.jpg",
+      "bytes": 110666
+    },
+    {
+      "path": "cache/watch/watch-7wgw9dbq/frames/cue_0002.jpg",
+      "bytes": 101529
+    },
+    {
+      "path": "cache/watch/watch-7wgw9dbq/frames/cue_0003.jpg",
+      "bytes": 118260
+    },
+    {
+      "path": "cache/watch/watch-7wgw9dbq/frames/cue_0004.jpg",
+      "bytes": 99827
+    },
+    {
+      "path": "cache/watch/watch-7wgw9dbq/frames/cue_0005.jpg",
+      "bytes": 171927
+    },
+    {
+      "path": "cache/watch/watch-7wgw9dbq/frames/cue_0006.jpg",
+      "bytes": 165927
+    },
+    {
+      "path": "cache/watch/watch-7wgw9dbq/frames/cue_0007.jpg",
+      "bytes": 147276
+    },
+    {
+      "path": "cache/watch/watch-7wgw9dbq/frames/cue_0008.jpg",
+      "bytes": 169895
+    },
+    {
+      "path": "cache/watch/watch-7wgw9dbq/frames/cue_0009.jpg",
+      "bytes": 196405
+    },
+    {
+      "path": "cache/watch/watch-7wgw9dbq/frames/cue_0010.jpg",
+      "bytes": 183587
+    },
+    {
+      "path": "cache/watch/watch-7wgw9dbq/frames/cue_0011.jpg",
+      "bytes": 168204
+    },
+    {
+      "path": "cache/watch/watch-7wgw9dbq/frames/cue_0012.jpg",
+      "bytes": 176631
+    },
+    {
+      "path": "cache/watch/watch-7wgw9dbq/frames/cue_0013.jpg",
+      "bytes": 175499
+    },
+    {
+      "path": "cache/watch/watch-f42mj5_8/frames/cue_0000.jpg",
+      "bytes": 104272
+    },
+    {
+      "path": "cache/watch/watch-f42mj5_8/frames/cue_0001.jpg",
+      "bytes": 120398
+    },
+    {
+      "path": "cache/watch/watch-f42mj5_8/frames/cue_0002.jpg",
+      "bytes": 103807
+    },
+    {
+      "path": "cache/watch/watch-f42mj5_8/frames/cue_0003.jpg",
+      "bytes": 176275
+    },
+    {
+      "path": "cache/watch/watch-f42mj5_8/frames/cue_0004.jpg",
+      "bytes": 179272
+    },
+    {
+      "path": "cache/watch/watch-f42mj5_8/frames/cue_0005.jpg",
+      "bytes": 177935
+    },
+    {
+      "path": "cache/watch/watch-f42mj5_8/frames/cue_0006.jpg",
+      "bytes": 176977
+    },
+    {
+      "path": "cache/watch/watch-f42mj5_8/frames/cue_0007.jpg",
+      "bytes": 168396
+    },
+    {
+      "path": "cache/watch/watch-f42mj5_8/frames/cue_0008.jpg",
+      "bytes": 105311
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/download/run-b863q78i/final-path.jsonl",
+      "bytes": 109
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/download/run-b863q78i/video.info.json",
+      "bytes": 12149
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0001.jpg",
+      "bytes": 18211
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0008.jpg",
+      "bytes": 98953
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0017.jpg",
+      "bytes": 55517
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0033.jpg",
+      "bytes": 68540
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0043.jpg",
+      "bytes": 81318
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0050.jpg",
+      "bytes": 100595
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0063.jpg",
+      "bytes": 95076
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0071.jpg",
+      "bytes": 99264
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0082.jpg",
+      "bytes": 116125
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0094.jpg",
+      "bytes": 114866
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0106.jpg",
+      "bytes": 103755
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0115.jpg",
+      "bytes": 90084
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0123.jpg",
+      "bytes": 117031
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0133.jpg",
+      "bytes": 111034
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0141.jpg",
+      "bytes": 128626
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0149.jpg",
+      "bytes": 95914
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0164.jpg",
+      "bytes": 51948
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0170.jpg",
+      "bytes": 93361
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0177.jpg",
+      "bytes": 110844
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0187.jpg",
+      "bytes": 87846
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0201.jpg",
+      "bytes": 106947
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0208.jpg",
+      "bytes": 110290
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0215.jpg",
+      "bytes": 88618
+    },
+    {
+      "path": "cache/watch/watch-mymykvb2/frames/frame_0239.jpg",
+      "bytes": 8311
+    },
+    {
+      "path": "cache/watch/watch-v3s2gjsb/frames/cue_0000.jpg",
+      "bytes": 173648
+    },
+    {
+      "path": "cache/watch/watch-v3s2gjsb/frames/cue_0001.jpg",
+      "bytes": 172409
+    },
+    {
+      "path": "samples/course-reproduction-015/p16-core-001/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 1279159
+    },
+    {
+      "path": "samples/course-reproduction-015/p16-core-001/aerender.log",
+      "bytes": 6080
+    },
+    {
+      "path": "samples/course-reproduction-015/p16-core-001/build.jsx",
+      "bytes": 9967
+    },
+    {
+      "path": "samples/course-reproduction-015/p16-core-001/project.aep 日志/AE 2026-11-6 21-00-43.txt",
+      "bytes": 4806
+    },
+    {
+      "path": "samples/course-reproduction-015/p16-core-variation-001/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 1066849
+    },
+    {
+      "path": "samples/course-reproduction-015/p16-core-variation-001/aerender.log",
+      "bytes": 5890
+    },
+    {
+      "path": "samples/course-reproduction-015/p16-core-variation-001/build.jsx",
+      "bytes": 9987
+    },
+    {
+      "path": "samples/course-reproduction-015/p16-core-variation-001/project.aep 日志/AE 2026-11-6 21-02-53.txt",
+      "bytes": 4617
+    },
+    {
+      "path": "samples/course-reproduction-015/p16-native-probe-001/build.jsx",
+      "bytes": 3436
+    },
+    {
+      "path": "samples/course-reproduction-015/p16-native-probe-001/project.aep",
+      "bytes": 2105305
+    },
+    {
+      "path": "samples/course-reproduction-015/p16-native-probe-001/receipt.json",
+      "bytes": 22512
+    }
+  ],
+  "authorization": "User requested keeping only deliverables after library publication; scope restricted to this independent lab"
+}
