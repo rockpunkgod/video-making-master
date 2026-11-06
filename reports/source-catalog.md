@@ -5,7 +5,7 @@
 |序号|来源|章节数|候选技术|学习状态|
 |---|---|---:|---|---|
 |1|[AE教程-使用表达式制作高级复杂图形动画 Advanced After Effects Coding for Motion Design](https://www.bilibili.com/video/BV1Yh4y1A7XT/)|20|ae-procedural-motion, ae-advanced-expressions|第5–18有原生分支，19/20方法课已读；2–4及最终整片仍缺|
-|2|[【自用】Ae表达式教程（高级课程不适合新手）](https://www.bilibili.com/video/BV1c7GTzMEh5/)|36|ae-advanced-expressions|第23节7例、第24节部分6例、第25节放大镜5例技术检查；整体反馈/无声尾段与Particular缺口保留，其余33节待学|
+|2|[【自用】Ae表达式教程（高级课程不适合新手）](https://www.bilibili.com/video/BV1c7GTzMEh5/)|36|ae-advanced-expressions|第23–25节有原生分支；26/27节仅学习/脚本准备，冷启动失败；未完成整体反馈/无声尾段/Particular，其余31节待学|
 |3|[Projection 3D V5 for After Effects Tutorial - YouTube](https://www.youtube.com/watch?v=PbVB52WCUDE)|1|ae-3d-projection, ae-cinematic-camera|局部取证，尚未完整学习|
 |4|[【AE跟踪】Mocha中文教程全解析](https://www.bilibili.com/video/BV1VE411r7Z5/)|35|ae-mocha-tracking|仅页面与目录|
 |5|[AE教程，Mocha Pro 网格跟踪教程](https://www.bilibili.com/video/BV1xP411C7u3/)|1|ae-mocha-tracking|局部取证，尚未完整学习|

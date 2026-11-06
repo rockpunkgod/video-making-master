@@ -886,6 +886,51 @@
       "sha256": "ba2995a69587c43c26e0e9c4f0bc483a3a0384b77472ab3a443a7aa9b2b9bf1d"
     },
     {
+      "path": "evaluations/course2-p26-p27-scroll-001/host-recovery.json",
+      "bytes": 2595,
+      "sha256": "919ef1bff7bbadf4ea753243cd673ce93c42c6036782151ff12339482071482b"
+    },
+    {
+      "path": "evaluations/course2-p26-p27-scroll-001/learning-coverage.json",
+      "bytes": 697,
+      "sha256": "805042ab157eb9553cf5501b967b05aa9f75b21f5c2281c31ec8168da24fcde0"
+    },
+    {
+      "path": "evaluations/course2-p26-p27-scroll-001/manual-motion-observations.json",
+      "bytes": 7318,
+      "sha256": "af73b190416c866d46f4e4798bd9e560584318a515994925b01850b099ed234d"
+    },
+    {
+      "path": "evaluations/course2-p26-p27-scroll-001/summary.json",
+      "bytes": 2741,
+      "sha256": "17ba79cdece03ac31c1d4cb2a1413ab13e09435d6ceec28a6612525f271c24c9"
+    },
+    {
+      "path": "evaluations/course2-p26-p27-scroll-001/vertical-001-attempt.json",
+      "bytes": 4200,
+      "sha256": "8839e3de2a4773d79fb4cd5e588c14af831f0e2efa4ed9e0f4cf821e181c5709"
+    },
+    {
+      "path": "evaluations/course2-p26-p27-scroll-001/vertical-002-attempt.json",
+      "bytes": 4197,
+      "sha256": "24ec2a50a84566f455af5089a03ecc25574d63e54c72d477df37305aa2684b6c"
+    },
+    {
+      "path": "evaluations/course2-p26-p27-scroll-001/vertical-003-attempt.json",
+      "bytes": 4426,
+      "sha256": "733dc55da22d479e55ead4a3b1f1c13cc16f2a5c99d73a17c94795ef6690a6cb"
+    },
+    {
+      "path": "evaluations/course2-p26-p27-scroll-001/vertical-004-attempt.json",
+      "bytes": 4423,
+      "sha256": "414256a4403862728ebb8538eee6bf36663026161adedfc688ba273b4015d09c"
+    },
+    {
+      "path": "evaluations/course2-p26-p27-scroll-001/vertical-005-attempt.json",
+      "bytes": 4426,
+      "sha256": "de986b62d900270f609d17b69f2223d7c6191483d206fbbd55ccb30a2878bc91"
+    },
+    {
       "path": "evaluations/first-skill.json",
       "bytes": 4116,
       "sha256": "301f271d2e67cd372e42c58bc8ba0da3c7cec5b586167ecd1e89124d4fe9a398"
@@ -8827,5 +8872,5 @@
     "repeated native audio/video exports"
   ],
   "portability": "Native projects retain original Windows media paths. Rebuild from the bundled scripts or relink the bundled inputs/assets; historical report references may point to local-only artifacts.",
-  "total_selected_bytes": 2406858673
+  "total_selected_bytes": 2406893696
 }

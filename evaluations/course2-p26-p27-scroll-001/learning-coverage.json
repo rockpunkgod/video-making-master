@@ -1,0 +1,24 @@
+[
+  {
+    "part": 26,
+    "video_seconds": 1621.44,
+    "audio_seconds": 810.837167,
+    "transcript_segments": 247,
+    "transcript_last_end": 810.66,
+    "transcript_read": true,
+    "source_frame_views": 81,
+    "includes_repeats": true,
+    "video_only_tail": "Sparse visual checks; no assertion of full duplicate or full speech coverage"
+  },
+  {
+    "part": 27,
+    "video_seconds": 2220.08,
+    "audio_seconds": 1110.143833,
+    "transcript_segments": 300,
+    "transcript_last_end": 1109.14,
+    "transcript_read": true,
+    "source_frame_views": 89,
+    "includes_repeats": true,
+    "video_only_tail": "Sparse visual checks; no assertion of full duplicate or full speech coverage"
+  }
+]

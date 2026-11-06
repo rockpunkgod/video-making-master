@@ -9,6 +9,13 @@ from validate_video import validate
 
 def check_output(root,cfg):
     report=validate(root/'final.mp4',cfg)
+    if cfg.get('animation')=='scroll-ui':
+        from validate_scroll_ui import validate as scroll_validate
+        audit=scroll_validate(root)
+        report['scroll_quality']='scroll-quality.json'
+        report['course_fidelity']='original_formulas_pending_review_manual_replay_adaptation'
+        report['delivery_status']='candidate_unaccepted'
+        if audit['status']!='passed':report['status']='failed'
     if cfg.get('animation')=='magnifier':
         from validate_magnifier import validate as magnifier_validate
         audit=magnifier_validate(root)

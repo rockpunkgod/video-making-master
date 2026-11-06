@@ -198,9 +198,9 @@
         "ae-advanced-expressions"
       ],
       "passes": {
-        "global": "p23 only:106 frame views including repeats, actual audio1401.7065s; video-only tail sparsely inspected; p24:118 visual frame views, actual1764.9705s audio; no complete video-only tail coverage; p25:82 frame views, actual846.8265s audio read; video-only tail sparse",
-        "detail": "p23 key expressions/anchor/width normalization visually read and native reproduced; p24 mask/hinge/loop/parent/path/particle workflow observed, Particular absent; p25 adjustment/mask/blur/Bulge and manual movement observed,5native cases",
-        "abstraction": "p23 connector,p24 partial wing rig,p25 optical magnifier merged into ae-advanced-expressions;33other parts pending"
+        "global": "p23 only:106 frame views including repeats, actual audio1401.7065s; video-only tail sparsely inspected; p24:118 visual frame views, actual1764.9705s audio; no complete video-only tail coverage; p25:82 frame views, actual846.8265s audio read; video-only tail sparse; p26/p27 actual audio fully read and170frame views; video-only tails sparse",
+        "detail": "p23 key expressions/anchor/width normalization visually read and native reproduced; p24 mask/hinge/loop/parent/path/particle workflow observed, Particular absent; p25 adjustment/mask/blur/Bulge and manual movement observed,5native cases; p26/p27 exact mapping/lock/clamp variants visually read; native execution blocked",
+        "abstraction": "p23,p24partial,p25 native branches; p26/p27 joint prepared scroll branch retaining original differences;31other parts pending"
       },
       "page": {
         "title": "【自用】Ae表达式教程（高级课程不适合新手）_哔哩哔哩_bilibili",
@@ -395,13 +395,16 @@
       "learning_notes": [
         "sources/learning-notes/BV1c7GTzMEh5-p23.md",
         "sources/learning-notes/BV1c7GTzMEh5-p24.md",
-        "sources/learning-notes/BV1c7GTzMEh5-p25.md"
+        "sources/learning-notes/BV1c7GTzMEh5-p25.md",
+        "sources/learning-notes/BV1c7GTzMEh5-p26-p27.md"
       ],
       "native_evidence": "evaluations/course2-p23-spring-001/summary.json",
       "evidence_by_part": {
         "23": "evaluations/course2-p23-spring-001/summary.json",
         "24": "evaluations/course2-p24-butterfly-001/summary.json",
-        "25": "evaluations/course2-p25-magnifier-001/summary.json"
+        "25": "evaluations/course2-p25-magnifier-001/summary.json",
+        "26": "evaluations/course2-p26-p27-scroll-001/summary.json",
+        "27": "evaluations/course2-p26-p27-scroll-001/summary.json"
       }
     },
     {

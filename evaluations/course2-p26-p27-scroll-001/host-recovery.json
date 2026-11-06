@@ -1,0 +1,58 @@
+{
+  "status": "unresolved",
+  "original_host": {
+    "pid": 56296,
+    "guard": "reports/host-blank-guard-20261107-0400.json",
+    "items": 0,
+    "dirty": false,
+    "action": "Graceful normal close to release memory; process exited"
+  },
+  "observed_failures": [
+    {
+      "mode": "Original install path, inherited CLI locale",
+      "error": "CEP suite could not be loaded before script execution"
+    },
+    {
+      "mode": "Original install path, CLI locale variables removed in child only",
+      "error": "Same CEP error"
+    },
+    {
+      "mode": "First alias attempt",
+      "result": "Launcher canonicalized alias back to original path; not a valid ASCII test"
+    },
+    {
+      "mode": "Lexical ASCII junction preserved",
+      "error": "Licensing Error: subscription entitles Chinese Simplified versions; no script execution"
+    },
+    {
+      "mode": "Existing installed normal shortcut, no script",
+      "error": "Same CEP error"
+    },
+    {
+      "mode": "Documented render-engine flag plus script probe",
+      "result": "Native process exited without receipt; no remaining AfterFX child found; combination not established as working"
+    }
+  ],
+  "windows_languages": {
+    "user_ui_language": 2052,
+    "system_ui_language": 2052,
+    "user_lcid": 2052,
+    "system_lcid": 2052,
+    "culture": "zh-CN",
+    "ui_culture": "zh-CN"
+  },
+  "source_of_license_message": "Read actual Static child text of owned HWND6031318; PrintWindow image did not show body text",
+  "license_message": "After Effects error: Licensing Error: Your subscription entitles you to Chinese Simplified product versions. Please verify the language settings in your OS, browser, and software download are set to Chinese Simplified.",
+  "manual_installer_changes": false,
+  "manual_preference_reset": false,
+  "system_language_changed": false,
+  "license_modified": false,
+  "production_runner": "Original run_ae.py retained; unsuccessful launch experiments not promoted",
+  "temporary_alias": "C:/Users/ASUS/AppData/Local/Temp/video-skills-lab-ae26-20261107",
+  "official_sources": [
+    "https://helpx.adobe.com/cn/after-effects/desktop/get-started/language-support/install-launch-after-effects-simplified-chinese-japanese-languages.html",
+    "https://helpx.adobe.com/after-effects/desktop/render-and-export/automate-rendering/automated-rendering-network-rendering.html"
+  ],
+  "source_limit": "Official guidance/flags do not prove local recovery; actual local attempts failed",
+  "user_question": "Asked whether usual user launch can enter blank project or uses another entry; pending response"
+}

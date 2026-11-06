@@ -1,0 +1,149 @@
+{
+  "name": "COURSE_SCROLL_UI",
+  "animation": "scroll-ui",
+  "motion_expectation": "required",
+  "axis": "horizontal",
+  "width": 960,
+  "height": 720,
+  "native_width": 320,
+  "native_height": 240,
+  "fps": 30,
+  "duration": 6,
+  "range": [
+    20,
+    300
+  ],
+  "content_start": 615,
+  "content_end": -280,
+  "text": "清晨的光穿过窗边树叶，山川与河流渐渐苏醒。沿着田间小路走去，能看见天空倒映在水面上。午后的云影缓缓移动，飞鸟掠过院前的树梢。夜幕降临时，灯光照亮了归家的路。",
+  "samples": [
+    [
+      0.0,
+      75.789
+    ],
+    [
+      0.2,
+      127.895
+    ],
+    [
+      0.4,
+      215.789
+    ],
+    [
+      0.6,
+      255.789
+    ],
+    [
+      0.8,
+      255.789
+    ],
+    [
+      1.0,
+      255.789
+    ],
+    [
+      1.2,
+      255.789
+    ],
+    [
+      1.4,
+      255.789
+    ],
+    [
+      1.6,
+      255.789
+    ],
+    [
+      1.8,
+      255.789
+    ],
+    [
+      2.0,
+      255.789
+    ],
+    [
+      2.2,
+      255.789
+    ],
+    [
+      2.4,
+      255.789
+    ],
+    [
+      2.6,
+      255.789
+    ],
+    [
+      2.8,
+      255.789
+    ],
+    [
+      3.0,
+      255.789
+    ],
+    [
+      3.2,
+      255.789
+    ],
+    [
+      3.4,
+      255.789
+    ],
+    [
+      3.6,
+      255.789
+    ],
+    [
+      3.8,
+      255.789
+    ],
+    [
+      4.0,
+      255.789
+    ],
+    [
+      4.2,
+      255.789
+    ],
+    [
+      4.4,
+      255.789
+    ],
+    [
+      4.6,
+      255.789
+    ],
+    [
+      4.8,
+      255.789
+    ],
+    [
+      5.0,
+      255.789
+    ],
+    [
+      5.2,
+      255.789
+    ],
+    [
+      5.4,
+      255.789
+    ],
+    [
+      5.6,
+      255.789
+    ],
+    [
+      5.8,
+      255.789
+    ],
+    [
+      6,
+      255.789
+    ]
+  ],
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=27",
+  "observed": "Vertical: X299,Y self Position, vector linear13..225 to[161,328]..[161,-223]. Horizontal: separate Null, knob clamp20..300,Y223; content linear20..300 to615..-280,Y104. Source manual movement, not authored animation.",
+  "inferred": "Native320x240 and30fps inferred from viewport/timeline; content dimensions/anchor/text/font/rail/knob sizes not explicitly recovered.3x wrapper for delivery. Sampled visible handle at5fps converted from screen using approximate0.95scale; horizontal raw Null beyond clamp cannot be recovered from handle. Own editable content replaces source poem/Illustrator artwork.",
+  "status": "candidate"
+}

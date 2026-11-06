@@ -22,8 +22,8 @@ public class LabOwnedWindowClick {
 $condition=New-Object System.Windows.Automation.PropertyCondition ([System.Windows.Automation.AutomationElement]::ProcessIdProperty),$ProcessId
 $wins=[System.Windows.Automation.AutomationElement]::RootElement.FindAll([System.Windows.Automation.TreeScope]::Children,$condition)
 $win=$wins | Where-Object {$_.Current.ClassName -like 'AE_CApplication*'} | Select-Object -First 1
-if(!$win){throw 'No matching native Adobe window'}
-$handle=[IntPtr]$win.Current.NativeWindowHandle
+if(!$win -and !$WindowHandle){throw 'No matching native Adobe window'}
+$handle=if($win){[IntPtr]$win.Current.NativeWindowHandle}else{[IntPtr]::Zero}
 if($WindowHandle){
  $handle=[IntPtr]$WindowHandle;[uint32]$windowOwner=0
  [LabOwnedWindowClick]::GetWindowThreadProcessId($handle,[ref]$windowOwner) | Out-Null

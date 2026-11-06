@@ -1,0 +1,70 @@
+{
+  "skill": "ae-advanced-expressions",
+  "version": "0.8.0",
+  "unit": "scroll_ui",
+  "status": "prepared_native_blocked",
+  "course_fidelity": "Source formulas visually read; no actual recreation to compare",
+  "sources": [
+    "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=26",
+    "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=27"
+  ],
+  "learning_coverage": [
+    {
+      "part": 26,
+      "video_seconds": 1621.44,
+      "audio_seconds": 810.837167,
+      "transcript_segments": 247,
+      "transcript_last_end": 810.66,
+      "transcript_read": true,
+      "source_frame_views": 81,
+      "includes_repeats": true,
+      "video_only_tail": "Sparse visual checks; no assertion of full duplicate or full speech coverage"
+    },
+    {
+      "part": 27,
+      "video_seconds": 2220.08,
+      "audio_seconds": 1110.143833,
+      "transcript_segments": 300,
+      "transcript_last_end": 1109.14,
+      "transcript_read": true,
+      "source_frame_views": 89,
+      "includes_repeats": true,
+      "video_only_tail": "Sparse visual checks; no assertion of full duplicate or full speech coverage"
+    }
+  ],
+  "native_projects": 0,
+  "rendered_videos": 0,
+  "native_test_status": "not_run_host_failed_before_script",
+  "parameter_variation_status": "prepared_not_executed",
+  "cross_material_status": "Six original PNG inputs prepared, zero native material tests",
+  "visual_status": "No candidate movie, no visual comparison or acceptance requested",
+  "prepared_examples": [
+    "skills/after-effects/ae-advanced-expressions/examples/course-scroll-vertical.json",
+    "skills/after-effects/ae-advanced-expressions/examples/course-scroll-horizontal.json"
+  ],
+  "observed_formulas": {
+    "vertical_knob": "x=299; y=transform.position[1]; [x,y]",
+    "vertical_content": "linear(a,13,225,[161,328],[161,-223])",
+    "horizontal_knob": "clamp(scroll,20,300), Y223",
+    "horizontal_content": "linear(scroll,20,300,615,-280), Y104"
+  },
+  "inferred": [
+    "Native320x240 and30fps from viewport/timeline",
+    "Content dimensions/anchors, own font/text/geometry",
+    "3x delivery wrapper",
+    "5fps visible-handle screen sampling and approximate0.95display scale",
+    "Horizontal raw Null beyond clamped range not recovered"
+  ],
+  "blocker": "AE cold startup CEP error; ASCII path language-license diagnostic unresolved",
+  "existing_native_cases_preserved": 87,
+  "tests_that_remain": [
+    "Two original native baselines",
+    "Two overshoot cases",
+    "Three new images both directions",
+    "Real AEP edit/reopen and180frame render/QA",
+    "Validate pixel detector with actual movie and frozen negative",
+    "Native dependency audit",
+    "Original-versus-real-candidate visual comparison"
+  ],
+  "whole_goal_complete": false
+}

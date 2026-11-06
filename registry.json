@@ -337,9 +337,9 @@
     },
     {
       "name": "ae-advanced-expressions",
-      "version": "0.7.0",
+      "version": "0.8.0",
       "status": "candidate",
-      "execution_status": "four_course_units_with_native_evidence_and_explicit_candidate_limits",
+      "execution_status": "seven_units_with_prior_native_evidence_scroll_prepared_native_blocked",
       "path": "skills/after-effects/ae-advanced-expressions",
       "dependencies": [
         "After Effects AE26 Chinese Windows tested",
@@ -376,7 +376,9 @@
           "parts": [
             23,
             24,
-            25
+            25,
+            26,
+            27
           ]
         }
       ],
@@ -388,7 +390,8 @@
         "p14 baseline accepted; three new Latin text inputs pass; final source graph handles estimated, source random seed unread, non-Latin/other-font generalization unverified",
         "来源2第23节：7例原生及全帧像素检查通过，基线整体课程效果人工反馈待回复；素材身份和推定画布/锚点未证实",
         "来源2第24节：Particular未安装，粒子拖尾未制作；双翅运动待人工反馈，摄像机/键值/路径推定，任意外部图形适配未验",
-        "来源2第25节：光学效果待人工反馈，画幅/字体/素材与手动位置采样有推定，不宣称原课位置动画时间轴"
+        "来源2第25节：光学效果待人工反馈，画幅/字体/素材与手动位置采样有推定，不宣称原课位置动画时间轴",
+        "第26/27节滑页仅学习/代码准备：冷启动CEP与ASCII路径语言授权诊断失败，零新AEP/视频；该分支全部原生/素材/视觉测试未执行"
       ],
       "evidence_by_unit": {
         "threshold": "evaluations/course-p08-suite-001/summary.json",
@@ -397,7 +400,8 @@
         "type_reveal": "evaluations/course-p14-probe-001/summary.json",
         "spring_connector": "evaluations/course2-p23-spring-001/summary.json",
         "butterfly_rig": "evaluations/course2-p24-butterfly-001/summary.json",
-        "magnifier": "evaluations/course2-p25-magnifier-001/summary.json"
+        "magnifier": "evaluations/course2-p25-magnifier-001/summary.json",
+        "scroll_ui": "evaluations/course2-p26-p27-scroll-001/summary.json"
       },
       "p09_latest_user_feedback": "挺好的; retain current version; prior needs-adjustment response preserved",
       "accepted_candidate_artifacts": [

@@ -1,5 +1,7 @@
 # video-skills-lab
 
+第26/27节纵横滑页已读取实际音轨与170次关键画面，保留不同原法的联合分支已准备；AE冷启动CEP错误及ASCII路径语言授权诊断尚未解决，零新AEP/视频。ae-advanced-expressions0.8.0仍candidate，该分支不得当已验证能力；原有87组交付不增加。见[阻塞证据](evaluations/course2-p26-p27-scroll-001/summary.json)。
+
 第25节新增随动放大镜候选：5份真实AEP/视频、750帧检查、65张原生时点/效果开关PNG，含独立Skill副本调用、变参及三个新图片输入。原法光学机制通过技术检查；源课是手动拖动，示例位置关键帧为采样重放适配，人工光学反馈待答。ae-advanced-expressions当前0.7.0 candidate。[报告](evaluations/course2-p25-magnifier-001/summary.json)。
 
 第24节新增双翅铰链/平面飞行部分候选：6个真实AEP/视频、1200帧检查、60张原生检查PNG，含变速及三个新原创图形；蒙版/父对象/路径朝向已原生审计。Particular缺失，整节粒子拖尾未制作；运动反馈待答、摄像机与关键帧仍推定。ae-advanced-expressions当前0.6.0 candidate。见[报告](evaluations/course2-p24-butterfly-001/summary.json)。

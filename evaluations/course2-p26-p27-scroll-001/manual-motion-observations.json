@@ -1,0 +1,366 @@
+{
+  "26": [
+    {
+      "time": 0.0,
+      "source_time": 762.0,
+      "screen_center": 248.0,
+      "inferred_axis": 112.632
+    },
+    {
+      "time": 0.2,
+      "source_time": 762.2,
+      "screen_center": 272.5,
+      "inferred_axis": 138.421
+    },
+    {
+      "time": 0.4,
+      "source_time": 762.4,
+      "screen_center": 301.5,
+      "inferred_axis": 168.947
+    },
+    {
+      "time": 0.6,
+      "source_time": 762.6,
+      "screen_center": 283.0,
+      "inferred_axis": 149.474
+    },
+    {
+      "time": 0.8,
+      "source_time": 762.8,
+      "screen_center": 298.5,
+      "inferred_axis": 165.789
+    },
+    {
+      "time": 1.0,
+      "source_time": 763.0,
+      "screen_center": 291.0,
+      "inferred_axis": 157.895
+    },
+    {
+      "time": 1.2,
+      "source_time": 763.2,
+      "screen_center": 289.5,
+      "inferred_axis": 156.316
+    },
+    {
+      "time": 1.4,
+      "source_time": 763.4,
+      "screen_center": 261.0,
+      "inferred_axis": 126.316
+    },
+    {
+      "time": 1.6,
+      "source_time": 763.6,
+      "screen_center": 259.0,
+      "inferred_axis": 124.211
+    },
+    {
+      "time": 1.8,
+      "source_time": 763.8,
+      "screen_center": 259.5,
+      "inferred_axis": 124.737
+    },
+    {
+      "time": 2.0,
+      "source_time": 764.0,
+      "screen_center": 270.0,
+      "inferred_axis": 135.789
+    },
+    {
+      "time": 2.2,
+      "source_time": 764.2,
+      "screen_center": 270.0,
+      "inferred_axis": 135.789
+    },
+    {
+      "time": 2.4,
+      "source_time": 764.4,
+      "screen_center": 272.0,
+      "inferred_axis": 137.895
+    },
+    {
+      "time": 2.6,
+      "source_time": 764.6,
+      "screen_center": 284.5,
+      "inferred_axis": 151.053
+    },
+    {
+      "time": 2.8,
+      "source_time": 764.8,
+      "screen_center": 285.5,
+      "inferred_axis": 152.105
+    },
+    {
+      "time": 3.0,
+      "source_time": 765.0,
+      "screen_center": 324.5,
+      "inferred_axis": 193.158
+    },
+    {
+      "time": 3.2,
+      "source_time": 765.2,
+      "screen_center": 335.0,
+      "inferred_axis": 204.211
+    },
+    {
+      "time": 3.4,
+      "source_time": 765.4,
+      "screen_center": 336.0,
+      "inferred_axis": 205.263
+    },
+    {
+      "time": 3.6,
+      "source_time": 765.6,
+      "screen_center": 339.5,
+      "inferred_axis": 208.947
+    },
+    {
+      "time": 3.8,
+      "source_time": 765.8,
+      "screen_center": 339.5,
+      "inferred_axis": 208.947
+    },
+    {
+      "time": 4.0,
+      "source_time": 766.0,
+      "screen_center": 340.5,
+      "inferred_axis": 210.0
+    },
+    {
+      "time": 4.2,
+      "source_time": 766.2,
+      "screen_center": 339.5,
+      "inferred_axis": 208.947
+    },
+    {
+      "time": 4.4,
+      "source_time": 766.4,
+      "screen_center": 339.5,
+      "inferred_axis": 208.947
+    },
+    {
+      "time": 4.6,
+      "source_time": 766.6,
+      "screen_center": 339.5,
+      "inferred_axis": 208.947
+    },
+    {
+      "time": 4.8,
+      "source_time": 766.8,
+      "screen_center": 339.0,
+      "inferred_axis": 208.421
+    },
+    {
+      "time": 5.0,
+      "source_time": 767.0,
+      "screen_center": 349.0,
+      "inferred_axis": 218.947
+    },
+    {
+      "time": 5.2,
+      "source_time": 767.2,
+      "screen_center": 349.0,
+      "inferred_axis": 218.947
+    },
+    {
+      "time": 5.4,
+      "source_time": 767.4,
+      "screen_center": 343.5,
+      "inferred_axis": 213.158
+    },
+    {
+      "time": 5.6,
+      "source_time": 767.6,
+      "screen_center": 309.5,
+      "inferred_axis": 177.368
+    },
+    {
+      "time": 5.8,
+      "source_time": 767.8,
+      "screen_center": 285.5,
+      "inferred_axis": 152.105
+    }
+  ],
+  "27": [
+    {
+      "time": 0.0,
+      "source_time": 1037.0,
+      "screen_center": 585.0,
+      "inferred_axis": 75.789
+    },
+    {
+      "time": 0.2,
+      "source_time": 1037.2,
+      "screen_center": 634.5,
+      "inferred_axis": 127.895
+    },
+    {
+      "time": 0.4,
+      "source_time": 1037.4,
+      "screen_center": 718.0,
+      "inferred_axis": 215.789
+    },
+    {
+      "time": 0.6,
+      "source_time": 1037.6,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 0.8,
+      "source_time": 1037.8,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 1.0,
+      "source_time": 1038.0,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 1.2,
+      "source_time": 1038.2,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 1.4,
+      "source_time": 1038.4,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 1.6,
+      "source_time": 1038.6,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 1.8,
+      "source_time": 1038.8,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 2.0,
+      "source_time": 1039.0,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 2.2,
+      "source_time": 1039.2,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 2.4,
+      "source_time": 1039.4,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 2.6,
+      "source_time": 1039.6,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 2.8,
+      "source_time": 1039.8,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 3.0,
+      "source_time": 1040.0,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 3.2,
+      "source_time": 1040.2,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 3.4,
+      "source_time": 1040.4,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 3.6,
+      "source_time": 1040.6,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 3.8,
+      "source_time": 1040.8,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 4.0,
+      "source_time": 1041.0,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 4.2,
+      "source_time": 1041.2,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 4.4,
+      "source_time": 1041.4,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 4.6,
+      "source_time": 1041.6,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 4.8,
+      "source_time": 1041.8,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 5.0,
+      "source_time": 1042.0,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 5.2,
+      "source_time": 1042.2,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 5.4,
+      "source_time": 1042.4,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 5.6,
+      "source_time": 1042.6,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    },
+    {
+      "time": 5.8,
+      "source_time": 1042.8,
+      "screen_center": 756.0,
+      "inferred_axis": 255.789
+    }
+  ]
+}
