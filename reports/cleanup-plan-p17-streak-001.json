@@ -1,0 +1,880 @@
+{
+  "status": "planned",
+  "scopes": [
+    "samples/course-reproduction-019",
+    "cache/p17-curves-native",
+    "cache/p17-streak-independent-skill",
+    "cache/p17-streak-native-audit",
+    "cache/p17-streak-native-review",
+    "cache/watch/watch-lhh44ipy",
+    "cache/watch/watch-km7n1c0m",
+    "cache/watch/watch-ul3i4i1o",
+    "cache/watch/watch-htif3d3t"
+  ],
+  "published_commit": "c0096712636e2093a0708178804d1fd8b0f6e5ab",
+  "manifest_sha256": "196f96c276426f64c8c2714e7f12f38afd04fea97872ec1c8f23c07a1bb2d17a",
+  "files": 214,
+  "bytes": 120554666,
+  "keep_active": [],
+  "protected_delivery_files": 842,
+  "skipped_links": [],
+  "targets": [
+    {
+      "path": "cache/p17-curves-native/blue-corrected.png",
+      "bytes": 246302
+    },
+    {
+      "path": "cache/p17-curves-native/blue-final.png",
+      "bytes": 244299
+    },
+    {
+      "path": "cache/p17-curves-native/blue-selected.png",
+      "bytes": 238071
+    },
+    {
+      "path": "cache/p17-curves-native/curves-full.png",
+      "bytes": 227334
+    },
+    {
+      "path": "cache/p17-curves-native/curves.png",
+      "bytes": 233173
+    },
+    {
+      "path": "cache/p17-curves-native/green-final.png",
+      "bytes": 239110
+    },
+    {
+      "path": "cache/p17-curves-native/green-selected.png",
+      "bytes": 234314
+    },
+    {
+      "path": "cache/p17-curves-native/menu-physical.png",
+      "bytes": 227692
+    },
+    {
+      "path": "cache/p17-curves-native/menu.png",
+      "bytes": 227692
+    },
+    {
+      "path": "cache/p17-curves-native/popup.png",
+      "bytes": 19245
+    },
+    {
+      "path": "cache/p17-curves-native/prepare.jsx",
+      "bytes": 1217
+    },
+    {
+      "path": "cache/p17-curves-native/probe.jsx",
+      "bytes": 1593
+    },
+    {
+      "path": "cache/p17-curves-native/properties.json",
+      "bytes": 231
+    },
+    {
+      "path": "cache/p17-curves-native/ramp-reopened.png",
+      "bytes": 16771
+    },
+    {
+      "path": "cache/p17-curves-native/ready.txt",
+      "bytes": 5
+    },
+    {
+      "path": "cache/p17-curves-native/red-final.png",
+      "bytes": 236864
+    },
+    {
+      "path": "cache/p17-curves-native/red-point.png",
+      "bytes": 234476
+    },
+    {
+      "path": "cache/p17-curves-native/red-selected.png",
+      "bytes": 228081
+    },
+    {
+      "path": "cache/p17-curves-native/save-failed.jsx",
+      "bytes": 521
+    },
+    {
+      "path": "cache/p17-curves-native/save.jsx",
+      "bytes": 708
+    },
+    {
+      "path": "cache/p17-curves-native/saved.txt",
+      "bytes": 14
+    },
+    {
+      "path": "cache/p17-curves-native/set-blue.jsx",
+      "bytes": 206
+    },
+    {
+      "path": "cache/p17-curves-native/set-green.jsx",
+      "bytes": 206
+    },
+    {
+      "path": "cache/p17-curves-native/set-red.jsx",
+      "bytes": 206
+    },
+    {
+      "path": "cache/p17-curves-native/stage.aep",
+      "bytes": 87319
+    },
+    {
+      "path": "cache/p17-curves-native/window.png",
+      "bytes": 210618
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/assets/course-p15-gradient-template.aep",
+      "bytes": 94791
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/assets/course-p15-radial-template.aep",
+      "bytes": 157305
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/assets/course-p16-colorama-noise-template.aep",
+      "bytes": 114949
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/assets/course-p16-colorama-polar-template.aep",
+      "bytes": 120153
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/assets/course-p17-streak-curves-template.aep",
+      "bytes": 88873
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/assets/fonts/DMSans-Bold.ttf",
+      "bytes": 73452
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/assets/fonts/OFL.txt",
+      "bytes": 4388
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/assembly-inputs/background.aep",
+      "bytes": 94791
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/assembly-inputs/main.aep",
+      "bytes": 3380451
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/assembly-inputs/polar.aep",
+      "bytes": 325153
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/assembly-inputs/radial.aep",
+      "bytes": 157305
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/assembly-inputs/streaks.aep",
+      "bytes": 439441
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/assembly-inputs/title.aep",
+      "bytes": 114789
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/core-geometry.json",
+      "bytes": 3729
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/core-texture.json",
+      "bytes": 3726
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/core-typography.json",
+      "bytes": 3735
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/course-assembly.json",
+      "bytes": 3491
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/course-composite.json",
+      "bytes": 3527
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/course-core.json",
+      "bytes": 1517
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/course-noise-style.json",
+      "bytes": 1738
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/course-polar.json",
+      "bytes": 492
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/course-radial.json",
+      "bytes": 411
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/course-streak-style-curves.json",
+      "bytes": 1315
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/course-streak-style.json",
+      "bytes": 2012
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/course-streaks.json",
+      "bytes": 632
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/course-styled-assembly.json",
+      "bytes": 3164
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/course-tunnel-style.json",
+      "bytes": 1819
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/inputs/contours.aep",
+      "bytes": 381155
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/inputs/core.aep",
+      "bytes": 2035913
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/inputs/dots.aep",
+      "bytes": 418837
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/inputs/geometry-core.aep",
+      "bytes": 2041851
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/inputs/geometry.png",
+      "bytes": 3436
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/inputs/lines.aep",
+      "bytes": 124271
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/inputs/noise.aep",
+      "bytes": 527085
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/inputs/texture-core.aep",
+      "bytes": 2041851
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/inputs/texture.png",
+      "bytes": 3230
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/inputs/typography-core.aep",
+      "bytes": 2041855
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/inputs/typography.png",
+      "bytes": 5414
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/streak-curves-ramp-expected.png",
+      "bytes": 16771
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/streak-style-inputs/main.aep",
+      "bytes": 3358811
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/style-inputs/core.aep",
+      "bytes": 1278055
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/style-inputs/main.aep",
+      "bytes": 4296141
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/style-inputs/noise.aep",
+      "bytes": 374929
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/examples/tunnel-inputs/main.aep",
+      "bytes": 3358047
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/references/course-assembly.md",
+      "bytes": 3216
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/references/course-composite.md",
+      "bytes": 3754
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/references/course-core.md",
+      "bytes": 3400
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/references/course-noise-style.md",
+      "bytes": 3645
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/references/course-polar.md",
+      "bytes": 3009
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/references/course-radial.md",
+      "bytes": 2184
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/references/course-streak-style.md",
+      "bytes": 2150
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/references/course-streaks.md",
+      "bytes": 2472
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/references/course-styled-assembly.md",
+      "bytes": 4848
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/references/course-tunnel-style.md",
+      "bytes": 1615
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/__pycache__/validate_radial.cpython-313.pyc",
+      "bytes": 7269
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/__pycache__/validate_streak_style.cpython-313.pyc",
+      "bytes": 6778
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/__pycache__/validate_video.cpython-313.pyc",
+      "bytes": 8575
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/assembly.jsx",
+      "bytes": 8076
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/build_assembly.py",
+      "bytes": 2332
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/build_composite.py",
+      "bytes": 3784
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/build_core.py",
+      "bytes": 2150
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/build_noise_asset.py",
+      "bytes": 2718
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/build_noise_style.py",
+      "bytes": 2134
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/build_radial.py",
+      "bytes": 2557
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/build_streak_style.py",
+      "bytes": 2423
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/build_streaks.py",
+      "bytes": 2760
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/build_styled_assembly.py",
+      "bytes": 2514
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/build_tunnel_style.py",
+      "bytes": 2224
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/composite.jsx",
+      "bytes": 13061
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/core.jsx",
+      "bytes": 7285
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/json_encode_adobe.jsx",
+      "bytes": 1080
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/noise_asset.jsx",
+      "bytes": 6497
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/noise_style.jsx",
+      "bytes": 6686
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/radial.jsx",
+      "bytes": 4316
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/render_ae.py",
+      "bytes": 4152
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/run_ae.py",
+      "bytes": 2350
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/streak_style.jsx",
+      "bytes": 8329
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/streaks.jsx",
+      "bytes": 7045
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/styled_assembly.jsx",
+      "bytes": 12227
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/tunnel_style.jsx",
+      "bytes": 6526
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/validate_assembly.py",
+      "bytes": 3584
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/validate_radial.py",
+      "bytes": 4730
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/validate_scene.py",
+      "bytes": 4971
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/validate_streak_style.py",
+      "bytes": 2946
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/validate_styled_assembly.py",
+      "bytes": 5567
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/validate_tunnel_style.py",
+      "bytes": 2768
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/scripts/validate_video.py",
+      "bytes": 4570
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/SKILL.md",
+      "bytes": 5925
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/tests/assembly-results.json",
+      "bytes": 7776
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/tests/core-results.json",
+      "bytes": 3376
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/tests/native-streak-curves-gui.png",
+      "bytes": 246302
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/tests/noise-style-results.json",
+      "bytes": 3839
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/tests/polar-results.json",
+      "bytes": 6159
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/tests/radial-results.json",
+      "bytes": 3467
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/tests/results.json",
+      "bytes": 7139
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/tests/streaks-results.json",
+      "bytes": 6001
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/tests/styled-assembly-results.json",
+      "bytes": 7153
+    },
+    {
+      "path": "cache/p17-streak-independent-skill/ae-advanced-compositing/tests/tunnel-style-results.json",
+      "bytes": 6543
+    },
+    {
+      "path": "cache/p17-streak-native-audit/audit.jsx",
+      "bytes": 2822
+    },
+    {
+      "path": "cache/p17-streak-native-review/baseline.jpg",
+      "bytes": 133416
+    },
+    {
+      "path": "cache/p17-streak-native-review/baseline003.jpg",
+      "bytes": 156610
+    },
+    {
+      "path": "cache/p17-streak-native-review/variation.jpg",
+      "bytes": 158900
+    },
+    {
+      "path": "cache/watch/watch-htif3d3t/frames/frame_0001.jpg",
+      "bytes": 129103
+    },
+    {
+      "path": "cache/watch/watch-htif3d3t/frames/frame_0002.jpg",
+      "bytes": 129214
+    },
+    {
+      "path": "cache/watch/watch-htif3d3t/frames/frame_0003.jpg",
+      "bytes": 129291
+    },
+    {
+      "path": "cache/watch/watch-htif3d3t/frames/frame_0004.jpg",
+      "bytes": 129351
+    },
+    {
+      "path": "cache/watch/watch-htif3d3t/frames/frame_0005.jpg",
+      "bytes": 129006
+    },
+    {
+      "path": "cache/watch/watch-htif3d3t/frames/frame_0006.jpg",
+      "bytes": 132622
+    },
+    {
+      "path": "cache/watch/watch-htif3d3t/frames/frame_0007.jpg",
+      "bytes": 142544
+    },
+    {
+      "path": "cache/watch/watch-htif3d3t/frames/frame_0008.jpg",
+      "bytes": 147782
+    },
+    {
+      "path": "cache/watch/watch-htif3d3t/frames/frame_0009.jpg",
+      "bytes": 149871
+    },
+    {
+      "path": "cache/watch/watch-htif3d3t/frames/frame_0010.jpg",
+      "bytes": 150196
+    },
+    {
+      "path": "cache/watch/watch-htif3d3t/frames/frame_0011.jpg",
+      "bytes": 150486
+    },
+    {
+      "path": "cache/watch/watch-htif3d3t/frames/frame_0012.jpg",
+      "bytes": 150115
+    },
+    {
+      "path": "cache/watch/watch-km7n1c0m/frames/cue_0000.jpg",
+      "bytes": 166591
+    },
+    {
+      "path": "cache/watch/watch-km7n1c0m/frames/cue_0001.jpg",
+      "bytes": 159580
+    },
+    {
+      "path": "cache/watch/watch-km7n1c0m/frames/cue_0002.jpg",
+      "bytes": 148846
+    },
+    {
+      "path": "cache/watch/watch-km7n1c0m/frames/cue_0003.jpg",
+      "bytes": 189964
+    },
+    {
+      "path": "cache/watch/watch-km7n1c0m/frames/cue_0004.jpg",
+      "bytes": 154626
+    },
+    {
+      "path": "cache/watch/watch-km7n1c0m/frames/cue_0005.jpg",
+      "bytes": 159599
+    },
+    {
+      "path": "cache/watch/watch-km7n1c0m/frames/cue_0006.jpg",
+      "bytes": 150241
+    },
+    {
+      "path": "cache/watch/watch-km7n1c0m/frames/cue_0007.jpg",
+      "bytes": 161620
+    },
+    {
+      "path": "cache/watch/watch-km7n1c0m/frames/cue_0008.jpg",
+      "bytes": 182811
+    },
+    {
+      "path": "cache/watch/watch-km7n1c0m/frames/cue_0009.jpg",
+      "bytes": 175147
+    },
+    {
+      "path": "cache/watch/watch-km7n1c0m/frames/cue_0010.jpg",
+      "bytes": 183247
+    },
+    {
+      "path": "cache/watch/watch-km7n1c0m/frames/cue_0011.jpg",
+      "bytes": 182003
+    },
+    {
+      "path": "cache/watch/watch-km7n1c0m/frames/cue_0012.jpg",
+      "bytes": 183349
+    },
+    {
+      "path": "cache/watch/watch-km7n1c0m/frames/cue_0013.jpg",
+      "bytes": 172598
+    },
+    {
+      "path": "cache/watch/watch-lhh44ipy/frames/cue_0000.jpg",
+      "bytes": 168037
+    },
+    {
+      "path": "cache/watch/watch-lhh44ipy/frames/cue_0001.jpg",
+      "bytes": 128400
+    },
+    {
+      "path": "cache/watch/watch-lhh44ipy/frames/cue_0002.jpg",
+      "bytes": 185743
+    },
+    {
+      "path": "cache/watch/watch-lhh44ipy/frames/cue_0003.jpg",
+      "bytes": 154029
+    },
+    {
+      "path": "cache/watch/watch-lhh44ipy/frames/cue_0004.jpg",
+      "bytes": 130324
+    },
+    {
+      "path": "cache/watch/watch-lhh44ipy/frames/cue_0005.jpg",
+      "bytes": 182822
+    },
+    {
+      "path": "cache/watch/watch-lhh44ipy/frames/cue_0006.jpg",
+      "bytes": 169446
+    },
+    {
+      "path": "cache/watch/watch-lhh44ipy/frames/cue_0007.jpg",
+      "bytes": 171528
+    },
+    {
+      "path": "cache/watch/watch-lhh44ipy/frames/cue_0008.jpg",
+      "bytes": 132175
+    },
+    {
+      "path": "cache/watch/watch-lhh44ipy/frames/cue_0009.jpg",
+      "bytes": 154956
+    },
+    {
+      "path": "cache/watch/watch-lhh44ipy/frames/cue_0010.jpg",
+      "bytes": 164188
+    },
+    {
+      "path": "cache/watch/watch-lhh44ipy/frames/cue_0011.jpg",
+      "bytes": 159913
+    },
+    {
+      "path": "cache/watch/watch-lhh44ipy/frames/cue_0012.jpg",
+      "bytes": 192814
+    },
+    {
+      "path": "cache/watch/watch-lhh44ipy/frames/cue_0013.jpg",
+      "bytes": 182349
+    },
+    {
+      "path": "cache/watch/watch-ul3i4i1o/frames/cue_0000.jpg",
+      "bytes": 129398
+    },
+    {
+      "path": "cache/watch/watch-ul3i4i1o/frames/cue_0001.jpg",
+      "bytes": 150169
+    },
+    {
+      "path": "cache/watch/watch-ul3i4i1o/frames/cue_0002.jpg",
+      "bytes": 156536
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-001/build.jsx",
+      "bytes": 10534
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-001/execution.log",
+      "bytes": 266
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-001/failed-stage.aep",
+      "bytes": 3216785
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-001/inputs/main/project.aep",
+      "bytes": 3358811
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-001/inputs/palette/project.aep",
+      "bytes": 88873
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-001/plan.json",
+      "bytes": 1353
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-001/receipt.json",
+      "bytes": 176
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-001/request.json",
+      "bytes": 2129
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 3158223
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/aerender.log",
+      "bytes": 17451
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/build.jsx",
+      "bytes": 10654
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/execution.log",
+      "bytes": 25511
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/final.mp4",
+      "bytes": 34275267
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/inputs/main/project.aep",
+      "bytes": 3358811
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/inputs/palette/project.aep",
+      "bytes": 88873
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/native-still-100.png",
+      "bytes": 2754622
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/native-still-120.png",
+      "bytes": 2570892
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/native-still-132.png",
+      "bytes": 2412450
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/native-still-144.png",
+      "bytes": 2291491
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/native-still-156.png",
+      "bytes": 1716764
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/native-still-168.png",
+      "bytes": 2148269
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/native-still-173.png",
+      "bytes": 2126209
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/native-still-180.png",
+      "bytes": 2176594
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/native-still-184.png",
+      "bytes": 2204081
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/native-still-189.png",
+      "bytes": 2166518
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/native-still-192.png",
+      "bytes": 2158138
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/plan.json",
+      "bytes": 1353
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/project.aep",
+      "bytes": 3157119
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/project.aep 日志/AE 2026-11-6 23-17-05.txt",
+      "bytes": 13264
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/quality.json",
+      "bytes": 1126
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/receipt.json",
+      "bytes": 7650
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/request.json",
+      "bytes": 2129
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-002/scene-quality.json",
+      "bytes": 1905
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 3262995
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/aerender.log",
+      "bytes": 17516
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/build.jsx",
+      "bytes": 11360
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/execution.log",
+      "bytes": 27907
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/project.aep 日志/AE 2026-11-6 23-20-53.txt",
+      "bytes": 13308
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 3263005
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/aerender.log",
+      "bytes": 17408
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/build.jsx",
+      "bytes": 11391
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/execution.log",
+      "bytes": 27907
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/project.aep 日志/AE 2026-11-6 23-24-07.txt",
+      "bytes": 13174
+    }
+  ],
+  "authorization": "User requested keeping only deliverables after library publication; scope restricted to this independent lab"
+}

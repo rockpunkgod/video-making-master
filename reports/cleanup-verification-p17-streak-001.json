@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "retained_delivery_files": 1111,
+  "changed": [],
+  "cleanup": "reports/cleanup-result-p17-streak-001.json",
+  "active_learning_inputs": [
+    "cache/course-hires/BV1Yh4y1A7XT-p17-1080.mp4",
+    "cache/watch/watch-ed4ubkh8/download/run-zqk0bbs2/video.mp4",
+    "cache/local-transcripts/BV1Yh4y1A7XT-p17-full-001/transcript.json",
+    "cache/watch/watch-np66m_gx/frames"
+  ],
+  "scope": "Completed streak branch only cleaned; unfinished cyber-line learning source outside scopes retained"
+}
