@@ -1,0 +1,43 @@
+{
+  "name": "COURSE_ORBIT_PROJECTIONS",
+  "animation": "orbit-projections",
+  "motion_expectation": "required",
+  "width": 800,
+  "height": 800,
+  "native_width": 400,
+  "native_height": 400,
+  "duration": 10,
+  "fps": 30,
+  "center": [
+    200,
+    200
+  ],
+  "radius": 80,
+  "speed": 2,
+  "projection_offset": 150,
+  "guides": false,
+  "spin": true,
+  "asset": "E:/自媒体/video-skills-lab/samples/course2-orbit-001/grid-001/assets/disc.png",
+  "background": [
+    0,
+    0.2,
+    0.145
+  ],
+  "yellow": [
+    1,
+    1,
+    0.6
+  ],
+  "purple": [
+    0.64,
+    0.56,
+    1
+  ],
+  "inferred": [
+    "Disc40,projection dots20,center dot10 from visible ratios",
+    "Background/purple colors approximated from footage, yellow255/255/153 visible in Info",
+    "Guide extent280 inferred; parentage and55percent opacity observed",
+    "2x output wrapper is self adaptation; source native400square explicitly spoken"
+  ],
+  "variant": true
+}

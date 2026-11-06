@@ -1,0 +1,63 @@
+{
+  "status": "candidate_native_suite_passed_human_review_pending",
+  "skill": "ae-advanced-expressions",
+  "version": "0.10.0",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=29",
+  "native_cases": 6,
+  "decoded_frames": 1800,
+  "native_pngs_viewed": 60,
+  "tests": "skills/after-effects/ae-advanced-expressions/tests/orbit-projections-results.json",
+  "learning_coverage": {
+    "video_seconds": 1811.28,
+    "audio_seconds": 905.749167,
+    "source_video_sha256": "55b15fe978d44e09629acc3ffcc0984ebe4f02f7b92f817c853b5ec631ef5bfa",
+    "global_frames_viewed": 18,
+    "technical_frames_viewed": 20,
+    "transcript_segments": 243,
+    "last_speech_end": 903.26,
+    "all_transcript_segments_read": true,
+    "ASR_existing_local_only": true,
+    "transcript_sha256": "e47cc614c77f30b9dca93e8e5ebac0254f72e8798698e56ffb70319a123fe42d",
+    "video_only_tail": "Only sparse global visual checks; no full duplicate or complete detail assertion"
+  },
+  "source_formulas": {
+    "orbit": "center=thisComp.layer(\"中心点\").transform.position;\nradius=80;\nangle=time*2;\nx=Math.cos(angle)*radius;\ny=Math.sin(angle)*radius;\nadd(center,[x,y])",
+    "x": "center=thisComp.layer(\"中心点\").transform.position;\nradius=80;\nangle=time*2;\nx=Math.cos(angle)*radius;\ny=150;\nadd(center,[x,y])",
+    "y": "center=thisComp.layer(\"中心点\").transform.position;\nradius=80;\nangle=time*2;\nx=150;\ny=Math.sin(angle)*radius;\nadd(center,[x,y])",
+    "rotation": "(time/Math.PI)*360"
+  },
+  "independent_call": {
+    "case": "variation-isolated-001",
+    "copied_skill_only": true,
+    "different_working_directory": true,
+    "native_build_render": true,
+    "radius": 60,
+    "speed": -1.4
+  },
+  "media_audit": "reports/native-media-dependencies-course2-orbit.json",
+  "human_review": {
+    "status": "pending",
+    "case": "baseline-001",
+    "video_sha256": "43b58eda475b244090bf37472febc4939b70cddce26887ff53db138486f746a9",
+    "comparison": "cache/reviews/course2-p29-orbit-002/comparison.mp4",
+    "source_interval": "14:27–14:32",
+    "candidate_interval": "0–5seconds",
+    "frame_sync": "Unverified: source timeline dragging versus continuous expression rendering; no speed equivalence claim"
+  },
+  "max_movie_projection_error": 1.1848795202308224,
+  "limitations": [
+    "Disc40,projection dots20,center dot10 from visible ratios",
+    "Background/purple colors approximated from footage, yellow255/255/153 visible in Info",
+    "Guide extent280 inferred; parentage and55percent opacity observed",
+    "2x output wrapper is self adaptation; source native400square explicitly spoken",
+    "10seconds30fps inferred from timeline/preview, not directly read CompSettings",
+    "Circle ring is a static prepared layer; no source expression making it follow center edits recovered",
+    "Current400native/800output square,10seconds30fps only",
+    "Radius40–90 and speed magnitude.2–4 accepted by builder; empirical tests only listed configurations",
+    "Arbitrary non-square/transparent/video inputs not validated beyond three100squareRGB fixtures",
+    "No general dynamic center/guide layout adaptation; moving center inAE does not automatically move prepared ring",
+    "Original artwork/color identity and exact temporal sync not established",
+    "Human course review pending; entire18sources/166chapters unfinished"
+  ],
+  "whole_goal_complete": false
+}

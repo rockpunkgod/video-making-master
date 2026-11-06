@@ -10,6 +10,13 @@ from launch_adobe import child_environment
 
 def check_output(root,cfg):
     report=validate(root/'final.mp4',cfg)
+    if cfg.get('animation')=='orbit-projections':
+        from validate_orbit_projections import validate as orbit_validate
+        audit=orbit_validate(root)
+        report['orbit_quality']='orbit-quality.json'
+        report['course_fidelity']='original_no_keyframe_method_pending_review'
+        report['delivery_status']='candidate_unaccepted'
+        if audit['status']!='passed':report['status']='failed'
     if cfg.get('animation')=='rotation-slider':
         from validate_rotation_slider import validate as rotation_validate
         audit=rotation_validate(root)

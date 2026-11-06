@@ -1,0 +1,254 @@
+{
+  "count": 38,
+  "frames": [
+    {
+      "path": "cache/watch/watch-c_a5xs4q/frames/frame_0001.jpg",
+      "sha256": "44d7b0c4a21714483563ef46dac0a576c14951bd4203bdcb664326ea60ed9c2c",
+      "viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-c_a5xs4q/frames/frame_0009.jpg",
+      "sha256": "a636d856fe3a26518b1b0d06d74b7a172c995ee0e90aaf38d37b347cda707d84",
+      "viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-c_a5xs4q/frames/frame_0021.jpg",
+      "sha256": "022fdcf2d6f13a75be44235e53cb79956874bc3f5cab512ca1c8e07eb03a67a9",
+      "viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-c_a5xs4q/frames/frame_0063.jpg",
+      "sha256": "f6c4933cc3eb153fe7044e032d23930d7b7df49ed7c8c6922f7f6eb6debc05fb",
+      "viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-c_a5xs4q/frames/frame_0094.jpg",
+      "sha256": "283623336a73764350c1c45cd622d48e6764ac204d2ff2b9c450d9ef513c4df8",
+      "viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-c_a5xs4q/frames/frame_0115.jpg",
+      "sha256": "575f50f86385654bcf61c8389a4c3372824aed7de58f9ab17ae4577290e36ae3",
+      "viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-c_a5xs4q/frames/frame_0126.jpg",
+      "sha256": "80391c48f93c3f20808fd81c748597efe9743eecbbe84adb2133993299e84a9e",
+      "viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-c_a5xs4q/frames/frame_0142.jpg",
+      "sha256": "b84fa830056f71d9d60cb10f169823e63d03a9ae1090c4e695425a8a764ebdbf",
+      "viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-c_a5xs4q/frames/frame_0152.jpg",
+      "sha256": "2877d9cbf20a5e0f779198ef09e9f48bd924fd411331b0e66327945f2b7a9803",
+      "viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-c_a5xs4q/frames/frame_0185.jpg",
+      "sha256": "421e1b0a844701a659043808e7d7adf6cfd6483e06ad32e38ff032cc4a54a8bd",
+      "viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-c_a5xs4q/frames/frame_0193.jpg",
+      "sha256": "f5c9ff6bfdb1910d72568ae75a5163fa01ba8175aba60949be06fa21e7146c21",
+      "viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-c_a5xs4q/frames/frame_0208.jpg",
+      "sha256": "4a61ac6d77f317612566b985e4d5299495ad9de3b8074df3c25f65444aa0ab1c",
+      "viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-c_a5xs4q/frames/frame_0251.jpg",
+      "sha256": "8ceb084dff08eb1ec5fea6b49abca47d0eed1244dbff63f7f3deab955801c020",
+      "viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-c_a5xs4q/frames/frame_0283.jpg",
+      "sha256": "6b1cc368a06833356c964f4a33ba428d4f25438c6b7a5c5f34adef6bd00cacf9",
+      "viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-c_a5xs4q/frames/frame_0303.jpg",
+      "sha256": "7307e46224cc4a66ece748d10390208c05e7c01c4acc1f815127f9dfc53d9282",
+      "viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-c_a5xs4q/frames/frame_0317.jpg",
+      "sha256": "8b8e2151d261ea976977d307f48b30c8b853f86d5d8337ee33795ab691831275",
+      "viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-c_a5xs4q/frames/frame_0330.jpg",
+      "sha256": "69ca7a7344d82b415561ac90f7c8354f8eafaf4d68960979d5773b645e3ce3b8",
+      "viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-c_a5xs4q/frames/frame_0363.jpg",
+      "sha256": "29a6814b83ce8bba8f03e512f07f1987d76abcc0aac9743b22ddcbd439387bfb",
+      "viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-zifv2zz1/frames/cue_0000.jpg",
+      "sha256": "2966093bfe58f9707123688c5096a4daafbf8f2f583171df0155279147832333",
+      "viewed": true,
+      "source_time_requested": "01:40",
+      "kind": "technical"
+    },
+    {
+      "path": "cache/watch/watch-zifv2zz1/frames/cue_0001.jpg",
+      "sha256": "97c54b1bfcea235cf5a4663f3cfa64af8e4a8424a9915c7a7bf556d76597e3e8",
+      "viewed": true,
+      "source_time_requested": "05:10",
+      "kind": "technical"
+    },
+    {
+      "path": "cache/watch/watch-zifv2zz1/frames/cue_0002.jpg",
+      "sha256": "bc96992fcf7c3231dd558cf78ced7712e289c4271c6a1c8e4d88b740f89afa44",
+      "viewed": true,
+      "source_time_requested": "07:41",
+      "kind": "technical"
+    },
+    {
+      "path": "cache/watch/watch-zifv2zz1/frames/cue_0003.jpg",
+      "sha256": "22f4ed18ec79f9c4d0e1c49a90c6d834e9a903cf696b940ca367cca4fd23e9f7",
+      "viewed": true,
+      "source_time_requested": "09:26",
+      "kind": "technical"
+    },
+    {
+      "path": "cache/watch/watch-zifv2zz1/frames/cue_0004.jpg",
+      "sha256": "40f2815cdcada38b62c5b9adaae1d2405b3416b926a655c33f63f1296342332e",
+      "viewed": true,
+      "source_time_requested": "10:21",
+      "kind": "technical"
+    },
+    {
+      "path": "cache/watch/watch-zifv2zz1/frames/cue_0005.jpg",
+      "sha256": "9cacc54ad4c27b103b61f85d5fcdae0a5b22c258cddf23027d62cb81edea22cf",
+      "viewed": true,
+      "source_time_requested": "11:41",
+      "kind": "technical"
+    },
+    {
+      "path": "cache/watch/watch-zifv2zz1/frames/cue_0006.jpg",
+      "sha256": "85dfad40b1054c2432292c9832578ac6f14f91d59c807db9753f9c777a12de07",
+      "viewed": true,
+      "source_time_requested": "12:31",
+      "kind": "technical"
+    },
+    {
+      "path": "cache/watch/watch-zifv2zz1/frames/cue_0007.jpg",
+      "sha256": "f3f8b88c86f989e76cacbd6757c22de135e964b88799f9753202d4bd2e1b7c60",
+      "viewed": true,
+      "source_time_requested": "13:30",
+      "kind": "technical"
+    },
+    {
+      "path": "cache/watch/watch-zifv2zz1/frames/cue_0008.jpg",
+      "sha256": "8dc00a9bb629665da4b7c5597e5babcb506af261f8a41b6e00d9a7fe4d57503e",
+      "viewed": true,
+      "source_time_requested": "14:10",
+      "kind": "technical"
+    },
+    {
+      "path": "cache/watch/watch-zifv2zz1/frames/cue_0009.jpg",
+      "sha256": "3dd1d87d442696cc65bf5a43f0c7e43160c999c5e0b91ef31aba90caf62f9436",
+      "viewed": true,
+      "source_time_requested": "14:55",
+      "kind": "technical"
+    },
+    {
+      "path": "cache/watch/watch-x1mequ3v/frames/cue_0000.jpg",
+      "sha256": "cd22640451dcac1ef7f46efba8545c4a4c4c28f43c44fc298715d44c973c2e80",
+      "viewed": true,
+      "source_time_requested": "08:30",
+      "kind": "technical"
+    },
+    {
+      "path": "cache/watch/watch-x1mequ3v/frames/cue_0001.jpg",
+      "sha256": "9e6c8a2c48008e82cde03b72e65189d93ba7ab7ceeda126cf72f1820be7d392b",
+      "viewed": true,
+      "source_time_requested": "09:00",
+      "kind": "technical"
+    },
+    {
+      "path": "cache/watch/watch-x1mequ3v/frames/cue_0002.jpg",
+      "sha256": "3b2adb033403ebcd242294469d4b751f71bbf2190748782d556c7ad202b058e4",
+      "viewed": true,
+      "source_time_requested": "10:00",
+      "kind": "technical"
+    },
+    {
+      "path": "cache/watch/watch-x1mequ3v/frames/cue_0003.jpg",
+      "sha256": "494a8a1c4c7521ae10cda5d528a35edc6d624011913ac6e0b15f3f9290f5ce5c",
+      "viewed": true,
+      "source_time_requested": "11:10",
+      "kind": "technical"
+    },
+    {
+      "path": "cache/watch/watch-x1mequ3v/frames/cue_0004.jpg",
+      "sha256": "5f956ba36147ab4c4d9b1429605f89dc5b0afa630ed1e198abf66dabbf68d677",
+      "viewed": true,
+      "source_time_requested": "12:00",
+      "kind": "technical"
+    },
+    {
+      "path": "cache/watch/watch-x1mequ3v/frames/cue_0005.jpg",
+      "sha256": "6a116599fad7782ad5a13e125826c1f02b42b0c3b9d44fa0e392b3063a75d9fd",
+      "viewed": true,
+      "source_time_requested": "12:45",
+      "kind": "technical"
+    },
+    {
+      "path": "cache/watch/watch-x1mequ3v/frames/cue_0006.jpg",
+      "sha256": "f66325d2d9c12f97a88786ebf9657e2b51fe0aaa10b653777aec960493472859",
+      "viewed": true,
+      "source_time_requested": "13:00",
+      "kind": "technical"
+    },
+    {
+      "path": "cache/watch/watch-x1mequ3v/frames/cue_0007.jpg",
+      "sha256": "4b81e89047ca9d7274b5cb7674d9adf591cc109dcfec130ec0b3713631771cbc",
+      "viewed": true,
+      "source_time_requested": "13:45",
+      "kind": "technical"
+    },
+    {
+      "path": "cache/watch/watch-x1mequ3v/frames/cue_0008.jpg",
+      "sha256": "148f13f2aad12736981d861109bf04b936cf66f33e99130bca3379cd68c2857e",
+      "viewed": true,
+      "source_time_requested": "14:30",
+      "kind": "technical"
+    },
+    {
+      "path": "cache/watch/watch-x1mequ3v/frames/cue_0009.jpg",
+      "sha256": "9ae314235698231962e72a375311347767878825950b8508d1fc30a6afeb9402",
+      "viewed": true,
+      "source_time_requested": "15:00",
+      "kind": "technical"
+    }
+  ],
+  "distribution": "Only frame hashes and source timestamps retained; tutorial images not distributed"
+}

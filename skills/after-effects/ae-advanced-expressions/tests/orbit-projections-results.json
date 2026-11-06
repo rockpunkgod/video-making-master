@@ -1,0 +1,421 @@
+{
+  "skill": "ae-advanced-expressions",
+  "version": "0.10.0",
+  "unit": "orbit_projections",
+  "status": "candidate_native_suite_passed_human_review_pending",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=29",
+  "cases": [
+    {
+      "case": "baseline-001",
+      "directory": "samples/course2-orbit-001/baseline-001",
+      "project_sha256": "50b0e8fee00463039c0b13ac8eddbd393d9106268b660b4a9353f5abbd85c5d3",
+      "video_sha256": "43b58eda475b244090bf37472febc4939b70cddce26887ff53db138486f746a9",
+      "frames": 300,
+      "native_formula_error": 2.27373675443232e-13,
+      "native_motion_keys": 0,
+      "native_reopened": true,
+      "native_edit": {
+        "original": [
+          200,
+          200,
+          0
+        ],
+        "edited_center": [
+          205,
+          207,
+          0
+        ],
+        "edited_orbit": [
+          285,
+          207,
+          0
+        ],
+        "restored": [
+          200,
+          200,
+          0
+        ]
+      },
+      "guide_properties": {
+        "enabled": false,
+        "x_parent": "x_控制",
+        "y_parent": "y_控制",
+        "x_opacity": 55,
+        "y_opacity": 55
+      },
+      "movie_projection_max_error": 1.13459831926707,
+      "split_disc_center_max_error": 1.079898340263171,
+      "split_disc_phase_max_error_degrees": 5.721208360194795,
+      "checks": {
+        "full_movie": true,
+        "all_projection_frames": true,
+        "movie_projection_trajectory": true,
+        "native_reopened": true,
+        "native_formulas": true,
+        "zero_motion_keys": true,
+        "no_expression_errors": true,
+        "media": true,
+        "guide_parentage": true,
+        "split_disc_center": true,
+        "split_disc_phase": true
+      },
+      "visual_review": "Ten actual native PNGs viewed in320px contact sheet; three baseline PNGs also inspected at full size",
+      "skipped_checks": []
+    },
+    {
+      "case": "guides-001",
+      "directory": "samples/course2-orbit-001/guides-001",
+      "project_sha256": "fdaad4e69e8998131ddfea36d40b6e90e43b46f8a3255fff3793a31391182050",
+      "video_sha256": "006adc05d16175c090338d698c22383e8230acd26c1fae6cae54753eb07666ff",
+      "frames": 300,
+      "native_formula_error": 2.8421709430404e-14,
+      "native_motion_keys": 0,
+      "native_reopened": true,
+      "native_edit": {
+        "original": [
+          200,
+          200,
+          0
+        ],
+        "edited_center": [
+          205,
+          207,
+          0
+        ],
+        "edited_orbit": [
+          285,
+          207,
+          0
+        ],
+        "restored": [
+          200,
+          200,
+          0
+        ]
+      },
+      "guide_properties": {
+        "enabled": true,
+        "x_parent": "x_控制",
+        "y_parent": "y_控制",
+        "x_opacity": 55,
+        "y_opacity": 55
+      },
+      "movie_projection_max_error": 1.1026942069126449,
+      "split_disc_center_max_error": 0.8636774235522996,
+      "split_disc_phase_max_error_degrees": 5.177822668870774,
+      "checks": {
+        "full_movie": true,
+        "all_projection_frames": true,
+        "movie_projection_trajectory": true,
+        "native_reopened": true,
+        "native_formulas": true,
+        "zero_motion_keys": true,
+        "no_expression_errors": true,
+        "media": true,
+        "guide_parentage": true,
+        "split_disc_center": true,
+        "split_disc_phase": true
+      },
+      "visual_review": "Ten actual native PNGs viewed in320px contact sheet; three baseline PNGs also inspected at full size",
+      "skipped_checks": []
+    },
+    {
+      "case": "grid-001",
+      "directory": "samples/course2-orbit-001/grid-001",
+      "project_sha256": "9b3b0097498601cc581b512222eea507443ba75a437c4920c426a9631d108b59",
+      "video_sha256": "0d06c20067fd4f6a4ea3244b2aeecff2489360e72fc7b6d8ab47e403b451feea",
+      "frames": 300,
+      "native_formula_error": 2.27373675443232e-13,
+      "native_motion_keys": 0,
+      "native_reopened": true,
+      "native_edit": {
+        "original": [
+          200,
+          200,
+          0
+        ],
+        "edited_center": [
+          205,
+          207,
+          0
+        ],
+        "edited_orbit": [
+          285,
+          207,
+          0
+        ],
+        "restored": [
+          200,
+          200,
+          0
+        ]
+      },
+      "guide_properties": {
+        "enabled": false,
+        "x_parent": "x_控制",
+        "y_parent": "y_控制",
+        "x_opacity": 55,
+        "y_opacity": 55
+      },
+      "movie_projection_max_error": 1.1848795202308224,
+      "split_disc_center_max_error": null,
+      "split_disc_phase_max_error_degrees": null,
+      "checks": {
+        "full_movie": true,
+        "all_projection_frames": true,
+        "movie_projection_trajectory": true,
+        "native_reopened": true,
+        "native_formulas": true,
+        "zero_motion_keys": true,
+        "no_expression_errors": true,
+        "media": true,
+        "guide_parentage": true
+      },
+      "visual_review": "Ten actual native PNGs viewed in320px contact sheet; three baseline PNGs also inspected at full size",
+      "skipped_checks": [
+        "split_disc_center",
+        "split_disc_phase"
+      ]
+    },
+    {
+      "case": "type-001",
+      "directory": "samples/course2-orbit-001/type-001",
+      "project_sha256": "be4dafd2ee582e9f7bb1496b576779ab1131991fe5ba7fb9b00415a41756aaf1",
+      "video_sha256": "d98556f9ba7e28ea5e434b2f76f94436dc00e3b6b8f33db008c3f8ce68f9e8b0",
+      "frames": 300,
+      "native_formula_error": 2.27373675443232e-13,
+      "native_motion_keys": 0,
+      "native_reopened": true,
+      "native_edit": {
+        "original": [
+          200,
+          200,
+          0
+        ],
+        "edited_center": [
+          205,
+          207,
+          0
+        ],
+        "edited_orbit": [
+          285,
+          207,
+          0
+        ],
+        "restored": [
+          200,
+          200,
+          0
+        ]
+      },
+      "guide_properties": {
+        "enabled": false,
+        "x_parent": "x_控制",
+        "y_parent": "y_控制",
+        "x_opacity": 55,
+        "y_opacity": 55
+      },
+      "movie_projection_max_error": 1.1282021279778007,
+      "split_disc_center_max_error": null,
+      "split_disc_phase_max_error_degrees": null,
+      "checks": {
+        "full_movie": true,
+        "all_projection_frames": true,
+        "movie_projection_trajectory": true,
+        "native_reopened": true,
+        "native_formulas": true,
+        "zero_motion_keys": true,
+        "no_expression_errors": true,
+        "media": true,
+        "guide_parentage": true
+      },
+      "visual_review": "Ten actual native PNGs viewed in320px contact sheet; three baseline PNGs also inspected at full size",
+      "skipped_checks": [
+        "split_disc_center",
+        "split_disc_phase"
+      ]
+    },
+    {
+      "case": "map-001",
+      "directory": "samples/course2-orbit-001/map-001",
+      "project_sha256": "7f9f5b19c2b2d90d44373a0263f8e8f6b9be6ce9a6492121cfdb380f70797daa",
+      "video_sha256": "30708ccee3feda78670fcd94aacca91846e4553ca770c53a4235061abecd3ff1",
+      "frames": 300,
+      "native_formula_error": 2.27373675443232e-13,
+      "native_motion_keys": 0,
+      "native_reopened": true,
+      "native_edit": {
+        "original": [
+          200,
+          200,
+          0
+        ],
+        "edited_center": [
+          205,
+          207,
+          0
+        ],
+        "edited_orbit": [
+          285,
+          207,
+          0
+        ],
+        "restored": [
+          200,
+          200,
+          0
+        ]
+      },
+      "guide_properties": {
+        "enabled": false,
+        "x_parent": "x_控制",
+        "y_parent": "y_控制",
+        "x_opacity": 55,
+        "y_opacity": 55
+      },
+      "movie_projection_max_error": 1.1585239971740862,
+      "split_disc_center_max_error": null,
+      "split_disc_phase_max_error_degrees": null,
+      "checks": {
+        "full_movie": true,
+        "all_projection_frames": true,
+        "movie_projection_trajectory": true,
+        "native_reopened": true,
+        "native_formulas": true,
+        "zero_motion_keys": true,
+        "no_expression_errors": true,
+        "media": true,
+        "guide_parentage": true
+      },
+      "visual_review": "Ten actual native PNGs viewed in320px contact sheet; three baseline PNGs also inspected at full size",
+      "skipped_checks": [
+        "split_disc_center",
+        "split_disc_phase"
+      ]
+    },
+    {
+      "case": "variation-isolated-001",
+      "directory": "samples/course2-orbit-001/variation-isolated-001",
+      "project_sha256": "c779be3656a3b0db50c5de7a219d8118db142e94a25a9f476d66bacb2a3abdd2",
+      "video_sha256": "d8b7987dcc7473223b62fa9d51107e14b399bad386e64030f93f2fd705bcd9ff",
+      "frames": 300,
+      "native_formula_error": 1.13686837721616e-13,
+      "native_motion_keys": 0,
+      "native_reopened": true,
+      "native_edit": {
+        "original": [
+          200,
+          200,
+          0
+        ],
+        "edited_center": [
+          205,
+          207,
+          0
+        ],
+        "edited_orbit": [
+          265,
+          207,
+          0
+        ],
+        "restored": [
+          200,
+          200,
+          0
+        ]
+      },
+      "guide_properties": {
+        "enabled": false,
+        "x_parent": "x_控制",
+        "y_parent": "y_控制",
+        "x_opacity": 55,
+        "y_opacity": 55
+      },
+      "movie_projection_max_error": 1.1482852334296467,
+      "split_disc_center_max_error": 1.068965730704865,
+      "split_disc_phase_max_error_degrees": 6.128651371587485,
+      "checks": {
+        "full_movie": true,
+        "all_projection_frames": true,
+        "movie_projection_trajectory": true,
+        "native_reopened": true,
+        "native_formulas": true,
+        "zero_motion_keys": true,
+        "no_expression_errors": true,
+        "media": true,
+        "guide_parentage": true,
+        "split_disc_center": true,
+        "split_disc_phase": true
+      },
+      "visual_review": "Ten actual native PNGs viewed in320px contact sheet; three baseline PNGs also inspected at full size",
+      "skipped_checks": []
+    }
+  ],
+  "native_cases": 6,
+  "decoded_frames": 1800,
+  "native_pngs_viewed": 60,
+  "source_formulas": {
+    "orbit": "center=thisComp.layer(\"中心点\").transform.position;\nradius=80;\nangle=time*2;\nx=Math.cos(angle)*radius;\ny=Math.sin(angle)*radius;\nadd(center,[x,y])",
+    "x": "center=thisComp.layer(\"中心点\").transform.position;\nradius=80;\nangle=time*2;\nx=Math.cos(angle)*radius;\ny=150;\nadd(center,[x,y])",
+    "y": "center=thisComp.layer(\"中心点\").transform.position;\nradius=80;\nangle=time*2;\nx=150;\ny=Math.sin(angle)*radius;\nadd(center,[x,y])",
+    "rotation": "(time/Math.PI)*360"
+  },
+  "observed": [
+    "Native400square spoken305–308s;center200/200",
+    "Radius80,angle=time*2,cosX,sinY,add(center,[x,y])",
+    "X-controly150,Y-controlx150",
+    "Independent guide parents and55opacity; hidden later",
+    "Rotation(time/Math.PI)*360; zero authored motion keys"
+  ],
+  "inferred": [
+    "Disc40,projection dots20,center dot10 from visible ratios",
+    "Background/purple colors approximated from footage, yellow255/255/153 visible in Info",
+    "Guide extent280 inferred; parentage and55percent opacity observed",
+    "2x output wrapper is self adaptation; source native400square explicitly spoken",
+    "10seconds30fps inferred from timeline/preview, not directly read CompSettings",
+    "Circle ring is a static prepared layer; no source expression making it follow center edits recovered"
+  ],
+  "independent_call": {
+    "case": "variation-isolated-001",
+    "copied_skill_only": true,
+    "different_working_directory": true,
+    "native_build_render": true,
+    "radius": 60,
+    "speed": -1.4
+  },
+  "cross_material": "Three original100square RGB fixtures:grid,type,map, each native normalized40square and actually rendered",
+  "movie_quality_scope": "Both projection-dot trajectories all300frames; own split-disc purple centroid/phase all300frames. Arbitrary image pixels not automatically measured.",
+  "negative_control": "samples/course2-orbit-001/baseline-001/negative-frozen.json rejects projection and split-disc behavior",
+  "media_audit": "reports/native-media-dependencies-course2-orbit.json",
+  "human_review": {
+    "status": "pending",
+    "case": "baseline-001",
+    "video_sha256": "43b58eda475b244090bf37472febc4939b70cddce26887ff53db138486f746a9",
+    "comparison": "cache/reviews/course2-p29-orbit-002/comparison.mp4",
+    "source_interval": "14:27–14:32",
+    "candidate_interval": "0–5seconds",
+    "frame_sync": "Unverified: source timeline dragging versus continuous expression rendering; no speed equivalence claim"
+  },
+  "learning_coverage": {
+    "video_seconds": 1811.28,
+    "audio_seconds": 905.749167,
+    "source_video_sha256": "55b15fe978d44e09629acc3ffcc0984ebe4f02f7b92f817c853b5ec631ef5bfa",
+    "global_frames_viewed": 18,
+    "technical_frames_viewed": 20,
+    "transcript_segments": 243,
+    "last_speech_end": 903.26,
+    "all_transcript_segments_read": true,
+    "ASR_existing_local_only": true,
+    "transcript_sha256": "e47cc614c77f30b9dca93e8e5ebac0254f72e8798698e56ffb70319a123fe42d",
+    "video_only_tail": "Only sparse global visual checks; no full duplicate or complete detail assertion"
+  },
+  "limitations": [
+    "Current400native/800output square,10seconds30fps only",
+    "Radius40–90 and speed magnitude.2–4 accepted by builder; empirical tests only listed configurations",
+    "Arbitrary non-square/transparent/video inputs not validated beyond three100squareRGB fixtures",
+    "No general dynamic center/guide layout adaptation; moving center inAE does not automatically move prepared ring",
+    "Original artwork/color identity and exact temporal sync not established",
+    "Human course review pending; entire18sources/166chapters unfinished"
+  ],
+  "whole_goal_complete": false
+}

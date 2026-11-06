@@ -1,6 +1,6 @@
 # video-skills-lab
 
-第28节旋转滑动完成8例原生AEP/视频、720帧及三组新矢量、独立调用、原式300边界与修复对照。18个校准点加两个未参与拟合状态的7个原生投影检查通过；相机/布局和41帧末键仍为明确推定，整体人工反馈待答，ae-advanced-expressions0.9.0保持candidate。现保留106组原生交付，总目标未完成。见evaluations/course2-p28-rotation-study-001/summary.json。
+第29节时间圆周运动已完成6例原生AEP/视频、1800帧、三新图片及独立复制调用，零运动键；视频投影点和双色圆圆心/相位检查通过。源素材/色彩适配、时间轴拖动未同步，整体反馈待答，ae-advanced-expressions0.10.0保持candidate。现保留112组原生交付，总目标未完成。见evaluations/course2-p29-orbit-001/summary.json。
 
 第25节新增随动放大镜候选：5份真实AEP/视频、750帧检查、65张原生时点/效果开关PNG，含独立Skill副本调用、变参及三个新图片输入。原法光学机制通过技术检查；源课是手动拖动，示例位置关键帧为采样重放适配，人工光学反馈待答。ae-advanced-expressions当前0.7.0 candidate。[报告](evaluations/course2-p25-magnifier-001/summary.json)。
 
