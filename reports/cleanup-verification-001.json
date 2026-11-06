@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "deleted_files": 3978,
+  "deleted_logical_bytes": 2433839529,
+  "delivery_files_verified": 761,
+  "delivery_cases": 44,
+  "required_native_media_references_checked": 119,
+  "missing_native_media": [],
+  "changed_delivery_files": [],
+  "remaining_learning_cache": [
+    "cache/course-hires/BV1Yh4y1A7XT-p13-1080.mp4",
+    "cache/watch/watch-z3iierxa/download/run-nv1kht5f/video.mp4"
+  ],
+  "native_audits": "40AE saved-project reads and4PR saved-XML reads before cleanup; retained-file SHA and required media existence rechecked after cleanup",
+  "installed_tools_models_and_environment": "Preserved outside cleanup scopes"
+}

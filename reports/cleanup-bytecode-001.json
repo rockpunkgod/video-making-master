@@ -1,0 +1,36 @@
+{
+  "status": "completed",
+  "scope": "Only Python bytecode caches under lab skills/tools",
+  "directories": [
+    {
+      "path": "skills/after-effects/ae-advanced-compositing/scripts/__pycache__",
+      "files": 1,
+      "bytes": 8561,
+      "deleted": true
+    },
+    {
+      "path": "skills/after-effects/ae-advanced-expressions/scripts/__pycache__",
+      "files": 2,
+      "bytes": 16696,
+      "deleted": true
+    },
+    {
+      "path": "skills/after-effects/ae-camera-tracking/scripts/__pycache__",
+      "files": 8,
+      "bytes": 47848,
+      "deleted": true
+    },
+    {
+      "path": "skills/after-effects/ae-procedural-motion/scripts/__pycache__",
+      "files": 2,
+      "bytes": 14745,
+      "deleted": true
+    },
+    {
+      "path": "tools/__pycache__",
+      "files": 15,
+      "bytes": 72102,
+      "deleted": true
+    }
+  ]
+}
