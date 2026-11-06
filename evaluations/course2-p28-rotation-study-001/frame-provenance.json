@@ -1,0 +1,219 @@
+{
+  "count": 33,
+  "note": "Original course images are local learning intermediates, not distributed. Exact source video hash and extraction timestamps retained. Global scenes are sparse; silent second half not fully analyzed.",
+  "frames": [
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0001.jpg",
+      "sha256": "44d7b0c4a21714483563ef46dac0a576c14951bd4203bdcb664326ea60ed9c2c",
+      "actually_viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0009.jpg",
+      "sha256": "b2c959ec6e7023328faef32a5365b40e672bc0da6f24376855652a24655b62c8",
+      "actually_viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0026.jpg",
+      "sha256": "13c26669163de1423ca0c76d383269724e9527a1f493f59a22b1d8e4922cd06c",
+      "actually_viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0043.jpg",
+      "sha256": "fd677686c2e684f0433e2ae91fa15444798ae499ea908a5f3b5f773a8ecde349",
+      "actually_viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0054.jpg",
+      "sha256": "fdbe0060113e258fc89857907e1d22c91aa6d8c52393a909fa7272a880579a36",
+      "actually_viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0086.jpg",
+      "sha256": "38dd1b2aeab347855bd7b384b5a1d9829b89cb1168a25fcdfb4f73dbca3f6ebf",
+      "actually_viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0108.jpg",
+      "sha256": "f13f3c4b8a4f8a575a81863ce9cc5ae6f1f0a15e32aa47f82b0ce66f5ff8874f",
+      "actually_viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0164.jpg",
+      "sha256": "87f757b10b94f5d6283d66ad0a92fb048fdd91aa94abec0fcfeaaa83be7388df",
+      "actually_viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0192.jpg",
+      "sha256": "6e92275a1e4dfe843056cc8e3f3258df39fe96d6b7b9c02fd99d2e6a70918b5e",
+      "actually_viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0203.jpg",
+      "sha256": "7863003ebd28021c6d45af3eb1a7d40d2d22fde170e2b9bcc9793d994e327781",
+      "actually_viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0211.jpg",
+      "sha256": "26f8da45fa6171682111f3195f9c7a025ad426512a20ca6d789c88333458ea59",
+      "actually_viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0232.jpg",
+      "sha256": "41353194e32c1afa5d7d90e1ecb8aa98cb1e66c0e9263e4bf04209685e377045",
+      "actually_viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0249.jpg",
+      "sha256": "7ded41f5e569f0f509336e7dac5df0b5774237c5649c88a69db42d71144979ef",
+      "actually_viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0265.jpg",
+      "sha256": "d0853aeb4a8c1452d7389ffdd5f048a53d497881c53a22b342746e859d5dc852",
+      "actually_viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0291.jpg",
+      "sha256": "cca355027f64dbe444645e8f2e3c1e9a618d0b1e8c6e0db16121e5cfc71e6a1c",
+      "actually_viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0315.jpg",
+      "sha256": "eefac7a2561c95f5897476b10f70353447b51e6a6917bf145ae31564787d12d5",
+      "actually_viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0375.jpg",
+      "sha256": "bd537a493f4e718589d484853c47c676b4011fa86998a916cf370369f962220c",
+      "actually_viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0395.jpg",
+      "sha256": "c6d0b389b902675998595b1ffdf2b266ecdcc5a25007c58589034705ad94057a",
+      "actually_viewed": true,
+      "kind": "global_selected"
+    },
+    {
+      "path": "cache/watch/watch-5i08cofw/frames/cue_0000.jpg",
+      "sha256": "0105020ff69989df9f61d40c8b5f707c65ad44f366c71c11e30418ef2aafcc2b",
+      "source_time_requested": "02:05",
+      "actually_viewed": true,
+      "kind": "technical_cue"
+    },
+    {
+      "path": "cache/watch/watch-5i08cofw/frames/cue_0001.jpg",
+      "sha256": "a72f6d2a100c04cb74bd16697836a47c9c3caaa3014a35a15910614886d14eb4",
+      "source_time_requested": "03:30",
+      "actually_viewed": true,
+      "kind": "technical_cue"
+    },
+    {
+      "path": "cache/watch/watch-5i08cofw/frames/cue_0002.jpg",
+      "sha256": "0d7b1eaa0cc536b7aa41d663f49627813a0e4e3245d5c010a70d350d101474b8",
+      "source_time_requested": "04:25",
+      "actually_viewed": true,
+      "kind": "technical_cue"
+    },
+    {
+      "path": "cache/watch/watch-5i08cofw/frames/cue_0003.jpg",
+      "sha256": "15ac7c6b31ac097bc71340673ab9a5a481989b68837110e13e4a1aaa201716d7",
+      "source_time_requested": "07:01",
+      "actually_viewed": true,
+      "kind": "technical_cue"
+    },
+    {
+      "path": "cache/watch/watch-5i08cofw/frames/cue_0004.jpg",
+      "sha256": "ea3710fb7764758d0a2a119ec7a55691cba10dd17dcb5e1020a230cb9bf289b8",
+      "source_time_requested": "08:51",
+      "actually_viewed": true,
+      "kind": "technical_cue"
+    },
+    {
+      "path": "cache/watch/watch-5i08cofw/frames/cue_0005.jpg",
+      "sha256": "d0215307a8bd4af56c5568b9d97294bbc4ab4d14b5306628e988c05ea4ef8f0f",
+      "source_time_requested": "11:00",
+      "actually_viewed": true,
+      "kind": "technical_cue"
+    },
+    {
+      "path": "cache/watch/watch-5i08cofw/frames/cue_0006.jpg",
+      "sha256": "e74034c7459149e77e0f6a26eed3d23c2ff5117c6d890d8e11dc1fd5aad3a141",
+      "source_time_requested": "13:31",
+      "actually_viewed": true,
+      "kind": "technical_cue"
+    },
+    {
+      "path": "cache/watch/watch-5i08cofw/frames/cue_0007.jpg",
+      "sha256": "5c4a7c89b9ab9efe3cd0f3280154dddc1a2d66a019bb900913b3149a3c8fbf09",
+      "source_time_requested": "15:00",
+      "actually_viewed": true,
+      "kind": "technical_cue"
+    },
+    {
+      "path": "cache/watch/watch-5i08cofw/frames/cue_0008.jpg",
+      "sha256": "f8c25b3dcf6f5a436fb49138d7a39fe50fbabfbd672ff2c2b87b2670d39d33cf",
+      "source_time_requested": "15:51",
+      "actually_viewed": true,
+      "kind": "technical_cue"
+    },
+    {
+      "path": "cache/watch/watch-5i08cofw/frames/cue_0009.jpg",
+      "sha256": "cde34e26f650d5187e9e32cbd9dc3f94bef7c0bf29d3aa1224607e09e4087f03",
+      "source_time_requested": "16:20",
+      "actually_viewed": true,
+      "kind": "technical_cue"
+    },
+    {
+      "path": "cache/watch/watch-hhnbe_f2/frames/cue_0000.jpg",
+      "sha256": "4f090cbf448456b6415f03750bf8492e339581cbf79e852434556a4fb33eb62f",
+      "source_time_requested": "15:55",
+      "actually_viewed": true,
+      "kind": "technical_cue"
+    },
+    {
+      "path": "cache/watch/watch-hhnbe_f2/frames/cue_0001.jpg",
+      "sha256": "b6e8c933ac128bfe9b82c1564e436c58fda94a69bf12a366d3d20fcc9baa49d2",
+      "source_time_requested": "16:05",
+      "actually_viewed": true,
+      "kind": "technical_cue"
+    },
+    {
+      "path": "cache/watch/watch-hhnbe_f2/frames/cue_0002.jpg",
+      "sha256": "a9088beabd68ca1f6da88d71ab2b87ce5fb9b66705c92e4d1ea7f719ad039aef",
+      "source_time_requested": "16:15",
+      "actually_viewed": true,
+      "kind": "technical_cue"
+    },
+    {
+      "path": "cache/watch/watch-hhnbe_f2/frames/cue_0003.jpg",
+      "sha256": "44ffe365ab5496664e8f8e52a6643942ececd4f20c344cac29523aa84a49a797",
+      "source_time_requested": "16:25",
+      "actually_viewed": true,
+      "kind": "technical_cue"
+    },
+    {
+      "path": "cache/watch/watch-hhnbe_f2/frames/cue_0004.jpg",
+      "sha256": "b201724cc458f56948ffa5b6a2889f2e9c4696313a83c0343da7c1beac062cc3",
+      "source_time_requested": "16:29",
+      "actually_viewed": true,
+      "kind": "technical_cue"
+    }
+  ]
+}

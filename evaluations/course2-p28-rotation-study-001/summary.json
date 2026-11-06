@@ -1,0 +1,75 @@
+{
+  "status": "source_detail_partial_native_blocked",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=28",
+  "title": "28. 旋转滑动",
+  "video_seconds": 1981.68,
+  "audio_seconds": 990.9545,
+  "source_sha256": "1853e75cb31199e6bcb9ed8b7e200f66f4beb641b0474b7cd45edd7962236792",
+  "frames_actually_viewed": {
+    "global_selected": 18,
+    "technical_cues": 10,
+    "final_cues": 5,
+    "total": 33
+  },
+  "frame_evidence_directories": [
+    "cache/watch/watch-nm6dr0ue/frames",
+    "cache/watch/watch-5i08cofw/frames",
+    "cache/watch/watch-hhnbe_f2/frames"
+  ],
+  "source_formulas": {
+    "knob_position": {
+      "text": "a=thisComp.layer(\"控制\").transform.position[0];\nmax_s=300;\nmin_s=20;\nif((a>min_s)&&(a<max_s))\n    [linear(a,min_s,max_s,20,300),225];\nelse\n    if(a>max_s)\n        [max_s,225]\n    else\n        [min_s,225]",
+      "observed_at": [
+        "13:31",
+        "15:00",
+        "15:51"
+      ],
+      "status": "transcribed_from_visible_editor_not_native_tested"
+    },
+    "text_z_rotation": {
+      "text": "a=thisComp.layer(\"控制\").transform.position[0];\nmax_s=300;\nmin_s=20;\nlinear(a,min_s,max_s,90,-90)",
+      "observed_at": [
+        "15:51"
+      ],
+      "status": "transcribed_from_visible_editor_not_native_tested"
+    }
+  },
+  "notable_observations": [
+    "Earlier rotation linear output5..90 at07:01 differs from final90..-90 at15:51.",
+    "Earlier knob Y223 changes to final225.",
+    "Final strict if/else may return minimum at exact maximum300; preserve source and require native boundary test.",
+    "At16:20 source actually animates control Position with native timeline keys; this differs from p26/p27 manual dragging.",
+    "At16:05 viewport zoom200%, later100%; do not infer object scale changes from screen size.",
+    "Keyframe end time and values change during the demonstration; final exact pair and easing not recovered.",
+    "Existing 3D text/precomposition and camera are visible; underlying source artwork and camera geometry not recovered.",
+    "Voice132..152s describes pre-existing Illustrator vector artwork made3D, rotated, camera added and anchor moved to a corner; exact values are not shown in the sampled frames.",
+    "Voice863..940s explicitly says nested if/else is the teaching focus; replacing it with clamp alone would omit the lesson.",
+    "Voice942..985s enables motion blur and demonstrates moving the second Position key earlier; shutter angle and exact final key pair remain unverified."
+  ],
+  "native_cases": 0,
+  "native_project": null,
+  "native_render": null,
+  "human_review": "not_requested",
+  "verified": false,
+  "blocker": "Existing AE cold startup fails at CEP; ASCII alias diagnostic instead returns Chinese language licensing message. No install/preferences/license/system-language changes.",
+  "whole_goal_complete": false,
+  "speech_coverage": {
+    "backend": "existing faster-whisper",
+    "existing_model_only": true,
+    "uploaded": false,
+    "segment_count": 237,
+    "first_segment_start": 60.0,
+    "last_segment_end": 990.22,
+    "all_segments_read": true,
+    "accuracy": "automatic_not_word_by_word_validated",
+    "transcript_sha256": "af444eea8759e88926910732fa918c09babc2a19f7f1d3cf91a5aadb8a0ef5b2"
+  },
+  "next_native_checks": [
+    "Restore functioning AE host without editing licensing or losing user work.",
+    "Probe supplied Illustrator/vector fixture and native camera; record all inferred geometry separately.",
+    "Execute the exact final conditional at raw X19,20,20.01,160,299.99,300,300.01 and301; compare knob Position and text ZRotation.",
+    "If exact300 reset is confirmed, preserve source reproduction; publish >= fix only as an explicitly labeled repair variant.",
+    "Recover final controller key pair from finer native timeline frames before building baseline animation.",
+    "Render native editable baseline then parameter variation and3new fixtures; make original-left comparison before human review."
+  ]
+}
