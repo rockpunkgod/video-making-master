@@ -1,0 +1,4783 @@
+{
+  "status": "planned",
+  "scopes": [
+    "samples/course2-magnifier-001",
+    "cache/course2-magnifier-study-20261107",
+    "cache/watch/watch-dyh1t7k3",
+    "cache/watch/watch-xalnv8pt",
+    "cache/watch/watch-j5ybg_ns",
+    "cache/watch/watch-522ovgq0",
+    "cache/local-transcripts/BV1c7GTzMEh5-p25-full-001",
+    "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-001",
+    "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002",
+    "cache/reviews/course2-p25-magnifier-001",
+    "cache/reviews/course2-p25-magnifier-002"
+  ],
+  "published_commit": "99f5b2d69558ee266e8c09c44975534018b400c1",
+  "manifest_sha256": "3fece83d6b682342cffca862aac6cf9a9aa4eecacd50de7f947b1fa5a24ce1b4",
+  "files": 1188,
+  "bytes": 3221014716,
+  "keep_active": [
+    "cache/reviews/course2-p25-magnifier-002/comparison.mp4",
+    "cache/reviews/course2-p25-magnifier-002/original-course.mp4",
+    "cache/reviews/course2-p25-magnifier-002/review.json",
+    "cache/watch/watch-dyh1t7k3/download/run-np9_gv1z/video.mp4"
+  ],
+  "protected_delivery_files": 1422,
+  "skipped_links": [],
+  "targets": [
+    {
+      "path": "cache/course2-magnifier-study-20261107/baseline-002-contact.jpg",
+      "bytes": 271050
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/build-baseline-001.log",
+      "bytes": 42691
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/build-baseline-002.log",
+      "bytes": 42691
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/build-grid-001.log",
+      "bytes": 42857
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/build-map-001.log",
+      "bytes": 42855
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/build-type-001.log",
+      "bytes": 42857
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/build-variation-001.log",
+      "bytes": 42692
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/contacts.py",
+      "bytes": 507
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/cues-0.jpg",
+      "bytes": 186897
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/cues-1.jpg",
+      "bytes": 181440
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/details-0.jpg",
+      "bytes": 189525
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/details-1.jpg",
+      "bytes": 114740
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/effects-probe.json",
+      "bytes": 1581
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/extract-motion.py",
+      "bytes": 1062
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/frozen-final002.mp4",
+      "bytes": 78240
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/frozen-negative.mp4",
+      "bytes": 76605
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/grid-001-contact.jpg",
+      "bytes": 276437
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/assets/fonts/DMSans-Bold.ttf",
+      "bytes": 73452
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/assets/fonts/LICENSE.txt",
+      "bytes": 4493
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/assets/fonts/OFL.txt",
+      "bytes": 4482
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/assets/fonts/source.json",
+      "bytes": 1108
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/examples/assets/magnifier-grid.png",
+      "bytes": 50903
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/examples/assets/magnifier-map.png",
+      "bytes": 54673
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/examples/assets/magnifier-type.png",
+      "bytes": 125072
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/examples/assets/zigzag-black.png",
+      "bytes": 1300
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/examples/course-butterfly-rig.json",
+      "bytes": 874
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/examples/course-magnifier.json",
+      "bytes": 1721
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/examples/course-profiles.json",
+      "bytes": 378
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/examples/course-spring-connector.json",
+      "bytes": 1100
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/examples/displacement-profiles.json",
+      "bytes": 644
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/examples/number-sequence-profiles.json",
+      "bytes": 1081
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/examples/p10-original-left-48-56.json",
+      "bytes": 4161
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/examples/type-reveal-profiles.json",
+      "bytes": 715
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/references/butterfly-rig.md",
+      "bytes": 4155
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/references/displacement.md",
+      "bytes": 3251
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/references/number-sequences.md",
+      "bytes": 9696
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/references/spring-connector.md",
+      "bytes": 4207
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/references/threshold.md",
+      "bytes": 1586
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/references/type-reveal.md",
+      "bytes": 3812
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/__pycache__/validate_magnifier.cpython-313.pyc",
+      "bytes": 8275
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/__pycache__/validate_video.cpython-313.pyc",
+      "bytes": 8825
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/audit_number_stills.py",
+      "bytes": 3719
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/build_butterfly_rig.py",
+      "bytes": 2750
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/build_displacement.py",
+      "bytes": 10457
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/build_magnifier.py",
+      "bytes": 3546
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/build_number_sequences.py",
+      "bytes": 11701
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/build_sampled_number_animation.py",
+      "bytes": 7826
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/build_spring_connector.py",
+      "bytes": 4946
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/build_type_reveal.py",
+      "bytes": 3081
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/build_visibility.py",
+      "bytes": 7826
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/butterfly_rig.jsx",
+      "bytes": 10154
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/json_encode_adobe.jsx",
+      "bytes": 1080
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/load_course_font.py",
+      "bytes": 1051
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/magnifier.jsx",
+      "bytes": 9745
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/render_ae.py",
+      "bytes": 5966
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/run_ae.py",
+      "bytes": 1721
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/spring_connector.jsx",
+      "bytes": 9972
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/type_reveal.jsx",
+      "bytes": 8559
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/validate_butterfly_rig.py",
+      "bytes": 2677
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/validate_circle_pixels.py",
+      "bytes": 1723
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/validate_controller_animation.py",
+      "bytes": 2332
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/validate_magnifier.py",
+      "bytes": 3418
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/validate_number_rows.py",
+      "bytes": 1812
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/validate_png_pixels.py",
+      "bytes": 2560
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/validate_sampled_number_animation.py",
+      "bytes": 2056
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/validate_spring_connector.py",
+      "bytes": 4133
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/validate_type_reveal.py",
+      "bytes": 3614
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/scripts/validate_video.py",
+      "bytes": 4858
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/SKILL.md",
+      "bytes": 4281
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/tests/butterfly-rig-protocol.md",
+      "bytes": 1006
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/tests/butterfly-rig-results.json",
+      "bytes": 6762
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/tests/displacement-results.json",
+      "bytes": 11008
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/tests/number-sequence-results.json",
+      "bytes": 34762
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/tests/protocol.md",
+      "bytes": 809
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/tests/results.json",
+      "bytes": 7710
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/tests/spring-connector-protocol.md",
+      "bytes": 1276
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/tests/spring-connector-results.json",
+      "bytes": 8081
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/isolated-skill/tests/type-reveal-results.json",
+      "bytes": 7276
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/make-audit.py",
+      "bytes": 2134
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/make-fixtures.py",
+      "bytes": 1379
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/map-001-contact.jpg",
+      "bytes": 177294
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/media-audit.jsx",
+      "bytes": 4478
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/motion-0.jpg",
+      "bytes": 188147
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/motion-1.jpg",
+      "bytes": 194161
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/motion-2.jpg",
+      "bytes": 54868
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/motion-detections.json",
+      "bytes": 5645
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/native-contacts.py",
+      "bytes": 629
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/package-evidence.py",
+      "bytes": 8916
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/probe-effects.jsx",
+      "bytes": 1534
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/purge-owned-cache.jsx",
+      "bytes": 803
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/purge-report.json",
+      "bytes": 126
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/read_transcript.py",
+      "bytes": 387
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/render-baseline-001.log",
+      "bytes": 832
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/render-baseline-002.log",
+      "bytes": 1008
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/render-grid-001.log",
+      "bytes": 1004
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/render-map-001.log",
+      "bytes": 1003
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/render-type-001.log",
+      "bytes": 1004
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/render-variation-001.log",
+      "bytes": 1009
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/run-suite.py",
+      "bytes": 1557
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/transcribe.log",
+      "bytes": 1226
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/transcribe_chunks.py",
+      "bytes": 1114
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/type-001-contact.jpg",
+      "bytes": 296353
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/variation-001-contact.jpg",
+      "bytes": 221634
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/watch-cues.log",
+      "bytes": 3229
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/watch-details.log",
+      "bytes": 2769
+    },
+    {
+      "path": "cache/course2-magnifier-study-20261107/watch-motion-cues.log",
+      "bytes": 3459
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-001/chunk-00/input.wav",
+      "bytes": 2880072
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-001/chunk-00.log",
+      "bytes": 696
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-00/input.wav",
+      "bytes": 2880072
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-00/transcript.json",
+      "bytes": 1971
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-00/transcript.srt",
+      "bytes": 606
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-00.log",
+      "bytes": 1616
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-01/input.wav",
+      "bytes": 2880078
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-01/transcript.json",
+      "bytes": 5885
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-01/transcript.srt",
+      "bytes": 1837
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-01.log",
+      "bytes": 5196
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-02/input.wav",
+      "bytes": 2880078
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-02/transcript.json",
+      "bytes": 6302
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-02/transcript.srt",
+      "bytes": 1993
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-02.log",
+      "bytes": 5703
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-03/input.wav",
+      "bytes": 2880078
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-03/transcript.json",
+      "bytes": 7693
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-03/transcript.srt",
+      "bytes": 2313
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-03.log",
+      "bytes": 6707
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-04/input.wav",
+      "bytes": 2880078
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-04/transcript.json",
+      "bytes": 6401
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-04/transcript.srt",
+      "bytes": 2098
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-04.log",
+      "bytes": 5779
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-05/input.wav",
+      "bytes": 2880078
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-05/transcript.json",
+      "bytes": 5517
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-05/transcript.srt",
+      "bytes": 1788
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-05.log",
+      "bytes": 4940
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-06/input.wav",
+      "bytes": 2880078
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-06/transcript.json",
+      "bytes": 4454
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-06/transcript.srt",
+      "bytes": 1580
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-06.log",
+      "bytes": 4164
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-07/input.wav",
+      "bytes": 2880078
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-07/transcript.json",
+      "bytes": 8655
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-07/transcript.srt",
+      "bytes": 2492
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-07.log",
+      "bytes": 7415
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-08/input.wav",
+      "bytes": 2880078
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-08/transcript.json",
+      "bytes": 8569
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-08/transcript.srt",
+      "bytes": 2480
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-08.log",
+      "bytes": 7309
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-09/input.wav",
+      "bytes": 1178526
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-09/transcript.json",
+      "bytes": 3267
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-09/transcript.srt",
+      "bytes": 851
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/chunk-09.log",
+      "bytes": 2542
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-chunks-002/transcript.json",
+      "bytes": 52502
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p25-full-001/input.wav",
+      "bytes": 27098520
+    },
+    {
+      "path": "cache/reviews/course2-p25-magnifier-001/comparison.mp4",
+      "bytes": 615701
+    },
+    {
+      "path": "cache/reviews/course2-p25-magnifier-001/comparison.png",
+      "bytes": 292641
+    },
+    {
+      "path": "cache/reviews/course2-p25-magnifier-001/original-course.mp4",
+      "bytes": 450915
+    },
+    {
+      "path": "cache/reviews/course2-p25-magnifier-001/review.json",
+      "bytes": 771
+    },
+    {
+      "path": "cache/reviews/course2-p25-magnifier-002/comparison.png",
+      "bytes": 295141
+    },
+    {
+      "path": "cache/watch/watch-522ovgq0/frames/cue_0000.jpg",
+      "bytes": 106319
+    },
+    {
+      "path": "cache/watch/watch-522ovgq0/frames/cue_0001.jpg",
+      "bytes": 106943
+    },
+    {
+      "path": "cache/watch/watch-522ovgq0/frames/cue_0002.jpg",
+      "bytes": 107083
+    },
+    {
+      "path": "cache/watch/watch-522ovgq0/frames/cue_0003.jpg",
+      "bytes": 106923
+    },
+    {
+      "path": "cache/watch/watch-522ovgq0/frames/cue_0004.jpg",
+      "bytes": 108739
+    },
+    {
+      "path": "cache/watch/watch-522ovgq0/frames/cue_0005.jpg",
+      "bytes": 108822
+    },
+    {
+      "path": "cache/watch/watch-522ovgq0/frames/cue_0006.jpg",
+      "bytes": 109825
+    },
+    {
+      "path": "cache/watch/watch-522ovgq0/frames/cue_0007.jpg",
+      "bytes": 109569
+    },
+    {
+      "path": "cache/watch/watch-522ovgq0/frames/cue_0008.jpg",
+      "bytes": 108460
+    },
+    {
+      "path": "cache/watch/watch-522ovgq0/frames/cue_0009.jpg",
+      "bytes": 105778
+    },
+    {
+      "path": "cache/watch/watch-522ovgq0/frames/cue_0010.jpg",
+      "bytes": 116028
+    },
+    {
+      "path": "cache/watch/watch-522ovgq0/frames/cue_0011.jpg",
+      "bytes": 116188
+    },
+    {
+      "path": "cache/watch/watch-522ovgq0/frames/cue_0012.jpg",
+      "bytes": 115042
+    },
+    {
+      "path": "cache/watch/watch-522ovgq0/frames/cue_0013.jpg",
+      "bytes": 118356
+    },
+    {
+      "path": "cache/watch/watch-522ovgq0/frames/cue_0014.jpg",
+      "bytes": 115939
+    },
+    {
+      "path": "cache/watch/watch-522ovgq0/frames/cue_0015.jpg",
+      "bytes": 116136
+    },
+    {
+      "path": "cache/watch/watch-522ovgq0/frames/cue_0016.jpg",
+      "bytes": 119472
+    },
+    {
+      "path": "cache/watch/watch-522ovgq0/frames/cue_0017.jpg",
+      "bytes": 114541
+    },
+    {
+      "path": "cache/watch/watch-522ovgq0/frames/cue_0018.jpg",
+      "bytes": 108243
+    },
+    {
+      "path": "cache/watch/watch-522ovgq0/frames/cue_0019.jpg",
+      "bytes": 109768
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/download/run-np9_gv1z/final-path.jsonl",
+      "bytes": 109
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/download/run-np9_gv1z/video.info.json",
+      "bytes": 10255
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/contact-1.jpg",
+      "bytes": 173090
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/contact-2.jpg",
+      "bytes": 203952
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/contact-3.jpg",
+      "bytes": 118566
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0001.jpg",
+      "bytes": 6637
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0003.jpg",
+      "bytes": 60096
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0005.jpg",
+      "bytes": 26305
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0008.jpg",
+      "bytes": 40990
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0010.jpg",
+      "bytes": 20578
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0012.jpg",
+      "bytes": 19299
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0014.jpg",
+      "bytes": 28593
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0016.jpg",
+      "bytes": 48504
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0018.jpg",
+      "bytes": 70612
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0021.jpg",
+      "bytes": 43570
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0023.jpg",
+      "bytes": 55319
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0025.jpg",
+      "bytes": 66016
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0027.jpg",
+      "bytes": 68339
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0029.jpg",
+      "bytes": 60144
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0031.jpg",
+      "bytes": 68327
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0034.jpg",
+      "bytes": 45067
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0036.jpg",
+      "bytes": 63306
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0038.jpg",
+      "bytes": 41993
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0040.jpg",
+      "bytes": 40965
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0042.jpg",
+      "bytes": 20515
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0044.jpg",
+      "bytes": 19298
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0047.jpg",
+      "bytes": 25871
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0049.jpg",
+      "bytes": 60586
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0051.jpg",
+      "bytes": 74673
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0053.jpg",
+      "bytes": 43526
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0055.jpg",
+      "bytes": 55254
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0057.jpg",
+      "bytes": 66211
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0060.jpg",
+      "bytes": 64245
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0062.jpg",
+      "bytes": 57375
+    },
+    {
+      "path": "cache/watch/watch-dyh1t7k3/frames/frame_0064.jpg",
+      "bytes": 74876
+    },
+    {
+      "path": "cache/watch/watch-j5ybg_ns/frames/cue_0000.jpg",
+      "bytes": 145900
+    },
+    {
+      "path": "cache/watch/watch-j5ybg_ns/frames/cue_0001.jpg",
+      "bytes": 137023
+    },
+    {
+      "path": "cache/watch/watch-j5ybg_ns/frames/cue_0002.jpg",
+      "bytes": 139470
+    },
+    {
+      "path": "cache/watch/watch-j5ybg_ns/frames/cue_0003.jpg",
+      "bytes": 114565
+    },
+    {
+      "path": "cache/watch/watch-j5ybg_ns/frames/cue_0004.jpg",
+      "bytes": 117068
+    },
+    {
+      "path": "cache/watch/watch-j5ybg_ns/frames/cue_0005.jpg",
+      "bytes": 108167
+    },
+    {
+      "path": "cache/watch/watch-j5ybg_ns/frames/cue_0006.jpg",
+      "bytes": 109496
+    },
+    {
+      "path": "cache/watch/watch-j5ybg_ns/frames/cue_0007.jpg",
+      "bytes": 105464
+    },
+    {
+      "path": "cache/watch/watch-j5ybg_ns/frames/cue_0008.jpg",
+      "bytes": 97813
+    },
+    {
+      "path": "cache/watch/watch-j5ybg_ns/frames/cue_0009.jpg",
+      "bytes": 108103
+    },
+    {
+      "path": "cache/watch/watch-j5ybg_ns/frames/cue_0010.jpg",
+      "bytes": 147623
+    },
+    {
+      "path": "cache/watch/watch-j5ybg_ns/frames/cue_0011.jpg",
+      "bytes": 111831
+    },
+    {
+      "path": "cache/watch/watch-j5ybg_ns/frames/cue_0012.jpg",
+      "bytes": 116028
+    },
+    {
+      "path": "cache/watch/watch-j5ybg_ns/frames/cue_0013.jpg",
+      "bytes": 107721
+    },
+    {
+      "path": "cache/watch/watch-xalnv8pt/frames/cue_0000.jpg",
+      "bytes": 142306
+    },
+    {
+      "path": "cache/watch/watch-xalnv8pt/frames/cue_0001.jpg",
+      "bytes": 93680
+    },
+    {
+      "path": "cache/watch/watch-xalnv8pt/frames/cue_0002.jpg",
+      "bytes": 107218
+    },
+    {
+      "path": "cache/watch/watch-xalnv8pt/frames/cue_0003.jpg",
+      "bytes": 133319
+    },
+    {
+      "path": "cache/watch/watch-xalnv8pt/frames/cue_0004.jpg",
+      "bytes": 111063
+    },
+    {
+      "path": "cache/watch/watch-xalnv8pt/frames/cue_0005.jpg",
+      "bytes": 117431
+    },
+    {
+      "path": "cache/watch/watch-xalnv8pt/frames/cue_0006.jpg",
+      "bytes": 132312
+    },
+    {
+      "path": "cache/watch/watch-xalnv8pt/frames/cue_0007.jpg",
+      "bytes": 94906
+    },
+    {
+      "path": "cache/watch/watch-xalnv8pt/frames/cue_0008.jpg",
+      "bytes": 110682
+    },
+    {
+      "path": "cache/watch/watch-xalnv8pt/frames/cue_0009.jpg",
+      "bytes": 94881
+    },
+    {
+      "path": "cache/watch/watch-xalnv8pt/frames/cue_0010.jpg",
+      "bytes": 116104
+    },
+    {
+      "path": "cache/watch/watch-xalnv8pt/frames/cue_0011.jpg",
+      "bytes": 148427
+    },
+    {
+      "path": "cache/watch/watch-xalnv8pt/frames/cue_0012.jpg",
+      "bytes": 116532
+    },
+    {
+      "path": "cache/watch/watch-xalnv8pt/frames/cue_0013.jpg",
+      "bytes": 108990
+    },
+    {
+      "path": "cache/watch/watch-xalnv8pt/frames/cue_0014.jpg",
+      "bytes": 142816
+    },
+    {
+      "path": "cache/watch/watch-xalnv8pt/frames/cue_0015.jpg",
+      "bytes": 93779
+    },
+    {
+      "path": "cache/watch/watch-xalnv8pt/frames/cue_0016.jpg",
+      "bytes": 90583
+    },
+    {
+      "path": "cache/watch/watch-xalnv8pt/frames/cue_0017.jpg",
+      "bytes": 116437
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 337653
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/aerender.log",
+      "bytes": 6268
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/assets/lens.png",
+      "bytes": 50317
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/build.jsx",
+      "bytes": 13096
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/final.mp4",
+      "bytes": 1110626
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/frozen-negative.json",
+      "bytes": 986
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/magnifier-quality.json",
+      "bytes": 982
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/native-control-no-blur.png",
+      "bytes": 521800
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/native-control-no-bulge.png",
+      "bytes": 441987
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/native-control-normal.png",
+      "bytes": 451245
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/native-still-0.png",
+      "bytes": 451245
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/native-still-100.png",
+      "bytes": 454693
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/native-still-12.png",
+      "bytes": 460961
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/native-still-149.png",
+      "bytes": 454693
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/native-still-25.png",
+      "bytes": 451823
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/native-still-37.png",
+      "bytes": 462021
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/native-still-50.png",
+      "bytes": 453840
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/native-still-62.png",
+      "bytes": 464189
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/native-still-75.png",
+      "bytes": 452041
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/native-still-87.png",
+      "bytes": 466655
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/plan.json",
+      "bytes": 705
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/project.aep",
+      "bytes": 336549
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/project.aep 日志/AE 2026-11-7 3-45-35.txt",
+      "bytes": 4923
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/quality.json",
+      "bytes": 1006
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/receipt.json",
+      "bytes": 19579
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00000.tif",
+      "bytes": 3489944
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00001.tif",
+      "bytes": 3489928
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00002.tif",
+      "bytes": 3489948
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00003.tif",
+      "bytes": 3489948
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00004.tif",
+      "bytes": 3489960
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00005.tif",
+      "bytes": 3489980
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00006.tif",
+      "bytes": 3489960
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00007.tif",
+      "bytes": 3489976
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00008.tif",
+      "bytes": 3489952
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00009.tif",
+      "bytes": 3489936
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00010.tif",
+      "bytes": 3489964
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00011.tif",
+      "bytes": 3489944
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00012.tif",
+      "bytes": 3489988
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00013.tif",
+      "bytes": 3489992
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00014.tif",
+      "bytes": 3489972
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00015.tif",
+      "bytes": 3489984
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00016.tif",
+      "bytes": 3490008
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00017.tif",
+      "bytes": 3490000
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00018.tif",
+      "bytes": 3489956
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00019.tif",
+      "bytes": 3489964
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00020.tif",
+      "bytes": 3489976
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00021.tif",
+      "bytes": 3489932
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00022.tif",
+      "bytes": 3489964
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00023.tif",
+      "bytes": 3489912
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00024.tif",
+      "bytes": 3489956
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00025.tif",
+      "bytes": 3489968
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00026.tif",
+      "bytes": 3489976
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00027.tif",
+      "bytes": 3489936
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00028.tif",
+      "bytes": 3489984
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00029.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00030.tif",
+      "bytes": 3490016
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00031.tif",
+      "bytes": 3489980
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00032.tif",
+      "bytes": 3489984
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00033.tif",
+      "bytes": 3489956
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00034.tif",
+      "bytes": 3489940
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00035.tif",
+      "bytes": 3489972
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00036.tif",
+      "bytes": 3489956
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00037.tif",
+      "bytes": 3489976
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00038.tif",
+      "bytes": 3489940
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00039.tif",
+      "bytes": 3489948
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00040.tif",
+      "bytes": 3489940
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00041.tif",
+      "bytes": 3490000
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00042.tif",
+      "bytes": 3489992
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00043.tif",
+      "bytes": 3490000
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00044.tif",
+      "bytes": 3489932
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00045.tif",
+      "bytes": 3489960
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00046.tif",
+      "bytes": 3489944
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00047.tif",
+      "bytes": 3489968
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00048.tif",
+      "bytes": 3489956
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00049.tif",
+      "bytes": 3489984
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00050.tif",
+      "bytes": 3489956
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00051.tif",
+      "bytes": 3489912
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00052.tif",
+      "bytes": 3489920
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00053.tif",
+      "bytes": 3489992
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00054.tif",
+      "bytes": 3490000
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00055.tif",
+      "bytes": 3489984
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00056.tif",
+      "bytes": 3489964
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00057.tif",
+      "bytes": 3489984
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00058.tif",
+      "bytes": 3489988
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00059.tif",
+      "bytes": 3489992
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00060.tif",
+      "bytes": 3489988
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00061.tif",
+      "bytes": 3489976
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00062.tif",
+      "bytes": 3489996
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00063.tif",
+      "bytes": 3489980
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00064.tif",
+      "bytes": 3489988
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00065.tif",
+      "bytes": 3489984
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00066.tif",
+      "bytes": 3490012
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00067.tif",
+      "bytes": 3489968
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00068.tif",
+      "bytes": 3489960
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00069.tif",
+      "bytes": 3489944
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00070.tif",
+      "bytes": 3489948
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00071.tif",
+      "bytes": 3489996
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00072.tif",
+      "bytes": 3489984
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00073.tif",
+      "bytes": 3490008
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00074.tif",
+      "bytes": 3489996
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00075.tif",
+      "bytes": 3489980
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00076.tif",
+      "bytes": 3489936
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00077.tif",
+      "bytes": 3489964
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00078.tif",
+      "bytes": 3489992
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00079.tif",
+      "bytes": 3489996
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00080.tif",
+      "bytes": 3490000
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00081.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00082.tif",
+      "bytes": 3490008
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00083.tif",
+      "bytes": 3490028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00084.tif",
+      "bytes": 3490032
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00085.tif",
+      "bytes": 3490048
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00086.tif",
+      "bytes": 3490020
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00087.tif",
+      "bytes": 3490000
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00088.tif",
+      "bytes": 3490024
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00089.tif",
+      "bytes": 3490036
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00090.tif",
+      "bytes": 3490020
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00091.tif",
+      "bytes": 3490024
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00092.tif",
+      "bytes": 3489988
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00093.tif",
+      "bytes": 3490000
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00094.tif",
+      "bytes": 3490028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00095.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00096.tif",
+      "bytes": 3490016
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00097.tif",
+      "bytes": 3490032
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00098.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00099.tif",
+      "bytes": 3490020
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00100.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00101.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00102.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00103.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00104.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00105.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00106.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00107.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00108.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00109.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00110.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00111.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00112.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00113.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00114.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00115.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00116.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00117.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00118.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00119.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00120.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00121.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00122.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00123.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00124.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00125.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00126.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00127.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00128.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00129.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00130.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00131.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00132.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00133.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00134.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00135.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00136.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00137.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00138.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00139.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00140.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00141.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00142.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00143.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00144.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00145.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00146.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00147.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00148.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/render/frame_00149.tif",
+      "bytes": 3490004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-001/request.json",
+      "bytes": 2003
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 331263
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/aerender.log",
+      "bytes": 6303
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/build.jsx",
+      "bytes": 13205
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/project.aep 日志/AE 2026-11-7 3-49-23.txt",
+      "bytes": 4949
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00000.tif",
+      "bytes": 3491040
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00001.tif",
+      "bytes": 3491020
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00002.tif",
+      "bytes": 3491052
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00003.tif",
+      "bytes": 3491060
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00004.tif",
+      "bytes": 3491068
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00005.tif",
+      "bytes": 3491048
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00006.tif",
+      "bytes": 3491012
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00007.tif",
+      "bytes": 3491004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00008.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00009.tif",
+      "bytes": 3491020
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00010.tif",
+      "bytes": 3491048
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00011.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00012.tif",
+      "bytes": 3491068
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00013.tif",
+      "bytes": 3491060
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00014.tif",
+      "bytes": 3491068
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00015.tif",
+      "bytes": 3491088
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00016.tif",
+      "bytes": 3491088
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00017.tif",
+      "bytes": 3491072
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00018.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00019.tif",
+      "bytes": 3491020
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00020.tif",
+      "bytes": 3491048
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00021.tif",
+      "bytes": 3491068
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00022.tif",
+      "bytes": 3491048
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00023.tif",
+      "bytes": 3491036
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00024.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00025.tif",
+      "bytes": 3491052
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00026.tif",
+      "bytes": 3491004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00027.tif",
+      "bytes": 3490976
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00028.tif",
+      "bytes": 3491060
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00029.tif",
+      "bytes": 3491072
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00030.tif",
+      "bytes": 3491048
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00031.tif",
+      "bytes": 3491016
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00032.tif",
+      "bytes": 3491060
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00033.tif",
+      "bytes": 3491060
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00034.tif",
+      "bytes": 3491064
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00035.tif",
+      "bytes": 3491064
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00036.tif",
+      "bytes": 3491100
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00037.tif",
+      "bytes": 3491084
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00038.tif",
+      "bytes": 3491060
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00039.tif",
+      "bytes": 3491036
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00040.tif",
+      "bytes": 3491040
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00041.tif",
+      "bytes": 3491092
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00042.tif",
+      "bytes": 3491084
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00043.tif",
+      "bytes": 3491072
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00044.tif",
+      "bytes": 3491068
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00045.tif",
+      "bytes": 3491060
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00046.tif",
+      "bytes": 3491056
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00047.tif",
+      "bytes": 3491068
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00048.tif",
+      "bytes": 3491088
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00049.tif",
+      "bytes": 3491060
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00050.tif",
+      "bytes": 3491076
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00051.tif",
+      "bytes": 3491060
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00052.tif",
+      "bytes": 3491024
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00053.tif",
+      "bytes": 3491036
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00054.tif",
+      "bytes": 3491056
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00055.tif",
+      "bytes": 3491080
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00056.tif",
+      "bytes": 3491088
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00057.tif",
+      "bytes": 3491072
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00058.tif",
+      "bytes": 3491052
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00059.tif",
+      "bytes": 3491048
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00060.tif",
+      "bytes": 3491048
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00061.tif",
+      "bytes": 3491044
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00062.tif",
+      "bytes": 3491040
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00063.tif",
+      "bytes": 3491016
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00064.tif",
+      "bytes": 3491056
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00065.tif",
+      "bytes": 3491056
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00066.tif",
+      "bytes": 3491044
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00067.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00068.tif",
+      "bytes": 3491036
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00069.tif",
+      "bytes": 3491040
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00070.tif",
+      "bytes": 3491044
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00071.tif",
+      "bytes": 3491040
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00072.tif",
+      "bytes": 3491024
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00073.tif",
+      "bytes": 3491024
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00074.tif",
+      "bytes": 3490996
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00075.tif",
+      "bytes": 3491008
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00076.tif",
+      "bytes": 3490996
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00077.tif",
+      "bytes": 3490976
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00078.tif",
+      "bytes": 3491016
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00079.tif",
+      "bytes": 3490992
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00080.tif",
+      "bytes": 3491000
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00081.tif",
+      "bytes": 3491000
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00082.tif",
+      "bytes": 3490996
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00083.tif",
+      "bytes": 3491008
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00084.tif",
+      "bytes": 3491016
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00085.tif",
+      "bytes": 3491000
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00086.tif",
+      "bytes": 3491024
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00087.tif",
+      "bytes": 3490996
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00088.tif",
+      "bytes": 3491020
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00089.tif",
+      "bytes": 3491016
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00090.tif",
+      "bytes": 3491004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00091.tif",
+      "bytes": 3491008
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00092.tif",
+      "bytes": 3490960
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00093.tif",
+      "bytes": 3490996
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00094.tif",
+      "bytes": 3491032
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00095.tif",
+      "bytes": 3491016
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00096.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00097.tif",
+      "bytes": 3490988
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00098.tif",
+      "bytes": 3491004
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00099.tif",
+      "bytes": 3491020
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00100.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00101.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00102.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00103.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00104.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00105.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00106.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00107.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00108.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00109.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00110.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00111.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00112.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00113.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00114.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00115.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00116.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00117.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00118.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00119.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00120.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00121.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00122.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00123.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00124.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00125.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00126.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00127.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00128.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00129.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00130.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00131.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00132.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00133.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00134.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00135.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00136.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00137.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00138.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00139.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00140.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00141.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00142.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00143.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00144.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00145.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00146.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00147.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00148.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/baseline-002/render/frame_00149.tif",
+      "bytes": 3491028
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 355307
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/aerender.log",
+      "bytes": 6226
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/build.jsx",
+      "bytes": 13337
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/project.aep 日志/AE 2026-11-7 3-47-56.txt",
+      "bytes": 4890
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00000.tif",
+      "bytes": 3490292
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00001.tif",
+      "bytes": 3490256
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00002.tif",
+      "bytes": 3490248
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00003.tif",
+      "bytes": 3490256
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00004.tif",
+      "bytes": 3490256
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00005.tif",
+      "bytes": 3490256
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00006.tif",
+      "bytes": 3490228
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00007.tif",
+      "bytes": 3490240
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00008.tif",
+      "bytes": 3490248
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00009.tif",
+      "bytes": 3490232
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00010.tif",
+      "bytes": 3490264
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00011.tif",
+      "bytes": 3490272
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00012.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00013.tif",
+      "bytes": 3490292
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00014.tif",
+      "bytes": 3490280
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00015.tif",
+      "bytes": 3490312
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00016.tif",
+      "bytes": 3490340
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00017.tif",
+      "bytes": 3490304
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00018.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00019.tif",
+      "bytes": 3490304
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00020.tif",
+      "bytes": 3490312
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00021.tif",
+      "bytes": 3490280
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00022.tif",
+      "bytes": 3490288
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00023.tif",
+      "bytes": 3490260
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00024.tif",
+      "bytes": 3490268
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00025.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00026.tif",
+      "bytes": 3490284
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00027.tif",
+      "bytes": 3490224
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00028.tif",
+      "bytes": 3490264
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00029.tif",
+      "bytes": 3490280
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00030.tif",
+      "bytes": 3490308
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00031.tif",
+      "bytes": 3490288
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00032.tif",
+      "bytes": 3490256
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00033.tif",
+      "bytes": 3490224
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00034.tif",
+      "bytes": 3490240
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00035.tif",
+      "bytes": 3490252
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00036.tif",
+      "bytes": 3490264
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00037.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00038.tif",
+      "bytes": 3490276
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00039.tif",
+      "bytes": 3490288
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00040.tif",
+      "bytes": 3490280
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00041.tif",
+      "bytes": 3490256
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00042.tif",
+      "bytes": 3490264
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00043.tif",
+      "bytes": 3490268
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00044.tif",
+      "bytes": 3490244
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00045.tif",
+      "bytes": 3490220
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00046.tif",
+      "bytes": 3490256
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00047.tif",
+      "bytes": 3490268
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00048.tif",
+      "bytes": 3490252
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00049.tif",
+      "bytes": 3490280
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00050.tif",
+      "bytes": 3490284
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00051.tif",
+      "bytes": 3490240
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00052.tif",
+      "bytes": 3490216
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00053.tif",
+      "bytes": 3490252
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00054.tif",
+      "bytes": 3490268
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00055.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00056.tif",
+      "bytes": 3490300
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00057.tif",
+      "bytes": 3490280
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00058.tif",
+      "bytes": 3490316
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00059.tif",
+      "bytes": 3490280
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00060.tif",
+      "bytes": 3490228
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00061.tif",
+      "bytes": 3490256
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00062.tif",
+      "bytes": 3490264
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00063.tif",
+      "bytes": 3490220
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00064.tif",
+      "bytes": 3490252
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00065.tif",
+      "bytes": 3490260
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00066.tif",
+      "bytes": 3490256
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00067.tif",
+      "bytes": 3490240
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00068.tif",
+      "bytes": 3490252
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00069.tif",
+      "bytes": 3490268
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00070.tif",
+      "bytes": 3490304
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00071.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00072.tif",
+      "bytes": 3490268
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00073.tif",
+      "bytes": 3490292
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00074.tif",
+      "bytes": 3490292
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00075.tif",
+      "bytes": 3490284
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00076.tif",
+      "bytes": 3490260
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00077.tif",
+      "bytes": 3490308
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00078.tif",
+      "bytes": 3490288
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00079.tif",
+      "bytes": 3490248
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00080.tif",
+      "bytes": 3490260
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00081.tif",
+      "bytes": 3490284
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00082.tif",
+      "bytes": 3490276
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00083.tif",
+      "bytes": 3490288
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00084.tif",
+      "bytes": 3490292
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00085.tif",
+      "bytes": 3490316
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00086.tif",
+      "bytes": 3490340
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00087.tif",
+      "bytes": 3490348
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00088.tif",
+      "bytes": 3490332
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00089.tif",
+      "bytes": 3490300
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00090.tif",
+      "bytes": 3490272
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00091.tif",
+      "bytes": 3490256
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00092.tif",
+      "bytes": 3490268
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00093.tif",
+      "bytes": 3490284
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00094.tif",
+      "bytes": 3490284
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00095.tif",
+      "bytes": 3490280
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00096.tif",
+      "bytes": 3490308
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00097.tif",
+      "bytes": 3490332
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00098.tif",
+      "bytes": 3490288
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00099.tif",
+      "bytes": 3490272
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00100.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00101.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00102.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00103.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00104.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00105.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00106.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00107.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00108.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00109.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00110.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00111.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00112.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00113.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00114.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00115.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00116.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00117.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00118.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00119.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00120.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00121.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00122.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00123.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00124.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00125.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00126.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00127.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00128.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00129.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00130.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00131.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00132.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00133.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00134.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00135.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00136.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00137.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00138.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00139.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00140.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00141.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00142.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00143.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00144.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00145.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00146.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00147.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00148.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/grid-001/render/frame_00149.tif",
+      "bytes": 3490296
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 355305
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/aerender.log",
+      "bytes": 6261
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/build.jsx",
+      "bytes": 13334
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/project.aep 日志/AE 2026-11-7 3-48-28.txt",
+      "bytes": 4916
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00000.tif",
+      "bytes": 3488764
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00001.tif",
+      "bytes": 3488752
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00002.tif",
+      "bytes": 3488724
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00003.tif",
+      "bytes": 3488732
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00004.tif",
+      "bytes": 3488688
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00005.tif",
+      "bytes": 3488696
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00006.tif",
+      "bytes": 3488668
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00007.tif",
+      "bytes": 3488668
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00008.tif",
+      "bytes": 3488696
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00009.tif",
+      "bytes": 3488700
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00010.tif",
+      "bytes": 3488684
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00011.tif",
+      "bytes": 3488656
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00012.tif",
+      "bytes": 3488684
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00013.tif",
+      "bytes": 3488752
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00014.tif",
+      "bytes": 3488728
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00015.tif",
+      "bytes": 3488740
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00016.tif",
+      "bytes": 3488752
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00017.tif",
+      "bytes": 3488720
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00018.tif",
+      "bytes": 3488720
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00019.tif",
+      "bytes": 3488720
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00020.tif",
+      "bytes": 3488724
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00021.tif",
+      "bytes": 3488704
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00022.tif",
+      "bytes": 3488692
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00023.tif",
+      "bytes": 3488640
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00024.tif",
+      "bytes": 3488680
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00025.tif",
+      "bytes": 3488700
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00026.tif",
+      "bytes": 3488668
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00027.tif",
+      "bytes": 3488680
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00028.tif",
+      "bytes": 3488724
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00029.tif",
+      "bytes": 3488748
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00030.tif",
+      "bytes": 3488796
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00031.tif",
+      "bytes": 3488772
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00032.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00033.tif",
+      "bytes": 3488732
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00034.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00035.tif",
+      "bytes": 3488828
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00036.tif",
+      "bytes": 3488808
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00037.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00038.tif",
+      "bytes": 3488748
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00039.tif",
+      "bytes": 3488728
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00040.tif",
+      "bytes": 3488720
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00041.tif",
+      "bytes": 3488724
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00042.tif",
+      "bytes": 3488700
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00043.tif",
+      "bytes": 3488704
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00044.tif",
+      "bytes": 3488692
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00045.tif",
+      "bytes": 3488676
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00046.tif",
+      "bytes": 3488712
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00047.tif",
+      "bytes": 3488704
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00048.tif",
+      "bytes": 3488728
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00049.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00050.tif",
+      "bytes": 3488728
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00051.tif",
+      "bytes": 3488700
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00052.tif",
+      "bytes": 3488652
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00053.tif",
+      "bytes": 3488752
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00054.tif",
+      "bytes": 3488804
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00055.tif",
+      "bytes": 3488788
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00056.tif",
+      "bytes": 3488772
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00057.tif",
+      "bytes": 3488772
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00058.tif",
+      "bytes": 3488724
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00059.tif",
+      "bytes": 3488748
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00060.tif",
+      "bytes": 3488716
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00061.tif",
+      "bytes": 3488736
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00062.tif",
+      "bytes": 3488748
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00063.tif",
+      "bytes": 3488768
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00064.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00065.tif",
+      "bytes": 3488732
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00066.tif",
+      "bytes": 3488732
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00067.tif",
+      "bytes": 3488684
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00068.tif",
+      "bytes": 3488656
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00069.tif",
+      "bytes": 3488668
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00070.tif",
+      "bytes": 3488696
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00071.tif",
+      "bytes": 3488720
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00072.tif",
+      "bytes": 3488716
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00073.tif",
+      "bytes": 3488708
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00074.tif",
+      "bytes": 3488692
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00075.tif",
+      "bytes": 3488668
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00076.tif",
+      "bytes": 3488648
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00077.tif",
+      "bytes": 3488664
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00078.tif",
+      "bytes": 3488676
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00079.tif",
+      "bytes": 3488656
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00080.tif",
+      "bytes": 3488668
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00081.tif",
+      "bytes": 3488720
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00082.tif",
+      "bytes": 3488736
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00083.tif",
+      "bytes": 3488752
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00084.tif",
+      "bytes": 3488776
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00085.tif",
+      "bytes": 3488752
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00086.tif",
+      "bytes": 3488748
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00087.tif",
+      "bytes": 3488712
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00088.tif",
+      "bytes": 3488752
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00089.tif",
+      "bytes": 3488708
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00090.tif",
+      "bytes": 3488740
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00091.tif",
+      "bytes": 3488740
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00092.tif",
+      "bytes": 3488724
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00093.tif",
+      "bytes": 3488728
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00094.tif",
+      "bytes": 3488768
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00095.tif",
+      "bytes": 3488768
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00096.tif",
+      "bytes": 3488796
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00097.tif",
+      "bytes": 3488780
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00098.tif",
+      "bytes": 3488792
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00099.tif",
+      "bytes": 3488792
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00100.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00101.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00102.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00103.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00104.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00105.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00106.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00107.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00108.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00109.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00110.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00111.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00112.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00113.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00114.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00115.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00116.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00117.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00118.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00119.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00120.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00121.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00122.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00123.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00124.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00125.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00126.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00127.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00128.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00129.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00130.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00131.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00132.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00133.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00134.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00135.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00136.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00137.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00138.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00139.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00140.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00141.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00142.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00143.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00144.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00145.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00146.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00147.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00148.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/map-001/render/frame_00149.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 355307
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/aerender.log",
+      "bytes": 6192
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/build.jsx",
+      "bytes": 13337
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/project.aep 日志/AE 2026-11-7 3-48-12.txt",
+      "bytes": 4865
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00000.tif",
+      "bytes": 3491624
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00001.tif",
+      "bytes": 3491608
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00002.tif",
+      "bytes": 3491608
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00003.tif",
+      "bytes": 3491632
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00004.tif",
+      "bytes": 3491624
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00005.tif",
+      "bytes": 3491628
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00006.tif",
+      "bytes": 3491636
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00007.tif",
+      "bytes": 3491600
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00008.tif",
+      "bytes": 3491608
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00009.tif",
+      "bytes": 3491596
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00010.tif",
+      "bytes": 3491616
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00011.tif",
+      "bytes": 3491620
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00012.tif",
+      "bytes": 3491612
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00013.tif",
+      "bytes": 3491596
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00014.tif",
+      "bytes": 3491620
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00015.tif",
+      "bytes": 3491620
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00016.tif",
+      "bytes": 3491624
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00017.tif",
+      "bytes": 3491604
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00018.tif",
+      "bytes": 3491596
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00019.tif",
+      "bytes": 3491584
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00020.tif",
+      "bytes": 3491584
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00021.tif",
+      "bytes": 3491616
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00022.tif",
+      "bytes": 3491620
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00023.tif",
+      "bytes": 3491612
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00024.tif",
+      "bytes": 3491592
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00025.tif",
+      "bytes": 3491576
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00026.tif",
+      "bytes": 3491604
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00027.tif",
+      "bytes": 3491580
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00028.tif",
+      "bytes": 3491592
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00029.tif",
+      "bytes": 3491612
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00030.tif",
+      "bytes": 3491644
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00031.tif",
+      "bytes": 3491636
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00032.tif",
+      "bytes": 3491612
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00033.tif",
+      "bytes": 3491564
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00034.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00035.tif",
+      "bytes": 3491608
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00036.tif",
+      "bytes": 3491604
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00037.tif",
+      "bytes": 3491596
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00038.tif",
+      "bytes": 3491608
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00039.tif",
+      "bytes": 3491596
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00040.tif",
+      "bytes": 3491636
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00041.tif",
+      "bytes": 3491592
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00042.tif",
+      "bytes": 3491592
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00043.tif",
+      "bytes": 3491592
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00044.tif",
+      "bytes": 3491564
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00045.tif",
+      "bytes": 3491584
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00046.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00047.tif",
+      "bytes": 3491624
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00048.tif",
+      "bytes": 3491576
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00049.tif",
+      "bytes": 3491600
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00050.tif",
+      "bytes": 3491596
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00051.tif",
+      "bytes": 3491604
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00052.tif",
+      "bytes": 3491568
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00053.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00054.tif",
+      "bytes": 3491596
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00055.tif",
+      "bytes": 3491600
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00056.tif",
+      "bytes": 3491604
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00057.tif",
+      "bytes": 3491608
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00058.tif",
+      "bytes": 3491576
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00059.tif",
+      "bytes": 3491564
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00060.tif",
+      "bytes": 3491568
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00061.tif",
+      "bytes": 3491572
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00062.tif",
+      "bytes": 3491608
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00063.tif",
+      "bytes": 3491612
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00064.tif",
+      "bytes": 3491648
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00065.tif",
+      "bytes": 3491632
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00066.tif",
+      "bytes": 3491652
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00067.tif",
+      "bytes": 3491616
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00068.tif",
+      "bytes": 3491608
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00069.tif",
+      "bytes": 3491608
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00070.tif",
+      "bytes": 3491608
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00071.tif",
+      "bytes": 3491648
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00072.tif",
+      "bytes": 3491620
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00073.tif",
+      "bytes": 3491624
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00074.tif",
+      "bytes": 3491620
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00075.tif",
+      "bytes": 3491620
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00076.tif",
+      "bytes": 3491604
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00077.tif",
+      "bytes": 3491612
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00078.tif",
+      "bytes": 3491620
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00079.tif",
+      "bytes": 3491620
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00080.tif",
+      "bytes": 3491608
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00081.tif",
+      "bytes": 3491644
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00082.tif",
+      "bytes": 3491612
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00083.tif",
+      "bytes": 3491636
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00084.tif",
+      "bytes": 3491644
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00085.tif",
+      "bytes": 3491644
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00086.tif",
+      "bytes": 3491632
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00087.tif",
+      "bytes": 3491596
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00088.tif",
+      "bytes": 3491612
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00089.tif",
+      "bytes": 3491604
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00090.tif",
+      "bytes": 3491592
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00091.tif",
+      "bytes": 3491568
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00092.tif",
+      "bytes": 3491576
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00093.tif",
+      "bytes": 3491572
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00094.tif",
+      "bytes": 3491564
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00095.tif",
+      "bytes": 3491596
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00096.tif",
+      "bytes": 3491600
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00097.tif",
+      "bytes": 3491604
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00098.tif",
+      "bytes": 3491592
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00099.tif",
+      "bytes": 3491620
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00100.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00101.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00102.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00103.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00104.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00105.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00106.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00107.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00108.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00109.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00110.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00111.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00112.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00113.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00114.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00115.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00116.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00117.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00118.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00119.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00120.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00121.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00122.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00123.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00124.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00125.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00126.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00127.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00128.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00129.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00130.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00131.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00132.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00133.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00134.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00135.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00136.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00137.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00138.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00139.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00140.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00141.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00142.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00143.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00144.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00145.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00146.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00147.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00148.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/type-001/render/frame_00149.tif",
+      "bytes": 3491588
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 338239
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/aerender.log",
+      "bytes": 6270
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/build.jsx",
+      "bytes": 12846
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/project.aep 日志/AE 2026-11-7 3-47-35.txt",
+      "bytes": 4925
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00000.tif",
+      "bytes": 3488816
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00001.tif",
+      "bytes": 3488784
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00002.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00003.tif",
+      "bytes": 3488808
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00004.tif",
+      "bytes": 3488808
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00005.tif",
+      "bytes": 3488792
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00006.tif",
+      "bytes": 3488740
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00007.tif",
+      "bytes": 3488764
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00008.tif",
+      "bytes": 3488788
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00009.tif",
+      "bytes": 3488756
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00010.tif",
+      "bytes": 3488792
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00011.tif",
+      "bytes": 3488808
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00012.tif",
+      "bytes": 3488812
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00013.tif",
+      "bytes": 3488832
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00014.tif",
+      "bytes": 3488788
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00015.tif",
+      "bytes": 3488788
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00016.tif",
+      "bytes": 3488808
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00017.tif",
+      "bytes": 3488792
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00018.tif",
+      "bytes": 3488768
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00019.tif",
+      "bytes": 3488784
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00020.tif",
+      "bytes": 3488808
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00021.tif",
+      "bytes": 3488836
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00022.tif",
+      "bytes": 3488808
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00023.tif",
+      "bytes": 3488768
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00024.tif",
+      "bytes": 3488752
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00025.tif",
+      "bytes": 3488780
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00026.tif",
+      "bytes": 3488756
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00027.tif",
+      "bytes": 3488764
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00028.tif",
+      "bytes": 3488804
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00029.tif",
+      "bytes": 3488824
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00030.tif",
+      "bytes": 3488804
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00031.tif",
+      "bytes": 3488792
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00032.tif",
+      "bytes": 3488772
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00033.tif",
+      "bytes": 3488748
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00034.tif",
+      "bytes": 3488784
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00035.tif",
+      "bytes": 3488804
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00036.tif",
+      "bytes": 3488784
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00037.tif",
+      "bytes": 3488760
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00038.tif",
+      "bytes": 3488764
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00039.tif",
+      "bytes": 3488748
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00040.tif",
+      "bytes": 3488756
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00041.tif",
+      "bytes": 3488792
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00042.tif",
+      "bytes": 3488776
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00043.tif",
+      "bytes": 3488760
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00044.tif",
+      "bytes": 3488732
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00045.tif",
+      "bytes": 3488740
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00046.tif",
+      "bytes": 3488752
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00047.tif",
+      "bytes": 3488788
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00048.tif",
+      "bytes": 3488800
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00049.tif",
+      "bytes": 3488772
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00050.tif",
+      "bytes": 3488796
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00051.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00052.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00053.tif",
+      "bytes": 3488800
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00054.tif",
+      "bytes": 3488792
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00055.tif",
+      "bytes": 3488804
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00056.tif",
+      "bytes": 3488784
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00057.tif",
+      "bytes": 3488788
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00058.tif",
+      "bytes": 3488792
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00059.tif",
+      "bytes": 3488764
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00060.tif",
+      "bytes": 3488776
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00061.tif",
+      "bytes": 3488740
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00062.tif",
+      "bytes": 3488752
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00063.tif",
+      "bytes": 3488760
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00064.tif",
+      "bytes": 3488768
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00065.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00066.tif",
+      "bytes": 3488800
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00067.tif",
+      "bytes": 3488764
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00068.tif",
+      "bytes": 3488748
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00069.tif",
+      "bytes": 3488736
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00070.tif",
+      "bytes": 3488768
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00071.tif",
+      "bytes": 3488780
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00072.tif",
+      "bytes": 3488792
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00073.tif",
+      "bytes": 3488804
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00074.tif",
+      "bytes": 3488796
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00075.tif",
+      "bytes": 3488780
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00076.tif",
+      "bytes": 3488756
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00077.tif",
+      "bytes": 3488736
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00078.tif",
+      "bytes": 3488780
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00079.tif",
+      "bytes": 3488776
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00080.tif",
+      "bytes": 3488768
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00081.tif",
+      "bytes": 3488800
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00082.tif",
+      "bytes": 3488788
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00083.tif",
+      "bytes": 3488800
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00084.tif",
+      "bytes": 3488784
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00085.tif",
+      "bytes": 3488800
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00086.tif",
+      "bytes": 3488796
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00087.tif",
+      "bytes": 3488768
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00088.tif",
+      "bytes": 3488796
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00089.tif",
+      "bytes": 3488796
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00090.tif",
+      "bytes": 3488776
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00091.tif",
+      "bytes": 3488764
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00092.tif",
+      "bytes": 3488740
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00093.tif",
+      "bytes": 3488752
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00094.tif",
+      "bytes": 3488772
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00095.tif",
+      "bytes": 3488772
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00096.tif",
+      "bytes": 3488772
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00097.tif",
+      "bytes": 3488768
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00098.tif",
+      "bytes": 3488748
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00099.tif",
+      "bytes": 3488732
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00100.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00101.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00102.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00103.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00104.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00105.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00106.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00107.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00108.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00109.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00110.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00111.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00112.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00113.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00114.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00115.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00116.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00117.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00118.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00119.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00120.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00121.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00122.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00123.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00124.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00125.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00126.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00127.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00128.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00129.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00130.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00131.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00132.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00133.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00134.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00135.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00136.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00137.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00138.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00139.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00140.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00141.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00142.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00143.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00144.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00145.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00146.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00147.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00148.tif",
+      "bytes": 3488744
+    },
+    {
+      "path": "samples/course2-magnifier-001/variation-001/render/frame_00149.tif",
+      "bytes": 3488744
+    }
+  ],
+  "authorization": "User requested keeping only deliverables after library publication; scope restricted to this independent lab"
+}
