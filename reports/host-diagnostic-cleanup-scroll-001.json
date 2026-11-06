@@ -1,0 +1,12 @@
+{
+  "status": "temporary_alias_retained",
+  "alias": "C:\\Users\\ASUS\\AppData\\Local\\Temp\\video-skills-lab-ae26-20261107",
+  "exists": true,
+  "is_junction": true,
+  "resolved_target": "E:\\自媒体\\Adobe After Effects 2026",
+  "deletion": "Automatic approval review rejected the combined diagnostic cleanup command before execution",
+  "stated_reason": "blocked by policy; no more specific reason returned",
+  "retry_with_alternate_delete_method": false,
+  "installation_manually_modified": false,
+  "managed_workspace_cleanup": "reports/cleanup-applied-course2-scroll-001.json"
+}

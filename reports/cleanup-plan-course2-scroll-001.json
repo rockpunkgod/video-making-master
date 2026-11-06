@@ -1,0 +1,1077 @@
+{
+  "status": "planned",
+  "scopes": [
+    "samples/course2-scroll-001",
+    "cache/course2-scroll-study-20261107",
+    "cache/watch/watch-0cpapdkm",
+    "cache/watch/watch-4336gyfb",
+    "cache/watch/watch-m6ll1rrd",
+    "cache/watch/watch-u09u9x54",
+    "cache/watch/watch-z49llogg",
+    "cache/watch/watch-7v79xywt",
+    "cache/watch/watch-9e5njapx",
+    "cache/local-transcripts/BV1c7GTzMEh5-p26-full-001",
+    "cache/local-transcripts/BV1c7GTzMEh5-p27-full-001"
+  ],
+  "published_commit": "46366aceff82548f77e46404593060e5f5a0de24",
+  "manifest_sha256": "888d5286ce67b839bec5fe80a50196c75b670eade766be1395b73f3709831e36",
+  "files": 262,
+  "bytes": 76348112,
+  "keep_active": [
+    "cache/watch/watch-0cpapdkm/download/run-x3zfcvdw/video.mp4",
+    "cache/watch/watch-4336gyfb/download/run-qaxeuwbg/video.mp4"
+  ],
+  "protected_delivery_files": 1420,
+  "skipped_links": [],
+  "targets": [
+    {
+      "path": "cache/course2-scroll-study-20261107/ae-start-dialog.png",
+      "bytes": 18153
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/ae-terminal-dialog.png",
+      "bytes": 15377
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/build-vertical-001.log",
+      "bytes": 189
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/build-vertical-002.log",
+      "bytes": 0
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/build-vertical-003.log",
+      "bytes": 189
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/build-vertical-004.log",
+      "bytes": 186
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/build-vertical-005.log",
+      "bytes": 189
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/contacts.py",
+      "bytes": 504
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/diagnostic-launch-adobe.py",
+      "bytes": 1242
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/engine-probe/launcher.json",
+      "bytes": 179
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/engine-probe/probe.jsx",
+      "bytes": 315
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/host_blank_guard.jsx",
+      "bytes": 563
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/make-fixtures.py",
+      "bytes": 1398
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/make-profiles.py",
+      "bytes": 1704
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-cues-0.jpg",
+      "bytes": 168016
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-cues-1.jpg",
+      "bytes": 164649
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-details-0.jpg",
+      "bytes": 163155
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_001.jpg",
+      "bytes": 72564
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_002.jpg",
+      "bytes": 83766
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_003.jpg",
+      "bytes": 102829
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_004.jpg",
+      "bytes": 91588
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_005.jpg",
+      "bytes": 82808
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_006.jpg",
+      "bytes": 67828
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_007.jpg",
+      "bytes": 56862
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_008.jpg",
+      "bytes": 52491
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_009.jpg",
+      "bytes": 47050
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_010.jpg",
+      "bytes": 41476
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_011.jpg",
+      "bytes": 38368
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_012.jpg",
+      "bytes": 35497
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_013.jpg",
+      "bytes": 35728
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_014.jpg",
+      "bytes": 36234
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_015.jpg",
+      "bytes": 35726
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_016.jpg",
+      "bytes": 34713
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_017.jpg",
+      "bytes": 34362
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_018.jpg",
+      "bytes": 34464
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_019.jpg",
+      "bytes": 34628
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_020.jpg",
+      "bytes": 34407
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_021.jpg",
+      "bytes": 33683
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_022.jpg",
+      "bytes": 33739
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_023.jpg",
+      "bytes": 33805
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_024.jpg",
+      "bytes": 33789
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_025.jpg",
+      "bytes": 33803
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_026.jpg",
+      "bytes": 33428
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_027.jpg",
+      "bytes": 33109
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_028.jpg",
+      "bytes": 33105
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_029.jpg",
+      "bytes": 34154
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion/frame_030.jpg",
+      "bytes": 34704
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion-0.jpg",
+      "bytes": 163037
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion-1.jpg",
+      "bytes": 158390
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion-2.jpg",
+      "bytes": 151818
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p26-motion-3.jpg",
+      "bytes": 62250
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-cues-0.jpg",
+      "bytes": 162584
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-cues-1.jpg",
+      "bytes": 156556
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-cues-2.jpg",
+      "bytes": 95463
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-details-0.jpg",
+      "bytes": 155820
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-details-1.jpg",
+      "bytes": 62809
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_001.jpg",
+      "bytes": 73655
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_002.jpg",
+      "bytes": 84800
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_003.jpg",
+      "bytes": 101780
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_004.jpg",
+      "bytes": 101781
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_005.jpg",
+      "bytes": 83103
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_006.jpg",
+      "bytes": 66982
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_007.jpg",
+      "bytes": 59560
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_008.jpg",
+      "bytes": 51134
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_009.jpg",
+      "bytes": 44966
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_010.jpg",
+      "bytes": 40118
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_011.jpg",
+      "bytes": 36617
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_012.jpg",
+      "bytes": 34624
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_013.jpg",
+      "bytes": 34637
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_014.jpg",
+      "bytes": 34647
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_015.jpg",
+      "bytes": 34651
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_016.jpg",
+      "bytes": 34652
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_017.jpg",
+      "bytes": 34669
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_018.jpg",
+      "bytes": 34654
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_019.jpg",
+      "bytes": 35196
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_020.jpg",
+      "bytes": 35283
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_021.jpg",
+      "bytes": 35133
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_022.jpg",
+      "bytes": 35132
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_023.jpg",
+      "bytes": 35299
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_024.jpg",
+      "bytes": 35230
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_025.jpg",
+      "bytes": 35232
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_026.jpg",
+      "bytes": 35217
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_027.jpg",
+      "bytes": 35197
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_028.jpg",
+      "bytes": 35269
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_029.jpg",
+      "bytes": 33875
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion/frame_030.jpg",
+      "bytes": 34280
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion-0.jpg",
+      "bytes": 163360
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion-1.jpg",
+      "bytes": 160046
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion-2.jpg",
+      "bytes": 162628
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/p27-motion-3.jpg",
+      "bytes": 64602
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/package-evidence.py",
+      "bytes": 8884
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/read_transcript.py",
+      "bytes": 414
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/real-ascii-launch.png",
+      "bytes": 7702
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/render-vertical-001.log",
+      "bytes": 864
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/run-engine.py",
+      "bytes": 1100
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/sample-source-motion.py",
+      "bytes": 1467
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/shortcut-cep-error.png",
+      "bytes": 9723
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/shortcut-error.png",
+      "bytes": 8936
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/shortcut-start.png",
+      "bytes": 18153
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/shortcut-terminal.png",
+      "bytes": 15377
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/source-motion.json",
+      "bytes": 7682
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/start-1053576.png",
+      "bytes": 8936
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/start-1377624.png",
+      "bytes": 9723
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/start-canonicalized-alias-error.png",
+      "bytes": 9723
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/start-safe-locale-error.png",
+      "bytes": 9723
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/start-safe-locale.png",
+      "bytes": 18153
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/terminal-canonicalized-alias.png",
+      "bytes": 15377
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/terminal-safe-locale.png",
+      "bytes": 15377
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/transcribe-p26.log",
+      "bytes": 52643
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/transcribe-p27.log",
+      "bytes": 65055
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/transcribe.py",
+      "bytes": 720
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/watch-p26-cues.log",
+      "bytes": 3229
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/watch-p26-details.log",
+      "bytes": 2193
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/watch-p27-cues.log",
+      "bytes": 3804
+    },
+    {
+      "path": "cache/course2-scroll-study-20261107/watch-p27-details.log",
+      "bytes": 2539
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p26-full-001/input.wav",
+      "bytes": 25946862
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p26-full-001/transcript.json",
+      "bytes": 56539
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p26-full-001/transcript.srt",
+      "bytes": 18432
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p27-full-001/input.wav",
+      "bytes": 35524674
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p27-full-001/transcript.json",
+      "bytes": 69224
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p27-full-001/transcript.srt",
+      "bytes": 22908
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/download/run-x3zfcvdw/final-path.jsonl",
+      "bytes": 109
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/download/run-x3zfcvdw/video.info.json",
+      "bytes": 10260
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/contact-1.jpg",
+      "bytes": 193422
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/contact-2.jpg",
+      "bytes": 214197
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0001.jpg",
+      "bytes": 6637
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0004.jpg",
+      "bytes": 63477
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0006.jpg",
+      "bytes": 42150
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0009.jpg",
+      "bytes": 28870
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0012.jpg",
+      "bytes": 19252
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0014.jpg",
+      "bytes": 28310
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0017.jpg",
+      "bytes": 60664
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0020.jpg",
+      "bytes": 67068
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0022.jpg",
+      "bytes": 45841
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0025.jpg",
+      "bytes": 66181
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0028.jpg",
+      "bytes": 64063
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0030.jpg",
+      "bytes": 57244
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0033.jpg",
+      "bytes": 45006
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0035.jpg",
+      "bytes": 63258
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0038.jpg",
+      "bytes": 62162
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0041.jpg",
+      "bytes": 20586
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0043.jpg",
+      "bytes": 19350
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0046.jpg",
+      "bytes": 25912
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0049.jpg",
+      "bytes": 70350
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0051.jpg",
+      "bytes": 66735
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0054.jpg",
+      "bytes": 55313
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0057.jpg",
+      "bytes": 67855
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0059.jpg",
+      "bytes": 64217
+    },
+    {
+      "path": "cache/watch/watch-0cpapdkm/frames/frame_0062.jpg",
+      "bytes": 68716
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/download/run-qaxeuwbg/final-path.jsonl",
+      "bytes": 109
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/download/run-qaxeuwbg/video.info.json",
+      "bytes": 10260
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/contact-1.jpg",
+      "bytes": 193473
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/contact-2.jpg",
+      "bytes": 213952
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0001.jpg",
+      "bytes": 6637
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0004.jpg",
+      "bytes": 63322
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0006.jpg",
+      "bytes": 42022
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0009.jpg",
+      "bytes": 28764
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0012.jpg",
+      "bytes": 19264
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0014.jpg",
+      "bytes": 28260
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0017.jpg",
+      "bytes": 60775
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0020.jpg",
+      "bytes": 67083
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0022.jpg",
+      "bytes": 45449
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0025.jpg",
+      "bytes": 65955
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0028.jpg",
+      "bytes": 64235
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0030.jpg",
+      "bytes": 57562
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0033.jpg",
+      "bytes": 44559
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0035.jpg",
+      "bytes": 62937
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0038.jpg",
+      "bytes": 62235
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0041.jpg",
+      "bytes": 20610
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0043.jpg",
+      "bytes": 19256
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0046.jpg",
+      "bytes": 25882
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0049.jpg",
+      "bytes": 70605
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0051.jpg",
+      "bytes": 67009
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0054.jpg",
+      "bytes": 55367
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0057.jpg",
+      "bytes": 67958
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0059.jpg",
+      "bytes": 64151
+    },
+    {
+      "path": "cache/watch/watch-4336gyfb/frames/frame_0062.jpg",
+      "bytes": 67595
+    },
+    {
+      "path": "cache/watch/watch-7v79xywt/frames/cue_0000.jpg",
+      "bytes": 95995
+    },
+    {
+      "path": "cache/watch/watch-7v79xywt/frames/cue_0001.jpg",
+      "bytes": 96445
+    },
+    {
+      "path": "cache/watch/watch-7v79xywt/frames/cue_0002.jpg",
+      "bytes": 94147
+    },
+    {
+      "path": "cache/watch/watch-7v79xywt/frames/cue_0003.jpg",
+      "bytes": 100265
+    },
+    {
+      "path": "cache/watch/watch-7v79xywt/frames/cue_0004.jpg",
+      "bytes": 99726
+    },
+    {
+      "path": "cache/watch/watch-7v79xywt/frames/cue_0005.jpg",
+      "bytes": 99488
+    },
+    {
+      "path": "cache/watch/watch-7v79xywt/frames/cue_0006.jpg",
+      "bytes": 100031
+    },
+    {
+      "path": "cache/watch/watch-7v79xywt/frames/cue_0007.jpg",
+      "bytes": 97889
+    },
+    {
+      "path": "cache/watch/watch-7v79xywt/frames/cue_0008.jpg",
+      "bytes": 97357
+    },
+    {
+      "path": "cache/watch/watch-m6ll1rrd/frames/cue_0000.jpg",
+      "bytes": 104880
+    },
+    {
+      "path": "cache/watch/watch-m6ll1rrd/frames/cue_0001.jpg",
+      "bytes": 102949
+    },
+    {
+      "path": "cache/watch/watch-m6ll1rrd/frames/cue_0002.jpg",
+      "bytes": 100677
+    },
+    {
+      "path": "cache/watch/watch-m6ll1rrd/frames/cue_0003.jpg",
+      "bytes": 98972
+    },
+    {
+      "path": "cache/watch/watch-m6ll1rrd/frames/cue_0004.jpg",
+      "bytes": 105265
+    },
+    {
+      "path": "cache/watch/watch-m6ll1rrd/frames/cue_0005.jpg",
+      "bytes": 103505
+    },
+    {
+      "path": "cache/watch/watch-m6ll1rrd/frames/cue_0006.jpg",
+      "bytes": 98212
+    },
+    {
+      "path": "cache/watch/watch-m6ll1rrd/frames/cue_0007.jpg",
+      "bytes": 103339
+    },
+    {
+      "path": "cache/watch/watch-m6ll1rrd/frames/cue_0008.jpg",
+      "bytes": 96668
+    },
+    {
+      "path": "cache/watch/watch-m6ll1rrd/frames/cue_0009.jpg",
+      "bytes": 96564
+    },
+    {
+      "path": "cache/watch/watch-m6ll1rrd/frames/cue_0010.jpg",
+      "bytes": 96367
+    },
+    {
+      "path": "cache/watch/watch-m6ll1rrd/frames/cue_0011.jpg",
+      "bytes": 100816
+    },
+    {
+      "path": "cache/watch/watch-m6ll1rrd/frames/cue_0012.jpg",
+      "bytes": 100078
+    },
+    {
+      "path": "cache/watch/watch-m6ll1rrd/frames/cue_0013.jpg",
+      "bytes": 99900
+    },
+    {
+      "path": "cache/watch/watch-m6ll1rrd/frames/cue_0014.jpg",
+      "bytes": 99824
+    },
+    {
+      "path": "cache/watch/watch-m6ll1rrd/frames/cue_0015.jpg",
+      "bytes": 98031
+    },
+    {
+      "path": "cache/watch/watch-m6ll1rrd/frames/cue_0016.jpg",
+      "bytes": 100196
+    },
+    {
+      "path": "cache/watch/watch-m6ll1rrd/frames/cue_0017.jpg",
+      "bytes": 99882
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0000.jpg",
+      "bytes": 97313
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0001.jpg",
+      "bytes": 100405
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0002.jpg",
+      "bytes": 102382
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0003.jpg",
+      "bytes": 102682
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0004.jpg",
+      "bytes": 95422
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0005.jpg",
+      "bytes": 100876
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0006.jpg",
+      "bytes": 102801
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0007.jpg",
+      "bytes": 98068
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0008.jpg",
+      "bytes": 96506
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0009.jpg",
+      "bytes": 98422
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0010.jpg",
+      "bytes": 101024
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0011.jpg",
+      "bytes": 100794
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0012.jpg",
+      "bytes": 89316
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0013.jpg",
+      "bytes": 99057
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0014.jpg",
+      "bytes": 89899
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0015.jpg",
+      "bytes": 98327
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0016.jpg",
+      "bytes": 98493
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0017.jpg",
+      "bytes": 97933
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0018.jpg",
+      "bytes": 91662
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0019.jpg",
+      "bytes": 99635
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0020.jpg",
+      "bytes": 98403
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0021.jpg",
+      "bytes": 98320
+    },
+    {
+      "path": "cache/watch/watch-u09u9x54/frames/cue_0022.jpg",
+      "bytes": 96106
+    },
+    {
+      "path": "cache/watch/watch-z49llogg/frames/cue_0000.jpg",
+      "bytes": 98447
+    },
+    {
+      "path": "cache/watch/watch-z49llogg/frames/cue_0001.jpg",
+      "bytes": 99495
+    },
+    {
+      "path": "cache/watch/watch-z49llogg/frames/cue_0002.jpg",
+      "bytes": 100856
+    },
+    {
+      "path": "cache/watch/watch-z49llogg/frames/cue_0003.jpg",
+      "bytes": 94048
+    },
+    {
+      "path": "cache/watch/watch-z49llogg/frames/cue_0004.jpg",
+      "bytes": 89840
+    },
+    {
+      "path": "cache/watch/watch-z49llogg/frames/cue_0005.jpg",
+      "bytes": 90023
+    },
+    {
+      "path": "cache/watch/watch-z49llogg/frames/cue_0006.jpg",
+      "bytes": 98304
+    },
+    {
+      "path": "cache/watch/watch-z49llogg/frames/cue_0007.jpg",
+      "bytes": 97335
+    },
+    {
+      "path": "cache/watch/watch-z49llogg/frames/cue_0008.jpg",
+      "bytes": 99548
+    },
+    {
+      "path": "cache/watch/watch-z49llogg/frames/cue_0009.jpg",
+      "bytes": 96099
+    },
+    {
+      "path": "cache/watch/watch-z49llogg/frames/cue_0010.jpg",
+      "bytes": 92133
+    },
+    {
+      "path": "cache/watch/watch-z49llogg/frames/cue_0011.jpg",
+      "bytes": 91235
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-001/build.jsx",
+      "bytes": 11853
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-001/execution.json",
+      "bytes": 187
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-001/plan.json",
+      "bytes": 679
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-001/request.json",
+      "bytes": 2647
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-002/build.jsx",
+      "bytes": 11853
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-002/launcher.json",
+      "bytes": 179
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-002/plan.json",
+      "bytes": 679
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-002/request.json",
+      "bytes": 2647
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-003/build.jsx",
+      "bytes": 11853
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-003/execution.json",
+      "bytes": 187
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-003/launcher.json",
+      "bytes": 179
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-003/plan.json",
+      "bytes": 679
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-003/request.json",
+      "bytes": 2647
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-004/build.jsx",
+      "bytes": 11853
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-004/execution.json",
+      "bytes": 184
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-004/launcher.json",
+      "bytes": 179
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-004/plan.json",
+      "bytes": 679
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-004/request.json",
+      "bytes": 2647
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-005/build.jsx",
+      "bytes": 11853
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-005/execution.json",
+      "bytes": 187
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-005/launcher.json",
+      "bytes": 179
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-005/plan.json",
+      "bytes": 679
+    },
+    {
+      "path": "samples/course2-scroll-001/vertical-005/request.json",
+      "bytes": 2647
+    }
+  ],
+  "authorization": "User requested keeping only deliverables after library publication; scope restricted to this independent lab"
+}
