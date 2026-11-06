@@ -1,6 +1,6 @@
 {
   "skill": "ae-advanced-expressions",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "unit": "course-p10-number-sequences",
   "status": "candidate",
   "cases": [
@@ -308,8 +308,8 @@
   "source_comparison": "cache/reviews/p10-original-vs-002-001/comparison.mp4",
   "comparison_scope": "source recording paused; inferred viewport crop; layout only, no source playback/frame-sync claim",
   "missing": [
-    "overall course layout feedback",
-    "cross-input generalization beyond three parameter configurations"
+    "new003 overall layout feedback",
+    "cross-input generalization beyond parameter configurations"
   ],
   "retained_failure": "p10-decimal-binary-001 actually rendered for diagnosis; basic decode passed but all 150 frames fail layout pixel check (16 rows vs18 and unexpected margin ink)",
   "negative_layout_test": {
@@ -418,5 +418,359 @@
       ],
       "scope": "Every decoded frame has both unclipped number blocks with expected line counts; digits/alphabet independently checked in native AE, not OCR here"
     }
+  },
+  "human_visual_review": {
+    "feedback": "排版仍需调整",
+    "artifact": "samples/course-reproduction-006/p10-decimal-binary-002/final.mp4",
+    "status": "rejected_layout_needs_revision",
+    "diagnosis": "Matched original/candidate visible row centers: decimal block candidate7.5px high in comparison; binary3.5px low; horizontal2–3px right. Font and line pitch unchanged.",
+    "comparison": "cache/reviews/p10-original-vs-002-001/comparison.mp4"
+  },
+  "current_revision": {
+    "version": "0.3.1",
+    "status": "candidate",
+    "baseline": "samples/course-reproduction-006/p10-decimal-binary-003",
+    "inferred_positions": [
+      [
+        56,
+        138
+      ],
+      [
+        56,
+        592
+      ]
+    ],
+    "cases": [
+      {
+        "case": "p10-decimal-binary-003",
+        "directory": "samples/course-reproduction-006/p10-decimal-binary-003",
+        "video_sha256": "bce91360b93f208c4a7ac215b7bd421737e4805ccb78d3a61227695ef7aa5a0d",
+        "parameters": {
+          "seed": 201,
+          "num": 262,
+          "columns": 30
+        },
+        "native_num_edit": {
+          "original": 262,
+          "changed": 261,
+          "read_after_reopen": 261,
+          "restored_after_reopen": 262
+        },
+        "canvas_bounds": [
+          {
+            "min_x": 56.9450000245124,
+            "min_y": 138.27950823307,
+            "max_x": 1034.95024198294,
+            "max_y": 499.619523929432
+          },
+          {
+            "min_x": 57.0150000359863,
+            "min_y": 592.27950823307,
+            "max_x": 1034.42520827055,
+            "max_y": 953.619523929432
+          }
+        ],
+        "pixel_quality": {
+          "status": "passed",
+          "frames": 150,
+          "expected_line_bands": 18,
+          "observed_band_counts": [
+            18
+          ],
+          "minimum_black_pixels": 22898,
+          "failure_count": 0,
+          "failures": [],
+          "scope": "Every decoded frame has both unclipped number blocks with expected line counts; digits/alphabet independently checked in native AE, not OCR here"
+        },
+        "visual_review": "10 frames actually inspected for revised complete-canvas layout; no unintended clipping"
+      },
+      {
+        "case": "p10-variation-002",
+        "directory": "samples/course-reproduction-006/p10-variation-002",
+        "video_sha256": "356816616bdcc45c081e2712982053378c59cdf2211b5227b7cf51b28ab60fac",
+        "parameters": {
+          "seed": 55,
+          "num": 180,
+          "columns": 20
+        },
+        "native_num_edit": {
+          "original": 180,
+          "changed": 179,
+          "read_after_reopen": 179,
+          "restored_after_reopen": 180
+        },
+        "canvas_bounds": [
+          {
+            "min_x": 56.9450000245124,
+            "min_y": 138.27950823307,
+            "max_x": 1034.95024198294,
+            "max_y": 499.619523929432
+          },
+          {
+            "min_x": 57.0150000359863,
+            "min_y": 592.27950823307,
+            "max_x": 1034.42514723539,
+            "max_y": 953.619523929432
+          }
+        ],
+        "pixel_quality": {
+          "status": "passed",
+          "frames": 150,
+          "expected_line_bands": 18,
+          "observed_band_counts": [
+            18
+          ],
+          "minimum_black_pixels": 15406,
+          "failure_count": 0,
+          "failures": [],
+          "scope": "Every decoded frame has both unclipped number blocks with expected line counts; digits/alphabet independently checked in native AE, not OCR here"
+        },
+        "visual_review": "10 frames actually inspected for revised complete-canvas layout; no unintended clipping"
+      },
+      {
+        "case": "p10-single-digit-002",
+        "directory": "samples/course-reproduction-006/p10-single-digit-002",
+        "video_sha256": "318bb3cd3186d0076d6ed163c077514d276629fe4cead5230da73800e29a18e7",
+        "parameters": {
+          "seed": 77,
+          "num": 1,
+          "columns": 1
+        },
+        "native_num_edit": {
+          "original": 1,
+          "changed": 2,
+          "read_after_reopen": 2,
+          "restored_after_reopen": 1
+        },
+        "canvas_bounds": [
+          {
+            "min_x": 56.9450000245124,
+            "min_y": 138.27950823307,
+            "max_x": 79.2750007510185,
+            "max_y": 163.619508670643
+          },
+          {
+            "min_x": 57.0150000359863,
+            "min_y": 592.27950823307,
+            "max_x": 79.2750007510185,
+            "max_y": 617.619508670643
+          }
+        ],
+        "pixel_quality": {
+          "status": "passed",
+          "frames": 150,
+          "expected_line_bands": 2,
+          "observed_band_counts": [
+            2
+          ],
+          "minimum_black_pixels": 54,
+          "failure_count": 0,
+          "failures": [],
+          "scope": "Every decoded frame has both unclipped number blocks with expected line counts; digits/alphabet independently checked in native AE, not OCR here"
+        },
+        "visual_review": "10 frames actually inspected for revised complete-canvas layout; no unintended clipping"
+      }
+    ],
+    "reference_row_geometry": {
+      "status": "passed_row_geometry_only",
+      "reference": {
+        "bands": [
+          [
+            1,
+            10
+          ],
+          [
+            19,
+            28
+          ],
+          [
+            36,
+            46
+          ],
+          [
+            54,
+            63
+          ],
+          [
+            71,
+            81
+          ],
+          [
+            89,
+            98
+          ],
+          [
+            106,
+            116
+          ],
+          [
+            156,
+            165
+          ],
+          [
+            173,
+            183
+          ],
+          [
+            191,
+            201
+          ],
+          [
+            209,
+            218
+          ],
+          [
+            226,
+            236
+          ],
+          [
+            244,
+            253
+          ],
+          [
+            261,
+            271
+          ],
+          [
+            279,
+            289
+          ],
+          [
+            296,
+            306
+          ]
+        ],
+        "x_bounds": [
+          34,
+          612
+        ]
+      },
+      "candidate": {
+        "bands": [
+          [
+            1,
+            11
+          ],
+          [
+            19,
+            28
+          ],
+          [
+            36,
+            46
+          ],
+          [
+            54,
+            63
+          ],
+          [
+            71,
+            81
+          ],
+          [
+            89,
+            98
+          ],
+          [
+            106,
+            116
+          ],
+          [
+            156,
+            165
+          ],
+          [
+            173,
+            183
+          ],
+          [
+            191,
+            201
+          ],
+          [
+            209,
+            218
+          ],
+          [
+            226,
+            236
+          ],
+          [
+            244,
+            253
+          ],
+          [
+            261,
+            271
+          ],
+          [
+            279,
+            288
+          ],
+          [
+            297,
+            306
+          ]
+        ],
+        "x_bounds": [
+          34,
+          612
+        ]
+      },
+      "max_row_center_error_px": 0.5,
+      "median_row_center_error_px": 0.0,
+      "x_bound_difference_px": 0,
+      "thresholds": {
+        "row_center_px": 1,
+        "x_bounds_px": 2
+      },
+      "not_validated": [
+        "digit identity",
+        "exact source AEP coordinates",
+        "source animation speed",
+        "unclipped full-canvas source layout"
+      ]
+    },
+    "prior_failed_row_geometry": "evaluations/course-p10-probe-001/layout-original-vs-002.json",
+    "isolated_execution": {
+      "status": "technical_pass_visual_pending",
+      "cases": [
+        {
+          "name": "p10-variation-002",
+          "directory": "samples/course-reproduction-006/p10-variation-002",
+          "status": "native_render_pixel_pass",
+          "native_num_edit": {
+            "original": 180,
+            "changed": 179,
+            "read_after_reopen": 179,
+            "restored_after_reopen": 180
+          },
+          "unique_strings": [
+            150,
+            150
+          ]
+        },
+        {
+          "name": "p10-single-digit-002",
+          "directory": "samples/course-reproduction-006/p10-single-digit-002",
+          "status": "native_render_pixel_pass",
+          "native_num_edit": {
+            "original": 1,
+            "changed": 2,
+            "read_after_reopen": 2,
+            "restored_after_reopen": 1
+          },
+          "unique_strings": [
+            10,
+            2
+          ]
+        }
+      ],
+      "copy": "E:\\自媒体\\video-skills-lab\\samples\\isolated-skill-008\\ae-advanced-expressions",
+      "cwd": "E:\\自媒体",
+      "same_emitter": true
+    },
+    "comparison": "cache/reviews/p10-original-vs-003-001/comparison.mp4",
+    "human_visual_review": "pending for new003 artifact; user rejection of002 retained"
   }
 }

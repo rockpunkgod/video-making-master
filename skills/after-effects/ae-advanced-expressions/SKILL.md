@@ -3,7 +3,7 @@ name: ae-advanced-expressions
 description: 使用AE表达式制作随机显隐、三维随机布局与漂移、可编辑数字/二进制序列，保留种子、阈值、空间范围与手动微调；当前为待验候选。
 ---
 
-0.3.0为candidate，融合课程第8节阈值显隐、第9节三维随机布局/漂移、第10节循环数字序列，不能泛称已掌握全部高级表达式。
+0.3.1为candidate，融合课程第8节阈值显隐、第9节三维随机布局/漂移、第10节循环数字序列，不能泛称已掌握全部高级表达式。第10节当前基线为p10-decimal-binary-003；002排版曾被用户否决，不作为当前视觉通过示例。003已修正推定位置并完成原生重建与行带对照，用户复核仍待回复。
 
 随机显隐读references/threshold.md，调用下述build_visibility.py；三维散布/漂移读references/displacement.md，调用build_displacement.py --out全新目录，可选--seed、--drift-speed、--asset。后者固定1920x1080、30fps、5秒，直接保留课程pos+drift+value；本机标量只作用X，不擅改成三个随机方向。
 

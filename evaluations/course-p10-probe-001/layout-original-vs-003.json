@@ -1,0 +1,160 @@
+{
+  "status": "passed_row_geometry_only",
+  "reference": {
+    "bands": [
+      [
+        1,
+        10
+      ],
+      [
+        19,
+        28
+      ],
+      [
+        36,
+        46
+      ],
+      [
+        54,
+        63
+      ],
+      [
+        71,
+        81
+      ],
+      [
+        89,
+        98
+      ],
+      [
+        106,
+        116
+      ],
+      [
+        156,
+        165
+      ],
+      [
+        173,
+        183
+      ],
+      [
+        191,
+        201
+      ],
+      [
+        209,
+        218
+      ],
+      [
+        226,
+        236
+      ],
+      [
+        244,
+        253
+      ],
+      [
+        261,
+        271
+      ],
+      [
+        279,
+        289
+      ],
+      [
+        296,
+        306
+      ]
+    ],
+    "x_bounds": [
+      34,
+      612
+    ]
+  },
+  "candidate": {
+    "bands": [
+      [
+        1,
+        11
+      ],
+      [
+        19,
+        28
+      ],
+      [
+        36,
+        46
+      ],
+      [
+        54,
+        63
+      ],
+      [
+        71,
+        81
+      ],
+      [
+        89,
+        98
+      ],
+      [
+        106,
+        116
+      ],
+      [
+        156,
+        165
+      ],
+      [
+        173,
+        183
+      ],
+      [
+        191,
+        201
+      ],
+      [
+        209,
+        218
+      ],
+      [
+        226,
+        236
+      ],
+      [
+        244,
+        253
+      ],
+      [
+        261,
+        271
+      ],
+      [
+        279,
+        288
+      ],
+      [
+        297,
+        306
+      ]
+    ],
+    "x_bounds": [
+      34,
+      612
+    ]
+  },
+  "max_row_center_error_px": 0.5,
+  "median_row_center_error_px": 0.0,
+  "x_bound_difference_px": 0,
+  "thresholds": {
+    "row_center_px": 1,
+    "x_bounds_px": 2
+  },
+  "not_validated": [
+    "digit identity",
+    "exact source AEP coordinates",
+    "source animation speed",
+    "unclipped full-canvas source layout"
+  ]
+}

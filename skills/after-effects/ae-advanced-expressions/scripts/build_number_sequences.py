@@ -9,7 +9,7 @@ out.mkdir(parents=True)
 cfg=dict(name='COURSE_P10_NUMBER_SEQUENCES',width=1080,height=1080,fps=30,duration=5,seed=a.seed,num=a.num,columns=a.columns,font='DMSans-Bold',font_size=35,
  source='BV1Yh4y1A7XT?p=10 09:32 complete decimal loop, 10:50 binary variant',status='candidate',
  observed='seed201,num262,columns30,DM Sans Bold35,1080square30fps5s16bpc; loop seedRandom(seed+i) without true',
- inferred='Paragraph boxes [980,420], positions [60,120]/[60,600], gray224 inferred from recorded viewport, not source property readouts')
+ inferred='Paragraph boxes [980,420], positions [56,138]/[56,592], gray224 inferred from recorded viewport, not source property readouts; revised from measured original/candidate row offsets after user layout rejection')
 (out/'request.json').write_text(json.dumps(cfg,indent=2),encoding='utf-8')
 body=r'''(function(){__ENCODER__
 var cfg=__CFG__,out=__OUT__;
@@ -24,7 +24,7 @@ try{
  for(var i=0;i<2;i++){
   var layer=comp.layers.addBoxText([980,420]);layer.name=names[i];layer.transform.anchorPoint.setValue([0,0]);
   var source=layer.property('ADBE Text Properties').property('ADBE Text Document'),doc=source.value;doc.text='0';doc.font=cfg.font;doc.fontSize=cfg.font_size;doc.applyFill=true;doc.fillColor=[0,0,0];doc.applyStroke=false;doc.autoLeading=true;doc.justification=ParagraphJustification.FULL_JUSTIFY_LASTLINE_FULL;source.setValue(doc);
-  var boxOrigin=source.value.boxTextPos;layer.transform.position.setValue([60-boxOrigin[0],(i===0?120:600)-boxOrigin[1]]);
+  var boxOrigin=source.value.boxTextPos;layer.transform.position.setValue([56-boxOrigin[0],(i===0?138:592)-boxOrigin[1]]);
   slider(layer,'seed',cfg.seed);slider(layer,'num',cfg.num);slider(layer,'columns',cfg.columns);
   source.expression='s="";\nn=effect("num")(1);\nseed=effect("seed")(1);\ncol=effect("columns")(1);\n\nfor(i=1;i<=n;i++){\n seedRandom(seed+i);\n // generate a random number\n randValue=Math.round(random('+(i===0?'9':'')+'));\n // add to string\n s+=randValue;\n // add linebreak at last column\n if(i%col==0) s+="\\n";\n}\ns;';
  }

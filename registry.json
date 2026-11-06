@@ -321,7 +321,7 @@
     },
     {
       "name": "ae-advanced-expressions",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "status": "candidate",
       "execution_status": "three_course_units_with_native_evidence_and_explicit_candidate_limits",
       "path": "skills/after-effects/ae-advanced-expressions",
@@ -354,8 +354,8 @@
       "blockers": [
         "p08 course visual acceptance pending",
         "fine-line/text PNG foreground readability not established",
-        "p10 overall layout feedback pending",
-        "p10 only parameter variations; arbitrary alphabet/material generalization unverified"
+        "p10 only parameter variations; arbitrary alphabet/material generalization unverified",
+        "p10 new003 layout reference row check passed; user re-review pending"
       ],
       "evidence_by_unit": {
         "threshold": "evaluations/course-p08-suite-001/summary.json",

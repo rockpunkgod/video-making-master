@@ -22,6 +22,9 @@
     "samples/course-reproduction-006/p10-decimal-binary-002",
     "samples/course-reproduction-006/p10-variation-001",
     "samples/course-reproduction-006/p10-single-digit-001",
+    "samples/course-reproduction-006/p10-decimal-binary-003",
+    "samples/course-reproduction-006/p10-variation-002",
+    "samples/course-reproduction-006/p10-single-digit-002",
     "samples/tracking-fixture-001/solve-calibrated-001/composite-001",
     "samples/tracking-fixture-001/solve-calibrated-001/composite-typography",
     "samples/tracking-gallery-001/solve-001/composite-pixel-sized",
@@ -172,9 +175,24 @@
       "sha256": "f25206bd8d185af56a07083dd5ebdf2769eda58e90425ef1b5e2c4554c8836ae"
     },
     {
+      "path": "evaluations/course-p10-probe-001/layout-original-vs-002.json",
+      "bytes": 1998,
+      "sha256": "fe2e2f9ce0c782077d18f13c19a413b30f27a0a5cbc46dbb9cedbb37ff0a5633"
+    },
+    {
+      "path": "evaluations/course-p10-probe-001/layout-original-vs-003.json",
+      "bytes": 2018,
+      "sha256": "8c085f0c9dbcb66a1afcb71d7401f626b17c602cf63cfe34054960877b630fd8"
+    },
+    {
       "path": "evaluations/course-p10-probe-001/summary.json",
-      "bytes": 14231,
-      "sha256": "b1807e42ca675970c261b270976338eaffb44a276bc3a7fd978e78c1a8f84068"
+      "bytes": 23638,
+      "sha256": "26ed9d095e1e12aa01d5d584eb924d1a117ef91be31113e01fbb3c3237c0f97d"
+    },
+    {
+      "path": "evaluations/course-p10-probe-001/variants-layout-revised.json",
+      "bytes": 1021,
+      "sha256": "4733fbf79451b3e2955082efd853c78546d66d62549a729f7cd43c58e9591a07"
     },
     {
       "path": "evaluations/course-p10-probe-001/variants.json",
@@ -1587,6 +1605,41 @@
       "sha256": "5bc0d59dd32daee2e0de2b7c0ac94beef0967c93383e5796ecb31d7754305188"
     },
     {
+      "path": "samples/course-reproduction-006/p10-decimal-binary-003/build.jsx",
+      "bytes": 8361,
+      "sha256": "dc01708c10fab1c0c63d5e5b4ad4db4d54b4ff5ef3898af198e10c0b8d558640"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-decimal-binary-003/final.mp4",
+      "bytes": 10276703,
+      "sha256": "bce91360b93f208c4a7ac215b7bd421737e4805ccb78d3a61227695ef7aa5a0d"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-decimal-binary-003/number-pixel-quality.json",
+      "bytes": 353,
+      "sha256": "609dad04a8ba2926598299f891757d53833806a4f362140b68b2e7f7cbbdf188"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-decimal-binary-003/project.aep",
+      "bytes": 139571,
+      "sha256": "17aacb167de0200fa204c32db48a76ee65a0fbb92798342618b20616e6418f11"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-decimal-binary-003/quality.json",
+      "bytes": 759,
+      "sha256": "faedd1e41e8175c1040242c9270a36b149f290c50c8f0a26c2b109be1ae9b3b5"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-decimal-binary-003/receipt.json",
+      "bytes": 1981,
+      "sha256": "26fb23e5914f0c104250a687a404fa6c65089fcfe18a509af4f08956a2287e60"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-decimal-binary-003/request.json",
+      "bytes": 664,
+      "sha256": "e7b53255b8b48a990f13f37b2acc0c7dda6087e7cff736fecfb75ca4b69d8e29"
+    },
+    {
       "path": "samples/course-reproduction-006/p10-single-digit-001/build.jsx",
       "bytes": 8273,
       "sha256": "d633de14dc9d626b82a723563f1320817a0e948d5d90e439afe723cc2f0cd142"
@@ -1622,6 +1675,41 @@
       "sha256": "15c517670981ebbf9a6d6fa43d2eb8af6698bddc39b0d879bd8626dc82ce15e9"
     },
     {
+      "path": "samples/course-reproduction-006/p10-single-digit-002/build.jsx",
+      "bytes": 8355,
+      "sha256": "980bace7b5f7540d3f8c8a3fcb344916ca294212359d9641635f108795badd1d"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-single-digit-002/final.mp4",
+      "bytes": 80329,
+      "sha256": "318bb3cd3186d0076d6ed163c077514d276629fe4cead5230da73800e29a18e7"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-single-digit-002/number-pixel-quality.json",
+      "bytes": 348,
+      "sha256": "70b97d44e20ba25e46cd05da6926040fc1186414ab37291834dd1682f00f6af1"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-single-digit-002/project.aep",
+      "bytes": 139569,
+      "sha256": "503c2e68c9b3c73c5f50cbdfc21036a268e6bb04410ec80bff9be90da448f28d"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-single-digit-002/quality.json",
+      "bytes": 756,
+      "sha256": "c1e0c12fc7847c2902e2659bc538a3fc78d8b59f1da3a4602b68554d345c2716"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-single-digit-002/receipt.json",
+      "bytes": 1365,
+      "sha256": "6afd4cfd0225619c476d9a29ce1528a9a88dcf7218b0deeaf7bc924e6527c4cc"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-single-digit-002/request.json",
+      "bytes": 660,
+      "sha256": "1e52fb8a973086304dbb7107772cd97c07955ad2c598c5795f88691c586913d0"
+    },
+    {
       "path": "samples/course-reproduction-006/p10-variation-001/build.jsx",
       "bytes": 8273,
       "sha256": "4a8fa197198bbbefa3a89b3c5d4b3afd7e62df2276dac1c221a8c7d5a089d72d"
@@ -1655,6 +1743,41 @@
       "path": "samples/course-reproduction-006/p10-variation-001/request.json",
       "bytes": 581,
       "sha256": "f54f56fbb702a35f5858523571c10453953b4ed6f30645049efb9eae86ac09fa"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-variation-002/build.jsx",
+      "bytes": 8355,
+      "sha256": "efe7b8ef2fe2b55bf5437556026adb49d021526fea57632f1a00b4247d391b60"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-variation-002/final.mp4",
+      "bytes": 9795883,
+      "sha256": "356816616bdcc45c081e2712982053378c59cdf2211b5227b7cf51b28ab60fac"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-variation-002/number-pixel-quality.json",
+      "bytes": 353,
+      "sha256": "03a1ca2e2ba7db11e4420f9aad5b1792149f40ceac75723a35811f556cc9deda"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-variation-002/project.aep",
+      "bytes": 139567,
+      "sha256": "78908e3b18e330ea42df459925aceab5055af972824ec8ca2238208215ea13a7"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-variation-002/quality.json",
+      "bytes": 754,
+      "sha256": "eff66dd5a5491a874411fea7ed8c0eae6e89e5c4c7b3ae06f0d7cb881ea9f23d"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-variation-002/receipt.json",
+      "bytes": 1830,
+      "sha256": "80e64ee9671bc866f9ad6064b100887755922ef286e6d21e0513b73a6d4771c7"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-variation-002/request.json",
+      "bytes": 663,
+      "sha256": "0655c721c6eff19e86f279607256c00e19870f7cb2dbd2515716a3425992aadf"
     },
     {
       "path": "samples/pr-sound-suite-002/baseline/assets.json",
@@ -2286,5 +2409,5 @@
     "repeated native audio/video exports"
   ],
   "portability": "Native projects retain original Windows media paths. Rebuild from the bundled scripts or relink the bundled inputs/assets; historical report references may point to local-only artifacts.",
-  "total_selected_bytes": 326994555
+  "total_selected_bytes": 347616178
 }

@@ -1,5 +1,7 @@
 # 第10节：Generating Number Sequences with For-Loop
 
+后续修订（0.3.1）：用户看过002原版对照后回复“排版仍需调整”。该回复绑定002，不撤回也不当作003通过。实测同一可见视口行带：002上块偏高、下块偏低且整体偏右，最大行中心误差7.5显示像素。将此前推定位置[60,120]/[60,600]改为[56,138]/[56,592]，重新实际制作003/variation-002/single-digit-002，原生重开编辑、全150帧解码及内容行带均通过；后两组在isolated-skill-008目录外调用。每组10帧已审阅。同一对照阈值下003最大行中心误差0.5像素、横边界差0；仅证明可见行带几何，不证明源AEP属性、数字身份或原版播放速度。新对照cache/reviews/p10-original-vs-003-001已提供，003用户复核待答。以下保留原始学习和旧版测试历史。
+
 全693.7秒，Watch缓存watch-czbuz5j5；12张全局帧、watch-94owtyd3和watch-zvet78ic共10张指定帧均实际审阅。复用本机已有small模型完整转录并阅读，没有新装或下载ASR模型。ASR把for-loop、seed、Math等识错，代码以09:32和10:50的完整画面为准。
 
 初始尝试对巨大随机数Math.round，在02:30可见科学计数法9.119...e+22；课程改为每次生成一位，转成字符串相接而非加整数。s=""；n/seed/col取本层三滑块；for(i=1;i<=n;i++){seedRandom(seed+i); randValue=Math.round(random(9)); s+=randValue; if(i%col==0)s+='\n';} s。第二层只把random(9)改为random()得到01。源代码没有timeless=true，不能套用第8/9节静态随机模板。Math.round的十进制端点概率较小，这是原法，不暗改成floor。
