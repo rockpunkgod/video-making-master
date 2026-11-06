@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "target": "evaluations/course2-p31-progress-001/native-control-numbers-options.png",
+  "bytes": 16087,
+  "retained": "skills/after-effects/ae-advanced-expressions/references/native-numbers-options.png",
+  "sha256": "2f133762f658c8257f45e72d75bea257dce9a6ffd9c320a9076d315f6678f68d",
+  "reason": "Exact duplicate of committed native GUI proof already retained inside independently distributable Skill; user authorized removing corresponding intermediates after publication",
+  "retained_hash_unchanged": true
+}
