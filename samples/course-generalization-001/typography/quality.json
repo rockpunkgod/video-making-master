@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course-generalization-001\\typography\\final.mp4",
+  "sha256": "186a5ff9ecedc55736886b5e9380e027b05bd9f639849f38e616e9a6276db80a",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "has_motion": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 1080,
+    "height": 1080,
+    "fps": 30.0,
+    "duration": 7.0,
+    "decoded_frames": 210,
+    "unique_thumbnail_frames": 205
+  },
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": ""
+}

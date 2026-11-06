@@ -1,0 +1,45 @@
+{
+  "skill": "ae-camera-tracking",
+  "status": "candidate",
+  "verified": false,
+  "native_result": {
+    "camera_count": 1,
+    "position_key_count": 96,
+    "solve_error_label": "平均误差: 0.50 像素",
+    "status": "two_scene_composites_passed_third_scene_drift_failed"
+  },
+  "input": "samples/tracking-fixture-001/source.mp4",
+  "input_scene": "samples/tracking-fixture-001/source-scene.aep",
+  "project": "samples/tracking-fixture-001/tracking-attempt.aep",
+  "evidence": [
+    "samples/tracking-fixture-001/tracker-current-state.txt",
+    "samples/tracking-fixture-001/native-camera-result.json",
+    "samples/tracking-fixture-001/solve-calibrated-001/composite-001/drift-supported.json",
+    "samples/tracking-fixture-001/solve-calibrated-001/composite-001/truth-drift-wide.json",
+    "samples/tracking-fixture-001/solve-calibrated-001/composite-typography/drift-supported.json",
+    "samples/tracking-gallery-001/solve-001/composite-pixel-sized/drift-supported.json",
+    "samples/tracking-corridor-001/solve-001/composite-pixel-sized/drift-supported.json"
+  ],
+  "tests": {
+    "native_solve": "passed_one_input",
+    "camera_creation": "passed_one_input",
+    "basic_composite": "passed_original_fixture",
+    "parameter_variation": "passed_geometry_to_typography_and_scale",
+    "three_input_generalization": "two_passed_third_failed",
+    "visual_drift_check": "passed_supported_planar_reference_on_two_inputs"
+  },
+  "next_actions": [
+    "Repair corridor full-plane drift without loosening thresholds",
+    "Complete native edit/reopen tests and visual review",
+    "Move reviewed production helpers into independently callable skill bundle",
+    "Continue remaining courses and PR environment diagnosis"
+  ],
+  "known_limits": [
+    "Only original synthetic footage tested so far; real footage not validated",
+    "Third corridor scene native solve/composite rendered but full-plane drift failed RMSE1.53/max2.82px",
+    "Native camera/plane creation needs observed points and bounded physical GUI actions",
+    "Small ROI homography extrapolation is inconclusive: reference feature hull must support all tested corners"
+  ],
+  "superseded_by": "evaluations/tracking-verified.json",
+  "note": "Historical candidate checkpoint; retain failures, read superseding acceptance report for current status"
+}

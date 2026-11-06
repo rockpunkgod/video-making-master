@@ -1,0 +1,27 @@
+{
+  "status": "failed",
+  "reference": "cache\\watch\\watch-qsohnuni\\frames\\cue_0000.jpg",
+  "candidate": "samples\\course-reproduction-002\\p06-final-003\\frame-28.png",
+  "reference_viewport_crop": [
+    437,
+    82,
+    325,
+    325
+  ],
+  "crop_note": "Viewport bounds inferred from displayed square composition; no source-motion or shape fitting performed",
+  "reference_red_pixels": 13406,
+  "candidate_red_pixels": 7462,
+  "bidirectional_mean_distance_viewport_px": 2.523167610168457,
+  "p95_distance_viewport_px": 6.0,
+  "thresholds": {
+    "mean_px": 2,
+    "p95_px": 4
+  },
+  "not_validated": [
+    "exact RGB",
+    "full motion timing",
+    "easing",
+    "later Trim Paths stage",
+    "enabled camera stage"
+  ]
+}

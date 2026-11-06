@@ -1,0 +1,1392 @@
+{
+  "schema_version": 1,
+  "videos": [
+    {
+      "order": 1,
+      "id": "BV1Yh4y1A7XT",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1Yh4y1A7XT/",
+      "status": "partially_analyzed",
+      "title": "AE教程-使用表达式制作高级复杂图形动画 Advanced After Effects Coding for Motion Design",
+      "categories": [
+        "ae-procedural-motion",
+        "ae-advanced-expressions"
+      ],
+      "passes": {
+        "global": "partial course: p1,p5–p9 frames reviewed; p5–p9 existing-local-model transcripts available",
+        "detail": "p5/p6 verified profiles; p7 Tint baseline human accepted, seed variation isolated render passed, material generalization pending; p8 five native and pixel suites passed, human review pending; p9 eleven global and six cue frames plus full ASR reviewed, not produced",
+        "abstraction": "p5/p6 verified; p7 candidate extension with human acceptance; p8 candidate threshold module; p9 random 3D position/drift/+value evidence for future advanced-expressions branch"
+      },
+      "page": {
+        "title": "AE教程-使用表达式制作高级复杂图形动画 Advanced After Effects Coding for Motion Design_哔哩哔哩_bilibili",
+        "description": "AE教程-使用表达式制作高级复杂图形动画 Advanced After Effects Coding for Motion Design共计20条视频，包括：01 About Me、02 Influences、03 Understanding the Assignment等，UP主更多精彩视频，请关注UP账号。",
+        "heading": "AE教程-使用表达式制作高级复杂图形动画 Advanced After Effects Coding for Motion Design",
+        "duration": 559
+      },
+      "parts": [
+        {
+          "page": 1,
+          "part": "01 About Me",
+          "duration": 559
+        },
+        {
+          "page": 2,
+          "part": "02 Influences",
+          "duration": 720
+        },
+        {
+          "page": 3,
+          "part": "03 Understanding the Assignment",
+          "duration": 385
+        },
+        {
+          "page": 4,
+          "part": "04 The Basics of Coding",
+          "duration": 1200
+        },
+        {
+          "page": 5,
+          "part": "05 Step Repetition Transforming Properties",
+          "duration": 1009
+        },
+        {
+          "page": 6,
+          "part": "06 Step Repetition Animating with “valueAtTime”",
+          "duration": 463
+        },
+        {
+          "page": 7,
+          "part": "07 Step Repetition Working with Effects and Layers",
+          "duration": 395
+        },
+        {
+          "page": 8,
+          "part": "08 Randomization Animating Multiple Layers",
+          "duration": 671
+        },
+        {
+          "page": 9,
+          "part": "09 Randomization Displacement",
+          "duration": 587
+        },
+        {
+          "page": 10,
+          "part": "10 Generating Number Sequences with For-Loop",
+          "duration": 694
+        },
+        {
+          "page": 11,
+          "part": "11 Generative Design Algorithms",
+          "duration": 709
+        },
+        {
+          "page": 12,
+          "part": "12 Generative Design Procedural Cyber Lines",
+          "duration": 732
+        },
+        {
+          "page": 13,
+          "part": "13 Compositing",
+          "duration": 1086
+        },
+        {
+          "page": 14,
+          "part": "14 Adding Type",
+          "duration": 389
+        },
+        {
+          "page": 15,
+          "part": "15 Additional Design Assets",
+          "duration": 1219
+        },
+        {
+          "page": 16,
+          "part": "16 Stylization and Art Direction 1",
+          "duration": 1189
+        },
+        {
+          "page": 17,
+          "part": "17 Stylization and Art Direction 2",
+          "duration": 1255
+        },
+        {
+          "page": 18,
+          "part": "18 Faster Workflow with Animation Proxies",
+          "duration": 554
+        },
+        {
+          "page": 19,
+          "part": "19 Learning to Learn",
+          "duration": 532
+        },
+        {
+          "page": 20,
+          "part": "20 Improvement and Collaborations",
+          "duration": 539
+        }
+      ],
+      "description": "通过学习使用JavaScript编写表达式代码来创建具有风格的复杂动画装置，将您的动画设计技能提升到一个新的水平。在这个在线课程中，将教您如何编写表达式代码，以轻松地创建复杂的动画装备。学习使用各种技术来制作一系列抽象几何动画，这些动画将被组装并合成到最终项目中。本课程面向具有表达式基础知识、希望将编码、数学和科学融入其创意作品的中级到高级 After Effects 用户！",
+      "classification_basis": "page title/description/part list; content unverified except noted passes",
+      "course_reproduction": {
+        "status": "p5_p6_method_and_final_effect_accepted_with_limits",
+        "directory": "samples/course-reproduction-002/p06-final-003",
+        "evidence": "evaluations/course-p06-final-001/summary.json",
+        "whole_course_complete": false
+      },
+      "ingestion": [
+        {
+          "part": 7,
+          "stage": "global_frames_reviewed_native_parameter_probe_only",
+          "local_media": "E:/自媒体/video-skills-lab/cache/watch/watch-6hfge73g/download/run-656oyj7s/video.mp4",
+          "frames_reviewed": true,
+          "transcript": "cache/local-transcripts/BV1Yh4y1A7XT-p07-full-001/transcript.json",
+          "transcript_accuracy": "not_word_checked",
+          "native_probe": "evaluations/course-p07-probe-001/receipt.json"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "id": "BV1c7GTzMEh5",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1c7GTzMEh5/",
+      "status": "page_inspected",
+      "title": "【自用】Ae表达式教程（高级课程不适合新手）",
+      "categories": [
+        "ae-advanced-expressions"
+      ],
+      "passes": {
+        "global": "pending",
+        "detail": "pending",
+        "abstraction": "pending"
+      },
+      "page": {
+        "title": "【自用】Ae表达式教程（高级课程不适合新手）_哔哩哔哩_bilibili",
+        "description": "【自用】Ae表达式教程（高级课程不适合新手）共计36条视频，包括：1. 表达式创建方法、2. 滑杆控制、3. 其他表达式控制等，UP主更多精彩视频，请关注UP账号。",
+        "heading": "【自用】Ae表达式教程（高级课程不适合新手）",
+        "duration": 966.3211666666667
+      },
+      "parts": [
+        {
+          "page": 1,
+          "part": "1. 表达式创建方法",
+          "duration": 1933
+        },
+        {
+          "page": 2,
+          "part": "2. 滑杆控制",
+          "duration": 2416
+        },
+        {
+          "page": 3,
+          "part": "3. 其他表达式控制",
+          "duration": 2783
+        },
+        {
+          "page": 4,
+          "part": "4. 表达式层级关系",
+          "duration": 1627
+        },
+        {
+          "page": 5,
+          "part": "5. 表达式赋值方法",
+          "duration": 1521
+        },
+        {
+          "page": 6,
+          "part": "6. 时间表达式",
+          "duration": 1869
+        },
+        {
+          "page": 7,
+          "part": "7. wiggle表达式",
+          "duration": 1269
+        },
+        {
+          "page": 8,
+          "part": "8. index表达式",
+          "duration": 2758
+        },
+        {
+          "page": 9,
+          "part": "9. 矢量数学函数",
+          "duration": 2418
+        },
+        {
+          "page": 10,
+          "part": "10. 差值函数",
+          "duration": 1873
+        },
+        {
+          "page": 11,
+          "part": "11. 随机函数",
+          "duration": 1666
+        },
+        {
+          "page": 12,
+          "part": "12. 颜色转换函数",
+          "duration": 1378
+        },
+        {
+          "page": 13,
+          "part": "13. 数学函数",
+          "duration": 1724
+        },
+        {
+          "page": 14,
+          "part": "14. 循环函数",
+          "duration": 2168
+        },
+        {
+          "page": 15,
+          "part": "15. if语句",
+          "duration": 1776
+        },
+        {
+          "page": 16,
+          "part": "16. 其他函数",
+          "duration": 1412
+        },
+        {
+          "page": 17,
+          "part": "17. 3D文字创建",
+          "duration": 1505
+        },
+        {
+          "page": 18,
+          "part": "18. 空间曲线运动",
+          "duration": 1993
+        },
+        {
+          "page": 19,
+          "part": "19. 路径跟随动画",
+          "duration": 1752
+        },
+        {
+          "page": 20,
+          "part": "20. 圆周复制",
+          "duration": 2099
+        },
+        {
+          "page": 21,
+          "part": "21. 阵列复制",
+          "duration": 1811
+        },
+        {
+          "page": 22,
+          "part": "22. 波形叠加讨论",
+          "duration": 3113
+        },
+        {
+          "page": 23,
+          "part": "23. 弹簧运动",
+          "duration": 2804
+        },
+        {
+          "page": 24,
+          "part": "24. 蝴蝶飞舞",
+          "duration": 3530
+        },
+        {
+          "page": 25,
+          "part": "25. 放大镜效果",
+          "duration": 1694
+        },
+        {
+          "page": 26,
+          "part": "26. 纵向滑页",
+          "duration": 1622
+        },
+        {
+          "page": 27,
+          "part": "27. 横向滑页",
+          "duration": 2221
+        },
+        {
+          "page": 28,
+          "part": "28. 旋转滑动",
+          "duration": 1982
+        },
+        {
+          "page": 29,
+          "part": "29. 时间控制圆周转动",
+          "duration": 1812
+        },
+        {
+          "page": 30,
+          "part": "30. 螺旋线运动",
+          "duration": 1627
+        },
+        {
+          "page": 31,
+          "part": "31. 读取进度动画",
+          "duration": 2325
+        },
+        {
+          "page": 32,
+          "part": "32. 云遮烈日",
+          "duration": 3002
+        },
+        {
+          "page": 33,
+          "part": "33. 自由指向",
+          "duration": 1753
+        },
+        {
+          "page": 34,
+          "part": "34. 波浪起伏",
+          "duration": 2569
+        },
+        {
+          "page": 35,
+          "part": "35. 距离控制器",
+          "duration": 1653
+        },
+        {
+          "page": 36,
+          "part": "36. 滚带运动",
+          "duration": 3548
+        }
+      ],
+      "description": "自用课程，免费分享给大家",
+      "classification_basis": "page title/description/part list; content unverified except noted passes"
+    },
+    {
+      "order": 3,
+      "id": "PbVB52WCUDE",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=PbVB52WCUDE",
+      "status": "partially_analyzed",
+      "title": "Projection 3D V5 for After Effects Tutorial - YouTube",
+      "categories": [
+        "ae-3d-projection",
+        "ae-cinematic-camera"
+      ],
+      "passes": {
+        "global": "18 frames across full range reviewed; chapter structure extracted",
+        "detail": "pending; exact parameters and operations not fully extracted",
+        "abstraction": "separate projection geometry, model conversion and reflective surfaces; dependency not available"
+      },
+      "page": {
+        "title": "Projection 3D V5 for After Effects Tutorial - YouTube",
+        "description": "https://aescripts.com/projection-3dAdvanced tool for camera projection mapping and photo parallax animation in After Effects.Download tutorial project and as...",
+        "heading": "",
+        "duration": 2860.341
+      },
+      "classification_basis": "page title/description/part list; content unverified except noted passes",
+      "ingestion": [
+        {
+          "stage": "global_frames_reviewed_detail_pending",
+          "exit_code": 0,
+          "report": "cache/ingestion/PbVB52WCUDE.txt",
+          "local_media": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-xzzocc8h\\download\\run-ecppb5j4\\video.mp4",
+          "work_dir": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-xzzocc8h",
+          "frames_reviewed": true,
+          "transcript_reviewed": false
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "id": "BV1VE411r7Z5",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1VE411r7Z5/",
+      "status": "page_inspected",
+      "title": "【AE跟踪】Mocha中文教程全解析",
+      "categories": [
+        "ae-mocha-tracking"
+      ],
+      "passes": {
+        "global": "pending",
+        "detail": "pending",
+        "abstraction": "pending"
+      },
+      "page": {
+        "title": "【AE跟踪】Mocha中文教程全解析_哔哩哔哩_bilibili",
+        "description": "【AE跟踪】Mocha中文教程全解析共计35条视频，包括：0101 偏好设置、0102 工具栏、0103 图层控制等，UP主更多精彩视频，请关注UP账号。",
+        "heading": "【AE跟踪】Mocha中文教程全解析",
+        "duration": 350
+      },
+      "parts": [
+        {
+          "page": 1,
+          "part": "0101 偏好设置",
+          "duration": 350
+        },
+        {
+          "page": 2,
+          "part": "0102 工具栏",
+          "duration": 347
+        },
+        {
+          "page": 3,
+          "part": "0103 图层控制",
+          "duration": 171
+        },
+        {
+          "page": 4,
+          "part": "0104 主窗口",
+          "duration": 275
+        },
+        {
+          "page": 5,
+          "part": "0201 面片追踪和点追踪",
+          "duration": 169
+        },
+        {
+          "page": 6,
+          "part": "0202 跟踪模块",
+          "duration": 258
+        },
+        {
+          "page": 7,
+          "part": "0203 跟踪操作",
+          "duration": 367
+        },
+        {
+          "page": 8,
+          "part": "0204 简单追踪案例",
+          "duration": 584
+        },
+        {
+          "page": 9,
+          "part": "0205 跟踪信息的关联",
+          "duration": 147
+        },
+        {
+          "page": 10,
+          "part": "0301 实例场景的追踪",
+          "duration": 752
+        },
+        {
+          "page": 11,
+          "part": "0302 追踪效果检验",
+          "duration": 144
+        },
+        {
+          "page": 12,
+          "part": "0401 素材的跟踪",
+          "duration": 259
+        },
+        {
+          "page": 13,
+          "part": "0402 调整跟踪",
+          "duration": 369
+        },
+        {
+          "page": 14,
+          "part": "0403 复杂场景的跟踪",
+          "duration": 377
+        },
+        {
+          "page": 15,
+          "part": "0404 复杂场景跟踪优化",
+          "duration": 247
+        },
+        {
+          "page": 16,
+          "part": "0405 偏好设置",
+          "duration": 133
+        },
+        {
+          "page": 17,
+          "part": "0501 Mocha和AE的交互",
+          "duration": 549
+        },
+        {
+          "page": 18,
+          "part": "0601 镜头校正",
+          "duration": 481
+        },
+        {
+          "page": 19,
+          "part": "0602 在AE里应用镜头校正数据",
+          "duration": 216
+        },
+        {
+          "page": 20,
+          "part": "0603 镜头校正与跟踪数据结合使用",
+          "duration": 425
+        },
+        {
+          "page": 21,
+          "part": "0604 镜头模块校正跟踪技巧",
+          "duration": 52
+        },
+        {
+          "page": 22,
+          "part": "0601 素材面板（Clip）",
+          "duration": 398
+        },
+        {
+          "page": 23,
+          "part": "0801 稳定前的跟踪",
+          "duration": 817
+        },
+        {
+          "page": 24,
+          "part": "0802 镜头稳定",
+          "duration": 420
+        },
+        {
+          "page": 25,
+          "part": "0803 导入稳定数据到AE中使用",
+          "duration": 325
+        },
+        {
+          "page": 26,
+          "part": "0804 在Mocha中修补黑边",
+          "duration": 647
+        },
+        {
+          "page": 27,
+          "part": "0901 简单案例",
+          "duration": 718
+        },
+        {
+          "page": 28,
+          "part": "0902 清洁底片",
+          "duration": 621
+        },
+        {
+          "page": 29,
+          "part": "0903 在AE中合成",
+          "duration": 326
+        },
+        {
+          "page": 30,
+          "part": "1001 插入模块简单介绍",
+          "duration": 874
+        },
+        {
+          "page": 31,
+          "part": "1002 高级跟踪案例解决流程",
+          "duration": 1119
+        },
+        {
+          "page": 32,
+          "part": "1003 技巧补充",
+          "duration": 241
+        },
+        {
+          "page": 33,
+          "part": "01 定机位摄像机反求",
+          "duration": 254
+        },
+        {
+          "page": 34,
+          "part": "02 大视察变化摄像机反求",
+          "duration": 216
+        },
+        {
+          "page": 35,
+          "part": "03 在AE和C4D中应用",
+          "duration": 402
+        }
+      ],
+      "description": "www.youtube.com",
+      "classification_basis": "page title/description/part list; content unverified except noted passes"
+    },
+    {
+      "order": 5,
+      "id": "BV1xP411C7u3",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1xP411C7u3/",
+      "status": "partially_analyzed",
+      "title": "AE教程，Mocha Pro 网格跟踪教程",
+      "categories": [
+        "ae-mocha-tracking"
+      ],
+      "passes": {
+        "global": "18 frames reviewed; Mocha Pro and mesh replacement identified",
+        "detail": "pending; several source UI sections appear blank",
+        "abstraction": "PowerMesh is distinct from Mocha AE; plugin missing"
+      },
+      "page": {
+        "title": "AE教程，Mocha Pro 网格跟踪教程_哔哩哔哩_bilibili",
+        "description": "涉及知识点很多，最主要就是Mocha Pro网格跟踪模块，笔记也有详细提供。提供配套练习素材和笔记，讲解很详细了，感兴趣小伙伴可以下载去练习。百度网盘：https://pan.baidu.com/s/1KrKsOCzbUjkaw3BMzV4Qdw?pwd=2023 阿里云盘：https://www.aliyundrive.com/s/ijY4ot1iKQA插件大全：BV17W4y1D7Sf, 视频播放量 39724、弹幕量 93、点赞数 597、投硬币枚数 251、收藏人数 1547、转发人数 110, 视频作者 AIGC影视后期, 作者简介 系统学习影视后期和AIGC，添加老师微信：yshqxxjc，备注：B站，相关视频：【教程】MochaPro屏幕跟踪替换，Mocha Pro跟踪不准确？定位不精准？来一个新手也能学会的解决方案！，【AE教程】细致解析，Mocha调整跟踪模块（增强版）！强悍模块，扭转乾坤！，【AE教程】这绝对是全B站最详细的（没有之一）Mocha Pro系列教程，带你零基础入门，Mocha 第 1 课：别被界面吓到，基础操作超简单，【AE教程】Mocha的使用--跨遮挡物跟踪，Mocha Pro在PR中跟踪替换案例（超详细），AE+Mocha 手机 跟踪 抠像 擦除 合成 综合案例全流程视频教程（上部：跟踪篇），【AE教程】头部跟踪，【教程】AE跟踪运动（教后服务）",
+        "heading": "AE教程，Mocha Pro 网格跟踪教程",
+        "duration": 521
+      },
+      "parts": [
+        {
+          "page": 1,
+          "part": "AE教程，Mocha Pro 网格跟踪教程",
+          "duration": 521
+        }
+      ],
+      "description": "涉及知识点很多，最主要就是Mocha Pro网格跟踪模块，笔记也有详细提供。提供配套练习素材和笔记，讲解很详细了，感兴趣小伙伴可以下载去练习。\n百度网盘：https://pan.baidu.com/s/1KrKsOCzbUjkaw3BMzV4Qdw?pwd=2023 \n阿里云盘：https://www.aliyundrive.com/s/ijY4ot1iKQA\n插件大全：BV17W4y1D7Sf",
+      "classification_basis": "page title/description/part list; content unverified except noted passes",
+      "ingestion": [
+        {
+          "stage": "global_frames_reviewed_detail_pending",
+          "exit_code": 0,
+          "report": "cache/ingestion/BV1xP411C7u3.txt",
+          "local_media": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-igeyyb9t\\download\\run-29yfp3gc\\video.mp4",
+          "work_dir": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-igeyyb9t",
+          "frames_reviewed": true,
+          "transcript_reviewed": false
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "id": "BV1nn4y1d7GJ",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1nn4y1d7GJ/",
+      "status": "page_inspected",
+      "title": "【国语】AE高级全面进阶教程(图形层动画/表达式/角色绑定)-上",
+      "categories": [
+        "ae-procedural-motion",
+        "ae-advanced-expressions"
+      ],
+      "passes": {
+        "global": "pending",
+        "detail": "pending",
+        "abstraction": "pending"
+      },
+      "page": {
+        "title": "【国语】AE高级全面进阶教程(图形层动画/表达式/角色绑定)-上_哔哩哔哩_bilibili",
+        "description": "【国语】AE高级全面进阶教程(图形层动画/表达式/角色绑定)-上共计18条视频，包括：01欢迎.mp4、02课程如何使用、03形状层的高级技术等，UP主更多精彩视频，请关注UP账号。",
+        "heading": "【国语】AE高级全面进阶教程(图形层动画/表达式/角色绑定)-上",
+        "duration": 96
+      },
+      "parts": [
+        {
+          "page": 1,
+          "part": "01欢迎.mp4",
+          "duration": 96
+        },
+        {
+          "page": 2,
+          "part": "02课程如何使用",
+          "duration": 361
+        },
+        {
+          "page": 3,
+          "part": "03形状层的高级技术",
+          "duration": 1077
+        },
+        {
+          "page": 4,
+          "part": "04形状层的高级技术2",
+          "duration": 1110
+        },
+        {
+          "page": 5,
+          "part": "05形状层的高级技术3",
+          "duration": 723
+        },
+        {
+          "page": 6,
+          "part": "06形状层的高级技术4",
+          "duration": 798
+        },
+        {
+          "page": 7,
+          "part": "07超越文本动画1",
+          "duration": 975
+        },
+        {
+          "page": 8,
+          "part": "08超越文本动画2",
+          "duration": 462
+        },
+        {
+          "page": 9,
+          "part": "09形状和文本层的其他用途1",
+          "duration": 599
+        },
+        {
+          "page": 10,
+          "part": "10形状和文本层的其他用途2",
+          "duration": 857
+        },
+        {
+          "page": 11,
+          "part": "11形状和文本层的其他用途3",
+          "duration": 1052
+        },
+        {
+          "page": 12,
+          "part": "12形状和文本层的其他用途4",
+          "duration": 891
+        },
+        {
+          "page": 13,
+          "part": "13形状和文本层的其他用途5",
+          "duration": 809
+        },
+        {
+          "page": 14,
+          "part": "14形状和文本层的其他用途6",
+          "duration": 1172
+        },
+        {
+          "page": 15,
+          "part": "15练习形状和文本转换动画1",
+          "duration": 928
+        },
+        {
+          "page": 16,
+          "part": "16练习形状和文本转换动画2",
+          "duration": 1184
+        },
+        {
+          "page": 17,
+          "part": "17练习形状和文本转换动画3纯操作和音乐",
+          "duration": 733
+        },
+        {
+          "page": 18,
+          "part": "18练习形状和文本转换动画4纯操作和音乐完成本案例",
+          "duration": 721
+        }
+      ],
+      "description": "本套课程17.5小时。如果有动画和视频的Go-to软件，那就是After Effects。据创意总监兼动画动画师卡洛斯·阿尔巴兰（更好地称为Zenzuke）称，该节目的灵活性使您能够探索自己的创造力，同时制作专业的分级作品。主要是AE的初中级进阶教程，会讲解图形层动画、表达式、角色绑定、和其他软件配合、后期合成等多方面。",
+      "classification_basis": "page title/description/part list; content unverified except noted passes"
+    },
+    {
+      "order": 7,
+      "id": "wiISCTB4s1Y",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=wiISCTB4s1Y",
+      "status": "partially_analyzed",
+      "title": "3D Camera Tracking in After Effects — Track Like a Pro (Beginner to Advanced) - YouTube",
+      "categories": [
+        "ae-cinematic-camera",
+        "ae-advanced-compositing"
+      ],
+      "passes": {
+        "global": "8 global frames reviewed and original English automatic captions queried",
+        "detail": "8 technical cue frames reviewed; source-only native error 0.27px distinguished from local results",
+        "abstraction": "native solve, observed three-point plane creation and independent drift checks implemented; three original synthetic input scenes verified, real footage pending"
+      },
+      "page": {
+        "title": "3D Camera Tracking in After Effects — Track Like a Pro (Beginner to Advanced) - YouTube",
+        "description": "In this After Effects tutorial, you’ll learn how to 3D track footage like a pro using the built-in 3D Camera Tracker. I’ll break down the full workflow step ...",
+        "heading": "",
+        "duration": 448
+      },
+      "classification_basis": "page title/description/part list; content unverified except noted passes"
+    },
+    {
+      "order": 8,
+      "id": "U19f1A1ooFE",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=U19f1A1ooFE",
+      "status": "partially_analyzed",
+      "title": "4 Easy Expressions to Enhance Any Animation in After Effects (feat. Ben Marriott) - YouTube",
+      "categories": [
+        "ae-advanced-expressions"
+      ],
+      "passes": {
+        "global": "reviewed 24 global frames and original English automatic captions queried",
+        "detail": "13 technical cue frames reviewed; four expression mechanisms identified",
+        "abstraction": "merge index distribution with procedural arrays; other variants pending native testing"
+      },
+      "page": {
+        "title": "4 Easy Expressions to Enhance Any Animation in After Effects (feat. Ben Marriott) - YouTube",
+        "description": "/// About:     In this video, Ben Marriott shares four simple expression tips to elevate animation in After Effects./// Links from the Video:     Master Moti...",
+        "heading": "",
+        "duration": 1107
+      },
+      "classification_basis": "page title/description/part list; content unverified except noted passes"
+    },
+    {
+      "order": 9,
+      "id": "BV1aK4y1U7Xv",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1aK4y1U7Xv/",
+      "status": "partially_analyzed",
+      "title": "【AE教程】如何让照片动起来？Projection3D脚本制作三维照片、场景重建",
+      "categories": [
+        "ae-3d-projection"
+      ],
+      "passes": {
+        "global": "18 frames reviewed; vanishing point, separation and camera move identified",
+        "detail": "pending",
+        "abstraction": "photo reconstruction variant shares projection principles with V5; version differences retained"
+      },
+      "page": {
+        "title": "【AE教程】如何让照片动起来？Projection3D脚本制作三维照片、场景重建_哔哩哔哩_bilibili",
+        "description": "Projection3D脚本是用于After Effects中的摄像机投影映射和照片视差动画的高级工具，可以在AE软件中将静态的二维图片转换制作成带真实三维空间的摄像机动画。脚本及练习素材可由此下载：http://t.gimmao.com/eyiuea（或关注公众号：虚空光影创作营，回复“三维照片”）, 视频播放量 222828、弹幕量 174、点赞数 7250、投硬币枚数 3755、收藏人数 18415、转发人数 1062, 视频作者 虚空光影, 作者简介 我是炮长，中传数媒人。在杭州创业，开了家传媒公司，拍摄剪辑，编导运营，分享经世致用之道。官网：edu.cosmos-film.com，相关视频：AE利用Projection 3D快速制作“三维照片”动起来的效果【AE教程】，如何在AE中把一张平面照片做成立体3D场景，【AE教程】爆款照片墙制作及思维延展，AE教程，图片转三维场景动态效果教程，Projection 3D神器应用，【AE教程】这个三维空间片头太帅了！vlog必备开头！，MAD/PV Projection 3D脚本 投射工作流，如何简单使用Projection3D脚本制作三维照片效果~，【AE脚本】一键搭建三维场景，AE模板-回忆缓慢特效的幻灯片视频相册视频同学聚会视频家庭影集视频照片展示 AE模板制作 视频在线制作，【Ae教程】静止系伪3d场景搭建",
+        "heading": "【AE教程】如何让照片动起来？Projection3D脚本制作三维照片、场景重建",
+        "duration": 354
+      },
+      "parts": [
+        {
+          "page": 1,
+          "part": "AE做3D照片_1",
+          "duration": 354
+        }
+      ],
+      "description": "Projection3D脚本是用于After Effects中的摄像机投影映射和照片视差动画的高级工具，可以在AE软件中将静态的二维图片转换制作成带真实三维空间的摄像机动画。脚本及练习素材可由此下载：\nhttp://t.gimmao.com/eyiuea\n（或关注公众号：虚空光影创作营，回复“三维照片”）",
+      "classification_basis": "page title/description/part list; content unverified except noted passes",
+      "ingestion": [
+        {
+          "stage": "global_frames_reviewed_detail_pending",
+          "exit_code": 0,
+          "report": "cache/ingestion/BV1aK4y1U7Xv.txt",
+          "local_media": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-qn7g27a1\\download\\run-w4ui9pz2\\video.mp4",
+          "work_dir": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-qn7g27a1",
+          "frames_reviewed": true,
+          "transcript_reviewed": false
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "id": "BV1qb4y1x7h1",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1qb4y1x7h1/",
+      "status": "partially_analyzed",
+      "title": "AE+Mocha 手机 跟踪 抠像 擦除 合成 综合案例全流程视频教程（上部：跟踪篇）",
+      "categories": [
+        "ae-mocha-tracking",
+        "ae-advanced-compositing"
+      ],
+      "passes": {
+        "global": "18 frames reviewed; screen plane and hand occlusion layers identified",
+        "detail": "pending",
+        "abstraction": "combine with downstream keying/removal lesson"
+      },
+      "page": {
+        "title": "AE+Mocha 手机 跟踪 抠像 擦除 合成 综合案例全流程视频教程（上部：跟踪篇）_哔哩哔哩_bilibili",
+        "description": "这是一个综合案例教程本课程是整个案例流程的上半部（mocha跟踪部分的讲解），下半部为抠像  擦除合成的案例。已经更新完成，MochaPro2022下载链接在下半部教程简介区。请收藏，点赞 投币 分享 +  关注   粉一波 支持一下哈   学习过程如有疑问或业务合作，请B站小窗或者视频评论区联系作者互动。素材链接：https://pan.baidu.com/s/1oOxPNrYL4LEb8n4y, 视频播放量 83521、弹幕量 26、点赞数 742、投硬币枚数 386、收藏人数 2587、转发人数 416, 视频作者 HarrisonJo, 作者简介  90后影视后期包装师 特效合成师 剪辑调色师 摄影摄像师 玩转佳能 索尼  松下等各种机型   ，相关视频：【教程】MochaPro屏幕跟踪替换，【教程】2.5D平面跟踪软件mocha快速上手！，AE特效制作《四点跟踪之手机画面合成》教程，跟踪绿屏 ｜ Adobe After Effects ｜ Mocha AE，[Vicco]用达芬奇DaVinci制作绿屏抠像 | 平面追踪 | 双硬菜配搭食用，AE+Mocha 手机 跟踪 抠像 擦除 合成 综合案例全流程视频教程（下部：抠像擦除合成篇），【AE教程】Mocha的使用--跨遮挡物跟踪，AfterEffects视频特效教程93（视频抠像+跟踪），【AE系列】mocha跟踪教程-移动设备换图，【空影】AE中“绿幕视频抠像”教程",
+        "heading": "AE+Mocha 手机 跟踪 抠像 擦除 合成 综合案例全流程视频教程（上部：跟踪篇）",
+        "duration": 905
+      },
+      "parts": [
+        {
+          "page": 1,
+          "part": "AE+Mocha 手机 跟踪 抠像 擦除 合成 综合案例全流程视频教程（上部：跟踪篇）",
+          "duration": 905
+        }
+      ],
+      "description": "这是一个综合案例教程\n本课程是整个案例流程的上半部（mocha跟踪部分的讲解），下半部为抠像  擦除合成的案例。\n已经更新完成，MochaPro2022下载链接在下半部教程简介区。\n请收藏，点赞 投币 分享 +  关注   粉一波 支持一下哈  \n 学习过程如有疑问或业务合作，请B站小窗或者视频评论区联系作者互动。\n素材链接：https://pan.baidu.com/s/1oOxPNrYL4LEb8n4ygYHb7g?pwd=9999 \n提取码：9999",
+      "classification_basis": "page title/description/part list; content unverified except noted passes",
+      "ingestion": [
+        {
+          "stage": "global_frames_reviewed_detail_pending",
+          "exit_code": 0,
+          "report": "cache/ingestion/BV1qb4y1x7h1.txt",
+          "local_media": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-ihw8ft9a\\download\\run-h8k7jolg\\video.mp4",
+          "work_dir": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-ihw8ft9a",
+          "frames_reviewed": true,
+          "transcript_reviewed": false
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "id": "BV1Pu411Q7DB",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1Pu411Q7DB/",
+      "status": "partially_analyzed",
+      "title": "AE+Mocha 手机 跟踪 抠像 擦除 合成 综合案例全流程视频教程（下部：抠像擦除合成篇）",
+      "categories": [
+        "ae-advanced-compositing"
+      ],
+      "passes": {
+        "global": "18 frames reviewed; keying, replacement and marker removal identified",
+        "detail": "pending",
+        "abstraction": "combine with upstream planar tracking lesson"
+      },
+      "page": {
+        "title": "AE+Mocha 手机 跟踪 抠像 擦除 合成 综合案例全流程视频教程（下部：抠像擦除合成篇）_哔哩哔哩_bilibili",
+        "description": "本课程是一节小案例流程的下半部，是我AE影视特效合成中高阶系统课程中的一节  -----  抠像 擦除，合成 。AE中高阶系统课程正在录制更新中……需要支持作者系统课程的，想系统学习AE+mocha+C4D特效合成的的可以B站小窗或视频评论区联系作者。Mocha2022下载链接：https://pan.baidu.com/s/1t5AoNvDPPHgWhGALpZzjBw?pwd=1234 提取码, 视频播放量 41580、弹幕量 34、点赞数 645、投硬币枚数 471、收藏人数 2139、转发人数 205, 视频作者 HarrisonJo, 作者简介  90后影视后期包装师 特效合成师 剪辑调色师 摄影摄像师 玩转佳能 索尼  松下等各种机型   ，相关视频：【教程】MochaPro屏幕跟踪替换，新绿幕到了，这个抠像太牛了，一点反光都没有！，学习ae半年了  这水平是不是废了，当职高生尝试模仿苹果发布会开场线条动画……，Silhouette 2026 汉化版快速使用教程，另附智能AI抠像教程，拿这个特效视频去面试腾讯，结果被HR赶出来了，MochaPro和NukeX贴片覆盖擦除墙顶天花板威亚绳子跟踪篇案例解析（上半部），【AE教程】Deepseek+AE=脚本自由！保姆级教程！，坤坤视频被无痕P掉的后期大法，AE+Mocha插件跟踪，移除草地上跑步的美女。其实，原理没你想的那么复杂，【AE/静止系教程】最简单的电车/地铁场景合成！",
+        "heading": "AE+Mocha 手机 跟踪 抠像 擦除 合成 综合案例全流程视频教程（下部：抠像擦除合成篇）",
+        "duration": 1393
+      },
+      "parts": [
+        {
+          "page": 1,
+          "part": "AE+Mocha 手机 跟踪 抠像 擦除 合成 综合案例全流程视频教程（下部：抠像擦除合成篇）",
+          "duration": 1393
+        }
+      ],
+      "description": "本课程是一节小案例流程的下半部，是我AE影视特效合成中高阶系统课程中的一节  -----  抠像 擦除，合成 。AE中高阶系统课程正在录制更新中……\n需要支持作者系统课程的，想系统学习AE+mocha+C4D特效合成的的可以B站小窗或视频评论区联系作者。\nMocha2022下载链接：https://pan.baidu.com/s/1t5AoNvDPPHgWhGALpZzjBw?pwd=1234 \n提取码：1234\nFXconsole Ak大神特效控制台链接：https://pan.baidu.com/s/15OOQVLsT8gTxNCgpDHZefw?pwd=9999 \n提取码：9999 \n\n练习素材下载链接：链接：https://pan.baidu.com/s/1oOxPNrYL4LEb8n4ygYHb7g?pwd=9999 \n提取码：9999",
+      "classification_basis": "page title/description/part list; content unverified except noted passes",
+      "ingestion": [
+        {
+          "stage": "global_frames_reviewed_detail_pending",
+          "exit_code": 0,
+          "report": "cache/ingestion/BV1Pu411Q7DB.txt",
+          "local_media": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-w1b8xedn\\download\\run-94kb96it\\video.mp4",
+          "work_dir": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-w1b8xedn",
+          "frames_reviewed": true,
+          "transcript_reviewed": false
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "id": "OagnZAD_9wY",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=OagnZAD_9wY",
+      "status": "partially_analyzed",
+      "title": "Cinematic Sound Design for Filmmaking | Full Tutorial - YouTube",
+      "categories": [
+        "pr-cinematic-sound"
+      ],
+      "passes": {
+        "global": "18 full-range frames reviewed; native English automatic captions queried",
+        "detail": "6 cue frames reviewed around volume automation, reverb, pitch shifter, lowpass and breathing; no independent audio audition",
+        "abstraction": "combine event, ambience and narrative layers in one sound skill; PR execution pending"
+      },
+      "page": {
+        "title": "Cinematic Sound Design for Filmmaking | Full Tutorial - YouTube",
+        "description": "cinematic sound design premiere pro- This is a step by step breakdown of how to utilize sound design in your documentary, film trailers and filmmaking. In th...",
+        "heading": "",
+        "duration": 1506
+      },
+      "classification_basis": "page title/description/part list; content unverified except noted passes",
+      "ingestion": [
+        {
+          "stage": "global_frames_reviewed_detail_pending",
+          "exit_code": 0,
+          "report": "cache/ingestion/OagnZAD_9wY.txt",
+          "local_media": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-qqk928a4\\download\\run-pn25rq3x\\video.mp4",
+          "work_dir": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-qqk928a4",
+          "frames_reviewed": true,
+          "transcript_reviewed": false
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "id": "KECzwyUursc",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=KECzwyUursc",
+      "status": "partially_analyzed",
+      "title": "Sound Design for Cinematic Videos - Premiere Pro Tutorial - YouTube",
+      "categories": [
+        "pr-cinematic-sound"
+      ],
+      "passes": {
+        "global": "18 full-range frames reviewed; audio metadata en-US but default captions ar; additional English Watch transcript requested explicitly",
+        "detail": "multitrack grouping visible at 03:15 and 05:41; no exact processing parameters verified",
+        "abstraction": "merge ambience and transitions with cinematic sound skill, not a separate tool"
+      },
+      "page": {
+        "title": "Sound Design for Cinematic Videos - Premiere Pro Tutorial - YouTube",
+        "description": "Sound Design for Cinematic Videos - Premiere Pro Tutorial. Today we're doing a deep dive into Sound Design for Cinematic Videos in Premiere Pro and some of t...",
+        "heading": "",
+        "duration": 660.441
+      },
+      "classification_basis": "page title/description/part list; content unverified except noted passes",
+      "ingestion": [
+        {
+          "stage": "global_frames_reviewed_detail_pending",
+          "exit_code": 0,
+          "report": "cache/ingestion/KECzwyUursc.txt",
+          "local_media": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-h0oiteqb\\download\\run-kgd3fm3w\\video.mp4",
+          "work_dir": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-h0oiteqb",
+          "frames_reviewed": true,
+          "transcript_reviewed": false
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "id": "vA5yAFOo_K8",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/watch?v=vA5yAFOo_K8",
+      "status": "partially_analyzed",
+      "title": "Advanced Cinematic Color Grading Tutorial | Adobe Premiere Pro | Inside Motion Pictures | 2021 - YouTube",
+      "categories": [
+        "pr-cinematic-color"
+      ],
+      "passes": {
+        "global": "18 full-range frames reviewed; native Hindi captions available but not fully checked",
+        "detail": "curves and reference color blocks identified; exact curve points and color-management settings pending",
+        "abstraction": "reference-based curve styling candidate; PR host execution pending"
+      },
+      "page": {
+        "title": "Advanced Cinematic Color Grading Tutorial | Adobe Premiere Pro | Inside Motion Pictures | 2021 - YouTube",
+        "description": "Advanced Cinematic Color Grading Tutorial | Adobe Premiere Pro | Inside Motion Pictures | 2021Inside Motion Pictures presents color grading tutorial. Cinemat...",
+        "heading": "",
+        "duration": 918
+      },
+      "classification_basis": "page title/description/part list; content unverified except noted passes",
+      "ingestion": [
+        {
+          "stage": "global_frames_reviewed_detail_pending",
+          "exit_code": 0,
+          "report": "cache/ingestion/vA5yAFOo_K8.txt",
+          "local_media": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-20r1012h\\download\\run-vk0_oszi\\video.mp4",
+          "work_dir": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-20r1012h",
+          "frames_reviewed": true,
+          "transcript_reviewed": false
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "id": "BV1H44y1n7Be",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1H44y1n7Be/",
+      "status": "partially_analyzed",
+      "title": "「剪辑实操」如何通过音效突出情绪、氛围？ 混剪/剧情短片",
+      "categories": [
+        "pr-cinematic-sound",
+        "pr-narrative-editing"
+      ],
+      "passes": {
+        "global": "all Watch-selected frames viewed; local full transcription available but not fully word-checked",
+        "detail": "partial; source GUI inspected, exact effects/parameters pending",
+        "abstraction": "pending course-based native reproduction"
+      },
+      "page": {
+        "title": "「剪辑实操」如何通过音效突出情绪、氛围？ 混剪/剧情短片_哔哩哔哩_bilibili",
+        "description": "这期视频继续实操音效设计，看看剧情类短片怎么搞？大家记得多多三连呀～～课程正在限时上新折扣秒杀中！！后续价格会随着更新而上涨，所以建议先囤哦～！！ 手机和电脑都可以看课哦～联系老师领取优惠券购买哦～vx：alang5757, 视频播放量 93242、弹幕量 175、点赞数 3086、投硬币枚数 1648、收藏人数 2816、转发人数 327, 视频作者 南门录像厅, 作者简介 会软件不代表会剪辑，所以我来讲剪辑思维了！ 线上课程在下方“课堂”一栏～，相关视频：「混剪思路」50分钟学会大佬的混剪思维！影视混剪教程/混剪技巧/电影混剪，常用短剧情绪类音效（自用），【音效素材合集】834款，音乐风格？情绪？BPM？旋律？标签？剪辑师到底怎么找音乐！，剪辑思维干货分享，万能的音效组合剪辑和音效节奏2.0【剪辑师自用音效】，剪辑师是如何找到完美的剪辑配乐的？再也不用烂大街的bgm了！，「剪辑技巧」用剪辑，让你的视频更受大众喜欢！，「音效设计3」剪出情绪必备“剪辑思维”  混剪/短片/微电影必备，知识 | 万能剪辑心法！抛开软件，一招制敌的「六大法则」",
+        "heading": "「剪辑实操」如何通过音效突出情绪、氛围？ 混剪/剧情短片",
+        "duration": 341.83299999999997
+      },
+      "parts": [
+        {
+          "page": 1,
+          "part": "「剪辑实操」如何通过音效突出情绪、氛围？ 混剪/剧情短片",
+          "duration": 343
+        }
+      ],
+      "description": "这期视频继续实操音效设计，看看剧情类短片怎么搞？大家记得多多三连呀～～\n课程正在限时上新折扣秒杀中！！后续价格会随着更新而上涨，所以建议先囤哦～！！ 手机和电脑都可以看课哦～\n联系老师领取优惠券购买哦～vx：alang5757",
+      "classification_basis": "page title/description/part list; content unverified except noted passes",
+      "ingestion": [
+        {
+          "stage": "global_frames_reviewed_detail_pending",
+          "exit_code": 0,
+          "report": "cache/ingestion/BV1H44y1n7Be.txt",
+          "local_media": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-up23wd43\\download\\run-3u139zwl\\video.mp4",
+          "work_dir": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-up23wd43",
+          "frames_reviewed": true,
+          "transcript_reviewed": false
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "id": "BV1jfxL6uEqo",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1jfxL6uEqo/",
+      "status": "page_inspected",
+      "title": "【B站强推】100集（全）2026最细最全的PR软件自学剪辑全套教程，剪辑变现+软件基础+剪辑思维+案例练习，全程干货通俗易懂（PR教程新手入门实用版）",
+      "categories": [
+        "pr-narrative-editing"
+      ],
+      "passes": {
+        "global": "pending",
+        "detail": "pending",
+        "abstraction": "pending"
+      },
+      "page": {
+        "title": "【B站强推】100集（全）2026最细最全的PR软件自学剪辑全套教程，剪辑变现+软件基础+剪辑思维+案例练习，全程干货通俗易懂（PR教程新手入门实用版）_哔哩哔哩_bilibili",
+        "description": "【B站强推】100集（全）2026最细最全的PR软件自学剪辑全套教程，剪辑变现+软件基础+剪辑思维+案例练习，全程干货通俗易懂（PR教程新手入门实用版）共计38条视频，包括：新手必看！剪辑学习计划、【变现篇】新手剪辑师如何接单变现/上岗就业、【基础篇】01-电脑配置软件安装等，UP主更多精彩视频，请关注UP账号。",
+        "heading": "【B站强推】100集（全）2026最细最全的PR软件自学剪辑全套教程，剪辑变现+软件基础+剪辑思维+案例练习，全程干货通俗易懂（PR教程新手入门实用版）",
+        "duration": 52
+      },
+      "parts": [
+        {
+          "page": 1,
+          "part": "新手必看！剪辑学习计划",
+          "duration": 52
+        },
+        {
+          "page": 2,
+          "part": "【变现篇】新手剪辑师如何接单变现/上岗就业",
+          "duration": 3283
+        },
+        {
+          "page": 3,
+          "part": "【基础篇】01-电脑配置软件安装",
+          "duration": 500
+        },
+        {
+          "page": 4,
+          "part": "【基础篇】02-PR布局设置",
+          "duration": 409
+        },
+        {
+          "page": 5,
+          "part": "【基础篇】03-PR常规设置",
+          "duration": 424
+        },
+        {
+          "page": 6,
+          "part": "【基础篇】04-PR常用快捷键",
+          "duration": 249
+        },
+        {
+          "page": 7,
+          "part": "【基础篇】05-项目管理",
+          "duration": 247
+        },
+        {
+          "page": 8,
+          "part": "【基础篇】05-项目创建",
+          "duration": 213
+        },
+        {
+          "page": 9,
+          "part": "【基础篇】07-序列设置",
+          "duration": 297
+        },
+        {
+          "page": 10,
+          "part": "【基础篇】08-素材导入",
+          "duration": 128
+        },
+        {
+          "page": 11,
+          "part": "【基础篇】09-源面板",
+          "duration": 260
+        },
+        {
+          "page": 12,
+          "part": "【基础篇】10-时间线面板基础操作",
+          "duration": 222
+        },
+        {
+          "page": 13,
+          "part": "【基础篇】11-效果控件面板",
+          "duration": 188
+        },
+        {
+          "page": 14,
+          "part": "【基础篇】12-蒙版",
+          "duration": 254
+        },
+        {
+          "page": 15,
+          "part": "【基础篇】13-嵌套",
+          "duration": 247
+        },
+        {
+          "page": 16,
+          "part": "【基础篇】14-音效急停",
+          "duration": 38
+        },
+        {
+          "page": 17,
+          "part": "【基础篇】15-输出",
+          "duration": 116
+        },
+        {
+          "page": 18,
+          "part": "【思维篇】1 受用终身的剪辑三板斧",
+          "duration": 836
+        },
+        {
+          "page": 19,
+          "part": "【思维篇】2 如何找音乐 渠道&工具",
+          "duration": 720
+        },
+        {
+          "page": 20,
+          "part": "【思维篇】3 音乐剪辑",
+          "duration": 1585
+        },
+        {
+          "page": 21,
+          "part": "【思维篇】4 如何找音效 音效分享",
+          "duration": 701
+        },
+        {
+          "page": 22,
+          "part": "【思维篇】5 音效设计上（人声、环境声、氛围声）",
+          "duration": 1151
+        },
+        {
+          "page": 23,
+          "part": "【思维篇】6 音效设计下 （无痛卡点的高级操作）",
+          "duration": 670
+        },
+        {
+          "page": 24,
+          "part": "【思维篇】7 叙事结构3集合并",
+          "duration": 2173
+        },
+        {
+          "page": 25,
+          "part": "【思维篇】8 影视景别构图",
+          "duration": 4016
+        },
+        {
+          "page": 26,
+          "part": "【思维篇】9 镜头运动",
+          "duration": 5663
+        },
+        {
+          "page": 27,
+          "part": "【思维篇】10 蒙太奇到底是什么",
+          "duration": 882
+        },
+        {
+          "page": 28,
+          "part": "【思维篇】11 音画组合",
+          "duration": 467
+        },
+        {
+          "page": 29,
+          "part": "【思维篇】12 剪辑框架万能公式！",
+          "duration": 832
+        },
+        {
+          "page": 30,
+          "part": "【思维篇】13 拉片实战演示 含声音补充知识点",
+          "duration": 2590
+        },
+        {
+          "page": 31,
+          "part": "【思维篇】14 拉片实战演示2",
+          "duration": 1522
+        },
+        {
+          "page": 32,
+          "part": "【思维篇】15 新手拉片思维",
+          "duration": 1696
+        },
+        {
+          "page": 33,
+          "part": "【案例篇】遮罩转场",
+          "duration": 63
+        },
+        {
+          "page": 34,
+          "part": "【案例篇】丝滑变装",
+          "duration": 108
+        },
+        {
+          "page": 35,
+          "part": "【案例篇】镜面滑屏",
+          "duration": 184
+        },
+        {
+          "page": 36,
+          "part": "【案例篇】建筑生长",
+          "duration": 54
+        },
+        {
+          "page": 37,
+          "part": "【案例篇】振动效果",
+          "duration": 62
+        },
+        {
+          "page": 38,
+          "part": "持续更新中~~~~",
+          "duration": 13
+        }
+      ],
+      "description": "2026最细最全的PR软件自学剪辑全套教程！\n剪辑变现+软件基础+剪辑思维+案例练习（新手入门实用版）\n如果视频对你有帮助，记得【长按点赞】支持up哦~\n软件素材👉https://www.bilibili.com/opus/1224830123411243008",
+      "classification_basis": "page title/description/part list; content unverified except noted passes"
+    },
+    {
+      "order": 17,
+      "id": "BV1fy5T6xEbx",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1fy5T6xEbx/",
+      "status": "page_inspected",
+      "title": "【剪辑思维】100集（全）绝对堪称2026B站超级良心的剪辑思维入门课，如何从0开始剪出节奏和风格，看这个视频就够了！PR教程/剪辑原理/混剪思路/剪辑手法",
+      "categories": [
+        "pr-narrative-editing"
+      ],
+      "passes": {
+        "global": "pending",
+        "detail": "pending",
+        "abstraction": "pending"
+      },
+      "page": {
+        "title": "【剪辑思维】100集（全）绝对堪称2026B站超级良心的剪辑思维入门课，如何从0开始剪出节奏和风格，看这个视频就够了！PR教程/剪辑原理/混剪思路/剪辑手法_哔哩哔哩_bilibili",
+        "description": "【剪辑思维】100集（全）绝对堪称2026B站超级良心的剪辑思维入门课，如何从0开始剪出节奏和风格，看这个视频就够了！PR教程/剪辑原理/混剪思路/剪辑手法共计7条视频，包括：剪辑思维（测试篇）、轴线、蒙太奇等，UP主更多精彩视频，请关注UP账号。",
+        "heading": "【剪辑思维】100集（全）绝对堪称2026B站超级良心的剪辑思维入门课，如何从0开始剪出节奏和风格，看这个视频就够了！PR教程/剪辑原理/混剪思路/剪辑手法",
+        "duration": 275
+      },
+      "parts": [
+        {
+          "page": 1,
+          "part": "剪辑思维（测试篇）",
+          "duration": 275
+        },
+        {
+          "page": 2,
+          "part": "轴线",
+          "duration": 655
+        },
+        {
+          "page": 3,
+          "part": "蒙太奇",
+          "duration": 1372
+        },
+        {
+          "page": 4,
+          "part": "动静结合",
+          "duration": 1836
+        },
+        {
+          "page": 5,
+          "part": "剪辑中的情绪引导",
+          "duration": 2761
+        },
+        {
+          "page": 6,
+          "part": "声画关系",
+          "duration": 1915
+        },
+        {
+          "page": 7,
+          "part": "电影中的剪辑与转场",
+          "duration": 2056
+        }
+      ],
+      "description": "【剪辑思维】100集（全）绝对堪称2026B站超级良心的剪辑思维入门课，如何从0开始剪出节奏和风格，看这个视频就够了！PR教程/剪辑原理/混剪思路/剪辑手法共计7条视频，包括：剪辑思维（测试篇）、轴线、蒙太奇等，UP主更多精彩视频，请关注UP账号。",
+      "classification_basis": "page title/description/part list; content unverified except noted passes"
+    },
+    {
+      "order": 18,
+      "id": "BV1Sf4y1D7T7",
+      "platform": "bilibili",
+      "url": "https://www.bilibili.com/video/BV1Sf4y1D7T7/",
+      "status": "partially_analyzed",
+      "title": "【电影感视频调色教程】调色面板+调色工具简介丨Pr达芬奇调色同样适用",
+      "categories": [
+        "pr-cinematic-color"
+      ],
+      "passes": {
+        "global": "all Watch-selected frames viewed; local full transcription available but not fully word-checked",
+        "detail": "partial; source GUI inspected, exact effects/parameters pending",
+        "abstraction": "pending course-based native reproduction"
+      },
+      "page": {
+        "title": "【电影感视频调色教程】调色面板+调色工具简介丨Pr达芬奇调色同样适用_哔哩哔哩_bilibili",
+        "description": "应许多小伙伴要求，上周把调色视频录制完成了。由于整个视频比较长，但是又觉得很干货不想删掉太多，所以我把它分成了上下两部分。这期是上期，视频里我对调色面板、调色工具进行了大概的讲解：包括怎么判断和调整曝光，怎么运用矢量示波器判断饱和度，怎样去判断肤色是否偏色等等这期视频内容同时也是下期调色视频的理论基础，对于使用Premiere Pro的用户朋友们也是适用的。希望能帮助到大家，学不到东西大家可以来捶, 视频播放量 32695、弹幕量 52、点赞数 1100、投硬币枚数 855、收藏人数 2074、转发人数 99, 视频作者 猫本Shawn, 作者简介 墨尔本独立导演\n旅行｜摄影｜生活方式\n日本国际旅行电影节: 最高奖&最佳旅行短片\n葡萄牙国际旅行电影节：最佳旅行短片\n全球可飞\n谢谢关注，相关视频：【电影感视频调色教程】纯干货输出的保姆级调色教程！不用LUTs和插件照样出大片丨FCPX, Pr,达芬奇同适用，调色分享：如何还原LOG色彩以及肤色矫正？丨FCPX，Pr, 达芬奇均适用，拒绝噪点！如何曝光SLOG3获得最佳画质？丨索尼A7S3，索尼FX3，索尼A7M4同适用，【剪辑干货】五个超实用后期插件分享，100%提升视频质感！丨FCPX，Vlog神器也能拍大片！索尼ZV-1电影感调色短片丨墨尔本：当一切正在变好，【干货向】超详细！如何进行视频前期策划和脚本构思？丨商拍短片实战经验分享，【摄影干货】如何调出仿柔焦镜的复古梦幻色调（上）丨FCPX调色教程，【摄影干货】一个人如何完成一支低成本有质感的音乐MV拍摄？，手持运镜！教你拍出油管广告级美食短片，生活即电影丨DJI RS3 Mini 旅拍实战分享",
+        "heading": "【电影感视频调色教程】调色面板+调色工具简介丨Pr达芬奇调色同样适用",
+        "duration": 537
+      },
+      "parts": [
+        {
+          "page": 1,
+          "part": "调色（上）",
+          "duration": 537
+        }
+      ],
+      "description": "应许多小伙伴要求，上周把调色视频录制完成了。由于整个视频比较长，但是又觉得很干货不想删掉太多，所以我把它分成了上下两部分。\n这期是上期，视频里我对调色面板、调色工具进行了大概的讲解：包括怎么判断和调整曝光，怎么运用矢量示波器判断饱和度，怎样去判断肤色是否偏色等等\n这期视频内容同时也是下期调色视频的理论基础，对于使用Premiere Pro的用户朋友们也是适用的。\n希望能帮助到大家，学不到东西大家可以来捶我！\n\n下期视频也会很快跟大家见面~",
+      "classification_basis": "page title/description/part list; content unverified except noted passes",
+      "ingestion": [
+        {
+          "stage": "global_frames_reviewed_detail_pending",
+          "exit_code": 0,
+          "report": "cache/ingestion/BV1Sf4y1D7T7.txt",
+          "local_media": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-1w1_aq3f\\download\\run-ox0yr79f\\video.mp4",
+          "work_dir": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-1w1_aq3f",
+          "frames_reviewed": true,
+          "transcript_reviewed": false
+        }
+      ]
+    }
+  ],
+  "source_links": 18,
+  "chapter_count": 166,
+  "retrieved_date": "2026-11-06",
+  "all_courses_learned": false
+}

@@ -1,0 +1,12 @@
+{
+  "context": "Run from lab root or supply your own absolute inputs; original example media remains under samples, not bundled by default",
+  "input": "samples/tracking-fixture-001/source.mp4",
+  "overlay": "samples/fixtures/geometry.png",
+  "solve_method": "typical",
+  "detailed": true,
+  "known_horizontal_fov_degrees": 56.1449739,
+  "screen_width_pixels": 180,
+  "expected": "Image remains on selected back wall throughout 96 frames; editable native camera and overlay",
+  "actual_evidence": "samples/tracking-fixture-001/solve-calibrated-001/composite-001",
+  "native_error_is_not_drift": true
+}

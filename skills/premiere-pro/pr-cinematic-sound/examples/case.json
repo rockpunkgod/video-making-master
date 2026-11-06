@@ -1,0 +1,8 @@
+{
+  "plan_example": "samples/pr-sound-suite-002/baseline/plan.json",
+  "input_contract": "Caller-provided local video and stereo audio, source_in=0; no tutorial assets",
+  "expected": "Dialogue stays clear while music ducks; room beds enter before cuts and fade across them; short event cues remain aligned to picture",
+  "native_output": "project.prproj with 8 editable audio tracks plus native-mix.wav and native H264 picture",
+  "packaged_output": "final.mp4 using native picture and native WAV",
+  "status": "candidate; suite002 technical tests passed; this is a generalization example, course-based narrative reproduction pending; user listening acceptance applies only to suite001 soft baseline"
+}

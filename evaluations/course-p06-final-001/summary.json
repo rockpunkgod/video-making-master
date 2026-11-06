@@ -1,0 +1,111 @@
+{
+  "skill": "ae-procedural-motion",
+  "version": "0.3.0",
+  "status": "verified",
+  "verified_scope": "AE26.0x67 Chinese Windows; course p5/p6 index-based 3D contour, opacity and Trim Paths profiles; separate PNG opacity/transform branch; fixed 1080x1080 30fps 7s profile",
+  "course_fidelity": {
+    "method": "native expressions, camera, original color, 16-bit and native Easy Ease In matched to observed source",
+    "paused_final_reference": "samples/course-reproduction-002/p06-final-003/geometry-heldout-paused-frame62.json",
+    "native_curve_reference": {
+      "source": "p6 07:23, composition frame 3",
+      "shown_trimpath": 11.62,
+      "native_observed": 11.6191488920254
+    },
+    "human_visual_review": {
+      "feedback": "整体符合课程效果",
+      "artifact": "samples/course-reproduction-002/p06-final-003/final.mp4"
+    },
+    "exact_playing_recording_frame_sync": "unverified; prior three snapshot checks failed; common ±3 frame offset did not solve them; not erased or called passed"
+  },
+  "tests": {
+    "basic_reproduction": "passed_native_project_render_method_paused_reference_and_user_visual_review",
+    "parameter_variation": "passed_delay2_vs_delay5_and_native_edit_restore_reopen",
+    "three_original_materials": "passed_geometry_typography_texture_PNG_opacity_branch_only",
+    "visual_and_technical": "full_210_frame_decode_each; native formulas checked every frame; final and all material contact sheets viewed"
+  },
+  "cases": [
+    {
+      "case": "p06-final-003",
+      "directory": "samples/course-reproduction-002/p06-final-003",
+      "project": "samples/course-reproduction-002/p06-final-003/project.aep",
+      "video": "samples/course-reproduction-002/p06-final-003/final.mp4",
+      "quality": "samples/course-reproduction-002/p06-final-003/quality.json",
+      "receipt": "samples/course-reproduction-002/p06-final-003/receipt.json",
+      "video_sha256": "8cea27a37c72f770ce1ceb20795523ba16a6fe9b34796a066c5bc753466e1bba",
+      "asset_sha256": null,
+      "delay_frames": 2,
+      "visual_review": "14 contact frames inspected for final baseline, delay5 variation and each PNG case; user accepted final baseline effect only"
+    },
+    {
+      "case": "p06-delay5-002",
+      "directory": "samples/course-reproduction-002/p06-delay5-002",
+      "project": "samples/course-reproduction-002/p06-delay5-002/project.aep",
+      "video": "samples/course-reproduction-002/p06-delay5-002/final.mp4",
+      "quality": "samples/course-reproduction-002/p06-delay5-002/quality.json",
+      "receipt": "samples/course-reproduction-002/p06-delay5-002/receipt.json",
+      "video_sha256": "5458e6ad92445626a6a87aef6e223384852761e2057fa961f6f99c30f354a825",
+      "asset_sha256": null,
+      "delay_frames": 5,
+      "visual_review": "14 contact frames inspected for final baseline, delay5 variation and each PNG case; user accepted final baseline effect only"
+    },
+    {
+      "case": "geometry",
+      "directory": "samples/course-generalization-001/geometry",
+      "project": "samples/course-generalization-001/geometry/project.aep",
+      "video": "samples/course-generalization-001/geometry/final.mp4",
+      "quality": "samples/course-generalization-001/geometry/quality.json",
+      "receipt": "samples/course-generalization-001/geometry/receipt.json",
+      "video_sha256": "2fbf24b4b563bfea939eb292f90f642427a5ed20cf01fabe1630cbc1cac38466",
+      "asset_sha256": "f4e0b0064871dc9f639959b72cecbcfb2e3414f940166c5f21f40d1552dc5009",
+      "delay_frames": 2,
+      "visual_review": "14 contact frames inspected for final baseline, delay5 variation and each PNG case; user accepted final baseline effect only"
+    },
+    {
+      "case": "typography",
+      "directory": "samples/course-generalization-001/typography",
+      "project": "samples/course-generalization-001/typography/project.aep",
+      "video": "samples/course-generalization-001/typography/final.mp4",
+      "quality": "samples/course-generalization-001/typography/quality.json",
+      "receipt": "samples/course-generalization-001/typography/receipt.json",
+      "video_sha256": "186a5ff9ecedc55736886b5e9380e027b05bd9f639849f38e616e9a6276db80a",
+      "asset_sha256": "3130efd93a8d60694178091ed3dc6cd54c043917c6e2668a25a51effe8198600",
+      "delay_frames": 5,
+      "visual_review": "14 contact frames inspected for final baseline, delay5 variation and each PNG case; user accepted final baseline effect only"
+    },
+    {
+      "case": "texture",
+      "directory": "samples/course-generalization-001/texture",
+      "project": "samples/course-generalization-001/texture/project.aep",
+      "video": "samples/course-generalization-001/texture/final.mp4",
+      "quality": "samples/course-generalization-001/texture/quality.json",
+      "receipt": "samples/course-generalization-001/texture/receipt.json",
+      "video_sha256": "63fb0cafb4851f4316676b219a52660d6363accf9168c0aa5fc5309532149eca",
+      "asset_sha256": "700ce5d87d80c90d2e23409bbac14ba38da5a31397abc60f194cbe62326cbae9",
+      "delay_frames": 2,
+      "visual_review": "14 contact frames inspected for final baseline, delay5 variation and each PNG case; user accepted final baseline effect only"
+    }
+  ],
+  "standalone_execution": {
+    "copied_skill": "samples/isolated-skill-003/ae-procedural-motion",
+    "working_directory": "E:/自媒体",
+    "actual_cases": [
+      "typography",
+      "texture",
+      "p06-delay5-002"
+    ],
+    "emitter_sha256": "b254f32db9d1df741605c920d3bae2bb0cfaf47c768150430c947fbb7636e738"
+  },
+  "limitations": [
+    "not the entire 20-chapter course",
+    "recorded playback exact frame sync unverified",
+    "PNG branch has no Trim Paths or moving camera",
+    "typography repeats overlap; not a readable kinetic-typography skill",
+    "other framing, durations, media types, locales and hosts not verified in this course profile",
+    "old build.py/template.jsx custom variants are not the course-verified profile"
+  ],
+  "request_pipeline": {
+    "directory": "samples/runs/course-request-001",
+    "status": "technical_pass_visual_review_pending",
+    "selected_version": "0.3.0"
+  }
+}

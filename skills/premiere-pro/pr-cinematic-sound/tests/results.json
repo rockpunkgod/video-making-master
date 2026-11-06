@@ -1,0 +1,50 @@
+{
+  "status": "candidate",
+  "cases": [
+    {
+      "name": "baseline",
+      "directory": "samples/pr-sound-suite-002/baseline",
+      "project": "samples/pr-sound-suite-002/baseline/project.prproj",
+      "video": "samples/pr-sound-suite-002/baseline/final.mp4",
+      "alignment_samples": 0,
+      "mix_snr_db": 50.67822154069006,
+      "picture_mean_ssim": 0.9916149,
+      "frames_compared": 300,
+      "native_edit_difference_snr_db": 56.97628833173393,
+      "listening": "not_reviewed_for_this_final_file"
+    },
+    {
+      "name": "variation",
+      "directory": "samples/pr-sound-suite-002/variation",
+      "project": "samples/pr-sound-suite-002/variation/project.prproj",
+      "video": "samples/pr-sound-suite-002/variation/final.mp4",
+      "alignment_samples": 0,
+      "mix_snr_db": 50.35280707151404,
+      "picture_mean_ssim": 0.99206499,
+      "frames_compared": 300,
+      "native_edit_difference_snr_db": 56.937834134720106,
+      "listening": "not_reviewed_for_this_final_file"
+    },
+    {
+      "name": "reveal",
+      "directory": "samples/pr-sound-suite-002/reveal",
+      "project": "samples/pr-sound-suite-002/reveal/project.prproj",
+      "video": "samples/pr-sound-suite-002/reveal/final.mp4",
+      "alignment_samples": 0,
+      "mix_snr_db": 49.48538241941748,
+      "picture_mean_ssim": 0.9922770966666667,
+      "frames_compared": 300,
+      "native_edit_difference_snr_db": 56.66309283520154,
+      "listening": "not_reviewed_for_this_final_file"
+    }
+  ],
+  "standalone_execution": "prepare/build/start executed from copied scripts outside lab cwd; mux/validation/edit from copied scripts",
+  "prior_failures_preserved": [
+    "evaluations/pr-sound-suite-001",
+    "samples/pr-sound-suite-002/variation/failed-media-pending-001"
+  ],
+  "subjective_history": "User accepted suite001 baseline-soft-transitions-001; approval is not transferred to newly rendered files",
+  "scope": "Reusable multi-track envelopes and timing; not full reproduction of tutorial sound effects or narrative scene",
+  "course_fidelity": "pending",
+  "scripts_bundled": true
+}

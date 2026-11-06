@@ -1,0 +1,22 @@
+{
+  "status": "passed_geometry_only",
+  "reference": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\cache\\watch\\watch-kdgu22y8\\frames\\cue_0001.jpg",
+  "viewport_crop": [
+    511,
+    100,
+    360,
+    360
+  ],
+  "mean_distance_px": 0.03312176465988159,
+  "p95_distance_px": 0.0,
+  "thresholds": {
+    "mean": 2,
+    "p95": 4
+  },
+  "not_validated": [
+    "random sequence",
+    "full animation timing",
+    "typography",
+    "generalization"
+  ]
+}

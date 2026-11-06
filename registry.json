@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-06",
+  "skills": [
+    {
+      "name": "ae-procedural-motion",
+      "version": "0.3.0",
+      "status": "verified",
+      "execution_status": "course_method_and_native_suite_passed_with_explicit_limits",
+      "path": "skills/after-effects/ae-procedural-motion",
+      "dependencies": [
+        "Adobe After Effects with functioning script execution",
+        "aerender",
+        "FFmpeg",
+        "Python 3.10+"
+      ],
+      "plugins": [],
+      "scenarios": [
+        "course p5/p6 3D contour step repetition",
+        "index-based opacity and Trim Paths staggering",
+        "PNG opacity and 3D transform arrays without Trim Paths"
+      ],
+      "sources": [
+        {
+          "id": "BV1Yh4y1A7XT",
+          "parts": [
+            5,
+            6
+          ]
+        }
+      ],
+      "evidence": "evaluations/course-p06-final-001/summary.json",
+      "blockers": [],
+      "verified_artifacts": [
+        {
+          "case": "p06-final-003",
+          "directory": "samples/course-reproduction-002/p06-final-003",
+          "project": "samples/course-reproduction-002/p06-final-003/project.aep",
+          "video": "samples/course-reproduction-002/p06-final-003/final.mp4",
+          "quality": "samples/course-reproduction-002/p06-final-003/quality.json",
+          "receipt": "samples/course-reproduction-002/p06-final-003/receipt.json",
+          "video_sha256": "8cea27a37c72f770ce1ceb20795523ba16a6fe9b34796a066c5bc753466e1bba",
+          "asset_sha256": null,
+          "delay_frames": 2,
+          "visual_review": "14 contact frames inspected for final baseline, delay5 variation and each PNG case; user accepted final baseline effect only"
+        },
+        {
+          "case": "p06-delay5-002",
+          "directory": "samples/course-reproduction-002/p06-delay5-002",
+          "project": "samples/course-reproduction-002/p06-delay5-002/project.aep",
+          "video": "samples/course-reproduction-002/p06-delay5-002/final.mp4",
+          "quality": "samples/course-reproduction-002/p06-delay5-002/quality.json",
+          "receipt": "samples/course-reproduction-002/p06-delay5-002/receipt.json",
+          "video_sha256": "5458e6ad92445626a6a87aef6e223384852761e2057fa961f6f99c30f354a825",
+          "asset_sha256": null,
+          "delay_frames": 5,
+          "visual_review": "14 contact frames inspected for final baseline, delay5 variation and each PNG case; user accepted final baseline effect only"
+        },
+        {
+          "case": "geometry",
+          "directory": "samples/course-generalization-001/geometry",
+          "project": "samples/course-generalization-001/geometry/project.aep",
+          "video": "samples/course-generalization-001/geometry/final.mp4",
+          "quality": "samples/course-generalization-001/geometry/quality.json",
+          "receipt": "samples/course-generalization-001/geometry/receipt.json",
+          "video_sha256": "2fbf24b4b563bfea939eb292f90f642427a5ed20cf01fabe1630cbc1cac38466",
+          "asset_sha256": "f4e0b0064871dc9f639959b72cecbcfb2e3414f940166c5f21f40d1552dc5009",
+          "delay_frames": 2,
+          "visual_review": "14 contact frames inspected for final baseline, delay5 variation and each PNG case; user accepted final baseline effect only"
+        },
+        {
+          "case": "typography",
+          "directory": "samples/course-generalization-001/typography",
+          "project": "samples/course-generalization-001/typography/project.aep",
+          "video": "samples/course-generalization-001/typography/final.mp4",
+          "quality": "samples/course-generalization-001/typography/quality.json",
+          "receipt": "samples/course-generalization-001/typography/receipt.json",
+          "video_sha256": "186a5ff9ecedc55736886b5e9380e027b05bd9f639849f38e616e9a6276db80a",
+          "asset_sha256": "3130efd93a8d60694178091ed3dc6cd54c043917c6e2668a25a51effe8198600",
+          "delay_frames": 5,
+          "visual_review": "14 contact frames inspected for final baseline, delay5 variation and each PNG case; user accepted final baseline effect only"
+        },
+        {
+          "case": "texture",
+          "directory": "samples/course-generalization-001/texture",
+          "project": "samples/course-generalization-001/texture/project.aep",
+          "video": "samples/course-generalization-001/texture/final.mp4",
+          "quality": "samples/course-generalization-001/texture/quality.json",
+          "receipt": "samples/course-generalization-001/texture/receipt.json",
+          "video_sha256": "63fb0cafb4851f4316676b219a52660d6363accf9168c0aa5fc5309532149eca",
+          "asset_sha256": "700ce5d87d80c90d2e23409bbac14ba38da5a31397abc60f194cbe62326cbae9",
+          "delay_frames": 2,
+          "visual_review": "14 contact frames inspected for final baseline, delay5 variation and each PNG case; user accepted final baseline effect only"
+        }
+      ],
+      "verified_host": "After Effects 26.0x67 Chinese Windows; running GUI host for native Ease In command",
+      "course_fidelity": {
+        "status": "method_paused_reference_and_user_visual_review_passed",
+        "exact_playing_recording_frame_sync": "unverified",
+        "audit": "evaluations/course-p06-final-001/summary.json"
+      },
+      "historical_technical_status": "verified_with_recorded_scope_limits",
+      "historical_technical_artifacts": [
+        {
+          "case": "square-baseline",
+          "project": "samples/runs/suite-20261106-091450/square-baseline/project.aep",
+          "video": "samples/runs/suite-20261106-091450/square-baseline/final.mp4",
+          "quality": "samples/runs/suite-20261106-091450/square-baseline/quality.json",
+          "video_sha256": "520497aca9f9d32322cd044c72d7f60dc1572df29d265ec04df28c03a474babe"
+        },
+        {
+          "case": "triangle-variation",
+          "project": "samples/runs/suite-20261106-091450/triangle-variation/project.aep",
+          "video": "samples/runs/suite-20261106-091450/triangle-variation/final.mp4",
+          "quality": "samples/runs/suite-20261106-091450/triangle-variation/quality.json",
+          "video_sha256": "c19f2bd68d833623b454e789482c8e9cd809815b1d96a096bd662d2e47fa0c8e"
+        },
+        {
+          "case": "hexagon-portrait",
+          "project": "samples/runs/suite-20261106-091450/hexagon-portrait/project.aep",
+          "video": "samples/runs/suite-20261106-091450/hexagon-portrait/final.mp4",
+          "quality": "samples/runs/suite-20261106-091450/hexagon-portrait/quality.json",
+          "video_sha256": "8c38708af3d78faeca5ed41475a3ae0cae07476c54044819026d2a3f0588145d"
+        },
+        {
+          "case": "asset-geometry",
+          "project": "samples/runs/suite-20261106-091450/asset-geometry/project.aep",
+          "video": "samples/runs/suite-20261106-091450/asset-geometry/final.mp4",
+          "quality": "samples/runs/suite-20261106-091450/asset-geometry/quality.json",
+          "video_sha256": "628614e0d4298a3222290a526162fcb8f5fd715b42319ee515771a6a67d70c78"
+        },
+        {
+          "case": "asset-typography",
+          "project": "samples/runs/suite-20261106-091450/asset-typography/project.aep",
+          "video": "samples/runs/suite-20261106-091450/asset-typography/final.mp4",
+          "quality": "samples/runs/suite-20261106-091450/asset-typography/quality.json",
+          "video_sha256": "882c68ec8e04f82f934243071824f919b02c772fd30e9e2a81a5e65e925b7553"
+        },
+        {
+          "case": "asset-texture",
+          "project": "samples/runs/suite-20261106-091450/asset-texture/project.aep",
+          "video": "samples/runs/suite-20261106-091450/asset-texture/final.mp4",
+          "quality": "samples/runs/suite-20261106-091450/asset-texture/quality.json",
+          "video_sha256": "919ba75d60f61e045f8ac1d326f411ce8cd50bdbaa30f1015b9ff00f26f9d69f"
+        }
+      ],
+      "candidate_extensions": [
+        {
+          "name": "course-p07-digital-blocks",
+          "status": "candidate",
+          "evidence": "evaluations/course-p07-probe-001/production-candidate.json",
+          "script": "scripts/build_course_noise.py"
+        }
+      ]
+    },
+    {
+      "name": "ae-camera-tracking",
+      "version": "0.2.0",
+      "status": "candidate",
+      "execution_status": "passed_with_scope_limits",
+      "path": "skills/after-effects/ae-camera-tracking",
+      "dependencies": [
+        "Adobe After Effects native 3D Camera Tracker",
+        "FFmpeg",
+        "Python 3.10+"
+      ],
+      "plugins": [],
+      "scenarios": [
+        "solve a camera from a rigid scene video",
+        "tracked 3D compositing"
+      ],
+      "sources": [
+        {
+          "id": "wiISCTB4s1Y"
+        }
+      ],
+      "evidence": "evaluations/tracking-verified.json",
+      "verified_artifacts": [
+        {
+          "name": "room",
+          "path": "samples/tracking-fixture-001/solve-calibrated-001/composite-001",
+          "project": "samples/tracking-fixture-001/solve-calibrated-001/composite-001/project.aep",
+          "video": "samples/tracking-fixture-001/solve-calibrated-001/composite-001/final.mp4",
+          "sha256": "1aa3e0e6312a7a35660587286340944fc2dd6a3a455ba1cb26fb24b59c35b9a9",
+          "frames": 96,
+          "anchor_rmse": 0.033028682322992005,
+          "corners": {
+            "status": "passed",
+            "rmse_pixels": 0.05820291768650849,
+            "maximum_pixels": 0.16183839453262078
+          }
+        },
+        {
+          "name": "room-typography",
+          "path": "samples/tracking-fixture-001/solve-calibrated-001/composite-typography",
+          "project": "samples/tracking-fixture-001/solve-calibrated-001/composite-typography/project.aep",
+          "video": "samples/tracking-fixture-001/solve-calibrated-001/composite-typography/final.mp4",
+          "sha256": "dfae783432c633926e4706146dbd6b48bf5845f67811b9ee249b1038ae9cda2e",
+          "frames": 96,
+          "anchor_rmse": 0.03302868232299689,
+          "corners": {
+            "status": "passed",
+            "rmse_pixels": 0.0453081055255293,
+            "maximum_pixels": 0.11948591343659967
+          }
+        },
+        {
+          "name": "gallery",
+          "path": "samples/tracking-gallery-001/solve-001/composite-pixel-sized",
+          "project": "samples/tracking-gallery-001/solve-001/composite-pixel-sized/project.aep",
+          "video": "samples/tracking-gallery-001/solve-001/composite-pixel-sized/final.mp4",
+          "sha256": "2e04cb531af661f0842930f6b33096644db1dbeede06b14dbefba88a6ada9462",
+          "frames": 120,
+          "anchor_rmse": 0.08098726574388727,
+          "corners": {
+            "status": "passed",
+            "rmse_pixels": 0.10409038196550746,
+            "maximum_pixels": 0.25562374163947016
+          }
+        },
+        {
+          "name": "corridor",
+          "path": "samples/tracking-corridor-001/solve-calibrated-001/composite-pixel-sized",
+          "project": "samples/tracking-corridor-001/solve-calibrated-001/composite-pixel-sized/project.aep",
+          "video": "samples/tracking-corridor-001/solve-calibrated-001/composite-pixel-sized/final.mp4",
+          "sha256": "1fd83e5548d71598aa891d1d837242aa8958221588f52e85f8e7a79b74cedc6e",
+          "frames": 84,
+          "anchor_rmse": 0.12617124988175343,
+          "corners": {
+            "status": "passed",
+            "rmse_pixels": 0.22268247062538163,
+            "maximum_pixels": 0.7828648567612371
+          }
+        }
+      ],
+      "blockers": [
+        "Strict course baseline workflow/effect audit pending; prior native technical tests remain valid within their recorded scope."
+      ],
+      "verified_scope": "AE26.0x67 Chinese on Windows; three original synthetic rigid multi-depth scenes; planar image overlay; native solver plus observed GUI point selection",
+      "not_verified": [
+        "real shot footage",
+        "occlusion",
+        "rolling shutter",
+        "motion blur",
+        "lens distortion",
+        "zooming lenses",
+        "automatic point selection without agent visual inspection"
+      ],
+      "execution_mode": "agent observed GUI point selection plus scripts",
+      "course_fidelity": {
+        "status": "pending",
+        "audit": "evaluations/course-fidelity-audit-001.md"
+      },
+      "historical_technical_status": "verified_with_recorded_scope_limits"
+    },
+    {
+      "name": "pr-cinematic-sound",
+      "version": "0.1.0",
+      "status": "candidate",
+      "execution_status": "three_case_native_production_edit_and_picture_checks_passed",
+      "path": "skills/premiere-pro/pr-cinematic-sound",
+      "dependencies": [
+        "Premiere26.0",
+        "running AE26.0 BridgeTalk sender",
+        "FFmpeg",
+        "Python and NumPy"
+      ],
+      "scenarios": [
+        "editable layered sound",
+        "dialogue ducking",
+        "cross-scene ambience",
+        "event-aligned gain envelopes"
+      ],
+      "evidence": "skills/premiere-pro/pr-cinematic-sound/tests/results.json",
+      "blockers": [
+        "Explicit course-derived narrative baseline and effect-chain reproduction pending",
+        "Final-file listening review pending"
+      ],
+      "course_fidelity": {
+        "status": "pending",
+        "audit": "evaluations/course-fidelity-audit-001.md"
+      },
+      "technical_artifacts": [
+        {
+          "name": "baseline",
+          "directory": "samples/pr-sound-suite-002/baseline",
+          "project": "samples/pr-sound-suite-002/baseline/project.prproj",
+          "video": "samples/pr-sound-suite-002/baseline/final.mp4",
+          "alignment_samples": 0,
+          "mix_snr_db": 50.67822154069006,
+          "picture_mean_ssim": 0.9916149,
+          "frames_compared": 300,
+          "native_edit_difference_snr_db": 56.97628833173393,
+          "listening": "not_reviewed_for_this_final_file"
+        },
+        {
+          "name": "variation",
+          "directory": "samples/pr-sound-suite-002/variation",
+          "project": "samples/pr-sound-suite-002/variation/project.prproj",
+          "video": "samples/pr-sound-suite-002/variation/final.mp4",
+          "alignment_samples": 0,
+          "mix_snr_db": 50.35280707151404,
+          "picture_mean_ssim": 0.99206499,
+          "frames_compared": 300,
+          "native_edit_difference_snr_db": 56.937834134720106,
+          "listening": "not_reviewed_for_this_final_file"
+        },
+        {
+          "name": "reveal",
+          "directory": "samples/pr-sound-suite-002/reveal",
+          "project": "samples/pr-sound-suite-002/reveal/project.prproj",
+          "video": "samples/pr-sound-suite-002/reveal/final.mp4",
+          "alignment_samples": 0,
+          "mix_snr_db": 49.48538241941748,
+          "picture_mean_ssim": 0.9922770966666667,
+          "frames_compared": 300,
+          "native_edit_difference_snr_db": 56.66309283520154,
+          "listening": "not_reviewed_for_this_final_file"
+        }
+      ]
+    },
+    {
+      "name": "ae-advanced-expressions",
+      "version": "0.1.0",
+      "status": "candidate",
+      "execution_status": "native_five_case_suite_passed_visual_review_pending",
+      "path": "skills/after-effects/ae-advanced-expressions",
+      "dependencies": [
+        "After Effects AE26 Chinese Windows tested",
+        "aerender",
+        "FFmpeg",
+        "Python3.10+",
+        "Pillow for independent PNG pixel validation"
+      ],
+      "plugins": [],
+      "scenarios": [
+        "seeded threshold multi-layer visibility"
+      ],
+      "sources": [
+        {
+          "id": "BV1Yh4y1A7XT",
+          "parts": [
+            8
+          ]
+        }
+      ],
+      "evidence": "evaluations/course-p08-suite-001/summary.json",
+      "blockers": [
+        "course visual/rhythm acceptance pending"
+      ]
+    }
+  ],
+  "research_queue": [
+    {
+      "name": "ae-cinematic-camera",
+      "status": "unimplemented"
+    },
+    {
+      "name": "ae-3d-projection",
+      "status": "unimplemented",
+      "dependency_note": "Projection 3D tutorial requires a separate script; installation and license not verified."
+    },
+    {
+      "name": "ae-mocha-tracking",
+      "status": "unimplemented",
+      "dependency_note": "Mocha AE binary present; this does not establish Mocha Pro PowerMesh availability."
+    },
+    {
+      "name": "ae-kinetic-typography",
+      "status": "unimplemented"
+    },
+    {
+      "name": "ae-advanced-compositing",
+      "status": "unimplemented"
+    },
+    {
+      "name": "pr-narrative-editing",
+      "status": "unimplemented"
+    },
+    {
+      "name": "pr-cinematic-color",
+      "status": "unimplemented"
+    }
+  ],
+  "acceptance_policy": "Course-based baseline must pass explicit method and effect comparison before generalized technical tests can support verified status."
+}

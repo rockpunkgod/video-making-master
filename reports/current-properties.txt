@@ -1,0 +1,34 @@
+version=26.0x67
+items=3
+ITEM square-baseline
+LAB_CAMERA | ADBE Camera Layer
+ 标记 | ADBE Marker
+ 变换 | ADBE Transform Group
+  目标点 | ADBE Anchor Point
+  位置 | ADBE Position
+  X 位置 | ADBE Position_0
+  Y 位置 | ADBE Position_1
+  Z 位置 | ADBE Position_2
+  缩放 | ADBE Scale
+  方向 | ADBE Orientation
+  X 轴旋转 | ADBE Rotate X
+  Y 轴旋转 | ADBE Rotate Y
+  Z 轴旋转 | ADBE Rotate Z
+  不透明度 | ADBE Opacity
+  在反射中显示 | ADBE Envir Appear in Reflect
+ 摄像机选项 | ADBE Camera Options Group
+  缩放 | ADBE Camera Zoom
+  景深 | ADBE Camera Depth of Field
+  焦距 | ADBE Camera Focus Distance
+  光圈 | ADBE Camera Aperture
+  模糊层次 | ADBE Camera Blur Level
+  光圈形状 | ADBE Iris Shape
+  光圈旋转 | ADBE Iris Rotation
+  光圈圆度 | ADBE Iris Roundness
+  光圈长宽比 | ADBE Iris Aspect Ratio
+  光圈衍射条纹 | ADBE Iris Diffraction Fringe
+  高亮增益 | ADBE Iris Highlight Gain
+  高光阈值 | ADBE Iris Highlight Threshold
+  高光饱和度 | ADBE Iris Hightlight Saturation
+ITEM 纯色
+ITEM 空 1

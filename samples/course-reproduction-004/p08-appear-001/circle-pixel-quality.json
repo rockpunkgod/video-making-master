@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "compared_cells": 3750,
+  "decoded_frames": 150,
+  "minimum_visible_center": 255.0,
+  "maximum_hidden_center": 0.0,
+  "failures": [],
+  "scope": "Decoded video centers match same-identity native opacity results; not aesthetics or exact tutorial random layout"
+}

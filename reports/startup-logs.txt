@@ -1,0 +1,11 @@
+CEP12-AEFT.log
+﻿2026-11-06 01:45:17:649 : INFO  PlugPlug version : 12.0.1.2
+2026-11-06 01:45:17:650 : INFO  LogLevel : 1
+2026-11-06 01:45:17:650 : ERROR PlugPlugSetup: 
+
+
+CEP12-PPRO.log
+﻿2026-11-06 01:45:20:400 : INFO  PlugPlug version : 12.0.1.2
+2026-11-06 01:45:20:401 : INFO  LogLevel : 1
+2026-11-06 01:45:20:402 : ERROR PlugPlugSetup: 
+2026-11-06 01:45:20:403 : ERROR PlugPlugSetNglProfileData: PlugPlugErrorCode_internalError (PlugPlugSetup must be called first)

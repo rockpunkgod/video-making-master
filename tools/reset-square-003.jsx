@@ -1,0 +1,1 @@
+(function(){if(!app.project.file||app.project.file.fsName!==new File('E:/自媒体/video-skills-lab/samples/runs/square-003/project.aep').fsName||app.project.dirty)throw Error('Unexpected or modified project');app.project.close(CloseOptions.DO_NOT_SAVE_CHANGES);app.newProject();}());

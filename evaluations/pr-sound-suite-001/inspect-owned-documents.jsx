@@ -1,0 +1,1 @@
+(function(){var result=[];for(var i=0;i<app.projects.numProjects;i++){var p=app.projects[i];result.push({path:p.path,active_sequence:p.activeSequence?p.activeSequence.sequenceID:null});}return {projects:result};}());

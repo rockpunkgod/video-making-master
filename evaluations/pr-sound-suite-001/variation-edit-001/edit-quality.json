@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "edited_native_mix_snr_db": 41.12406824879202,
+  "actual_music_change_snr_db": 33.67815217870479,
+  "minimum_snr_db": 35,
+  "method": "actual saved-and-reopened PR gain edit and WAV export; compare both absolute PCM and original-minus-edited difference to independently summed source stems",
+  "native_receipt": {
+    "status": "native_edit_exported_numeric_check_pending",
+    "source_project": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/pr-sound-suite-001/variation-soft/project.prproj",
+    "edited_project": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\evaluations\\pr-sound-suite-001\\variation-edit-001\\edited-project.prproj",
+    "original_clips_checked": 9,
+    "reopened_clips_checked": 9,
+    "music_stems_edited": 1,
+    "music_gain_factor": 0.5,
+    "other_stems_unchanged": true,
+    "export_return": "No Error",
+    "output_bytes": 2407916
+  }
+}

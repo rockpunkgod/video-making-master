@@ -1,0 +1,26 @@
+{
+  "name": "COURSE_P06_TRIM_FINAL",
+  "width": 1080,
+  "height": 1080,
+  "fps": 30,
+  "duration": 7,
+  "count": 18,
+  "source": "BV1Yh4y1A7XT?p=6 05:00-07:25 plus inherited p5 camera",
+  "scope": "Final Trim Paths and opacity staggering, one-node moving camera, native Easy Ease In",
+  "color_status": "FF0000 explicitly visible in p5 09:22 color dialog",
+  "bits_per_channel": 16,
+  "course_fidelity_status": "candidate_pending_visual_comparison",
+  "final_stage": true,
+  "apply_ease_in": true,
+  "master_fade_seconds": 1,
+  "delay_frames": 2,
+  "trim_end_seconds": 1.0333333333333334,
+  "camera_zoom": 1866.6666666667,
+  "camera_speed": 1000,
+  "parameter_provenance": {
+    "trim_end_seconds": "inferred from source frame 3 showing linear Trimpath 9.68 before easing; validate native eased value against visible 11.62",
+    "camera_zoom": "inferred from visible initial Z=-1866.7 and camera dialog angle 32.27 / focal length 62.22mm",
+    "exact_RGB": "FF0000 explicitly visible in p5 09:22",
+    "bits_per_channel": "16-bit inferred from color dialog maximum channel value 32768"
+  }
+}

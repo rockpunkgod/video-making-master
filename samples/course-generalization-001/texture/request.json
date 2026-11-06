@@ -1,0 +1,19 @@
+{
+  "name": "COURSE_P06_OPACITY_STAGE",
+  "width": 1080,
+  "height": 1080,
+  "fps": 30,
+  "duration": 7,
+  "count": 11,
+  "source": "BV1Yh4y1A7XT?p=6 02:12-04:20",
+  "scope": "Intermediate opacity-stagger stage, camera disabled, before Trim Paths; not the final lesson effect; original PNG opacity/transform generalization, not a tutorial vector reproduction",
+  "color_status": "FF0000 explicitly visible in p5 09:22 color dialog",
+  "bits_per_channel": 16,
+  "course_fidelity_status": "candidate_pending_visual_comparison",
+  "final_stage": false,
+  "apply_ease_in": false,
+  "master_fade_seconds": 0.3333333333333333,
+  "delay_frames": 2,
+  "asset": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-generalization-001/texture/assets/input.png",
+  "asset_sha256": "700ce5d87d80c90d2e23409bbac14ba38da5a31397abc60f194cbe62326cbae9"
+}

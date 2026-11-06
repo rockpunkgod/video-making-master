@@ -1,0 +1,122 @@
+{
+  "status": "candidate",
+  "artifact": "samples/course-reproduction-003/p07-tint-001",
+  "color": "0057FF",
+  "source": "p7 05:43–05:46 color dialog and later FN18 copied Tint",
+  "native_receipt": {
+    "status": "built",
+    "project_reopened": true,
+    "expression_errors": [],
+    "selected_template": "H.264 - 匹配渲染设置 - 15 Mbps",
+    "output_format": "mp4",
+    "layers": 22,
+    "bits_per_channel": 16,
+    "distinct_layer_seeds": 20,
+    "layer_seeds": [
+      813,
+      609,
+      983,
+      561,
+      87,
+      449,
+      75,
+      877,
+      731,
+      695,
+      82,
+      679,
+      125,
+      942,
+      762,
+      91,
+      870,
+      795,
+      373,
+      192
+    ],
+    "max_seed_temporal_drift": 0,
+    "max_evolution_error": 0,
+    "max_z_error": 0,
+    "max_scale_error": 0,
+    "native_seed_edit": {
+      "before": 813,
+      "changed": 923,
+      "restored": 813,
+      "saved_reopened": true
+    },
+    "native_tint_properties": [
+      {
+        "layer": "FN 15",
+        "black_match": "ADBE Tint-0001",
+        "white_match": "ADBE Tint-0002",
+        "amount_match": "ADBE Tint-0003"
+      },
+      {
+        "layer": "FN 18",
+        "black_match": "ADBE Tint-0001",
+        "white_match": "ADBE Tint-0002",
+        "amount_match": "ADBE Tint-0003"
+      }
+    ],
+    "reopened_tint_values": [
+      {
+        "layer": "FN 15",
+        "black_maps_to": [
+          0,
+          0.34117648005486,
+          1,
+          1
+        ]
+      },
+      {
+        "layer": "FN 18",
+        "black_maps_to": [
+          0,
+          0.34117648005486,
+          1,
+          1
+        ]
+      }
+    ],
+    "course_fidelity_status": "candidate_pending_visual_comparison",
+    "rendered": false
+  },
+  "quality": {
+    "status": "passed",
+    "path": "E:\\自媒体\\video-skills-lab\\samples\\course-reproduction-003\\p07-tint-001\\final.mp4",
+    "sha256": "d83aca3cb2ce3af1cb760756ea335e5260e84ef36f1477674068dc0f00704196",
+    "checks": {
+      "full_decode": true,
+      "frame_hash_decode": true,
+      "has_motion": true,
+      "width": true,
+      "height": true,
+      "fps": true,
+      "duration": true,
+      "frame_count": true
+    },
+    "observed": {
+      "width": 1080,
+      "height": 1080,
+      "fps": 30.0,
+      "duration": 7.0,
+      "decoded_frames": 210,
+      "unique_thumbnail_frames": 210
+    },
+    "audio_sync": "not_applicable",
+    "visual_review": "not_reviewed",
+    "native_project_editability": "not_checked_by_this_tool",
+    "stderr": ""
+  },
+  "visual_review": "14 contact frames inspected; user accepted this final overall course effect",
+  "missing": [
+    "three input generalization"
+  ],
+  "human_visual_review": {
+    "feedback": "整体符合课程效果",
+    "artifact": "samples/course-reproduction-003/p07-tint-001/final.mp4",
+    "video_sha256": "d83aca3cb2ce3af1cb760756ea335e5260e84ef36f1477674068dc0f00704196",
+    "scope": "p7 Tint baseline overall depth motion, noise layering and color; no approval transferred to other artifacts"
+  },
+  "isolated_seed_variation": "evaluations/course-p07-probe-001/isolated-seed-variation.json"
+}

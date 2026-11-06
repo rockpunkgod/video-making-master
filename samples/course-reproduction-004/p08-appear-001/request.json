@@ -1,0 +1,15 @@
+{
+  "name": "COURSE_P08_THRESHOLD",
+  "width": 1080,
+  "height": 1080,
+  "fps": 30,
+  "duration": 5,
+  "direction": "appear",
+  "end_frame": 113,
+  "seed": 0,
+  "asset": null,
+  "source": "BV1Yh4y1A7XT?p=8 07:00–10:51",
+  "status": "candidate",
+  "layout_provenance": "5x5 white circles observed; diameter100, centers240..840 at150 spacing inferred from square viewport",
+  "timing_provenance": "38 frames inferred from source composition frame36 threshold5.26; final reversed/extended endpoint frame113 observed at 10:48–10:51"
+}

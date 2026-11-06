@@ -1,0 +1,27 @@
+{
+  "status": "passed_geometry_only",
+  "reference": "cache\\watch\\watch-6hfge73g\\frames\\frame_0006.jpg",
+  "candidate": "samples\\course-reproduction-002\\p06-final-003\\frame-62.png",
+  "reference_viewport_crop": [
+    515,
+    93,
+    326,
+    326
+  ],
+  "crop_note": "Viewport bounds inferred from displayed square composition; no source-motion or shape fitting performed",
+  "reference_red_pixels": 21965,
+  "candidate_red_pixels": 13706,
+  "bidirectional_mean_distance_viewport_px": 0.2729569375514984,
+  "p95_distance_viewport_px": 1.4142135381698608,
+  "thresholds": {
+    "mean_px": 2,
+    "p95_px": 4
+  },
+  "not_validated": [
+    "exact RGB",
+    "full motion timing",
+    "easing",
+    "later Trim Paths stage",
+    "enabled camera stage"
+  ]
+}

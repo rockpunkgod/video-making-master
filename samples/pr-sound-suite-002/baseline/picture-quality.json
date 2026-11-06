@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": {
+    "all_expected_frames_compared": true,
+    "minimum_frame_ssim": true,
+    "mean_frame_ssim": true
+  },
+  "frames": 300,
+  "expected_frames": 300,
+  "minimum_ssim": 0.984597,
+  "mean_ssim": 0.9916149,
+  "thresholds": {
+    "minimum_frame_ssim": 0.9,
+    "mean_ssim": 0.97
+  },
+  "scope": "Full-frame fidelity of sequential source-only picture edit; does not judge storytelling or audio aesthetics"
+}

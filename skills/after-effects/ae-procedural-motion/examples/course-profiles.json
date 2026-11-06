@@ -1,0 +1,12 @@
+{
+  "input_parameters": {
+    "stage": "opacity | trim-linear | trim-final",
+    "delay_frames": "integer 1..10; source baseline 2, tested variation 5",
+    "asset": "optional caller-owned PNG absolute path; opacity stage only"
+  },
+  "fixed_tested_profile": {"width": 1080, "height": 1080, "fps": 30, "duration": 7},
+  "baseline": {"stage": "trim-final", "delay_frames": 2, "expected": "18 red rectangles with staggered opacity and Trim Paths, native Ease In and a moving one-node camera"},
+  "variation": {"stage": "trim-final", "delay_frames": 5, "expected": "same original method, longer stagger across layers"},
+  "three_material_tests": ["original transparent geometry PNG", "original typography PNG", "original texture PNG"],
+  "material_branch_note": "Copies caller media, preserves editable source precomp and index-based opacity/3D transform expressions; does not apply Trim Paths to raster content."
+}

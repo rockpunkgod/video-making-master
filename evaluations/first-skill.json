@@ -1,0 +1,94 @@
+{
+  "skill": "ae-procedural-motion",
+  "version": "0.2.0",
+  "status": "candidate",
+  "verified": false,
+  "host": "After Effects 26.0x67 Windows",
+  "scope": "3D delayed procedural contour arrays and imported still-image arrays; no tracking, projection reconstruction, sound or PR capability",
+  "tests": {
+    "basic_reproduction": {
+      "status": "passed",
+      "case": "square-baseline",
+      "comparison": "mechanism and visual structure, not pixel-identical"
+    },
+    "parameter_variation": {
+      "status": "passed",
+      "cases": [
+        "triangle-variation",
+        "hexagon-portrait"
+      ]
+    },
+    "cross_asset_generalization": {
+      "status": "passed",
+      "cases": [
+        "asset-geometry",
+        "asset-typography",
+        "asset-texture"
+      ]
+    },
+    "visual_and_technical": {
+      "status": "passed",
+      "native_audit": "evaluations/motion-suite-001/native-editability.json",
+      "visual_review": "evaluations/motion-suite-001/visual-review.md",
+      "audio_sync": "not_applicable"
+    }
+  },
+  "artifacts": [
+    {
+      "case": "square-baseline",
+      "project": "samples/runs/suite-20261106-091450/square-baseline/project.aep",
+      "video": "samples/runs/suite-20261106-091450/square-baseline/final.mp4",
+      "quality": "samples/runs/suite-20261106-091450/square-baseline/quality.json",
+      "video_sha256": "520497aca9f9d32322cd044c72d7f60dc1572df29d265ec04df28c03a474babe"
+    },
+    {
+      "case": "triangle-variation",
+      "project": "samples/runs/suite-20261106-091450/triangle-variation/project.aep",
+      "video": "samples/runs/suite-20261106-091450/triangle-variation/final.mp4",
+      "quality": "samples/runs/suite-20261106-091450/triangle-variation/quality.json",
+      "video_sha256": "c19f2bd68d833623b454e789482c8e9cd809815b1d96a096bd662d2e47fa0c8e"
+    },
+    {
+      "case": "hexagon-portrait",
+      "project": "samples/runs/suite-20261106-091450/hexagon-portrait/project.aep",
+      "video": "samples/runs/suite-20261106-091450/hexagon-portrait/final.mp4",
+      "quality": "samples/runs/suite-20261106-091450/hexagon-portrait/quality.json",
+      "video_sha256": "8c38708af3d78faeca5ed41475a3ae0cae07476c54044819026d2a3f0588145d"
+    },
+    {
+      "case": "asset-geometry",
+      "project": "samples/runs/suite-20261106-091450/asset-geometry/project.aep",
+      "video": "samples/runs/suite-20261106-091450/asset-geometry/final.mp4",
+      "quality": "samples/runs/suite-20261106-091450/asset-geometry/quality.json",
+      "video_sha256": "628614e0d4298a3222290a526162fcb8f5fd715b42319ee515771a6a67d70c78"
+    },
+    {
+      "case": "asset-typography",
+      "project": "samples/runs/suite-20261106-091450/asset-typography/project.aep",
+      "video": "samples/runs/suite-20261106-091450/asset-typography/final.mp4",
+      "quality": "samples/runs/suite-20261106-091450/asset-typography/quality.json",
+      "video_sha256": "882c68ec8e04f82f934243071824f919b02c772fd30e9e2a81a5e65e925b7553"
+    },
+    {
+      "case": "asset-texture",
+      "project": "samples/runs/suite-20261106-091450/asset-texture/project.aep",
+      "video": "samples/runs/suite-20261106-091450/asset-texture/final.mp4",
+      "quality": "samples/runs/suite-20261106-091450/asset-texture/quality.json",
+      "video_sha256": "919ba75d60f61e045f8ac1d326f411ce8cd50bdbaa30f1015b9ff00f26f9d69f"
+    }
+  ],
+  "limitations": [
+    "Long text can overlap; this is not verified kinetic typography",
+    "Exact tutorial easing parameters were not established",
+    "Video input, other AE versions and arbitrary plugins are untested"
+  ],
+  "superseded_failures": [
+    "square-001 startup blocked",
+    "square-002 wrong camera property name",
+    "square-004 clean-project guard",
+    "square-005 and first suite nested conditional shape error"
+  ],
+  "template_sha256": "2846ed0fed846ecf76775479af8aaa573c5b9d18687a7d752009e1d00a027509",
+  "historical_technical_status": "verified_with_recorded_scope_limits",
+  "course_fidelity_status": "pending_strict_course_audit"
+}

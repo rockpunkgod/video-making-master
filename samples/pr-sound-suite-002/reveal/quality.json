@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\final.mp4",
+  "sha256": "58cb7b36c708ce4d439ea2b1ecdc1cd9e26b6114d05ab1cf1f6466e11e4b967d",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "has_motion": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 960,
+    "height": 540,
+    "fps": 24.0,
+    "duration": 12.5,
+    "decoded_frames": 300,
+    "unique_thumbnail_frames": 300
+  },
+  "audio_sync": "not_reviewed",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": ""
+}

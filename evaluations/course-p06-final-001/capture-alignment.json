@@ -1,0 +1,174 @@
+{
+  "status": "no_common_passing_offset",
+  "scope": "diagnosis only; no animation, camera, shape, color, threshold or geometry parameters changed",
+  "tested_shared_offsets": [
+    {
+      "shared_offset_frames": -3,
+      "rows": [
+        {
+          "reference_ui_frame": 17,
+          "candidate_frame": 14,
+          "mean_distance_px": 17.017114639282227,
+          "p95_distance_px": 46.0
+        },
+        {
+          "reference_ui_frame": 28,
+          "candidate_frame": 25,
+          "mean_distance_px": 8.212900161743164,
+          "p95_distance_px": 33.241539001464844
+        },
+        {
+          "reference_ui_frame": 32,
+          "candidate_frame": 29,
+          "mean_distance_px": 6.806277751922607,
+          "p95_distance_px": 19.0
+        }
+      ],
+      "all_pass": false
+    },
+    {
+      "shared_offset_frames": -2,
+      "rows": [
+        {
+          "reference_ui_frame": 17,
+          "candidate_frame": 15,
+          "mean_distance_px": 11.170533180236816,
+          "p95_distance_px": 47.0
+        },
+        {
+          "reference_ui_frame": 28,
+          "candidate_frame": 26,
+          "mean_distance_px": 6.018326759338379,
+          "p95_distance_px": 18.241411209106445
+        },
+        {
+          "reference_ui_frame": 32,
+          "candidate_frame": 30,
+          "mean_distance_px": 5.527826309204102,
+          "p95_distance_px": 14.03566837310791
+        }
+      ],
+      "all_pass": false
+    },
+    {
+      "shared_offset_frames": -1,
+      "rows": [
+        {
+          "reference_ui_frame": 17,
+          "candidate_frame": 16,
+          "mean_distance_px": 3.0968849658966064,
+          "p95_distance_px": 18.207033157348633
+        },
+        {
+          "reference_ui_frame": 28,
+          "candidate_frame": 27,
+          "mean_distance_px": 4.122598648071289,
+          "p95_distance_px": 9.219544410705566
+        },
+        {
+          "reference_ui_frame": 32,
+          "candidate_frame": 31,
+          "mean_distance_px": 4.343363285064697,
+          "p95_distance_px": 11.0
+        }
+      ],
+      "all_pass": false
+    },
+    {
+      "shared_offset_frames": 0,
+      "rows": [
+        {
+          "reference_ui_frame": 17,
+          "candidate_frame": 17,
+          "mean_distance_px": 4.001997470855713,
+          "p95_distance_px": 23.23242950439453
+        },
+        {
+          "reference_ui_frame": 28,
+          "candidate_frame": 28,
+          "mean_distance_px": 2.521881580352783,
+          "p95_distance_px": 6.0
+        },
+        {
+          "reference_ui_frame": 32,
+          "candidate_frame": 32,
+          "mean_distance_px": 3.232330560684204,
+          "p95_distance_px": 8.062257766723633
+        }
+      ],
+      "all_pass": false
+    },
+    {
+      "shared_offset_frames": 1,
+      "rows": [
+        {
+          "reference_ui_frame": 17,
+          "candidate_frame": 18,
+          "mean_distance_px": 6.42203426361084,
+          "p95_distance_px": 27.0
+        },
+        {
+          "reference_ui_frame": 28,
+          "candidate_frame": 29,
+          "mean_distance_px": 1.227588176727295,
+          "p95_distance_px": 4.0
+        },
+        {
+          "reference_ui_frame": 32,
+          "candidate_frame": 33,
+          "mean_distance_px": 2.2051663398742676,
+          "p95_distance_px": 6.0
+        }
+      ],
+      "all_pass": false
+    },
+    {
+      "shared_offset_frames": 2,
+      "rows": [
+        {
+          "reference_ui_frame": 17,
+          "candidate_frame": 19,
+          "mean_distance_px": 9.81616497039795,
+          "p95_distance_px": 36.00138854980469
+        },
+        {
+          "reference_ui_frame": 28,
+          "candidate_frame": 30,
+          "mean_distance_px": 0.5448709726333618,
+          "p95_distance_px": 2.0
+        },
+        {
+          "reference_ui_frame": 32,
+          "candidate_frame": 34,
+          "mean_distance_px": 1.2951397895812988,
+          "p95_distance_px": 4.0
+        }
+      ],
+      "all_pass": false
+    },
+    {
+      "shared_offset_frames": 3,
+      "rows": [
+        {
+          "reference_ui_frame": 17,
+          "candidate_frame": 20,
+          "mean_distance_px": 13.921813011169434,
+          "p95_distance_px": 55.384986877441406
+        },
+        {
+          "reference_ui_frame": 28,
+          "candidate_frame": 31,
+          "mean_distance_px": 0.802517831325531,
+          "p95_distance_px": 3.0
+        },
+        {
+          "reference_ui_frame": 32,
+          "candidate_frame": 35,
+          "mean_distance_px": 0.681629478931427,
+          "p95_distance_px": 2.0
+        }
+      ],
+      "all_pass": false
+    }
+  ]
+}

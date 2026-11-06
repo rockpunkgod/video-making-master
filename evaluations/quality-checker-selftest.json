@@ -1,0 +1,92 @@
+{
+  "scope": "quality checker calibration only, not native AE testing",
+  "status": "passed",
+  "cases": {
+    "moving": {
+      "status": "passed",
+      "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\cache\\quality-selftest\\moving.mp4",
+      "sha256": "9a36f29f771ab1d5c45c2abf610d1a8987c512d3c961ca885d5e0dfb59f0868f",
+      "checks": {
+        "full_decode": true,
+        "frame_hash_decode": true,
+        "has_motion": true,
+        "width": true,
+        "height": true,
+        "fps": true,
+        "duration": true,
+        "frame_count": true
+      },
+      "observed": {
+        "width": 128,
+        "height": 128,
+        "fps": 12.0,
+        "duration": 1.0,
+        "decoded_frames": 12,
+        "unique_thumbnail_frames": 12
+      },
+      "audio_sync": "not_applicable",
+      "visual_review": "not_reviewed",
+      "native_project_editability": "not_checked_by_this_tool",
+      "stderr": ""
+    },
+    "static": {
+      "status": "failed",
+      "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\cache\\quality-selftest\\static.mp4",
+      "sha256": "81bea5e71dfcf70e72a8583efec28ca7ddb089e74f5171c293af5e121481f509",
+      "checks": {
+        "full_decode": true,
+        "frame_hash_decode": true,
+        "has_motion": false,
+        "width": true,
+        "height": true,
+        "fps": true,
+        "duration": true,
+        "frame_count": true
+      },
+      "observed": {
+        "width": 128,
+        "height": 128,
+        "fps": 12.0,
+        "duration": 1.0,
+        "decoded_frames": 12,
+        "unique_thumbnail_frames": 1
+      },
+      "audio_sync": "not_applicable",
+      "visual_review": "not_reviewed",
+      "native_project_editability": "not_checked_by_this_tool",
+      "stderr": ""
+    },
+    "missing": {
+      "status": "failed",
+      "error": "video missing",
+      "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\cache\\quality-selftest\\missing.mp4"
+    },
+    "wrong_dimensions": {
+      "status": "failed",
+      "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\cache\\quality-selftest\\moving.mp4",
+      "sha256": "9a36f29f771ab1d5c45c2abf610d1a8987c512d3c961ca885d5e0dfb59f0868f",
+      "checks": {
+        "full_decode": true,
+        "frame_hash_decode": true,
+        "has_motion": true,
+        "width": false,
+        "height": true,
+        "fps": true,
+        "duration": true,
+        "frame_count": true
+      },
+      "observed": {
+        "width": 128,
+        "height": 128,
+        "fps": 12.0,
+        "duration": 1.0,
+        "decoded_frames": 12,
+        "unique_thumbnail_frames": 12
+      },
+      "audio_sync": "not_applicable",
+      "visual_review": "not_reviewed",
+      "native_project_editability": "not_checked_by_this_tool",
+      "stderr": ""
+    }
+  }
+}

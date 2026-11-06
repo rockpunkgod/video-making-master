@@ -1,0 +1,14 @@
+{
+  "name": "COURSE_P07_DIGITAL_BLOCKS",
+  "width": 1080,
+  "height": 1080,
+  "fps": 30,
+  "duration": 7,
+  "count": 20,
+  "seed": 1,
+  "source": "BV1Yh4y1A7XT?p=7 00:39\u201305:09; before optional Tint experiments",
+  "base_project": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course-reproduction-002\\p06-final-003\\project.aep",
+  "base_sha256": "1096b70a15213deeb87f9b4e2bfda15b7afd1b8312e3c1582c0173910d4710ca",
+  "course_fidelity_status": "candidate_pending_render_and_visual_comparison",
+  "verified_scope": "none; p7 candidate extension, not covered by p6 verified status"
+}

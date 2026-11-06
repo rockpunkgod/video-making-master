@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\tracking-corridor-001\\solve-calibrated-001\\composite-pixel-sized\\final.mp4",
+  "sha256": "1fd83e5548d71598aa891d1d837242aa8958221588f52e85f8e7a79b74cedc6e",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "has_motion": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 960,
+    "height": 540,
+    "fps": 24.0,
+    "duration": 3.5,
+    "decoded_frames": 84,
+    "unique_thumbnail_frames": 84
+  },
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": ""
+}

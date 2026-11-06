@@ -1,0 +1,48 @@
+{
+  "status": "native_technical_pass_visual_pending",
+  "cases": [
+    {
+      "case": "p08-appear-001",
+      "status": "passed",
+      "native_seed_edit": {
+        "changed_cells": 12,
+        "restored_and_reopened": true
+      },
+      "maximum_conditional_error": 0,
+      "directory": "samples/course-reproduction-004/p08-appear-001"
+    },
+    {
+      "case": "p08-geometry-001",
+      "status": "passed",
+      "native_seed_edit": {
+        "changed_cells": 17,
+        "restored_and_reopened": true
+      },
+      "maximum_conditional_error": 0,
+      "directory": "samples/course-reproduction-004/p08-geometry-001"
+    },
+    {
+      "case": "p08-typography-001",
+      "status": "passed",
+      "native_seed_edit": {
+        "changed_cells": 13,
+        "restored_and_reopened": true
+      },
+      "maximum_conditional_error": 0,
+      "directory": "samples/course-reproduction-004/p08-typography-001"
+    },
+    {
+      "case": "p08-texture-001",
+      "status": "passed",
+      "native_seed_edit": {
+        "changed_cells": 11,
+        "restored_and_reopened": true
+      },
+      "maximum_conditional_error": 0,
+      "directory": "samples/course-reproduction-004/p08-texture-001"
+    }
+  ],
+  "isolated_copy": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\isolated-skill-004\\ae-advanced-expressions",
+  "execution_cwd": "E:\\\u81ea\u5a92\u4f53",
+  "emitter_equal": true
+}

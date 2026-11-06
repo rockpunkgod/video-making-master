@@ -1,0 +1,68 @@
+{
+  "system": "Windows-11-10.0.26300-SP0",
+  "paths": {
+    "afterfx": {
+      "path": "E:/自媒体/Adobe After Effects 2026/Support Files/AfterFX.exe",
+      "exists": true,
+      "execution": "native builds, edit/reopen, and renders passed for two scoped skills"
+    },
+    "aerender": {
+      "path": "E:/自媒体/Adobe After Effects 2026/Support Files/aerender.exe",
+      "exists": true,
+      "execution": "native H264 renders and full decode passed"
+    },
+    "premiere": {
+      "path": "E:/自媒体/Adobe Premiere Pro 2026/Adobe Premiere Pro.exe",
+      "exists": true,
+      "execution": "native empty project created; automation bridge and production render not verified",
+      "evidence": "reports/premiere-native-project-001.md"
+    },
+    "mocha_ae": {
+      "path": "E:/自媒体/Adobe After Effects 2026/Support Files/Plug-ins/Effects/mochaAE/Resources/mochaui/bin/mocha4ae_adobe.exe",
+      "exists": true,
+      "execution": "not_proven_by_inventory"
+    },
+    "watch": {
+      "path": "D:/Codex/skills/watch/scripts/watch.py",
+      "exists": true,
+      "execution": "not_proven_by_inventory"
+    }
+  },
+  "binaries": {
+    "ffmpeg": {
+      "path": "C:\\Users\\ASUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.2-full_build\\bin\\ffmpeg.EXE",
+      "available": true,
+      "exit_code": 0,
+      "version": [
+        "ffmpeg version 8.1.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+        "built with gcc 16.1.0 (Rev2, Built by MSYS2 project)"
+      ]
+    },
+    "ffprobe": {
+      "path": "C:\\Users\\ASUS\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.2-full_build\\bin\\ffprobe.EXE",
+      "available": true,
+      "exit_code": 0,
+      "version": [
+        "ffprobe version 8.1.2-full_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers",
+        "built with gcc 16.1.0 (Rev2, Built by MSYS2 project)"
+      ]
+    },
+    "yt-dlp": {
+      "path": "E:\\自媒体\\video-skills-lab\\.venv\\Scripts\\yt-dlp.exe",
+      "available": true,
+      "exit_code": 0,
+      "version": [
+        "2026.10.26"
+      ]
+    },
+    "ego-browser": {
+      "path": "C:\\Users\\ASUS\\.local\\share\\ego\\active_version_dir\\ego-browser.EXE",
+      "available": true,
+      "exit_code": 0,
+      "version": [
+        "ego-browser 0.6.2.7",
+        "  chromium 156.0.8078.74"
+      ]
+    }
+  }
+}

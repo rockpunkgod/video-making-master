@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\tracking-fixture-001\\solve-calibrated-001\\composite-001\\final.mp4",
+  "sha256": "1aa3e0e6312a7a35660587286340944fc2dd6a3a455ba1cb26fb24b59c35b9a9",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "has_motion": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 960,
+    "height": 540,
+    "fps": 24.0,
+    "duration": 4.0,
+    "decoded_frames": 96,
+    "unique_thumbnail_frames": 96
+  },
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": ""
+}

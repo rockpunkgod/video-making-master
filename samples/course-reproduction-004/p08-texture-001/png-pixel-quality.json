@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "compared_cells": 3750,
+  "decoded_frames": 150,
+  "input_mean_gray": 41.195,
+  "maximum_mean_absolute_error": 3.025,
+  "thresholds": {
+    "visible_mae": 10.29875,
+    "hidden_mae": 1
+  },
+  "blank_visible_cell_would_fail": true,
+  "failure_count": 0,
+  "failures": [],
+  "scope": "Original PNG alpha/shape/content and per-cell temporal visibility; not typography readability or aesthetics"
+}

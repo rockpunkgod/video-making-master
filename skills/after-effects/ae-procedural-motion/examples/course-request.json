@@ -1,0 +1,4 @@
+{
+  "brief": "按课程原法制作三维红色轮廓隧道，用主控逐层描边和淡入，摄影机沿Z方向推进，保留可编辑AE工程。",
+  "parameters": {"stage": "trim-final", "delay_frames": 2}
+}

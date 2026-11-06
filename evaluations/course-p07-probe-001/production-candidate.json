@@ -1,0 +1,87 @@
+{
+  "status": "candidate",
+  "course": "BV1Yh4y1A7XT p7 black-and-white stage before optional Tint",
+  "artifact": "samples/course-reproduction-003/p07-blocks-002",
+  "video_sha256": "246e4148bffb2b92333e82137522cb705d0aa997d04ea6cf80097254f7a0b2cd",
+  "native_status": "passed",
+  "native_receipt": {
+    "status": "built",
+    "project_reopened": true,
+    "expression_errors": [],
+    "selected_template": "H.264 - 匹配渲染设置 - 15 Mbps",
+    "output_format": "mp4",
+    "layers": 22,
+    "bits_per_channel": 16,
+    "distinct_layer_seeds": 20,
+    "layer_seeds": [
+      813,
+      609,
+      983,
+      561,
+      87,
+      449,
+      75,
+      877,
+      731,
+      695,
+      82,
+      679,
+      125,
+      942,
+      762,
+      91,
+      870,
+      795,
+      373,
+      192
+    ],
+    "max_seed_temporal_drift": 0,
+    "max_evolution_error": 0,
+    "max_z_error": 0,
+    "max_scale_error": 0,
+    "native_seed_edit": {
+      "before": 813,
+      "changed": 923,
+      "restored": 813,
+      "saved_reopened": true
+    },
+    "course_fidelity_status": "candidate_pending_visual_comparison",
+    "rendered": false
+  },
+  "video_quality": {
+    "status": "passed",
+    "path": "E:\\自媒体\\video-skills-lab\\samples\\course-reproduction-003\\p07-blocks-002\\final.mp4",
+    "sha256": "246e4148bffb2b92333e82137522cb705d0aa997d04ea6cf80097254f7a0b2cd",
+    "checks": {
+      "full_decode": true,
+      "frame_hash_decode": true,
+      "has_motion": true,
+      "width": true,
+      "height": true,
+      "fps": true,
+      "duration": true,
+      "frame_count": true
+    },
+    "observed": {
+      "width": 1080,
+      "height": 1080,
+      "fps": 30.0,
+      "duration": 7.0,
+      "decoded_frames": 210,
+      "unique_thumbnail_frames": 210
+    },
+    "audio_sync": "not_applicable",
+    "visual_review": "not_reviewed",
+    "native_project_editability": "not_checked_by_this_tool",
+    "stderr": ""
+  },
+  "base_project_sha256_unchanged": true,
+  "visual_review": "14 extracted frames actually inspected; white/black blocks form forward tunnel; not a user approval",
+  "missing": [
+    "three input generalization",
+    "isolated-directory execution",
+    "reference fidelity evaluation",
+    "optional final Tint stages"
+  ],
+  "failure_retained": "samples/course-reproduction-003/p07-blocks-001"
+}

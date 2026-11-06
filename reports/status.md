@@ -1,0 +1,77 @@
+# 当前执行状态 — 2026-11-06（续作）
+
+按用户追加要求，先严格复刻课程，再抽象泛化。当前1个verified、3个candidate：ae-procedural-motion 0.3.0已完成课程第5、6节原法基线、2→5帧变参、三组原创PNG、原生编辑恢复重开、独立目录执行和用户视觉验收。精确动态录屏帧同步未确认；只有记录的课程配置与PNG分支通过。ae-advanced-expressions新增第8节随机阈值显隐五组实测，待整体视觉验收；跟踪和PR声音仍需课程完整流程复刻。全部18条来源/166项章节的整体目标未完成。
+
+最新原法成片与工程：samples/course-reproduction-002/p06-final-003。FF0000、16位、单节点摄影机value+time*1000、原生Easy Ease In均有课程画面依据；Trimpath第3帧11.61915对应课程11.62。跨节暂停参考第62帧平均轮廓距离0.273、95%1.414像素通过，用户确认“整体符合课程效果”。动态录屏三帧失败保留，不以统一时间偏移掩盖。验收见evaluations/course-p06-final-001/summary.json。
+
+新的自然语言需求入口已实际在samples/runs/course-request-001自动选择0.3.0、制定plan、执行AE、输出AEP/视频并检查210帧。新成片仍单独标视觉待复核。入口不再把旧自制画幅/曲线当课程已验能力。
+
+第7节已继续按原法完成黑白数字块隧道原生制作：samples/course-reproduction-003/p07-blocks-002，22层，20个不同且恒定种子，空间与演化逐帧核验、种子编辑保存重开还原、210帧解码均通过，14张画面帧已审阅。对应扩展仍为candidate，缺三组泛化与完整参考验收；不加入已验能力，不覆盖上一节用户确认的成片。详见sources/learning-notes/BV1Yh4y1A7XT-p07.md。
+
+历史中间阶段samples/course-reproduction-001/p06-opacity-stage-002仍保留：不透明度延迟、关闭摄影机的状态在同一时刻平均轮廓距离0.415像素。此前未确认的精确颜色、Trim Paths和原生缓入现已补证并制作到最终基线；整段录屏精确时码仍未确认。
+
+第7节最终Tint颜色已通过05:43—05:46的颜色框补证为0057FF，FN15和FN18的原生Tint与保存重开检查通过，实际新视频在samples/course-reproduction-003/p07-tint-001，210帧全解码且14张画面帧已审阅。其三组泛化尚缺，保持candidate。
+
+第8节五组真实工程与视频在samples/course-reproduction-004：disappear/appear/geometry/typography/texture。每组150帧，原生条件逐帧误差0，实际种子修改保存重开和还原通过；三组原创素材不同SHA，独立原图像素对照每组3750格通过，圆形两组同样3750格全通过。静态课程圆网格轮廓平均误差0.033像素。后四组从技能副本、实验室外cwd执行成功；5组各10张接触帧已审阅，PNG文字缩小可读性不足明确保留。总体观感已请求用户反馈，当前candidate，见evaluations/course-p08-suite-001/summary.json。
+
+第7节Tint成片用户已确认“整体符合课程效果”；补seed7变参和复制目录实际渲染通过，当前只剩三组不同输入素材的泛化缺口，不将其他成片继承该反馈。第9节全片本地转录、11全局帧和6指定帧已审阅，确认三维随机位置、scalar漂移及+value微调，尚未实际制作，见sources/learning-notes/BV1Yh4y1A7XT-p09.md。
+
+历史原生输出：samples/runs/suite-20261106-091450/ 下的square-baseline、triangle-variation、hexagon-portrait和asset-geometry、asset-typography、asset-texture。每组均保留project.aep、final.mp4、request.json、receipt.json、quality.json和aerender.log。
+
+审查证据：[首个技能验收](../evaluations/first-skill.json)、[原生编辑测试](../evaluations/motion-suite-001/native-editability.json)、[视觉审查](../evaluations/motion-suite-001/visual-review.md)。6个工程已重开，实际修改并恢复Order验证了参数可编辑性；无缺失素材，全部成片完整解码，逐帧延迟旋转和Z深度对照通过。
+
+修复了两个宿主实测问题：摄像机目标点的matchName实际为ADBE Anchor Point；连写三元条件在ExtendScript中使矩形错误变为三角形，已改明确分支并加入实际顶点数核验。早期错误输出保留为失败历史，不参与verified证据。
+
+PR已通过AE BridgeTalk完成实际八轨制作、原生工程保存、H.264与WAV导出。suite002三组完成保存重开后渲染、音量修改重开导出及独立目录调用；音量变化核验均超过56dB，修复了suite001未达35dB门槛的问题。增加全300帧素材SSIM对照，发现并修复第二组Media pending占位图，旧失败保留。最终三组零采样偏移，平均画面SSIM均超过0.99。用户只认可suite001柔和基线听感，未将认可转移到新文件。以上属于泛化及底层可靠性证据；课程叙事与效果链的基础复刻仍缺，保持candidate。详见evaluations/pr-sound-suite-002/summary.json。
+
+本地字幕已复用现有gpt-sovits-env中的faster-whisper 1.2.1与GPT-SoVITS的完整small模型。没有重复安装或下载，模型强制离线加载，音频不上传。Mocha Pro课程BV1xP411C7u3的完整520.6秒已生成原始带时码字幕，属于未逐字校对的自动转录，不代表课程技术已验证。详见sources/learning-notes/local-transcription-reuse.md。
+
+ae-camera-tracking完成三点选面、原生摄影机、图像替换、像素尺寸适配、重开与渲染，三种输入为纹理房间、前景展板画廊和纵深走廊。走廊估计视角版本失败（四角最大2.82像素），以输入已知水平视角重新求解后，同样220像素贴图最大0.783像素通过。另两镜头四角最大0.162和0.256像素。4个最终工程实际改Scale、恢复另存并重开；全帧解码、最终接触表审查、独立目录调用均完成。验收见evaluations/tracking-verified.json，失败和检测器校准见evaluations/tracking-reference-calibration.md。
+
+另10条课程已取得并审阅全局/定位帧，共11条来源为部分分析，没有整套课程完成声明。新增两条声音课合并研究同一声音系统，调色课先记录曲线与参考色板，详见sources/learning-notes/pr-sound-color-first-pass.md。Projection3D试用下载仍遇浏览器验证，尚未取得安装包；Mocha Pro未在已检查安装中找到，不能用Mocha AE替代PowerMesh。
+
+## 历史：首次执行及当时的阻塞
+
+当前为未完成的首轮执行：独立项目已建立，首个技能保持 candidate；Adobe 原生执行被启动环境阻断，verified数量为0。没有生成可交付的AEP、PR工程或演示视频。
+
+## 已实际执行
+
+- Ego Lite CLI 0.6.2.7 工作，使用同一个浏览器空间14读取全部18条链接的标题、简介及B站分P目录。
+- B站分P共160项，加6条YouTube单视频共166个章节条目。未按视频标题中的“100集”等宣传数字计数。
+- Watch原生本地流程已下载第一套课程p1、p5、p6，检查字幕并抽帧；均无可用原生字幕。没有调用云端或另装ASR模型。Gemini配置选项存在但密钥缺失。
+- p1审阅24帧；p5先审阅11张场景帧，再补8个定位帧；p6审阅13张全局帧、8个定位帧及06:50—06:52的48张连续帧。只是局部画面取证，未宣称完整观看、听懂或学完所有课程。
+- 首个候选已封装SKILL.md、脚本、来源证据、参数说明、变参示例、测试协议与测试输入。选择依据：教程明确展示的主控层、三维重复图层和valueAtTime适合参数化，首个实现不需第三方效果插件。
+- Python请求检查3项测试通过（覆盖有效示例、多个无效输入和旧运行目录拒绝）；Skill Creator格式检查通过。第一次检查遇Windows默认GBK读取UTF-8失败，设置仅当前进程的PYTHONUTF8=1后通过。
+- 已准备3组原创测试图：透明几何图、文字版式、纹理图；未将其准备成功记为跨素材制作通过。
+
+## Adobe 启动取证
+
+已定位AE26.0、aerender26.0x67、PR26.0.0.72和Mocha AE。aerender的本机帮助命令确实返回可用参数，但它不证明渲染成功。
+
+1. 原安装路径启动AfterFX -r：在执行探针脚本前出现“After Effects无法继续：常见可扩展平台（CEP）套件无法被加载，您可能需要重新安装”。没有探针回执与工程。
+2. 尝试无界面启动未取得回执，没有改善可执行状态。
+3. 在系统临时目录建立ASCII路径的目录联接作为路径兼容性诊断，未复制或修改Adobe安装。经此路径启动时出现英文Licensing Error，提示订阅仅允许简体中文版，并要求核对系统、浏览器与下载语言。不能据此确定CEP问题已修复。
+4. 以zh_CN启动参数尝试仍出现同类语言授权错误。未修改许可证、系统语言、Adobe偏好或安装文件。
+5. 首次候选square-001调用由tools/run_ae.py等待45秒，启动器退出0但未产生receipt.json和project.aep，因此记录blocked。见samples/runs/square-001/execution.json。随后静态修正了脚本属性访问和序列化兼容性，最新square-002仅生成，宿主执行仍待验证。
+6. PR启动探测没有得到可操作工程和执行回执，CEP12-PPRO.log同样记录PlugPlugSetup错误；PR自动化和渲染保持未验证。Mocha Pro PowerMesh、Projection 3D是否安装与授权均未验证，不能将Mocha AE等同于Mocha Pro。
+
+错误画面已裁剪，仅保留任务相关对话框：[CEP错误](ae-cep-error.png)、[语言授权错误](ae-language-error.png)。原完整桌面截图已移除，避免带入无关窗口。
+
+## 首个技能验收
+
+|验收项|状态|证据或缺失条件|
+|---|---|---|
+|基础复刻|blocked|AE尚不能进入可执行脚本的状态，无真实工程和渲染|
+|参数变化|not_run|三种配置已准备，未在AE执行|
+|三组跨素材|not_run|原创输入和校验值已准备，未在AE执行|
+|视觉与技术验证|not_run|没有输出视频，无法做输出连续性、节奏和编辑性对照|
+
+技术门槛明确；审美评价尚未进行，未用自评替代实测。代码生成、格式检查和工具自测不会将技能自动升级为verified。
+
+## 下一步
+
+需要先让当前机器的AE通过用户平时可用的方式进入空白工程。若仍有启动错误，可参考[Adobe简体中文安装和启动说明](https://helpx.adobe.com/after-effects/desktop/get-started/language-support/install-launch-after-effects-simplified-chinese-japanese-languages.html)。官方说明涉及重装及系统设置，当前没有自动执行这些改动。
+
+AE恢复后，从最新模板生成新运行目录，执行构建、原生工程回读、aerender、视频质量检查，完成三组素材与变参的视觉审查。先修完首个闭环，再扩大学习规模。其余课程已列入来源队列，未进入批量蒸馏，以免把未验证实现扩散成技能库。
+
+脚本入口采用[Adobe官方说明的AfterFX -r调用](https://helpx.adobe.com/after-effects/desktop/automate-in-after-effects/automate-animation/scripts.html)，没有假定PR具有同样的脚本入口。新发布的AE UXP文档标注27.0，本机是26.0，因此未据此宣称本机支持UXP接口。

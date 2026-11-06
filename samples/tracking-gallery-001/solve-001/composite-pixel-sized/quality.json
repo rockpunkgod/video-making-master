@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\tracking-gallery-001\\solve-001\\composite-pixel-sized\\final.mp4",
+  "sha256": "2e04cb531af661f0842930f6b33096644db1dbeede06b14dbefba88a6ada9462",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "has_motion": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 960,
+    "height": 540,
+    "fps": 24.0,
+    "duration": 5.0,
+    "decoded_frames": 120,
+    "unique_thumbnail_frames": 120
+  },
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": ""
+}

@@ -1,0 +1,3 @@
+BridgeTalk_type=function
+targets=premierepro-26.0
+premiere_running=false

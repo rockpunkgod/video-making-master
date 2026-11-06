@@ -1,0 +1,322 @@
+[
+  {
+    "cid": 1268440773,
+    "page": 1,
+    "from": "vupload",
+    "part": "01 About Me",
+    "duration": 559,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i1.hdslb.com/bfs/storyff/n230915062dxg18supz5ai23bdzndcq0_firsti.jpg",
+    "ctime": 1694784327
+  },
+  {
+    "cid": 1268443542,
+    "page": 2,
+    "from": "vupload",
+    "part": "02 Influences",
+    "duration": 720,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i0.hdslb.com/bfs/storyff/n230915011dcjkzzq7e8mn3t3phyer47_firsti.jpg",
+    "ctime": 1694784327
+  },
+  {
+    "cid": 1268441792,
+    "page": 3,
+    "from": "vupload",
+    "part": "03 Understanding the Assignment",
+    "duration": 385,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i0.hdslb.com/bfs/storyff/n230915033ofehlwpivbzs1rx5wweouc_firsti.jpg",
+    "ctime": 1694784327
+  },
+  {
+    "cid": 1268441537,
+    "page": 4,
+    "from": "vupload",
+    "part": "04 The Basics of Coding",
+    "duration": 1200,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i1.hdslb.com/bfs/storyff/n2309150336n69rq9e94d332ddqwa19m_firsti.jpg",
+    "ctime": 1694784327
+  },
+  {
+    "cid": 1268441424,
+    "page": 5,
+    "from": "vupload",
+    "part": "05 Step Repetition Transforming Properties",
+    "duration": 1009,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i2.hdslb.com/bfs/storyff/n2309150435byt7wevjhq8xkn4mynxj3_firsti.jpg",
+    "ctime": 1694784327
+  },
+  {
+    "cid": 1268441160,
+    "page": 6,
+    "from": "vupload",
+    "part": "06 Step Repetition Animating with “valueAtTime”",
+    "duration": 463,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i1.hdslb.com/bfs/storyff/n2309150115d907qq6pxz43lm9intfof_firsti.jpg",
+    "ctime": 1694784327
+  },
+  {
+    "cid": 1268441818,
+    "page": 7,
+    "from": "vupload",
+    "part": "07 Step Repetition Working with Effects and Layers",
+    "duration": 395,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i0.hdslb.com/bfs/storyff/n23091501pxw58765fcr11dxbmqvgx9m_firsti.jpg",
+    "ctime": 1694784327
+  },
+  {
+    "cid": 1268442243,
+    "page": 8,
+    "from": "vupload",
+    "part": "08 Randomization Animating Multiple Layers",
+    "duration": 671,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i2.hdslb.com/bfs/storyff/n2309150378ys7kre5ui31on7dpwisnv_firsti.jpg",
+    "ctime": 1694784327
+  },
+  {
+    "cid": 1268442327,
+    "page": 9,
+    "from": "vupload",
+    "part": "09 Randomization Displacement",
+    "duration": 587,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i0.hdslb.com/bfs/storyff/n230915061sd3zee1qhc6ben61a1myez_firsti.jpg",
+    "ctime": 1694784327
+  },
+  {
+    "cid": 1268442432,
+    "page": 10,
+    "from": "vupload",
+    "part": "10 Generating Number Sequences with For-Loop",
+    "duration": 694,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i1.hdslb.com/bfs/storyff/n2309150532nxagkvkoe8iegxnstqki6_firsti.jpg",
+    "ctime": 1694784327
+  },
+  {
+    "cid": 1268442518,
+    "page": 11,
+    "from": "vupload",
+    "part": "11 Generative Design Algorithms",
+    "duration": 709,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i1.hdslb.com/bfs/storyff/n2309150138rd6uggjfl451b4a4v7dcw_firsti.jpg",
+    "ctime": 1694784327
+  },
+  {
+    "cid": 1268442599,
+    "page": 12,
+    "from": "vupload",
+    "part": "12 Generative Design Procedural Cyber Lines",
+    "duration": 732,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i1.hdslb.com/bfs/storyff/n230915013iypxitnqnkc02fyi9jq4ks_firsti.jpg",
+    "ctime": 1694784327
+  },
+  {
+    "cid": 1268443216,
+    "page": 13,
+    "from": "vupload",
+    "part": "13 Compositing",
+    "duration": 1086,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i0.hdslb.com/bfs/storyff/n230915041o4ztjcbuglxh1emcn9z8c7_firsti.jpg",
+    "ctime": 1694784327
+  },
+  {
+    "cid": 1268442570,
+    "page": 14,
+    "from": "vupload",
+    "part": "14 Adding Type",
+    "duration": 389,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i2.hdslb.com/bfs/storyff/n230915062pu98pazpauzs10bj248w8f_firsti.jpg",
+    "ctime": 1694784327
+  },
+  {
+    "cid": 1268443764,
+    "page": 15,
+    "from": "vupload",
+    "part": "15 Additional Design Assets",
+    "duration": 1219,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i0.hdslb.com/bfs/storyff/n2309150320uheuqhu17sec6z6y70vkc_firsti.jpg",
+    "ctime": 1694784327
+  },
+  {
+    "cid": 1268443904,
+    "page": 16,
+    "from": "vupload",
+    "part": "16 Stylization and Art Direction 1",
+    "duration": 1189,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i2.hdslb.com/bfs/storyff/n230915063ivub4ltbiwxk3dvrsn2et4_firsti.jpg",
+    "ctime": 1694784327
+  },
+  {
+    "cid": 1268443843,
+    "page": 17,
+    "from": "vupload",
+    "part": "17 Stylization and Art Direction 2",
+    "duration": 1255,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i1.hdslb.com/bfs/storyff/n230915031k5vtialy1so22qlg0t8oi0_firsti.jpg",
+    "ctime": 1694784327
+  },
+  {
+    "cid": 1268443591,
+    "page": 18,
+    "from": "vupload",
+    "part": "18 Faster Workflow with Animation Proxies",
+    "duration": 554,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i2.hdslb.com/bfs/storyff/n230915062f5fjge80fxgq4f6mesxqjy_firsti.jpg",
+    "ctime": 1694784327
+  },
+  {
+    "cid": 1268443972,
+    "page": 19,
+    "from": "vupload",
+    "part": "19 Learning to Learn",
+    "duration": 532,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i1.hdslb.com/bfs/storyff/n230915031fexmhas4ouans1fn1287gj_firsti.jpg",
+    "ctime": 1694784327
+  },
+  {
+    "cid": 1268444247,
+    "page": 20,
+    "from": "vupload",
+    "part": "20 Improvement and Collaborations",
+    "duration": 539,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i2.hdslb.com/bfs/storyff/n230915063i760m5wd14sp2iv7myhhfp_firsti.jpg",
+    "ctime": 1694784327
+  }
+]

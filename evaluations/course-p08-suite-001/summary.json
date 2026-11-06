@@ -1,0 +1,215 @@
+{
+  "skill": "ae-advanced-expressions",
+  "version": "0.1.0",
+  "status": "candidate",
+  "native_execution": "passed_five_actual_projects_and_videos",
+  "cases": [
+    {
+      "name": "disappear",
+      "directory": "samples/course-reproduction-004/p08-disappear-001",
+      "video_sha256": "b68ed1aa493ba8d68b36333bc4eb515e86218785643e44b4c2669cd531f29f54",
+      "asset_sha256": null,
+      "native_seed_edit": {
+        "changed_cells": 12,
+        "restored_and_reopened": true
+      },
+      "native_conditional_error": 0,
+      "decoded_frames": 150,
+      "pixel_validation": {
+        "status": "passed",
+        "compared_cells": 3750,
+        "decoded_frames": 150,
+        "minimum_visible_center": 255.0,
+        "maximum_hidden_center": 0.0,
+        "failures": [],
+        "scope": "Decoded video centers match same-identity native opacity results; not aesthetics or exact tutorial random layout"
+      },
+      "visual_review": "10 contact frames actually inspected; human course-fidelity feedback pending"
+    },
+    {
+      "name": "appear",
+      "directory": "samples/course-reproduction-004/p08-appear-001",
+      "video_sha256": "91f2efead02df297761441924a814be0695a92d355faac3591a7ad3cd8018771",
+      "asset_sha256": null,
+      "native_seed_edit": {
+        "changed_cells": 12,
+        "restored_and_reopened": true
+      },
+      "native_conditional_error": 0,
+      "decoded_frames": 150,
+      "pixel_validation": {
+        "status": "passed",
+        "compared_cells": 3750,
+        "decoded_frames": 150,
+        "minimum_visible_center": 255.0,
+        "maximum_hidden_center": 0.0,
+        "failures": [],
+        "scope": "Decoded video centers match same-identity native opacity results; not aesthetics or exact tutorial random layout"
+      },
+      "visual_review": "10 contact frames actually inspected; human course-fidelity feedback pending"
+    },
+    {
+      "name": "geometry",
+      "directory": "samples/course-reproduction-004/p08-geometry-001",
+      "video_sha256": "a0375156474279a2b35afa312e9e655a3e246b2088dafe7ca20e069030cf8a12",
+      "asset_sha256": "f4e0b0064871dc9f639959b72cecbcfb2e3414f940166c5f21f40d1552dc5009",
+      "native_seed_edit": {
+        "changed_cells": 17,
+        "restored_and_reopened": true
+      },
+      "native_conditional_error": 0,
+      "decoded_frames": 150,
+      "pixel_validation": {
+        "status": "passed",
+        "compared_cells": 3750,
+        "decoded_frames": 150,
+        "input_mean_gray": 18.185,
+        "maximum_mean_absolute_error": 0.955,
+        "thresholds": {
+          "visible_mae": 4.54625,
+          "hidden_mae": 1
+        },
+        "blank_visible_cell_would_fail": true,
+        "failure_count": 0,
+        "failures": [],
+        "scope": "Original PNG alpha/shape/content and per-cell temporal visibility; not typography readability or aesthetics"
+      },
+      "visual_review": "10 contact frames actually inspected; human course-fidelity feedback pending"
+    },
+    {
+      "name": "typography",
+      "directory": "samples/course-reproduction-004/p08-typography-001",
+      "video_sha256": "54b88ad8090eff2dfb8dafd41bc46ccc4477edab7754820e226d31d0e1de349a",
+      "asset_sha256": "3130efd93a8d60694178091ed3dc6cd54c043917c6e2668a25a51effe8198600",
+      "native_seed_edit": {
+        "changed_cells": 13,
+        "restored_and_reopened": true
+      },
+      "native_conditional_error": 0,
+      "decoded_frames": 150,
+      "pixel_validation": {
+        "status": "passed",
+        "compared_cells": 3750,
+        "decoded_frames": 150,
+        "input_mean_gray": 7.6025,
+        "maximum_mean_absolute_error": 0.4925,
+        "thresholds": {
+          "visible_mae": 1.900625,
+          "hidden_mae": 1
+        },
+        "blank_visible_cell_would_fail": true,
+        "failure_count": 0,
+        "failures": [],
+        "scope": "Original PNG alpha/shape/content and per-cell temporal visibility; not typography readability or aesthetics"
+      },
+      "visual_review": "10 contact frames actually inspected; human course-fidelity feedback pending"
+    },
+    {
+      "name": "texture",
+      "directory": "samples/course-reproduction-004/p08-texture-001",
+      "video_sha256": "4d6e7626306a665a9bf64c036d5750e8ef1ece90b356803850a598873a22b6cf",
+      "asset_sha256": "700ce5d87d80c90d2e23409bbac14ba38da5a31397abc60f194cbe62326cbae9",
+      "native_seed_edit": {
+        "changed_cells": 11,
+        "restored_and_reopened": true
+      },
+      "native_conditional_error": 0,
+      "decoded_frames": 150,
+      "pixel_validation": {
+        "status": "passed",
+        "compared_cells": 3750,
+        "decoded_frames": 150,
+        "input_mean_gray": 41.195,
+        "maximum_mean_absolute_error": 3.025,
+        "thresholds": {
+          "visible_mae": 10.29875,
+          "hidden_mae": 1
+        },
+        "blank_visible_cell_would_fail": true,
+        "failure_count": 0,
+        "failures": [],
+        "scope": "Original PNG alpha/shape/content and per-cell temporal visibility; not typography readability or aesthetics"
+      },
+      "visual_review": "10 contact frames actually inspected; human course-fidelity feedback pending"
+    }
+  ],
+  "geometry_reference": {
+    "status": "passed_geometry_only",
+    "reference": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-kdgu22y8\\frames\\cue_0001.jpg",
+    "viewport_crop": [
+      511,
+      100,
+      360,
+      360
+    ],
+    "mean_distance_px": 0.03312176465988159,
+    "p95_distance_px": 0.0,
+    "thresholds": {
+      "mean": 2,
+      "p95": 4
+    },
+    "not_validated": [
+      "random sequence",
+      "full animation timing",
+      "typography",
+      "generalization"
+    ]
+  },
+  "isolated_execution": {
+    "status": "native_technical_pass_visual_pending",
+    "cases": [
+      {
+        "case": "p08-appear-001",
+        "status": "passed",
+        "native_seed_edit": {
+          "changed_cells": 12,
+          "restored_and_reopened": true
+        },
+        "maximum_conditional_error": 0,
+        "directory": "samples/course-reproduction-004/p08-appear-001"
+      },
+      {
+        "case": "p08-geometry-001",
+        "status": "passed",
+        "native_seed_edit": {
+          "changed_cells": 17,
+          "restored_and_reopened": true
+        },
+        "maximum_conditional_error": 0,
+        "directory": "samples/course-reproduction-004/p08-geometry-001"
+      },
+      {
+        "case": "p08-typography-001",
+        "status": "passed",
+        "native_seed_edit": {
+          "changed_cells": 13,
+          "restored_and_reopened": true
+        },
+        "maximum_conditional_error": 0,
+        "directory": "samples/course-reproduction-004/p08-typography-001"
+      },
+      {
+        "case": "p08-texture-001",
+        "status": "passed",
+        "native_seed_edit": {
+          "changed_cells": 11,
+          "restored_and_reopened": true
+        },
+        "maximum_conditional_error": 0,
+        "directory": "samples/course-reproduction-004/p08-texture-001"
+      }
+    ],
+    "isolated_copy": "E:\\自媒体\\video-skills-lab\\samples\\isolated-skill-004\\ae-advanced-expressions",
+    "execution_cwd": "E:\\自媒体",
+    "emitter_equal": true
+  },
+  "missing": [
+    "human overall course visual/rhythm review"
+  ],
+  "limits": [
+    "fixed 1080square 30fps5seconds",
+    "seed values depend on native layer/property identity",
+    "38frame endpoint and circle dimensions inferred with numeric/geometry support",
+    "PNG typography readability not established"
+  ]
+}

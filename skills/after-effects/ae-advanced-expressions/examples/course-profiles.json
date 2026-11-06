@@ -1,0 +1,7 @@
+{
+  "baseline": {"direction": "disappear", "seed": 0, "end_frame": 38},
+  "course_reversed_slow": {"direction": "appear", "seed": 0, "end_frame": 113},
+  "fixed_profile": {"width": 1080, "height": 1080, "fps": 30, "duration": 5},
+  "expected": "25 independently seeded cells switch once according to the common animated threshold; no continuous fade",
+  "status": "candidate"
+}

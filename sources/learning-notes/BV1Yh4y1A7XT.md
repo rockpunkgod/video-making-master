@@ -1,0 +1,11 @@
+# 学习覆盖记录
+
+来源为20节合集，完整分P目录见 ../BV1Yh4y1A7XT-parts.json。
+
+已取证：p1全局画面；p5/p6全局帧、指定界面帧及p6局部48帧。复用本机已有small模型完成p5全片分段、p6/p7/p8全片转录（原始未逐字校对）；p7的18张全局帧和22张指定帧、p8的11张全局帧和13张指定帧已审阅。详见BV1Yh4y1A7XT-p07.md、BV1Yh4y1A7XT-p08.md。未覆盖p2—4及p9—20，不记为整套课程完成。
+
+续作：p9全片586.5秒已有本机small转录，11张全局帧和6张指定帧已审阅，详见BV1Yh4y1A7XT-p09.md；已确认原始位置/漂移/+value代码和最终控制值，但尚未原生制作。当前未覆盖p2—4及p10—20。
+
+当前选择的复用单元是“主控驱动的三维延迟阵列”，而非按每节课建立独立Skill。p5的空间分布和p6的时间取样合并到同一候选；p5中的摄像机位移保留为已观察的变体，尚未成为独立camera技能。
+
+详细参数、时间戳和确定性等级维护在 ../../skills/after-effects/ae-procedural-motion/references/sources.md。之前六组技术测试见 ../../evaluations/first-skill.json。追加要求后的原法制作见 ../../skills/after-effects/ae-procedural-motion/references/course-stage.md；第6节最终Trim Paths、摄影机和原生缓入已完成，p06-final-003获用户“整体符合课程效果”认可；当前0.3.0验证见 ../../evaluations/course-p06-final-001/summary.json。录屏播放精确逐帧对齐仍未确认。旧Order改写和自主曲线只作为变体。

@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\final.mp4",
+  "sha256": "207ebbb0e9fc6c7364fe5c045dc8e478e7d311461397d92b6786999552337fdf",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "has_motion": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 960,
+    "height": 540,
+    "fps": 24.0,
+    "duration": 12.5,
+    "decoded_frames": 300,
+    "unique_thumbnail_frames": 300
+  },
+  "audio_sync": "not_reviewed",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": ""
+}
