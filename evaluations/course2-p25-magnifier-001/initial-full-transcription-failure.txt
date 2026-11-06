@@ -1,0 +1,15 @@
+Loading existing local model; network access disabled for model loading.
+Traceback (most recent call last):
+  File "E:\��ý��\video-skills-lab\tools\transcribe_existing_local.py", line 20, in <module>
+    segments,info=model.transcribe(str(wav),language=a.language,beam_size=5,vad_filter=False,condition_on_previous_text=False)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\��ý��\gpt-sovits-env\Lib\site-packages\faster_whisper\transcribe.py", line 916, in transcribe
+    features = self.feature_extractor(audio, chunk_length=chunk_length)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\��ý��\gpt-sovits-env\Lib\site-packages\faster_whisper\feature_extractor.py", line 215, in __call__
+    stft = self.stft(
+           ^^^^^^^^^^
+  File "E:\��ý��\gpt-sovits-env\Lib\site-packages\faster_whisper\feature_extractor.py", line 171, in stft
+    input_array = input_array * window_
+                  ~~~~~~~~~~~~^~~~~~~~~
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 129. MiB for an array with shape (1, 84684, 400) and data type float32

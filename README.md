@@ -1,5 +1,7 @@
 # video-skills-lab
 
+第25节新增随动放大镜候选：5份真实AEP/视频、750帧检查、65张原生时点/效果开关PNG，含独立Skill副本调用、变参及三个新图片输入。原法光学机制通过技术检查；源课是手动拖动，示例位置关键帧为采样重放适配，人工光学反馈待答。ae-advanced-expressions当前0.7.0 candidate。[报告](evaluations/course2-p25-magnifier-001/summary.json)。
+
 第24节新增双翅铰链/平面飞行部分候选：6个真实AEP/视频、1200帧检查、60张原生检查PNG，含变速及三个新原创图形；蒙版/父对象/路径朝向已原生审计。Particular缺失，整节粒子拖尾未制作；运动反馈待答、摄像机与关键帧仍推定。ae-advanced-expressions当前0.6.0 candidate。见[报告](evaluations/course2-p24-butterfly-001/summary.json)。
 
 来源2第23节新增水平弹簧连接候选：保持课程宽度归一化与线性减幅原法，7份真实AE工程/视频、1320帧独立轨迹检查和70张原生检查PNG；含参数变化、三组新图形和外部透明PNG。技术检查通过，整体课程效果待人工反馈，ae-advanced-expressions为0.5.0 candidate。详见[evidence](evaluations/course2-p23-spring-001/summary.json)及[执行说明](skills/after-effects/ae-advanced-expressions/references/spring-connector.md)。课程视频2803.2秒但音轨仅1401.7065秒，无声尾段未声称完整学习。

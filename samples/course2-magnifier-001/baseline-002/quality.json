@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course2-magnifier-001\\baseline-002\\final.mp4",
+  "sha256": "f0cabbb665c954fa67c7925745d87717bba397808506ae380a10e9fe1d47db74",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 1024,
+    "height": 846,
+    "fps": 25.0,
+    "duration": 6.0,
+    "decoded_frames": 150,
+    "unique_thumbnail_frames": 117
+  },
+  "motion_expectation": "required",
+  "static_pixel_check": null,
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": "",
+  "magnifier_quality": "magnifier-quality.json",
+  "course_fidelity": "optical_method_pending_review_manual_replay_adaptation",
+  "delivery_status": "candidate_unaccepted"
+}

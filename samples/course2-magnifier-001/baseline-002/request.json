@@ -1,0 +1,61 @@
+{
+  "name": "COURSE_MAGNIFIER",
+  "animation": "magnifier",
+  "motion_expectation": "required",
+  "width": 1024,
+  "height": 846,
+  "fps": 25,
+  "duration": 6,
+  "blur": 8,
+  "adjustment_size": 2000,
+  "mask_radius": 180,
+  "mask_feather": 101,
+  "mask_expansion": -29,
+  "bulge_radii": [
+    191,
+    139
+  ],
+  "bulge_height": 1,
+  "font": "KaiTi",
+  "font_size": 34,
+  "leading": 46,
+  "text": "清晨的光穿过窗边的树叶，落在翻开的书页上。远处山色渐明，河水在石桥下缓缓流过。沿着小路走向湖边，可以听见风吹芦苇的声音。春日的新芽映着天空，细小的露珠停在草尖。午后的云影越过田野，旧木门前依然留着温暖的阳光。傍晚归来的鸟掠过屋檐，人们把一天的故事轻声讲完。夜色慢慢降临，灯火照亮庭院，明天又会有新的风景。",
+  "positions": [
+    [
+      0,
+      474,
+      310
+    ],
+    [
+      1,
+      419,
+      233
+    ],
+    [
+      2,
+      301,
+      329
+    ],
+    [
+      3,
+      258,
+      437
+    ],
+    [
+      4,
+      323,
+      526
+    ],
+    [
+      6,
+      323,
+      526
+    ]
+  ],
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=25",
+  "observed": "Adjustment-layer Fast Blur8 with Repeat Edge Pixels,2000 solid; centered circular Subtract mask,feather101,expansion-29; adjustment Position and text Bulge Center linked directly to magnifier Position; Bulge191/139,height1,taper0.",
+  "inferred": "1024x846 canvas inferred from reset center512/423, not an explicit size readout. Own editable lens/text replace unavailable original materials. Four-second manual-drag samples near13:34–13:38 converted into6-second native keyframes for replay; source itself shows manual movement at composition frame0, not authored animation. Coordinates/calibration and interpolation are inferred, not source keyframe values.",
+  "status": "candidate",
+  "variant": false,
+  "overrides": {}
+}

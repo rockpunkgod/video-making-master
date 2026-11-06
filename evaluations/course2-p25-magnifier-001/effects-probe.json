@@ -1,0 +1,132 @@
+{
+  "status": "completed",
+  "host": "26.0x67",
+  "effects": [
+    {
+      "effect": {
+        "name": "CC Radial Fast Blur",
+        "matchName": "CC Radial Fast Blur"
+      },
+      "properties": [
+        {
+          "index": 1,
+          "name": "Center",
+          "matchName": "CC Radial Fast Blur-0001",
+          "value": [
+            500,
+            400
+          ]
+        },
+        {
+          "index": 2,
+          "name": "Amount",
+          "matchName": "CC Radial Fast Blur-0002",
+          "value": 50
+        },
+        {
+          "index": 3,
+          "name": "Zoom",
+          "matchName": "CC Radial Fast Blur-0003",
+          "value": 1
+        },
+        {
+          "index": 4,
+          "name": "合成选项",
+          "matchName": "ADBE Effect Built In Params",
+          "value": null
+        }
+      ]
+    },
+    {
+      "effect": {
+        "name": "凸出",
+        "matchName": "ADBE Bulge"
+      },
+      "properties": [
+        {
+          "index": 1,
+          "name": "水平半径",
+          "matchName": "ADBE Bulge-0001",
+          "value": 50
+        },
+        {
+          "index": 2,
+          "name": "垂直半径",
+          "matchName": "ADBE Bulge-0002",
+          "value": 50
+        },
+        {
+          "index": 3,
+          "name": "凸出中心",
+          "matchName": "ADBE Bulge-0003",
+          "value": [
+            500,
+            400
+          ]
+        },
+        {
+          "index": 4,
+          "name": "凸出高度",
+          "matchName": "ADBE Bulge-0004",
+          "value": 1
+        },
+        {
+          "index": 5,
+          "name": "锥形半径",
+          "matchName": "ADBE Bulge-0005",
+          "value": 0
+        },
+        {
+          "index": 6,
+          "name": "为最佳品质消除锯齿",
+          "matchName": "ADBE Bulge-0006",
+          "value": 1
+        },
+        {
+          "index": 7,
+          "name": "固定",
+          "matchName": "ADBE Bulge-0007",
+          "value": 0
+        },
+        {
+          "index": 8,
+          "name": "合成选项",
+          "matchName": "ADBE Effect Built In Params",
+          "value": null
+        }
+      ]
+    },
+    {
+      "effect": {
+        "name": "快速模糊（旧版）",
+        "matchName": "ADBE Fast Blur"
+      },
+      "properties": [
+        {
+          "index": 1,
+          "name": "模糊度",
+          "matchName": "ADBE Fast Blur-0001",
+          "value": 0
+        },
+        {
+          "index": 2,
+          "name": "模糊方向",
+          "matchName": "ADBE Fast Blur-0002",
+          "value": 1
+        },
+        {
+          "index": 3,
+          "name": "重复边缘像素",
+          "matchName": "ADBE Fast Blur-0003",
+          "value": 1
+        },
+        {
+          "index": 4,
+          "name": "合成选项",
+          "matchName": "ADBE Effect Built In Params",
+          "value": null
+        }
+      ]
+    }
+  ]
+}

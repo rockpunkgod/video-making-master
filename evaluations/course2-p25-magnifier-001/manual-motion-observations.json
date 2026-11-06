@@ -1,0 +1,227 @@
+{
+  "method": "Hough circle proposals on pinned Watch frames; each source frame visually inspected",
+  "frames": [
+    {
+      "file": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-522ovgq0\\frames\\cue_0000.jpg",
+      "source_seconds": 810,
+      "detected_screen_circles": [
+        [
+          637.0000152587891,
+          282.8000030517578,
+          88.68000030517578
+        ]
+      ]
+    },
+    {
+      "file": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-522ovgq0\\frames\\cue_0001.jpg",
+      "source_seconds": 811,
+      "detected_screen_circles": [
+        [
+          637.0000152587891,
+          282.8000030517578,
+          88.68000030517578
+        ]
+      ]
+    },
+    {
+      "file": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-522ovgq0\\frames\\cue_0002.jpg",
+      "source_seconds": 812,
+      "detected_screen_circles": [
+        [
+          639.4000244140625,
+          282.8000030517578,
+          90.0
+        ]
+      ]
+    },
+    {
+      "file": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-522ovgq0\\frames\\cue_0003.jpg",
+      "source_seconds": 813,
+      "detected_screen_circles": [
+        [
+          639.4000244140625,
+          282.8000030517578,
+          90.0
+        ]
+      ]
+    },
+    {
+      "file": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-522ovgq0\\frames\\cue_0004.jpg",
+      "source_seconds": 814,
+      "detected_screen_circles": [
+        [
+          619.0000152587891,
+          226.4000015258789,
+          91.31999969482422
+        ]
+      ]
+    },
+    {
+      "file": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-522ovgq0\\frames\\cue_0005.jpg",
+      "source_seconds": 815,
+      "detected_screen_circles": [
+        [
+          591.4000091552734,
+          188.0,
+          91.31999969482422
+        ]
+      ]
+    },
+    {
+      "file": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-522ovgq0\\frames\\cue_0006.jpg",
+      "source_seconds": 816,
+      "detected_screen_circles": [
+        [
+          532.6000061035156,
+          236.0,
+          90.0
+        ]
+      ]
+    },
+    {
+      "file": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-522ovgq0\\frames\\cue_0007.jpg",
+      "source_seconds": 817,
+      "detected_screen_circles": [
+        [
+          511.0,
+          290.0,
+          90.0
+        ]
+      ]
+    },
+    {
+      "file": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-522ovgq0\\frames\\cue_0008.jpg",
+      "source_seconds": 818,
+      "detected_screen_circles": [
+        [
+          543.4000091552734,
+          334.40000915527344,
+          88.68000030517578
+        ]
+      ]
+    },
+    {
+      "file": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-522ovgq0\\frames\\cue_0009.jpg",
+      "source_seconds": 819,
+      "detected_screen_circles": [
+        [
+          543.4000091552734,
+          334.40000915527344,
+          88.68000030517578
+        ]
+      ]
+    },
+    {
+      "file": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-522ovgq0\\frames\\cue_0010.jpg",
+      "source_seconds": 820,
+      "detected_screen_circles": [
+        [
+          543.4000091552734,
+          334.40000915527344,
+          88.68000030517578
+        ]
+      ]
+    },
+    {
+      "file": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-522ovgq0\\frames\\cue_0011.jpg",
+      "source_seconds": 821,
+      "detected_screen_circles": [
+        [
+          543.4000091552734,
+          334.40000915527344,
+          88.68000030517578
+        ]
+      ]
+    },
+    {
+      "file": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-522ovgq0\\frames\\cue_0012.jpg",
+      "source_seconds": 822,
+      "detected_screen_circles": [
+        [
+          545.8000030517578,
+          335.6000061035156,
+          90.0
+        ]
+      ]
+    },
+    {
+      "file": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-522ovgq0\\frames\\cue_0013.jpg",
+      "source_seconds": 823,
+      "detected_screen_circles": [
+        [
+          545.8000030517578,
+          335.6000061035156,
+          90.0
+        ]
+      ]
+    },
+    {
+      "file": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-522ovgq0\\frames\\cue_0014.jpg",
+      "source_seconds": 824,
+      "detected_screen_circles": [
+        [
+          545.8000030517578,
+          335.6000061035156,
+          90.0
+        ]
+      ]
+    },
+    {
+      "file": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-522ovgq0\\frames\\cue_0015.jpg",
+      "source_seconds": 825,
+      "detected_screen_circles": [
+        [
+          545.8000030517578,
+          335.6000061035156,
+          90.0
+        ]
+      ]
+    },
+    {
+      "file": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-522ovgq0\\frames\\cue_0016.jpg",
+      "source_seconds": 826,
+      "detected_screen_circles": [
+        [
+          542.2000122070312,
+          333.20001220703125,
+          90.0
+        ]
+      ]
+    },
+    {
+      "file": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-522ovgq0\\frames\\cue_0017.jpg",
+      "source_seconds": 827,
+      "detected_screen_circles": [
+        [
+          544.6000061035156,
+          334.40000915527344,
+          88.68000030517578
+        ]
+      ]
+    },
+    {
+      "file": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-522ovgq0\\frames\\cue_0018.jpg",
+      "source_seconds": 828,
+      "detected_screen_circles": [
+        [
+          543.4000091552734,
+          334.40000915527344,
+          88.68000030517578
+        ]
+      ]
+    },
+    {
+      "file": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-522ovgq0\\frames\\cue_0019.jpg",
+      "source_seconds": 829,
+      "detected_screen_circles": [
+        [
+          544.6000061035156,
+          335.6000061035156,
+          91.31999969482422
+        ]
+      ]
+    }
+  ],
+  "calibration": "Inferred screen origin382/71.5 and50percent zoom; not exact source project coordinates",
+  "replay": "Profile positions approximate13:34–13:38, interpolated native keys; original tutorial had manual dragging at composition frame0"
+}

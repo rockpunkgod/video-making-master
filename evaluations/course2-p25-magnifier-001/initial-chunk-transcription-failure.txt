@@ -1,0 +1,11 @@
+Loading existing local model; network access disabled for model loading.
+Traceback (most recent call last):
+  File "E:\��ý��\video-skills-lab\tools\transcribe_existing_local.py", line 22, in <module>
+    for s in segments:
+  File "E:\��ý��\gpt-sovits-env\Lib\site-packages\faster_whisper\transcribe.py", line 1190, in generate_segments
+    encoder_output = self.encode(segment)
+                     ^^^^^^^^^^^^^^^^^^^^
+  File "E:\��ý��\gpt-sovits-env\Lib\site-packages\faster_whisper\transcribe.py", line 1400, in encode
+    return self.model.encode(features, to_cpu=to_cpu)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: mkl_malloc: failed to allocate memory

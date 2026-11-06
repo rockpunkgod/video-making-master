@@ -9,6 +9,13 @@ from validate_video import validate
 
 def check_output(root,cfg):
     report=validate(root/'final.mp4',cfg)
+    if cfg.get('animation')=='magnifier':
+        from validate_magnifier import validate as magnifier_validate
+        audit=magnifier_validate(root)
+        report['magnifier_quality']='magnifier-quality.json'
+        report['course_fidelity']='optical_method_pending_review_manual_replay_adaptation'
+        report['delivery_status']='candidate_unaccepted'
+        if audit['status']!='passed':report['status']='failed'
     if cfg.get('animation')=='butterfly-rig':
         from validate_butterfly_rig import validate as butterfly_validate
         audit=butterfly_validate(root)

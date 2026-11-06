@@ -1,0 +1,14 @@
+{
+  "status": "completed_after_memory_recovery",
+  "engine": "Existing faster-whisper-small,90second serial chunks",
+  "new_installs": false,
+  "audio_uploaded": false,
+  "audio_duration": 846.8265,
+  "segments": 231,
+  "last_segment_end": 846.2,
+  "initial_failures": [
+    "NumPy full-audio feature allocation failed",
+    "First90second attempt failed mkl_malloc"
+  ],
+  "recovery": "Actual guarded Adobe cache purge followed by fresh serial chunks; no other project modified"
+}

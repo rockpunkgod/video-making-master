@@ -1,0 +1,14 @@
+{
+  "skill": "ae-advanced-expressions",
+  "branch": "course25-adjustment-magnifier",
+  "status": "candidate",
+  "steps": [
+    "Create original lens artwork and mask its center opening",
+    "Create editable text or normalize caller image in full-frame precomp",
+    "Apply Bulge to content and Fast Blur to oversized adjustment solid",
+    "Subtract centered feathered mask; bind both centers to lens Position",
+    "Replay observed manual positions with explicitly inferred keyframes",
+    "Edit/save/reopen/restore; native full trace, controls and real render"
+  ],
+  "fidelity": "Optical mechanism follows course; movement is manual-replay adaptation, no claim of source animation keys"
+}

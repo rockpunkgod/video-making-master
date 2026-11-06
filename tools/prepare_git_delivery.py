@@ -7,6 +7,11 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 CASES=[
+ 'samples/course2-magnifier-001/baseline-002',
+ 'samples/course2-magnifier-001/variation-001',
+ 'samples/course2-magnifier-001/grid-001',
+ 'samples/course2-magnifier-001/type-001',
+ 'samples/course2-magnifier-001/map-001',
  'samples/course2-butterfly-001/flap-baseline-003',
  'samples/course2-butterfly-001/flap-fast-002',
  'samples/course2-butterfly-001/moth-002',
@@ -101,7 +106,7 @@ for name in CASES:
    if path.suffix.lower() in {'.aep','.png','.jpg','.jpeg','.wav','.mp3','.mp4','.mov','.json','.md'}:chosen.append(path)
   elif len(rel.parts)==1 and (path.name in {'project.aep','project.prproj','final.mp4','native-mix.wav','credits.md'} or path.suffix.lower()=='.json'):
    chosen.append(path)
-  elif len(rel.parts)==1 and path.name.startswith('native-still-') and path.suffix.lower()=='.png':
+  elif len(rel.parts)==1 and path.name.startswith(('native-still-','native-control-')) and path.suffix.lower()=='.png':
    if folder.name=='p15-radial-002' and path.name not in {'native-still-0.png','native-still-24.png','native-still-120.png','native-still-239.png','native-still-gui-red.png','native-still-gui-green.png','native-still-gui-blue.png'}:continue
    chosen.append(path)
  # Every published demonstration must include both its actual native project and video.
@@ -112,7 +117,7 @@ for path in (ROOT/'evaluations').rglob('*'):
 # These are necessary inputs, not disposable renders. Read the actual saved
 # Adobe dependencies before cleanup instead of guessing from folder names.
 supplemental=[]
-for name in ['native-media-dependencies.json','pr-media-dependencies.json','native-media-dependencies-p15.json','native-media-dependencies-p15-polar.json','native-media-dependencies-p15-streaks.json','native-media-dependencies-p15-assembly.json','native-media-dependencies-p16-core.json','native-media-dependencies-p16-noise.json','native-media-dependencies-p16-style.json','native-media-dependencies-p17-tunnel.json','native-media-dependencies-p17-streak.json','native-media-dependencies-p17-lines.json','native-media-dependencies-p18-proxies.json','native-media-dependencies-final-reconstruction.json','native-media-dependencies-final-reconstruction-005.json','native-media-dependencies-course2-spring.json','native-media-dependencies-course2-butterfly.json']:
+for name in ['native-media-dependencies.json','pr-media-dependencies.json','native-media-dependencies-p15.json','native-media-dependencies-p15-polar.json','native-media-dependencies-p15-streaks.json','native-media-dependencies-p15-assembly.json','native-media-dependencies-p16-core.json','native-media-dependencies-p16-noise.json','native-media-dependencies-p16-style.json','native-media-dependencies-p17-tunnel.json','native-media-dependencies-p17-streak.json','native-media-dependencies-p17-lines.json','native-media-dependencies-p18-proxies.json','native-media-dependencies-final-reconstruction.json','native-media-dependencies-final-reconstruction-005.json','native-media-dependencies-course2-spring.json','native-media-dependencies-course2-butterfly.json','native-media-dependencies-course2-magnifier.json']:
  audit=ROOT/'reports'/name
  if not audit.is_file():continue
  data=json.loads(audit.read_text(encoding='utf-8-sig'))

@@ -1,0 +1,253 @@
+{
+  "skill": "ae-advanced-expressions",
+  "version": "0.7.0",
+  "status": "candidate",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=25",
+  "cases": [
+    {
+      "case": "samples/course2-magnifier-001/baseline-002",
+      "video_sha256": "f0cabbb665c954fa67c7925745d87717bba397808506ae380a10e9fe1d47db74",
+      "project_sha256": "dfb0f4691f15013c07cf084f0eaa7f30f09da05249d0fa1c4d49dcc7e22a1051",
+      "frames": 150,
+      "technical": "passed",
+      "native_pngs_reviewed": 13,
+      "blur": 8,
+      "bulge_height": 1,
+      "font_size": 34,
+      "leading": 46,
+      "input_kind": "editable_text",
+      "max_center_error": 5.6843418860808e-14,
+      "optical_control_metrics": {
+        "inside_blur_mae": 0.1291248206599713,
+        "outside_blur_mae": 29.058807647939524,
+        "inside_bulge_mae": 44.56671449067432,
+        "far_bulge_mae": 0.0020617038509682644
+      },
+      "native_edit": {
+        "original": [
+          474,
+          310,
+          0
+        ],
+        "edited_adjustment": [
+          479,
+          307,
+          0
+        ],
+        "edited_bulge": [
+          479,
+          307
+        ],
+        "restored": [
+          474,
+          310,
+          0
+        ]
+      }
+    },
+    {
+      "case": "samples/course2-magnifier-001/variation-001",
+      "video_sha256": "c5540c422108c313cc2fe42b0e72c7974e6929a8c5ac707b85e0ff6500ea22d1",
+      "project_sha256": "d7dd537323ee21cb04420b850c330088450a98c5e4a6e4d6b7b20a1b8d124943",
+      "frames": 150,
+      "technical": "passed",
+      "native_pngs_reviewed": 13,
+      "blur": 12.0,
+      "bulge_height": 0.7,
+      "font_size": 28,
+      "leading": 38,
+      "input_kind": "editable_text",
+      "max_center_error": 5.6843418860808e-14,
+      "optical_control_metrics": {
+        "inside_blur_mae": 0.21233859397417504,
+        "outside_blur_mae": 28.118228898215644,
+        "inside_bulge_mae": 47.92969870875179,
+        "far_bulge_mae": 0.0
+      },
+      "native_edit": {
+        "original": [
+          474,
+          310,
+          0
+        ],
+        "edited_adjustment": [
+          479,
+          307,
+          0
+        ],
+        "edited_bulge": [
+          479,
+          307
+        ],
+        "restored": [
+          474,
+          310,
+          0
+        ]
+      }
+    },
+    {
+      "case": "samples/course2-magnifier-001/grid-001",
+      "video_sha256": "ce75ad7b44f75d68709670d2f7c7256fb148016ff37c240da07378bc6ab422aa",
+      "project_sha256": "3785f40690b26b55688775aa8d8d78be3d75eaecbc249fac9d01aebbaf017fcc",
+      "frames": 150,
+      "technical": "passed",
+      "native_pngs_reviewed": 13,
+      "blur": 8,
+      "bulge_height": 1,
+      "font_size": 28,
+      "leading": 38,
+      "input_kind": "caller_image",
+      "max_center_error": 5.6843418860808e-14,
+      "optical_control_metrics": {
+        "inside_blur_mae": 0.1793400286944046,
+        "outside_blur_mae": 34.16734981060141,
+        "inside_bulge_mae": 42.57006217120995,
+        "far_bulge_mae": 0.0
+      },
+      "native_edit": {
+        "original": [
+          474,
+          310,
+          0
+        ],
+        "edited_adjustment": [
+          479,
+          307,
+          0
+        ],
+        "edited_bulge": [
+          479,
+          307
+        ],
+        "restored": [
+          474,
+          310,
+          0
+        ]
+      }
+    },
+    {
+      "case": "samples/course2-magnifier-001/type-001",
+      "video_sha256": "a4c0bd1f8cb0904d344e357b8b063d212266218a338391acd9416dcf0999934d",
+      "project_sha256": "4167e196d5cc83c0dc750fa3ac7942a31e72ae625ff2988fb0d51b9507fd2068",
+      "frames": 150,
+      "technical": "passed",
+      "native_pngs_reviewed": 13,
+      "blur": 8,
+      "bulge_height": 1,
+      "font_size": 28,
+      "leading": 38,
+      "input_kind": "caller_image",
+      "max_center_error": 5.6843418860808e-14,
+      "optical_control_metrics": {
+        "inside_blur_mae": 0.23529411764705882,
+        "outside_blur_mae": 39.87529146110988,
+        "inside_bulge_mae": 65.4261119081779,
+        "far_bulge_mae": 0.0
+      },
+      "native_edit": {
+        "original": [
+          474,
+          310,
+          0
+        ],
+        "edited_adjustment": [
+          479,
+          307,
+          0
+        ],
+        "edited_bulge": [
+          479,
+          307
+        ],
+        "restored": [
+          474,
+          310,
+          0
+        ]
+      }
+    },
+    {
+      "case": "samples/course2-magnifier-001/map-001",
+      "video_sha256": "3a8dee9cfe0f243455c915bc399f3c2fbecf5332f8e69084bba843d926addea9",
+      "project_sha256": "4e104842e6ddd19d69d41be07ed840299fdd301c522e4f3b884ef6b5052df497",
+      "frames": 150,
+      "technical": "passed",
+      "native_pngs_reviewed": 13,
+      "blur": 8,
+      "bulge_height": 1,
+      "font_size": 28,
+      "leading": 38,
+      "input_kind": "caller_image",
+      "max_center_error": 5.6843418860808e-14,
+      "optical_control_metrics": {
+        "inside_blur_mae": 0.024868483978957436,
+        "outside_blur_mae": 13.098503628435152,
+        "inside_bulge_mae": 20.53562888570062,
+        "far_bulge_mae": 0.0
+      },
+      "native_edit": {
+        "original": [
+          474,
+          310,
+          0
+        ],
+        "edited_adjustment": [
+          479,
+          307,
+          0
+        ],
+        "edited_bulge": [
+          479,
+          307
+        ],
+        "restored": [
+          474,
+          310,
+          0
+        ]
+      }
+    }
+  ],
+  "total_rendered_frames": 750,
+  "native_pngs_reviewed": 65,
+  "technical_status": "passed",
+  "optical_method": "Oversized adjustment/Fast Blur/Subtract mask plus content Bulge and two direct Position expressions",
+  "course_fidelity": {
+    "human_review": "pending",
+    "scope": "Clear/bulged center and blurred exterior only",
+    "baseline": "samples/course2-magnifier-001/baseline-002",
+    "video_sha256": "f0cabbb665c954fa67c7925745d87717bba397808506ae380a10e9fe1d47db74",
+    "source_interval": "13:34–13:39",
+    "candidate_interval": "0–5seconds",
+    "source_movement": "Manual dragging at composition frame0, not authored animation",
+    "delivery_movement": "Inferred position samples converted to native keys; not exact source timeline",
+    "comparison_local_only": "cache/reviews/course2-p25-magnifier-002/comparison.mp4",
+    "crop": "Source viewport382/107/512/374; candidate corresponding0/71/1024/748, inferred registration",
+    "frame_sync": "not established"
+  },
+  "independent_call": {
+    "case": "samples/course2-magnifier-001/variation-001",
+    "skill_copy": "Local-only independent Skill copy",
+    "working_directory": "Different cwd; no Video Making imports"
+  },
+  "negative_test": "Frozen native first-frame video rejected by motion check, while optical control PNGs remained valid",
+  "media_audit": "reports/native-media-dependencies-course2-magnifier.json",
+  "learning_coverage": {
+    "video_seconds": 1693.44,
+    "audio_seconds": 846.8265,
+    "source_frame_views": 82,
+    "includes_repeats": true,
+    "tail": "Repeated opening observed; video-only latter half sparse checks, not complete or proven identical"
+  },
+  "limitations": [
+    "Course canvas inferred from reset center512/423, not explicit size readout",
+    "Own lens/text and KaiTi34/46 are visual adaptations; variation uses28/38",
+    "Manual replay calibration and temporal interpolation not source authored keys",
+    "Video inputs and arbitrary replacement lens/scale/rotation not validated",
+    "Only recorded parameter combinations empirically tested",
+    "Overall optical human review pending; whole18source/166chapter goal incomplete"
+  ],
+  "whole_goal_complete": false
+}

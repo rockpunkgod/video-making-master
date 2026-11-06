@@ -1,0 +1,28 @@
+{
+  "status": "failed",
+  "checks": {
+    "native_reopened": true,
+    "native_frames": true,
+    "native_center_link": true,
+    "adjustment_coverage": true,
+    "no_expression_errors": true,
+    "controls_rendered": true,
+    "inside_clear": true,
+    "outside_blurred": true,
+    "inside_bulged": true,
+    "bulge_localized": true,
+    "full_video_decode": true,
+    "rendered_motion": false
+  },
+  "optical_control_metrics": {
+    "inside_blur_mae": 0.1291248206599713,
+    "outside_blur_mae": 29.058807647939524,
+    "inside_bulge_mae": 44.56671449067432,
+    "far_bulge_mae": 0.0020617038509682644
+  },
+  "decoded_frames": 150,
+  "max_thumbnail_mae_from_first": 0.0034148977987421385,
+  "video_sha256": "66194632765af10c49b7afb8ca4f0e6f206ced86af1219c208a121ea45f25c4f",
+  "course_fidelity": "not_evaluated",
+  "scope": "Independent native effect-on/off pixel controls and actual video motion; does not accept source artwork, manual replay timing or inferred dimensions"
+}
