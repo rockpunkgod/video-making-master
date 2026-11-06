@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "retained_files_checked": 1337,
+  "hash_changes": [],
+  "deleted_files": 748,
+  "deleted_bytes": 5330900137,
+  "still_active_learning_inputs": [
+    "cache/watch/watch-i_livvjo/download/run-x1xxg8fy/video.mp4",
+    "cache/watch/watch-d0m4qt4h/frames/cue_0000.jpg",
+    "cache/watch/watch-d0m4qt4h/frames/cue_0001.jpg",
+    "cache/watch/watch-d0m4qt4h/frames/cue_0002.jpg",
+    "cache/watch/watch-d0m4qt4h/frames/cue_0003.jpg",
+    "cache/local-transcripts/BV1Yh4y1A7XT-p03-full-001/transcript.json",
+    "cache/local-transcripts/BV1Yh4y1A7XT-p04-full-002/transcript.json"
+  ],
+  "active_reason": "P18 final-camera source and cues still needed for reconstruction; P3 brief and P4 exact-code transcript retained for this active fit. No tutorial media distributed."
+}

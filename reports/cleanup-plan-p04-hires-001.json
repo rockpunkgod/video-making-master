@@ -1,0 +1,20 @@
+{
+  "status": "planned",
+  "scopes": [
+    "cache/completed-p04-hires-001"
+  ],
+  "published_commit": "bbe24706f46e7d3665c888453219e3cf45c04a1e",
+  "manifest_sha256": "3f9561393de78f3143aad17a21bf1d3b0b7c7063a8df2a2941af2bcff85ad79f",
+  "files": 1,
+  "bytes": 24452755,
+  "keep_active": [],
+  "protected_delivery_files": 1058,
+  "skipped_links": [],
+  "targets": [
+    {
+      "path": "cache/completed-p04-hires-001/video.mp4",
+      "bytes": 24452755
+    }
+  ],
+  "authorization": "User requested keeping only deliverables after library publication; scope restricted to this independent lab"
+}
