@@ -1,0 +1,267 @@
+{
+  "name": "COURSE_FINAL_RECONSTRUCTION",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "duration": 25,
+  "motion_expectation": "required",
+  "input": {
+    "project": "final-inputs/main.aep",
+    "composition": "COURSE_P17_LINE_STYLE",
+    "sha256": "0a18219dc63916fb4b3d6a562757d3d8d6a6a0941a4e840d77bcba23c0f88de1"
+  },
+  "provenance": {
+    "observed": [
+      "P3 00:32-00:40: 25s SUBPRIME brief",
+      "P18 06:50 /07:25: six labels, drift camera parent, T1_ctrl parent of first three labels",
+      "P18 08:00: initial camera local position 0,0,-2500 and multiple position keys",
+      "P18 06:50: line scale 170,201,170"
+    ],
+    "inferred": [
+      "All camera Z values except initial; ease; key times estimated from ruler",
+      "Label font size, positions, reveal reuse and exact timing",
+      "Drift rates and application of P4 formula to camera null",
+      "Core/noise/contour fades and line source extension",
+      "Inherited background retained below layers; vig recipe not shown"
+    ]
+  },
+  "camera": [
+    [
+      0,
+      -2500
+    ],
+    [
+      2.1666666666666665,
+      -2500
+    ],
+    [
+      2.5,
+      -7500
+    ],
+    [
+      4.875,
+      -8500
+    ],
+    [
+      5.291666666666667,
+      -12500
+    ],
+    [
+      8.083333333333334,
+      -12500
+    ],
+    [
+      11.458333333333334,
+      -21000
+    ],
+    [
+      11.833333333333334,
+      -21000
+    ],
+    [
+      16.875,
+      -25000
+    ]
+  ],
+  "drift": [
+    2,
+    1
+  ],
+  "core_scale": [
+    100,
+    100,
+    100
+  ],
+  "line_scale": [
+    170,
+    201,
+    170
+  ],
+  "core_fade": [
+    [
+      3.15,
+      100
+    ],
+    [
+      4.1,
+      0
+    ]
+  ],
+  "noise_fade": [
+    [
+      6,
+      100
+    ],
+    [
+      8.5,
+      0
+    ]
+  ],
+  "contour_fade": [
+    [
+      13.4,
+      100
+    ],
+    [
+      14.4,
+      0
+    ]
+  ],
+  "contour_rotation": [
+    [
+      13.4,
+      0
+    ],
+    [
+      14.4,
+      80
+    ]
+  ],
+  "streak_scale": [
+    [
+      16,
+      [
+        100,
+        100,
+        100
+      ]
+    ],
+    [
+      17,
+      [
+        0,
+        100,
+        100
+      ]
+    ]
+  ],
+  "label_size": 80,
+  "timings": {
+    "ROLE_CORE": [
+      0,
+      5
+    ],
+    "ROLE_DOTS": [
+      0,
+      5.0333333333
+    ],
+    "ROLE_RADIAL": [
+      0,
+      10
+    ],
+    "ROLE_NOISE": [
+      2.8,
+      9.8
+    ],
+    "ROLE_POLAR": [
+      3.7,
+      10.7
+    ],
+    "ROLE_CONTOURS": [
+      8.7,
+      15.7
+    ],
+    "ROLE_STREAKS": [
+      11.3,
+      18.3
+    ],
+    "ROLE_TITLE": [
+      20,
+      25
+    ],
+    "ROLE_LINES": [
+      16.3,
+      25
+    ],
+    "ROLE_BACKGROUND": [
+      0,
+      25
+    ]
+  },
+  "labels": [
+    {
+      "text": "TECHNOLOGY",
+      "position": [
+        -600,
+        450,
+        0
+      ],
+      "start": 0.5,
+      "end": 3.9,
+      "parent": true
+    },
+    {
+      "text": "INTERNET",
+      "position": [
+        850,
+        100,
+        0
+      ],
+      "start": 0.5,
+      "end": 3.9,
+      "parent": true
+    },
+    {
+      "text": "BIG DATA",
+      "position": [
+        -600,
+        -300,
+        0
+      ],
+      "start": 0.5,
+      "end": 3.9,
+      "parent": true
+    },
+    {
+      "text": "ATTENTION",
+      "position": [
+        -550,
+        -300,
+        -5000
+      ],
+      "start": 3.5,
+      "end": 6.8,
+      "parent": false
+    },
+    {
+      "text": "FINANCIALIZED",
+      "position": [
+        500,
+        350,
+        -5000
+      ],
+      "start": 3.5,
+      "end": 6.8,
+      "parent": false
+    },
+    {
+      "text": "ADVERTISING",
+      "position": [
+        600,
+        -300,
+        -5000
+      ],
+      "start": 3.5,
+      "end": 6.8,
+      "parent": false
+    }
+  ],
+  "checkpoints": [
+    0,
+    12,
+    45,
+    53,
+    72,
+    110,
+    145,
+    202,
+    252,
+    288,
+    338,
+    390,
+    450,
+    498,
+    540,
+    599
+  ]
+}

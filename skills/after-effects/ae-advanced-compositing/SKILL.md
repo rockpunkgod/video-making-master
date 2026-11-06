@@ -3,7 +3,7 @@ name: ae-advanced-compositing
 description: 按课程制作程序化三维合成、空间条带、动态球形核心与分层线条动画候选，输出可编辑AE工程和真实渲染。部分参数仍为推定，非完整风格化片头。
 ---
 
-0.1.11候选。第13节组合五个可编辑组件，第15节提供径向轮廓背景、极坐标圆环与空间条带候选；均不代表完成整套片头。按需求选择references/course-composite.md、references/course-radial.md、references/course-polar.md或references/course-streaks.md，只加载相关分支。第13节20秒例子后段尚空，不能用于要求完整成片的交付或自动降级替代其他高级效果。
+0.1.12候选。第13节组合五个可编辑组件，第15节提供径向轮廓背景、极坐标圆环与空间条带候选；均不代表完成整套片头。按需求选择references/course-composite.md、references/course-radial.md、references/course-polar.md或references/course-streaks.md，只加载相关分支。第13节20秒例子后段尚空，不能用于要求完整成片的交付或自动降级替代其他高级效果。
 
 径向背景：scripts/build_radial.py --out全新目录；随后run_ae.py与render_ae.py。默认examples/course-radial.json引用本Skill自制可编辑AEP模板，保留课程Fractal Noise/CC Radial Fast Blur/Unsharp Mask/Find Edges/Curves链。--speed、--seed、--duration为显式变体；基线002整体已获用户认可，精确曲线及跨三种素材仍未验证，详见tests/radial-results.json。不要把此分支当任意素材处理或完整第15节总装。
 
@@ -36,3 +36,5 @@ scripts/build_composite.py --profile examples/course-composite.json --out全新�
 
 
 第18节代理工作流：先读references/course-proxies.md，按examples/course-proxy-lines/core/type.json运行scripts/build_proxy.py、run_ae.py，再render_proxy.py。复用自制原生ProRes4444/Alpha输出模板；在reduceProject前拒绝折叠3D引用，保留原图层并重开验证开关/编辑。--final-policy originals明确最终不使用代理。必要MOV为交付媒体，Git LFS保存；这项技术通过不代表结尾相机/文字或整个Skill通过。
+
+25秒结尾重建：先读references/course-final-reconstruction.md；scripts/build_final_assembly.py --profile examples/course-final-reconstruction.json --out新目录，再执行通用原生制作与渲染。六个标签、drift父级和25秒时长已制作，原生文本编辑重开与600帧视频通过；相机/标签等课外改动为推定，中段构图仍明显不符，不能作为完整课程成片或verified能力。见tests/final-reconstruction-results.json。

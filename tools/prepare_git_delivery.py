@@ -7,6 +7,7 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 CASES=[
+ 'samples/course-reproduction-022/final-reconstruction-002',
  'samples/course-reproduction-021/p18-proxy-lines-003',
  'samples/course-reproduction-021/p18-proxy-core-001',
  'samples/course-reproduction-021/p18-proxy-type-001',
@@ -98,7 +99,7 @@ for path in (ROOT/'evaluations').rglob('*'):
 # These are necessary inputs, not disposable renders. Read the actual saved
 # Adobe dependencies before cleanup instead of guessing from folder names.
 supplemental=[]
-for name in ['native-media-dependencies.json','pr-media-dependencies.json','native-media-dependencies-p15.json','native-media-dependencies-p15-polar.json','native-media-dependencies-p15-streaks.json','native-media-dependencies-p15-assembly.json','native-media-dependencies-p16-core.json','native-media-dependencies-p16-noise.json','native-media-dependencies-p16-style.json','native-media-dependencies-p17-tunnel.json','native-media-dependencies-p17-streak.json','native-media-dependencies-p17-lines.json','native-media-dependencies-p18-proxies.json']:
+for name in ['native-media-dependencies.json','pr-media-dependencies.json','native-media-dependencies-p15.json','native-media-dependencies-p15-polar.json','native-media-dependencies-p15-streaks.json','native-media-dependencies-p15-assembly.json','native-media-dependencies-p16-core.json','native-media-dependencies-p16-noise.json','native-media-dependencies-p16-style.json','native-media-dependencies-p17-tunnel.json','native-media-dependencies-p17-streak.json','native-media-dependencies-p17-lines.json','native-media-dependencies-p18-proxies.json','native-media-dependencies-final-reconstruction.json']:
  audit=ROOT/'reports'/name
  if not audit.is_file():continue
  data=json.loads(audit.read_text(encoding='utf-8-sig'))

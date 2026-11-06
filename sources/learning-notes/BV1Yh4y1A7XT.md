@@ -11,3 +11,5 @@
 当前选择的复用单元是“主控驱动的三维延迟阵列”，而非按每节课建立独立Skill。p5的空间分布和p6的时间取样合并到同一候选；p5中的摄像机位移保留为已观察的变体，尚未成为独立camera技能。
 
 详细参数、时间戳和确定性等级维护在 ../../skills/after-effects/ae-procedural-motion/references/sources.md。之前六组技术测试见 ../../evaluations/first-skill.json。追加要求后的原法制作见 ../../skills/after-effects/ae-procedural-motion/references/course-stage.md；第6节最终Trim Paths、摄影机和原生缓入已完成，p06-final-003获用户“整体符合课程效果”认可；当前0.3.0验证见 ../../evaluations/course-p06-final-001/summary.json。录屏播放精确逐帧对齐仍未确认。旧Order改写和自主曲线只作为变体。
+
+2026-11-07覆盖更新：第1–4节完整本机转录通读及全局帧查看已补齐；第4节另核9个1080p技术帧，区分错误代码与修正版。至此第一来源20节均完成全局画面与完整语音学习，技术细节和实际制作仍按各节证据分别记载，绝不等同整套课程技能verified。第3节直接确认25秒《SUBPRIME》任务；旧20秒总装不能替代最终片头，正在重建结尾缺失时序。详见p01–p04和p18笔记。

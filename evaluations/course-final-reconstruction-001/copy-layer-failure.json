@@ -1,0 +1,105 @@
+{
+  "status": "failed",
+  "stage": "drift and grouped labels",
+  "error": "TypeError: null 不是对象",
+  "line": 51,
+  "native_diagnostic": [
+    {
+      "index": 1,
+      "name": "ADVERTISING",
+      "type": "ADBE Text Layer"
+    },
+    {
+      "index": 2,
+      "name": "ROLE_NOISE",
+      "type": "ADBE AV Layer"
+    },
+    {
+      "index": 3,
+      "name": "ROLE_POLAR",
+      "type": "ADBE AV Layer"
+    },
+    {
+      "index": 4,
+      "name": "ROLE_CONTOURS",
+      "type": "ADBE AV Layer"
+    },
+    {
+      "index": 5,
+      "name": "ROLE_STREAKS",
+      "type": "ADBE AV Layer"
+    },
+    {
+      "index": 6,
+      "name": "ROLE_TITLE",
+      "type": "ADBE AV Layer"
+    },
+    {
+      "index": 7,
+      "name": "ROLE_LINES",
+      "type": "ADBE AV Layer"
+    },
+    {
+      "index": 8,
+      "name": "ROLE_BACKGROUND",
+      "type": "ADBE AV Layer"
+    },
+    {
+      "index": 9,
+      "name": "TITLE",
+      "type": "ADBE Text Layer"
+    },
+    {
+      "index": 10,
+      "name": "TITLE 2",
+      "type": "ADBE Text Layer"
+    },
+    {
+      "index": 11,
+      "name": "TITLE 3",
+      "type": "ADBE Text Layer"
+    },
+    {
+      "index": 12,
+      "name": "TITLE 4",
+      "type": "ADBE Text Layer"
+    },
+    {
+      "index": 13,
+      "name": "TITLE 5",
+      "type": "ADBE Text Layer"
+    },
+    {
+      "index": 14,
+      "name": "T1_ctrl",
+      "type": "ADBE AV Layer"
+    },
+    {
+      "index": 15,
+      "name": "drift",
+      "type": "ADBE AV Layer"
+    },
+    {
+      "index": 16,
+      "name": "Camera 1",
+      "type": "ADBE Camera Layer"
+    },
+    {
+      "index": 17,
+      "name": "ROLE_CORE",
+      "type": "ADBE AV Layer"
+    },
+    {
+      "index": 18,
+      "name": "ROLE_DOTS",
+      "type": "ADBE AV Layer"
+    },
+    {
+      "index": 19,
+      "name": "ROLE_RADIAL",
+      "type": "ADBE AV Layer"
+    }
+  ],
+  "cause": "copyToComp insert position is not guaranteed to be1; repeated renaming of the wrong layer",
+  "repair": "actual native Layer.id difference identifies the new copied layer"
+}

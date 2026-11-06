@@ -8,7 +8,9 @@ from validate_video import validate
 
 def check_output(root,cfg):
     report=validate(root/'final.mp4',cfg)
-    if cfg.get('name') == 'COURSE_P18_PROXY_DEMO':
+    if cfg.get('name') == 'COURSE_FINAL_RECONSTRUCTION':
+        from validate_final_assembly import validate as validate_branch
+    elif cfg.get('name') == 'COURSE_P18_PROXY_DEMO':
         from validate_proxy import validate as validate_branch
     elif cfg.get('name') == 'COURSE_P17_LINE_STYLE':
         from validate_line_style import validate as validate_branch
@@ -25,6 +27,9 @@ def check_output(root,cfg):
     else:
         from validate_scene import validate as validate_branch
     scene=validate_branch(root);report['scene_quality']='scene-quality.json'
+    if 'course_fidelity' in scene:
+        report['course_fidelity']=scene['course_fidelity']
+        if scene['course_fidelity']=='not_passed':report['delivery_status']='candidate_unaccepted'
     if scene['status']!='passed':report['status']='failed'
     (root/'quality.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
     return report

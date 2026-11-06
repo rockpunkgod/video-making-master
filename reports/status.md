@@ -113,3 +113,5 @@ AE恢复后，从最新模板生成新运行目录，执行构建、原生工程
 
 
 2026-11-07：第18节代理闭环完成三组件及最终原始合成策略变体，真实ProRes4444/Alpha、原图层编辑/开关重开、深浅底像素对照及全帧检查通过，折叠噪波负例实际拒绝。MOV为必需媒体，Git LFS保留。第19/20节方法课全局帧及完整本机转录已读。当前ae-advanced-compositing0.1.11仍candidate；第2–4未学、课程结尾约25秒相机/漂移/分组文字与现有20秒粗排存在明确缺口，其余来源未完成。见evaluations/course-p18-proxy-suite-001/summary.json。
+
+2026-11-07补齐第一来源P1–P4全局选帧与完整本机语音学习，第4节9个1080p技术帧核对了drift_x/drift_y原表达式；第3节明确25秒SUBPRIME要求。第18节25秒结尾重建002真实完成19层、六标签、相机drift父级和600帧视频，文本修改保存重开恢复通过；中段隧道太小、条带偏满、结尾图案尺寸仍不符，课程一致性未通过，不请求用户代替修复。第16节已认可的孤立核心继续保留，不将其认可扩展到总装。ae-advanced-compositing0.1.12保持candidate，见evaluations/course-final-reconstruction-001/summary.json。
