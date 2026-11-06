@@ -3,8 +3,19 @@ import argparse
 import json
 import re
 import subprocess
+import sys
 from pathlib import Path
 from validate_video import validate
+
+def check_output(root,cfg):
+    report=validate(root/'final.mp4',cfg)
+    if cfg.get('animation')=='controls-demo':
+        audit=subprocess.run([sys.executable,str(Path(__file__).parent/'validate_controller_animation.py'),str(root)],capture_output=True)
+        (root/'controller-validation.log').write_bytes(audit.stdout+b'\n'+audit.stderr)
+        report['controller_animation_quality']='controller-animation-quality.json'
+        if audit.returncode:report['status']='failed'
+    (root/'quality.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+    return report
 
 def render(directory,executable,timeout,reuse=False):
     root=Path(directory).resolve();project=root/'project.aep';receipt=root/'receipt.json'
@@ -25,8 +36,7 @@ def render(directory,executable,timeout,reuse=False):
         native=root/'native.mp4'
         if not native.is_file():raise RuntimeError('Native render output missing')
         native.replace(root/'final.mp4')
-        report=validate(root/'final.mp4',cfg);(root/'quality.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
-        return report
+        return check_output(root,cfg)
     frames=sorted((root/'render').glob('frame_*.png'))
     numbers=[int(re.fullmatch(r'frame_(\d+)\.png',p.name).group(1)) for p in frames]
     cfg=json.loads((root/'request.json').read_text(encoding='utf-8'))
@@ -35,8 +45,7 @@ def render(directory,executable,timeout,reuse=False):
     digits=len(frames[0].stem.split('_')[-1])
     subprocess.run(['ffmpeg','-v','error','-n','-framerate',str(cfg['fps']),'-start_number',str(numbers[0]),'-i',str(root/'render'/f'frame_%0{digits}d.png'),
                     '-c:v','libx264','-crf','18','-pix_fmt','yuv420p','-movflags','+faststart',str(root/'final.mp4')],check=True,timeout=timeout)
-    report=validate(root/'final.mp4',cfg);(root/'quality.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
-    return report
+    return check_output(root,cfg)
 
 if __name__=='__main__':
     ap=argparse.ArgumentParser();ap.add_argument('directory');ap.add_argument('--aerender',required=True);ap.add_argument('--timeout',type=int,default=1800);ap.add_argument('--reuse',action='store_true')

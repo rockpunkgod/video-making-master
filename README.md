@@ -2,7 +2,7 @@
 
 独立的 AE / Premiere Pro 高级制作技能实验室。所有脚本、来源、测试输入和回执位于本项目；未读取、修改或依赖 Video Making 内部实现。
 
-Git提交包含Skills、来源、验证记录和31组代表性可编辑工程/成片（含第10节修订前历史）；教程缓存及重复试验留在本机。第10节当前基线为p10-decimal-binary-003，002排版被用户否决，003重新制作和行带对照通过、用户复核待回复。分发范围和跨机器重建说明见[Git交付范围](reports/git-delivery.md)，逐文件校验见[交付清单](reports/git-delivery-manifest.json)。
+Git提交包含Skills、来源、验证记录和32组代表性可编辑工程/成片（含第10节修订前历史）；教程缓存及重复试验留在本机。第10节003被指出异常抖动，静态004也被指出不是所需动画，均不作为修复通过；当前p10-controls-animation-005为将课程手动控制器演示转成时间轴的适配，实际制作与240帧变化检查通过、用户验收及泛化待完成。分发范围和跨机器重建说明见[Git交付范围](reports/git-delivery.md)，逐文件校验见[交付清单](reports/git-delivery-manifest.json)。
 
 **当前状态：1个verified、3个candidate。** ae-procedural-motion 0.3.0已按课程第5、6节原法制作、完成变参、三组原创素材、原生编辑重开和独立目录调用；用户确认最终效果符合课程。验证仅覆盖记录的课程配置与PNG分支，录屏播放时码的精确逐帧对齐未确认。第8节ae-advanced-expressions新增五组原生制作及逐帧像素验证，待课程整体视觉验收；摄像机跟踪与PR声音仍待完整课程流程复刻。详见 evaluations/course-p06-final-001/summary.json、evaluations/course-p08-suite-001/summary.json和registry.json。全部课程学习和完整AE/PR技能库未完成。
 

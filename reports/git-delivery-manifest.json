@@ -25,6 +25,7 @@
     "samples/course-reproduction-006/p10-decimal-binary-003",
     "samples/course-reproduction-006/p10-variation-002",
     "samples/course-reproduction-006/p10-single-digit-002",
+    "samples/course-reproduction-006/p10-controls-animation-005",
     "samples/tracking-fixture-001/solve-calibrated-001/composite-001",
     "samples/tracking-fixture-001/solve-calibrated-001/composite-typography",
     "samples/tracking-gallery-001/solve-001/composite-pixel-sized",
@@ -175,6 +176,11 @@
       "sha256": "f25206bd8d185af56a07083dd5ebdf2769eda58e90425ef1b5e2c4554c8836ae"
     },
     {
+      "path": "evaluations/course-p10-probe-001/jitter-negative-control.json",
+      "bytes": 1343,
+      "sha256": "78415d42442cbf5ac88adcd4dc44f675028137062c8b6c87950c050f146af701"
+    },
+    {
       "path": "evaluations/course-p10-probe-001/layout-original-vs-002.json",
       "bytes": 1998,
       "sha256": "fe2e2f9ce0c782077d18f13c19a413b30f27a0a5cbc46dbb9cedbb37ff0a5633"
@@ -186,13 +192,18 @@
     },
     {
       "path": "evaluations/course-p10-probe-001/summary.json",
-      "bytes": 23638,
-      "sha256": "26ed9d095e1e12aa01d5d584eb924d1a117ef91be31113e01fbb3c3237c0f97d"
+      "bytes": 26835,
+      "sha256": "51da6657465dd8a97c4f57c9d040be7ed99a95959699610e1c68ba7317373be4"
     },
     {
       "path": "evaluations/course-p10-probe-001/variants-layout-revised.json",
       "bytes": 1021,
       "sha256": "4733fbf79451b3e2955082efd853c78546d66d62549a729f7cd43c58e9591a07"
+    },
+    {
+      "path": "evaluations/course-p10-probe-001/variants-stable.json",
+      "bytes": 1182,
+      "sha256": "feccf8c93bc88c7dd4191b072ad19124dcd19789e1cb3f97bfd47e0e9ee686f1"
     },
     {
       "path": "evaluations/course-p10-probe-001/variants.json",
@@ -1570,6 +1581,41 @@
       "sha256": "fbfa93f8fd26767faf972ec1f34a046e6b115568039ee5a66cd5fac89d4c83ea"
     },
     {
+      "path": "samples/course-reproduction-006/p10-controls-animation-005/build.jsx",
+      "bytes": 10741,
+      "sha256": "58fc516ba4ff55e9e71a6e5ec22ff01c72cf4d8ad8ec4651f92d60dbaca5a9c0"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-controls-animation-005/controller-animation-quality.json",
+      "bytes": 526,
+      "sha256": "7e5656d8627055c583b3900d40ed6f9175a256cc21098d9709fa86234ceb1287"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-controls-animation-005/final.mp4",
+      "bytes": 2497752,
+      "sha256": "84397be95ee09df4e30ca623c06549a5c3e5f3f19d5f9844357ae9c840374aeb"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-controls-animation-005/project.aep",
+      "bytes": 139945,
+      "sha256": "84d6db842aae93021af697e491e478124594db9c49726702c4b5bd9685b04ed7"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-controls-animation-005/quality.json",
+      "bytes": 918,
+      "sha256": "19d256bbf02a7036567e3a2bd04fea8e2ff6f62b70c634e70c5fa32b7a6d663a"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-controls-animation-005/receipt.json",
+      "bytes": 2198,
+      "sha256": "57ebb173550d16ba832dce79605f7461b016f1b275101a2208403c1de8b57b0d"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-controls-animation-005/request.json",
+      "bytes": 1170,
+      "sha256": "58d13865b3b0e8cf62b1048d592740ad5ccacd43b6b25fed626f48fc1c2842b4"
+    },
+    {
       "path": "samples/course-reproduction-006/p10-decimal-binary-002/build.jsx",
       "bytes": 8281,
       "sha256": "f20791b53916744da2e729b639cf3315cae0390798f90edf2d28fa6d0f268594"
@@ -2409,5 +2455,5 @@
     "repeated native audio/video exports"
   ],
   "portability": "Native projects retain original Windows media paths. Rebuild from the bundled scripts or relink the bundled inputs/assets; historical report references may point to local-only artifacts.",
-  "total_selected_bytes": 347616178
+  "total_selected_bytes": 350275150
 }

@@ -31,6 +31,7 @@ CASES=[
  'samples/course-reproduction-006/p10-decimal-binary-003',
  'samples/course-reproduction-006/p10-variation-002',
  'samples/course-reproduction-006/p10-single-digit-002',
+ 'samples/course-reproduction-006/p10-controls-animation-005',
  'samples/tracking-fixture-001/solve-calibrated-001/composite-001',
  'samples/tracking-fixture-001/solve-calibrated-001/composite-typography',
  'samples/tracking-gallery-001/solve-001/composite-pixel-sized',

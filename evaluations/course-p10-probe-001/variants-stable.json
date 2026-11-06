@@ -1,0 +1,46 @@
+{
+  "status": "technical_pass_visual_pending",
+  "cases": [
+    {
+      "name": "p10-stable-variation-003",
+      "directory": "samples/course-reproduction-006/p10-stable-variation-003",
+      "status": "native_stills_render_pixel_pass",
+      "native_num_edit": {
+        "original": 180,
+        "changed": 179,
+        "read_after_reopen": 179,
+        "restored_after_reopen": 180
+      },
+      "unique_strings": [
+        1,
+        1
+      ],
+      "seed_edit_deltas": [
+        1,
+        1
+      ]
+    },
+    {
+      "name": "p10-stable-single-digit-003",
+      "directory": "samples/course-reproduction-006/p10-stable-single-digit-003",
+      "status": "native_stills_render_pixel_pass",
+      "native_num_edit": {
+        "original": 1,
+        "changed": 2,
+        "read_after_reopen": 2,
+        "restored_after_reopen": 1
+      },
+      "unique_strings": [
+        1,
+        1
+      ],
+      "seed_edit_deltas": [
+        1,
+        1
+      ]
+    }
+  ],
+  "copy": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\isolated-skill-009\\ae-advanced-expressions",
+  "cwd": "E:\\\u81ea\u5a92\u4f53",
+  "same_emitter": true
+}

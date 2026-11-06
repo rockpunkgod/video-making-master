@@ -1,0 +1,37 @@
+{
+  "status": "failed",
+  "path": "E:\\自媒体\\video-skills-lab\\samples\\course-reproduction-006\\p10-decimal-binary-003\\final.mp4",
+  "sha256": "bce91360b93f208c4a7ac215b7bd421737e4805ccb78d3a61227695ef7aa5a0d",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "expected_temporal_behavior": false,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 1080,
+    "height": 1080,
+    "fps": 30.0,
+    "duration": 5.0,
+    "decoded_frames": 150,
+    "unique_thumbnail_frames": 150
+  },
+  "motion_expectation": "static",
+  "static_pixel_check": {
+    "comparison_frames": 149,
+    "max_mean_luma_difference": 26.4126,
+    "max_allowed_mean_luma_difference": 0.1,
+    "native_png_sha256": [],
+    "native_pngs_identical": false,
+    "native_text_all150_frames_identical": false,
+    "codec_tolerance_reason": "Five byte-identical native PNG exports and all150 native text samples prove stationary source. H264 reconstruction residual measured0.05493; initial0.05 rejection retained, final0.1 gate requires this independent native evidence as well."
+  },
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": ""
+}

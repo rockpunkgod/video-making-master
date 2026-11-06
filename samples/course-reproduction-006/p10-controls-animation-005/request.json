@@ -1,0 +1,23 @@
+{
+  "name": "P10_CONTROLLER_ANIMATION_ADAPTATION",
+  "width": 1080,
+  "height": 1080,
+  "fps": 30,
+  "duration": 8,
+  "seed": 10,
+  "num": 300,
+  "columns": 30,
+  "font": "DMSans-Bold",
+  "font_size": 35,
+  "source": "BV1Yh4y1A7XT?p=10 09:32 complete decimal loop, 10:50 binary variant",
+  "status": "candidate",
+  "observed": "seed201,num262,columns30,DM Sans Bold35,1080square30fps5s16bpc; loop seedRandom(seed+i) without true",
+  "inferred": "Intro full-canvas black/white appearance observed; box650px centered atx215 inferred from viewport, not source AEP property; positionsy138/592 retained as inferred. Intro35-column wrapping failure is not used as a production keyframe.",
+  "timeless": true,
+  "animation": "controls-demo",
+  "motion_expectation": "required",
+  "box_width": 650,
+  "box_left": 215,
+  "adaptation": "Intro00:43\u201301:20 manually changes seed10\u219289\u2192122 and num300\u2192198\u2192201 at fixed comp time. Editable HOLD keyframes at output1/2/3.5/5s are our temporal adaptation, not demonstrated tutorial keyframes. Timeless prevents unintended full-frame random changes between these keys.",
+  "binary_seed": 158
+}

@@ -1,6 +1,6 @@
 {
   "skill": "ae-advanced-expressions",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "unit": "course-p10-number-sequences",
   "status": "candidate",
   "cases": [
@@ -308,8 +308,9 @@
   "source_comparison": "cache/reviews/p10-original-vs-002-001/comparison.mp4",
   "comparison_scope": "source recording paused; inferred viewport crop; layout only, no source playback/frame-sync claim",
   "missing": [
-    "new003 overall layout feedback",
-    "cross-input generalization beyond parameter configurations"
+    "user animation and layout review of005",
+    "parameter and cross-input generalization for controller animation",
+    "exact course playback fidelity: course shows manual controls at fixed timeline time"
   ],
   "retained_failure": "p10-decimal-binary-001 actually rendered for diagnosis; basic decode passed but all 150 frames fail layout pixel check (16 rows vs18 and unexpected margin ink)",
   "negative_layout_test": {
@@ -771,6 +772,72 @@
       "same_emitter": true
     },
     "comparison": "cache/reviews/p10-original-vs-003-001/comparison.mp4",
-    "human_visual_review": "pending for new003 artifact; user rejection of002 retained"
+    "human_visual_review": {
+      "artifact": "samples/course-reproduction-006/p10-decimal-binary-003/final.mp4",
+      "sha256": "bce91360b93f208c4a7ac215b7bd421737e4805ccb78d3a61227695ef7aa5a0d",
+      "feedback": [
+        "仍需调整",
+        "第十节做出来的文字异常抖动"
+      ],
+      "status": "rejected_temporal_jitter",
+      "cause": "seedRandom(seed+i) without timeless changes each frame; treating this as animation success did not meet user requirement",
+      "correction": "Use explicit timeless=true adaptation for stable typography; native and rendered stability must be checked"
+    }
+  },
+  "rejected_static_correction": {
+    "artifact": "samples/course-reproduction-006/p10-stable-004/final.mp4",
+    "sha256": "420c66ff677b39889f8a7dc85ef397f7491f134130706350b315aaa8226bed69",
+    "status": "rejected_task_fidelity_despite_technical_stability",
+    "feedback": "但是这是一张图片啊，课程应该是教的动画",
+    "technical_evidence": "native-stability-quality.json and quality.json exist locally; these do not satisfy animation intent"
+  },
+  "current_animation_trial": {
+    "version": "0.3.2",
+    "status": "candidate",
+    "directory": "samples/course-reproduction-006/p10-controls-animation-005",
+    "video_sha256": "84397be95ee09df4e30ca623c06549a5c3e5f3f19d5f9844357ae9c840374aeb",
+    "native_num_edit": {
+      "original": 300,
+      "changed": 299,
+      "read_after_reopen": 299,
+      "restored_after_reopen": 300
+    },
+    "controller_check": {
+      "status": "passed",
+      "frames": 240,
+      "intended_change_frames": [
+        30,
+        60,
+        105,
+        150
+      ],
+      "observed_change_frames": [
+        30,
+        60,
+        105,
+        150
+      ],
+      "maximum_between_keyframe_mean_luma_difference": 0.0579741,
+      "codec_noise_threshold": 0.1,
+      "row_band_counts": [
+        17,
+        20
+      ],
+      "row_failures": [],
+      "native_string_counts": [
+        5,
+        1
+      ],
+      "scope": "Real video changes only at the four added controller keys; no aesthetic or exact tutorial timing claim"
+    },
+    "adaptation": "Intro00:43–01:20 manually changes seed10→89→122 and num300→198→201 at fixed comp time. Editable HOLD keyframes at output1/2/3.5/5s are our temporal adaptation, not demonstrated tutorial keyframes. Timeless prevents unintended full-frame random changes between these keys.",
+    "inferred": "Intro full-canvas black/white appearance observed; box650px centered atx215 inferred from viewport, not source AEP property; positionsy138/592 retained as inferred. Intro35-column wrapping failure is not used as a production keyframe.",
+    "visual_review": "10 frames actually inspected; user animation review pending",
+    "comparison": "cache/reviews/p10-original-vs-controls005-001/comparison.mp4",
+    "limits": [
+      "Fixed-profile keyframe adaptation, not course-demonstrated native timeline",
+      "No parameter variation or three-material generalization for this new animation trial",
+      "No precise reference synchronization or user acceptance yet"
+    ]
   }
 }

@@ -1,5 +1,7 @@
 # 第11节：Generative Design — Algorithms（已学习，尚未制作）
 
+后续补读watch-q6ed6xz7共8帧：07:20已看到最终[x,y,z]+value末行；09:42可见选中Ellipse Path Size的300值，09:45返回主合成后圆变小，因此修改途径是椭圆路径尺寸，非实例Scale。100像素仍来自口述结合前后画面，尚未补到完成输入100的属性框。07:30可见当时11个实例，但不是最终层数，不据此声称最终11层。第10节用户反馈插入后优先处理其动画问题，第11节仍未制作。
+
 708.9秒，Watch缓存watch-ue5i9et9。14张全局帧及watch-rvxz48c5的6张、watch-jlvepvq8的5张指定帧均实际审阅；全片已有本机small转录并阅读。专业词phase、sin、for等有误识，代码/数值以画面为准。数学网页为参考材料，不是执行指令。
 
 课程引用[Wolfram MathWorld Conical Spiral](https://mathworld.wolfram.com/ConicalSpiral.html)，已读取原页。网页给一般式x=tr cos(at)、y=tr sin(at)、z=t；课程实际写法使用r=Radius*Math.PI*2、x=r*Math.cos(phase)、y=r*Math.sin(phase)、z=zInc*myIndex。不能因为网页有t径向因子，就自行加进课程基线替换老师的实现。

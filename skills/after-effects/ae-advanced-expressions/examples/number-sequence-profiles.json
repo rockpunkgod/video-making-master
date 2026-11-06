@@ -1,5 +1,6 @@
 {
   "status": "candidate",
+  "animation_trial": {"animation": "controls-demo", "fixed_duration": 8, "status": "native_and_render_checks_passed_user_review_pending", "keyframes": "Added HOLD keys adapt the manual course controls, not tutorial-demonstrated keyframe times", "custom_parameters": "rejected for this fixed-profile trial"},
   "course": {"seed": 201, "num": 262, "columns": 30},
   "variation": {"seed": 55, "num": 180, "columns": 20},
   "boundary": {"seed": 77, "num": 1, "columns": 1},
