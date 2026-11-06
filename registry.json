@@ -402,9 +402,9 @@
     },
     {
       "name": "ae-advanced-compositing",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "status": "candidate",
-      "execution_status": "native_p13_layout_p15_radial_polar_streak_candidates_with_explicit_inference",
+      "execution_status": "native_p13_p15_assembly_candidates_and_p16_dynamic_core",
       "path": "skills/after-effects/ae-advanced-compositing",
       "dependencies": [
         "After Effects26.0x67 tested",
@@ -419,14 +419,17 @@
         "Random time-remapped dot clusters",
         "Course15 native radial outline background with preserved editable RGB channel curves",
         "Course15 six-layer native Rect to Polar noise rings with animated turbulence offset",
-        "Course15 spatial noise streak reconstruction; exact Scale handling unverified"
+        "Course15 spatial noise streak reconstruction; exact Scale handling unverified",
+        "Course15 native11-layer rough assembly with unresolved title projection",
+        "Course16 dynamic hollow shell: animated alpha matte, equation rig, Tritone/CC Vector Blur/CC Lens"
       ],
       "sources": [
         {
           "id": "BV1Yh4y1A7XT",
           "parts": [
             13,
-            15
+            15,
+            16
           ]
         }
       ],
@@ -437,13 +440,15 @@
         "No overall human review; three PNG inputs do not prove text readability or arbitrary materials",
         "P15 radial/polar/streaks lack three-material generalization; assembly candidate has unresolved title projection",
         "P15 streak Position base0 and constant Scale reconstruction not confirmed as source operations",
-        "P15 title behind inherited camera on all active frames197–317; no completed-film acceptance"
+        "P15 title behind inherited camera on all active frames197–317; no completed-film acceptance",
+        "P16 core exact curves and three-material generalization unverified; rest of styling pending"
       ],
       "additional_evidence": [
         "evaluations/course-p15-radial-001/summary.json",
         "evaluations/course-p15-polar-001/summary.json",
         "evaluations/course-p15-streaks-001/summary.json",
-        "evaluations/course-p15-assembly-001/summary.json"
+        "evaluations/course-p15-assembly-001/summary.json",
+        "evaluations/course-p16-core-001/summary.json"
       ],
       "human_reviews": [
         {
@@ -460,6 +465,14 @@
           "scope": "Overall ring layers, density and outward movement only; exact noise identity, variants and generalization not approved",
           "comparison": "Original08:40–08:45 left, native baseline002 right; not frame synchronized",
           "video_sha256": "bc6840662ce1f3e3f595b52b2dc613ae7990e9049c9fa230105e82783cb94480"
+        },
+        {
+          "status": "accepted_overall",
+          "case": "p16-core-001",
+          "feedback": "整体符合，可以保留",
+          "comparison": "Originalp16 06:22–06:27 left, native baseline001 right; not frame synchronized",
+          "video_sha256": "32199a6630d864e78f8458544d20e12f49ddf9843fdd4edd6aecf15277b78c94",
+          "scope": "Overall unfolding, hollow spherical structure and color layers only; exact easing, variant and three materials not approved"
         }
       ]
     }

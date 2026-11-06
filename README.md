@@ -77,3 +77,5 @@ python tools/environment_probe.py
 
 
 第15节总装最新进展：11层可编辑AEP、20秒/480帧真实视频及独立调用背景Blend150变体已制作并通过技术检查。最终圆环Z=-2830、条带Z=-12735、轮廓Z=-8230，保留课程白色线性颜色键和选择性折叠。标题沿课程可读Z=-22000，在继承摄影机后方，尚未显示，不能当完整片头；课程一致性保持未通过。详见skills/after-effects/ae-advanced-compositing/references/course-assembly.md。此前“总装未制作”的进度由此更新。圆环002用户整体反馈已接受；不转移至总装或变体。
+
+第16节动态核心已按渐变描边/动画Alpha Matte/控制器关键帧/Tritone→CC Vector Blur→CC Lens真实制作，保留100层可编辑基线及80层/speed65独立调用变体，各151帧。基线001用户反馈“整体符合，可以保留”；精确缓动及三素材尚缺，Skill仍candidate。后半节整体调色、圆环混合与转场仍在处理，未替代完整片头验收。详见skills/after-effects/ae-advanced-compositing/references/course-core.md。

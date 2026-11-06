@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "checks": {
+    "checkpoints": true,
+    "native_evolution_coverage": true,
+    "native_expression_errors": true,
+    "native_project_reopened": true,
+    "native_count": true,
+    "native_position": true,
+    "native_phase": true,
+    "native_matte": true,
+    "native_effect_order": true,
+    "native_edit": true
+  },
+  "checkpoints": [
+    {
+      "frame": 0,
+      "mean_luma_error_255": 0.002777777777777778,
+      "passed": true
+    },
+    {
+      "frame": 30,
+      "mean_luma_error_255": 7.826805555555556,
+      "passed": true
+    },
+    {
+      "frame": 75,
+      "mean_luma_error_255": 4.535,
+      "passed": true
+    },
+    {
+      "frame": 150,
+      "mean_luma_error_255": 4.532569444444444,
+      "passed": true
+    }
+  ],
+  "tolerance": "Mean absolute luma error <=8/255 on160x90 checkpoints; allows codec differences",
+  "scope": "Native/render consistency at sampled frames plus native evolution coverage; no course aesthetics or material-generalization claim"
+}

@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course-reproduction-015\\p16-core-001\\final.mp4",
+  "sha256": "32199a6630d864e78f8458544d20e12f49ddf9843fdd4edd6aecf15277b78c94",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "difference_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 1080,
+    "height": 1080,
+    "fps": 30.0,
+    "duration": 5.033333,
+    "decoded_frames": 151,
+    "unique_thumbnail_frames": 140
+  },
+  "temporal_contract": {
+    "expectation": "required",
+    "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+    "decoded_difference_frames": 150,
+    "maximum_mean_luma_difference": 31.1606,
+    "codec_noise_threshold": 0.1
+  },
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": "",
+  "scene_quality": "scene-quality.json"
+}

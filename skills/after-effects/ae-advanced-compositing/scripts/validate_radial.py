@@ -29,7 +29,7 @@ def validate(directory):
         rendered = thumbnail(root / 'final.mp4', frame)
         error = sum(abs(a-b) for a, b in zip(native, rendered)) / len(native)
         rows.append(dict(frame=frame, mean_luma_error_255=error, passed=error <= 8))
-    coverage_key = 'native_frames_checked' if cfg.get('name') in {'COURSE_P15_POLAR', 'COURSE_P15_STREAKS'} else 'evolution_frames_checked'
+    coverage_key = 'native_frames_checked' if cfg.get('name') in {'COURSE_P15_POLAR', 'COURSE_P15_STREAKS', 'COURSE_P16_CORE'} else 'evolution_frames_checked'
     checks = dict(checkpoints=all(r['passed'] for r in rows),
                   native_evolution_coverage=receipt.get(coverage_key) == frames,
                   native_expression_errors=receipt.get('expression_errors') == [],
@@ -44,6 +44,13 @@ def validate(directory):
                       native_zero_drift=receipt.get('max_position_drift', 999) < 1e-5,
                       native_evolution=receipt.get('max_evolution_error', 999) < 1e-5,
                       native_scale=receipt.get('max_scale_error', 999) < 1e-5)
+    if cfg.get('name') == 'COURSE_P16_CORE':
+        checks.update(native_count=receipt.get('shape_count') == cfg['count'],
+                      native_position=receipt.get('max_position_error', 999) < 1e-5,
+                      native_phase=receipt.get('max_phase_error', 999) < 1e-5,
+                      native_matte=receipt.get('alpha_matte_linked') is True,
+                      native_effect_order=receipt.get('effect_chain') == ['ADBE Tritone', 'CC Vector Blur', 'CC Lens'],
+                      native_edit=receipt.get('native_phase_increment_edit') == dict(original=63, changed=64, restored=63))
     report = dict(status='passed' if all(checks.values()) else 'failed', checks=checks, checkpoints=rows,
                   tolerance='Mean absolute luma error <=8/255 on160x90 checkpoints; allows codec differences',
                   scope='Native/render consistency at sampled frames plus native evolution coverage; no course aesthetics or material-generalization claim')

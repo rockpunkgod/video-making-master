@@ -1,0 +1,35 @@
+{
+  "name": "COURSE_P16_CORE",
+  "width": 1080,
+  "height": 1080,
+  "fps": 30,
+  "duration": 5.033333333333333,
+  "motion_expectation": "required",
+  "count": 80,
+  "speed": 65.0,
+  "stroke": 22,
+  "input_project": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-reproduction-015/p16-core-variation-001/inputs/core.aep",
+  "input_sha256": "5dbe0b2eca9a2662003d1741b8cd4b2586224f672e39a9effa062c6b7a2ecd1f",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=16",
+  "source_interval": "00:26\u201306:30",
+  "status": "candidate",
+  "provenance": {
+    "observed": [
+      "00:49 Stroke22, Fill disabled;00:58 Gradient Ramp start150/71,end150/300",
+      "01:58 matte ellipse134;02:15 matte Scale0->100",
+      "02:35 Phase106,phase increment63,Z18,Radius61;02:43 phase expression time*50",
+      "03:18\u201303:45 Z/Radius0->18/61 and Easy Ease In",
+      "04:45 Lens73/100 and VectorBlur Perpendicular Amount35",
+      "05:10 reduce to100 shapes spoken;05:45 Midtones hex0CF6F0 last readable",
+      "05:52 comp1080/1080,30fps,05:01 and backgroundblack",
+      "06:22 Fast Box Blur removed; Tritone->VectorBlur->CC Lens"
+    ],
+    "inferred": [
+      "Matte keys0/26 and Z16/43 Radius17/43 estimated from timeline positions; \u00b11frame uncertainty",
+      "Easy Ease In reproduced using native Bezier incoming speed0 influence33.3333; exact source velocity dialog unshown",
+      "100 shapes uses spoken instruction; actual final count not directly displayed",
+      "Colors white/black from swatches/defaults; Midtones05:45 last readable value; original layer identities unproven"
+    ]
+  },
+  "variant": true
+}

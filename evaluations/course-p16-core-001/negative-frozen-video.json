@@ -1,0 +1,35 @@
+{
+  "status": "failed",
+  "path": "E:\\自媒体\\video-skills-lab\\cache\\p16-negative-001\\frozen.mp4",
+  "sha256": "3e9b93915cd354670b2cf474b4cf812347d18a59f643da912aeff0278a454e43",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "difference_decode": true,
+    "expected_temporal_behavior": false,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 1080,
+    "height": 1080,
+    "fps": 30.0,
+    "duration": 5.033333,
+    "decoded_frames": 151,
+    "unique_thumbnail_frames": 15
+  },
+  "temporal_contract": {
+    "expectation": "required",
+    "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+    "decoded_difference_frames": 150,
+    "maximum_mean_luma_difference": 0.00170898,
+    "codec_noise_threshold": 0.1
+  },
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": ""
+}

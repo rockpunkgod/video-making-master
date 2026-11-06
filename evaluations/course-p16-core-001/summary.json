@@ -1,0 +1,92 @@
+{
+  "status": "candidate_native_dynamic_core",
+  "date": "2026-11-06",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=16",
+  "source_interval": "00:26–06:30",
+  "cases": [
+    {
+      "case": "p16-core-001",
+      "directory": "samples/course-reproduction-015/p16-core-001",
+      "project_sha256": "4d3bf6d691703cf948684fffa8f2dd477d76838e588feebf9d29985780541dc8",
+      "video_sha256": "32199a6630d864e78f8458544d20e12f49ddf9843fdd4edd6aecf15277b78c94",
+      "frames": 151,
+      "count": 100,
+      "speed": 50,
+      "technical_status": "passed",
+      "native_checks": {
+        "checkpoints": true,
+        "native_evolution_coverage": true,
+        "native_expression_errors": true,
+        "native_project_reopened": true,
+        "native_count": true,
+        "native_position": true,
+        "native_phase": true,
+        "native_matte": true,
+        "native_effect_order": true,
+        "native_edit": true
+      },
+      "max_position_error": 1.13686837721616e-13,
+      "max_phase_error": 0,
+      "native_edit": {
+        "original": 63,
+        "changed": 64,
+        "restored": 63
+      },
+      "alpha_matte_linked": true,
+      "visual_review": "All six native checkpoint PNGs actually viewed",
+      "human_review": "accepted_overall"
+    },
+    {
+      "case": "p16-core-variation-001",
+      "directory": "samples/course-reproduction-015/p16-core-variation-001",
+      "project_sha256": "0cb49bbea93a0a7f107a2341e970ff45e9f02c450194017aa01fbe525c295819",
+      "video_sha256": "bec62eaa13d3e183f472b688b98f682a46f6ff76e813245383243e290490b819",
+      "frames": 151,
+      "count": 80,
+      "speed": 65.0,
+      "technical_status": "passed",
+      "native_checks": {
+        "checkpoints": true,
+        "native_evolution_coverage": true,
+        "native_expression_errors": true,
+        "native_project_reopened": true,
+        "native_count": true,
+        "native_position": true,
+        "native_phase": true,
+        "native_matte": true,
+        "native_effect_order": true,
+        "native_edit": true
+      },
+      "max_position_error": 1.13686837721616e-13,
+      "max_phase_error": 0,
+      "native_edit": {
+        "original": 63,
+        "changed": 64,
+        "restored": 63
+      },
+      "alpha_matte_linked": true,
+      "visual_review": "All six native checkpoint PNGs actually viewed",
+      "human_review": "not_requested"
+    }
+  ],
+  "human_review": {
+    "status": "accepted_overall",
+    "case": "p16-core-001",
+    "feedback": "整体符合，可以保留",
+    "comparison": "Originalp16 06:22–06:27 left, native baseline001 right; not frame synchronized",
+    "video_sha256": "32199a6630d864e78f8458544d20e12f49ddf9843fdd4edd6aecf15277b78c94",
+    "scope": "Overall unfolding, hollow spherical structure and color layers only; exact easing, variant and three materials not approved"
+  },
+  "isolated_skill": {
+    "status": "passed_native_build_render",
+    "case": "p16-core-variation-001",
+    "inputs": "Copied Skill only, own bundled P11 AEP, no tutorial footage"
+  },
+  "negative_control": "negative-frozen-video.json: true151-frame frozen video decoded but failed motion expectation",
+  "gaps": [
+    "Exact velocity influences and estimated key times unproven",
+    "Three input materials not tested",
+    "Later P16 scene styling and full film unfinished"
+  ],
+  "overall_project_complete": false
+}
