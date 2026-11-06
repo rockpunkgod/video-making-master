@@ -21,3 +21,5 @@
 尚未实现的方向以registry.json的research_queue为准，包括通用高级表达式系统、电影摄像机/摄影机投影、Mocha、动态文字、高级合成、叙事剪辑、调色。相关课程覆盖只有局部，不能按技能名称认定已具备制作能力。
 
 PR已有samples/pr-sound-suite-002/{baseline,variation,reveal}/project.prproj与final.mp4。候选技能保留自制泛化实验，下一步优先完成明确课程片段的制作流程和效果对照。剩余课程按内容融合，不追求每个视频生成一个技能。
+
+第16节噪波调色新增4秒可编辑组件基线与发光变化版：原生Colorama→Glow，96帧解码及7原生PNG、每帧淡出和编辑重开恢复通过。仅组件技术检查，前段空黑、近似相机和未完成总装仍待处理，未通过课程视觉验收，ae-advanced-compositing0.1.6为candidate。详见evaluations/course-p16-noise-style-001/summary.json。

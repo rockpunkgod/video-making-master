@@ -1,0 +1,31 @@
+{
+  "skill": "ae-advanced-compositing",
+  "branch": "course16-noise-style",
+  "status": "candidate",
+  "steps": [
+    "Import own editable noise and native palette",
+    "Retain camera and course styling",
+    "Reopen and edit/restore native Glow",
+    "Check every frame fade and expressions",
+    "Render in Adobe and compare native checkpoints"
+  ],
+  "provenance": {
+    "observed": [
+      "09:42 fN6/7 disabled, remaining fN1-5 visible",
+      "11:40 and11:50 Scale342/423/100 supersedes earlier intermediate values",
+      "11:30/11:50 Glow48.2%,Radius122,Intensity0.8",
+      "12:18 main03:23 opacity0; two keys visible",
+      "10:50 three Colorama stops: violet at top, cyan at bottom, blue lower left"
+    ],
+    "inferred": [
+      "Fade frames59/95 estimated from main ruler",
+      "Native palette violet#5500FF from source wheel appearance; exact hex not displayed",
+      "Top stop reconstructed by GUI drag near cycle start; exact normalized location unexposed"
+    ],
+    "unverified": [
+      "Inherited P13 approximate camera and random layer identities",
+      "Standalone component omits other main elements/background; full P16 assembly pending",
+      "No three-material generalization or human visual approval"
+    ]
+  }
+}

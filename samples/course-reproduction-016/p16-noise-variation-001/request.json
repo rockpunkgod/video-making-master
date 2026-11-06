@@ -1,0 +1,50 @@
+{
+  "name": "COURSE_P16_NOISE_STYLE",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "duration": 4,
+  "motion_expectation": "required",
+  "status": "candidate",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=16",
+  "noise_scale": [
+    342,
+    423,
+    100
+  ],
+  "fade_start_frame": 59,
+  "fade_end_frame": 95,
+  "glow_intensity": 0.4,
+  "inputs": {
+    "main": {
+      "project": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-reproduction-016/p16-noise-variation-001/inputs/main/project.aep",
+      "composition": "COURSE_P13_COMPOSITE",
+      "sha256": "b9a93b8973578d84cb4e42fc5e20f0e5955e74a4a7090e78ec78e9509821df5d"
+    },
+    "palette": {
+      "project": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-reproduction-016/p16-noise-variation-001/inputs/palette/project.aep",
+      "composition": "P16_COLORAMA_NOISE_TEMPLATE",
+      "sha256": "229a068c030302da713fbe3566c6f65dd97e72dc7057802fa3b7ae5b8b7ec42c"
+    }
+  },
+  "provenance": {
+    "observed": [
+      "09:42 fN6/7 disabled, remaining fN1-5 visible",
+      "11:40 and11:50 Scale342/423/100 supersedes earlier intermediate values",
+      "11:30/11:50 Glow48.2%,Radius122,Intensity0.8",
+      "12:18 main03:23 opacity0; two keys visible",
+      "10:50 three Colorama stops: violet at top, cyan at bottom, blue lower left"
+    ],
+    "inferred": [
+      "Fade frames59/95 estimated from main ruler",
+      "Native palette violet#5500FF from source wheel appearance; exact hex not displayed",
+      "Top stop reconstructed by GUI drag near cycle start; exact normalized location unexposed"
+    ],
+    "unverified": [
+      "Inherited P13 approximate camera and random layer identities",
+      "Standalone component omits other main elements/background; full P16 assembly pending",
+      "No three-material generalization or human visual approval"
+    ]
+  },
+  "variant": true
+}

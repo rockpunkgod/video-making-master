@@ -402,9 +402,9 @@
     },
     {
       "name": "ae-advanced-compositing",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "status": "candidate",
-      "execution_status": "native_p13_p15_assembly_candidates_and_p16_dynamic_core",
+      "execution_status": "native_p13_p15_assembly_candidates_and_p16_core_noise_components",
       "path": "skills/after-effects/ae-advanced-compositing",
       "dependencies": [
         "After Effects26.0x67 tested",
@@ -421,7 +421,8 @@
         "Course15 six-layer native Rect to Polar noise rings with animated turbulence offset",
         "Course15 spatial noise streak reconstruction; exact Scale handling unverified",
         "Course15 native11-layer rough assembly with unresolved title projection",
-        "Course16 dynamic hollow shell: animated alpha matte, equation rig, Tritone/CC Vector Blur/CC Lens"
+        "Course16 dynamic hollow shell: animated alpha matte, equation rig, Tritone/CC Vector Blur/CC Lens",
+        "Course16 editable Colorama/Glow noise styling component with course fade"
       ],
       "sources": [
         {
@@ -441,14 +442,16 @@
         "P15 radial/polar/streaks lack three-material generalization; assembly candidate has unresolved title projection",
         "P15 streak Position base0 and constant Scale reconstruction not confirmed as source operations",
         "P15 title behind inherited camera on all active frames197–317; no completed-film acceptance",
-        "P16 core exact curves and three-material generalization unverified; rest of styling pending"
+        "P16 core exact curves and three-material generalization unverified; rest of styling pending",
+        "P16 noise component technical checks pass; palette/fade inferred and camera/full-assembly visual alignment unresolved"
       ],
       "additional_evidence": [
         "evaluations/course-p15-radial-001/summary.json",
         "evaluations/course-p15-polar-001/summary.json",
         "evaluations/course-p15-streaks-001/summary.json",
         "evaluations/course-p15-assembly-001/summary.json",
-        "evaluations/course-p16-core-001/summary.json"
+        "evaluations/course-p16-core-001/summary.json",
+        "evaluations/course-p16-noise-style-001/summary.json"
       ],
       "human_reviews": [
         {

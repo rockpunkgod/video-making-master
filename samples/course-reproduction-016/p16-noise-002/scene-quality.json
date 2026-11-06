@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "checks": {
+    "checkpoints": true,
+    "native_evolution_coverage": true,
+    "native_expression_errors": true,
+    "native_project_reopened": true,
+    "native_fade": true,
+    "native_disabled_layers": true,
+    "native_effect_order": true,
+    "native_scale": true,
+    "native_glow_threshold": true,
+    "native_glow_intensity": true,
+    "native_edit": true
+  },
+  "checkpoints": [
+    {
+      "frame": 0,
+      "mean_luma_error_255": 0.002777777777777778,
+      "passed": true
+    },
+    {
+      "frame": 24,
+      "mean_luma_error_255": 0.002777777777777778,
+      "passed": true
+    },
+    {
+      "frame": 39,
+      "mean_luma_error_255": 4.473402777777777,
+      "passed": true
+    },
+    {
+      "frame": 48,
+      "mean_luma_error_255": 3.6488194444444444,
+      "passed": true
+    },
+    {
+      "frame": 60,
+      "mean_luma_error_255": 3.1859027777777778,
+      "passed": true
+    },
+    {
+      "frame": 80,
+      "mean_luma_error_255": 1.231111111111111,
+      "passed": true
+    },
+    {
+      "frame": 95,
+      "mean_luma_error_255": 0.002777777777777778,
+      "passed": true
+    }
+  ],
+  "tolerance": "Mean absolute luma error <=8/255 on160x90 checkpoints; allows codec differences",
+  "scope": "Native/render consistency at sampled frames plus native evolution coverage; no course aesthetics or material-generalization claim"
+}

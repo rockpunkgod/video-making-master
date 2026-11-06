@@ -1,0 +1,92 @@
+{
+  "status": "candidate_native_noise_styling_component",
+  "date": "2026-11-06",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=16",
+  "source_interval": "09:00–12:18",
+  "cases": [
+    {
+      "case": "p16-noise-002",
+      "directory": "samples/course-reproduction-016/p16-noise-002",
+      "video_sha256": "4f5a1041894fae269795ea26e6201586b79973fe026fea358ba208d6e6c995ea",
+      "project_sha256": "c272900859804f6446706f245d6684be453d16aabe80ad244e1bc4bf45ecaeb7",
+      "frames": 96,
+      "technical_status": "passed",
+      "native_checks": {
+        "checkpoints": true,
+        "native_evolution_coverage": true,
+        "native_expression_errors": true,
+        "native_project_reopened": true,
+        "native_fade": true,
+        "native_disabled_layers": true,
+        "native_effect_order": true,
+        "native_scale": true,
+        "native_glow_threshold": true,
+        "native_glow_intensity": true,
+        "native_edit": true
+      },
+      "native_glow_radius_edit": {
+        "original": 122,
+        "changed": 123,
+        "restored": 122
+      },
+      "max_fade_error": 1.4210854715202e-14,
+      "human_review": "not_requested_component_incomplete",
+      "visual_review": "Seven native PNGs actually viewed; 0/24/95 black,39/48/60 blue-cyan bars,80 faded. Camera and layout do not establish course equivalence."
+    },
+    {
+      "case": "p16-noise-variation-001",
+      "directory": "samples/course-reproduction-016/p16-noise-variation-001",
+      "video_sha256": "11bf39e9b11df2d445f15d873d3e5f6ee2929f67525645581ca55c84a617d12f",
+      "project_sha256": "1f11c16033a2192325a6133eba1fea0f5a76ae412b6d982327787095bd41e0ec",
+      "frames": 96,
+      "technical_status": "passed",
+      "native_checks": {
+        "checkpoints": true,
+        "native_evolution_coverage": true,
+        "native_expression_errors": true,
+        "native_project_reopened": true,
+        "native_fade": true,
+        "native_disabled_layers": true,
+        "native_effect_order": true,
+        "native_scale": true,
+        "native_glow_threshold": true,
+        "native_glow_intensity": true,
+        "native_edit": true
+      },
+      "native_glow_radius_edit": {
+        "original": 122,
+        "changed": 123,
+        "restored": 122
+      },
+      "max_fade_error": 1.4210854715202e-14,
+      "human_review": "not_requested_component_incomplete",
+      "visual_review": "Seven native PNGs actually viewed; 0/24/95 black,39/48/60 blue-cyan bars,80 faded. Camera and layout do not establish course equivalence."
+    }
+  ],
+  "independent_invocation": "Variation built and rendered from copied isolated Skill tree, with packaged native inputs; no other repository read",
+  "course_fidelity": {
+    "observed": "fN6/7 disabled; Scale342/423/100; LinearColorKey→Colorama→Glow; Glow48.2%/122/0.8",
+    "inferred": "Palette violet#5500FF and angular placement; fade frame59–95 and linear curve",
+    "unverified": "Inherited approximate camera, random identities and missing other main elements; no course-equivalence approval"
+  },
+  "tests": {
+    "basic_reproduction": "native_component_built_visual_course_equivalence_unverified",
+    "parameter_variation": "passed_glow_intensity_0.4",
+    "three_materials": "not_run",
+    "technical": "passed",
+    "subjective": "not_accepted"
+  },
+  "failures": [
+    {
+      "case": "p16-noise-001",
+      "reason": "Actual fade correct; expected trace using nested conditional differed by100. Explicit if/else correction passed in002",
+      "report": "failed-001-receipt.json"
+    }
+  ],
+  "remaining": [
+    "Build polar Screen/FindEdges/native white-stop palette",
+    "Integrate dynamic core, radial mask and opacity links into P16 assembly",
+    "Compare source playback timing before asking human review",
+    "Complete three-material generalization"
+  ]
+}
