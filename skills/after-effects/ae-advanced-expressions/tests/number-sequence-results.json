@@ -1,0 +1,422 @@
+{
+  "skill": "ae-advanced-expressions",
+  "version": "0.3.0",
+  "unit": "course-p10-number-sequences",
+  "status": "candidate",
+  "cases": [
+    {
+      "case": "p10-decimal-binary-002",
+      "directory": "samples/course-reproduction-006/p10-decimal-binary-002",
+      "video_sha256": "cd47be4dd671ef89c001df495f4f29338ce14de2ba2bddc6f002e2acfc6adc15",
+      "parameters": {
+        "seed": 201,
+        "num": 262,
+        "columns": 30
+      },
+      "text_layers": [
+        {
+          "name": "num",
+          "font": {
+            "font": "DMSans-Bold",
+            "font_family": "DM Sans",
+            "font_style": "Bold",
+            "font_size": 35,
+            "box_text": true,
+            "justification": "7419"
+          },
+          "frame0_text": "261111155247414756765549511171\r445183897944087501707703800162\r647353745571557761805665219012\r068562950015446257536317128588\r936415722257527281226924483524\r136658918531770141163715879318\r488695411611086252916841478255\r465824987273263046521562805238\r0346553354364481156340",
+          "unique_frame_strings": 150,
+          "consecutive_changes": 149,
+          "seed_edit_changed": true,
+          "canvas_bounds_all_frames": {
+            "min_x": 60.9450000245124,
+            "min_y": 120.27950823307,
+            "max_x": 1038.95024198294,
+            "max_y": 481.619523929432
+          },
+          "source_rect": {
+            "left": -488.984999964014,
+            "top": -209.72049176693,
+            "width": 977.83018691279,
+            "height": 361.340015696362
+          }
+        },
+        {
+          "name": "num 2",
+          "font": {
+            "font": "DMSans-Bold",
+            "font_family": "DM Sans",
+            "font_style": "Bold",
+            "font_size": 35,
+            "box_text": true,
+            "justification": "7419"
+          },
+          "frame0_text": "110101001111100111011011001101\r111101111111001111101000111010\r011100000110001110111100000011\r010011100110101111001110000001\r011101001010100000101110001111\r111011000101010101111000011001\r101010111010101010101110001010\r000100000001011110101110101000\r1001010010001001100000",
+          "unique_frame_strings": 150,
+          "consecutive_changes": 149,
+          "seed_edit_changed": true,
+          "canvas_bounds_all_frames": {
+            "min_x": 61.0150000359863,
+            "min_y": 600.27950823307,
+            "max_x": 1038.42520827055,
+            "max_y": 961.619523929432
+          },
+          "source_rect": {
+            "left": -488.984999964014,
+            "top": -209.72049176693,
+            "width": 977.410208234563,
+            "height": 361.340015696362
+          }
+        }
+      ],
+      "native_num_edit": {
+        "original": 262,
+        "changed": 261,
+        "read_after_reopen": 261,
+        "restored_after_reopen": 262
+      },
+      "pixel_check": {
+        "status": "passed",
+        "frames": 150,
+        "expected_line_bands": 18,
+        "observed_band_counts": [
+          18
+        ],
+        "minimum_black_pixels": 22878,
+        "failure_count": 0,
+        "failures": [],
+        "scope": "Every decoded frame has both unclipped number blocks with expected line counts; digits/alphabet independently checked in native AE, not OCR here"
+      },
+      "visual_review": "10 extracted frames actually inspected; complete decimal and binary blocks, no unintended canvas clipping"
+    },
+    {
+      "case": "p10-variation-001",
+      "directory": "samples/course-reproduction-006/p10-variation-001",
+      "video_sha256": "222de7618f657f5e772a82ff7f8c93971d980bb54f7eca4d970213a42e7e0284",
+      "parameters": {
+        "seed": 55,
+        "num": 180,
+        "columns": 20
+      },
+      "text_layers": [
+        {
+          "name": "num",
+          "font": {
+            "font": "DMSans-Bold",
+            "font_family": "DM Sans",
+            "font_style": "Bold",
+            "font_size": 35,
+            "box_text": true,
+            "justification": "7419"
+          },
+          "frame0_text": "52634855471084278867\r79074104860673116559\r66671928511414343271\r73563764943055738776\r84716801131427413521\r33539304194809924219\r35821443438152334241\r78576526111115524741\r47567655495111714451\r",
+          "unique_frame_strings": 150,
+          "consecutive_changes": 149,
+          "seed_edit_changed": true,
+          "canvas_bounds_all_frames": {
+            "min_x": 60.9450000245124,
+            "min_y": 120.27950823307,
+            "max_x": 1038.95024198294,
+            "max_y": 481.619523929432
+          },
+          "source_rect": {
+            "left": -489.054999975488,
+            "top": -209.72049176693,
+            "width": 978.005119888112,
+            "height": 361.340015696362
+          }
+        },
+        {
+          "name": "num 2",
+          "font": {
+            "font": "DMSans-Bold",
+            "font_family": "DM Sans",
+            "font_style": "Bold",
+            "font_size": 35,
+            "box_text": true,
+            "justification": "7419"
+          },
+          "frame0_text": "11011001111000110011\r01100000010100010011\r00000000100111000010\r10110101110011011010\r01110111001110100100\r01101011111001011100\r10100101010101011111\r00101011010100111110\r01110110110011011111\r",
+          "unique_frame_strings": 150,
+          "consecutive_changes": 149,
+          "seed_edit_changed": true,
+          "canvas_bounds_all_frames": {
+            "min_x": 61.0150000359863,
+            "min_y": 600.27950823307,
+            "max_x": 1038.42514723539,
+            "max_y": 961.619523929432
+          },
+          "source_rect": {
+            "left": -488.984999964014,
+            "top": -209.72049176693,
+            "width": 977.410147199407,
+            "height": 361.340015696362
+          }
+        }
+      ],
+      "native_num_edit": {
+        "original": 180,
+        "changed": 179,
+        "read_after_reopen": 179,
+        "restored_after_reopen": 180
+      },
+      "pixel_check": {
+        "status": "passed",
+        "frames": 150,
+        "expected_line_bands": 18,
+        "observed_band_counts": [
+          18
+        ],
+        "minimum_black_pixels": 15421,
+        "failure_count": 0,
+        "failures": [],
+        "scope": "Every decoded frame has both unclipped number blocks with expected line counts; digits/alphabet independently checked in native AE, not OCR here"
+      },
+      "visual_review": "10 extracted frames actually inspected; complete decimal and binary blocks, no unintended canvas clipping"
+    },
+    {
+      "case": "p10-single-digit-001",
+      "directory": "samples/course-reproduction-006/p10-single-digit-001",
+      "video_sha256": "1839f7be4d17d28afdb009e0cc64fa2e8088b1f599dc0a84547132467575b03c",
+      "parameters": {
+        "seed": 77,
+        "num": 1,
+        "columns": 1
+      },
+      "text_layers": [
+        {
+          "name": "num",
+          "font": {
+            "font": "DMSans-Bold",
+            "font_family": "DM Sans",
+            "font_style": "Bold",
+            "font_size": 35,
+            "box_text": true,
+            "justification": "7419"
+          },
+          "frame0_text": "0\r",
+          "unique_frame_strings": 10,
+          "consecutive_changes": 136,
+          "seed_edit_changed": true,
+          "canvas_bounds_all_frames": {
+            "min_x": 60.9450000245124,
+            "min_y": 120.27950823307,
+            "max_x": 83.2750007510185,
+            "max_y": 145.619508670643
+          },
+          "source_rect": {
+            "left": -488.424999937415,
+            "top": -209.72049176693,
+            "width": 21.7000006884336,
+            "height": 25.3400004375726
+          }
+        },
+        {
+          "name": "num 2",
+          "font": {
+            "font": "DMSans-Bold",
+            "font_family": "DM Sans",
+            "font_style": "Bold",
+            "font_size": 35,
+            "box_text": true,
+            "justification": "7419"
+          },
+          "frame0_text": "1\r",
+          "unique_frame_strings": 2,
+          "consecutive_changes": 75,
+          "seed_edit_changed": true,
+          "canvas_bounds_all_frames": {
+            "min_x": 61.0150000359863,
+            "min_y": 600.27950823307,
+            "max_x": 83.2750007510185,
+            "max_y": 625.619508670643
+          },
+          "source_rect": {
+            "left": -488.984999964014,
+            "top": -209.300493001938,
+            "width": 8.68000031448901,
+            "height": 24.5000016689301
+          }
+        }
+      ],
+      "native_num_edit": {
+        "original": 1,
+        "changed": 2,
+        "read_after_reopen": 2,
+        "restored_after_reopen": 1
+      },
+      "pixel_check": {
+        "status": "passed",
+        "frames": 150,
+        "expected_line_bands": 2,
+        "observed_band_counts": [
+          2
+        ],
+        "minimum_black_pixels": 54,
+        "failure_count": 0,
+        "failures": [],
+        "scope": "Every decoded frame has both unclipped number blocks with expected line counts; digits/alphabet independently checked in native AE, not OCR here"
+      },
+      "visual_review": "10 extracted frames actually inspected; complete decimal and binary blocks, no unintended canvas clipping"
+    }
+  ],
+  "isolated_execution": {
+    "status": "technical_pass_visual_pending",
+    "cases": [
+      {
+        "name": "p10-variation-001",
+        "directory": "samples/course-reproduction-006/p10-variation-001",
+        "status": "native_render_pixel_pass",
+        "native_num_edit": {
+          "original": 180,
+          "changed": 179,
+          "read_after_reopen": 179,
+          "restored_after_reopen": 180
+        },
+        "unique_strings": [
+          150,
+          150
+        ]
+      },
+      {
+        "name": "p10-single-digit-001",
+        "directory": "samples/course-reproduction-006/p10-single-digit-001",
+        "status": "native_render_pixel_pass",
+        "native_num_edit": {
+          "original": 1,
+          "changed": 2,
+          "read_after_reopen": 2,
+          "restored_after_reopen": 1
+        },
+        "unique_strings": [
+          10,
+          2
+        ]
+      }
+    ],
+    "copy": "E:\\自媒体\\video-skills-lab\\samples\\isolated-skill-007\\ae-advanced-expressions",
+    "cwd": "E:\\自媒体",
+    "same_emitter": true
+  },
+  "font_probe": {
+    "status": "probed",
+    "fonts_object": "object",
+    "add_fonts_from_path": "undefined",
+    "dm_sans_bold_matches": 1
+  },
+  "font_source": "skills/after-effects/ae-advanced-expressions/assets/fonts/source.json",
+  "source_comparison": "cache/reviews/p10-original-vs-002-001/comparison.mp4",
+  "comparison_scope": "source recording paused; inferred viewport crop; layout only, no source playback/frame-sync claim",
+  "missing": [
+    "overall course layout feedback",
+    "cross-input generalization beyond three parameter configurations"
+  ],
+  "retained_failure": "p10-decimal-binary-001 actually rendered for diagnosis; basic decode passed but all 150 frames fail layout pixel check (16 rows vs18 and unexpected margin ink)",
+  "negative_layout_test": {
+    "directory": "samples/course-reproduction-006/p10-decimal-binary-001",
+    "basic_quality": "passed",
+    "pixel_quality": {
+      "status": "failed",
+      "frames": 150,
+      "expected_line_bands": 18,
+      "observed_band_counts": [
+        16
+      ],
+      "minimum_black_pixels": 11064,
+      "failure_count": 300,
+      "failures": [
+        {
+          "frame": 0,
+          "expected_line_bands": 18,
+          "observed_line_bands": 16
+        },
+        {
+          "frame": 0,
+          "error": "Unexpected ink outside course text margins"
+        },
+        {
+          "frame": 1,
+          "expected_line_bands": 18,
+          "observed_line_bands": 16
+        },
+        {
+          "frame": 1,
+          "error": "Unexpected ink outside course text margins"
+        },
+        {
+          "frame": 2,
+          "expected_line_bands": 18,
+          "observed_line_bands": 16
+        },
+        {
+          "frame": 2,
+          "error": "Unexpected ink outside course text margins"
+        },
+        {
+          "frame": 3,
+          "expected_line_bands": 18,
+          "observed_line_bands": 16
+        },
+        {
+          "frame": 3,
+          "error": "Unexpected ink outside course text margins"
+        },
+        {
+          "frame": 4,
+          "expected_line_bands": 18,
+          "observed_line_bands": 16
+        },
+        {
+          "frame": 4,
+          "error": "Unexpected ink outside course text margins"
+        },
+        {
+          "frame": 5,
+          "expected_line_bands": 18,
+          "observed_line_bands": 16
+        },
+        {
+          "frame": 5,
+          "error": "Unexpected ink outside course text margins"
+        },
+        {
+          "frame": 6,
+          "expected_line_bands": 18,
+          "observed_line_bands": 16
+        },
+        {
+          "frame": 6,
+          "error": "Unexpected ink outside course text margins"
+        },
+        {
+          "frame": 7,
+          "expected_line_bands": 18,
+          "observed_line_bands": 16
+        },
+        {
+          "frame": 7,
+          "error": "Unexpected ink outside course text margins"
+        },
+        {
+          "frame": 8,
+          "expected_line_bands": 18,
+          "observed_line_bands": 16
+        },
+        {
+          "frame": 8,
+          "error": "Unexpected ink outside course text margins"
+        },
+        {
+          "frame": 9,
+          "expected_line_bands": 18,
+          "observed_line_bands": 16
+        },
+        {
+          "frame": 9,
+          "error": "Unexpected ink outside course text margins"
+        }
+      ],
+      "scope": "Every decoded frame has both unclipped number blocks with expected line counts; digits/alphabet independently checked in native AE, not OCR here"
+    }
+  }
+}

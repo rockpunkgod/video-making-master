@@ -22,6 +22,8 @@
 
 后续用户在“哪项需要调整”的追问中改为“挺好的”，按最新反馈保留p09-final-002，不凭空改参数；前一条负面反馈保留在human_review_history。整体正面反馈不证明随机图样逐像素同源，也不消除PNG前景可读性和第8节待反馈条件，技能保持candidate。以后先展示原版与并排对照再请求评价。
 
+第10节已完成本地全片转录、12全局帧和10指定帧实际审阅，原法for-loop字符串序列融合到ae-advanced-expressions0.3.0。课程262位/30列基线、180位/20列变参及单字符边界三组均保留真实AEP/视频，150帧字符、换行、字体、边界和解码画面行带检查通过。num修改均保存重开再还原重开，后两组从独立技能副本执行。真实失败工程001也渲染回查：普通解码通过但150帧均只有16行且边距异常，独立检查判失败，正式002为18行。课程DM Sans Bold本机未找到后，从作者固定版本取得73452字节OFL字体，临时会话注册，AE确认识别；未装ASR或下载新模型。第10节对照已先展示原版10:50—10:55与当前复刻，明确左侧暂停和局部视口裁剪，整体排版待用户反馈，未宣称三组外部素材泛化。
+
 历史原生输出：samples/runs/suite-20261106-091450/ 下的square-baseline、triangle-variation、hexagon-portrait和asset-geometry、asset-typography、asset-texture。每组均保留project.aep、final.mp4、request.json、receipt.json、quality.json和aerender.log。
 
 审查证据：[首个技能验收](../evaluations/first-skill.json)、[原生编辑测试](../evaluations/motion-suite-001/native-editability.json)、[视觉审查](../evaluations/motion-suite-001/visual-review.md)。6个工程已重开，实际修改并恢复Order验证了参数可编辑性；无缺失素材，全部成片完整解码，逐帧延迟旋转和Z深度对照通过。

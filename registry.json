@@ -321,40 +321,46 @@
     },
     {
       "name": "ae-advanced-expressions",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "status": "candidate",
-      "execution_status": "two_course_units_native_suites_passed_with_visual_limits",
+      "execution_status": "three_course_units_with_native_evidence_and_explicit_candidate_limits",
       "path": "skills/after-effects/ae-advanced-expressions",
       "dependencies": [
         "After Effects AE26 Chinese Windows tested",
         "aerender",
         "FFmpeg",
         "Python3.10+",
-        "Pillow for independent PNG pixel validation"
+        "Pillow for independent PNG pixel validation",
+        "DM Sans Bold for p10 exact typography; bundled OFL font and optional Windows session loader"
       ],
       "plugins": [],
       "scenarios": [
         "seeded threshold multi-layer visibility",
         "random 3D point-control layout",
-        "independent X drift and editable manual position offset"
+        "independent X drift and editable manual position offset",
+        "editable decimal/binary string loops and paragraph layout"
       ],
       "sources": [
         {
           "id": "BV1Yh4y1A7XT",
           "parts": [
             8,
-            9
+            9,
+            10
           ]
         }
       ],
-      "evidence": "skills/after-effects/ae-advanced-expressions/tests/displacement-results.json",
+      "evidence": "evaluations/course-p10-probe-001/summary.json",
       "blockers": [
         "p08 course visual acceptance pending",
-        "fine-line/text PNG foreground readability not established"
+        "fine-line/text PNG foreground readability not established",
+        "p10 overall layout feedback pending",
+        "p10 only parameter variations; arbitrary alphabet/material generalization unverified"
       ],
       "evidence_by_unit": {
         "threshold": "evaluations/course-p08-suite-001/summary.json",
-        "displacement": "evaluations/course-p09-probe-001/summary.json"
+        "displacement": "evaluations/course-p09-probe-001/summary.json",
+        "number_sequences": "evaluations/course-p10-probe-001/summary.json"
       },
       "p09_latest_user_feedback": "挺好的; retain current version; prior needs-adjustment response preserved"
     }

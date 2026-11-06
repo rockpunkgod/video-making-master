@@ -19,6 +19,9 @@
     "samples/course-reproduction-005/p09-geometry-001",
     "samples/course-reproduction-005/p09-typography-001",
     "samples/course-reproduction-005/p09-texture-001",
+    "samples/course-reproduction-006/p10-decimal-binary-002",
+    "samples/course-reproduction-006/p10-variation-001",
+    "samples/course-reproduction-006/p10-single-digit-001",
     "samples/tracking-fixture-001/solve-calibrated-001/composite-001",
     "samples/tracking-fixture-001/solve-calibrated-001/composite-typography",
     "samples/tracking-gallery-001/solve-001/composite-pixel-sized",
@@ -157,6 +160,26 @@
       "path": "evaluations/course-p09-probe-001/summary.json",
       "bytes": 11008,
       "sha256": "e3b8308c166d108d1c9bd474602b4c71a7068d88704cb4425983b6a316346112"
+    },
+    {
+      "path": "evaluations/course-p10-probe-001/font-probe.json",
+      "bytes": 102,
+      "sha256": "a779f3491468cabb31edb6d20060d35506c2d15bf0efe6363748669ca1034380"
+    },
+    {
+      "path": "evaluations/course-p10-probe-001/font-probe.jsx",
+      "bytes": 477,
+      "sha256": "f25206bd8d185af56a07083dd5ebdf2769eda58e90425ef1b5e2c4554c8836ae"
+    },
+    {
+      "path": "evaluations/course-p10-probe-001/summary.json",
+      "bytes": 14231,
+      "sha256": "b1807e42ca675970c261b270976338eaffb44a276bc3a7fd978e78c1a8f84068"
+    },
+    {
+      "path": "evaluations/course-p10-probe-001/variants.json",
+      "bytes": 1021,
+      "sha256": "effad77a4db164bfa4307e2b76cc7f0fef9a68332c91265337c7a88b8f2622ad"
     },
     {
       "path": "evaluations/first-skill.json",
@@ -1529,6 +1552,111 @@
       "sha256": "fbfa93f8fd26767faf972ec1f34a046e6b115568039ee5a66cd5fac89d4c83ea"
     },
     {
+      "path": "samples/course-reproduction-006/p10-decimal-binary-002/build.jsx",
+      "bytes": 8281,
+      "sha256": "f20791b53916744da2e729b639cf3315cae0390798f90edf2d28fa6d0f268594"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-decimal-binary-002/final.mp4",
+      "bytes": 10284673,
+      "sha256": "cd47be4dd671ef89c001df495f4f29338ce14de2ba2bddc6f002e2acfc6adc15"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-decimal-binary-002/number-pixel-quality.json",
+      "bytes": 353,
+      "sha256": "24e1e86ddecaad00128b265921d2666c71cf54b29e769957999d892a4b0bc2b0"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-decimal-binary-002/project.aep",
+      "bytes": 139571,
+      "sha256": "b13f318dea1e5dfed92af3325a8b64bcbd972dffcf198f3a2c37b0b16483be2e"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-decimal-binary-002/quality.json",
+      "bytes": 759,
+      "sha256": "865adc194d37593c021b36ec509acca7ce3e1d9e7c7e389b596d09c7399f0060"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-decimal-binary-002/receipt.json",
+      "bytes": 1981,
+      "sha256": "3153375904d73e97a05a3b391a7fa35cc973c1f7bc69294a77fd08c5adee66e7"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-decimal-binary-002/request.json",
+      "bytes": 582,
+      "sha256": "5bc0d59dd32daee2e0de2b7c0ac94beef0967c93383e5796ecb31d7754305188"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-single-digit-001/build.jsx",
+      "bytes": 8273,
+      "sha256": "d633de14dc9d626b82a723563f1320817a0e948d5d90e439afe723cc2f0cd142"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-single-digit-001/final.mp4",
+      "bytes": 79476,
+      "sha256": "1839f7be4d17d28afdb009e0cc64fa2e8088b1f599dc0a84547132467575b03c"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-single-digit-001/number-pixel-quality.json",
+      "bytes": 348,
+      "sha256": "70b97d44e20ba25e46cd05da6926040fc1186414ab37291834dd1682f00f6af1"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-single-digit-001/project.aep",
+      "bytes": 139569,
+      "sha256": "19e9c9fb7b530eef5f6f6db61e1de59c69f8d0b4f463e665695e33812dc87710"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-single-digit-001/quality.json",
+      "bytes": 756,
+      "sha256": "74c22f9aef413c80a7c8e47ad75abdf0425066567450986037ab384a3a66110e"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-single-digit-001/receipt.json",
+      "bytes": 1365,
+      "sha256": "8697fa5fd3094a589eee7f9a4708f765059211973290cc969bb3bd6aa8840b3a"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-single-digit-001/request.json",
+      "bytes": 578,
+      "sha256": "15c517670981ebbf9a6d6fa43d2eb8af6698bddc39b0d879bd8626dc82ce15e9"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-variation-001/build.jsx",
+      "bytes": 8273,
+      "sha256": "4a8fa197198bbbefa3a89b3c5d4b3afd7e62df2276dac1c221a8c7d5a089d72d"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-variation-001/final.mp4",
+      "bytes": 9772717,
+      "sha256": "222de7618f657f5e772a82ff7f8c93971d980bb54f7eca4d970213a42e7e0284"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-variation-001/number-pixel-quality.json",
+      "bytes": 353,
+      "sha256": "25b87df6d1519b5ba2e5b70123662a6ef722727b27f56e28964f4ad8708af1c6"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-variation-001/project.aep",
+      "bytes": 139567,
+      "sha256": "ac50b708f60d460860ccbde429e19f2c9b1ffc694bd6d7671c7f36b848efff92"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-variation-001/quality.json",
+      "bytes": 754,
+      "sha256": "b58f4363cf55c9102b86a1d53110128db971cda91efb4450b77799a2490a2e85"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-variation-001/receipt.json",
+      "bytes": 1830,
+      "sha256": "218b4ecef9f37ad39a0a8aba23654aaa20c55ea6cc2b95ba84f710828546ff04"
+    },
+    {
+      "path": "samples/course-reproduction-006/p10-variation-001/request.json",
+      "bytes": 581,
+      "sha256": "f54f56fbb702a35f5858523571c10453953b4ed6f30645049efb9eae86ac09fa"
+    },
+    {
       "path": "samples/pr-sound-suite-002/baseline/assets.json",
       "bytes": 1551,
       "sha256": "dcd7e880bab69ec1f2a71434a5c25ef1caa6e3606553c442106e55ab54740d1d"
@@ -2158,5 +2286,5 @@
     "repeated native audio/video exports"
   ],
   "portability": "Native projects retain original Windows media paths. Rebuild from the bundled scripts or relink the bundled inputs/assets; historical report references may point to local-only artifacts.",
-  "total_selected_bytes": 306388084
+  "total_selected_bytes": 326994555
 }

@@ -1,0 +1,23 @@
+{
+  "reason": "Exact DM Sans Bold visibly used in p10 course; native AE/system checks found none; no ASR/model changes",
+  "upstream": "googlefonts/dm-fonts",
+  "revision": "4412393b7d2de9fe7a92064c2dce9b5af5d7fd26",
+  "license": "SIL OFL 1.1; retain OFL.txt and LICENSE.txt",
+  "files": {
+    "DMSans-Bold.ttf": {
+      "url": "https://raw.githubusercontent.com/googlefonts/dm-fonts/4412393b7d2de9fe7a92064c2dce9b5af5d7fd26/Sans/Exports/DMSans-Bold.ttf",
+      "bytes": 73452,
+      "sha256": "9d801f8a966a9860a9fd2921a54362a7d7058c7821e2cafc7f75ed055884a034"
+    },
+    "OFL.txt": {
+      "url": "https://raw.githubusercontent.com/googlefonts/dm-fonts/4412393b7d2de9fe7a92064c2dce9b5af5d7fd26/Sans/OFL.txt",
+      "bytes": 4482,
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    "LICENSE.txt": {
+      "url": "https://raw.githubusercontent.com/googlefonts/dm-fonts/4412393b7d2de9fe7a92064c2dce9b5af5d7fd26/Sans/LICENSE.txt",
+      "bytes": 4493,
+      "sha256": "e14588e37145ecc0350c4cc1e96452497b63e4df8413a3d3517548eb26efa8a5"
+    }
+  }
+}

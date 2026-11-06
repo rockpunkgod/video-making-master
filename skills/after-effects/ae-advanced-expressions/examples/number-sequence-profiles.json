@@ -1,0 +1,10 @@
+{
+  "status": "candidate",
+  "course": {"seed": 201, "num": 262, "columns": 30},
+  "variation": {"seed": 55, "num": 180, "columns": 20},
+  "boundary": {"seed": 77, "num": 1, "columns": 1},
+  "font": "DMSans-Bold 35px",
+  "fixed_profile": {"width": 1080, "height": 1080, "fps": 30, "duration": 5},
+  "expected": "Two editable paragraph text layers, decimal and binary; seedRandom(seed+i) runs for each digit without timeless=true, so text is re-evaluated each frame",
+  "not_claimed": "Three configurations do not prove adaptation to three external images or arbitrary alphabets"
+}

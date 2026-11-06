@@ -1,0 +1,16 @@
+{
+  "name": "COURSE_P10_NUMBER_SEQUENCES",
+  "width": 1080,
+  "height": 1080,
+  "fps": 30,
+  "duration": 5,
+  "seed": 55,
+  "num": 180,
+  "columns": 20,
+  "font": "DMSans-Bold",
+  "font_size": 35,
+  "source": "BV1Yh4y1A7XT?p=10 09:32 complete decimal loop, 10:50 binary variant",
+  "status": "candidate",
+  "observed": "seed201,num262,columns30,DM Sans Bold35,1080square30fps5s16bpc; loop seedRandom(seed+i) without true",
+  "inferred": "Paragraph boxes [980,420], positions [60,120]/[60,600], gray224 inferred from recorded viewport, not source property readouts"
+}
