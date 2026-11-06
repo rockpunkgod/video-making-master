@@ -402,9 +402,9 @@
     },
     {
       "name": "ae-advanced-compositing",
-      "version": "0.1.6",
+      "version": "0.1.7",
       "status": "candidate",
-      "execution_status": "native_p13_p15_assembly_candidates_and_p16_core_noise_components",
+      "execution_status": "native_p13_p15_and_p16_styled_assembly_candidates",
       "path": "skills/after-effects/ae-advanced-compositing",
       "dependencies": [
         "After Effects26.0x67 tested",
@@ -422,7 +422,8 @@
         "Course15 spatial noise streak reconstruction; exact Scale handling unverified",
         "Course15 native11-layer rough assembly with unresolved title projection",
         "Course16 dynamic hollow shell: animated alpha matte, equation rig, Tritone/CC Vector Blur/CC Lens",
-        "Course16 editable Colorama/Glow noise styling component with course fade"
+        "Course16 editable Colorama/Glow noise styling component with course fade",
+        "Course16 native Colorama/Screen/FindEdges/black-key assembly, linked fades and white contour depth animation"
       ],
       "sources": [
         {
@@ -436,14 +437,15 @@
       ],
       "evidence": "evaluations/course-p13-probe-001/summary.json",
       "blockers": [
-        "Course13 is unfinished rough layout with blank tail, later styling not made",
+        "Course13 rough layout retained; P16 styling partly implemented, complete film unresolved",
         "Exact source key timing and final dot count inferred",
         "No overall human review; three PNG inputs do not prove text readability or arbitrary materials",
         "P15 radial/polar/streaks lack three-material generalization; assembly candidate has unresolved title projection",
         "P15 streak Position base0 and constant Scale reconstruction not confirmed as source operations",
         "P15 title behind inherited camera on all active frames197–317; no completed-film acceptance",
-        "P16 core exact curves and three-material generalization unverified; rest of styling pending",
-        "P16 noise component technical checks pass; palette/fade inferred and camera/full-assembly visual alignment unresolved"
+        "P16 exact camera/curves, title projection, full-sequence review and three-material generalization remain unverified",
+        "P16 noise component technical checks pass; palette/fade inferred and camera/full-assembly visual alignment unresolved",
+        "P16 styled assembly technical gates pass; estimated mask/palette/key timing, gray streaks/red lines and missing human review keep candidate"
       ],
       "additional_evidence": [
         "evaluations/course-p15-radial-001/summary.json",
@@ -451,7 +453,8 @@
         "evaluations/course-p15-streaks-001/summary.json",
         "evaluations/course-p15-assembly-001/summary.json",
         "evaluations/course-p16-core-001/summary.json",
-        "evaluations/course-p16-noise-style-001/summary.json"
+        "evaluations/course-p16-noise-style-001/summary.json",
+        "evaluations/course-p16-styled-assembly-001/summary.json"
       ],
       "human_reviews": [
         {

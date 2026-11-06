@@ -81,3 +81,5 @@ python tools/environment_probe.py
 第16节动态核心已按渐变描边/动画Alpha Matte/控制器关键帧/Tritone→CC Vector Blur→CC Lens真实制作，保留100层可编辑基线及80层/speed65独立调用变体，各151帧。基线001用户反馈“整体符合，可以保留”；精确缓动及三素材尚缺，Skill仍candidate。后半节整体调色、圆环混合与转场仍在处理，未替代完整片头验收。详见skills/after-effects/ae-advanced-compositing/references/course-core.md。
 
 第16节噪波调色新增4秒可编辑组件基线与发光变化版：原生Colorama→Glow，96帧解码及7原生PNG、每帧淡出和编辑重开恢复通过。仅组件技术检查，前段空黑、近似相机和未完成总装仍待处理，未通过课程视觉验收，ae-advanced-compositing0.1.6为candidate。详见evaluations/course-p16-noise-style-001/summary.json。
+
+第16节总装新增p16-style-003与圆环发光0.7变体，保留原生Colorama白标、Screen/FindEdges黑键、Hue315/-37、三层淡出联动及白色隧道深度；各480帧、14个原生检查图与编辑重开通过。仍有后段条带/线条、标题和课程视觉/三素材未验，ae-advanced-compositing0.1.7保持candidate，见evaluations/course-p16-styled-assembly-001/summary.json。

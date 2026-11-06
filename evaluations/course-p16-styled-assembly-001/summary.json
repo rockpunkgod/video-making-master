@@ -1,0 +1,194 @@
+{
+  "status": "candidate_native_p16_styled_assembly",
+  "date": "2026-11-06",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=16",
+  "source_interval": "06:30–19:44",
+  "cases": [
+    {
+      "case": "p16-style-003",
+      "directory": "samples/course-reproduction-017/p16-style-003",
+      "project_sha256": "a17d9dd566513552d1879038ce03d494d29df5b26504c1bd983b70613f0e45f9",
+      "video_sha256": "053170f586ade010e2a37d29c7ccfcc869033a17288cfc1cebf979686bbba4fe",
+      "frames": 480,
+      "technical_status": "passed",
+      "native_checks": {
+        "project_reopened": true,
+        "expression_errors": true,
+        "no_external_media": true,
+        "frame_coverage": true,
+        "layer_order": true,
+        "core_source": true,
+        "core_self_opacity": true,
+        "fade_links": true,
+        "linked_fade_error": true,
+        "fade_trace_lengths": true,
+        "noise_scale": true,
+        "polar_layer_count": true,
+        "polar_screen": true,
+        "polar_find_edges": true,
+        "polar_external_chain": true,
+        "polar_black_key": true,
+        "polar_depth": true,
+        "polar_start": true,
+        "polar_glow_threshold": true,
+        "polar_glow_radius": true,
+        "polar_glow_intensity": true,
+        "native_edit": true,
+        "radial_hue": true,
+        "radial_lightness": true,
+        "radial_feather": true,
+        "radial_expansion": true,
+        "contour_effect_chain": true,
+        "contour_white_fill": true,
+        "contour_internal_red_preserved": true,
+        "contour_glow": true,
+        "contour_time_offset": true,
+        "contour_z_keys": true,
+        "contour_trim_keys": true,
+        "contour_z_monotonic": true,
+        "contour_frame_coverage": true,
+        "contour_incoming_ease": true,
+        "native_render_checkpoints": true
+      },
+      "max_checkpoint_luma_error": 7.159027777777778,
+      "native_glow_edit": {
+        "original": 20,
+        "changed": 21,
+        "restored": 20
+      },
+      "radial_style": {
+        "hue": 315,
+        "lightness": -37,
+        "before_channel_refresh": [
+          0,
+          0
+        ],
+        "feather": [
+          114,
+          114
+        ],
+        "expansion": -33
+      },
+      "linked_fade_error": 1.4210854715202e-14,
+      "unresolved_title_behind_camera_frame_count": 121,
+      "visual_review": "All14 native checkpoint images actually viewed in chronological contact sheets. Opening cyan core/noise/polar stages visible, white contour depth evolves; gray streaks and red lines remain in later stage.",
+      "human_review": "not_requested_until_course_reference_playback_alignment"
+    },
+    {
+      "case": "p16-style-variation-001",
+      "directory": "samples/course-reproduction-017/p16-style-variation-001",
+      "project_sha256": "a32305035d744b1b1c3102ab53a6b96ebc24f587d675f3d7a236a634e1615849",
+      "video_sha256": "961aa4f05bb5b6ddff374c025288d83b7d51fef390dd4d31ea8ba968036f714b",
+      "frames": 480,
+      "technical_status": "passed",
+      "native_checks": {
+        "project_reopened": true,
+        "expression_errors": true,
+        "no_external_media": true,
+        "frame_coverage": true,
+        "layer_order": true,
+        "core_source": true,
+        "core_self_opacity": true,
+        "fade_links": true,
+        "linked_fade_error": true,
+        "fade_trace_lengths": true,
+        "noise_scale": true,
+        "polar_layer_count": true,
+        "polar_screen": true,
+        "polar_find_edges": true,
+        "polar_external_chain": true,
+        "polar_black_key": true,
+        "polar_depth": true,
+        "polar_start": true,
+        "polar_glow_threshold": true,
+        "polar_glow_radius": true,
+        "polar_glow_intensity": true,
+        "native_edit": true,
+        "radial_hue": true,
+        "radial_lightness": true,
+        "radial_feather": true,
+        "radial_expansion": true,
+        "contour_effect_chain": true,
+        "contour_white_fill": true,
+        "contour_internal_red_preserved": true,
+        "contour_glow": true,
+        "contour_time_offset": true,
+        "contour_z_keys": true,
+        "contour_trim_keys": true,
+        "contour_z_monotonic": true,
+        "contour_frame_coverage": true,
+        "contour_incoming_ease": true,
+        "native_render_checkpoints": true
+      },
+      "max_checkpoint_luma_error": 7.165694444444444,
+      "native_glow_edit": {
+        "original": 20,
+        "changed": 21,
+        "restored": 20
+      },
+      "radial_style": {
+        "hue": 315,
+        "lightness": -37,
+        "before_channel_refresh": [
+          0,
+          0
+        ],
+        "feather": [
+          114,
+          114
+        ],
+        "expansion": -33
+      },
+      "linked_fade_error": 1.4210854715202e-14,
+      "unresolved_title_behind_camera_frame_count": 121,
+      "visual_review": "All14 native checkpoint images actually viewed in chronological contact sheets. Opening cyan core/noise/polar stages visible, white contour depth evolves; gray streaks and red lines remain in later stage.",
+      "human_review": "not_requested_until_course_reference_playback_alignment"
+    }
+  ],
+  "inputs": "Four packaged self-made native AEP inputs; no external footage after actual dependency audit",
+  "independent_invocation": "0.7 polar glow variation built/rendered from isolated copied Skill tree",
+  "course_fidelity": {
+    "observed": "Screen/FindEdgesInvert/black key, native fourth white Colorama stop, Glow5%/20/1, Hue315/Lightness-37, opacity links and outer white Fill/Glow60%/10/1",
+    "inferred": "Mask ellipse, palette angle/purple color, fade and controller key positions and easing influence; inherited camera and random identities",
+    "unverified": "Exact continuous reference alignment, three materials, full film and title projection"
+  },
+  "tests": {
+    "basic_reproduction": "native_p16_stage_built_visual_equivalence_not_accepted",
+    "parameter_variation": "passed_polar_glow0.7",
+    "three_materials": "not_run",
+    "technical": "passed",
+    "subjective": "not_accepted"
+  },
+  "host_behavior": {
+    "hue_saturation_refresh": {
+      "before": [
+        0,
+        0
+      ],
+      "after": [
+        315,
+        -37
+      ]
+    },
+    "source_hue_correction": "Enlarged15:28 crop confirms315.0; temporary31.5 interpretation rejected",
+    "implementation": "Cycle ChannelControl2→1 before reading saved master Hue/Lightness"
+  },
+  "history": [
+    {
+      "case": "p16-style-001",
+      "status": "discarded",
+      "reason": "Incorrect31.5 source reading; native GUI showed31.0. Post-reopen API initially read0/0; channel refresh exposed real saved values."
+    },
+    {
+      "case": "p16-style-002",
+      "status": "superseded",
+      "reason": "Correct315/-37 and core/polar links passed480-frame render checks, before adding final-course contour styling"
+    }
+  ],
+  "remaining": [
+    "Learn course17 continuation and fix remaining sequence using shown operations",
+    "Resolve title/camera by course evidence",
+    "Align genuine source playback before human review",
+    "Complete three-material tests and composition quality validation"
+  ]
+}

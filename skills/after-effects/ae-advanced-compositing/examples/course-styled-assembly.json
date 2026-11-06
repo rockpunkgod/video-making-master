@@ -1,0 +1,92 @@
+{
+  "name": "COURSE_P16_STYLED_ASSEMBLY",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "duration": 20,
+  "motion_expectation": "required",
+  "status": "candidate",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=16",
+  "inputs": {
+    "main": {
+      "project": "style-inputs/main.aep",
+      "composition": "COURSE_P15_ASSEMBLY",
+      "sha256": "bfc815e6d4c1fd03ea30b0116c524335b8dc3d4f5dbf0d8c3e3a83a80af5cc3b"
+    },
+    "core": {
+      "project": "style-inputs/core.aep",
+      "composition": "COURSE_P16_CORE",
+      "sha256": "4d3bf6d691703cf948684fffa8f2dd477d76838e588feebf9d29985780541dc8"
+    },
+    "noise": {
+      "project": "style-inputs/noise.aep",
+      "composition": "COURSE_P16_NOISE_STYLE",
+      "sha256": "c272900859804f6446706f245d6684be453d16aabe80ad244e1bc4bf45ecaeb7"
+    },
+    "palette": {
+      "project": "../assets/course-p16-colorama-polar-template.aep",
+      "composition": "P16_COLORAMA_POLAR_TEMPLATE",
+      "sha256": "a7eb621f70e3143670b31e73f1b25a1ed129e7d1d8a1bcdee96846193abcd2c8"
+    }
+  },
+  "polar_glow_intensity": 1,
+  "polar_start_frame": 80,
+  "core_fade_frames": [
+    34,
+    43
+  ],
+  "radial_hue": 315,
+  "radial_lightness": -37,
+  "radial_mask_radii": [
+    520,
+    300
+  ],
+  "radial_feather": 114,
+  "radial_expansion": -33,
+  "checkpoints": [
+    0,
+    24,
+    30,
+    39,
+    48,
+    60,
+    80,
+    92,
+    114,
+    132,
+    144,
+    168,
+    216,
+    479
+  ],
+  "provenance": {
+    "observed": [
+      "14:00 six polar layers use Screen and FractalNoise/PolarCoordinates/FindEdgesInvert",
+      "15:10 black key/Colorama/Glow5%/20/1;15:20 extra white palette stop lower right",
+      "15:28 enlarged source crop confirms radial Hue315.0/Lightness-37;31.5 was a reading error",
+      "08:30 radial feather114/expansion-33",
+      "16:40 core opacity transform.opacity; dots references core;16:50 radial references core",
+      "16:20 order camera/title/core/dots/radial/noise/polar/contours/streaks/lines/background",
+      "17:34 Fill white outside contour precomp, source internal stroke remains red",
+      "19:24 outer Glow60%/10/1",
+      "18:23 Easy Ease In;18:45 TimeOffset1 and Z spacing1300 after2600 trial"
+    ],
+    "inferred": [
+      "Core fade frames34\u201343 estimated; exact curve not exposed",
+      "Polar start frame80 estimated; Z-7000 from13:30",
+      "Hand-drawn radial mask approximated as ellipse radius520/300 in source coordinates",
+      "Palette white position around0.36; purple#5500FF inherited estimate",
+      "Inherited approximate camera and prior random identities",
+      "Contour Z0\u21921300 ends at approximately frame90, Trimpath0\u2192100 endpoint approximately39 at30fps; exact easing influence33.333333 rebuilt, source value not shown"
+    ],
+    "unverified": [
+      "Exact camera curves, playback synchronization and title projection unresolved",
+      "Three materials and human course-equivalence review not completed",
+      "Course17 continuation and full film unresolved; gray streaks retain P15 stage"
+    ]
+  },
+  "contour_time_offset": 1,
+  "contour_z_spacing": 1300,
+  "contour_z_end_frame": 90,
+  "contour_trim_end_frame": 39
+}

@@ -10,6 +10,8 @@ def check_output(root,cfg):
     report=validate(root/'final.mp4',cfg)
     if cfg.get('name') == 'COURSE_P15_ASSEMBLY':
         from validate_assembly import validate as validate_branch
+    elif cfg.get('name') == 'COURSE_P16_STYLED_ASSEMBLY':
+        from validate_styled_assembly import validate as validate_branch
     elif cfg.get('name') in {'P15_RADIAL', 'COURSE_P15_POLAR', 'COURSE_P15_STREAKS', 'COURSE_P16_CORE', 'COURSE_P16_NOISE_STYLE'}:
         from validate_radial import validate as validate_branch
     else:

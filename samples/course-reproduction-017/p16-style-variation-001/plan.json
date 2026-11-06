@@ -1,0 +1,38 @@
+{
+  "skill": "ae-advanced-compositing",
+  "branch": "course16-styled-assembly",
+  "status": "candidate",
+  "steps": [
+    "Import own assembly, accepted core and styled noise",
+    "Apply native polar palette, black key, Screen and Find Edges",
+    "Style radial and link opacity to core",
+    "Edit/reopen/restore Glow",
+    "Inspect native frame traces, render and compare"
+  ],
+  "provenance": {
+    "observed": [
+      "14:00 six polar layers use Screen and FractalNoise/PolarCoordinates/FindEdgesInvert",
+      "15:10 black key/Colorama/Glow5%/20/1;15:20 extra white palette stop lower right",
+      "15:28 enlarged source crop confirms radial Hue315.0/Lightness-37;31.5 was a reading error",
+      "08:30 radial feather114/expansion-33",
+      "16:40 core opacity transform.opacity; dots references core;16:50 radial references core",
+      "16:20 order camera/title/core/dots/radial/noise/polar/contours/streaks/lines/background",
+      "17:34 Fill white outside contour precomp, source internal stroke remains red",
+      "19:24 outer Glow60%/10/1",
+      "18:23 Easy Ease In;18:45 TimeOffset1 and Z spacing1300 after2600 trial"
+    ],
+    "inferred": [
+      "Core fade frames34\u201343 estimated; exact curve not exposed",
+      "Polar start frame80 estimated; Z-7000 from13:30",
+      "Hand-drawn radial mask approximated as ellipse radius520/300 in source coordinates",
+      "Palette white position around0.36; purple#5500FF inherited estimate",
+      "Inherited approximate camera and prior random identities",
+      "Contour Z0\u21921300 ends at approximately frame90, Trimpath0\u2192100 endpoint approximately39 at30fps; exact easing influence33.333333 rebuilt, source value not shown"
+    ],
+    "unverified": [
+      "Exact camera curves, playback synchronization and title projection unresolved",
+      "Three materials and human course-equivalence review not completed",
+      "Course17 continuation and full film unresolved; gray streaks retain P15 stage"
+    ]
+  }
+}

@@ -101,3 +101,5 @@ AE恢复后，从最新模板生成新运行目录，执行构建、原生工程
 脚本入口采用[Adobe官方说明的AfterFX -r调用](https://helpx.adobe.com/after-effects/desktop/automate-in-after-effects/automate-animation/scripts.html)，没有假定PR具有同样的脚本入口。新发布的AE UXP文档标注27.0，本机是26.0，因此未据此宣称本机支持UXP接口。
 
 第16节噪波调色新增4秒可编辑组件基线与发光变化版：原生Colorama→Glow，96帧解码及7原生PNG、每帧淡出和编辑重开恢复通过。仅组件技术检查，前段空黑、近似相机和未完成总装仍待处理，未通过课程视觉验收，ae-advanced-compositing0.1.6为candidate。详见evaluations/course-p16-noise-style-001/summary.json。
+
+第16节总装新增p16-style-003与圆环发光0.7变体，保留原生Colorama白标、Screen/FindEdges黑键、Hue315/-37、三层淡出联动及白色隧道深度；各480帧、14个原生检查图与编辑重开通过。仍有后段条带/线条、标题和课程视觉/三素材未验，ae-advanced-compositing0.1.7保持candidate，见evaluations/course-p16-styled-assembly-001/summary.json。

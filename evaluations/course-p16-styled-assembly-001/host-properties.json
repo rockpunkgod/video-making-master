@@ -1,0 +1,79 @@
+{
+  "find_edges": [
+    {
+      "match": "ADBE Find Edges",
+      "properties": [
+        {
+          "name": "反转",
+          "match": "ADBE Find Edges-0001",
+          "value": 0
+        },
+        {
+          "name": "与原始图像混合",
+          "match": "ADBE Find Edges-0002",
+          "value": 0
+        },
+        {
+          "name": "合成选项",
+          "match": "ADBE Effect Built In Params"
+        }
+      ]
+    }
+  ],
+  "fill": [
+    {
+      "name": "填充蒙版",
+      "match": "ADBE Fill-0001",
+      "value": 0
+    },
+    {
+      "name": "所有蒙版",
+      "match": "ADBE Fill-0007",
+      "value": 0
+    },
+    {
+      "name": "颜色",
+      "match": "ADBE Fill-0002",
+      "value": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "反转",
+      "match": "ADBE Fill-0006",
+      "value": 0
+    },
+    {
+      "name": "水平羽化",
+      "match": "ADBE Fill-0003",
+      "value": 0
+    },
+    {
+      "name": "垂直羽化",
+      "match": "ADBE Fill-0004",
+      "value": 0
+    },
+    {
+      "name": "不透明度",
+      "match": "ADBE Fill-0005",
+      "value": 1
+    },
+    {
+      "name": "合成选项",
+      "match": "ADBE Effect Built In Params"
+    }
+  ],
+  "hue_refresh": {
+    "before": [
+      0,
+      0
+    ],
+    "after": [
+      315,
+      -37
+    ]
+  }
+}
