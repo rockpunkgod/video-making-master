@@ -1,0 +1,199 @@
+{
+  "status": "planned",
+  "scopes": [
+    "cache",
+    "samples/course-reproduction-013"
+  ],
+  "published_commit": "b7ce86a53bcd73c2709ef6c19bd1f015fbea3331",
+  "manifest_sha256": "c5517a30e7ab941afcee8cfeeed3e2e62ca54ba8f346d675ce05686abffca120",
+  "files": 44,
+  "bytes": 5890466,
+  "keep_active": [
+    "cache/course-hires/BV1Yh4y1A7XT-p13-1080.mp4",
+    "cache/course-hires/BV1Yh4y1A7XT-p15-1080.mp4",
+    "cache/local-transcripts/BV1Yh4y1A7XT-p15-full-001/transcript.json",
+    "cache/reviews/p15-polar-original-vs-003/comparison.mp4",
+    "cache/watch/watch-z3iierxa/download/run-nv1kht5f/video.mp4"
+  ],
+  "protected_delivery_files": 617,
+  "skipped_links": [],
+  "targets": [
+    {
+      "path": "cache/p15-streaks-contact.png",
+      "bytes": 10185
+    },
+    {
+      "path": "cache/p15-streaks-isolated-skill-001/examples/course-streaks.json",
+      "bytes": 632
+    },
+    {
+      "path": "cache/p15-streaks-isolated-skill-001/examples/inputs/noise.aep",
+      "bytes": 527085
+    },
+    {
+      "path": "cache/p15-streaks-isolated-skill-001/scripts/__pycache__/validate_radial.cpython-313.pyc",
+      "bytes": 5169
+    },
+    {
+      "path": "cache/p15-streaks-isolated-skill-001/scripts/__pycache__/validate_video.cpython-313.pyc",
+      "bytes": 8553
+    },
+    {
+      "path": "cache/p15-streaks-isolated-skill-001/scripts/build_streaks.py",
+      "bytes": 2760
+    },
+    {
+      "path": "cache/p15-streaks-isolated-skill-001/scripts/json_encode_adobe.jsx",
+      "bytes": 1080
+    },
+    {
+      "path": "cache/p15-streaks-isolated-skill-001/scripts/render_ae.py",
+      "bytes": 3609
+    },
+    {
+      "path": "cache/p15-streaks-isolated-skill-001/scripts/run_ae.py",
+      "bytes": 2350
+    },
+    {
+      "path": "cache/p15-streaks-isolated-skill-001/scripts/streaks.jsx",
+      "bytes": 7045
+    },
+    {
+      "path": "cache/p15-streaks-isolated-skill-001/scripts/validate_radial.py",
+      "bytes": 3187
+    },
+    {
+      "path": "cache/p15-streaks-isolated-skill-001/scripts/validate_video.py",
+      "bytes": 4570
+    },
+    {
+      "path": "cache/watch/watch-2mgr55_g/frames/cue_0000.jpg",
+      "bytes": 176600
+    },
+    {
+      "path": "cache/watch/watch-2mgr55_g/frames/cue_0001.jpg",
+      "bytes": 177522
+    },
+    {
+      "path": "cache/watch/watch-2mgr55_g/frames/cue_0002.jpg",
+      "bytes": 189144
+    },
+    {
+      "path": "cache/watch/watch-2mgr55_g/frames/cue_0003.jpg",
+      "bytes": 192780
+    },
+    {
+      "path": "cache/watch/watch-2mgr55_g/frames/cue_0004.jpg",
+      "bytes": 200320
+    },
+    {
+      "path": "cache/watch/watch-2mgr55_g/frames/cue_0005.jpg",
+      "bytes": 193367
+    },
+    {
+      "path": "cache/watch/watch-2mgr55_g/frames/cue_0006.jpg",
+      "bytes": 183443
+    },
+    {
+      "path": "cache/watch/watch-2mgr55_g/frames/cue_0007.jpg",
+      "bytes": 168483
+    },
+    {
+      "path": "cache/watch/watch-bchg0id0/frames/cue_0000.jpg",
+      "bytes": 156297
+    },
+    {
+      "path": "cache/watch/watch-bchg0id0/frames/cue_0001.jpg",
+      "bytes": 156641
+    },
+    {
+      "path": "cache/watch/watch-bchg0id0/frames/cue_0002.jpg",
+      "bytes": 182267
+    },
+    {
+      "path": "cache/watch/watch-bchg0id0/frames/cue_0003.jpg",
+      "bytes": 198112
+    },
+    {
+      "path": "cache/watch/watch-bx_2jlwq/frames/cue_0000.jpg",
+      "bytes": 220480
+    },
+    {
+      "path": "cache/watch/watch-bx_2jlwq/frames/cue_0001.jpg",
+      "bytes": 222179
+    },
+    {
+      "path": "cache/watch/watch-bx_2jlwq/frames/cue_0002.jpg",
+      "bytes": 187908
+    },
+    {
+      "path": "cache/watch/watch-bx_2jlwq/frames/cue_0003.jpg",
+      "bytes": 187886
+    },
+    {
+      "path": "cache/watch/watch-szc43b1r/frames/cue_0000.jpg",
+      "bytes": 242583
+    },
+    {
+      "path": "cache/watch/watch-szc43b1r/frames/cue_0001.jpg",
+      "bytes": 197287
+    },
+    {
+      "path": "cache/watch/watch-szc43b1r/frames/cue_0002.jpg",
+      "bytes": 189546
+    },
+    {
+      "path": "cache/watch/watch-szc43b1r/frames/cue_0003.jpg",
+      "bytes": 188459
+    },
+    {
+      "path": "cache/watch/watch-szc43b1r/frames/cue_0004.jpg",
+      "bytes": 200261
+    },
+    {
+      "path": "cache/watch/watch-szc43b1r/frames/cue_0005.jpg",
+      "bytes": 165465
+    },
+    {
+      "path": "cache/watch/watch-szc43b1r/frames/cue_0006.jpg",
+      "bytes": 198564
+    },
+    {
+      "path": "cache/watch/watch-szc43b1r/frames/cue_0007.jpg",
+      "bytes": 75027
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-001/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 440545
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-001/aerender.log",
+      "bytes": 8293
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-001/build.jsx",
+      "bytes": 8912
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-001/project.aep 日志/AE 2026-11-6 19-43-19.txt",
+      "bytes": 6452
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-variation-001/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 375779
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-variation-001/aerender.log",
+      "bytes": 8268
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-variation-001/build.jsx",
+      "bytes": 8935
+    },
+    {
+      "path": "samples/course-reproduction-013/p15-streaks-variation-001/project.aep 日志/AE 2026-11-6 19-50-10.txt",
+      "bytes": 6436
+    }
+  ],
+  "authorization": "User requested keeping only deliverables after library publication; scope restricted to this independent lab"
+}

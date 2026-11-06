@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "delivery_files_verified": 857,
+  "changed_delivery_files": [],
+  "deleted_files": 46,
+  "deleted_bytes": 5904204,
+  "owned_bytecode_deleted": [
+    {
+      "path": "skills/after-effects/ae-advanced-compositing/scripts/__pycache__/validate_radial.cpython-313.pyc",
+      "bytes": 5177
+    },
+    {
+      "path": "skills/after-effects/ae-advanced-compositing/scripts/__pycache__/validate_video.cpython-313.pyc",
+      "bytes": 8561
+    }
+  ],
+  "retained_active_inputs": [
+    "cache/course-hires/BV1Yh4y1A7XT-p13-1080.mp4",
+    "cache/course-hires/BV1Yh4y1A7XT-p15-1080.mp4",
+    "cache/local-transcripts/BV1Yh4y1A7XT-p15-full-001/transcript.json",
+    "cache/reviews/p15-polar-original-vs-003/comparison.mp4",
+    "cache/watch/watch-z3iierxa/download/run-nv1kht5f/video.mp4"
+  ],
+  "new_native_external_dependencies": 0,
+  "scope": "Two native streak cases with explicit source-code inference limits; main assembly unfinished",
+  "overall_project_complete": false
+}
