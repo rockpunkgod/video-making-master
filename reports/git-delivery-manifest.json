@@ -1,6 +1,10 @@
 {
   "scope": "Standalone video-skills-lab progress snapshot; overall curriculum incomplete",
   "cases": [
+    "samples/course-reproduction-010/p13-baseline-004",
+    "samples/course-reproduction-010/p13-geometry-001",
+    "samples/course-reproduction-010/p13-typography-001",
+    "samples/course-reproduction-010/p13-texture-001",
     "samples/course-reproduction-009/p14-baseline-002",
     "samples/course-reproduction-009/p14-algorithm-001",
     "samples/course-reproduction-009/p14-motion2026-001",
@@ -10,7 +14,6 @@
     "samples/course-generalization-001/geometry",
     "samples/course-generalization-001/typography",
     "samples/course-generalization-001/texture",
-    "samples/course-reproduction-003/p07-blocks-002",
     "samples/course-reproduction-003/p07-tint-001",
     "samples/course-reproduction-003/p07-seed7-isolated-001",
     "samples/course-reproduction-004/p08-disappear-001",
@@ -23,13 +26,6 @@
     "samples/course-reproduction-005/p09-geometry-001",
     "samples/course-reproduction-005/p09-typography-001",
     "samples/course-reproduction-005/p09-texture-001",
-    "samples/course-reproduction-006/p10-decimal-binary-002",
-    "samples/course-reproduction-006/p10-variation-001",
-    "samples/course-reproduction-006/p10-single-digit-001",
-    "samples/course-reproduction-006/p10-decimal-binary-003",
-    "samples/course-reproduction-006/p10-variation-002",
-    "samples/course-reproduction-006/p10-single-digit-002",
-    "samples/course-reproduction-006/p10-controls-animation-005",
     "samples/course-reproduction-006/p10-reference-replay-006",
     "samples/course-reproduction-006/p10-reference-variation-001",
     "samples/course-reproduction-006/p10-reference-standalone-001",
@@ -47,7 +43,8 @@
     "samples/tracking-corridor-001/solve-calibrated-001/composite-pixel-sized",
     "samples/pr-sound-suite-002/baseline",
     "samples/pr-sound-suite-002/variation",
-    "samples/pr-sound-suite-002/reveal"
+    "samples/pr-sound-suite-002/reveal",
+    "samples/pr-sound-suite-001/baseline-soft-transitions-001"
   ],
   "files": [
     {
@@ -319,6 +316,81 @@
       "path": "evaluations/course-p12-probe-001/symmetry-pixel-center-negative-control.json",
       "bytes": 606,
       "sha256": "039a042624a3db530620ef1f1c9224ccef8438cc6abef952becbd34e463198a4"
+    },
+    {
+      "path": "evaluations/course-p13-probe-001/camera-negative-control.json",
+      "bytes": 46559,
+      "sha256": "3342e31719948657ebacf7037aa60cbcfa9ed194ae2a446a0e57e4cef58e9415"
+    },
+    {
+      "path": "evaluations/course-p13-probe-001/isolated-inputs.json",
+      "bytes": 4506,
+      "sha256": "40c7f34a7e2356e86001652bfbbd24532fcece4cef6bf76f8abb8fccf02669cc"
+    },
+    {
+      "path": "evaluations/course-p13-probe-001/native-camera-key-audit.json",
+      "bytes": 2732,
+      "sha256": "9f26919d9fb1a4208a7f54bceeae8abe6a274f6c6f490bf9ea0368e33aee892c"
+    },
+    {
+      "path": "evaluations/course-p13-probe-001/native-camera-key-audit.jsx",
+      "bytes": 2814,
+      "sha256": "d201354cd2b023e968684f6337b600daba83b040e911b686e90200e45dbafd6b"
+    },
+    {
+      "path": "evaluations/course-p13-probe-001/native-camera-precision.json",
+      "bytes": 3687,
+      "sha256": "38a4553821e95c258f977df8cd372e345317d3c23b26eaceff55d87a42b9058b"
+    },
+    {
+      "path": "evaluations/course-p13-probe-001/native-camera-precision.jsx",
+      "bytes": 3520,
+      "sha256": "6d4ce6eec1a4a64c8ec72502873cc486e151baa8f2c2dc06685a67a5bff56309"
+    },
+    {
+      "path": "evaluations/course-p13-probe-001/native-host-properties.json",
+      "bytes": 5406,
+      "sha256": "26aea481b53468f073ce4d1697e1a57cbc4ffcead6ca11834f406e1d4621f662"
+    },
+    {
+      "path": "evaluations/course-p13-probe-001/native-host-properties.jsx",
+      "bytes": 4619,
+      "sha256": "5f8e3b165687b64c6bf39625173dbca44a530cd4fbb986e5567bc843a4d543b7"
+    },
+    {
+      "path": "evaluations/course-p13-probe-001/rejected-global-import-index.json",
+      "bytes": 122,
+      "sha256": "89025b786f1ca439871a98ab2161569731e4f11340f140c5dcf5b896d2d823e0"
+    },
+    {
+      "path": "evaluations/course-p13-probe-001/rejected-global-import-index.jsx",
+      "bytes": 16604,
+      "sha256": "ed6731a372118c581119011b799151d7af3045ea6e74f73b219597040abf12cf"
+    },
+    {
+      "path": "evaluations/course-p13-probe-001/rejected-zero-time-offset.json",
+      "bytes": 14859,
+      "sha256": "ba16c2146eb7aa947db944f911124e53ad6e7e412ae1cd927359a5f340288449"
+    },
+    {
+      "path": "evaluations/course-p13-probe-001/rejected-zero-time-offset.jsx",
+      "bytes": 16878,
+      "sha256": "b83a22285bb334da014ad1539287f197cda7df57fa8ef7f3b6d1367e296c6285"
+    },
+    {
+      "path": "evaluations/course-p13-probe-001/scene-quality-overprecision.json",
+      "bytes": 46009,
+      "sha256": "3d2fe6f1b5d4ab4d8893507d94f6192f1379405b6d826daa988498e1a767e8c8"
+    },
+    {
+      "path": "evaluations/course-p13-probe-001/scene-quality-unquantized.json",
+      "bytes": 45989,
+      "sha256": "bf10b11e31e742cb01a04ce7a5a67a5317d34a63b77a4f4277556f443980d4d5"
+    },
+    {
+      "path": "evaluations/course-p13-probe-001/summary.json",
+      "bytes": 7139,
+      "sha256": "4e0a678ef7b09f34071a932ccaffbadda3f9d77e4c6c3105bfc3f349c22784e4"
     },
     {
       "path": "evaluations/course-p14-probe-001/isolated-variants.json",
@@ -1096,11 +1168,6 @@
       "sha256": "f4e0b0064871dc9f639959b72cecbcfb2e3414f940166c5f21f40d1552dc5009"
     },
     {
-      "path": "samples/course-generalization-001/geometry/build.jsx",
-      "bytes": 13171,
-      "sha256": "98c157c015fb86e1dd1434adf5b81aa5f05727a3a4273e331015ad882acbb8fd"
-    },
-    {
       "path": "samples/course-generalization-001/geometry/final.mp4",
       "bytes": 9824212,
       "sha256": "2fbf24b4b563bfea939eb292f90f642427a5ed20cf01fabe1630cbc1cac38466"
@@ -1129,11 +1196,6 @@
       "path": "samples/course-generalization-001/texture/assets/input.png",
       "bytes": 3230,
       "sha256": "700ce5d87d80c90d2e23409bbac14ba38da5a31397abc60f194cbe62326cbae9"
-    },
-    {
-      "path": "samples/course-generalization-001/texture/build.jsx",
-      "bytes": 13169,
-      "sha256": "d0be92d94838f758225a4fa47cefa14e7b3be38533f54ab79274595053dbb871"
     },
     {
       "path": "samples/course-generalization-001/texture/final.mp4",
@@ -1166,11 +1228,6 @@
       "sha256": "3130efd93a8d60694178091ed3dc6cd54c043917c6e2668a25a51effe8198600"
     },
     {
-      "path": "samples/course-generalization-001/typography/build.jsx",
-      "bytes": 13231,
-      "sha256": "bcfbf2ba31fc0dbeb28151414103a2830f3f10daf2d5b26dd0512e3503f380cf"
-    },
-    {
       "path": "samples/course-generalization-001/typography/final.mp4",
       "bytes": 6121263,
       "sha256": "186a5ff9ecedc55736886b5e9380e027b05bd9f639849f38e616e9a6276db80a"
@@ -1196,11 +1253,6 @@
       "sha256": "a66193cd8fdc9c2d6ebf9433e38c03f00100b0c89e6ac0045fb620511c621ffa"
     },
     {
-      "path": "samples/course-reproduction-002/p06-delay5-002/build.jsx",
-      "bytes": 13481,
-      "sha256": "3bfeca1a73bc35dcb6935eeb443ba6323f614c6d16cd0eb9b0a9126f9c42ccd5"
-    },
-    {
       "path": "samples/course-reproduction-002/p06-delay5-002/final.mp4",
       "bytes": 12529388,
       "sha256": "5458e6ad92445626a6a87aef6e223384852761e2057fa961f6f99c30f354a825"
@@ -1224,11 +1276,6 @@
       "path": "samples/course-reproduction-002/p06-delay5-002/request.json",
       "bytes": 1190,
       "sha256": "a5e0bb3064df863b41a65e71268d53b05bfbc23b4b4729de6a60f1192b06e934"
-    },
-    {
-      "path": "samples/course-reproduction-002/p06-final-003/build.jsx",
-      "bytes": 12547,
-      "sha256": "029e1131821e4a03e947194955d2b0018c5e5bc8fb0749ac90b87e05e1ef7c43"
     },
     {
       "path": "samples/course-reproduction-002/p06-final-003/final.mp4",
@@ -1276,41 +1323,6 @@
       "sha256": "19d7168b784c4843c8f8190eeadc89cf675e0dbe9bb535e7478bc410735d81b9"
     },
     {
-      "path": "samples/course-reproduction-003/p07-blocks-002/build.jsx",
-      "bytes": 8690,
-      "sha256": "751f9b3c4868ff1e523a425c8a2a12c09ddfa8a70aea88b6e091bcce4d3fa0b7"
-    },
-    {
-      "path": "samples/course-reproduction-003/p07-blocks-002/final.mp4",
-      "bytes": 10033959,
-      "sha256": "246e4148bffb2b92333e82137522cb705d0aa997d04ea6cf80097254f7a0b2cd"
-    },
-    {
-      "path": "samples/course-reproduction-003/p07-blocks-002/project.aep",
-      "bytes": 520623,
-      "sha256": "9c7c59c2627593d2d3a7be9592e28e51a9b4847b43f45d795aeb3b88e392e7d6"
-    },
-    {
-      "path": "samples/course-reproduction-003/p07-blocks-002/quality.json",
-      "bytes": 751,
-      "sha256": "5b34475f5b01a985bcf5c2cfb49bec8f49d66229aa09f582ac84021f20eb9d38"
-    },
-    {
-      "path": "samples/course-reproduction-003/p07-blocks-002/receipt.json",
-      "bytes": 551,
-      "sha256": "8267b8b8d7ea9a8ff8c9725e8b9b2e303d592ccf95d0308f1ea773e19f6f22d4"
-    },
-    {
-      "path": "samples/course-reproduction-003/p07-blocks-002/request.json",
-      "bytes": 604,
-      "sha256": "ab596fa4488567d7078d18aba8ba9b59ff17fea8e11641dcd329ffca25dcd8f8"
-    },
-    {
-      "path": "samples/course-reproduction-003/p07-seed7-isolated-001/build.jsx",
-      "bytes": 9837,
-      "sha256": "337b33d44d8f04e9ba90a83dd8a3662eb4f86a7027a860ffaed55b24d3fcc989"
-    },
-    {
       "path": "samples/course-reproduction-003/p07-seed7-isolated-001/final.mp4",
       "bytes": 11780543,
       "sha256": "fe73daef9d53bcae8e0a57b38b2c3676e3566f256c5d98d82223f4070efa3325"
@@ -1336,11 +1348,6 @@
       "sha256": "b056d565ab9c2477662bc516f98208c3f0a6cbfe781a86cc4a78640674fa0c4c"
     },
     {
-      "path": "samples/course-reproduction-003/p07-tint-001/build.jsx",
-      "bytes": 9827,
-      "sha256": "a7cb97853fb1bccdc4b88e981882b9ca2bb156e7e3f404bbc81c390b49497f94"
-    },
-    {
       "path": "samples/course-reproduction-003/p07-tint-001/final.mp4",
       "bytes": 11555008,
       "sha256": "d83aca3cb2ce3af1cb760756ea335e5260e84ef36f1477674068dc0f00704196"
@@ -1364,11 +1371,6 @@
       "path": "samples/course-reproduction-003/p07-tint-001/request.json",
       "bytes": 628,
       "sha256": "5e41a6f5ae5a91ab4a394ff23b76f2ed1fbfec0a2d75be26e3c0c0ca20c0e7b5"
-    },
-    {
-      "path": "samples/course-reproduction-004/p08-appear-001/build.jsx",
-      "bytes": 7478,
-      "sha256": "ff41abc89aacd15389be64f7d1ab273676aee4fe379ef5b37b8d33f6e1bd990a"
     },
     {
       "path": "samples/course-reproduction-004/p08-appear-001/circle-pixel-quality.json",
@@ -1399,11 +1401,6 @@
       "path": "samples/course-reproduction-004/p08-appear-001/request.json",
       "bytes": 548,
       "sha256": "ae90bdaa15530e2ce729b0908383896a7f9b5b1e05b2e9d6058b5e4c92608192"
-    },
-    {
-      "path": "samples/course-reproduction-004/p08-disappear-001/build.jsx",
-      "bytes": 7483,
-      "sha256": "2546310ef52ef046b6de22d138794b8d5421b552101ce39274f016846625bc3b"
     },
     {
       "path": "samples/course-reproduction-004/p08-disappear-001/circle-pixel-quality.json",
@@ -1446,11 +1443,6 @@
       "sha256": "f4e0b0064871dc9f639959b72cecbcfb2e3414f940166c5f21f40d1552dc5009"
     },
     {
-      "path": "samples/course-reproduction-004/p08-geometry-001/build.jsx",
-      "bytes": 7751,
-      "sha256": "efde899771769f2f5f47f17f1d98b36eb1dd98c3000d04f54044da5e91071e32"
-    },
-    {
       "path": "samples/course-reproduction-004/p08-geometry-001/final.mp4",
       "bytes": 234783,
       "sha256": "a0375156474279a2b35afa312e9e655a3e246b2088dafe7ca20e069030cf8a12"
@@ -1484,11 +1476,6 @@
       "path": "samples/course-reproduction-004/p08-texture-001/assets/input.png",
       "bytes": 3230,
       "sha256": "700ce5d87d80c90d2e23409bbac14ba38da5a31397abc60f194cbe62326cbae9"
-    },
-    {
-      "path": "samples/course-reproduction-004/p08-texture-001/build.jsx",
-      "bytes": 7749,
-      "sha256": "12c4e912d24f310f4450a9f41b1f59c1618f077cd6909d243afedb6c0890d786"
     },
     {
       "path": "samples/course-reproduction-004/p08-texture-001/final.mp4",
@@ -1526,11 +1513,6 @@
       "sha256": "3130efd93a8d60694178091ed3dc6cd54c043917c6e2668a25a51effe8198600"
     },
     {
-      "path": "samples/course-reproduction-004/p08-typography-001/build.jsx",
-      "bytes": 7755,
-      "sha256": "09781ff6f515a3d4720a71a903e7322ad4a511ceb152c6dd6eb548ee5a7e1dbd"
-    },
-    {
       "path": "samples/course-reproduction-004/p08-typography-001/final.mp4",
       "bytes": 186810,
       "sha256": "54b88ad8090eff2dfb8dafd41bc46ccc4477edab7754820e226d31d0e1de349a"
@@ -1559,11 +1541,6 @@
       "path": "samples/course-reproduction-004/p08-typography-001/request.json",
       "bytes": 827,
       "sha256": "a27c75a45a61dda43793b37400361b7713e176038861343629d4ade6fa209980"
-    },
-    {
-      "path": "samples/course-reproduction-005/p09-final-002/build.jsx",
-      "bytes": 10181,
-      "sha256": "4bb791901b00e1a9c8f0d9aed975f5efe2e598d1764eba043b72a3d2f78c94b3"
     },
     {
       "path": "samples/course-reproduction-005/p09-final-002/final.mp4",
@@ -1596,11 +1573,6 @@
       "sha256": "f4e0b0064871dc9f639959b72cecbcfb2e3414f940166c5f21f40d1552dc5009"
     },
     {
-      "path": "samples/course-reproduction-005/p09-geometry-001/build.jsx",
-      "bytes": 10411,
-      "sha256": "2bbd31c4cce45ae138a1eec5929c4c1bfb478ad9e95ab99c053600fae9f9bb5a"
-    },
-    {
       "path": "samples/course-reproduction-005/p09-geometry-001/final.mp4",
       "bytes": 3666871,
       "sha256": "474955d24ff70a96ae1e0e60f9100436653196a0bb2650fc1e96a05341d242af"
@@ -1624,11 +1596,6 @@
       "path": "samples/course-reproduction-005/p09-geometry-001/request.json",
       "bytes": 1076,
       "sha256": "80acdd2cf9960cb592e156e52dca65860d3f5a44ce7e363aa0a890430a864f63"
-    },
-    {
-      "path": "samples/course-reproduction-005/p09-seed165-speed310-001/build.jsx",
-      "bytes": 10193,
-      "sha256": "b5060bc587c69a2e598ff85e7667a9e252d1a89a221268a956a9700ab676f404"
     },
     {
       "path": "samples/course-reproduction-005/p09-seed165-speed310-001/final.mp4",
@@ -1661,11 +1628,6 @@
       "sha256": "700ce5d87d80c90d2e23409bbac14ba38da5a31397abc60f194cbe62326cbae9"
     },
     {
-      "path": "samples/course-reproduction-005/p09-texture-001/build.jsx",
-      "bytes": 10408,
-      "sha256": "19d9359cd55c81ca4efda618f56bf92620b45fd5ae357b1d715998857a9158ac"
-    },
-    {
       "path": "samples/course-reproduction-005/p09-texture-001/final.mp4",
       "bytes": 9269052,
       "sha256": "48a15e070e0d71a7be812464665735e20019a6e05e6ee6acae02046a29c3b919"
@@ -1696,11 +1658,6 @@
       "sha256": "3130efd93a8d60694178091ed3dc6cd54c043917c6e2668a25a51effe8198600"
     },
     {
-      "path": "samples/course-reproduction-005/p09-typography-001/build.jsx",
-      "bytes": 10414,
-      "sha256": "c4208a81540a2c189df59b5fb8ed417ba6677bd369ea261fca078001d6369406"
-    },
-    {
       "path": "samples/course-reproduction-005/p09-typography-001/final.mp4",
       "bytes": 1975330,
       "sha256": "2c0f9fc94ba1c2f6de28e1c021e2e187b6d5045d05b97059c0ec36dd7b1cd20c"
@@ -1724,116 +1681,6 @@
       "path": "samples/course-reproduction-005/p09-typography-001/request.json",
       "bytes": 1077,
       "sha256": "fbfa93f8fd26767faf972ec1f34a046e6b115568039ee5a66cd5fac89d4c83ea"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-controls-animation-005/build.jsx",
-      "bytes": 10741,
-      "sha256": "58fc516ba4ff55e9e71a6e5ec22ff01c72cf4d8ad8ec4651f92d60dbaca5a9c0"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-controls-animation-005/controller-animation-quality.json",
-      "bytes": 526,
-      "sha256": "7e5656d8627055c583b3900d40ed6f9175a256cc21098d9709fa86234ceb1287"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-controls-animation-005/final.mp4",
-      "bytes": 2497752,
-      "sha256": "84397be95ee09df4e30ca623c06549a5c3e5f3f19d5f9844357ae9c840374aeb"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-controls-animation-005/project.aep",
-      "bytes": 139945,
-      "sha256": "84d6db842aae93021af697e491e478124594db9c49726702c4b5bd9685b04ed7"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-controls-animation-005/quality.json",
-      "bytes": 918,
-      "sha256": "19d256bbf02a7036567e3a2bd04fea8e2ff6f62b70c634e70c5fa32b7a6d663a"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-controls-animation-005/receipt.json",
-      "bytes": 2198,
-      "sha256": "57ebb173550d16ba832dce79605f7461b016f1b275101a2208403c1de8b57b0d"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-controls-animation-005/request.json",
-      "bytes": 1170,
-      "sha256": "58d13865b3b0e8cf62b1048d592740ad5ccacd43b6b25fed626f48fc1c2842b4"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-decimal-binary-002/build.jsx",
-      "bytes": 8281,
-      "sha256": "f20791b53916744da2e729b639cf3315cae0390798f90edf2d28fa6d0f268594"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-decimal-binary-002/final.mp4",
-      "bytes": 10284673,
-      "sha256": "cd47be4dd671ef89c001df495f4f29338ce14de2ba2bddc6f002e2acfc6adc15"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-decimal-binary-002/number-pixel-quality.json",
-      "bytes": 353,
-      "sha256": "24e1e86ddecaad00128b265921d2666c71cf54b29e769957999d892a4b0bc2b0"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-decimal-binary-002/project.aep",
-      "bytes": 139571,
-      "sha256": "b13f318dea1e5dfed92af3325a8b64bcbd972dffcf198f3a2c37b0b16483be2e"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-decimal-binary-002/quality.json",
-      "bytes": 759,
-      "sha256": "865adc194d37593c021b36ec509acca7ce3e1d9e7c7e389b596d09c7399f0060"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-decimal-binary-002/receipt.json",
-      "bytes": 1981,
-      "sha256": "3153375904d73e97a05a3b391a7fa35cc973c1f7bc69294a77fd08c5adee66e7"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-decimal-binary-002/request.json",
-      "bytes": 582,
-      "sha256": "5bc0d59dd32daee2e0de2b7c0ac94beef0967c93383e5796ecb31d7754305188"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-decimal-binary-003/build.jsx",
-      "bytes": 8361,
-      "sha256": "dc01708c10fab1c0c63d5e5b4ad4db4d54b4ff5ef3898af198e10c0b8d558640"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-decimal-binary-003/final.mp4",
-      "bytes": 10276703,
-      "sha256": "bce91360b93f208c4a7ac215b7bd421737e4805ccb78d3a61227695ef7aa5a0d"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-decimal-binary-003/number-pixel-quality.json",
-      "bytes": 353,
-      "sha256": "609dad04a8ba2926598299f891757d53833806a4f362140b68b2e7f7cbbdf188"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-decimal-binary-003/project.aep",
-      "bytes": 139571,
-      "sha256": "17aacb167de0200fa204c32db48a76ee65a0fbb92798342618b20616e6418f11"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-decimal-binary-003/quality.json",
-      "bytes": 759,
-      "sha256": "faedd1e41e8175c1040242c9270a36b149f290c50c8f0a26c2b109be1ae9b3b5"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-decimal-binary-003/receipt.json",
-      "bytes": 1981,
-      "sha256": "26fb23e5914f0c104250a687a404fa6c65089fcfe18a509af4f08956a2287e60"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-decimal-binary-003/request.json",
-      "bytes": 664,
-      "sha256": "e7b53255b8b48a990f13f37b2acc0c7dda6087e7cff736fecfb75ca4b69d8e29"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-reference-replay-006/build.jsx",
-      "bytes": 9963,
-      "sha256": "32803b7f453fd39ad41e101001fa9f2013e4a1cf44d6682667bfb24c9459ccbc"
     },
     {
       "path": "samples/course-reproduction-006/p10-reference-replay-006/final.mp4",
@@ -1866,11 +1713,6 @@
       "sha256": "6dfd53d23b4458689b01f33a21c2d3e65827dfbff47cacfe53233cc6f1392f6c"
     },
     {
-      "path": "samples/course-reproduction-006/p10-reference-standalone-001/build.jsx",
-      "bytes": 9974,
-      "sha256": "9c27ebee095134c2a0030f8860876516b97d97a81735903c751f0792cd51ab6a"
-    },
-    {
       "path": "samples/course-reproduction-006/p10-reference-standalone-001/final.mp4",
       "bytes": 5261214,
       "sha256": "28b7bda2feea6dd08e893f15ef14edbb8a4b5eba6e16f62cf639a1a73ce36ac0"
@@ -1901,11 +1743,6 @@
       "sha256": "1f86263a31b232cf15e07c03f4a78df6d9297ef929accb3811e283fd90f6b021"
     },
     {
-      "path": "samples/course-reproduction-006/p10-reference-variation-001/build.jsx",
-      "bytes": 9967,
-      "sha256": "e937c4e25d55b2f8186ebcd01a4910f60013709fb2cbfb6d414526d89cd961a2"
-    },
-    {
       "path": "samples/course-reproduction-006/p10-reference-variation-001/final.mp4",
       "bytes": 4992169,
       "sha256": "bc1518bda05ca9999e871ca72b5b8687e68e9f537d3c9b61e5ce9b4b4eb5b2ce"
@@ -1934,151 +1771,6 @@
       "path": "samples/course-reproduction-006/p10-reference-variation-001/sampled-animation-quality.json",
       "bytes": 2921,
       "sha256": "7481174e9211266d14d489753434cf851f2c41195d1f6b6fbbe89953d031ce9b"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-single-digit-001/build.jsx",
-      "bytes": 8273,
-      "sha256": "d633de14dc9d626b82a723563f1320817a0e948d5d90e439afe723cc2f0cd142"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-single-digit-001/final.mp4",
-      "bytes": 79476,
-      "sha256": "1839f7be4d17d28afdb009e0cc64fa2e8088b1f599dc0a84547132467575b03c"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-single-digit-001/number-pixel-quality.json",
-      "bytes": 348,
-      "sha256": "70b97d44e20ba25e46cd05da6926040fc1186414ab37291834dd1682f00f6af1"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-single-digit-001/project.aep",
-      "bytes": 139569,
-      "sha256": "19e9c9fb7b530eef5f6f6db61e1de59c69f8d0b4f463e665695e33812dc87710"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-single-digit-001/quality.json",
-      "bytes": 756,
-      "sha256": "74c22f9aef413c80a7c8e47ad75abdf0425066567450986037ab384a3a66110e"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-single-digit-001/receipt.json",
-      "bytes": 1365,
-      "sha256": "8697fa5fd3094a589eee7f9a4708f765059211973290cc969bb3bd6aa8840b3a"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-single-digit-001/request.json",
-      "bytes": 578,
-      "sha256": "15c517670981ebbf9a6d6fa43d2eb8af6698bddc39b0d879bd8626dc82ce15e9"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-single-digit-002/build.jsx",
-      "bytes": 8355,
-      "sha256": "980bace7b5f7540d3f8c8a3fcb344916ca294212359d9641635f108795badd1d"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-single-digit-002/final.mp4",
-      "bytes": 80329,
-      "sha256": "318bb3cd3186d0076d6ed163c077514d276629fe4cead5230da73800e29a18e7"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-single-digit-002/number-pixel-quality.json",
-      "bytes": 348,
-      "sha256": "70b97d44e20ba25e46cd05da6926040fc1186414ab37291834dd1682f00f6af1"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-single-digit-002/project.aep",
-      "bytes": 139569,
-      "sha256": "503c2e68c9b3c73c5f50cbdfc21036a268e6bb04410ec80bff9be90da448f28d"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-single-digit-002/quality.json",
-      "bytes": 756,
-      "sha256": "c1e0c12fc7847c2902e2659bc538a3fc78d8b59f1da3a4602b68554d345c2716"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-single-digit-002/receipt.json",
-      "bytes": 1365,
-      "sha256": "6afd4cfd0225619c476d9a29ce1528a9a88dcf7218b0deeaf7bc924e6527c4cc"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-single-digit-002/request.json",
-      "bytes": 660,
-      "sha256": "1e52fb8a973086304dbb7107772cd97c07955ad2c598c5795f88691c586913d0"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-variation-001/build.jsx",
-      "bytes": 8273,
-      "sha256": "4a8fa197198bbbefa3a89b3c5d4b3afd7e62df2276dac1c221a8c7d5a089d72d"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-variation-001/final.mp4",
-      "bytes": 9772717,
-      "sha256": "222de7618f657f5e772a82ff7f8c93971d980bb54f7eca4d970213a42e7e0284"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-variation-001/number-pixel-quality.json",
-      "bytes": 353,
-      "sha256": "25b87df6d1519b5ba2e5b70123662a6ef722727b27f56e28964f4ad8708af1c6"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-variation-001/project.aep",
-      "bytes": 139567,
-      "sha256": "ac50b708f60d460860ccbde429e19f2c9b1ffc694bd6d7671c7f36b848efff92"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-variation-001/quality.json",
-      "bytes": 754,
-      "sha256": "b58f4363cf55c9102b86a1d53110128db971cda91efb4450b77799a2490a2e85"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-variation-001/receipt.json",
-      "bytes": 1830,
-      "sha256": "218b4ecef9f37ad39a0a8aba23654aaa20c55ea6cc2b95ba84f710828546ff04"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-variation-001/request.json",
-      "bytes": 581,
-      "sha256": "f54f56fbb702a35f5858523571c10453953b4ed6f30645049efb9eae86ac09fa"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-variation-002/build.jsx",
-      "bytes": 8355,
-      "sha256": "efe7b8ef2fe2b55bf5437556026adb49d021526fea57632f1a00b4247d391b60"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-variation-002/final.mp4",
-      "bytes": 9795883,
-      "sha256": "356816616bdcc45c081e2712982053378c59cdf2211b5227b7cf51b28ab60fac"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-variation-002/number-pixel-quality.json",
-      "bytes": 353,
-      "sha256": "03a1ca2e2ba7db11e4420f9aad5b1792149f40ceac75723a35811f556cc9deda"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-variation-002/project.aep",
-      "bytes": 139567,
-      "sha256": "78908e3b18e330ea42df459925aceab5055af972824ec8ca2238208215ea13a7"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-variation-002/quality.json",
-      "bytes": 754,
-      "sha256": "eff66dd5a5491a874411fea7ed8c0eae6e89e5c4c7b3ae06f0d7cb881ea9f23d"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-variation-002/receipt.json",
-      "bytes": 1830,
-      "sha256": "80e64ee9671bc866f9ad6064b100887755922ef286e6d21e0513b73a6d4771c7"
-    },
-    {
-      "path": "samples/course-reproduction-006/p10-variation-002/request.json",
-      "bytes": 663,
-      "sha256": "0655c721c6eff19e86f279607256c00e19870f7cb2dbd2515716a3425992aadf"
-    },
-    {
-      "path": "samples/course-reproduction-007/p11-baseline-001/build.jsx",
-      "bytes": 7595,
-      "sha256": "24dd5c4f3797fb00ba8d55c8f6b4b21bd7918413fe1e1d793cc6ade20a1d2f88"
     },
     {
       "path": "samples/course-reproduction-007/p11-baseline-001/final.mp4",
@@ -2136,11 +1828,6 @@
       "sha256": "f4e0b0064871dc9f639959b72cecbcfb2e3414f940166c5f21f40d1552dc5009"
     },
     {
-      "path": "samples/course-reproduction-007/p11-geometry-002/build.jsx",
-      "bytes": 8146,
-      "sha256": "a2a9a573770efc490a42ef1533e5463540c007fd8e7b8f5e0cc45b2cc0c825de"
-    },
-    {
       "path": "samples/course-reproduction-007/p11-geometry-002/final.mp4",
       "bytes": 1018236,
       "sha256": "01659157a8ba04ef35e7f421eaa2fbbb758623ab59c4c6d50c05c656874515ef"
@@ -2194,11 +1881,6 @@
       "path": "samples/course-reproduction-007/p11-texture-002/assets/input.png",
       "bytes": 3230,
       "sha256": "700ce5d87d80c90d2e23409bbac14ba38da5a31397abc60f194cbe62326cbae9"
-    },
-    {
-      "path": "samples/course-reproduction-007/p11-texture-002/build.jsx",
-      "bytes": 8144,
-      "sha256": "c0de36dfc7519aa0aa316686099b6fda0888d3eff25e07e974e80bc089c5d29b"
     },
     {
       "path": "samples/course-reproduction-007/p11-texture-002/final.mp4",
@@ -2256,11 +1938,6 @@
       "sha256": "3130efd93a8d60694178091ed3dc6cd54c043917c6e2668a25a51effe8198600"
     },
     {
-      "path": "samples/course-reproduction-007/p11-typography-002/build.jsx",
-      "bytes": 8150,
-      "sha256": "a47d2153919f969832a61199d4e2474ef594bdf7d361e5849e8edd0d0a30d032"
-    },
-    {
       "path": "samples/course-reproduction-007/p11-typography-002/final.mp4",
       "bytes": 534033,
       "sha256": "bf76c4ef392b781fd9f5b2868dfc95070e2c7569522c6f2a4c26fc76817838c9"
@@ -2311,11 +1988,6 @@
       "sha256": "afb0ac3daca96dbd761741cf486cebb11bc9ab98678a0f7d7cb4c97e2e32516c"
     },
     {
-      "path": "samples/course-reproduction-007/p11-variation-002/build.jsx",
-      "bytes": 7806,
-      "sha256": "7f4b9b9f599aa09ee317c4d82138c75fed392d7a918d46637bb7ad3fb9f603c6"
-    },
-    {
       "path": "samples/course-reproduction-007/p11-variation-002/final.mp4",
       "bytes": 98882,
       "sha256": "7a448cf5bf28c9d552ca26e24f2fc3b00908d0178f9fa1f0b3e1dacbcb0c58ec"
@@ -2364,11 +2036,6 @@
       "path": "samples/course-reproduction-007/p11-variation-002/request.json",
       "bytes": 882,
       "sha256": "dc73f99261842ae8b09420089c47e760b14ae5afe9ffe98a29d5bbc627e8d4fb"
-    },
-    {
-      "path": "samples/course-reproduction-008/p12-baseline-001/build.jsx",
-      "bytes": 8516,
-      "sha256": "65d034fb2f408503768285f01bf0caae09ab35b86dba986bafc9473f6d1f9f7c"
     },
     {
       "path": "samples/course-reproduction-008/p12-baseline-001/final.mp4",
@@ -2436,11 +2103,6 @@
       "sha256": "ab1486a9c1b82ed4a4eae6cf4ba43b946298d26bcc40507ddc2197791a9396c8"
     },
     {
-      "path": "samples/course-reproduction-008/p12-seed0-001/build.jsx",
-      "bytes": 8515,
-      "sha256": "0ced69dc96396ef4e2c249e553bf9fc21aa51a5bd5efa5dd9af9b65ebbc82372"
-    },
-    {
       "path": "samples/course-reproduction-008/p12-seed0-001/final.mp4",
       "bytes": 1057432,
       "sha256": "da1181f2d8a4384d705a76a0f5e4aeed3a920234a2a509e5852b528d8cd4bd93"
@@ -2496,11 +2158,6 @@
       "sha256": "954245d3fea9fa2d52625f189493f286f2fcc4ce6d7068c769247e6f5fc32714"
     },
     {
-      "path": "samples/course-reproduction-008/p12-sparse-002/build.jsx",
-      "bytes": 9049,
-      "sha256": "89e80db77e1617379a709feff66a105cedfbc45b1eaefc7a54bf9d7c58db9c7c"
-    },
-    {
       "path": "samples/course-reproduction-008/p12-sparse-002/final.mp4",
       "bytes": 448221,
       "sha256": "6e940bcb644307da7a4d0f444f5bb637d5e92d9f154b7ad9ac1130bb525244b6"
@@ -2554,11 +2211,6 @@
       "path": "samples/course-reproduction-008/p12-sparse-002/symmetry-luma-quality.json",
       "bytes": 762,
       "sha256": "6a2179e98396888832bde65e04590cb7409d156105d4aa5bbc6ffda8525d0541"
-    },
-    {
-      "path": "samples/course-reproduction-009/p14-ai-001/build.jsx",
-      "bytes": 10628,
-      "sha256": "23d1ea3ab579f4643aa8e3ff18084c629b5b486701ea7db0356d216560b5faf4"
     },
     {
       "path": "samples/course-reproduction-009/p14-ai-001/final.mp4",
@@ -2641,11 +2293,6 @@
       "sha256": "64c1bf11d05cb6606c884ae70e54295a8f510ead608c55ac990ed5cd0234fe7f"
     },
     {
-      "path": "samples/course-reproduction-009/p14-algorithm-001/build.jsx",
-      "bytes": 10639,
-      "sha256": "d9495cbf379322787f5d48e838654146b5dbe21f22dc0f0ac2aec3fed485b3d7"
-    },
-    {
       "path": "samples/course-reproduction-009/p14-algorithm-001/final.mp4",
       "bytes": 205672,
       "sha256": "c97b0bee2328e04306c2351c76ed1a8d11a21abc52f774784c539b9581c1035f"
@@ -2726,11 +2373,6 @@
       "sha256": "804e8154c523d0bdb0b947d2eaf2ad0d5a6139092055d76c1f6c76e4811af73d"
     },
     {
-      "path": "samples/course-reproduction-009/p14-baseline-002/build.jsx",
-      "bytes": 10633,
-      "sha256": "133345b544e99534ce46111f9ed7e0c9df920c9554bb9349317d779d188743de"
-    },
-    {
       "path": "samples/course-reproduction-009/p14-baseline-002/final.mp4",
       "bytes": 222318,
       "sha256": "552cfc459177e3e48b3c74c0946d2a70fa386ccf3dededc07458736ef5c551ec"
@@ -2804,11 +2446,6 @@
       "path": "samples/course-reproduction-009/p14-baseline-002/type-reveal-quality.json",
       "bytes": 5130,
       "sha256": "30357fccf8949a4696ac2413b27421e19f72c97d04b0d39388d4f9416ead16e9"
-    },
-    {
-      "path": "samples/course-reproduction-009/p14-motion2026-001/build.jsx",
-      "bytes": 10646,
-      "sha256": "f1ff9a8dd8b4310a956ad18038b7a98827208e64f27d25e450c7302ddc206b79"
     },
     {
       "path": "samples/course-reproduction-009/p14-motion2026-001/final.mp4",
@@ -2886,6 +2523,736 @@
       "sha256": "7311c15f29d7c28296e9cc332a6e82986b2ecb55b9c8fb64951a8ceb3302742b"
     },
     {
+      "path": "samples/course-reproduction-010/p13-baseline-004/final.mp4",
+      "bytes": 15115925,
+      "sha256": "fab8281d971c3790377f40d9aa6a03cacc35536bd92839b846eb3879638173a8"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/inputs/contours/project.aep",
+      "bytes": 381155,
+      "sha256": "1096b70a15213deeb87f9b4e2bfda15b7afd1b8312e3c1582c0173910d4710ca"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/inputs/core/project.aep",
+      "bytes": 2035913,
+      "sha256": "5dbe0b2eca9a2662003d1741b8cd4b2586224f672e39a9effa062c6b7a2ecd1f"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/inputs/dots/project.aep",
+      "bytes": 418837,
+      "sha256": "557f40ed0ac336ff3a17dbd2cdb5f7aefc88c5742adf0efa7294dc9ce26368af"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/inputs/lines/project.aep",
+      "bytes": 124271,
+      "sha256": "e3839ffa90c7e31626ef5f338192606d486e2a6d9ec7d85cfcf53d3761c9dda9"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/inputs/noise/project.aep",
+      "bytes": 527085,
+      "sha256": "19f2374c9e1127e5a51d30f6dca65865a2fbe799f9a025eb0cb56b9ef49326bb"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/native-still-0.png",
+      "bytes": 409483,
+      "sha256": "9dfd707d6a209cdacf02dbaf1ff16854f8f41d2d0bc9a152d9e13887ea8fef06"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/native-still-144.png",
+      "bytes": 824160,
+      "sha256": "ef60ff2b48466110e0019b521c60a2f07b195f1e8c46ecb6c631916a8e709b34"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/native-still-162.png",
+      "bytes": 551433,
+      "sha256": "8814a45b8a2c8dcbf02b9fd7b1fbd7700d1dfe98fb35c8a2492663b92730b0e0"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/native-still-192.png",
+      "bytes": 566876,
+      "sha256": "ef7fc853cfc40b9f0b609dd1e4cde7dec5dc29397dc710a6eef5e12007f6b0ef"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/native-still-24.png",
+      "bytes": 482255,
+      "sha256": "0381e4772744e44e9cadc5bfc17fa86d07e7c0e46c9b724fb4e71f42f8f9134e"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/native-still-240.png",
+      "bytes": 537577,
+      "sha256": "5fc525ec40b69b82061708059064e2338fd61635be9c278346db2770a3ae3924"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/native-still-300.png",
+      "bytes": 16205,
+      "sha256": "c1e281e612ec6e23d3d7b30ec19e2495129d0fcbe694ccca1b495da42649cea3"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/native-still-36.png",
+      "bytes": 244478,
+      "sha256": "31df9d936e662f917f62e22c49c9b64f388f28c7d5a998993e4f53249705ee23"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/native-still-479.png",
+      "bytes": 16205,
+      "sha256": "c1e281e612ec6e23d3d7b30ec19e2495129d0fcbe694ccca1b495da42649cea3"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/native-still-48.png",
+      "bytes": 179906,
+      "sha256": "a6a3ede7f5a6b2337a6df2bc11bd578e53971825a97afd5296b2e683e6771ce6"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/native-still-72.png",
+      "bytes": 171126,
+      "sha256": "02b1ddcb442ec5a3df24e3d428486a8b746bf32be96d04b20cc98bdbfc4fd8e7"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/native-still-96.png",
+      "bytes": 246291,
+      "sha256": "ffa6898909db450718bfe444197ace65e3638b1dfbabdcb6eab99a642cf55a3d"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/plan.json",
+      "bytes": 1340,
+      "sha256": "143d0a968df058b704214436e083ec4674c73fdbc1ca3245ca630d45ee31e4d8"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/project.aep",
+      "bytes": 3380451,
+      "sha256": "b9a93b8973578d84cb4e42fc5e20f0e5955e74a4a7090e78ec78e9509821df5d"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/quality.json",
+      "bytes": 1122,
+      "sha256": "3db6c7d7b7e437dfb55b4a35294b0c7034d349139890f23b362cbbbe7970c93f"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/receipt.json",
+      "bytes": 15699,
+      "sha256": "a6f5701f4b5896fb5cc8991d6fdb82d58af3187cd1464309eaf0f0f049ccad6c"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/request.json",
+      "bytes": 4449,
+      "sha256": "93fefa674d670ee96171c584a3ca4b91faec6414972d9f550f0eef65567cd6ea"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-baseline-004/scene-quality.json",
+      "bytes": 46424,
+      "sha256": "f7c14152e9ea91ba25b7e64890b2e250c84de7dd0c9a8c30e514c497834d20a0"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/camera-keys.json",
+      "bytes": 691,
+      "sha256": "a32a79c8cc9977ccb50eec103ec8fe0ee8da8cd5f8ba0de06bba29f8b7a19f39"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/final.mp4",
+      "bytes": 15298050,
+      "sha256": "634f8397ba19b2194ec1554617895b8f831cd2e0ac7f41aa1ce0cf7b67448475"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/inputs/contours/project.aep",
+      "bytes": 381155,
+      "sha256": "1096b70a15213deeb87f9b4e2bfda15b7afd1b8312e3c1582c0173910d4710ca"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/inputs/core/assets/geometry.png",
+      "bytes": 3436,
+      "sha256": "f4e0b0064871dc9f639959b72cecbcfb2e3414f940166c5f21f40d1552dc5009"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/inputs/core/project.aep",
+      "bytes": 2041851,
+      "sha256": "89fa0e311c23704c20cf4c47b318dbbf88f8a90e7c3676b0f3305958fe9829b0"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/inputs/dots/project.aep",
+      "bytes": 418837,
+      "sha256": "557f40ed0ac336ff3a17dbd2cdb5f7aefc88c5742adf0efa7294dc9ce26368af"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/inputs/lines/project.aep",
+      "bytes": 124271,
+      "sha256": "e3839ffa90c7e31626ef5f338192606d486e2a6d9ec7d85cfcf53d3761c9dda9"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/inputs/noise/project.aep",
+      "bytes": 527085,
+      "sha256": "19f2374c9e1127e5a51d30f6dca65865a2fbe799f9a025eb0cb56b9ef49326bb"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/native-still-0.png",
+      "bytes": 279406,
+      "sha256": "f7e4fd38cd029d1887ee550e9c7af351cd54fcaae5734f73d9c91665d0b6bd99"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/native-still-144.png",
+      "bytes": 788552,
+      "sha256": "234b49cb351e379f29ac8d5877c93d1129ce87c83b220b0cdd0afc8bff5cbe0e"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/native-still-162.png",
+      "bytes": 790426,
+      "sha256": "d84eee59de22e07f733b3d1d6f7bc257915ed67e9d920e93c1fbc682b4252cc7"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/native-still-192.png",
+      "bytes": 777245,
+      "sha256": "ed039d35892bc0c40a4a8f2ddeb3fc96f8af20d5b76f380c6291c5a9f85fff9a"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/native-still-24.png",
+      "bytes": 194408,
+      "sha256": "ab0a3197d44abc7dc414ed5df4b35aeaddeac1badf232602833fafe5d2ebe381"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/native-still-240.png",
+      "bytes": 16205,
+      "sha256": "c1e281e612ec6e23d3d7b30ec19e2495129d0fcbe694ccca1b495da42649cea3"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/native-still-300.png",
+      "bytes": 16205,
+      "sha256": "c1e281e612ec6e23d3d7b30ec19e2495129d0fcbe694ccca1b495da42649cea3"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/native-still-36.png",
+      "bytes": 191316,
+      "sha256": "a5d80f6b69b5d1219a8f3e91ea0e6ce1e8b953e1d018c8543651457d90f08658"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/native-still-479.png",
+      "bytes": 16205,
+      "sha256": "c1e281e612ec6e23d3d7b30ec19e2495129d0fcbe694ccca1b495da42649cea3"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/native-still-48.png",
+      "bytes": 158525,
+      "sha256": "fdb9c73956ce11b9f66d8155878fddc3b436d9cf8c4209c6bd84d1f83b0e1cbd"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/native-still-72.png",
+      "bytes": 135602,
+      "sha256": "552d224cd108e9a9e9d811690b7b49c00f99b0d224be1b6d644b6a16d936672b"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/native-still-96.png",
+      "bytes": 637185,
+      "sha256": "947217f40a9f535c7703cb25c2318e5859313ca3651a459d9736edecc43a8235"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/plan.json",
+      "bytes": 1421,
+      "sha256": "fce843b6b012958554c22925fd183a2e52e9c27135531fdbac3fdfae645a6b36"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/project.aep",
+      "bytes": 3386407,
+      "sha256": "14a3b24a9e4ba327b0d743708c566d7278b9e070da8ec05c440caf594882c113"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/quality.json",
+      "bytes": 1080,
+      "sha256": "3739db76d99bb036853d50f707c3359357795afa82858c071f0ab2473620f989"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/receipt.json",
+      "bytes": 15044,
+      "sha256": "151e33d0502b91a0cadea0636d99355d2a9ad4c66d8da8a5c0c0a478c0657135"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/request.json",
+      "bytes": 4856,
+      "sha256": "d4ed0098a6dcf45f49b02ce8427081d5cf28b1bbc9a91eb0b60e8ab85eac6b52"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/scene-quality-unquantized.json",
+      "bytes": 45989,
+      "sha256": "bf10b11e31e742cb01a04ce7a5a67a5317d34a63b77a4f4277556f443980d4d5"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-geometry-001/scene-quality.json",
+      "bytes": 46367,
+      "sha256": "5b6a160584259ddfb1267d900ba2d892777cbadfbf61a18cd321ca8b4bad3032"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/camera-keys.json",
+      "bytes": 667,
+      "sha256": "803bdb6ae051eb5d24aaa88daa215ce3d15e59a2259d5e9216cf842045ca77e8"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/final.mp4",
+      "bytes": 17197808,
+      "sha256": "b1fc61ff62650675bc7329769d13c6c68d7c7112b79d510f30327639b1bafc1a"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/inputs/contours/project.aep",
+      "bytes": 381155,
+      "sha256": "1096b70a15213deeb87f9b4e2bfda15b7afd1b8312e3c1582c0173910d4710ca"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/inputs/core/assets/texture.png",
+      "bytes": 3230,
+      "sha256": "700ce5d87d80c90d2e23409bbac14ba38da5a31397abc60f194cbe62326cbae9"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/inputs/core/project.aep",
+      "bytes": 2041851,
+      "sha256": "dc201d5c47c1497bb584077d8e74f8d24e1d19b43148d68da0aba8fa2aaec96f"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/inputs/dots/project.aep",
+      "bytes": 418837,
+      "sha256": "557f40ed0ac336ff3a17dbd2cdb5f7aefc88c5742adf0efa7294dc9ce26368af"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/inputs/lines/project.aep",
+      "bytes": 124271,
+      "sha256": "e3839ffa90c7e31626ef5f338192606d486e2a6d9ec7d85cfcf53d3761c9dda9"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/inputs/noise/project.aep",
+      "bytes": 527085,
+      "sha256": "19f2374c9e1127e5a51d30f6dca65865a2fbe799f9a025eb0cb56b9ef49326bb"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/native-still-0.png",
+      "bytes": 2018901,
+      "sha256": "4d6b511ab0c1d6c5b675b949039f6b7cbf79dc146860cd26a6912bd443630430"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/native-still-144.png",
+      "bytes": 823042,
+      "sha256": "9993de7f90d40c4d631e868b9b83dc353482e7e8870ecd8efa46be0e944480bd"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/native-still-162.png",
+      "bytes": 792078,
+      "sha256": "bfc72e67088c2d68ce7d7ef2583c6e05329c14b228b52152ec4de2699a1e107a"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/native-still-192.png",
+      "bytes": 806735,
+      "sha256": "86a4909eb2e1c5770db2d8a2b2862808a8c50fcb8c59e3b2d07beeb4eb180aaf"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/native-still-24.png",
+      "bytes": 1964014,
+      "sha256": "997c1849ee717d5ae3264f074d905a2fa13ec56f262045584be2370356a921ee"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/native-still-240.png",
+      "bytes": 779324,
+      "sha256": "30b833d6075ea0d053316f2e7578494520c413f704a7ebeaaa0c38d3c3e004fc"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/native-still-300.png",
+      "bytes": 16205,
+      "sha256": "c1e281e612ec6e23d3d7b30ec19e2495129d0fcbe694ccca1b495da42649cea3"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/native-still-36.png",
+      "bytes": 475728,
+      "sha256": "784d82b2dfe5d2e94d4cf6b4cb625175585108aa4d593887ac33dfec9e007472"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/native-still-479.png",
+      "bytes": 16205,
+      "sha256": "c1e281e612ec6e23d3d7b30ec19e2495129d0fcbe694ccca1b495da42649cea3"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/native-still-48.png",
+      "bytes": 264809,
+      "sha256": "f38df7cbfa39e5da357655bc7d65b9a68d60d63ee81b2220a9a4623d7a4de29c"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/native-still-72.png",
+      "bytes": 238444,
+      "sha256": "b8e2526ff85abe3a2b1d7d8071a4baa3ecb903856ec2be57f30c34d9ff3c8dff"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/native-still-96.png",
+      "bytes": 270153,
+      "sha256": "2427d7f2accfbc46ebbb95a2dbe7df88fa1442e77716f8362f2c600d418a8721"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/plan.json",
+      "bytes": 1421,
+      "sha256": "fce843b6b012958554c22925fd183a2e52e9c27135531fdbac3fdfae645a6b36"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/project.aep",
+      "bytes": 3386405,
+      "sha256": "eb87cd43c316fad813df475b1c2f75040c20d59221662391fecbb94742b9ec30"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/quality.json",
+      "bytes": 1079,
+      "sha256": "b466f131c1cd835f19549a7c60d26a5cd2bd83870673607c0a03fc4cd352f301"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/receipt.json",
+      "bytes": 15177,
+      "sha256": "dbb359b336a918b69b12a790d06e2ae3ea495b883c7b930adf84c7c31b805c45"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/request.json",
+      "bytes": 4843,
+      "sha256": "0ccc42c3372ac7e7665b770205061c993307a38cbd44b21cff35e3d0ae59c19a"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-texture-001/scene-quality.json",
+      "bytes": 46479,
+      "sha256": "db5f278e6da815996a9e584991c0c2dc3645e9c72cc01d2a6c73582f805d1ddf"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/camera-keys.json",
+      "bytes": 670,
+      "sha256": "b9d654a53087762b41607be0489fc4c09432f0062e7ab4f1cf912db8a3a6c43f"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/final.mp4",
+      "bytes": 14912434,
+      "sha256": "c5c597fcf476eb7ec3a07851b1c6326f2876e9b04e740fb6078d48f89e16edb4"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/inputs/contours/project.aep",
+      "bytes": 381155,
+      "sha256": "1096b70a15213deeb87f9b4e2bfda15b7afd1b8312e3c1582c0173910d4710ca"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/inputs/core/assets/typography.png",
+      "bytes": 5414,
+      "sha256": "3130efd93a8d60694178091ed3dc6cd54c043917c6e2668a25a51effe8198600"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/inputs/core/project.aep",
+      "bytes": 2041855,
+      "sha256": "d9deb8897994d5ab5a859cb132c668a74c9e029039c30f94e9d1b8b8565b7b7a"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/inputs/dots/project.aep",
+      "bytes": 418837,
+      "sha256": "557f40ed0ac336ff3a17dbd2cdb5f7aefc88c5742adf0efa7294dc9ce26368af"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/inputs/lines/project.aep",
+      "bytes": 124271,
+      "sha256": "e3839ffa90c7e31626ef5f338192606d486e2a6d9ec7d85cfcf53d3761c9dda9"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/inputs/noise/project.aep",
+      "bytes": 527085,
+      "sha256": "19f2374c9e1127e5a51d30f6dca65865a2fbe799f9a025eb0cb56b9ef49326bb"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/native-still-0.png",
+      "bytes": 209594,
+      "sha256": "d0a6e7065a4eb5d5de22160e36dc88a658a1559bf6afd3b5f5f9eacbd5291c75"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/native-still-144.png",
+      "bytes": 805891,
+      "sha256": "379b695d0ed0f06614ff201fdbf5e6b18e7a8434001090cc471783963c321486"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/native-still-162.png",
+      "bytes": 784749,
+      "sha256": "edbfa013e20689b0a8bd86ffabbdb9e101a5f57ee23b80bac93d105a885fe9a5"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/native-still-192.png",
+      "bytes": 799498,
+      "sha256": "4f1b0d4a128c8265040e452373b2907ec84fcda346b0d3d09e457b516e915b25"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/native-still-24.png",
+      "bytes": 215124,
+      "sha256": "c2c6d01747049e33014078ad28823323bc96fe072946b088d67632fbab09e046"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/native-still-240.png",
+      "bytes": 779324,
+      "sha256": "30b833d6075ea0d053316f2e7578494520c413f704a7ebeaaa0c38d3c3e004fc"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/native-still-300.png",
+      "bytes": 16205,
+      "sha256": "c1e281e612ec6e23d3d7b30ec19e2495129d0fcbe694ccca1b495da42649cea3"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/native-still-36.png",
+      "bytes": 160209,
+      "sha256": "c5352a427dbd433619c1678fb2d79c92da52b6372ee181030ae89bc758a8803f"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/native-still-479.png",
+      "bytes": 16205,
+      "sha256": "c1e281e612ec6e23d3d7b30ec19e2495129d0fcbe694ccca1b495da42649cea3"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/native-still-48.png",
+      "bytes": 115884,
+      "sha256": "5e432543cd9fe05cea84afe4e8d032f7f9d540c645cfc59326e6b01dfdac324a"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/native-still-72.png",
+      "bytes": 117787,
+      "sha256": "c34c7e856598b18fdfda666aff3033b3b2029edab292d10aaa947fc74c39fe11"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/native-still-96.png",
+      "bytes": 216646,
+      "sha256": "7fa9308c889277bbc6aae7ed0eba060f086c15dec60dbedf348086dd05c0442a"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/plan.json",
+      "bytes": 1421,
+      "sha256": "fce843b6b012958554c22925fd183a2e52e9c27135531fdbac3fdfae645a6b36"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/project.aep",
+      "bytes": 3386413,
+      "sha256": "7f941f0282acc88636517e089554c394c060388ef8daf652c99d4bb8ea7a4168"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/quality.json",
+      "bytes": 1082,
+      "sha256": "aaf2206977054b0c6b258664ffb3795939c70481b67bfe2b9630dd76cd9266a0"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/receipt.json",
+      "bytes": 15177,
+      "sha256": "dbb359b336a918b69b12a790d06e2ae3ea495b883c7b930adf84c7c31b805c45"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/request.json",
+      "bytes": 4873,
+      "sha256": "89732cab2ac0495ff7facd04f27aaef7f3dc269d89f79bbd2dc3ba5aa1398a0a"
+    },
+    {
+      "path": "samples/course-reproduction-010/p13-typography-001/scene-quality.json",
+      "bytes": 46408,
+      "sha256": "0206825c44c0c738e8425f1397f878651cccd3fde308efffbed122ada1e58258"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/assets.json",
+      "bytes": 3976,
+      "sha256": "9544dead507abc1e5e63152574fa5b94a67908d2b5d649788572fb7b9396cca1"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/audio-quality.json",
+      "bytes": 4934,
+      "sha256": "6482b4ac230e0c5644296e2544baa3142908048f0bfdf60c03fb9a1769f7cef2"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/compiled-plan.json",
+      "bytes": 59774,
+      "sha256": "b8901b0770592bc2768ddc681cb99b7f11053bbe5f7236424b3a191f41029d89"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/credits.md",
+      "bytes": 281,
+      "sha256": "2a17d797fee38b61b2f28c481c0d9adc9d7dbbc9ccaebfc067d5a37c7d619672"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/final.mp4",
+      "bytes": 6408070,
+      "sha256": "8ba55b24b0316bf6b6ffb108bae3ce12fba446a78c32befe3c0e77653976bbeb"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/detail-source.wav",
+      "bytes": 144102,
+      "sha256": "2eacdb2d419f0ce2cf4a2c60f19c79d0361d88493c6eef8d7f11a6d3b73a7109"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/detail.wav",
+      "bytes": 144102,
+      "sha256": "481b941a3b3b4e6343321b883bcbc87001c71fbc2ce925f1bd46dcfe397f5ceb"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/dialogue-0-source.wav",
+      "bytes": 787150,
+      "sha256": "1511233c07593a34a8fc4af57888c6d3d222ccb567b5dca25be0ca0be75b85ab"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/dialogue-0.wav",
+      "bytes": 1180758,
+      "sha256": "715ac37c1e47876762565b652cd82179367c5d336fdf46fe5958011e4da22ca1"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/dialogue-1-source.wav",
+      "bytes": 385870,
+      "sha256": "7f8b413857c70ff4077c807c32c070c1f901051b82d64706f5bd71047ef70199"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/dialogue-1.wav",
+      "bytes": 578838,
+      "sha256": "fa39968b8752a3e1da919c11ea767744bb89bf90edd0a21197156e869cc3e687"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/foley-source.wav",
+      "bytes": 86502,
+      "sha256": "d78596f7c91f6b37cf3fa9853095cf41aa3d80502f356ee5ef5400d9fb8e4a85"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/foley.wav",
+      "bytes": 86502,
+      "sha256": "79e1175e80e09b4edb8b066448ef4579bbcf41c66413be37ad2c34c820c8f47b"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/impact-source.wav",
+      "bytes": 345702,
+      "sha256": "69d338d12c9f05768e7de003545e7025ca162c60f4c0966d8cf1fdc8f5100d13"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/impact.wav",
+      "bytes": 345702,
+      "sha256": "5dac86f86d8eecf754eb473d37dcef8458fc2c8a953d943d84e32b948edf505c"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/music-source.wav",
+      "bytes": 3600102,
+      "sha256": "42325660a1b064a3c3728b34453af5b080d47bb7538c2e4dfb91178c46d446ae"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/music.wav",
+      "bytes": 3600102,
+      "sha256": "9139c578ad0d7005e9366d5ba8921bbed7602580d5f1cecd06d03badd8b148f1"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/picture-0.mp4",
+      "bytes": 7996891,
+      "sha256": "32ef358c9f860d61fea6d38f65dca6c8bde4c230014a48cf116bc600a410134b"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/picture-1.mp4",
+      "bytes": 6729758,
+      "sha256": "67dbc2b4b5fc27ffdd7b3b0b234225f254b5ca6e63993a1b96a4dafb580c1e6a"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/picture-2.mp4",
+      "bytes": 7115236,
+      "sha256": "6ef07248619879ddf3a01d26df8d94bd8a68c296941c22205afe60122a1f74e8"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/riser-source.wav",
+      "bytes": 432102,
+      "sha256": "2d5b1f435147066120d461d50ee0b4377b8f35333c6103ac844dce244a813b33"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/riser.wav",
+      "bytes": 432102,
+      "sha256": "8fcaa1f63f06cd98efb0183c03a62c627796da87530464a5657893f5443dbb35"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/room-0-quiet.wav",
+      "bytes": 3600102,
+      "sha256": "e4ea41b26c61f80366ba1b82e18350080c4bfbefceb6dd7d1ecb56c751335ba4"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/room-0-source.wav",
+      "bytes": 3600102,
+      "sha256": "b6914824204af8475aa1ba444e6f1ca2c8addcf0d4f633503eaaae2773352169"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/room-0.wav",
+      "bytes": 3600102,
+      "sha256": "29d07ae2d095e213e883b69e385497a7f3daa46d760a9f8a79cdfd6a1b9b2670"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/room-1-quiet.wav",
+      "bytes": 3600102,
+      "sha256": "4dd2d86f79498254284354adc1449bc9d0df458c5f637733ce21e6115e27d0ba"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/room-1-source.wav",
+      "bytes": 3600102,
+      "sha256": "e2fc88f01d3759a17a44160819f5e86fb39e2208656d290ad77aa33c31e21e00"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/room-1.wav",
+      "bytes": 3600102,
+      "sha256": "540f2772e836477c55af6daa360d4cdccda2adecd4fcc861df2fea86055920f7"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/room-2-quiet.wav",
+      "bytes": 3600102,
+      "sha256": "4ee48ca63cce9c63e347fad273fd7e1c74aa6a29e5d63ac84329ecc049aac094"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/room-2-source.wav",
+      "bytes": 3600102,
+      "sha256": "387bea55b07a3bf51daa9a52d0f21a50588efecc438e14e3044940e0b11bd883"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/room-2.wav",
+      "bytes": 3600102,
+      "sha256": "44d0715958c2c1b78a63b29f348812b70a9e6a3c25db4d12ad5bbf432ae23bd1"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/transition-0-recorded-source.wav",
+      "bytes": 288102,
+      "sha256": "694ded51abb381f6358bdeb0e4bc2bf4661eaee141821aaf8461250ac88c3618"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/transition-0.wav",
+      "bytes": 288102,
+      "sha256": "bccacd06d79cfc82fbc413b8c6401c692fe6bba62c706af86ccb72a08f6b7189"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/transition-1-recorded-source.wav",
+      "bytes": 316902,
+      "sha256": "6b24daf13eb1f27aeec9d1a501e60af777f78516661564478134ef23936640ed"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/transition-1.wav",
+      "bytes": 316902,
+      "sha256": "57fc72b381be12a0ec10bd073aee92a26e1568b7fb78dc84424a60aa65e80974"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/native-build.json",
+      "bytes": 2056,
+      "sha256": "8be54e57fac89c204f3d3429e55a9670fbc1065b3ba37245dd68ebddd777f096"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/native-mix.wav",
+      "bytes": 2407916,
+      "sha256": "a01485702a684ef10b4012103034016a42c01ce7d3efa6194a875844e179f672"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/native-render.json",
+      "bytes": 208,
+      "sha256": "74a37d95375038c056eefa655dd69a3ccd0074987162a36330b4dace94891512"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/native-wav.json",
+      "bytes": 127,
+      "sha256": "8e3af1de6d56707cb0e35bfdff9529742314d659cc7fb95080513f2c5c6ba507"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/packaging.json",
+      "bytes": 1401,
+      "sha256": "1a91484453f6b73a723b4f541f33c078371a94191ffa479e5efb046cdd995e3a"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/plan.json",
+      "bytes": 59770,
+      "sha256": "65f8b98dbead6cfece4419e297f5209edbab414e115eae3cec163ce0595c7ae0"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/project.prproj",
+      "bytes": 31612,
+      "sha256": "520e814b85d34b3b95f959c914cd0ff1e0a42cff40fa2f2c9a44a26e753eb210"
+    },
+    {
+      "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/quality.json",
+      "bytes": 758,
+      "sha256": "e333d7799cb31c832a9103df89e422118f9856781e2e7a154a086b43d7774343"
+    },
+    {
       "path": "samples/pr-sound-suite-002/baseline/assets.json",
       "bytes": 1551,
       "sha256": "dcd7e880bab69ec1f2a71434a5c25ef1caa6e3606553c442106e55ab54740d1d"
@@ -2894,11 +3261,6 @@
       "path": "samples/pr-sound-suite-002/baseline/audio-quality.json",
       "bytes": 4918,
       "sha256": "40f3dd025488ed5ad0c531a3c96d3d7dad8278bc433e955c7891d855c398c9e2"
-    },
-    {
-      "path": "samples/pr-sound-suite-002/baseline/build.jsx",
-      "bytes": 57872,
-      "sha256": "7aa56927e98003feda1e6fcdf194f2a96ac6da65c8fb52f1d1fb774b89d60f73"
     },
     {
       "path": "samples/pr-sound-suite-002/baseline/compiled-plan.json",
@@ -3031,11 +3393,6 @@
       "sha256": "09d960b89f27b55c3bc0eadf936ffc522b5692847d1d7686b35a5fc964ee3da7"
     },
     {
-      "path": "samples/pr-sound-suite-002/reveal/build.jsx",
-      "bytes": 57054,
-      "sha256": "2bbe97308ebf113ce9a540b43a49deda61adee3ef1899064d6d156b1a620db12"
-    },
-    {
       "path": "samples/pr-sound-suite-002/reveal/compiled-plan.json",
       "bytes": 114518,
       "sha256": "6f376bd52863ea4b72c565e55bbaa3447c6b8e55293b469cf5dd93f739c126a0"
@@ -3166,11 +3523,6 @@
       "sha256": "6d0418094f8a4bf0fa5cdbf564c3ef6ba8898044ace99abf7a2b9fac3db43477"
     },
     {
-      "path": "samples/pr-sound-suite-002/variation/build.jsx",
-      "bytes": 53900,
-      "sha256": "8032a8b06cc30011b0da01302d4be284b40af1f75aeab67faee273804a319a3c"
-    },
-    {
       "path": "samples/pr-sound-suite-002/variation/compiled-plan.json",
       "bytes": 107035,
       "sha256": "e5a3f10a324c5b25e857560126f1ae0b577429b473add57aaf07175bb208d00c"
@@ -3291,9 +3643,9 @@
       "sha256": "b014f649f26cdefd166fccb1f5853eee808eb27798c7bd542fe5c795514536b9"
     },
     {
-      "path": "samples/tracking-corridor-001/solve-calibrated-001/composite-pixel-sized/build.jsx",
-      "bytes": 5732,
-      "sha256": "0ce6ff37b63ce15e24c12659a4604b3d33fed48bc0bc585a6ce7cc7ed634ad53"
+      "path": "samples/tracking-corridor-001/final.mp4",
+      "bytes": 6729758,
+      "sha256": "67dbc2b4b5fc27ffdd7b3b0b234225f254b5ca6e63993a1b96a4dafb580c1e6a"
     },
     {
       "path": "samples/tracking-corridor-001/solve-calibrated-001/composite-pixel-sized/drift-supported.json",
@@ -3339,11 +3691,6 @@
       "path": "samples/tracking-corridor-001/solve-calibrated-001/composite-pixel-sized/request.json",
       "bytes": 59,
       "sha256": "ae3741cc772ecd4b913ffda1af89eb3aeabc2f7e36fb78e31b0137463767d44d"
-    },
-    {
-      "path": "samples/tracking-fixture-001/solve-calibrated-001/composite-001/build.jsx",
-      "bytes": 4687,
-      "sha256": "258c0bf44806cd778d4caec3eba723a3cf9407b2e627e4b4924317560e813728"
     },
     {
       "path": "samples/tracking-fixture-001/solve-calibrated-001/composite-001/drift-small-support-check.json",
@@ -3411,11 +3758,6 @@
       "sha256": "cb9b8198149029c2fc49b20235381773baafb41b7801ec365e52537bf2f0a3e8"
     },
     {
-      "path": "samples/tracking-fixture-001/solve-calibrated-001/composite-typography/build.jsx",
-      "bytes": 4691,
-      "sha256": "3812dbbe5915e9ff39c425ccc7669453530bbc5bd0dee7d2c5517f741fffaa6d"
-    },
-    {
       "path": "samples/tracking-fixture-001/solve-calibrated-001/composite-typography/drift-supported.json",
       "bytes": 29740,
       "sha256": "15543cae9352b2ae3bbbb2f608ec503fe2015cb4444c193ef68f89a0475f9ba7"
@@ -3456,9 +3798,14 @@
       "sha256": "7ba64a412f67c44d9746b9cf43b90d855725a278241a6dba7175c645256016f5"
     },
     {
-      "path": "samples/tracking-gallery-001/solve-001/composite-pixel-sized/build.jsx",
-      "bytes": 5708,
-      "sha256": "c3dc02ab16e09edd2515ee6fdff86329f02083bf73b0bb187be3b920d124e1e1"
+      "path": "samples/tracking-fixture-001/source.mp4",
+      "bytes": 7996891,
+      "sha256": "32ef358c9f860d61fea6d38f65dca6c8bde4c230014a48cf116bc600a410134b"
+    },
+    {
+      "path": "samples/tracking-gallery-001/final.mp4",
+      "bytes": 7115236,
+      "sha256": "6ef07248619879ddf3a01d26df8d94bd8a68c296941c22205afe60122a1f74e8"
     },
     {
       "path": "samples/tracking-gallery-001/solve-001/composite-pixel-sized/drift-supported.json",
@@ -3506,6 +3853,78 @@
       "sha256": "292edc63469d9de15e2d93945fbc1c890bc7c493ada8c5019b8c4bc478588cfb"
     }
   ],
+  "supplemental_native_media": [
+    "samples/course-generalization-001/geometry/assets/input.png",
+    "samples/course-generalization-001/texture/assets/input.png",
+    "samples/course-generalization-001/typography/assets/input.png",
+    "samples/course-reproduction-004/p08-geometry-001/assets/input.png",
+    "samples/course-reproduction-004/p08-texture-001/assets/input.png",
+    "samples/course-reproduction-004/p08-typography-001/assets/input.png",
+    "samples/course-reproduction-005/p09-geometry-001/assets/input.png",
+    "samples/course-reproduction-005/p09-texture-001/assets/input.png",
+    "samples/course-reproduction-005/p09-typography-001/assets/input.png",
+    "samples/course-reproduction-007/p11-geometry-002/assets/input.png",
+    "samples/course-reproduction-007/p11-texture-002/assets/input.png",
+    "samples/course-reproduction-007/p11-typography-002/assets/input.png",
+    "samples/course-reproduction-010/p13-geometry-001/inputs/core/assets/geometry.png",
+    "samples/course-reproduction-010/p13-texture-001/inputs/core/assets/texture.png",
+    "samples/course-reproduction-010/p13-typography-001/inputs/core/assets/typography.png",
+    "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/dialogue-0.wav",
+    "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/dialogue-1.wav",
+    "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/impact.wav",
+    "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/music.wav",
+    "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/picture-0.mp4",
+    "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/picture-1.mp4",
+    "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/picture-2.mp4",
+    "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/room-0-quiet.wav",
+    "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/room-1-quiet.wav",
+    "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/room-2-quiet.wav",
+    "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/transition-0.wav",
+    "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/transition-1.wav",
+    "samples/pr-sound-suite-002/baseline/inputs/asset-00.mp4",
+    "samples/pr-sound-suite-002/baseline/inputs/asset-01.mp4",
+    "samples/pr-sound-suite-002/baseline/inputs/asset-02.mp4",
+    "samples/pr-sound-suite-002/baseline/inputs/asset-03.wav",
+    "samples/pr-sound-suite-002/baseline/inputs/asset-04.wav",
+    "samples/pr-sound-suite-002/baseline/inputs/asset-05.wav",
+    "samples/pr-sound-suite-002/baseline/inputs/asset-06.wav",
+    "samples/pr-sound-suite-002/baseline/inputs/asset-07.wav",
+    "samples/pr-sound-suite-002/baseline/inputs/asset-08.wav",
+    "samples/pr-sound-suite-002/baseline/inputs/asset-09.wav",
+    "samples/pr-sound-suite-002/baseline/inputs/asset-10.wav",
+    "samples/pr-sound-suite-002/baseline/inputs/asset-11.wav",
+    "samples/pr-sound-suite-002/reveal/inputs/asset-00.mp4",
+    "samples/pr-sound-suite-002/reveal/inputs/asset-01.mp4",
+    "samples/pr-sound-suite-002/reveal/inputs/asset-02.mp4",
+    "samples/pr-sound-suite-002/reveal/inputs/asset-03.wav",
+    "samples/pr-sound-suite-002/reveal/inputs/asset-04.wav",
+    "samples/pr-sound-suite-002/reveal/inputs/asset-05.wav",
+    "samples/pr-sound-suite-002/reveal/inputs/asset-06.wav",
+    "samples/pr-sound-suite-002/reveal/inputs/asset-07.wav",
+    "samples/pr-sound-suite-002/reveal/inputs/asset-08.wav",
+    "samples/pr-sound-suite-002/reveal/inputs/asset-09.wav",
+    "samples/pr-sound-suite-002/reveal/inputs/asset-10.wav",
+    "samples/pr-sound-suite-002/reveal/inputs/asset-11.wav",
+    "samples/pr-sound-suite-002/variation/inputs/asset-00.mp4",
+    "samples/pr-sound-suite-002/variation/inputs/asset-01.mp4",
+    "samples/pr-sound-suite-002/variation/inputs/asset-02.mp4",
+    "samples/pr-sound-suite-002/variation/inputs/asset-03.wav",
+    "samples/pr-sound-suite-002/variation/inputs/asset-04.wav",
+    "samples/pr-sound-suite-002/variation/inputs/asset-05.wav",
+    "samples/pr-sound-suite-002/variation/inputs/asset-06.wav",
+    "samples/pr-sound-suite-002/variation/inputs/asset-07.wav",
+    "samples/pr-sound-suite-002/variation/inputs/asset-08.wav",
+    "samples/pr-sound-suite-002/variation/inputs/asset-09.wav",
+    "samples/pr-sound-suite-002/variation/inputs/asset-10.wav",
+    "samples/pr-sound-suite-002/variation/inputs/asset-11.wav",
+    "samples/tracking-corridor-001/final.mp4",
+    "samples/tracking-corridor-001/solve-calibrated-001/composite-pixel-sized/inputs/overlay.png",
+    "samples/tracking-fixture-001/solve-calibrated-001/composite-001/inputs/overlay.png",
+    "samples/tracking-fixture-001/solve-calibrated-001/composite-typography/inputs/overlay.png",
+    "samples/tracking-fixture-001/source.mp4",
+    "samples/tracking-gallery-001/final.mp4",
+    "samples/tracking-gallery-001/solve-001/composite-pixel-sized/inputs/overlay.png"
+  ],
   "excluded": [
     "tutorial media and frames in cache",
     "local environments and models",
@@ -3515,5 +3934,5 @@
     "repeated native audio/video exports"
   ],
   "portability": "Native projects retain original Windows media paths. Rebuild from the bundled scripts or relink the bundled inputs/assets; historical report references may point to local-only artifacts.",
-  "total_selected_bytes": 401043997
+  "total_selected_bytes": 556087950
 }

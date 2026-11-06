@@ -399,6 +399,39 @@
           "scope": "Course14 baseline002 odd/even motion, random reveal and overall rhythm; no approval transfer to variants or exact source parameter claims"
         }
       ]
+    },
+    {
+      "name": "ae-advanced-compositing",
+      "version": "0.1.0",
+      "status": "candidate",
+      "execution_status": "native_rough_layout_four_real_cases_with_explicit_source_and_readability_limits",
+      "path": "skills/after-effects/ae-advanced-compositing",
+      "dependencies": [
+        "After Effects26.0x67 tested",
+        "aerender",
+        "FFmpeg",
+        "Python3.10+"
+      ],
+      "plugins": [],
+      "scenarios": [
+        "Five editable native precompositions in3D depth",
+        "External camera, selective collapse and Linear Color Key2",
+        "Random time-remapped dot clusters"
+      ],
+      "sources": [
+        {
+          "id": "BV1Yh4y1A7XT",
+          "parts": [
+            13
+          ]
+        }
+      ],
+      "evidence": "evaluations/course-p13-probe-001/summary.json",
+      "blockers": [
+        "Course13 is unfinished rough layout with blank tail, later styling not made",
+        "Exact source key timing and final dot count inferred",
+        "No overall human review; three PNG inputs do not prove text readability or arbitrary materials"
+      ]
     }
   ],
   "research_queue": [

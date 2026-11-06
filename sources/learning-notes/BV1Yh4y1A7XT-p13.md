@@ -1,4 +1,10 @@
-# 第13节：Compositing（全局已学，原生合成尚未制作）
+# 第13节：Compositing（原生粗布局候选已制作）
+
+续作已制作baseline004与几何/文字/纹理三组原创PNG变体，真实20秒/24fps/480帧工程及视频，原生关键帧修改重开恢复、12个独立点阵延迟、约597表达式和实际画面阶段检查通过。三组素材不证明通用小字可读性，文字远处很小、几何细线对比偏弱。基线10.333秒后尚空，明确是粗排而非最终片头；整体尚未请求用户验收。新能力ae-advanced-compositing0.1.0保持candidate。
+
+追加高清取证纠正：03:26相机One Node35mm/Film36mm/DOF Off；09:17最终噪波Width500/Height20、Contrast2000（早期720p读200有误）；09:44主噪波OrientationZ90；16:36 Min确为[-1084,-630,1930]；17:35主点阵Z改为-3870，覆盖17:32的1600。摄像机六键23/47/81/91/144/161帧及主层起始仍从时间轴估算，最终点阵12份仍推断。不会把这些值称准确读取源工程。
+
+本机实测Linear Color Key应为ADBE Linear Color Key2；导入AEP必须递归新FolderItem。时间重映射负式读回0，以1秒求偏移再逐帧检查，生产式保持不变。AE键时刻量化为1/1024帧，摄像机位置按保存后的实际键核对，仍独立限制请求偏差；100单位错误的负例失败。证据evaluations/course-p13-probe-001/summary.json。按用户“入库后清中间产物”保留交付及JSON证据，已完成的临时抽帧/失败工程可清理；下文为初次取证历史，不再视为全部未制作。
 
 来源：https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=13 。Watch现有工具取得1085.4秒1280×720原片，cache/watch/watch-z3iierxa。22张全局帧均实际审阅，不能用稀疏帧证明完整操作。完整现有本机faster-whisper-small英文转录已全部阅读，cache/local-transcripts/BV1Yh4y1A7XT-p13-full-001；模型离线复用，无安装/上传。另审watch-8ro5zcjq八张、watch-2j91hrld十张指定帧。
 

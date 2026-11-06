@@ -1,0 +1,49 @@
+"""Render a successful native build and package its PNG sequence; never simulate Adobe output."""
+import argparse
+import json
+import re
+import subprocess
+from pathlib import Path
+from validate_video import validate
+from validate_scene import validate as validate_scene
+
+def check_output(root,cfg):
+    report=validate(root/'final.mp4',cfg)
+    scene=validate_scene(root);report['scene_quality']='scene-quality.json'
+    if scene['status']!='passed':report['status']='failed'
+    (root/'quality.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+    return report
+
+def render(directory,executable,timeout,reuse=False):
+    root=Path(directory).resolve();project=root/'project.aep';receipt=root/'receipt.json'
+    if not project.is_file() or not receipt.is_file():raise FileNotFoundError('Native project and successful AE receipt required')
+    data=json.loads(receipt.read_text(encoding='utf-8-sig'))
+    if data.get('status')!='built' or not data.get('project_reopened') or data.get('expression_errors'):
+        raise ValueError('Build did not pass native reopen and expression checks')
+    if not data.get('selected_template'):raise ValueError('No supported output template found; inspect output_templates in the native receipt')
+    if any((root/'render').glob('frame_*.png')) or (root/'final.mp4').exists():raise FileExistsError('Refusing stale render output')
+    try:
+        result=subprocess.run([str(Path(executable).resolve()),*(['-reuse'] if reuse else []),'-project',str(project)],capture_output=True,timeout=timeout)
+        (root/'aerender.log').write_bytes(result.stdout+b'\n'+result.stderr)
+    except subprocess.TimeoutExpired as e:
+        (root/'aerender.log').write_bytes((e.stdout or b'')+b'\nTIMEOUT\n'+(e.stderr or b''));raise RuntimeError('Native render timed out; inspect running Adobe process before retry')
+    if result.returncode:raise RuntimeError(f'aerender exited {result.returncode}; see aerender.log')
+    cfg=json.loads((root/'request.json').read_text(encoding='utf-8'))
+    if data.get('output_format')=='mp4':
+        native=root/'native.mp4'
+        if not native.is_file():raise RuntimeError('Native render output missing')
+        native.replace(root/'final.mp4')
+        return check_output(root,cfg)
+    frames=sorted((root/'render').glob('frame_*.png'))
+    numbers=[int(re.fullmatch(r'frame_(\d+)\.png',p.name).group(1)) for p in frames]
+    cfg=json.loads((root/'request.json').read_text(encoding='utf-8'))
+    if not numbers or len(numbers)!=round(cfg['duration']*cfg['fps']) or numbers!=list(range(numbers[0],numbers[0]+len(numbers))):
+        raise RuntimeError('Missing, extra or noncontiguous native frames')
+    digits=len(frames[0].stem.split('_')[-1])
+    subprocess.run(['ffmpeg','-v','error','-n','-framerate',str(cfg['fps']),'-start_number',str(numbers[0]),'-i',str(root/'render'/f'frame_%0{digits}d.png'),
+                    '-c:v','libx264','-crf','18','-pix_fmt','yuv420p','-movflags','+faststart',str(root/'final.mp4')],check=True,timeout=timeout)
+    return check_output(root,cfg)
+
+if __name__=='__main__':
+    ap=argparse.ArgumentParser();ap.add_argument('directory');ap.add_argument('--aerender',required=True);ap.add_argument('--timeout',type=int,default=1800);ap.add_argument('--reuse',action='store_true')
+    a=ap.parse_args();r=render(a.directory,a.aerender,a.timeout,a.reuse);print(json.dumps(r,indent=2));raise SystemExit(0 if r['status']=='passed' else 1)

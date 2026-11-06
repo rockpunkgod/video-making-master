@@ -1,0 +1,34 @@
+{
+  "skill": "ae-advanced-compositing",
+  "status": "candidate",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=13",
+  "steps": [
+    "Preserve dirty/unrelated Adobe work",
+    "Import five copied native projects",
+    "Modify only imported components",
+    "Apply selective collapse and white Linear Color Key",
+    "Create nested randomized point timing and main camera",
+    "Save/reopen, inspect live properties, edit and restore camera",
+    "Native render then full decode and visual/source review"
+  ],
+  "parameter_provenance": {
+    "observed": [
+      "1920x1080/24fps/20s",
+      "One Node35mm,DOFoff",
+      "noise scale500/20,contrast2000",
+      "noise orientationZ90",
+      "contour zSpacing300",
+      "dot PositionMin/Max and seed653/drift-124",
+      "dot mainZ-3870 final17:35",
+      "timeRemap seedRandom(5,true);time-random()"
+    ],
+    "inferred": [
+      "Camera frame indices estimated from04:59 ruler; \u00b11frame uncertainty",
+      "Noise/contour/line starts32/80/128 at24fps from final17:35 timeline",
+      "12 dot copies inferred from six copies duplicated; final count not directly read",
+      "noise mainZ-5000 last fully read; no exact final transform claim",
+      "Core176 count and original random identities inherit earlier candidate limits",
+      "Explicit original PNG core variation, not the tutorial circle baseline"
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "status": "built",
+  "project_reopened": true,
+  "rows": [
+    {
+      "mode": "separated_Z",
+      "max_error": 0.20832822926241,
+      "worst": {
+        "frame": 123,
+        "value": -12852.7328482413,
+        "expected": -12852.9411764706
+      },
+      "keys": [
+        {
+          "time": 0.8145751953125,
+          "requested": 0.81458333333333,
+          "value": [
+            960,
+            540,
+            -1866.66662597656
+          ]
+        },
+        {
+          "time": 1.66459147135417,
+          "requested": 1.66458333333333,
+          "value": [
+            960,
+            540,
+            -7500
+          ]
+        },
+        {
+          "time": 2.86873372395833,
+          "requested": 2.86875,
+          "value": [
+            960,
+            540,
+            -8500
+          ]
+        },
+        {
+          "time": 3.222900390625,
+          "requested": 3.22291666666667,
+          "value": [
+            960,
+            540,
+            -12500
+          ]
+        },
+        {
+          "time": 5.10001627604167,
+          "requested": 5.1,
+          "value": [
+            960,
+            540,
+            -12500
+          ]
+        },
+        {
+          "time": 5.70206705729167,
+          "requested": 5.70208333333333,
+          "value": [
+            960,
+            540,
+            -21000
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "separated_Z",
+      "max_error": 0.21070877662351,
+      "worst": {
+        "frame": 123,
+        "value": -12852.730467694,
+        "expected": -12852.9411764706
+      },
+      "keys": [
+        {
+          "time": 0.8145751953125,
+          "requested": 0.81458333333333,
+          "value": -1866.66662597656
+        },
+        {
+          "time": 1.66459147135417,
+          "requested": 1.66458333333333,
+          "value": -7500
+        },
+        {
+          "time": 2.86873372395833,
+          "requested": 2.86875,
+          "value": -8500
+        },
+        {
+          "time": 3.222900390625,
+          "requested": 3.22291666666667,
+          "value": -12500
+        },
+        {
+          "time": 5.10001627604167,
+          "requested": 5.1,
+          "value": -12500
+        },
+        {
+          "time": 5.70206705729167,
+          "requested": 5.70208333333333,
+          "value": -21000
+        }
+      ]
+    },
+    {
+      "mode": "slider_reference",
+      "max_error": 0.21070877662351,
+      "worst": {
+        "frame": 123,
+        "value": -12852.730467694,
+        "expected": -12852.9411764706
+      },
+      "keys": [
+        {
+          "time": 0.8145751953125,
+          "requested": 0.81458333333333,
+          "value": -1866.66662597656
+        },
+        {
+          "time": 1.66459147135417,
+          "requested": 1.66458333333333,
+          "value": -7500
+        },
+        {
+          "time": 2.86873372395833,
+          "requested": 2.86875,
+          "value": -8500
+        },
+        {
+          "time": 3.222900390625,
+          "requested": 3.22291666666667,
+          "value": -12500
+        },
+        {
+          "time": 5.10001627604167,
+          "requested": 5.1,
+          "value": -12500
+        },
+        {
+          "time": 5.70206705729167,
+          "requested": 5.70208333333333,
+          "value": -21000
+        }
+      ]
+    }
+  ],
+  "audit_annotation": "First row label is inconsistent with its three-element key values; treat it as the combined spatial probe. Only actual keyTime quantization and numeric readbacks are used as evidence; do not infer the mode from that label."
+}

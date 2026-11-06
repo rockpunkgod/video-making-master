@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=13",
+  "inputs": {
+    "contours": {
+      "project": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-reproduction-010/p13-geometry-001/inputs/contours/project.aep",
+      "composition": "COURSE_P06_TRIM_FINAL",
+      "sha256": "1096b70a15213deeb87f9b4e2bfda15b7afd1b8312e3c1582c0173910d4710ca",
+      "origin": "samples/course-reproduction-002/p06-final-003/project.aep",
+      "assets": [],
+      "asset_relinks": []
+    },
+    "noise": {
+      "project": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-reproduction-010/p13-geometry-001/inputs/noise/project.aep",
+      "composition": "COURSE_P07_DIGITAL_BLOCKS",
+      "sha256": "19f2374c9e1127e5a51d30f6dca65865a2fbe799f9a025eb0cb56b9ef49326bb",
+      "origin": "samples/course-reproduction-003/p07-tint-001/project.aep",
+      "assets": [],
+      "asset_relinks": []
+    },
+    "core": {
+      "project": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-reproduction-010/p13-geometry-001/inputs/core/project.aep",
+      "composition": "COURSE_P11_ALGORITHMIC_LAYOUT",
+      "sha256": "89fa0e311c23704c20cf4c47b318dbbf88f8a90e7c3676b0f3305958fe9829b0",
+      "assets": [
+        {
+          "path": "inputs/geometry.png",
+          "original_name": "input.png"
+        }
+      ],
+      "origin": "samples/course-reproduction-007/p11-geometry-002/project.aep",
+      "asset_relinks": [
+        {
+          "original_name": "input.png",
+          "path": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-reproduction-010/p13-geometry-001/inputs/core/assets/geometry.png"
+        }
+      ]
+    },
+    "lines": {
+      "project": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-reproduction-010/p13-geometry-001/inputs/lines/project.aep",
+      "composition": "COURSE_P12_CYBER_LINES",
+      "sha256": "e3839ffa90c7e31626ef5f338192606d486e2a6d9ec7d85cfcf53d3761c9dda9",
+      "origin": "samples/course-reproduction-008/p12-baseline-001/project.aep",
+      "assets": [],
+      "asset_relinks": []
+    },
+    "dots": {
+      "project": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-reproduction-010/p13-geometry-001/inputs/dots/project.aep",
+      "composition": "COURSE_P08_THRESHOLD",
+      "sha256": "557f40ed0ac336ff3a17dbd2cdb5f7aefc88c5742adf0efa7294dc9ce26368af",
+      "origin": "samples/course-reproduction-004/p08-appear-001/project.aep",
+      "assets": [],
+      "asset_relinks": []
+    }
+  },
+  "camera_frames": [
+    23,
+    47,
+    81,
+    91,
+    144,
+    161
+  ],
+  "camera_z": [
+    -1866.6666666667,
+    -7500,
+    -8500,
+    -12500,
+    -12500,
+    -21000
+  ],
+  "camera_zoom": 1866.6666666667,
+  "layers": {
+    "core": {
+      "start_frame": 0,
+      "z": 0,
+      "collapse": false
+    },
+    "noise": {
+      "start_frame": 32,
+      "z": -5000,
+      "collapse": true,
+      "orientation": [
+        0,
+        0,
+        90
+      ]
+    },
+    "contours": {
+      "start_frame": 80,
+      "z": -10000,
+      "collapse": true
+    },
+    "lines": {
+      "start_frame": 128,
+      "z": -20000,
+      "collapse": false
+    },
+    "dots": {
+      "start_frame": 0,
+      "z": -3870,
+      "collapse": true
+    }
+  },
+  "noise": {
+    "count": 7,
+    "width": 500,
+    "height": 20,
+    "z_spacing": 350
+  },
+  "contour_z_spacing": 300,
+  "dots": {
+    "count": 12,
+    "seed": 653,
+    "drift_speed": -124,
+    "pos_min": [
+      -1084,
+      -630,
+      1930
+    ],
+    "pos_max": [
+      3130,
+      1950,
+      8890
+    ],
+    "inner_scale": 34
+  },
+  "provenance": {
+    "observed": [
+      "1920x1080/24fps/20s",
+      "One Node35mm,DOFoff",
+      "noise scale500/20,contrast2000",
+      "noise orientationZ90",
+      "contour zSpacing300",
+      "dot PositionMin/Max and seed653/drift-124",
+      "dot mainZ-3870 final17:35",
+      "timeRemap seedRandom(5,true);time-random()"
+    ],
+    "inferred": [
+      "Camera frame indices estimated from04:59 ruler; \u00b11frame uncertainty",
+      "Noise/contour/line starts32/80/128 at24fps from final17:35 timeline",
+      "12 dot copies inferred from six copies duplicated; final count not directly read",
+      "noise mainZ-5000 last fully read; no exact final transform claim",
+      "Core176 count and original random identities inherit earlier candidate limits",
+      "Explicit original PNG core variation, not the tutorial circle baseline"
+    ]
+  },
+  "name": "COURSE_P13_COMPOSITE",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "duration": 20,
+  "motion_expectation": "required",
+  "camera_time_scale": 0.85,
+  "status": "candidate",
+  "scope": "Course13 rough spatial assembly, not the fully stylized title sequence",
+  "variant": true
+}

@@ -1,0 +1,144 @@
+{
+  "status": "candidate_native_course_rough_layout",
+  "date": "2026-11-06",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=13",
+  "cases": [
+    {
+      "case": "p13-baseline-004",
+      "directory": "samples/course-reproduction-010/p13-baseline-004",
+      "video_sha256": "fab8281d971c3790377f40d9aa6a03cacc35536bd92839b846eb3879638173a8",
+      "project_sha256": "b9a93b8973578d84cb4e42fc5e20f0e5955e74a4a7090e78ec78e9509821df5d",
+      "frames": 480,
+      "native_camera_edit": {
+        "original": -21000,
+        "changed": -21100,
+        "restored": -21000
+      },
+      "distinct_dot_offsets": 12,
+      "time_remap_error": 4.44089209850063e-16,
+      "camera_interpolation_error": 0.015428043903739308,
+      "key_time_error": 3.552713678800501e-15,
+      "unfinished_tail": {
+        "start_frame": 248,
+        "start_seconds": 10.333333333333334,
+        "duration_seconds": 9.666666666666666,
+        "reason": "Course13 rough layout inputs end here; later lessons still required. Not a render failure waiver or final movie completion."
+      },
+      "actual_video_review": "12 actual video frames inspected; typography core small/unreadable at distance, geometry thin/low contrast, texture visible; no general readability claim"
+    },
+    {
+      "case": "p13-geometry-001",
+      "directory": "samples/course-reproduction-010/p13-geometry-001",
+      "video_sha256": "634f8397ba19b2194ec1554617895b8f831cd2e0ac7f41aa1ce0cf7b67448475",
+      "project_sha256": "14a3b24a9e4ba327b0d743708c566d7278b9e070da8ec05c440caf594882c113",
+      "frames": 480,
+      "native_camera_edit": {
+        "original": -21000,
+        "changed": -21100,
+        "restored": -21000
+      },
+      "distinct_dot_offsets": 12,
+      "time_remap_error": 4.44089209850063e-16,
+      "camera_interpolation_error": 0.015523004668466456,
+      "key_time_error": 1.6276041669982533e-05,
+      "unfinished_tail": {
+        "start_frame": 236,
+        "start_seconds": 9.833333333333334,
+        "duration_seconds": 10.166666666666666,
+        "reason": "Course13 rough layout inputs end here; later lessons still required. Not a render failure waiver or final movie completion."
+      },
+      "actual_video_review": "12 actual video frames inspected; typography core small/unreadable at distance, geometry thin/low contrast, texture visible; no general readability claim"
+    },
+    {
+      "case": "p13-typography-001",
+      "directory": "samples/course-reproduction-010/p13-typography-001",
+      "video_sha256": "c5c597fcf476eb7ec3a07851b1c6326f2876e9b04e740fb6078d48f89e16edb4",
+      "project_sha256": "7f941f0282acc88636517e089554c394c060388ef8daf652c99d4bb8ea7a4168",
+      "frames": 480,
+      "native_camera_edit": {
+        "original": -21000,
+        "changed": -21100,
+        "restored": -21000
+      },
+      "distinct_dot_offsets": 12,
+      "time_remap_error": 4.44089209850063e-16,
+      "camera_interpolation_error": 0.015428043903739308,
+      "key_time_error": 3.552713678800501e-15,
+      "unfinished_tail": {
+        "start_frame": 248,
+        "start_seconds": 10.333333333333334,
+        "duration_seconds": 9.666666666666666,
+        "reason": "Course13 rough layout inputs end here; later lessons still required. Not a render failure waiver or final movie completion."
+      },
+      "actual_video_review": "12 actual video frames inspected; typography core small/unreadable at distance, geometry thin/low contrast, texture visible; no general readability claim"
+    },
+    {
+      "case": "p13-texture-001",
+      "directory": "samples/course-reproduction-010/p13-texture-001",
+      "video_sha256": "b1fc61ff62650675bc7329769d13c6c68d7c7112b79d510f30327639b1bafc1a",
+      "project_sha256": "eb87cd43c316fad813df475b1c2f75040c20d59221662391fecbb94742b9ec30",
+      "frames": 480,
+      "native_camera_edit": {
+        "original": -21000,
+        "changed": -21100,
+        "restored": -21000
+      },
+      "distinct_dot_offsets": 12,
+      "time_remap_error": 4.44089209850063e-16,
+      "camera_interpolation_error": 0.015428043903739308,
+      "key_time_error": 3.552713678800501e-15,
+      "unfinished_tail": {
+        "start_frame": 248,
+        "start_seconds": 10.333333333333334,
+        "duration_seconds": 9.666666666666666,
+        "reason": "Course13 rough layout inputs end here; later lessons still required. Not a render failure waiver or final movie completion."
+      },
+      "actual_video_review": "12 actual video frames inspected; typography core small/unreadable at distance, geometry thin/low contrast, texture visible; no general readability claim"
+    }
+  ],
+  "software": "AE26.0x67 native project import, selective collapse, Linear Color Key2, Time Remapping and camera keys",
+  "isolated_execution": {
+    "input_variants": "isolated-skill-018 executed outside lab cwd; assets explicitly relinked into delivered input folders",
+    "latest_baseline": "isolated-skill-020 includes automatic scene QA and native key readbacks; all inputs and Profile in copied Skill"
+  },
+  "source_fidelity": {
+    "observed": [
+      "1920x1080/24fps/20s",
+      "One Node35mm, film36mm, DOFoff",
+      "noise Width500/Height20,Contrast2000",
+      "noise OrientationZ90",
+      "contour Zspacing300",
+      "dot seed653,drift-124,Min/Max vectors",
+      "final dot mainZ-3870",
+      "source seedRandom(5,true);time-random()"
+    ],
+    "inferred": [
+      "Camera key frame indices ±1 source frame",
+      "Main layer inpoints",
+      "12 final dot copies",
+      "Scatter +value base0",
+      "Some inherited core geometry and random identities"
+    ],
+    "human_visual_review": "not_requested_for_unfinished_rough_layout; original playback only partial and skip-frame, final styling still required"
+  },
+  "tests": {
+    "baseline": "Real AEP+480frame MP4",
+    "parameter_changes": "time scale0.85, width650, seed77 in three cases",
+    "new_materials": "Three original core PNG inputs; technical pipeline passes, typography/contrast limitations remain",
+    "native": "480camera samples,597expressions,12 independent offsets, actual camera key edit/reopen/restore",
+    "basic_pixels": "Four scene phases sampled from actual complete decoded video, blank tail compared to input outpoints",
+    "negative_control": "camera-negative-control.json rejects deliberately corrupted100-unit trace"
+  },
+  "failures_retained": [
+    "rejected-global-import-index.json",
+    "rejected-zero-time-offset.json",
+    "scene-quality-overprecision.json",
+    "scene-quality-unquantized.json"
+  ],
+  "limitations": [
+    "20s project currently blank after10.333s in baseline; no completed film claim",
+    "No exact source timing/seed/whole visual acceptance",
+    "Cross-platform Adobe and arbitrary input layouts unverified"
+  ],
+  "cleanup": "On user instruction, temporary frame sets, raw ASR, failed native projects and isolated execution copies may be removed after publication; authoritative results, deliverable AEP/MP4 and necessary media remain"
+}

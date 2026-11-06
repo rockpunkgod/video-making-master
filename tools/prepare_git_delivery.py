@@ -7,6 +7,10 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 CASES=[
+ 'samples/course-reproduction-010/p13-baseline-004',
+ 'samples/course-reproduction-010/p13-geometry-001',
+ 'samples/course-reproduction-010/p13-typography-001',
+ 'samples/course-reproduction-010/p13-texture-001',
  'samples/course-reproduction-009/p14-baseline-002',
  'samples/course-reproduction-009/p14-algorithm-001',
  'samples/course-reproduction-009/p14-motion2026-001',
@@ -16,7 +20,6 @@ CASES=[
  'samples/course-generalization-001/geometry',
  'samples/course-generalization-001/typography',
  'samples/course-generalization-001/texture',
- 'samples/course-reproduction-003/p07-blocks-002',
  'samples/course-reproduction-003/p07-tint-001',
  'samples/course-reproduction-003/p07-seed7-isolated-001',
  'samples/course-reproduction-004/p08-disappear-001',
@@ -29,13 +32,6 @@ CASES=[
  'samples/course-reproduction-005/p09-geometry-001',
  'samples/course-reproduction-005/p09-typography-001',
  'samples/course-reproduction-005/p09-texture-001',
- 'samples/course-reproduction-006/p10-decimal-binary-002',
- 'samples/course-reproduction-006/p10-variation-001',
- 'samples/course-reproduction-006/p10-single-digit-001',
- 'samples/course-reproduction-006/p10-decimal-binary-003',
- 'samples/course-reproduction-006/p10-variation-002',
- 'samples/course-reproduction-006/p10-single-digit-002',
- 'samples/course-reproduction-006/p10-controls-animation-005',
  'samples/course-reproduction-006/p10-reference-replay-006',
  'samples/course-reproduction-006/p10-reference-variation-001',
  'samples/course-reproduction-006/p10-reference-standalone-001',
@@ -54,6 +50,7 @@ CASES=[
  'samples/pr-sound-suite-002/baseline',
  'samples/pr-sound-suite-002/variation',
  'samples/pr-sound-suite-002/reveal',
+ 'samples/pr-sound-suite-001/baseline-soft-transitions-001',
 ]
 chosen=[]
 for name in CASES:
@@ -63,8 +60,8 @@ for name in CASES:
   if not path.is_file():continue
   rel=path.relative_to(folder)
   if rel.parts[0] in {'inputs','assets'}:
-   if path.suffix.lower() in {'.png','.jpg','.jpeg','.wav','.mp3','.mp4','.json','.md'}:chosen.append(path)
-  elif len(rel.parts)==1 and (path.name in {'project.aep','project.prproj','final.mp4','native-mix.wav','credits.md','build.jsx'} or path.suffix.lower()=='.json'):
+   if path.suffix.lower() in {'.aep','.png','.jpg','.jpeg','.wav','.mp3','.mp4','.json','.md'}:chosen.append(path)
+  elif len(rel.parts)==1 and (path.name in {'project.aep','project.prproj','final.mp4','native-mix.wav','credits.md'} or path.suffix.lower()=='.json'):
    chosen.append(path)
   elif len(rel.parts)==1 and path.name.startswith('native-still-') and path.suffix.lower()=='.png':
    chosen.append(path)
@@ -72,6 +69,22 @@ for name in CASES:
  if not (folder/'final.mp4').is_file() or not any((folder/p).is_file() for p in ['project.aep','project.prproj']):raise ValueError('Incomplete native delivery '+name)
 for path in (ROOT/'evaluations').rglob('*'):
  if path.is_file() and path.suffix.lower() in {'.json','.md','.jsx','.py','.txt','.log'} and '__pycache__' not in path.parts:chosen.append(path)
+# Some native tracking projects still reference their original generated clips.
+# These are necessary inputs, not disposable renders. Read the actual saved
+# Adobe dependencies before cleanup instead of guessing from folder names.
+supplemental=[]
+for name in ['native-media-dependencies.json','pr-media-dependencies.json']:
+ audit=ROOT/'reports'/name
+ if not audit.is_file():continue
+ data=json.loads(audit.read_text(encoding='utf-8-sig'))
+ if data['status']!='completed':raise ValueError('Native dependency audit incomplete: '+name)
+ for project in data['projects']:
+  for record in project['media']:
+   path=Path(record['path']).resolve()
+   if path.suffix.lower() not in {'.mp4','.mov','.wav','.mp3','.aif','.aiff','.png','.jpg','.jpeg'}:continue
+   path.relative_to(ROOT.resolve())
+   if not path.is_file():raise FileNotFoundError('Required native media missing: '+str(path))
+   supplemental.append(path);chosen.append(path)
 chosen=sorted(set(chosen))
 records=[]
 for path in chosen:
@@ -79,6 +92,7 @@ for path in chosen:
  if size>=100_000_000:raise ValueError('GitHub single-file limit requires another delivery method: '+str(path))
  records.append(dict(path=path.relative_to(ROOT).as_posix(),bytes=size,sha256=hashlib.sha256(path.read_bytes()).hexdigest()))
 manifest=dict(scope='Standalone video-skills-lab progress snapshot; overall curriculum incomplete',cases=CASES,files=records,
+ supplemental_native_media=sorted({p.relative_to(ROOT).as_posix() for p in supplemental}),
  excluded=['tutorial media and frames in cache','local environments and models','duplicate/failed intermediate native binaries','Adobe preset files derived from installed vendor files','Adobe autosave and transport data','repeated native audio/video exports'],
  portability='Native projects retain original Windows media paths. Rebuild from the bundled scripts or relink the bundled inputs/assets; historical report references may point to local-only artifacts.',
  total_selected_bytes=sum(r['bytes'] for r in records))

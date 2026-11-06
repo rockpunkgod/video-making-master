@@ -1,0 +1,125 @@
+[
+  {
+    "material": "geometry",
+    "directory": "samples/course-reproduction-010/p13-geometry-001",
+    "copied_skill": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\isolated-skill-018\\ae-advanced-compositing",
+    "cwd": "E:\\\u81ea\u5a92\u4f53",
+    "quality": {
+      "status": "passed",
+      "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course-reproduction-010\\p13-geometry-001\\final.mp4",
+      "sha256": "634f8397ba19b2194ec1554617895b8f831cd2e0ac7f41aa1ce0cf7b67448475",
+      "checks": {
+        "full_decode": true,
+        "frame_hash_decode": true,
+        "difference_decode": true,
+        "expected_temporal_behavior": true,
+        "width": true,
+        "height": true,
+        "fps": true,
+        "duration": true,
+        "frame_count": true
+      },
+      "observed": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 24.0,
+        "duration": 20.0,
+        "decoded_frames": 480,
+        "unique_thumbnail_frames": 239
+      },
+      "temporal_contract": {
+        "expectation": "required",
+        "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+        "decoded_difference_frames": 479,
+        "maximum_mean_luma_difference": 33.3237,
+        "codec_noise_threshold": 0.1
+      },
+      "audio_sync": "not_applicable",
+      "visual_review": "not_reviewed",
+      "native_project_editability": "not_checked_by_this_tool",
+      "stderr": ""
+    }
+  },
+  {
+    "material": "typography",
+    "directory": "samples/course-reproduction-010/p13-typography-001",
+    "copied_skill": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\isolated-skill-018\\ae-advanced-compositing",
+    "cwd": "E:\\\u81ea\u5a92\u4f53",
+    "quality": {
+      "status": "passed",
+      "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course-reproduction-010\\p13-typography-001\\final.mp4",
+      "sha256": "c5c597fcf476eb7ec3a07851b1c6326f2876e9b04e740fb6078d48f89e16edb4",
+      "checks": {
+        "full_decode": true,
+        "frame_hash_decode": true,
+        "difference_decode": true,
+        "expected_temporal_behavior": true,
+        "width": true,
+        "height": true,
+        "fps": true,
+        "duration": true,
+        "frame_count": true
+      },
+      "observed": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 24.0,
+        "duration": 20.0,
+        "decoded_frames": 480,
+        "unique_thumbnail_frames": 251
+      },
+      "temporal_contract": {
+        "expectation": "required",
+        "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+        "decoded_difference_frames": 479,
+        "maximum_mean_luma_difference": 33.7173,
+        "codec_noise_threshold": 0.1
+      },
+      "audio_sync": "not_applicable",
+      "visual_review": "not_reviewed",
+      "native_project_editability": "not_checked_by_this_tool",
+      "stderr": ""
+    }
+  },
+  {
+    "material": "texture",
+    "directory": "samples/course-reproduction-010/p13-texture-001",
+    "copied_skill": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\isolated-skill-018\\ae-advanced-compositing",
+    "cwd": "E:\\\u81ea\u5a92\u4f53",
+    "quality": {
+      "status": "passed",
+      "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course-reproduction-010\\p13-texture-001\\final.mp4",
+      "sha256": "b1fc61ff62650675bc7329769d13c6c68d7c7112b79d510f30327639b1bafc1a",
+      "checks": {
+        "full_decode": true,
+        "frame_hash_decode": true,
+        "difference_decode": true,
+        "expected_temporal_behavior": true,
+        "width": true,
+        "height": true,
+        "fps": true,
+        "duration": true,
+        "frame_count": true
+      },
+      "observed": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 24.0,
+        "duration": 20.0,
+        "decoded_frames": 480,
+        "unique_thumbnail_frames": 252
+      },
+      "temporal_contract": {
+        "expectation": "required",
+        "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+        "decoded_difference_frames": 479,
+        "maximum_mean_luma_difference": 35.3809,
+        "codec_noise_threshold": 0.1
+      },
+      "audio_sync": "not_applicable",
+      "visual_review": "not_reviewed",
+      "native_project_editability": "not_checked_by_this_tool",
+      "stderr": ""
+    }
+  }
+]

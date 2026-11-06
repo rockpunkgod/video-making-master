@@ -1,0 +1,686 @@
+{
+  "status": "completed",
+  "source": "Read actual saved PR XML without controlling PR",
+  "projects": [
+    {
+      "project": "samples/pr-sound-suite-002/baseline/project.prproj",
+      "media": [
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-00.mp4",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-00.mp4",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-01.mp4",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-01.mp4",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-02.mp4",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-02.mp4",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-03.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-03.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-04.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-04.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-05.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-05.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-06.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-06.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-07.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-07.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-08.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-08.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-09.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-09.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-10.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-10.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-11.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\baseline\\inputs\\asset-11.wav",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-03.wav 48000.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-04.wav 48000.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-05.wav 48000.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-06.wav 48000.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-07.wav 48000.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-08.wav 48000.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-09.wav 48000.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-10.wav 48000.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-11.wav 48000.pek",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "project": "samples/pr-sound-suite-002/variation/project.prproj",
+      "media": [
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-00.mp4",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-00.mp4",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-01.mp4",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-01.mp4",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-02.mp4",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-02.mp4",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-03.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-03.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-04.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-04.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-05.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-05.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-06.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-06.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-07.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-07.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-08.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-08.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-09.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-09.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-10.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-10.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-11.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\variation\\inputs\\asset-11.wav",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-03.wav 48000_1.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-04.wav 48000_1.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-05.wav 48000_1.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-06.wav 48000_1.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-07.wav 48000_1.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-08.wav 48000_1.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-09.wav 48000_1.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-10.wav 48000_1.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-11.wav 48000_1.pek",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "project": "samples/pr-sound-suite-002/reveal/project.prproj",
+      "media": [
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-00.mp4",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-00.mp4",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-01.mp4",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-01.mp4",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-02.mp4",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-02.mp4",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-03.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-03.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-04.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-04.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-05.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-05.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-06.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-06.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-07.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-07.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-08.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-08.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-09.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-09.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-10.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-10.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-11.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-002\\reveal\\inputs\\asset-11.wav",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-03.wav 48000_2.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-04.wav 48000_2.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-05.wav 48000_2.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-06.wav 48000_2.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-07.wav 48000_2.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-08.wav 48000_2.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-09.wav 48000_2.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-10.wav 48000_2.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\asset-11.wav 48000_2.pek",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "project": "samples/pr-sound-suite-001/baseline-soft-transitions-001/project.prproj",
+      "media": [
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\picture-0.mp4",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\picture-0.mp4",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\picture-1.mp4",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\picture-1.mp4",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\picture-2.mp4",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\picture-2.mp4",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\dialogue-0.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\dialogue-0.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\dialogue-1.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\dialogue-1.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\music.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\music.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\room-0-quiet.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\room-0-quiet.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\room-1-quiet.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\room-1-quiet.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\room-2-quiet.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\room-2-quiet.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\transition-0.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\transition-0.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\impact.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\impact.wav",
+          "exists": true
+        },
+        {
+          "tag": "FilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\transition-1.wav",
+          "exists": true
+        },
+        {
+          "tag": "ActualMediaFilePath",
+          "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\pr-sound-suite-001\\baseline-soft-transitions-001\\inputs\\transition-1.wav",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\dialogue-0.wav 48000_3.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\dialogue-1.wav 48000_3.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\music.wav 48000_3.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\room-0-quiet.wav 48000.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\room-1-quiet.wav 48000.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\room-2-quiet.wav 48000.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\transition-0.wav 48000.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\impact.wav 48000_3.pek",
+          "exists": true
+        },
+        {
+          "tag": "PeakFilePath",
+          "path": "C:\\Users\\ASUS\\AppData\\Roaming\\Adobe\\Common\\Peak Files\\2026-11-06\\transition-1.wav 48000.pek",
+          "exists": true
+        }
+      ]
+    }
+  ]
+}
