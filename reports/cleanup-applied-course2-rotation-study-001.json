@@ -1,0 +1,186 @@
+{
+  "status": "completed",
+  "scopes": [
+    "cache/watch/watch-nm6dr0ue",
+    "cache/watch/watch-5i08cofw",
+    "cache/watch/watch-hhnbe_f2",
+    "cache/local-transcripts/BV1c7GTzMEh5-p28-full-001"
+  ],
+  "published_commit": "8366a826750f1a870698c68a5e8724503067e057",
+  "manifest_sha256": "888d5286ce67b839bec5fe80a50196c75b670eade766be1395b73f3709831e36",
+  "files": 40,
+  "bytes": 33850983,
+  "keep_active": [
+    "cache/watch/watch-nm6dr0ue/download/run-36hl94mu/video.mp4"
+  ],
+  "protected_delivery_files": 1419,
+  "skipped_links": [],
+  "targets": [
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p28-full-001/input.wav",
+      "bytes": 31710628
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p28-full-001/transcript.json",
+      "bytes": 54707
+    },
+    {
+      "path": "cache/local-transcripts/BV1c7GTzMEh5-p28-full-001/transcript.srt",
+      "bytes": 18482
+    },
+    {
+      "path": "cache/watch/watch-5i08cofw/frames/cue_0000.jpg",
+      "bytes": 90136
+    },
+    {
+      "path": "cache/watch/watch-5i08cofw/frames/cue_0001.jpg",
+      "bytes": 91675
+    },
+    {
+      "path": "cache/watch/watch-5i08cofw/frames/cue_0002.jpg",
+      "bytes": 90186
+    },
+    {
+      "path": "cache/watch/watch-5i08cofw/frames/cue_0003.jpg",
+      "bytes": 85896
+    },
+    {
+      "path": "cache/watch/watch-5i08cofw/frames/cue_0004.jpg",
+      "bytes": 88419
+    },
+    {
+      "path": "cache/watch/watch-5i08cofw/frames/cue_0005.jpg",
+      "bytes": 86178
+    },
+    {
+      "path": "cache/watch/watch-5i08cofw/frames/cue_0006.jpg",
+      "bytes": 83776
+    },
+    {
+      "path": "cache/watch/watch-5i08cofw/frames/cue_0007.jpg",
+      "bytes": 86122
+    },
+    {
+      "path": "cache/watch/watch-5i08cofw/frames/cue_0008.jpg",
+      "bytes": 83827
+    },
+    {
+      "path": "cache/watch/watch-5i08cofw/frames/cue_0009.jpg",
+      "bytes": 89328
+    },
+    {
+      "path": "cache/watch/watch-hhnbe_f2/frames/cue_0000.jpg",
+      "bytes": 85949
+    },
+    {
+      "path": "cache/watch/watch-hhnbe_f2/frames/cue_0001.jpg",
+      "bytes": 89129
+    },
+    {
+      "path": "cache/watch/watch-hhnbe_f2/frames/cue_0002.jpg",
+      "bytes": 88771
+    },
+    {
+      "path": "cache/watch/watch-hhnbe_f2/frames/cue_0003.jpg",
+      "bytes": 88473
+    },
+    {
+      "path": "cache/watch/watch-hhnbe_f2/frames/cue_0004.jpg",
+      "bytes": 88381
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/download/run-36hl94mu/final-path.jsonl",
+      "bytes": 109
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/download/run-36hl94mu/video.info.json",
+      "bytes": 10213
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0001.jpg",
+      "bytes": 2300
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0009.jpg",
+      "bytes": 20006
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0026.jpg",
+      "bytes": 21740
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0043.jpg",
+      "bytes": 22053
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0054.jpg",
+      "bytes": 21228
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0086.jpg",
+      "bytes": 20601
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0108.jpg",
+      "bytes": 21061
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0164.jpg",
+      "bytes": 19650
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0192.jpg",
+      "bytes": 19864
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0203.jpg",
+      "bytes": 33515
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0211.jpg",
+      "bytes": 23855
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0232.jpg",
+      "bytes": 21371
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0249.jpg",
+      "bytes": 22171
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0265.jpg",
+      "bytes": 20681
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0291.jpg",
+      "bytes": 19811
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0315.jpg",
+      "bytes": 18965
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0375.jpg",
+      "bytes": 20175
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/frame_0395.jpg",
+      "bytes": 19841
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/selected-1.jpg",
+      "bytes": 171446
+    },
+    {
+      "path": "cache/watch/watch-nm6dr0ue/frames/selected-2.jpg",
+      "bytes": 200264
+    }
+  ],
+  "authorization": "User requested keeping only deliverables after library publication; scope restricted to this independent lab",
+  "deleted_files": 40,
+  "deleted_bytes": 33850983,
+  "errors": [],
+  "retained_hash_changes": [],
+  "completed_at": "2026-11-07 04:57:54"
+}
