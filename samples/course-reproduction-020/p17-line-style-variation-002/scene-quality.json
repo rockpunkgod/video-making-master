@@ -1,0 +1,85 @@
+{
+  "status": "passed",
+  "checks": {
+    "reopened": true,
+    "expressions": true,
+    "media": true,
+    "source_layers": true,
+    "adjustment": true,
+    "frames": true,
+    "edit": true,
+    "group1_effects": true,
+    "group1_controls": true,
+    "group1_color": true,
+    "group1_timing": true,
+    "group1_animation": true,
+    "group1_geometry": true,
+    "group2_effects": true,
+    "group2_controls": true,
+    "group2_color": true,
+    "group2_timing": true,
+    "group2_animation": true,
+    "group2_geometry": true,
+    "glows": true,
+    "native_render_checkpoints": true
+  },
+  "checkpoints": [
+    {
+      "frame": 144,
+      "mean_luma_error_255": 0.41638888888888886,
+      "passed": true
+    },
+    {
+      "frame": 150,
+      "mean_luma_error_255": 0.41520833333333335,
+      "passed": true
+    },
+    {
+      "frame": 156,
+      "mean_luma_error_255": 0.4084027777777778,
+      "passed": true
+    },
+    {
+      "frame": 162,
+      "mean_luma_error_255": 0.47506944444444443,
+      "passed": true
+    },
+    {
+      "frame": 168,
+      "mean_luma_error_255": 0.5109027777777778,
+      "passed": true
+    },
+    {
+      "frame": 174,
+      "mean_luma_error_255": 0.5534722222222223,
+      "passed": true
+    },
+    {
+      "frame": 180,
+      "mean_luma_error_255": 0.5313888888888889,
+      "passed": true
+    },
+    {
+      "frame": 186,
+      "mean_luma_error_255": 0.4732638888888889,
+      "passed": true
+    },
+    {
+      "frame": 192,
+      "mean_luma_error_255": 0.3918055555555556,
+      "passed": true
+    },
+    {
+      "frame": 198,
+      "mean_luma_error_255": 0.39006944444444447,
+      "passed": true
+    },
+    {
+      "frame": 204,
+      "mean_luma_error_255": 0.391875,
+      "passed": true
+    }
+  ],
+  "course_fidelity": "unverified",
+  "scope": "Native line geometry/effects/trim animation and codec only. Estimated curves/count/timing/first-group final state and inherited camera remain; no full-film or three-material claim."
+}

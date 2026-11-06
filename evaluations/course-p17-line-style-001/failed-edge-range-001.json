@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "stage": "copy native shape curves",
+  "error": "Error: After Effects错误: 由于参数 1，无法调用“setValue”。值 10 在 0 至 1 的范围外。",
+  "line": 37
+}

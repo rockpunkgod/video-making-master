@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "skills": [
     {
       "name": "ae-procedural-motion",
@@ -402,7 +402,7 @@
     },
     {
       "name": "ae-advanced-compositing",
-      "version": "0.1.9",
+      "version": "0.1.10",
       "status": "candidate",
       "execution_status": "native_p13_p15_p16_and_p17_tunnel_streak_candidates",
       "path": "skills/after-effects/ae-advanced-compositing",
@@ -450,7 +450,8 @@
         "P16 noise component technical checks pass; palette/fade inferred and camera/full-assembly visual alignment unresolved",
         "P16 styled assembly technical gates pass; estimated mask/palette/key timing, gray streaks/red lines and missing human review keep candidate",
         "P17 tunnel key times, raw rotation endpoint and easing inferred; later streak/line styling and three-material suite incomplete",
-        "P17 streak curves/key times estimated; camera/random identities, cyber-line continuation, title and three materials unresolved"
+        "P17 streak curves/key times estimated; camera/random identities, cyber-line continuation, title and three materials unresolved",
+        "P17 two19-path groups and dualGlow native-tested; final first-group state, curves/key timing, reference playback, title/full-film and three materials unverified"
       ],
       "additional_evidence": [
         "evaluations/course-p15-radial-001/summary.json",
@@ -461,7 +462,8 @@
         "evaluations/course-p16-noise-style-001/summary.json",
         "evaluations/course-p16-styled-assembly-001/summary.json",
         "evaluations/course-p17-tunnel-001/summary.json",
-        "evaluations/course-p17-streak-style-001/summary.json"
+        "evaluations/course-p17-streak-style-001/summary.json",
+        "evaluations/course-p17-line-style-001/summary.json"
       ],
       "human_reviews": [
         {

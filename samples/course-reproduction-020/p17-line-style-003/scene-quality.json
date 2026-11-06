@@ -1,0 +1,85 @@
+{
+  "status": "passed",
+  "checks": {
+    "reopened": true,
+    "expressions": true,
+    "media": true,
+    "source_layers": true,
+    "adjustment": true,
+    "frames": true,
+    "edit": true,
+    "group1_effects": true,
+    "group1_controls": true,
+    "group1_color": true,
+    "group1_timing": true,
+    "group1_animation": true,
+    "group1_geometry": true,
+    "group2_effects": true,
+    "group2_controls": true,
+    "group2_color": true,
+    "group2_timing": true,
+    "group2_animation": true,
+    "group2_geometry": true,
+    "glows": true,
+    "native_render_checkpoints": true
+  },
+  "checkpoints": [
+    {
+      "frame": 144,
+      "mean_luma_error_255": 0.4153472222222222,
+      "passed": true
+    },
+    {
+      "frame": 150,
+      "mean_luma_error_255": 0.4255555555555556,
+      "passed": true
+    },
+    {
+      "frame": 156,
+      "mean_luma_error_255": 0.40652777777777777,
+      "passed": true
+    },
+    {
+      "frame": 162,
+      "mean_luma_error_255": 0.4724305555555556,
+      "passed": true
+    },
+    {
+      "frame": 168,
+      "mean_luma_error_255": 0.4922916666666667,
+      "passed": true
+    },
+    {
+      "frame": 174,
+      "mean_luma_error_255": 0.5538194444444444,
+      "passed": true
+    },
+    {
+      "frame": 180,
+      "mean_luma_error_255": 0.5304166666666666,
+      "passed": true
+    },
+    {
+      "frame": 186,
+      "mean_luma_error_255": 0.4633333333333333,
+      "passed": true
+    },
+    {
+      "frame": 192,
+      "mean_luma_error_255": 0.3927777777777778,
+      "passed": true
+    },
+    {
+      "frame": 198,
+      "mean_luma_error_255": 0.39131944444444444,
+      "passed": true
+    },
+    {
+      "frame": 204,
+      "mean_luma_error_255": 0.39256944444444447,
+      "passed": true
+    }
+  ],
+  "course_fidelity": "unverified",
+  "scope": "Native line geometry/effects/trim animation and codec only. Estimated curves/count/timing/first-group final state and inherited camera remain; no full-film or three-material claim."
+}

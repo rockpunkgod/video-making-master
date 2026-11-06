@@ -1,0 +1,81 @@
+{
+  "name": "COURSE_P17_LINE_STYLE",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "duration": 20,
+  "motion_expectation": "required",
+  "status": "candidate",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=17",
+  "inputs": {
+    "main": {
+      "project": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-reproduction-020/p17-line-style-003/inputs/main/project.aep",
+      "composition": "COURSE_P17_STREAK_STYLE",
+      "sha256": "71f5996296be715516472e40581193c47af53b70f09223c3e70130c1348c968e"
+    },
+    "palette": {
+      "project": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-reproduction-020/p17-line-style-003/inputs/palette/project.aep",
+      "composition": "P17_LINE_STYLE_TEMPLATE",
+      "sha256": "ba18172d945ffc108211b77d054ea830f0d2e1ed90f4cf07411d79617af18c5c"
+    }
+  },
+  "path_count": 19,
+  "trim_end_frame": 37,
+  "second_start_frame": 7,
+  "glow_intensity": 1,
+  "groups": [
+    {
+      "name": "CYBER_LINES",
+      "points": 5,
+      "minimum": 50,
+      "maximum": 187,
+      "seed": 82,
+      "mid": 95,
+      "hue": 636
+    },
+    {
+      "name": "CYBER_LINES_2",
+      "points": 5,
+      "minimum": 21,
+      "maximum": 209,
+      "seed": 150,
+      "mid": 36,
+      "hue": 337
+    }
+  ],
+  "checkpoints": [
+    144,
+    150,
+    156,
+    162,
+    168,
+    174,
+    180,
+    186,
+    192,
+    198,
+    204
+  ],
+  "provenance": {
+    "observed": [
+      "16:40\u201316:45 TrimEnd first key1%; Easy Ease In",
+      "18:05 first group5/50/187/82;18:08 shows5/50/153/55; final chronology unresolved",
+      "17:32\u201317:45 and18:10 second group5/21/209/150;2points was a trial",
+      "14:20 first Tritone gray5F5F5F;18:14\u201318:16 second mid242424",
+      "18:00 shared Hue1x276 before individual copies;19:00 second337",
+      "18:10\u201318:16 native RGB/R/G/B curves;20:35 Glow65%/10/1 then20%/50/0.2"
+    ],
+    "inferred": [
+      "Last visible path namedPath19: total19 reconstructed",
+      "End1\u2192100 keys0\u219237 and second offset7 at30fps estimated from ruler; ease influence33.333333 rebuilt",
+      "All native curve points estimated; exact numeric controls unavailable",
+      "First group final seed/max/Hue/gray state needs visual review",
+      "Inherited camera/layer start/random property identity approximate"
+    ],
+    "unverified": [
+      "Full film/title incomplete",
+      "Three materials and exact motion alignment incomplete"
+    ]
+  },
+  "variant": false
+}

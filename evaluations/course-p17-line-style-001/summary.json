@@ -1,0 +1,423 @@
+{
+  "status": "candidate_native_p17_line_style",
+  "date": "2026-11-07",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=17",
+  "interval": "12:00–20:35",
+  "cases": [
+    {
+      "case": "p17-line-style-003",
+      "directory": "samples/course-reproduction-020/p17-line-style-003",
+      "video_sha256": "4e797d723200cae59e1ab89886bc83a943bc94cba505cbda825a4671aa9a5a4b",
+      "project_sha256": "0a18219dc63916fb4b3d6a562757d3d8d6a6a0941a4e840d77bcba23c0f88de1",
+      "frames": 480,
+      "technical_status": "passed",
+      "native_checks": {
+        "reopened": true,
+        "expressions": true,
+        "media": true,
+        "source_layers": true,
+        "adjustment": true,
+        "frames": true,
+        "edit": true,
+        "group1_effects": true,
+        "group1_controls": true,
+        "group1_color": true,
+        "group1_timing": true,
+        "group1_animation": true,
+        "group1_geometry": true,
+        "group2_effects": true,
+        "group2_controls": true,
+        "group2_color": true,
+        "group2_timing": true,
+        "group2_animation": true,
+        "group2_geometry": true,
+        "glows": true,
+        "native_render_checkpoints": true
+      },
+      "expressions_checked": 535,
+      "groups": [
+        {
+          "name": "CYBER_LINES",
+          "parameters": [
+            5,
+            50,
+            187,
+            82
+          ],
+          "hue": 636,
+          "mid": [
+            0.37254902720451,
+            0.37254902720451,
+            0.37254902720451,
+            0
+          ],
+          "trim_times": [
+            0,
+            1.23333333333333
+          ],
+          "trim_values": [
+            1,
+            100
+          ],
+          "monotonic": true
+        },
+        {
+          "name": "CYBER_LINES_2",
+          "parameters": [
+            5,
+            21,
+            209,
+            150
+          ],
+          "hue": 337,
+          "mid": [
+            0.14117647707462,
+            0.14117647707462,
+            0.14117647707462,
+            0
+          ],
+          "trim_times": [
+            0.23333333333333,
+            1.46666666666667
+          ],
+          "trim_values": [
+            1,
+            100
+          ],
+          "monotonic": true
+        }
+      ],
+      "max_diagonal_rounding_error_pixels": 4.577636730118684e-05,
+      "glows": [
+        {
+          "threshold": 165.75,
+          "radius": 10,
+          "intensity": 1
+        },
+        {
+          "threshold": 51,
+          "radius": 50,
+          "intensity": 0.20000000298023
+        }
+      ],
+      "native_edit": {
+        "original": 50,
+        "changed": 51,
+        "restored": 50
+      },
+      "checkpoints": [
+        {
+          "frame": 144,
+          "mean_luma_error_255": 0.4153472222222222,
+          "passed": true
+        },
+        {
+          "frame": 150,
+          "mean_luma_error_255": 0.4255555555555556,
+          "passed": true
+        },
+        {
+          "frame": 156,
+          "mean_luma_error_255": 0.40652777777777777,
+          "passed": true
+        },
+        {
+          "frame": 162,
+          "mean_luma_error_255": 0.4724305555555556,
+          "passed": true
+        },
+        {
+          "frame": 168,
+          "mean_luma_error_255": 0.4922916666666667,
+          "passed": true
+        },
+        {
+          "frame": 174,
+          "mean_luma_error_255": 0.5538194444444444,
+          "passed": true
+        },
+        {
+          "frame": 180,
+          "mean_luma_error_255": 0.5304166666666666,
+          "passed": true
+        },
+        {
+          "frame": 186,
+          "mean_luma_error_255": 0.4633333333333333,
+          "passed": true
+        },
+        {
+          "frame": 192,
+          "mean_luma_error_255": 0.3927777777777778,
+          "passed": true
+        },
+        {
+          "frame": 198,
+          "mean_luma_error_255": 0.39131944444444444,
+          "passed": true
+        },
+        {
+          "frame": 204,
+          "mean_luma_error_255": 0.39256944444444447,
+          "passed": true
+        }
+      ],
+      "native_pngs_actually_viewed": [
+        "native-still-144.png",
+        "native-still-150.png",
+        "native-still-156.png",
+        "native-still-162.png",
+        "native-still-168.png",
+        "native-still-174.png",
+        "native-still-180.png",
+        "native-still-186.png",
+        "native-still-192.png",
+        "native-still-198.png",
+        "native-still-204.png"
+      ],
+      "render_pipeline": "Native TIFF sequence → FFmpeg CRF18 H264; temporary lossless frames removed only after publication"
+    },
+    {
+      "case": "p17-line-style-variation-002",
+      "directory": "samples/course-reproduction-020/p17-line-style-variation-002",
+      "video_sha256": "10b123f7c7d1a31ff2de7ae3bc72c302428521b6fd2a11d119e0a4bae9b6156d",
+      "project_sha256": "1369975471abd2603479f9a957ef55415c426ed81c36450ab7b05e1b6ee3da40",
+      "frames": 480,
+      "technical_status": "passed",
+      "native_checks": {
+        "reopened": true,
+        "expressions": true,
+        "media": true,
+        "source_layers": true,
+        "adjustment": true,
+        "frames": true,
+        "edit": true,
+        "group1_effects": true,
+        "group1_controls": true,
+        "group1_color": true,
+        "group1_timing": true,
+        "group1_animation": true,
+        "group1_geometry": true,
+        "group2_effects": true,
+        "group2_controls": true,
+        "group2_color": true,
+        "group2_timing": true,
+        "group2_animation": true,
+        "group2_geometry": true,
+        "glows": true,
+        "native_render_checkpoints": true
+      },
+      "expressions_checked": 535,
+      "groups": [
+        {
+          "name": "CYBER_LINES",
+          "parameters": [
+            5,
+            50,
+            187,
+            82
+          ],
+          "hue": 636,
+          "mid": [
+            0.37254902720451,
+            0.37254902720451,
+            0.37254902720451,
+            0
+          ],
+          "trim_times": [
+            0,
+            1.23333333333333
+          ],
+          "trim_values": [
+            1,
+            100
+          ],
+          "monotonic": true
+        },
+        {
+          "name": "CYBER_LINES_2",
+          "parameters": [
+            5,
+            21,
+            209,
+            150
+          ],
+          "hue": 337,
+          "mid": [
+            0.14117647707462,
+            0.14117647707462,
+            0.14117647707462,
+            0
+          ],
+          "trim_times": [
+            0.23333333333333,
+            1.46666666666667
+          ],
+          "trim_values": [
+            1,
+            100
+          ],
+          "monotonic": true
+        }
+      ],
+      "max_diagonal_rounding_error_pixels": 4.577636730118684e-05,
+      "glows": [
+        {
+          "threshold": 165.75,
+          "radius": 10,
+          "intensity": 0.60000002384186
+        },
+        {
+          "threshold": 51,
+          "radius": 50,
+          "intensity": 0.20000000298023
+        }
+      ],
+      "native_edit": {
+        "original": 50,
+        "changed": 51,
+        "restored": 50
+      },
+      "checkpoints": [
+        {
+          "frame": 144,
+          "mean_luma_error_255": 0.41638888888888886,
+          "passed": true
+        },
+        {
+          "frame": 150,
+          "mean_luma_error_255": 0.41520833333333335,
+          "passed": true
+        },
+        {
+          "frame": 156,
+          "mean_luma_error_255": 0.4084027777777778,
+          "passed": true
+        },
+        {
+          "frame": 162,
+          "mean_luma_error_255": 0.47506944444444443,
+          "passed": true
+        },
+        {
+          "frame": 168,
+          "mean_luma_error_255": 0.5109027777777778,
+          "passed": true
+        },
+        {
+          "frame": 174,
+          "mean_luma_error_255": 0.5534722222222223,
+          "passed": true
+        },
+        {
+          "frame": 180,
+          "mean_luma_error_255": 0.5313888888888889,
+          "passed": true
+        },
+        {
+          "frame": 186,
+          "mean_luma_error_255": 0.4732638888888889,
+          "passed": true
+        },
+        {
+          "frame": 192,
+          "mean_luma_error_255": 0.3918055555555556,
+          "passed": true
+        },
+        {
+          "frame": 198,
+          "mean_luma_error_255": 0.39006944444444447,
+          "passed": true
+        },
+        {
+          "frame": 204,
+          "mean_luma_error_255": 0.391875,
+          "passed": true
+        }
+      ],
+      "native_pngs_actually_viewed": [
+        "native-still-144.png",
+        "native-still-150.png",
+        "native-still-156.png",
+        "native-still-162.png",
+        "native-still-168.png",
+        "native-still-174.png",
+        "native-still-180.png",
+        "native-still-186.png",
+        "native-still-192.png",
+        "native-still-198.png",
+        "native-still-204.png"
+      ],
+      "render_pipeline": "Native TIFF sequence → FFmpeg CRF18 H264; temporary lossless frames removed only after publication"
+    }
+  ],
+  "course_fidelity": {
+    "status": "unverified",
+    "observed": [
+      "16:40–16:45 TrimEnd first key1%; Easy Ease In",
+      "18:05 first group5/50/187/82;18:08 shows5/50/153/55; final chronology unresolved",
+      "17:32–17:45 and18:10 second group5/21/209/150;2points was a trial",
+      "14:20 first Tritone gray5F5F5F;18:14–18:16 second mid242424",
+      "18:00 shared Hue1x276 before individual copies;19:00 second337",
+      "18:10–18:16 native RGB/R/G/B curves;20:35 Glow65%/10/1 then20%/50/0.2"
+    ],
+    "inferred": [
+      "Last visible path namedPath19: total19 reconstructed",
+      "End1→100 keys0→37 and second offset7 at30fps estimated from ruler; ease influence33.333333 rebuilt",
+      "All native curve points estimated; exact numeric controls unavailable",
+      "First group final seed/max/Hue/gray state needs visual review",
+      "Inherited camera/layer start/random property identity approximate"
+    ],
+    "missing": [
+      "Exact source playback and geometry identity",
+      "First-group final max/seed/gray/Hue state",
+      "Exact native curve points and easing",
+      "Full film/title and three-material generalization"
+    ],
+    "human_review": "No P17 acceptance requested or transferred from P16"
+  },
+  "visual_review": {
+    "type": "Agent inspection, separate from objective checks",
+    "native_frames_viewed_per_case": 11,
+    "findings": [
+      "Colored paths visibly grow from the upper center while streaks pass, then hold after draw completion",
+      "Streaks clear by frame192, revealing cyan/magenta line geometry on the inherited background",
+      "Course20:35 uses purple/cyan/pink geometry; exact random arrangement/color weight/viewport scale not established",
+      "Title remains absent and tail holds; this is not completed-film delivery"
+    ],
+    "reference_frames_actually_viewed": [
+      "13detail cues14:10–20:35",
+      "8cues17:32–18:10",
+      "3cues18:12–18:16",
+      "13playback cues18:50–19:02"
+    ],
+    "playback_limitation": "Source scrub changes show full/blank/partial path states; no exact continuous source-composition frame correspondence established"
+  },
+  "native_curves": {
+    "asset": "assets/course-p17-line-curves-template.aep",
+    "sha256": "ba18172d945ffc108211b77d054ea830f0d2e1ed90f4cf07411d79617af18c5c",
+    "saved_and_reopened": true,
+    "screenshot": "tests/native-line-curves-gui.png",
+    "screenshot_after_reopen": true,
+    "numeric_points": "Estimated from GUI, not retrieved from CUSTOM_VALUE",
+    "alpha": "Identity mapping retained"
+  },
+  "failed_or_superseded": [
+    "001 native Edge value10 rejected; JSON retained",
+    "002 directH264 render failed8/255 gate; JSON retained",
+    "variation001 superseded before rendering, not claimed failed or passed render",
+    "GUI attempted numeric-index2 addressed CUSTOM_VALUE and was rejected; corrected to named channel0002 and native GUI"
+  ],
+  "native_media_audit": "reports/native-media-dependencies-p17-lines.json",
+  "skill_version": "0.1.10",
+  "verified": false,
+  "parameter_variant_check": {
+    "only_requested_parameter": "First adjustment Glow1→0.6",
+    "path_geometry_same": true,
+    "first_glow_intensities": [
+      1,
+      0.60000002384186
+    ],
+    "second_glow_unchanged": true
+  }
+}

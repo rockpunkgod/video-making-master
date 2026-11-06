@@ -60,11 +60,14 @@ if($DragToX -ge 0){
    if($dragOwner -ne $ProcessId){throw 'Drag path is covered by another application'}
   }
   [LabOwnedWindowClick]::SetCursorPos($screenX,$screenY) | Out-Null
+  Start-Sleep -Milliseconds 300
   [LabOwnedWindowClick]::mouse_event(2,0,0,0,[UIntPtr]::Zero)
   for($step=1;$step -le 20;$step++){
    [LabOwnedWindowClick]::SetCursorPos(($screenX+[int](($DragToX-$X)*$step/20)),($screenY+[int](($DragToY-$Y)*$step/20))) | Out-Null
-   Start-Sleep -Milliseconds 30
+   Start-Sleep -Milliseconds 100
   }
+  # Let the native control consume the last pointer update before releasing capture.
+  Start-Sleep -Milliseconds 1000
  }finally{
   [LabOwnedWindowClick]::mouse_event(4,0,0,0,[UIntPtr]::Zero)
   [LabOwnedWindowClick]::SetCursorPos($priorCursor.X,$priorCursor.Y) | Out-Null

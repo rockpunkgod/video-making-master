@@ -144,6 +144,15 @@
           "transcript_accuracy": "not_word_checked",
           "native_probe": "evaluations/course-p07-probe-001/receipt.json"
         }
+      ],
+      "progress_updates": [
+        {
+          "date": "2026-11-07",
+          "part": 17,
+          "status": "candidate_native_line_style",
+          "evidence": "evaluations/course-p17-line-style-001/summary.json",
+          "scope": "Two20s cases, native editable projects and11PNG each; not full-film, exact course fidelity or three-material acceptance"
+        }
       ]
     },
     {

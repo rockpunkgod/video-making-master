@@ -1,9 +1,9 @@
 ---
 name: ae-advanced-compositing
-description: 制作三维预合成粗布局、径向轮廓背景、极坐标噪波圆环、空间条带及动态球形核心候选；保留可编辑AE工程。条带部分流程仍为推定，非完整风格化片头。
+description: 按课程制作程序化三维合成、空间条带、动态球形核心与分层线条动画候选，输出可编辑AE工程和真实渲染。部分参数仍为推定，非完整风格化片头。
 ---
 
-0.1.9候选。第13节组合五个可编辑组件，第15节提供径向轮廓背景、极坐标圆环与空间条带候选；均不代表完成整套片头。按需求选择references/course-composite.md、references/course-radial.md、references/course-polar.md或references/course-streaks.md，只加载相关分支。第13节20秒例子后段尚空，不能用于要求完整成片的交付或自动降级替代其他高级效果。
+0.1.10候选。第13节组合五个可编辑组件，第15节提供径向轮廓背景、极坐标圆环与空间条带候选；均不代表完成整套片头。按需求选择references/course-composite.md、references/course-radial.md、references/course-polar.md或references/course-streaks.md，只加载相关分支。第13节20秒例子后段尚空，不能用于要求完整成片的交付或自动降级替代其他高级效果。
 
 径向背景：scripts/build_radial.py --out全新目录；随后run_ae.py与render_ae.py。默认examples/course-radial.json引用本Skill自制可编辑AEP模板，保留课程Fractal Noise/CC Radial Fast Blur/Unsharp Mask/Find Edges/Curves链。--speed、--seed、--duration为显式变体；基线002整体已获用户认可，精确曲线及跨三种素材仍未验证，详见tests/radial-results.json。不要把此分支当任意素材处理或完整第15节总装。
 
@@ -30,3 +30,6 @@ scripts/build_composite.py --profile examples/course-composite.json --out全新�
 第17节隧道延续：先读references/course-tunnel-style.md，再运行scripts/build_tunnel_style.py --out新目录与通用原生执行/渲染。关闭首个静止轮廓，静态移动Null、扩展Spacing，叠加time*20+value旋转及淡出；--rotation-speed为显式变体。精确曲线和摄影机未确认，后段条带/线条与标题未完成，保持candidate。
 
 第17节条带延续：先读references/course-streak-style.md，运行scripts/build_streak_style.py --out新目录及通用原生执行/渲染。按课程先处理单层再复制为7层，内层键白，外层原生RGB曲线与两层Glow，X缩放收拢；--glow-intensity为变体。曲线/键时为画面估读，后段线条与标题未完成，仍candidate。
+
+
+第17节线条延续：先读references/course-line-style.md，运行scripts/build_line_style.py --out新目录及通用原生执行/渲染。两组19路径保留原表达式，TrimEnd从1%展开、错开7源帧，原生Tritone/FindEdges/Curves/Hue及双Glow；--glow-intensity为变体。默认原生TIFF序列经FFmpeg编码以避免本机直接H264饱和色损失。路径总数、曲线/时序和首组最终参数仍有推断，未获课程整体验收，candidate。

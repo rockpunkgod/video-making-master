@@ -1,6 +1,8 @@
 {
   "scope": "Standalone video-skills-lab progress snapshot; overall curriculum incomplete",
   "cases": [
+    "samples/course-reproduction-020/p17-line-style-003",
+    "samples/course-reproduction-020/p17-line-style-variation-002",
     "samples/course-reproduction-019/p17-streak-style-003",
     "samples/course-reproduction-019/p17-streak-style-variation-001",
     "samples/course-reproduction-018/p17-tunnel-001",
@@ -639,6 +641,21 @@
       "path": "evaluations/course-p16-styled-assembly-001/summary.json",
       "bytes": 7153,
       "sha256": "8510a4577826c89eb165f555028b923ca6a92053245486babb743b020046a7b5"
+    },
+    {
+      "path": "evaluations/course-p17-line-style-001/failed-edge-range-001.json",
+      "bytes": 201,
+      "sha256": "8b58e75651bb20693257181ee03da7d56e11a623df38b8cbb342bed10480dfc9"
+    },
+    {
+      "path": "evaluations/course-p17-line-style-001/failed-h264-output-002.json",
+      "bytes": 54790,
+      "sha256": "2d023e3875225ae7ff308b2367af9037002dfb259b094dfd785688bcc28aaaa4"
+    },
+    {
+      "path": "evaluations/course-p17-line-style-001/summary.json",
+      "bytes": 12344,
+      "sha256": "017d89a029ebf3a68cfad0d604cda1bdcb5fac737e53275299d581657d7ca1a4"
     },
     {
       "path": "evaluations/course-p17-streak-style-001/initial-scale-ease-array-failure.json",
@@ -4806,6 +4823,206 @@
       "sha256": "7a510dfb43d0430e5aa14f209e9c80e327771f657e498a74af6139db5bacc803"
     },
     {
+      "path": "samples/course-reproduction-020/p17-line-style-003/final.mp4",
+      "bytes": 7397863,
+      "sha256": "4e797d723200cae59e1ab89886bc83a943bc94cba505cbda825a4671aa9a5a4b"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/inputs/main/project.aep",
+      "bytes": 3261891,
+      "sha256": "71f5996296be715516472e40581193c47af53b70f09223c3e70130c1348c968e"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/inputs/palette/project.aep",
+      "bytes": 139461,
+      "sha256": "ba18172d945ffc108211b77d054ea830f0d2e1ed90f4cf07411d79617af18c5c"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/native-still-144.png",
+      "bytes": 2287810,
+      "sha256": "55426fb41886b6654e9d06d5825c57695f3701820d0d4c27e4597f9c01cd2987"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/native-still-150.png",
+      "bytes": 1856241,
+      "sha256": "8e31fbbbef5daf116ac26f1add3013fb4b6315208e098550cc8646d3269f1486"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/native-still-156.png",
+      "bytes": 1748537,
+      "sha256": "2b5c3f10fce7c593d4f0dcb4a2fd192937c4464bd1c74d3759050a4ab17922ec"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/native-still-162.png",
+      "bytes": 1467596,
+      "sha256": "348ca0fa48d8e10677525a193f40a8ea0231929e39f285056f155be359e7c2a9"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/native-still-168.png",
+      "bytes": 1855741,
+      "sha256": "25eeac96a248554a0184a3041bcb61c94345d4fb64085188f527d72baee7b78d"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/native-still-174.png",
+      "bytes": 2301501,
+      "sha256": "cf817525ecbbdba5ab399c6580bbc6f1c195eae3af7b887e4f926524172f1769"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/native-still-180.png",
+      "bytes": 3013003,
+      "sha256": "19f7ac1c1ca914c07b068719c2a67ebdda0d7242d52dfdb116fb85a4adb0e417"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/native-still-186.png",
+      "bytes": 3306078,
+      "sha256": "b6614e3941853d53c03ca824ea3109f786cb6ca2a0f0043eb0058c7f4ebaa3b6"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/native-still-192.png",
+      "bytes": 3983174,
+      "sha256": "d0e1bf321f28422ee8af38595dc96ecfe71838ecd90a6529ec17390560c58383"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/native-still-198.png",
+      "bytes": 3982601,
+      "sha256": "b5acce9919c814fadc19118effa2539d71f0edd888cec561479180e93d8b6913"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/native-still-204.png",
+      "bytes": 3982402,
+      "sha256": "5426b10cdf7a1038f50c6c8d4bea18f52b51686589e6c4550c5aa7cb026108e1"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/plan.json",
+      "bytes": 1430,
+      "sha256": "c483a7d29a2fba638bdc77e3319c1da100fa9fc279fa5f0570e184e81fcbfc15"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/project.aep",
+      "bytes": 3299135,
+      "sha256": "0a18219dc63916fb4b3d6a562757d3d8d6a6a0941a4e840d77bcba23c0f88de1"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/quality.json",
+      "bytes": 1124,
+      "sha256": "b090ec2a6c91470311790a5861b49ee4723b10b1a5688696acf34dfec5874128"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/receipt.json",
+      "bytes": 30855,
+      "sha256": "b6a1fdff8e85b4e2513d5c8a562697a6ae27f4c7008355fe2e5926affadcaa30"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/request.json",
+      "bytes": 2534,
+      "sha256": "ee2ef6155534a2e91a75a19aabb6e41ccc6f1e28f329818aac099fc7592063f0"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/scene-quality.json",
+      "bytes": 2066,
+      "sha256": "27b9d6c94ca87ad4efb19eccb2dc4f5e31496d9f6efeb35496179cb5f50dbead"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/final.mp4",
+      "bytes": 7389058,
+      "sha256": "10b123f7c7d1a31ff2de7ae3bc72c302428521b6fd2a11d119e0a4bae9b6156d"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/inputs/main/project.aep",
+      "bytes": 3261891,
+      "sha256": "71f5996296be715516472e40581193c47af53b70f09223c3e70130c1348c968e"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/inputs/palette/project.aep",
+      "bytes": 139461,
+      "sha256": "ba18172d945ffc108211b77d054ea830f0d2e1ed90f4cf07411d79617af18c5c"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/native-still-144.png",
+      "bytes": 2287810,
+      "sha256": "55426fb41886b6654e9d06d5825c57695f3701820d0d4c27e4597f9c01cd2987"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/native-still-150.png",
+      "bytes": 1856241,
+      "sha256": "8e31fbbbef5daf116ac26f1add3013fb4b6315208e098550cc8646d3269f1486"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/native-still-156.png",
+      "bytes": 1748537,
+      "sha256": "2b5c3f10fce7c593d4f0dcb4a2fd192937c4464bd1c74d3759050a4ab17922ec"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/native-still-162.png",
+      "bytes": 1444577,
+      "sha256": "c9895e477c6487d28d7d331f5b8bd26a2a10df13b2647a8a03f9fbcd4566809c"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/native-still-168.png",
+      "bytes": 1808607,
+      "sha256": "ecb39e029d845aa03a0c85d2d58a2ad370ff37badbd05491538d13d33ef3d283"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/native-still-174.png",
+      "bytes": 2240152,
+      "sha256": "cc5fb79e473b54e6a5720b8c6bfab6d7b810d2837015b77b8ed4922ccec39e57"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/native-still-180.png",
+      "bytes": 2915357,
+      "sha256": "b9e98dc2676b849709514a0c9c19d474cb02b46bbf0fb3e027e60c17a967ab11"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/native-still-186.png",
+      "bytes": 3211242,
+      "sha256": "201fe8e97e6a3f88bc174b308f6a06259821b9303d3e5abeff3c6df2c764ede5"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/native-still-192.png",
+      "bytes": 3876833,
+      "sha256": "21d1b206d4d756cb22e4ef3aed06c4df01b6316de09224666ba90336f0325d8f"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/native-still-198.png",
+      "bytes": 3876174,
+      "sha256": "3e0d7ca9c594c98645511ac1f6016e677f0476949157bd547b3caeabd573bb52"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/native-still-204.png",
+      "bytes": 3876050,
+      "sha256": "1b37d721e871f30a956eeeadbc50244d29978ec58e4c0fd9ade99ec263396af2"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/plan.json",
+      "bytes": 1430,
+      "sha256": "c483a7d29a2fba638bdc77e3319c1da100fa9fc279fa5f0570e184e81fcbfc15"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/project.aep",
+      "bytes": 3299457,
+      "sha256": "1369975471abd2603479f9a957ef55415c426ed81c36450ab7b05e1b6ee3da40"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/quality.json",
+      "bytes": 1134,
+      "sha256": "27b6108de8947ae4a69b508ae24bb32b9df225829eb437b160ebe73fb07fa730"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/receipt.json",
+      "bytes": 30870,
+      "sha256": "a0e2d18d4fb784e6c93d998cb44a8bd57bf6846b5f725256a0c98595d94d1852"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/request.json",
+      "bytes": 2555,
+      "sha256": "ad7096ab5f37f0fe86270661dc5b2041a3a3347cc7d29058a0ab175b37d230f6"
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/scene-quality.json",
+      "bytes": 2057,
+      "sha256": "a182b58a4ef7ffeb67e0fa636f89f7160d8f59354e3287a08b670c0a35f626c6"
+    },
+    {
       "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/assets.json",
       "bytes": 3976,
       "sha256": "9544dead507abc1e5e63152574fa5b94a67908d2b5d649788572fb7b9396cca1"
@@ -5702,5 +5919,5 @@
     "repeated native audio/video exports"
   ],
   "portability": "Native projects retain original Windows media paths. Rebuild from the bundled scripts or relink the bundled inputs/assets; historical report references may point to local-only artifacts.",
-  "total_selected_bytes": 1378809806
+  "total_selected_bytes": 1466067677
 }
