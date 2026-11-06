@@ -1,0 +1,667 @@
+{
+  "status": "planned",
+  "scopes": [
+    "samples/course-reproduction-014",
+    "cache/p15-bg-config-001",
+    "cache/isolated-p15-assembly-001",
+    "cache/watch/watch-j5zvvkfk",
+    "cache/watch/watch-ro0qoxm1",
+    "cache/watch/watch-yqney4bx",
+    "cache/watch/watch-bfsg_kko",
+    "cache/watch/watch-6fwski0u",
+    "cache/reviews/p15-polar-original-vs-003",
+    "cache/reviews/p15-assembly-original-vs-003"
+  ],
+  "published_commit": "5edfe74bd0937ed8c08b8e632da6884ac43c4d62",
+  "manifest_sha256": "57e76d4f2c661c3f3f7681fdbb47b0535e05d4f1832d90d1f1acb0c37b987fac",
+  "files": 159,
+  "bytes": 119504285,
+  "keep_active": [
+    "cache/course-hires/BV1Yh4y1A7XT-p13-1080.mp4",
+    "cache/course-hires/BV1Yh4y1A7XT-p15-1080.mp4",
+    "cache/local-transcripts/BV1Yh4y1A7XT-p15-full-001/transcript.json",
+    "cache/reviews/p15-assembly-original-vs-003/comparison.mp4",
+    "cache/watch/watch-z3iierxa/download/run-nv1kht5f/video.mp4"
+  ],
+  "protected_delivery_files": 660,
+  "skipped_links": [],
+  "targets": [
+    {
+      "path": "cache/isolated-p15-assembly-001/assets/course-p15-gradient-template.aep",
+      "bytes": 94791
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/assets/course-p15-radial-template.aep",
+      "bytes": 157305
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/assets/fonts/DMSans-Bold.ttf",
+      "bytes": 73452
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/assets/fonts/OFL.txt",
+      "bytes": 4482
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/assembly-inputs/background.aep",
+      "bytes": 94791
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/assembly-inputs/main.aep",
+      "bytes": 3380451
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/assembly-inputs/polar.aep",
+      "bytes": 325153
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/assembly-inputs/radial.aep",
+      "bytes": 157305
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/assembly-inputs/streaks.aep",
+      "bytes": 439441
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/assembly-inputs/title.aep",
+      "bytes": 114789
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/core-geometry.json",
+      "bytes": 3729
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/core-texture.json",
+      "bytes": 3726
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/core-typography.json",
+      "bytes": 3735
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/course-assembly.json",
+      "bytes": 3598
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/course-composite.json",
+      "bytes": 3527
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/course-polar.json",
+      "bytes": 492
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/course-radial.json",
+      "bytes": 411
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/course-streaks.json",
+      "bytes": 632
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/inputs/contours.aep",
+      "bytes": 381155
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/inputs/core.aep",
+      "bytes": 2035913
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/inputs/dots.aep",
+      "bytes": 418837
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/inputs/geometry-core.aep",
+      "bytes": 2041851
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/inputs/geometry.png",
+      "bytes": 3436
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/inputs/lines.aep",
+      "bytes": 124271
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/inputs/noise.aep",
+      "bytes": 527085
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/inputs/texture-core.aep",
+      "bytes": 2041851
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/inputs/texture.png",
+      "bytes": 3230
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/inputs/typography-core.aep",
+      "bytes": 2041855
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/examples/inputs/typography.png",
+      "bytes": 5414
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/references/course-composite.md",
+      "bytes": 3754
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/references/course-polar.md",
+      "bytes": 3028
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/references/course-radial.md",
+      "bytes": 2184
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/references/course-streaks.md",
+      "bytes": 2472
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/scripts/__pycache__/validate_assembly.cpython-313.pyc",
+      "bytes": 5838
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/scripts/__pycache__/validate_radial.cpython-313.pyc",
+      "bytes": 5177
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/scripts/__pycache__/validate_video.cpython-313.pyc",
+      "bytes": 8561
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/scripts/assembly.jsx",
+      "bytes": 7953
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/scripts/build_assembly.py",
+      "bytes": 2332
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/scripts/build_composite.py",
+      "bytes": 3784
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/scripts/build_noise_asset.py",
+      "bytes": 2718
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/scripts/build_radial.py",
+      "bytes": 2557
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/scripts/build_streaks.py",
+      "bytes": 2760
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/scripts/composite.jsx",
+      "bytes": 13061
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/scripts/json_encode_adobe.jsx",
+      "bytes": 1080
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/scripts/noise_asset.jsx",
+      "bytes": 6497
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/scripts/radial.jsx",
+      "bytes": 4316
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/scripts/render_ae.py",
+      "bytes": 3726
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/scripts/run_ae.py",
+      "bytes": 2350
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/scripts/streaks.jsx",
+      "bytes": 7045
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/scripts/validate_assembly.py",
+      "bytes": 3204
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/scripts/validate_radial.py",
+      "bytes": 3187
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/scripts/validate_scene.py",
+      "bytes": 4971
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/scripts/validate_video.py",
+      "bytes": 4570
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/SKILL.md",
+      "bytes": 3824
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/tests/polar-results.json",
+      "bytes": 6334
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/tests/radial-results.json",
+      "bytes": 3467
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/tests/results.json",
+      "bytes": 7139
+    },
+    {
+      "path": "cache/isolated-p15-assembly-001/tests/streaks-results.json",
+      "bytes": 6001
+    },
+    {
+      "path": "cache/p15-bg-config-001/ack.json",
+      "bytes": 167
+    },
+    {
+      "path": "cache/p15-bg-config-001/audit-complete.txt",
+      "bytes": 9
+    },
+    {
+      "path": "cache/p15-bg-config-001/before.png",
+      "bytes": 219373
+    },
+    {
+      "path": "cache/p15-bg-config-001/build-variation.log",
+      "bytes": 36823
+    },
+    {
+      "path": "cache/p15-bg-config-001/build003.log",
+      "bytes": 36823
+    },
+    {
+      "path": "cache/p15-bg-config-001/comparison-check.png",
+      "bytes": 417065
+    },
+    {
+      "path": "cache/p15-bg-config-001/configure.jsx",
+      "bytes": 2173
+    },
+    {
+      "path": "cache/p15-bg-config-001/curve-after.png",
+      "bytes": 236576
+    },
+    {
+      "path": "cache/p15-bg-config-001/curve-before.png",
+      "bytes": 231798
+    },
+    {
+      "path": "cache/p15-bg-config-001/effects.png",
+      "bytes": 240267
+    },
+    {
+      "path": "cache/p15-bg-config-001/failed-inspect.json",
+      "bytes": 720
+    },
+    {
+      "path": "cache/p15-bg-config-001/native-bg.png",
+      "bytes": 1424280
+    },
+    {
+      "path": "cache/p15-bg-config-001/recover.jsx",
+      "bytes": 1915
+    },
+    {
+      "path": "cache/p15-bg-config-001/save-ack.json",
+      "bytes": 101
+    },
+    {
+      "path": "cache/p15-bg-config-001/save.jsx",
+      "bytes": 2526
+    },
+    {
+      "path": "cache/p15-bg-config-001/variation-contact.png",
+      "bytes": 322164
+    },
+    {
+      "path": "cache/reviews/p15-assembly-original-vs-003/arial.ttf",
+      "bytes": 1045956
+    },
+    {
+      "path": "cache/reviews/p15-polar-original-vs-003/comparison.mp4",
+      "bytes": 447137
+    },
+    {
+      "path": "cache/watch/watch-6fwski0u/frames/cue_0000.jpg",
+      "bytes": 168958
+    },
+    {
+      "path": "cache/watch/watch-6fwski0u/frames/cue_0001.jpg",
+      "bytes": 205698
+    },
+    {
+      "path": "cache/watch/watch-6fwski0u/frames/cue_0002.jpg",
+      "bytes": 195530
+    },
+    {
+      "path": "cache/watch/watch-6fwski0u/frames/cue_0003.jpg",
+      "bytes": 191120
+    },
+    {
+      "path": "cache/watch/watch-6fwski0u/frames/cue_0004.jpg",
+      "bytes": 71905
+    },
+    {
+      "path": "cache/watch/watch-6fwski0u/frames/cue_0005.jpg",
+      "bytes": 75771
+    },
+    {
+      "path": "cache/watch/watch-bfsg_kko/frames/cue_0000.jpg",
+      "bytes": 164270
+    },
+    {
+      "path": "cache/watch/watch-bfsg_kko/frames/cue_0001.jpg",
+      "bytes": 147481
+    },
+    {
+      "path": "cache/watch/watch-bfsg_kko/frames/cue_0002.jpg",
+      "bytes": 222392
+    },
+    {
+      "path": "cache/watch/watch-bfsg_kko/frames/cue_0003.jpg",
+      "bytes": 187360
+    },
+    {
+      "path": "cache/watch/watch-bfsg_kko/frames/cue_0004.jpg",
+      "bytes": 178222
+    },
+    {
+      "path": "cache/watch/watch-bfsg_kko/frames/cue_0005.jpg",
+      "bytes": 167708
+    },
+    {
+      "path": "cache/watch/watch-bfsg_kko/frames/switch-0.png",
+      "bytes": 254939
+    },
+    {
+      "path": "cache/watch/watch-bfsg_kko/frames/switch-4.png",
+      "bytes": 262442
+    },
+    {
+      "path": "cache/watch/watch-bfsg_kko/frames/switch-5.png",
+      "bytes": 233741
+    },
+    {
+      "path": "cache/watch/watch-j5zvvkfk/frames/cue_0000.jpg",
+      "bytes": 195930
+    },
+    {
+      "path": "cache/watch/watch-j5zvvkfk/frames/cue_0001.jpg",
+      "bytes": 187935
+    },
+    {
+      "path": "cache/watch/watch-j5zvvkfk/frames/cue_0002.jpg",
+      "bytes": 185714
+    },
+    {
+      "path": "cache/watch/watch-j5zvvkfk/frames/cue_0003.jpg",
+      "bytes": 184078
+    },
+    {
+      "path": "cache/watch/watch-j5zvvkfk/frames/cue_0004.jpg",
+      "bytes": 187907
+    },
+    {
+      "path": "cache/watch/watch-ro0qoxm1/frames/cue_0000.jpg",
+      "bytes": 188349
+    },
+    {
+      "path": "cache/watch/watch-ro0qoxm1/frames/cue_0001.jpg",
+      "bytes": 200320
+    },
+    {
+      "path": "cache/watch/watch-ro0qoxm1/frames/cue_0002.jpg",
+      "bytes": 187542
+    },
+    {
+      "path": "cache/watch/watch-ro0qoxm1/frames/cue_0003.jpg",
+      "bytes": 185522
+    },
+    {
+      "path": "cache/watch/watch-ro0qoxm1/frames/cue_0004.jpg",
+      "bytes": 184108
+    },
+    {
+      "path": "cache/watch/watch-ro0qoxm1/frames/cue_0005.jpg",
+      "bytes": 191782
+    },
+    {
+      "path": "cache/watch/watch-ro0qoxm1/frames/cue_0006.jpg",
+      "bytes": 185545
+    },
+    {
+      "path": "cache/watch/watch-ro0qoxm1/frames/cue_0007.jpg",
+      "bytes": 172531
+    },
+    {
+      "path": "cache/watch/watch-ro0qoxm1/frames/cue_0008.jpg",
+      "bytes": 172653
+    },
+    {
+      "path": "cache/watch/watch-ro0qoxm1/frames/cue_0009.jpg",
+      "bytes": 164270
+    },
+    {
+      "path": "cache/watch/watch-ro0qoxm1/frames/cue_0010.jpg",
+      "bytes": 167708
+    },
+    {
+      "path": "cache/watch/watch-ro0qoxm1/frames/depth-10.png",
+      "bytes": 439133
+    },
+    {
+      "path": "cache/watch/watch-ro0qoxm1/frames/depth-7.png",
+      "bytes": 439996
+    },
+    {
+      "path": "cache/watch/watch-ro0qoxm1/frames/depth-8.png",
+      "bytes": 453730
+    },
+    {
+      "path": "cache/watch/watch-yqney4bx/frames/cue_0000.jpg",
+      "bytes": 168616
+    },
+    {
+      "path": "cache/watch/watch-yqney4bx/frames/cue_0001.jpg",
+      "bytes": 167182
+    },
+    {
+      "path": "cache/watch/watch-yqney4bx/frames/cue_0002.jpg",
+      "bytes": 167234
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-001/build.jsx",
+      "bytes": 11928
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-001/failed-project.aep",
+      "bytes": 4253105
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-001/inputs/background/project.aep",
+      "bytes": 94791
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-001/inputs/main/project.aep",
+      "bytes": 3380451
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-001/inputs/polar/project.aep",
+      "bytes": 325153
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-001/inputs/radial/project.aep",
+      "bytes": 157305
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-001/inputs/streaks/project.aep",
+      "bytes": 439441
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-001/inputs/title/project.aep",
+      "bytes": 114789
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-001/plan.json",
+      "bytes": 1661
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-001/receipt.json",
+      "bytes": 87
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-001/request.json",
+      "bytes": 4017
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 4291771
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/aerender.log",
+      "bytes": 17044
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/build.jsx",
+      "bytes": 12021
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/final.mp4",
+      "bytes": 34542705
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/inputs/background/project.aep",
+      "bytes": 94791
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/inputs/main/project.aep",
+      "bytes": 3380451
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/inputs/polar/project.aep",
+      "bytes": 325153
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/inputs/radial/project.aep",
+      "bytes": 157305
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/inputs/streaks/project.aep",
+      "bytes": 439441
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/inputs/title/project.aep",
+      "bytes": 114789
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/native-still-0.png",
+      "bytes": 8778503
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/native-still-144.png",
+      "bytes": 2397291
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/native-still-216.png",
+      "bytes": 2036673
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/native-still-24.png",
+      "bytes": 9049798
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/native-still-240.png",
+      "bytes": 2031781
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/native-still-479.png",
+      "bytes": 1424280
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/native-still-96.png",
+      "bytes": 1692556
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/plan.json",
+      "bytes": 1661
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/project.aep",
+      "bytes": 4290667
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/project.aep 日志/AE 2026-11-6 20-15-52.txt",
+      "bytes": 12900
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/quality.json",
+      "bytes": 1120
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/receipt.json",
+      "bytes": 13436
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/request.json",
+      "bytes": 4017
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-002/scene-quality.json",
+      "bytes": 2816
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-003/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 4297245
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-003/aerender.log",
+      "bytes": 17312
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-003/build.jsx",
+      "bytes": 12646
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-003/project.aep 日志/AE 2026-11-6 20-22-45.txt",
+      "bytes": 13096
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-variation-001/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 4297561
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-variation-001/aerender.log",
+      "bytes": 17396
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-variation-001/build.jsx",
+      "bytes": 12717
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-assembly-variation-001/project.aep 日志/AE 2026-11-6 20-27-34.txt",
+      "bytes": 13215
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-gradient-probe-001/build.jsx",
+      "bytes": 2561
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-gradient-probe-001/project.aep",
+      "bytes": 131257
+    },
+    {
+      "path": "samples/course-reproduction-014/p15-gradient-probe-001/receipt.json",
+      "bytes": 1788
+    }
+  ],
+  "authorization": "User requested keeping only deliverables after library publication; scope restricted to this independent lab"
+}

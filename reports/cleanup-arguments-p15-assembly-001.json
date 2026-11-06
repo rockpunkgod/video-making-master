@@ -1,0 +1,21 @@
+{
+  "scopes": [
+    "samples/course-reproduction-014",
+    "cache/p15-bg-config-001",
+    "cache/isolated-p15-assembly-001",
+    "cache/watch/watch-j5zvvkfk",
+    "cache/watch/watch-ro0qoxm1",
+    "cache/watch/watch-yqney4bx",
+    "cache/watch/watch-bfsg_kko",
+    "cache/watch/watch-6fwski0u",
+    "cache/reviews/p15-polar-original-vs-003",
+    "cache/reviews/p15-assembly-original-vs-003"
+  ],
+  "active": [
+    "cache/course-hires/BV1Yh4y1A7XT-p13-1080.mp4",
+    "cache/watch/watch-z3iierxa/download/run-nv1kht5f/video.mp4",
+    "cache/course-hires/BV1Yh4y1A7XT-p15-1080.mp4",
+    "cache/local-transcripts/BV1Yh4y1A7XT-p15-full-001/transcript.json",
+    "cache/reviews/p15-assembly-original-vs-003/comparison.mp4"
+  ]
+}
