@@ -2,7 +2,7 @@
 
 独立的 AE / Premiere Pro 高级制作技能实验室。所有脚本、来源、测试输入和回执位于本项目；未读取、修改或依赖 Video Making 内部实现。
 
-Git提交包含Skills、来源、验证记录和20组代表性可编辑工程/成片；教程缓存及重复试验留在本机。分发范围和跨机器重建说明见[Git交付范围](reports/git-delivery.md)，逐文件校验见[交付清单](reports/git-delivery-manifest.json)。
+Git提交包含Skills、来源、验证记录和25组代表性可编辑工程/成片；教程缓存及重复试验留在本机。分发范围和跨机器重建说明见[Git交付范围](reports/git-delivery.md)，逐文件校验见[交付清单](reports/git-delivery-manifest.json)。
 
 **当前状态：1个verified、3个candidate。** ae-procedural-motion 0.3.0已按课程第5、6节原法制作、完成变参、三组原创素材、原生编辑重开和独立目录调用；用户确认最终效果符合课程。验证仅覆盖记录的课程配置与PNG分支，录屏播放时码的精确逐帧对齐未确认。第8节ae-advanced-expressions新增五组原生制作及逐帧像素验证，待课程整体视觉验收；摄像机跟踪与PR声音仍待完整课程流程复刻。详见 evaluations/course-p06-final-001/summary.json、evaluations/course-p08-suite-001/summary.json和registry.json。全部课程学习和完整AE/PR技能库未完成。
 

@@ -2,7 +2,7 @@
 
 用户指定发布到rockpunkgod/video-making-master。远端检查为空仓库，本项目仍以独立video-skills-lab运行，不引入或接入其他Video Making内部实现。
 
-提交Skills源文件、来源与学习笔记、工具和验证记录，并保留20组代表性原生工程、视频及其必要的inputs/assets。精确文件、大小和SHA256见git-delivery-manifest.json。状态为当前进度快照：1个verified、3个candidate，全部18条来源/166章节学习目标尚未完成。
+提交Skills源文件、来源与学习笔记、工具和验证记录，并保留25组代表性原生工程、视频及其必要的inputs/assets。精确文件、大小和SHA256见git-delivery-manifest.json。状态为当前进度快照：1个verified、3个candidate，全部18条来源/166章节学习目标尚未完成。后续追加第9节三维随机布局/X漂移五组，ae-advanced-expressions0.2.0仍为candidate，未夸大其可读性和课程整体视觉验收。
 
 教程原片、教程抽帧、本机环境/语音模型、重复失败试验的原生大文件、Adobe自动保存、消息传输临时文件、从已安装Adobe导出的厂商预设不进入Git。本地原文件全部保留；历史报告中部分路径属于本机历史证据，不在本次Git分发范围。
 

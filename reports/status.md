@@ -16,6 +16,12 @@
 
 第7节Tint成片用户已确认“整体符合课程效果”；补seed7变参和复制目录实际渲染通过，当前只剩三组不同输入素材的泛化缺口，不将其他成片继承该反馈。第9节全片本地转录、11全局帧和6指定帧已审阅，确认三维随机位置、scalar漂移及+value微调，尚未实际制作，见sources/learning-notes/BV1Yh4y1A7XT-p09.md。
 
+第9节后续已完成：补5指定帧与原生标量/数组探测，确认漂移只作用X、Fill保留随机RGBA；5组最终/课程内变参/三组原创PNG真实AEP与视频在samples/course-reproduction-005，每组150帧解码及原生公式检查通过，+186手动偏移、速度加倍均保存重开后验证并还原。后四组独立目录运行通过，5组各10帧画面审阅。初始三形状几何对照均差0.0356像素，原含边线的失败结果保留。PNG细线/小字在课程灰底上可读性不足明确记录，整体观感待用户反馈，不能升verified。ae-advanced-expressions现0.2.0 candidate，包含第8/9两单元；总体仍1 verified、3 candidate。
+
+最新用户反馈：第9节p09-final-002“仍需调整”，视觉验收不通过，需实际修订。用户要求每次先给原版与复刻对照；已补课程09:18—09:23原片段与左原版/右复刻并排视频在cache/reviews/p09-original-vs-final002-002，5秒1280x400全解码通过，未宣称精确帧同步，原片段不加入Git。正在定位分布、运动或尺寸/颜色差异，不能把此前技术检查当整体效果通过。
+
+后续用户在“哪项需要调整”的追问中改为“挺好的”，按最新反馈保留p09-final-002，不凭空改参数；前一条负面反馈保留在human_review_history。整体正面反馈不证明随机图样逐像素同源，也不消除PNG前景可读性和第8节待反馈条件，技能保持candidate。以后先展示原版与并排对照再请求评价。
+
 历史原生输出：samples/runs/suite-20261106-091450/ 下的square-baseline、triangle-variation、hexagon-portrait和asset-geometry、asset-typography、asset-texture。每组均保留project.aep、final.mp4、request.json、receipt.json、quality.json和aerender.log。
 
 审查证据：[首个技能验收](../evaluations/first-skill.json)、[原生编辑测试](../evaluations/motion-suite-001/native-editability.json)、[视觉审查](../evaluations/motion-suite-001/visual-review.md)。6个工程已重开，实际修改并恢复Order验证了参数可编辑性；无缺失素材，全部成片完整解码，逐帧延迟旋转和Z深度对照通过。

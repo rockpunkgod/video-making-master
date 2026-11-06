@@ -321,9 +321,9 @@
     },
     {
       "name": "ae-advanced-expressions",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "status": "candidate",
-      "execution_status": "native_five_case_suite_passed_visual_review_pending",
+      "execution_status": "two_course_units_native_suites_passed_with_visual_limits",
       "path": "skills/after-effects/ae-advanced-expressions",
       "dependencies": [
         "After Effects AE26 Chinese Windows tested",
@@ -334,20 +334,29 @@
       ],
       "plugins": [],
       "scenarios": [
-        "seeded threshold multi-layer visibility"
+        "seeded threshold multi-layer visibility",
+        "random 3D point-control layout",
+        "independent X drift and editable manual position offset"
       ],
       "sources": [
         {
           "id": "BV1Yh4y1A7XT",
           "parts": [
-            8
+            8,
+            9
           ]
         }
       ],
-      "evidence": "evaluations/course-p08-suite-001/summary.json",
+      "evidence": "skills/after-effects/ae-advanced-expressions/tests/displacement-results.json",
       "blockers": [
-        "course visual/rhythm acceptance pending"
-      ]
+        "p08 course visual acceptance pending",
+        "fine-line/text PNG foreground readability not established"
+      ],
+      "evidence_by_unit": {
+        "threshold": "evaluations/course-p08-suite-001/summary.json",
+        "displacement": "evaluations/course-p09-probe-001/summary.json"
+      },
+      "p09_latest_user_feedback": "挺好的; retain current version; prior needs-adjustment response preserved"
     }
   ],
   "research_queue": [

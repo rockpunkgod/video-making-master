@@ -14,8 +14,8 @@
       ],
       "passes": {
         "global": "partial course: p1,p5–p9 frames reviewed; p5–p9 existing-local-model transcripts available",
-        "detail": "p5/p6 verified profiles; p7 Tint baseline human accepted, seed variation isolated render passed, material generalization pending; p8 five native and pixel suites passed, human review pending; p9 eleven global and six cue frames plus full ASR reviewed, not produced",
-        "abstraction": "p5/p6 verified; p7 candidate extension with human acceptance; p8 candidate threshold module; p9 random 3D position/drift/+value evidence for future advanced-expressions branch"
+        "detail": "p5/p6 verified profiles; p7 Tint user accepted, material generalization pending; p8 five native and pixel cases; p9 11 global+11 cue frames, exact Fill/Position code, native scalar-array probe and five real rendered cases with edit/reopen; overall curriculum incomplete",
+        "abstraction": "p5/p6 verified; p7 candidate noise extension; p8 threshold and p9 3D layout/X drift/+value combined as candidate advanced-expressions0.2.0 with explicit visual/readability limits"
       },
       "page": {
         "title": "AE教程-使用表达式制作高级复杂图形动画 Advanced After Effects Coding for Motion Design_哔哩哔哩_bilibili",

@@ -1,0 +1,8 @@
+{
+  "status": "candidate",
+  "final_course_controls": {"seed": 409, "drift_speed": -124, "position_min": [-1084, -630, 1930], "position_max": [3130, 1950, 8890]},
+  "course_variation": {"seed": 165, "drift_speed": 310},
+  "fixed_profile": {"width": 1920, "height": 1080, "fps": 30, "duration": 5, "shape_layers": 48},
+  "expected": "Each layer has a fixed random 3D position and independent constant X velocity; +value preserves manual art direction; no framewise position jitter",
+  "png_branch": "Optional caller PNG, copied into assets, editable precomposition; small/light artwork may have poor readability on the course gray background"
+}

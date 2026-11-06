@@ -1,0 +1,69 @@
+{
+  "status": "passed_geometry_only",
+  "viewport_crop": [
+    347,
+    93,
+    690,
+    389
+  ],
+  "mask": "contrast >10 from viewport background; keep three components area>=1000; excludes observed border slivers area<=775",
+  "source_components": [
+    [
+      160,
+      138,
+      112,
+      112,
+      9812
+    ],
+    [
+      292,
+      144,
+      99,
+      100,
+      9855
+    ],
+    [
+      409,
+      144,
+      112,
+      100,
+      5841
+    ]
+  ],
+  "candidate_components": [
+    [
+      161,
+      140,
+      109,
+      109,
+      9257
+    ],
+    [
+      293,
+      146,
+      97,
+      97,
+      9409
+    ],
+    [
+      409,
+      146,
+      113,
+      98,
+      5670
+    ]
+  ],
+  "mean_distance_px": 0.03559977561235428,
+  "p95_distance_px": 0.0,
+  "thresholds": {
+    "mean": 2,
+    "p95": 4
+  },
+  "previous_failure": "initial-geometry.json retained",
+  "not_validated": [
+    "colors",
+    "native source dimensions readout",
+    "3D random sequence",
+    "final timing"
+  ]
+}

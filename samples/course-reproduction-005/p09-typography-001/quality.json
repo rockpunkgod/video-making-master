@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course-reproduction-005\\p09-typography-001\\final.mp4",
+  "sha256": "2c0f9fc94ba1c2f6de28e1c021e2e187b6d5045d05b97059c0ec36dd7b1cd20c",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "has_motion": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30.0,
+    "duration": 5.0,
+    "decoded_frames": 150,
+    "unique_thumbnail_frames": 150
+  },
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": ""
+}

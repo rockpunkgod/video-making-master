@@ -1,0 +1,32 @@
+{
+  "status": "native_technical_pass_visual_pending",
+  "cases": [
+    {
+      "name": "p09-seed165-speed310-001",
+      "status": "passed",
+      "native_error": 9.09494701772928e-13,
+      "directory": "samples/course-reproduction-005/p09-seed165-speed310-001"
+    },
+    {
+      "name": "p09-geometry-001",
+      "status": "passed",
+      "native_error": 4.54747350886464e-13,
+      "directory": "samples/course-reproduction-005/p09-geometry-001"
+    },
+    {
+      "name": "p09-typography-001",
+      "status": "passed",
+      "native_error": 9.09494701772928e-13,
+      "directory": "samples/course-reproduction-005/p09-typography-001"
+    },
+    {
+      "name": "p09-texture-001",
+      "status": "passed",
+      "native_error": 4.54747350886464e-13,
+      "directory": "samples/course-reproduction-005/p09-texture-001"
+    }
+  ],
+  "isolated_copy": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\isolated-skill-006\\ae-advanced-expressions",
+  "cwd": "E:\\\u81ea\u5a92\u4f53",
+  "same_emitter": true
+}

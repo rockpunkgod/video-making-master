@@ -1,0 +1,23 @@
+{
+  "status": "failed",
+  "reference": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\cache\\watch\\watch-ufk60lhj\\frames\\cue_0000.jpg",
+  "candidate": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course-reproduction-005\\p09-initial-001\\frame-zero.png",
+  "viewport_crop": [
+    347,
+    93,
+    690,
+    389
+  ],
+  "mean_distance_px": 4.620835304260254,
+  "p95_distance_px": 1.0,
+  "thresholds": {
+    "mean": 2,
+    "p95": 4
+  },
+  "not_validated": [
+    "exact colors",
+    "source layer construction",
+    "random pattern",
+    "final 3D motion"
+  ]
+}

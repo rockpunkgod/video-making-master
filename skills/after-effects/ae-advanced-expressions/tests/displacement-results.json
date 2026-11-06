@@ -1,0 +1,357 @@
+{
+  "skill": "ae-advanced-expressions",
+  "version": "0.2.0",
+  "unit": "course-p09-displacement",
+  "status": "candidate",
+  "cases": [
+    {
+      "case": "p09-final-002",
+      "directory": "samples/course-reproduction-005/p09-final-002",
+      "video_sha256": "1a6d37bf0de22badb6aca70f4dc138e9b8feb27184372baa874fa61bbd5f5da3",
+      "asset_sha256": null,
+      "native_position_error": 4.54747350886464e-13,
+      "color_temporal_drift": 0,
+      "manual_offset_edit": {
+        "before": [
+          2766.33877712543,
+          7.37661756979674,
+          6640.29563428608
+        ],
+        "after": [
+          2952.33877712543,
+          7.37661756979674,
+          6640.29563428608
+        ],
+        "restored_and_reopened": true
+      },
+      "speed_edit": {
+        "original_speed": -124,
+        "changed_speed": -248,
+        "before": [
+          2766.33877712543,
+          7.37661756979674,
+          6640.29563428608
+        ],
+        "after": [
+          2730.67984817146,
+          7.37661756979674,
+          6640.29563428608
+        ],
+        "restored_and_reopened": true
+      },
+      "visual_review": "10 contact frames actually inspected; source-method scatter and X-only drift; PNG fine-line/text contrast and readability are limited"
+    },
+    {
+      "case": "p09-seed165-speed310-001",
+      "directory": "samples/course-reproduction-005/p09-seed165-speed310-001",
+      "video_sha256": "bc891d6380f9f5d415c41792229f2332746ce2672c6826264c8a53aa096c5a57",
+      "asset_sha256": null,
+      "native_position_error": 9.09494701772928e-13,
+      "color_temporal_drift": 0,
+      "manual_offset_edit": {
+        "before": [
+          938.425163697085,
+          1726.93094155214,
+          5238.74665709882
+        ],
+        "after": [
+          1124.42516369708,
+          1726.93094155214,
+          5238.74665709882
+        ],
+        "restored_and_reopened": true
+      },
+      "speed_edit": {
+        "original_speed": 310,
+        "changed_speed": 620,
+        "before": [
+          938.425163697085,
+          1726.93094155214,
+          5238.74665709882
+        ],
+        "after": [
+          1242.73339585092,
+          1726.93094155214,
+          5238.74665709882
+        ],
+        "restored_and_reopened": true
+      },
+      "visual_review": "10 contact frames actually inspected; source-method scatter and X-only drift; PNG fine-line/text contrast and readability are limited"
+    },
+    {
+      "case": "p09-geometry-001",
+      "directory": "samples/course-reproduction-005/p09-geometry-001",
+      "video_sha256": "474955d24ff70a96ae1e0e60f9100436653196a0bb2650fc1e96a05341d242af",
+      "asset_sha256": "f4e0b0064871dc9f639959b72cecbcfb2e3414f940166c5f21f40d1552dc5009",
+      "native_position_error": 4.54747350886464e-13,
+      "color_temporal_drift": 0,
+      "manual_offset_edit": {
+        "before": [
+          2457.64053292704,
+          13.7721420693613,
+          7801.41559756161
+        ],
+        "after": [
+          2643.64053292704,
+          13.7721420693613,
+          7801.41559756161
+        ],
+        "restored_and_reopened": true
+      },
+      "speed_edit": {
+        "original_speed": -124,
+        "changed_speed": -248,
+        "before": [
+          2457.64053292704,
+          13.7721420693613,
+          7801.41559756161
+        ],
+        "after": [
+          2382.18795877932,
+          13.7721420693613,
+          7801.41559756161
+        ],
+        "restored_and_reopened": true
+      },
+      "visual_review": "10 contact frames actually inspected; source-method scatter and X-only drift; PNG fine-line/text contrast and readability are limited"
+    },
+    {
+      "case": "p09-typography-001",
+      "directory": "samples/course-reproduction-005/p09-typography-001",
+      "video_sha256": "2c0f9fc94ba1c2f6de28e1c021e2e187b6d5045d05b97059c0ec36dd7b1cd20c",
+      "asset_sha256": "3130efd93a8d60694178091ed3dc6cd54c043917c6e2668a25a51effe8198600",
+      "native_position_error": 9.09494701772928e-13,
+      "color_temporal_drift": 0,
+      "manual_offset_edit": {
+        "before": [
+          1471.50929062895,
+          372.81132227341,
+          3731.40721757929
+        ],
+        "after": [
+          1657.50929062895,
+          372.81132227341,
+          3731.40721757929
+        ],
+        "restored_and_reopened": true
+      },
+      "speed_edit": {
+        "original_speed": 310,
+        "changed_speed": 620,
+        "before": [
+          1471.50929062895,
+          372.81132227341,
+          3731.40721757929
+        ],
+        "after": [
+          1498.77649413859,
+          372.81132227341,
+          3731.40721757929
+        ],
+        "restored_and_reopened": true
+      },
+      "visual_review": "10 contact frames actually inspected; source-method scatter and X-only drift; PNG fine-line/text contrast and readability are limited"
+    },
+    {
+      "case": "p09-texture-001",
+      "directory": "samples/course-reproduction-005/p09-texture-001",
+      "video_sha256": "48a15e070e0d71a7be812464665735e20019a6e05e6ee6acae02046a29c3b919",
+      "asset_sha256": "700ce5d87d80c90d2e23409bbac14ba38da5a31397abc60f194cbe62326cbae9",
+      "native_position_error": 4.54747350886464e-13,
+      "color_temporal_drift": 0,
+      "manual_offset_edit": {
+        "before": [
+          105.11065397158,
+          524.26921005693,
+          5729.3161319474
+        ],
+        "after": [
+          291.110653971581,
+          524.26921005693,
+          5729.3161319474
+        ],
+        "restored_and_reopened": true
+      },
+      "speed_edit": {
+        "original_speed": -124,
+        "changed_speed": -248,
+        "before": [
+          105.11065397158,
+          524.26921005693,
+          5729.3161319474
+        ],
+        "after": [
+          55.274084594863,
+          524.26921005693,
+          5729.3161319474
+        ],
+        "restored_and_reopened": true
+      },
+      "visual_review": "10 contact frames actually inspected; source-method scatter and X-only drift; PNG fine-line/text contrast and readability are limited"
+    }
+  ],
+  "native_probe": {
+    "status": "probed",
+    "scalar_plus_array": [
+      15,
+      20,
+      30
+    ],
+    "position_at_0": [
+      2849.46545244415,
+      1822.37625441336,
+      4886.30450131286
+    ],
+    "position_at_1": [
+      2775.14680661986,
+      1822.37625441336,
+      4886.30450131286
+    ],
+    "one_second_delta": [
+      -74.3186458242867,
+      0,
+      0
+    ],
+    "point3d_parameter_match": "ADBE Point3D Control-0001",
+    "color_random_array": [
+      0.13913079983069,
+      0.93060222988264,
+      0.91240271318527,
+      0.36187908061824
+    ]
+  },
+  "geometry": {
+    "status": "passed_geometry_only",
+    "viewport_crop": [
+      347,
+      93,
+      690,
+      389
+    ],
+    "mask": "contrast >10 from viewport background; keep three components area>=1000; excludes observed border slivers area<=775",
+    "source_components": [
+      [
+        160,
+        138,
+        112,
+        112,
+        9812
+      ],
+      [
+        292,
+        144,
+        99,
+        100,
+        9855
+      ],
+      [
+        409,
+        144,
+        112,
+        100,
+        5841
+      ]
+    ],
+    "candidate_components": [
+      [
+        161,
+        140,
+        109,
+        109,
+        9257
+      ],
+      [
+        293,
+        146,
+        97,
+        97,
+        9409
+      ],
+      [
+        409,
+        146,
+        113,
+        98,
+        5670
+      ]
+    ],
+    "mean_distance_px": 0.03559977561235428,
+    "p95_distance_px": 0.0,
+    "thresholds": {
+      "mean": 2,
+      "p95": 4
+    },
+    "previous_failure": "initial-geometry.json retained",
+    "not_validated": [
+      "colors",
+      "native source dimensions readout",
+      "3D random sequence",
+      "final timing"
+    ]
+  },
+  "isolated_execution": {
+    "status": "native_technical_pass_visual_pending",
+    "cases": [
+      {
+        "name": "p09-seed165-speed310-001",
+        "status": "passed",
+        "native_error": 9.09494701772928e-13,
+        "directory": "samples/course-reproduction-005/p09-seed165-speed310-001"
+      },
+      {
+        "name": "p09-geometry-001",
+        "status": "passed",
+        "native_error": 4.54747350886464e-13,
+        "directory": "samples/course-reproduction-005/p09-geometry-001"
+      },
+      {
+        "name": "p09-typography-001",
+        "status": "passed",
+        "native_error": 9.09494701772928e-13,
+        "directory": "samples/course-reproduction-005/p09-typography-001"
+      },
+      {
+        "name": "p09-texture-001",
+        "status": "passed",
+        "native_error": 4.54747350886464e-13,
+        "directory": "samples/course-reproduction-005/p09-texture-001"
+      }
+    ],
+    "isolated_copy": "E:\\自媒体\\video-skills-lab\\samples\\isolated-skill-006\\ae-advanced-expressions",
+    "cwd": "E:\\自媒体",
+    "same_emitter": true
+  },
+  "missing": [
+    "fine-line/text PNG foreground readability and contrast adaptation if used for foreground content"
+  ],
+  "limitations": [
+    "shape sizes and gray background inferred",
+    "random sequence depends on layer/property identity",
+    "no native source project used",
+    "initial stage is static diagnostic, not animation success"
+  ],
+  "human_visual_review": {
+    "feedback": "挺好的",
+    "status": "latest_positive_feedback_keep_current_version",
+    "artifact": "samples/course-reproduction-005/p09-final-002/final.mp4",
+    "video_sha256": "1a6d37bf0de22badb6aca70f4dc138e9b8feb27184372baa874fa61bbd5f5da3",
+    "followup": "Latest positive reply keeps current version; original-before-review presentation requirement is now recorded",
+    "local_comparison": "cache/reviews/p09-original-vs-final002-002/comparison.mp4",
+    "source": "BV1Yh4y1A7XT p9 09:18–09:23",
+    "sync": "not exact frame synchronization",
+    "context": "Reply to clarification asking which part of the same p09-final-002 needs adjustment; retain prior negative response in history",
+    "scope": "Overall positive feedback for current artifact; not exact random pattern or inferred values verification"
+  },
+  "human_review_history": [
+    {
+      "feedback": "仍需调整",
+      "status": "rejected_needs_revision",
+      "artifact": "samples/course-reproduction-005/p09-final-002/final.mp4",
+      "video_sha256": "1a6d37bf0de22badb6aca70f4dc138e9b8feb27184372baa874fa61bbd5f5da3",
+      "followup": "User requests original reference before every comparison; detailed adjustment item remains pending",
+      "local_comparison": "cache/reviews/p09-original-vs-final002-002/comparison.mp4",
+      "source": "BV1Yh4y1A7XT p9 09:18–09:23",
+      "sync": "not exact frame synchronization"
+    }
+  ]
+}

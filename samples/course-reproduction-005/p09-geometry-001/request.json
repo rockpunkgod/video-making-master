@@ -1,0 +1,33 @@
+{
+  "name": "COURSE_P09_DISPLACEMENT",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 5,
+  "stage": "final",
+  "seed": 409,
+  "drift_speed": -124.0,
+  "count": 48,
+  "asset": "E:/自媒体/video-skills-lab/samples/course-reproduction-005/p09-geometry-001/assets/input.png",
+  "pos_min": [
+    -1084,
+    -630,
+    1930
+  ],
+  "pos_max": [
+    3130,
+    1950,
+    8890
+  ],
+  "source": "BV1Yh4y1A7XT?p=9 00:40 Fill code; 08:35 position code; 09:06 final controls",
+  "status": "candidate",
+  "inferred_geometry": {
+    "circle_diameter": 300,
+    "rectangle_size": 270,
+    "triangle_base": 311.7691453624,
+    "triangle_height": 270
+  },
+  "inferred_background": "224/255 gray sampled from compressed tutorial viewport, not read from source color dialog",
+  "scope": "Source-method random 3D arrays, scalar drift in X only, and +value manual offset; exact source random pattern not guaranteed; PNG generalization, not source vector geometry",
+  "asset_sha256": "f4e0b0064871dc9f639959b72cecbcfb2e3414f940166c5f21f40d1552dc5009"
+}
