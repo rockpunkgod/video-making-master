@@ -192,8 +192,8 @@
     },
     {
       "path": "evaluations/course-p10-probe-001/summary.json",
-      "bytes": 26835,
-      "sha256": "51da6657465dd8a97c4f57c9d040be7ed99a95959699610e1c68ba7317373be4"
+      "bytes": 27158,
+      "sha256": "caa8c9a0835e033eb610cf9bc39b96df7062c7fa829bedc8b87bc48b6c7003d5"
     },
     {
       "path": "evaluations/course-p10-probe-001/variants-layout-revised.json",
@@ -2455,5 +2455,5 @@
     "repeated native audio/video exports"
   ],
   "portability": "Native projects retain original Windows media paths. Rebuild from the bundled scripts or relink the bundled inputs/assets; historical report references may point to local-only artifacts.",
-  "total_selected_bytes": 350275150
+  "total_selected_bytes": 350275473
 }

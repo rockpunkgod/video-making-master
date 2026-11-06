@@ -308,9 +308,9 @@
   "source_comparison": "cache/reviews/p10-original-vs-002-001/comparison.mp4",
   "comparison_scope": "source recording paused; inferred viewport crop; layout only, no source playback/frame-sync claim",
   "missing": [
-    "user animation and layout review of005",
-    "parameter and cross-input generalization for controller animation",
-    "exact course playback fidelity: course shows manual controls at fixed timeline time"
+    "locate exact original animation segment with user; no further invented temporal adaptation",
+    "actual reproduction and course animation acceptance",
+    "parameter and cross-input generalization"
   ],
   "retained_failure": "p10-decimal-binary-001 actually rendered for diagnosis; basic decode passed but all 150 frames fail layout pixel check (16 rows vs18 and unexpected margin ink)",
   "negative_layout_test": {
@@ -832,12 +832,18 @@
     },
     "adaptation": "Intro00:43–01:20 manually changes seed10→89→122 and num300→198→201 at fixed comp time. Editable HOLD keyframes at output1/2/3.5/5s are our temporal adaptation, not demonstrated tutorial keyframes. Timeless prevents unintended full-frame random changes between these keys.",
     "inferred": "Intro full-canvas black/white appearance observed; box650px centered atx215 inferred from viewport, not source AEP property; positionsy138/592 retained as inferred. Intro35-column wrapping failure is not used as a production keyframe.",
-    "visual_review": "10 frames actually inspected; user animation review pending",
+    "visual_review": "10 frames inspected technically; user rejected course animation fidelity",
     "comparison": "cache/reviews/p10-original-vs-controls005-001/comparison.mp4",
     "limits": [
       "Fixed-profile keyframe adaptation, not course-demonstrated native timeline",
       "No parameter variation or three-material generalization for this new animation trial",
       "No precise reference synchronization or user acceptance yet"
-    ]
+    ],
+    "human_visual_review": {
+      "feedback": "仍不符合课程动画",
+      "status": "rejected_course_animation_fidelity",
+      "artifact": "samples/course-reproduction-006/p10-controls-animation-005/final.mp4",
+      "sha256": "84397be95ee09df4e30ca623c06549a5c3e5f3f19d5f9844357ae9c840374aeb"
+    }
   }
 }
