@@ -1,0 +1,10 @@
+{
+  "status": "candidate_branch_with_accepted_baseline_and_three_text_input_variants",
+  "baseline": {"text":"SUBPRIME","font_size":160,"x":258,"y":420,"offset_y":-79,"reveal_frames":29,"seed":0},
+  "new_text_inputs": [
+    {"text":"ALGORITHM","font_size":128,"x":230,"y":420,"offset_y":-79,"reveal_frames":29,"seed":7},
+    {"text":"Motion 2026","font_size":110,"x":300,"y":420,"offset_y":-110,"reveal_frames":45,"seed":41},
+    {"text":"AI","font_size":180,"x":550,"y":420,"offset_y":-50,"reveal_frames":15,"seed":89}
+  ],
+  "limits": "Four real native cases; source curve handles estimated, exact source random seed unread. Three text inputs do not prove arbitrary fonts, Chinese text, images or auto layout."
+}

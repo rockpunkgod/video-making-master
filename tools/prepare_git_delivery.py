@@ -7,6 +7,10 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 CASES=[
+ 'samples/course-reproduction-009/p14-baseline-002',
+ 'samples/course-reproduction-009/p14-algorithm-001',
+ 'samples/course-reproduction-009/p14-motion2026-001',
+ 'samples/course-reproduction-009/p14-ai-001',
  'samples/course-reproduction-002/p06-final-003',
  'samples/course-reproduction-002/p06-delay5-002',
  'samples/course-generalization-001/geometry',

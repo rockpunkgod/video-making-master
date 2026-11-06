@@ -9,6 +9,11 @@ from validate_video import validate
 
 def check_output(root,cfg):
     report=validate(root/'final.mp4',cfg)
+    if cfg.get('animation')=='type-reveal':
+        audit=subprocess.run([sys.executable,str(Path(__file__).parent/'validate_type_reveal.py'),str(root)],capture_output=True)
+        (root/'type-reveal-validation.log').write_bytes(audit.stdout+b'\n'+audit.stderr)
+        report['type_reveal_quality']='type-reveal-quality.json'
+        if audit.returncode:report['status']='failed'
     if cfg.get('animation')=='controls-demo':
         audit=subprocess.run([sys.executable,str(Path(__file__).parent/'validate_controller_animation.py'),str(root)],capture_output=True)
         (root/'controller-validation.log').write_bytes(audit.stdout+b'\n'+audit.stderr)

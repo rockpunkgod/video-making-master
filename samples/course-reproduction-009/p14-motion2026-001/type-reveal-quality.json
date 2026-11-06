@@ -1,0 +1,178 @@
+{
+  "status": "passed",
+  "checks": {
+    "expected_character_bands": true,
+    "native_build": true,
+    "blank_start": true,
+    "both_parities_actually_visible": true,
+    "actual_character_displacement": true,
+    "intermediate_reveal": true,
+    "settled_hold": true
+  },
+  "frames": [
+    0,
+    3,
+    6,
+    12,
+    20,
+    45,
+    90,
+    150
+  ],
+  "bands": [
+    [
+      307,
+      390
+    ],
+    [
+      402,
+      459
+    ],
+    [
+      465,
+      503
+    ],
+    [
+      514,
+      532
+    ],
+    [
+      543,
+      599
+    ],
+    [
+      611,
+      665
+    ],
+    [
+      702,
+      756
+    ],
+    [
+      764,
+      833
+    ],
+    [
+      842,
+      896
+    ],
+    [
+      905,
+      963
+    ]
+  ],
+  "max_centroid_error": 0.03837286105407145,
+  "max_hold_mean_difference": 0.0015277777777777779,
+  "character_measurements": [
+    {
+      "frame": 3,
+      "character_index": 1,
+      "observed_dy": 101.16097987571169,
+      "expected_dy": 101.141802252135,
+      "error": 0.01917762357669517,
+      "opacity_mass_ratio": 0.9999531177257518
+    },
+    {
+      "frame": 6,
+      "character_index": 1,
+      "observed_dy": 91.16407092939761,
+      "expected_dy": 91.1552330357202,
+      "error": 0.00883789367740917,
+      "opacity_mass_ratio": 0.9998942423115796
+    },
+    {
+      "frame": 12,
+      "character_index": 1,
+      "observed_dy": 70.8699270758878,
+      "expected_dy": 70.8695911163512,
+      "error": 0.0003359595365992618,
+      "opacity_mass_ratio": 0.9998539017500172
+    },
+    {
+      "frame": 20,
+      "character_index": 1,
+      "observed_dy": 45.544716523962165,
+      "expected_dy": 45.5284371861577,
+      "error": 0.016279337804462557,
+      "opacity_mass_ratio": 0.9999313120167991
+    },
+    {
+      "frame": 6,
+      "character_index": 2,
+      "observed_dy": -91.15360775228447,
+      "expected_dy": -91.1552330357202,
+      "error": 0.0016252834357288748,
+      "opacity_mass_ratio": 0.9998807104452103
+    },
+    {
+      "frame": 12,
+      "character_index": 2,
+      "observed_dy": -70.8678320552583,
+      "expected_dy": -70.8695911163512,
+      "error": 0.0017590610928976957,
+      "opacity_mass_ratio": 1.0000195201089657
+    },
+    {
+      "frame": 20,
+      "character_index": 2,
+      "observed_dy": -45.52714400462219,
+      "expected_dy": -45.5284371861577,
+      "error": 0.0012931815355159415,
+      "opacity_mass_ratio": 0.9999956621980076
+    },
+    {
+      "frame": 12,
+      "character_index": 8,
+      "observed_dy": -70.83121825529713,
+      "expected_dy": -70.8695911163512,
+      "error": 0.03837286105407145,
+      "opacity_mass_ratio": 0.3779820168449807
+    },
+    {
+      "frame": 20,
+      "character_index": 8,
+      "observed_dy": -45.49352536094449,
+      "expected_dy": -45.5284371861577,
+      "error": 0.03491182521321434,
+      "opacity_mass_ratio": 1.0008763942636012
+    },
+    {
+      "frame": 12,
+      "character_index": 9,
+      "observed_dy": 70.87074645555651,
+      "expected_dy": 70.8695911163512,
+      "error": 0.001155339205311634,
+      "opacity_mass_ratio": 0.9999509276897203
+    },
+    {
+      "frame": 20,
+      "character_index": 9,
+      "observed_dy": 45.529625729795555,
+      "expected_dy": 45.5284371861577,
+      "error": 0.0011885436378520353,
+      "opacity_mass_ratio": 0.9999747203250074
+    },
+    {
+      "frame": 20,
+      "character_index": 10,
+      "observed_dy": -45.49254223086251,
+      "expected_dy": -45.5284371861577,
+      "error": 0.035894955295191266,
+      "opacity_mass_ratio": 0.9671555209038777
+    },
+    {
+      "frame": 20,
+      "character_index": 11,
+      "observed_dy": 45.53286509620506,
+      "expected_dy": 45.5284371861577,
+      "error": 0.004427910047354544,
+      "opacity_mass_ratio": 0.9999137773083431
+    }
+  ],
+  "video_sha256": "9244605df6a96a36c49a975bb3e6c9de4f939a5b647aeb716461d71a196b4c13",
+  "limits": [
+    "Character silhouette bands support bounded Latin inputs only",
+    "Fixed1.25px centroid tolerance covers rasterization and compression; not source timing acceptance",
+    "Exact course graph handles, source random seed and aesthetic fidelity unverified"
+  ]
+}

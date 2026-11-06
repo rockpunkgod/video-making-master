@@ -337,9 +337,9 @@
     },
     {
       "name": "ae-advanced-expressions",
-      "version": "0.3.3",
+      "version": "0.4.0",
       "status": "candidate",
-      "execution_status": "three_course_units_with_native_evidence_and_explicit_candidate_limits",
+      "execution_status": "four_course_units_with_native_evidence_and_explicit_candidate_limits",
       "path": "skills/after-effects/ae-advanced-expressions",
       "dependencies": [
         "After Effects AE26 Chinese Windows tested",
@@ -355,7 +355,8 @@
         "random 3D point-control layout",
         "independent X drift and editable manual position offset",
         "editable decimal/binary string loops and paragraph layout",
-        "source-sampled number update/hold/quantity animation (candidate)"
+        "source-sampled number update/hold/quantity animation (candidate)",
+        "odd/even character position and randomized opacity range reveal (candidate)"
       ],
       "sources": [
         {
@@ -363,7 +364,8 @@
           "parts": [
             8,
             9,
-            10
+            10,
+            14
           ]
         }
       ],
@@ -371,12 +373,14 @@
       "blockers": [
         "p08 course visual acceptance pending",
         "fine-line/text PNG foreground readability not established",
-        "p10 replay006 direction accepted; seed variations pass; exact source seeds and generalized inputs beyond seed configurations remain unverified"
+        "p10 replay006 direction accepted; seed variations pass; exact source seeds and generalized inputs beyond seed configurations remain unverified",
+        "p14 baseline accepted; three new Latin text inputs pass; final source graph handles estimated, source random seed unread, non-Latin/other-font generalization unverified"
       ],
       "evidence_by_unit": {
         "threshold": "evaluations/course-p08-suite-001/summary.json",
         "displacement": "evaluations/course-p09-probe-001/summary.json",
-        "number_sequences": "evaluations/course-p10-probe-001/summary.json"
+        "number_sequences": "evaluations/course-p10-probe-001/summary.json",
+        "type_reveal": "evaluations/course-p14-probe-001/summary.json"
       },
       "p09_latest_user_feedback": "挺好的; retain current version; prior needs-adjustment response preserved",
       "accepted_candidate_artifacts": [
@@ -386,6 +390,13 @@
           "sha256": "dc3ac98bab77b8545cfa05f20c9e65669e3ba126bbf7521c7a2f48578be2910d",
           "feedback": "这次方向对，可以保留",
           "scope": "Direction, hold/update cadence and changing quantity accepted; not a claim of exact source seeds or digit identity"
+        },
+        {
+          "unit": "p14",
+          "artifact": "samples/course-reproduction-009/p14-baseline-002/final.mp4",
+          "sha256": "552cfc459177e3e48b3c74c0946d2a70fa386ccf3dededc07458736ef5c551ec",
+          "feedback": "整体符合，可以保留",
+          "scope": "Course14 baseline002 odd/even motion, random reveal and overall rhythm; no approval transfer to variants or exact source parameter claims"
         }
       ]
     }

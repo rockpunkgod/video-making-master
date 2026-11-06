@@ -1,0 +1,15 @@
+{
+  "skill": "ae-advanced-expressions",
+  "branch": "course14-type-reveal",
+  "status": "candidate",
+  "steps": [
+    "Check existing native course font",
+    "Build editable position and opacity animators",
+    "Save and reopen",
+    "Change text and reopen then restore",
+    "Render native video",
+    "Measure actual character motion and settled hold"
+  ],
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=14",
+  "review": "Show original06:03\u201306:08 playback and comparison; exact frame synchronization remains unverified"
+}

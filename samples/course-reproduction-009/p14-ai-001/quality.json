@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course-reproduction-009\\p14-ai-001\\final.mp4",
+  "sha256": "38480fad14d94c52b3dd507f4a4337d3e10f1ef49e4cb0390e7320b45881a7be",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30.0,
+    "duration": 5.033333,
+    "decoded_frames": 151,
+    "unique_thumbnail_frames": 17
+  },
+  "motion_expectation": "required",
+  "static_pixel_check": null,
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": "",
+  "type_reveal_quality": "type-reveal-quality.json"
+}

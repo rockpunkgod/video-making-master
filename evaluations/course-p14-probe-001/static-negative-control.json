@@ -1,0 +1,324 @@
+{
+  "status": "failed",
+  "checks": {
+    "expected_character_bands": true,
+    "native_build": true,
+    "blank_start": false,
+    "both_parities_actually_visible": true,
+    "actual_character_displacement": false,
+    "intermediate_reveal": false,
+    "settled_hold": true
+  },
+  "frames": [
+    0,
+    3,
+    6,
+    12,
+    20,
+    29,
+    90,
+    150
+  ],
+  "bands": [
+    [
+      265,
+      347
+    ],
+    [
+      364,
+      453
+    ],
+    [
+      473,
+      557
+    ],
+    [
+      574,
+      656
+    ],
+    [
+      671,
+      753
+    ],
+    [
+      771,
+      792
+    ],
+    [
+      813,
+      933
+    ],
+    [
+      955,
+      1028
+    ]
+  ],
+  "max_centroid_error": 68.72107109897784,
+  "max_hold_mean_difference": 8.680555555555556e-06,
+  "character_measurements": [
+    {
+      "frame": 3,
+      "character_index": 1,
+      "observed_dy": -7.473294732562863e-05,
+      "expected_dy": 68.7207218805202,
+      "error": 68.72079661346753,
+      "opacity_mass_ratio": 1.0000079846120558
+    },
+    {
+      "frame": 6,
+      "character_index": 1,
+      "observed_dy": 0.0,
+      "expected_dy": 57.3841476756126,
+      "error": 57.3841476756126,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 12,
+      "character_index": 1,
+      "observed_dy": 0.0,
+      "expected_dy": 35.6807856001214,
+      "error": 35.6807856001214,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 20,
+      "character_index": 1,
+      "observed_dy": 0.0,
+      "expected_dy": 12.1942891121307,
+      "error": 12.1942891121307,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 3,
+      "character_index": 2,
+      "observed_dy": 0.0001646167809212784,
+      "expected_dy": -68.7207218805202,
+      "error": 68.72088649730112,
+      "opacity_mass_ratio": 1.0000047549873874
+    },
+    {
+      "frame": 6,
+      "character_index": 2,
+      "observed_dy": 0.0,
+      "expected_dy": -57.3841476756126,
+      "error": 57.3841476756126,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 12,
+      "character_index": 2,
+      "observed_dy": 0.0,
+      "expected_dy": -35.6807856001214,
+      "error": 35.6807856001214,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 20,
+      "character_index": 2,
+      "observed_dy": 0.0,
+      "expected_dy": -12.1942891121307,
+      "error": 12.1942891121307,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 3,
+      "character_index": 3,
+      "observed_dy": -0.00010254475756710235,
+      "expected_dy": 68.7207218805202,
+      "error": 68.72082442527777,
+      "opacity_mass_ratio": 1.0000006463860878
+    },
+    {
+      "frame": 6,
+      "character_index": 3,
+      "observed_dy": 0.0,
+      "expected_dy": 57.3841476756126,
+      "error": 57.3841476756126,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 12,
+      "character_index": 3,
+      "observed_dy": 0.0,
+      "expected_dy": 35.6807856001214,
+      "error": 35.6807856001214,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 20,
+      "character_index": 3,
+      "observed_dy": 0.0,
+      "expected_dy": 12.1942891121307,
+      "error": 12.1942891121307,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 3,
+      "character_index": 4,
+      "observed_dy": -0.00010447789838963217,
+      "expected_dy": -68.7207218805202,
+      "error": 68.72061740262181,
+      "opacity_mass_ratio": 1.0000127843233513
+    },
+    {
+      "frame": 6,
+      "character_index": 4,
+      "observed_dy": 0.0,
+      "expected_dy": -57.3841476756126,
+      "error": 57.3841476756126,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 12,
+      "character_index": 4,
+      "observed_dy": 0.0,
+      "expected_dy": -35.6807856001214,
+      "error": 35.6807856001214,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 20,
+      "character_index": 4,
+      "observed_dy": 0.0,
+      "expected_dy": -12.1942891121307,
+      "error": 12.1942891121307,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 3,
+      "character_index": 5,
+      "observed_dy": -0.00034921845764301906,
+      "expected_dy": 68.7207218805202,
+      "error": 68.72107109897784,
+      "opacity_mass_ratio": 0.9999773980173824
+    },
+    {
+      "frame": 6,
+      "character_index": 5,
+      "observed_dy": 1.4126238738754182e-06,
+      "expected_dy": 57.3841476756126,
+      "error": 57.38414626298873,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 12,
+      "character_index": 5,
+      "observed_dy": 0.0,
+      "expected_dy": 35.6807856001214,
+      "error": 35.6807856001214,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 20,
+      "character_index": 5,
+      "observed_dy": 0.0,
+      "expected_dy": 12.1942891121307,
+      "error": 12.1942891121307,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 3,
+      "character_index": 6,
+      "observed_dy": 0.0,
+      "expected_dy": -68.7207218805202,
+      "error": 68.7207218805202,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 6,
+      "character_index": 6,
+      "observed_dy": 0.0001952876247059976,
+      "expected_dy": -57.3841476756126,
+      "error": 57.38434296323731,
+      "opacity_mass_ratio": 0.9999965421315339
+    },
+    {
+      "frame": 12,
+      "character_index": 6,
+      "observed_dy": 0.0,
+      "expected_dy": -35.6807856001214,
+      "error": 35.6807856001214,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 20,
+      "character_index": 6,
+      "observed_dy": 0.0,
+      "expected_dy": -12.1942891121307,
+      "error": 12.1942891121307,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 3,
+      "character_index": 7,
+      "observed_dy": -2.0190247084883595e-05,
+      "expected_dy": 68.7207218805202,
+      "error": 68.72074207076729,
+      "opacity_mass_ratio": 0.999997422194084
+    },
+    {
+      "frame": 6,
+      "character_index": 7,
+      "observed_dy": 0.0,
+      "expected_dy": 57.3841476756126,
+      "error": 57.3841476756126,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 12,
+      "character_index": 7,
+      "observed_dy": 0.0,
+      "expected_dy": 35.6807856001214,
+      "error": 35.6807856001214,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 20,
+      "character_index": 7,
+      "observed_dy": 0.0,
+      "expected_dy": 12.1942891121307,
+      "error": 12.1942891121307,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 3,
+      "character_index": 8,
+      "observed_dy": 0.0,
+      "expected_dy": -68.7207218805202,
+      "error": 68.7207218805202,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 6,
+      "character_index": 8,
+      "observed_dy": 0.0,
+      "expected_dy": -57.3841476756126,
+      "error": 57.3841476756126,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 12,
+      "character_index": 8,
+      "observed_dy": 0.0,
+      "expected_dy": -35.6807856001214,
+      "error": 35.6807856001214,
+      "opacity_mass_ratio": 1.0
+    },
+    {
+      "frame": 20,
+      "character_index": 8,
+      "observed_dy": 0.0,
+      "expected_dy": -12.1942891121307,
+      "error": 12.1942891121307,
+      "opacity_mass_ratio": 1.0
+    }
+  ],
+  "video_sha256": "34c98be5a3589183303daf34a906aec96572e24839fee78dbbf3a930e26da9d4",
+  "limits": [
+    "Character silhouette bands support bounded Latin inputs only",
+    "Fixed1.25px centroid tolerance covers rasterization and compression; not source timing acceptance",
+    "Exact course graph handles, source random seed and aesthetic fidelity unverified"
+  ],
+  "negative_control": "FFmpeg freeze of final real native frame; deliberately invalid reveal, not a new Adobe render",
+  "validator_returncode": 1
+}

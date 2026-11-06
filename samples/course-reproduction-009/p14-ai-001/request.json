@@ -1,0 +1,22 @@
+{
+  "name": "COURSE_P14_TYPE_REVEAL",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "duration": 5.033333333333333,
+  "text": "AI",
+  "font_size": 180.0,
+  "position": [
+    550.0,
+    420
+  ],
+  "offset_y": -50.0,
+  "reveal_frames": 15,
+  "random_seed": 89,
+  "animation": "type-reveal",
+  "motion_expectation": "required",
+  "course_observed": "DM Sans Bold160; baseline shift4; Position258/420; odd:-100/even:100; Opacity0; randomized range End100 to0",
+  "timing_evidence": "05:10 cursor00:00:00:29 overlaps both final keys; first keys at0; comp panel05:01 at30fps",
+  "inferred": "Position influences14.5/36.2 estimated from graph; End9/45 fitted against final06:00 speed curve using native valueAtTime derivatives; seed0 is native default, source seed unread",
+  "fidelity": "candidate; final handle estimates are not exact source keyframe values"
+}

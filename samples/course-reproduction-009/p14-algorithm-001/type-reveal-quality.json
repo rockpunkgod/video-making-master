@@ -1,0 +1,222 @@
+{
+  "status": "passed",
+  "checks": {
+    "expected_character_bands": true,
+    "native_build": true,
+    "blank_start": true,
+    "both_parities_actually_visible": true,
+    "actual_character_displacement": true,
+    "intermediate_reveal": true,
+    "settled_hold": true
+  },
+  "frames": [
+    0,
+    3,
+    6,
+    12,
+    20,
+    29,
+    90,
+    150
+  ],
+  "bands": [
+    [
+      233,
+      317
+    ],
+    [
+      328,
+      385
+    ],
+    [
+      388,
+      474
+    ],
+    [
+      487,
+      577
+    ],
+    [
+      591,
+      656
+    ],
+    [
+      671,
+      687
+    ],
+    [
+      699,
+      768
+    ],
+    [
+      780,
+      853
+    ],
+    [
+      871,
+      966
+    ]
+  ],
+  "max_centroid_error": 0.04509445257821909,
+  "max_hold_mean_difference": 0.0011870659722222222,
+  "character_measurements": [
+    {
+      "frame": 12,
+      "character_index": 2,
+      "observed_dy": -35.635691147543184,
+      "expected_dy": -35.6807856001214,
+      "error": 0.04509445257821909,
+      "opacity_mass_ratio": 1.0012336243884532
+    },
+    {
+      "frame": 20,
+      "character_index": 2,
+      "observed_dy": -12.185777932775125,
+      "expected_dy": -12.1942891121307,
+      "error": 0.008511179355576104,
+      "opacity_mass_ratio": 1.000032094293033
+    },
+    {
+      "frame": 6,
+      "character_index": 3,
+      "observed_dy": 57.38521290163976,
+      "expected_dy": 57.3841476756126,
+      "error": 0.0010652260271584169,
+      "opacity_mass_ratio": 0.7967708525404379
+    },
+    {
+      "frame": 12,
+      "character_index": 3,
+      "observed_dy": 35.67373970040654,
+      "expected_dy": 35.6807856001214,
+      "error": 0.007045899714860582,
+      "opacity_mass_ratio": 1.0000098078831843
+    },
+    {
+      "frame": 20,
+      "character_index": 3,
+      "observed_dy": 12.196511817458315,
+      "expected_dy": 12.1942891121307,
+      "error": 0.0022227053276147046,
+      "opacity_mass_ratio": 0.9999784226569948
+    },
+    {
+      "frame": 3,
+      "character_index": 4,
+      "observed_dy": -68.72613686850679,
+      "expected_dy": -68.7207218805202,
+      "error": 0.005414987986583242,
+      "opacity_mass_ratio": 0.3526628234415108
+    },
+    {
+      "frame": 6,
+      "character_index": 4,
+      "observed_dy": -57.38225549416569,
+      "expected_dy": -57.3841476756126,
+      "error": 0.0018921814469123888,
+      "opacity_mass_ratio": 0.9999748854409855
+    },
+    {
+      "frame": 12,
+      "character_index": 4,
+      "observed_dy": -35.67869448068535,
+      "expected_dy": -35.6807856001214,
+      "error": 0.0020911194360522245,
+      "opacity_mass_ratio": 1.000034532518645
+    },
+    {
+      "frame": 20,
+      "character_index": 4,
+      "observed_dy": -12.193566198862868,
+      "expected_dy": -12.1942891121307,
+      "error": 0.0007229132678325811,
+      "opacity_mass_ratio": 0.9999874427204928
+    },
+    {
+      "frame": 12,
+      "character_index": 5,
+      "observed_dy": 35.680874841353216,
+      "expected_dy": 35.6807856001214,
+      "error": 8.924123181230925e-05,
+      "opacity_mass_ratio": 1.0001873779976347
+    },
+    {
+      "frame": 20,
+      "character_index": 5,
+      "observed_dy": 12.215098019327627,
+      "expected_dy": 12.1942891121307,
+      "error": 0.020808907196926185,
+      "opacity_mass_ratio": 1.000478365005726
+    },
+    {
+      "frame": 12,
+      "character_index": 6,
+      "observed_dy": -35.656875042600404,
+      "expected_dy": -35.6807856001214,
+      "error": 0.02391055752099902,
+      "opacity_mass_ratio": 0.3546399199822183
+    },
+    {
+      "frame": 20,
+      "character_index": 6,
+      "observed_dy": -12.18879607086626,
+      "expected_dy": -12.1942891121307,
+      "error": 0.005493041264440279,
+      "opacity_mass_ratio": 1.0000583462991777
+    },
+    {
+      "frame": 3,
+      "character_index": 7,
+      "observed_dy": 68.71381649854641,
+      "expected_dy": 68.7207218805202,
+      "error": 0.006905381973794533,
+      "opacity_mass_ratio": 1.0005044526228775
+    },
+    {
+      "frame": 6,
+      "character_index": 7,
+      "observed_dy": 57.4043094718283,
+      "expected_dy": 57.3841476756126,
+      "error": 0.020161796215695915,
+      "opacity_mass_ratio": 1.0002467031075386
+    },
+    {
+      "frame": 12,
+      "character_index": 7,
+      "observed_dy": 35.686195037778646,
+      "expected_dy": 35.6807856001214,
+      "error": 0.005409437657242222,
+      "opacity_mass_ratio": 1.000012887475767
+    },
+    {
+      "frame": 20,
+      "character_index": 7,
+      "observed_dy": 12.211533176727357,
+      "expected_dy": 12.1942891121307,
+      "error": 0.017244064596656727,
+      "opacity_mass_ratio": 1.0003534850496076
+    },
+    {
+      "frame": 20,
+      "character_index": 8,
+      "observed_dy": -12.188158847663829,
+      "expected_dy": -12.1942891121307,
+      "error": 0.006130264466872148,
+      "opacity_mass_ratio": 0.8685157455827133
+    },
+    {
+      "frame": 20,
+      "character_index": 9,
+      "observed_dy": 12.208080103122597,
+      "expected_dy": 12.1942891121307,
+      "error": 0.013790990991896734,
+      "opacity_mass_ratio": 1.0002543606132372
+    }
+  ],
+  "video_sha256": "c97b0bee2328e04306c2351c76ed1a8d11a21abc52f774784c539b9581c1035f",
+  "limits": [
+    "Character silhouette bands support bounded Latin inputs only",
+    "Fixed1.25px centroid tolerance covers rasterization and compression; not source timing acceptance",
+    "Exact course graph handles, source random seed and aesthetic fidelity unverified"
+  ]
+}

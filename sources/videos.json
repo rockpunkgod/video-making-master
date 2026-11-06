@@ -14,9 +14,9 @@
       ],
       "passes": {
         "global": "p1,p5–p12,p14 reviewed; p5–p12,p14 full existing-local-model transcripts read. p2–p4,p13,p15–p20 remain unlearned",
-        "detail": "p5/p6 original-method verified within scope; p7 Tint accepted with material gap; p8/p9 native suites; p10 replay006 direction accepted after original-left clarification, two real seed variants, exact absolute seeds not recovered; p11 eight real static spatial cases; p12 three real static Path/Mirror cases and native coordinate probes; p14 full ASR plus9global/7cue frames, no native production",
-        "abstraction": "p5/p6 verified; p7,p11,p12 candidate extensions; p8/p9/p10 advanced-expressions0.3.3 candidate; p14 learning only",
-        "technical": "p10 profile source-timing maps to79 actual native/rendered update frames; initial300 digits intentionally displays9 rows as in reference. p12 exact code,12 paths,Mirror540/540,geometry/edit/reopen/static150-frame and luma-symmetry checks pass. No final-project animation completion claim."
+        "detail": "p5/p6 original-method verified within scope; p7 Tint accepted with material gap; p8/p9 native suites; p10 replay006 direction accepted after original-left clarification, two real seed variants, exact absolute seeds not recovered; p11 eight real static spatial cases; p12 three real static Path/Mirror cases and native coordinate probes; p14 full ASR plus9global and22cue frame views, four real native character-animation cases, baseline002 user accepted",
+        "abstraction": "p5/p6 verified; p7,p11,p12 candidate extensions; p8/p9/p10/p14 advanced-expressions0.4.0 candidate; p14 three new Latin text inputs passed",
+        "technical": "p10 profile source-timing maps to79 actual native/rendered update frames; initial300 digits intentionally displays9 rows as in reference. p12 exact code,12 paths,Mirror540/540,geometry/edit/reopen/static150-frame and luma-symmetry checks pass. No final-project animation completion claim. P14 native151-frame curves, editable text/reopen and full151-frame decode pass; sampled per-character pixel motion errors below0.046px; frozen-video negative control rejected. Source curve fit approximate."
       },
       "page": {
         "title": "AE教程-使用表达式制作高级复杂图形动画 Advanced After Effects Coding for Motion Design_哔哩哔哩_bilibili",

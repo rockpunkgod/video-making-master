@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course-reproduction-009\\p14-baseline-002\\final.mp4",
+  "sha256": "552cfc459177e3e48b3c74c0946d2a70fa386ccf3dededc07458736ef5c551ec",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 1280,
+    "height": 720,
+    "fps": 30.0,
+    "duration": 5.033333,
+    "decoded_frames": 151,
+    "unique_thumbnail_frames": 31
+  },
+  "motion_expectation": "required",
+  "static_pixel_check": null,
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": "",
+  "type_reveal_quality": "type-reveal-quality.json"
+}

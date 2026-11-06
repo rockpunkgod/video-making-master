@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "checks": {
+    "expected_character_bands": true,
+    "native_build": true,
+    "blank_start": true,
+    "both_parities_actually_visible": true,
+    "actual_character_displacement": true,
+    "intermediate_reveal": true,
+    "settled_hold": true
+  },
+  "frames": [
+    0,
+    3,
+    6,
+    12,
+    15,
+    20,
+    90,
+    150
+  ],
+  "bands": [
+    [
+      554,
+      672
+    ],
+    [
+      688,
+      712
+    ]
+  ],
+  "max_centroid_error": 0.033958941091100314,
+  "max_hold_mean_difference": 0.00028862847222222224,
+  "character_measurements": [
+    {
+      "frame": 12,
+      "character_index": 1,
+      "observed_dy": 3.5424406062437015,
+      "expected_dy": 3.52731362538234,
+      "error": 0.015126980861361439,
+      "opacity_mass_ratio": 0.8889669335878323
+    },
+    {
+      "frame": 3,
+      "character_index": 2,
+      "observed_dy": -36.7637588519529,
+      "expected_dy": -36.797717793044,
+      "error": 0.033958941091100314,
+      "opacity_mass_ratio": 0.5955128082414682
+    },
+    {
+      "frame": 6,
+      "character_index": 2,
+      "observed_dy": -23.44416941390176,
+      "expected_dy": -23.447460080505,
+      "error": 0.0032906666032381793,
+      "opacity_mass_ratio": 1.0000273475850714
+    },
+    {
+      "frame": 12,
+      "character_index": 2,
+      "observed_dy": -3.508081619963832,
+      "expected_dy": -3.52731362538234,
+      "error": 0.019232005418508002,
+      "opacity_mass_ratio": 1.0000300823435786
+    }
+  ],
+  "video_sha256": "38480fad14d94c52b3dd507f4a4337d3e10f1ef49e4cb0390e7320b45881a7be",
+  "limits": [
+    "Character silhouette bands support bounded Latin inputs only",
+    "Fixed1.25px centroid tolerance covers rasterization and compression; not source timing acceptance",
+    "Exact course graph handles, source random seed and aesthetic fidelity unverified"
+  ]
+}

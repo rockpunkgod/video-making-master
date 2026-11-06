@@ -1,0 +1,169 @@
+{
+  "status": "candidate_branch_with_native_suite_and_accepted_baseline",
+  "source": "BV1Yh4y1A7XT p14",
+  "date": "2026-11-06",
+  "method": "Native Expression Selector odd/even position plus independent randomized Range Selector End100→0 and Opacity0",
+  "cases": [
+    {
+      "case": "p14-baseline-002",
+      "directory": "samples/course-reproduction-009/p14-baseline-002",
+      "video_sha256": "552cfc459177e3e48b3c74c0946d2a70fa386ccf3dededc07458736ef5c551ec",
+      "project_sha256": "9ca620e5b7c734d6e9753a78860455bcd8c4483503f0ee076c58f22eb700683c",
+      "native_text_edit": {
+        "original": "SUBPRIME",
+        "changed": "EDIT TEST",
+        "restored": "SUBPRIME"
+      },
+      "frames": 151,
+      "native_frames": 151,
+      "character_error": 0.04397188217559034,
+      "settled_hold_error": 0.0012369791666666666,
+      "checks": {
+        "expected_character_bands": true,
+        "native_build": true,
+        "blank_start": true,
+        "both_parities_actually_visible": true,
+        "actual_character_displacement": true,
+        "intermediate_reveal": true,
+        "settled_hold": true
+      },
+      "visual_review": "10 actual video frames inspected for each case; no clipping or reversed parity observed"
+    },
+    {
+      "case": "p14-algorithm-001",
+      "directory": "samples/course-reproduction-009/p14-algorithm-001",
+      "video_sha256": "c97b0bee2328e04306c2351c76ed1a8d11a21abc52f774784c539b9581c1035f",
+      "project_sha256": "e649b39ff49c74924aa9690ceb98062aa986a4ab88e6c09acc52e89e13412af2",
+      "native_text_edit": {
+        "original": "ALGORITHM",
+        "changed": "EDIT TEST",
+        "restored": "ALGORITHM"
+      },
+      "frames": 151,
+      "native_frames": 151,
+      "character_error": 0.04509445257821909,
+      "settled_hold_error": 0.0011870659722222222,
+      "checks": {
+        "expected_character_bands": true,
+        "native_build": true,
+        "blank_start": true,
+        "both_parities_actually_visible": true,
+        "actual_character_displacement": true,
+        "intermediate_reveal": true,
+        "settled_hold": true
+      },
+      "visual_review": "10 actual video frames inspected for each case; no clipping or reversed parity observed"
+    },
+    {
+      "case": "p14-motion2026-001",
+      "directory": "samples/course-reproduction-009/p14-motion2026-001",
+      "video_sha256": "9244605df6a96a36c49a975bb3e6c9de4f939a5b647aeb716461d71a196b4c13",
+      "project_sha256": "b8319d8beb5f5aa4743a7a82ea4abc59e009f930457288013c7d83d1a5b3754a",
+      "native_text_edit": {
+        "original": "Motion 2026",
+        "changed": "EDIT TEST",
+        "restored": "Motion 2026"
+      },
+      "frames": 151,
+      "native_frames": 151,
+      "character_error": 0.03837286105407145,
+      "settled_hold_error": 0.0015277777777777779,
+      "checks": {
+        "expected_character_bands": true,
+        "native_build": true,
+        "blank_start": true,
+        "both_parities_actually_visible": true,
+        "actual_character_displacement": true,
+        "intermediate_reveal": true,
+        "settled_hold": true
+      },
+      "visual_review": "10 actual video frames inspected for each case; no clipping or reversed parity observed"
+    },
+    {
+      "case": "p14-ai-001",
+      "directory": "samples/course-reproduction-009/p14-ai-001",
+      "video_sha256": "38480fad14d94c52b3dd507f4a4337d3e10f1ef49e4cb0390e7320b45881a7be",
+      "project_sha256": "b728c8687ea64619f1cc275b8b18fcaf9eb21cd9e909457972ab3945148a7ace",
+      "native_text_edit": {
+        "original": "AI",
+        "changed": "EDIT TEST",
+        "restored": "AI"
+      },
+      "frames": 151,
+      "native_frames": 151,
+      "character_error": 0.033958941091100314,
+      "settled_hold_error": 0.00028862847222222224,
+      "checks": {
+        "expected_character_bands": true,
+        "native_build": true,
+        "blank_start": true,
+        "both_parities_actually_visible": true,
+        "actual_character_displacement": true,
+        "intermediate_reveal": true,
+        "settled_hold": true
+      },
+      "visual_review": "10 actual video frames inspected for each case; no clipping or reversed parity observed"
+    }
+  ],
+  "human_visual_review": {
+    "status": "accepted_overall_keep",
+    "feedback": "整体符合，可以保留",
+    "artifact": "samples/course-reproduction-009/p14-baseline-002/final.mp4",
+    "sha256": "552cfc459177e3e48b3c74c0946d2a70fa386ccf3dededc07458736ef5c551ec",
+    "scope": "Course14 baseline002 odd/even motion, random reveal and overall rhythm; no approval transfer to variants or exact source parameter claims",
+    "original_url": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=14",
+    "source_interval": "06:03–06:08",
+    "comparison": "cache/reviews/p14-original-vs-baseline002-002/comparison.mp4",
+    "synchronization": "Candidate starts0.1s to match original displayed composition frame3 approximately; exact synchronization unverified"
+  },
+  "isolated_execution": {
+    "copy": "E:\\自媒体\\video-skills-lab\\samples\\isolated-skill-017\\ae-advanced-expressions",
+    "cwd": "E:\\自媒体",
+    "same_current_scripts": {
+      "build_type_reveal.py": true,
+      "type_reveal.jsx": true,
+      "run_ae.py": true,
+      "render_ae.py": true,
+      "validate_type_reveal.py": true
+    },
+    "cases": [
+      "p14-algorithm-001",
+      "p14-motion2026-001",
+      "p14-ai-001"
+    ]
+  },
+  "generalization": "Three distinct new text inputs: ALGORITHM, Motion 2026, AI. Does not establish arbitrary fonts, Chinese, images or auto-layout.",
+  "source_evidence": {
+    "global_frames": 9,
+    "initial_cue_frames": 7,
+    "additional_cue_frames": 15,
+    "full_local_transcript": "cache/local-transcripts/BV1Yh4y1A7XT-p14-full-001",
+    "observed": [
+      "DM Sans Bold160,baselineShift4",
+      "Position258/420",
+      "PositionY-79 to0",
+      "Opacity0",
+      "End100 to0",
+      "Randomize Order On",
+      "29-frame reveal endpoint at05:10",
+      "151-frame comp panel"
+    ],
+    "inferred": [
+      "Position ease influences14.5/36.2",
+      "End outgoing9/incoming45 from graph fit, not exact source key values"
+    ],
+    "unverified": [
+      "Exact final source graph handles",
+      "Exact source random seed",
+      "Full source/render frame synchronization"
+    ]
+  },
+  "negative_control": "static-negative-control.json rejects frozen final frame on blank-start, actual motion and intermediate reveal",
+  "previous_trial": "baseline001 used direct speed-graph handle length ratios; native animation rendered but curve estimate too weak, retained locally, not transferred user approval",
+  "native_probe": "native-text-properties.json proves tested matchNames/default seed0; live host objects must be serialized before closing or omitted",
+  "limitations": [
+    "Other branches keep existing blockers; whole advanced-expressions remains candidate",
+    "Pixel character displacement samples8–9frames; full video151frame decode and native151curve checks separate",
+    "Three new text inputs only; typography bounds explicitly checked, arbitrary strings not verified"
+  ]
+}
