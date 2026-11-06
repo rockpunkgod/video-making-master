@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course-reproduction-008\\p12-baseline-001\\final.mp4",
+  "sha256": "6fcef621083796c8191c0fff7b369b43359b4c1cc6272ae1edbaa3bea1ff6028",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "difference_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 1080,
+    "height": 1080,
+    "fps": 30.0,
+    "duration": 5.0,
+    "decoded_frames": 150,
+    "unique_thumbnail_frames": 150
+  },
+  "temporal_contract": {
+    "expectation": "static_layout",
+    "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+    "decoded_difference_frames": 149,
+    "maximum_mean_luma_difference": 0.00341797,
+    "codec_noise_threshold": 0.1,
+    "native_png_sha256": [
+      "74e78675c87ba5a6b3c813e21993c5fc12d71dbbafd7ef235989d829216be1b8",
+      "74e78675c87ba5a6b3c813e21993c5fc12d71dbbafd7ef235989d829216be1b8",
+      "74e78675c87ba5a6b3c813e21993c5fc12d71dbbafd7ef235989d829216be1b8",
+      "74e78675c87ba5a6b3c813e21993c5fc12d71dbbafd7ef235989d829216be1b8",
+      "74e78675c87ba5a6b3c813e21993c5fc12d71dbbafd7ef235989d829216be1b8"
+    ],
+    "native_samples": 150
+  },
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": ""
+}

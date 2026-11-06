@@ -158,6 +158,14 @@
           "evidence": "evaluations/course-p11-probe-001/summary.json",
           "script": "scripts/build_algorithmic_spiral.py",
           "scope": "static spatial rig only; no animation acceptance"
+        },
+        {
+          "name": "course-p12-cyber-lines",
+          "version": "0.1.0",
+          "status": "candidate",
+          "evidence": "evaluations/course-p12-probe-001/summary.json",
+          "script": "scripts/build_cyber_lines.py",
+          "scope": "Static path generation and Mirror only; no final-project animation"
         }
       ]
     },
@@ -329,7 +337,7 @@
     },
     {
       "name": "ae-advanced-expressions",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "status": "candidate",
       "execution_status": "three_course_units_with_native_evidence_and_explicit_candidate_limits",
       "path": "skills/after-effects/ae-advanced-expressions",
@@ -346,7 +354,8 @@
         "seeded threshold multi-layer visibility",
         "random 3D point-control layout",
         "independent X drift and editable manual position offset",
-        "editable decimal/binary string loops and paragraph layout"
+        "editable decimal/binary string loops and paragraph layout",
+        "source-sampled number update/hold/quantity animation (candidate)"
       ],
       "sources": [
         {
@@ -362,15 +371,23 @@
       "blockers": [
         "p08 course visual acceptance pending",
         "fine-line/text PNG foreground readability not established",
-        "p10 baseline003 jitter rejected; static004 rejected as not animation",
-        "p10 controls005 rejected as not course animation; exact intended source segment clarification pending, no accepted p10 animation"
+        "p10 replay006 direction accepted; seed variations pass; exact source seeds and generalized inputs beyond seed configurations remain unverified"
       ],
       "evidence_by_unit": {
         "threshold": "evaluations/course-p08-suite-001/summary.json",
         "displacement": "evaluations/course-p09-probe-001/summary.json",
         "number_sequences": "evaluations/course-p10-probe-001/summary.json"
       },
-      "p09_latest_user_feedback": "挺好的; retain current version; prior needs-adjustment response preserved"
+      "p09_latest_user_feedback": "挺好的; retain current version; prior needs-adjustment response preserved",
+      "accepted_candidate_artifacts": [
+        {
+          "unit": "p10",
+          "artifact": "samples/course-reproduction-006/p10-reference-replay-006/final.mp4",
+          "sha256": "dc3ac98bab77b8545cfa05f20c9e65669e3ba126bbf7521c7a2f48578be2910d",
+          "feedback": "这次方向对，可以保留",
+          "scope": "Direction, hold/update cadence and changing quantity accepted; not a claim of exact source seeds or digit identity"
+        }
+      ]
     }
   ],
   "research_queue": [

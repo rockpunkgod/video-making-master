@@ -14,6 +14,11 @@ def check_output(root,cfg):
         (root/'controller-validation.log').write_bytes(audit.stdout+b'\n'+audit.stderr)
         report['controller_animation_quality']='controller-animation-quality.json'
         if audit.returncode:report['status']='failed'
+    if cfg.get('animation')=='reference-sampled':
+        audit=subprocess.run([sys.executable,str(Path(__file__).parent/'validate_sampled_number_animation.py'),str(root)],capture_output=True)
+        (root/'sampled-validation.log').write_bytes(audit.stdout+b'\n'+audit.stderr)
+        report['sampled_animation_quality']='sampled-animation-quality.json'
+        if audit.returncode:report['status']='failed'
     (root/'quality.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
     return report
 

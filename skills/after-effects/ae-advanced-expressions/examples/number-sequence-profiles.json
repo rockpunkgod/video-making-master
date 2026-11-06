@@ -1,6 +1,7 @@
 {
   "status": "candidate",
-  "animation_trial": {"animation": "controls-demo", "fixed_duration": 8, "status": "native_and_render_checks_passed_user_review_pending", "keyframes": "Added HOLD keys adapt the manual course controls, not tutorial-demonstrated keyframe times", "custom_parameters": "rejected for this fixed-profile trial"},
+  "animation_trial": {"animation": "controls-demo", "fixed_duration": 8, "status": "user_rejected_course_animation_fidelity", "keyframes": "Historical invented four-key trial, not the accepted direction", "custom_parameters": "rejected for this fixed-profile trial"},
+  "current_replay": {"builder": "build_sampled_number_animation.py", "profile": "p10-original-left-48-56.json", "status": "user_accepted_direction_only_candidate", "variation": "--seed-base158 or409; not three external materials"},
   "course": {"seed": 201, "num": 262, "columns": 30},
   "variation": {"seed": 55, "num": 180, "columns": 20},
   "boundary": {"seed": 77, "num": 1, "columns": 1},

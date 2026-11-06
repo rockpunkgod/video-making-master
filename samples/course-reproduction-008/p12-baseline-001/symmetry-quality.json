@@ -1,0 +1,11 @@
+{
+  "status": "failed",
+  "media": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course-reproduction-008\\p12-baseline-001\\final.mp4",
+  "foreground_pixels": 30669,
+  "horizontal_mirror_mask_iou": 0.6831677734482191,
+  "thresholds": {
+    "min_foreground": 100,
+    "min_iou": 0.93
+  },
+  "scope": "First decoded frame only; native150-frame geometry and five identical native PNGs separately prove static-layout behavior, not animation or human aesthetics"
+}

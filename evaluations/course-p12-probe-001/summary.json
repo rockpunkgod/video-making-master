@@ -1,0 +1,234 @@
+{
+  "skill": "ae-procedural-motion",
+  "unit": "course-p12-cyber-lines",
+  "unit_version": "0.1.0",
+  "status": "candidate",
+  "scope": "Static procedural path setup; later-course Trim Paths animation not yet implemented",
+  "source": "BV1Yh4y1A7XT?p=12",
+  "observed": [
+    "09:22 complete alternating-path expression",
+    "09:54 Path1–12 plus one Stroke",
+    "11:34 controls50/50/139/55 and Mirror[540,540]/0deg"
+  ],
+  "inferred": [
+    "Layer Position[540,0]",
+    "RedFF0000 and gray224/255 exact values not read from source properties",
+    "Specific path patterns depend on AE property identity"
+  ],
+  "cases": [
+    {
+      "case": "p12-baseline-001",
+      "directory": "samples/course-reproduction-008/p12-baseline-001",
+      "video_sha256": "6fcef621083796c8191c0fff7b369b43359b4c1cc6272ae1edbaa3bea1ff6028",
+      "paths": 12,
+      "unique_paths": 12,
+      "points_each": 51,
+      "max_direction_error": 0.00045776367188,
+      "max_origin_error": 0,
+      "native_seed_edit": {
+        "original": 55,
+        "changed": 56,
+        "restored": 55,
+        "changed_path": true
+      },
+      "native_frames": 150,
+      "native_png_sha256": "74e78675c87ba5a6b3c813e21993c5fc12d71dbbafd7ef235989d829216be1b8",
+      "symmetry": {
+        "status": "passed_first_frame_symmetry_only",
+        "media": "E:\\自媒体\\video-skills-lab\\samples\\course-reproduction-008\\p12-baseline-001\\final.mp4",
+        "foreground_pixels": 30669,
+        "silhouette_pixels": 20216,
+        "horizontal_mirror_mask_iou": 0.9928039824535463,
+        "pixel_reflection_rule": "x_prime=1080-x, fixed by native Mirror center540; valid columns1..1079, no axis fitting",
+        "measurement": "Full-resolution luma silhouette; thin red RGB edges are affected by4:2:0 chroma subsampling",
+        "thresholds": {
+          "min_foreground": 100,
+          "min_iou": 0.93
+        },
+        "scope": "First decoded frame only; native150-frame geometry and five identical native PNGs separately prove static-layout behavior, not animation or human aesthetics"
+      },
+      "visual_review": "10 actual video frames inspected; no source-animation acceptance claim"
+    },
+    {
+      "case": "p12-seed0-001",
+      "directory": "samples/course-reproduction-008/p12-seed0-001",
+      "video_sha256": "da1181f2d8a4384d705a76a0f5e4aeed3a920234a2a509e5852b528d8cd4bd93",
+      "paths": 12,
+      "unique_paths": 12,
+      "points_each": 51,
+      "max_direction_error": 0.0003662109375,
+      "max_origin_error": 0,
+      "native_seed_edit": {
+        "original": 0,
+        "changed": 1,
+        "restored": 0,
+        "changed_path": true
+      },
+      "native_frames": 150,
+      "native_png_sha256": "52e6987099071ff7664873a4449d8098da0360208a034704bd99c9053035c6ea",
+      "symmetry": {
+        "status": "passed_first_frame_symmetry_only",
+        "media": "E:\\自媒体\\video-skills-lab\\samples\\course-reproduction-008\\p12-seed0-001\\final.mp4",
+        "foreground_pixels": 52993,
+        "silhouette_pixels": 35488,
+        "horizontal_mirror_mask_iou": 0.9829021623735822,
+        "pixel_reflection_rule": "x_prime=1080-x, fixed by native Mirror center540; valid columns1..1079, no axis fitting",
+        "measurement": "Full-resolution luma silhouette; thin red RGB edges are affected by4:2:0 chroma subsampling",
+        "thresholds": {
+          "min_foreground": 100,
+          "min_iou": 0.93
+        },
+        "scope": "First decoded frame only; native150-frame geometry and five identical native PNGs separately prove static-layout behavior, not animation or human aesthetics"
+      },
+      "visual_review": "10 actual video frames inspected; no source-animation acceptance claim"
+    },
+    {
+      "case": "p12-sparse-002",
+      "directory": "samples/course-reproduction-008/p12-sparse-002",
+      "video_sha256": "6e940bcb644307da7a4d0f444f5bb637d5e92d9f154b7ad9ac1130bb525244b6",
+      "paths": 5,
+      "unique_paths": 5,
+      "points_each": 25,
+      "max_direction_error": 9.155273438e-05,
+      "max_origin_error": 1.525878906e-05,
+      "native_seed_edit": {
+        "original": 409,
+        "changed": 410,
+        "restored": 409,
+        "changed_path": true
+      },
+      "native_frames": 150,
+      "native_png_sha256": "a22e258b125ef8db6d2a14b1ccc84018187aac76416a3bc7842bb98aaf0eca44",
+      "symmetry": {
+        "status": "passed_first_frame_symmetry_only",
+        "media": "E:\\自媒体\\video-skills-lab\\samples\\course-reproduction-008\\p12-sparse-002\\final.mp4",
+        "foreground_pixels": 22138,
+        "silhouette_pixels": 14382,
+        "horizontal_mirror_mask_iou": 0.9912772585669782,
+        "pixel_reflection_rule": "x_prime=1080-x, fixed by native Mirror center540; valid columns1..1079, no axis fitting",
+        "measurement": "Full-resolution luma silhouette; thin red RGB edges are affected by4:2:0 chroma subsampling",
+        "thresholds": {
+          "min_foreground": 100,
+          "min_iou": 0.93
+        },
+        "scope": "First decoded frame only; native150-frame geometry and five identical native PNGs separately prove static-layout behavior, not animation or human aesthetics"
+      },
+      "visual_review": "10 actual video frames inspected; no source-animation acceptance claim"
+    }
+  ],
+  "isolated_variants": [
+    {
+      "case": "p12-seed0-001",
+      "directory": "samples/course-reproduction-008/p12-seed0-001",
+      "copy": "E:\\自媒体\\video-skills-lab\\samples\\isolated-skill-015\\ae-procedural-motion",
+      "cwd": "E:\\自媒体",
+      "video_sha256": "da1181f2d8a4384d705a76a0f5e4aeed3a920234a2a509e5852b528d8cd4bd93",
+      "native_edit": {
+        "original": 0,
+        "changed": 1,
+        "restored": 0,
+        "changed_path": true
+      },
+      "same_current_builder": false,
+      "input_profile": null,
+      "visual_review": "10 actual video frames inspected; user feedback belongs only to replay006"
+    },
+    {
+      "case": "p12-sparse-002",
+      "directory": "samples/course-reproduction-008/p12-sparse-002",
+      "copy": "E:\\自媒体\\video-skills-lab\\samples\\isolated-skill-016\\ae-procedural-motion",
+      "cwd": "E:\\自媒体",
+      "video_sha256": "6e940bcb644307da7a4d0f444f5bb637d5e92d9f154b7ad9ac1130bb525244b6",
+      "native_edit": {
+        "original": 409,
+        "changed": 410,
+        "restored": 409,
+        "changed_path": true
+      },
+      "same_current_builder": true,
+      "input_profile": null,
+      "visual_review": "10 actual video frames inspected; user feedback belongs only to replay006"
+    }
+  ],
+  "mirror_coordinate_probe": [
+    {
+      "native_reflection_center": 0,
+      "markers": []
+    },
+    {
+      "native_reflection_center": 540,
+      "markers": [
+        {
+          "x": 540.0,
+          "y": 99.5,
+          "area": 328
+        },
+        {
+          "x": 439.5,
+          "y": 299.5,
+          "area": 308
+        },
+        {
+          "x": 640.5,
+          "y": 299.5,
+          "area": 308
+        }
+      ]
+    },
+    {
+      "native_reflection_center": 1080,
+      "markers": [
+        {
+          "x": 539.5,
+          "y": 99.5,
+          "area": 308
+        },
+        {
+          "x": 639.5,
+          "y": 199.5,
+          "area": 308
+        },
+        {
+          "x": 439.5,
+          "y": 299.5,
+          "area": 308
+        }
+      ]
+    }
+  ],
+  "negative_control": {
+    "status": "failed",
+    "media": "E:\\自媒体\\video-skills-lab\\samples\\course-reproduction-008\\p12-native-probe-001\\default-mirror.png",
+    "foreground_pixels": 700,
+    "silhouette_pixels": 700,
+    "horizontal_mirror_mask_iou": 0.08024691358024691,
+    "pixel_reflection_rule": "x_prime=1080-x, fixed by native Mirror center540; valid columns1..1079, no axis fitting",
+    "measurement": "Full-resolution luma silhouette; thin red RGB edges are affected by4:2:0 chroma subsampling",
+    "thresholds": {
+      "min_foreground": 100,
+      "min_iou": 0.93
+    },
+    "scope": "First decoded frame only; native150-frame geometry and five identical native PNGs separately prove static-layout behavior, not animation or human aesthetics"
+  },
+  "failures_retained": [
+    {
+      "directory": "samples/course-reproduction-008/p12-sparse-001",
+      "cause": "Shape vertex getter returns origin[-0.0000152588,0], not mathematically exact0. Retained failure;002 uses coordinate-scaled float precision tolerance, same path expression"
+    },
+    {
+      "report": "samples/course-reproduction-008/p12-baseline-001/symmetry-quality.json",
+      "cause": "RGB threshold sensitive to4:2:0 red-edge chroma and whole-image flip reflected about539.5. Rejected metric preserved"
+    },
+    {
+      "report": "samples/course-reproduction-008/p12-baseline-001/symmetry-pixel-center-quality.json",
+      "cause": "Fixed native axis540 alone still leaves chroma-mask disagreement; luma geometry at same axis and unchanged0.93 gate passes. Native marker probe confirms actual reflection."
+    }
+  ],
+  "comparison": "cache/reviews/p12-original-vs-baseline001-001/comparison.mp4",
+  "missing": [
+    "User source-visual review",
+    "Three distinct material/generalized-input sets, not merely parameter settings",
+    "Later final-project Trim Paths animation",
+    "Exact source colors and transform values remain inferred"
+  ]
+}

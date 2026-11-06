@@ -1,0 +1,7 @@
+{
+  "status": "candidate_static_rig_only",
+  "course_final": {"points": 50, "paths": 12, "step_min": 50, "step_max": 139, "seed": 55},
+  "course_intermediate": {"points": 50, "paths": 12, "step_min": 0, "step_max": 100, "seed": 0},
+  "sparse_variation": {"points": 24, "paths": 5, "step_min": 30, "step_max": 90, "seed": 409},
+  "not_claimed": "Three parameter settings are not three material sets or a completed animated final project"
+}

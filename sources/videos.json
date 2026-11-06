@@ -13,10 +13,10 @@
         "ae-advanced-expressions"
       ],
       "passes": {
-        "global": "partial course: p1,p5–p12 reviewed; p5–p12 existing-local-model transcripts available; p2–p4 and p13–p20 not yet learned",
-        "detail": "p5/p6 verified profiles; p7 Tint user accepted, material generalization pending; p8 five native and pixel cases; p9 11 global+11 cue frames, exact Fill/Position code, native scalar-array probe and five real rendered cases with edit/reopen; overall curriculum incomplete; p10 12 global+10 cue frames and full ASR reviewed, three real decimal/binary cases, exact font recognized, native/pixel checks passed, layout feedback pending; p10 user rejected002 layout, measured row offsets and revised003 passed source row geometry and fresh native variants, review pending; p11 14global+11cue frames/full ASR read, exact final controls known, layer count/output details unresolved, no native production",
-        "abstraction": "p5/p6 verified; p7 and p11 candidate extensions; p8/p9/p10 advanced-expressions0.3.2 candidate, p10 course animation acceptance missing; p12 learning only",
-        "technical": "p5/p6 verified original-method baseline; p7 candidate noise; p8/p9 native suites; p10 all attempted animations rejected by user, exact requested segment pending; p11 full ASR,14global+24cue frames reviewed, exact ellipse100/output line confirmed, actual44/88/176 AE probes and8 native static-layout cases, no timeline animation verified; p12 downloaded,10global+7cue frames and full existing-local-ASR reviewed, complete Path expression and final Mirror/sliders read, no production; instructor explicitly defers Trim Paths animation to final project"
+        "global": "p1,p5–p12,p14 reviewed; p5–p12,p14 full existing-local-model transcripts read. p2–p4,p13,p15–p20 remain unlearned",
+        "detail": "p5/p6 original-method verified within scope; p7 Tint accepted with material gap; p8/p9 native suites; p10 replay006 direction accepted after original-left clarification, two real seed variants, exact absolute seeds not recovered; p11 eight real static spatial cases; p12 three real static Path/Mirror cases and native coordinate probes; p14 full ASR plus9global/7cue frames, no native production",
+        "abstraction": "p5/p6 verified; p7,p11,p12 candidate extensions; p8/p9/p10 advanced-expressions0.3.3 candidate; p14 learning only",
+        "technical": "p10 profile source-timing maps to79 actual native/rendered update frames; initial300 digits intentionally displays9 rows as in reference. p12 exact code,12 paths,Mirror540/540,geometry/edit/reopen/static150-frame and luma-symmetry checks pass. No final-project animation completion claim."
       },
       "page": {
         "title": "AE教程-使用表达式制作高级复杂图形动画 Advanced After Effects Coding for Motion Design_哔哩哔哩_bilibili",

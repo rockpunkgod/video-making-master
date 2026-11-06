@@ -1,0 +1,68 @@
+{
+  "status": "actual_outputs_collected_not_rerun",
+  "cases": [
+    {
+      "case": "p10-reference-variation-001",
+      "directory": "samples/course-reproduction-006/p10-reference-variation-001",
+      "copy": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\isolated-skill-014\\ae-advanced-expressions",
+      "cwd": "E:\\\u81ea\u5a92\u4f53",
+      "video_sha256": "bc1518bda05ca9999e871ca72b5b8687e68e9f537d3c9b61e5ce9b4b4eb5b2ce",
+      "native_edit": {
+        "original": 158,
+        "changed": 1158,
+        "restored": 158
+      },
+      "same_current_builder": true,
+      "input_profile": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\skills\\after-effects\\ae-advanced-expressions\\examples\\p10-original-left-48-56.json",
+      "visual_review": "10 actual video frames inspected; user feedback belongs only to replay006"
+    },
+    {
+      "case": "p10-reference-standalone-001",
+      "directory": "samples/course-reproduction-006/p10-reference-standalone-001",
+      "copy": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\isolated-skill-014\\ae-advanced-expressions",
+      "cwd": "E:\\\u81ea\u5a92\u4f53",
+      "video_sha256": "28b7bda2feea6dd08e893f15ef14edbb8a4b5eba6e16f62cf639a1a73ce36ac0",
+      "native_edit": {
+        "original": 409,
+        "changed": 1409,
+        "restored": 409
+      },
+      "same_current_builder": true,
+      "input_profile": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\isolated-skill-014\\ae-advanced-expressions\\examples\\p10-original-left-48-56.json",
+      "visual_review": "10 actual video frames inspected; user feedback belongs only to replay006"
+    },
+    {
+      "case": "p12-seed0-001",
+      "directory": "samples/course-reproduction-008/p12-seed0-001",
+      "copy": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\isolated-skill-015\\ae-procedural-motion",
+      "cwd": "E:\\\u81ea\u5a92\u4f53",
+      "video_sha256": "da1181f2d8a4384d705a76a0f5e4aeed3a920234a2a509e5852b528d8cd4bd93",
+      "native_edit": {
+        "original": 0,
+        "changed": 1,
+        "restored": 0,
+        "changed_path": true
+      },
+      "same_current_builder": false,
+      "input_profile": null,
+      "visual_review": "10 actual video frames inspected; user feedback belongs only to replay006"
+    },
+    {
+      "case": "p12-sparse-002",
+      "directory": "samples/course-reproduction-008/p12-sparse-002",
+      "copy": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\isolated-skill-016\\ae-procedural-motion",
+      "cwd": "E:\\\u81ea\u5a92\u4f53",
+      "video_sha256": "6e940bcb644307da7a4d0f444f5bb637d5e92d9f154b7ad9ac1130bb525244b6",
+      "native_edit": {
+        "original": 409,
+        "changed": 410,
+        "restored": 409,
+        "changed_path": true
+      },
+      "same_current_builder": true,
+      "input_profile": null,
+      "visual_review": "10 actual video frames inspected; user feedback belongs only to replay006"
+    }
+  ],
+  "recovery": "First orchestrator stopped on actual sparse001 origin precision check; corrected orchestrator completed native/render cases but its final report write failed because evaluation folder was absent. Collected existing real receipts and files, no duplicate execution."
+}

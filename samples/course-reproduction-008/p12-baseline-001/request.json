@@ -1,0 +1,17 @@
+{
+  "name": "COURSE_P12_CYBER_LINES",
+  "width": 1080,
+  "height": 1080,
+  "fps": 30,
+  "duration": 5,
+  "points": 50,
+  "paths": 12,
+  "seed": 55,
+  "step_min": 50,
+  "step_max": 139,
+  "motion_expectation": "static_layout",
+  "status": "candidate",
+  "observed": "09:22 complete createPath expression;09:54 Path1\u201312 + Stroke1; stroke2px;11:34 numPts50,min50,max139,seed55; Mirror540/540 angle0",
+  "inferred": "LayerPosition[540,0], redFF0000 and background224/255 inferred from viewport, not read source Transform/color values",
+  "scope": "Editable static path rig; no invented Trim Paths or time animation; course says animation is added in later final project"
+}

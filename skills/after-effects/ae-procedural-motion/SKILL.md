@@ -13,6 +13,8 @@ description: 在 After Effects 中制作可编辑的三维轮廓隧道、延迟�
 
 第11节扩展scripts/build_algorithmic_spiral.py为candidate静态三维布局，不属于上述verified动画范围。需要算法空间排列时先读references/algorithmic-layout.md及examples/algorithmic-layout-profiles.json；使用同目录run_ae.py/render_ae.py。已有圆形基线、变参和三组PNG真实制作，时间轴动画尚未确认，不能用5秒静态视频冒充动画验收。
 
+第12节扩展scripts/build_cyber_lines.py为candidate程序化Path/Mirror设置。先读references/cyber-lines.md，按examples/cyber-lines-profiles.json构建，再用同目录run_ae.py/render_ae.py；基线和两组参数变体已真实制作。Trim Paths动画在后续最终项目，本分支目前不提供已验动画或三素材泛化。
+
 1. 读取 [参数与制作原理](references/technique.md) 和 [来源证据](references/sources.md)。区分实测、视频明确展示与自行设计。
 2. 按examples/course-profiles.json选择stage、delay_frames及可选PNG。trim-final是课程最终矢量效果；trim-linear是修改时长前的阶段；opacity是早期阶段/PNG泛化。新素材由调用者提供，复制进新输出目录。
 3. 运行scripts/build_course_stage.py --stage trim-final --out全新目录，再以scripts/run_ae.py调用目标AfterFX。只接受真实AEP及成功回执。英文Slider/Color显示名在中文宿主以同参数(1)寻址；不改课程公式。最终阶段调用已实测“缓入”命令2510，命令不符则停止，不自行换曲线。
