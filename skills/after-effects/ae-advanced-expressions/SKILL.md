@@ -1,11 +1,11 @@
 ---
 name: ae-advanced-expressions
-description: 使用AE表达式制作显隐、三维布局、数字、文字、弹簧、双翅和放大镜；滑页分支仅准备未实做。各分支保留明确的候选验证边界。
+description: 使用AE表达式制作显隐、三维布局、数字、文字、弹簧、双翅和放大镜；纵横滑页。各分支保留明确的候选验证边界。
 ---
 
-0.8.0为candidate。前七单元有各自原生证据；第二套第26/27节滑页仅完成学习和脚本准备，AE冷启动受阻，没有该分支AEP/视频。不能泛称已掌握全部高级表达式。第10节旧002–005失败保留；replay006收到“这次方向对，可以保留”，仅绑定006方向与节奏，不代表绝对种子、逐字数字或全部泛化通过。
+0.8.1为candidate。八个单元有各自原生证据；第二套第26/27节滑页新增11例可编辑工程/视频、1980帧、三种图片双方向与独立复制调用，课程整体人工反馈仍待答。不能泛称已掌握全部高级表达式。第10节旧002–005失败保留；replay006收到“这次方向对，可以保留”，仅绑定006方向与节奏，不代表绝对种子、逐字数字或全部泛化通过。
 
-纵横滑页先读references/scroll-ui.md。scripts/build_scroll_ui.py可准备请求；**尚未原生执行成功**，禁止自动选为已验证能力或声称能交付。保留纵向自由Y+向量linear、横向独立Null+clamp滑块/linear内容的区别。恢复宿主后按tests/scroll-ui-protocol.md先完成两原法基线，再做变参及三素材；不要用生成脚本代替制作验证。
+纵横滑页先读references/scroll-ui.md，再用scripts/build_scroll_ui.py --axis vertical或horizontal --out全新目录，以及同目录run_ae.py/render_ae.py。保留纵向自由Y+向量linear、横向独立Null+clamp滑块/linear内容的区别。原课手动拖动，视频是采样重放；画布/字体/布局推定，不能当源工程身份。原生和像素验证边界见tests/scroll-ui-results.json。若AE冷启动CEP失败，先读references/host-startup.md；启动工具只补子进程缺失Windows环境，不修改系统或授权。
 
 随动放大镜读references/magnifier.md，调用scripts/build_magnifier.py --out全新目录，再用run_ae.py/render_ae.py。保持课程2000调节层/减法圆形Mask/Fast Blur/Bulge中心联动；原课手动拖动，视频位置关键帧为明确标注的采样重放。5例750帧与原生效果开关对照已检查，支持文字和PNG/JPG；字体/画布/镜框及轨迹有推定，光学效果待反馈，仍candidate。
 

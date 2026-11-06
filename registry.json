@@ -337,9 +337,9 @@
     },
     {
       "name": "ae-advanced-expressions",
-      "version": "0.8.0",
+      "version": "0.8.1",
       "status": "candidate",
-      "execution_status": "seven_units_with_prior_native_evidence_scroll_prepared_native_blocked",
+      "execution_status": "eight_units_with_native_evidence_scroll11_cases1980_frames_human_review_pending",
       "path": "skills/after-effects/ae-advanced-expressions",
       "dependencies": [
         "After Effects AE26 Chinese Windows tested",
@@ -347,7 +347,8 @@
         "FFmpeg",
         "Python3.10+",
         "Pillow for independent PNG pixel validation",
-        "DM Sans Bold for p10 exact typography; bundled OFL font and optional Windows session loader"
+        "DM Sans Bold for p10 exact typography; bundled OFL font and optional Windows session loader",
+        "KaiTi installed font for scroll own-text baseline, native substitution checked"
       ],
       "plugins": [],
       "scenarios": [
@@ -359,7 +360,8 @@
         "odd/even character position and randomized opacity range reveal (candidate)",
         "同高水平端点间的弹簧伸缩与线性振幅归零，固定高度透明PNG适配",
         "四键pingpong双翅铰链循环及二维父对象控制三维部件的平面飞行（部分候选）",
-        "随动清晰区与Bulge凸起放大镜，文字/图片输入，课程手动演示的采样重放候选"
+        "随动清晰区与Bulge凸起放大镜，文字/图片输入，课程手动演示的采样重放候选",
+        "纵向自由Y滑块/向量linear与横向Null/clamp滑块/linear内容的独立原法，文字或图片输入候选"
       ],
       "sources": [
         {
@@ -391,7 +393,7 @@
         "来源2第23节：7例原生及全帧像素检查通过，基线整体课程效果人工反馈待回复；素材身份和推定画布/锚点未证实",
         "来源2第24节：Particular未安装，粒子拖尾未制作；双翅运动待人工反馈，摄像机/键值/路径推定，任意外部图形适配未验",
         "来源2第25节：光学效果待人工反馈，画幅/字体/素材与手动位置采样有推定，不宣称原课位置动画时间轴",
-        "第26/27节滑页仅学习/代码准备：冷启动CEP与ASCII路径语言授权诊断失败，零新AEP/视频；该分支全部原生/素材/视觉测试未执行"
+        "第26/27节：11例1980帧与三素材双方向/独立调用通过；原课手动拖动采样、画布/文字推定，两个基线人工课程效果待反馈"
       ],
       "evidence_by_unit": {
         "threshold": "evaluations/course-p08-suite-001/summary.json",
@@ -419,7 +421,8 @@
           "feedback": "整体符合，可以保留",
           "scope": "Course14 baseline002 odd/even motion, random reveal and overall rhythm; no approval transfer to variants or exact source parameter claims"
         }
-      ]
+      ],
+      "host_recovery": "evaluations/course2-p26-p27-scroll-001/host-environment-recovery.json"
     },
     {
       "name": "ae-advanced-compositing",

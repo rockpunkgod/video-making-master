@@ -1,6 +1,6 @@
 # video-skills-lab
 
-第26/27节纵横滑页已读取实际音轨与170次关键画面，保留不同原法的联合分支已准备；AE冷启动CEP错误及ASCII路径语言授权诊断尚未解决，零新AEP/视频。ae-advanced-expressions0.8.0仍candidate，该分支不得当已验证能力；原有87组交付不增加。见[阻塞证据](evaluations/course2-p26-p27-scroll-001/summary.json)。
+第26/27节已实际完成11组原生AEP/视频、1980帧，包含三种图片双方向、越界与独立调用。AE冷启动通过补齐子进程缺失Windows系统环境恢复并冷启动复测；未改系统/授权/安装。ae-advanced-expressions0.8.1仍candidate，课程视觉反馈待答。现保留98组原生交付，总目标仍未完成。见[验证证据](evaluations/course2-p26-p27-scroll-001/summary.json)。
 
 第25节新增随动放大镜候选：5份真实AEP/视频、750帧检查、65张原生时点/效果开关PNG，含独立Skill副本调用、变参及三个新图片输入。原法光学机制通过技术检查；源课是手动拖动，示例位置关键帧为采样重放适配，人工光学反馈待答。ae-advanced-expressions当前0.7.0 candidate。[报告](evaluations/course2-p25-magnifier-001/summary.json)。
 

@@ -4,13 +4,14 @@ import json
 import subprocess
 import time
 from pathlib import Path
+from launch_adobe import launch
 
 def execute(executable,jsx,timeout=120):
     executable=Path(executable).resolve();jsx=Path(jsx).resolve()
     if not executable.is_file() or not jsx.is_file():raise FileNotFoundError('AE executable or reviewed JSX missing')
     receipt=jsx.parent/'receipt.json';target=jsx.parent/'project.aep'
     if receipt.exists() or target.exists():raise FileExistsError('Use a fresh run directory; do not trust stale receipts')
-    p=subprocess.Popen([str(executable),'-r',str(jsx)],cwd=executable.parent)
+    p,launch_info=launch(executable,['-r',str(jsx)])
     deadline=time.monotonic()+timeout
     while time.monotonic()<deadline:
         if receipt.is_file():

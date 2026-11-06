@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course2-scroll-001\\horizontal-overshoot-001\\final.mp4",
+  "sha256": "2d3bdea542904ecad056a8ff12feb14f284e7f871aeb3a725a35309985152310",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 960,
+    "height": 720,
+    "fps": 30.0,
+    "duration": 6.0,
+    "decoded_frames": 180,
+    "unique_thumbnail_frames": 116
+  },
+  "motion_expectation": "required",
+  "static_pixel_check": null,
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": "",
+  "scroll_quality": "scroll-quality.json",
+  "course_fidelity": "original_formulas_pending_review_manual_replay_adaptation",
+  "delivery_status": "candidate_unaccepted"
+}

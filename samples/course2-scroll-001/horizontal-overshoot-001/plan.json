@@ -1,0 +1,14 @@
+{
+  "skill": "ae-advanced-expressions",
+  "branch": "course26-27-scroll-ui",
+  "status": "candidate",
+  "steps": [
+    "Create own editable text or caller-image normalized content",
+    "Build original-direction track and knob",
+    "Vertical: lock X only; vector linear content range",
+    "Horizontal: separate2D Null; clamp visible knob; linear content range",
+    "Replay observed manual positions or explicit overshoot test",
+    "Edit/save/reopen/restore; full native equations; actual render and pixel trajectory check"
+  ],
+  "fidelity": "Original formulas retained separately; own materials and inferred layout; manual replay is not source animation keys"
+}

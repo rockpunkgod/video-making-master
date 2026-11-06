@@ -1,5 +1,5 @@
 {
-  "status": "source_detail_partial_native_blocked",
+  "status": "source_detail_partial_native_pending",
   "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=28",
   "title": "28. 旋转滑动",
   "video_seconds": 1981.68,
@@ -51,7 +51,6 @@
   "native_render": null,
   "human_review": "not_requested",
   "verified": false,
-  "blocker": "Existing AE cold startup fails at CEP; ASCII alias diagnostic instead returns Chinese language licensing message. No install/preferences/license/system-language changes.",
   "whole_goal_complete": false,
   "speech_coverage": {
     "backend": "existing faster-whisper",
@@ -65,11 +64,14 @@
     "transcript_sha256": "af444eea8759e88926910732fa918c09babc2a19f7f1d3cf91a5aadb8a0ef5b2"
   },
   "next_native_checks": [
-    "Restore functioning AE host without editing licensing or losing user work.",
+    "AE host recovered and cold tested; continue source keyframe/camera detail extraction before original baseline",
     "Probe supplied Illustrator/vector fixture and native camera; record all inferred geometry separately.",
     "Execute the exact final conditional at raw X19,20,20.01,160,299.99,300,300.01 and301; compare knob Position and text ZRotation.",
     "If exact300 reset is confirmed, preserve source reproduction; publish >= fix only as an explicitly labeled repair variant.",
     "Recover final controller key pair from finer native timeline frames before building baseline animation.",
     "Render native editable baseline then parameter variation and3new fixtures; make original-left comparison before human review."
-  ]
+  ],
+  "historical_blocker": "Existing AE cold startup fails at CEP; ASCII alias diagnostic instead returns Chinese language licensing message. No install/preferences/license/system-language changes.",
+  "blocker": null,
+  "host_recovery": "evaluations/course2-p26-p27-scroll-001/host-environment-recovery.json"
 }

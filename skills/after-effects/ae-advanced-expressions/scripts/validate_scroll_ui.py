@@ -17,7 +17,7 @@ def validate(root,video=None,output='scroll-quality.json'):
         for n in active:
             if not groups or n-groups[-1][-1]>2:groups.append([n])
             else:groups[-1].append(n)
-        groups=[g for g in groups if len(g)>=3]
+        groups=[g for g in groups if len(g)>=3 or g[0]==0 or g[-1]==(239 if vertical else 319)]
         inp=native['trace'][min(f,179)]['raw'];value=inp[1] if vertical else max(cfg['range'][0],min(cfg['range'][1],inp[0]));limit=240 if vertical else 320;visible=value+10>0 and value-10<limit
         if visible:
             expected=(max(0,value-10)+min(limit,value+10))/2

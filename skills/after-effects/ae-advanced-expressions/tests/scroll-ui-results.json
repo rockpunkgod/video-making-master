@@ -1,8 +1,8 @@
 {
   "skill": "ae-advanced-expressions",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "unit": "scroll_ui",
-  "status": "prepared_native_blocked",
+  "status": "candidate_native_suite_passed_human_review_pending",
   "course_fidelity": "Source formulas visually read; no actual recreation to compare",
   "sources": [
     "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=26",
@@ -32,12 +32,12 @@
       "video_only_tail": "Sparse visual checks; no assertion of full duplicate or full speech coverage"
     }
   ],
-  "native_projects": 0,
-  "rendered_videos": 0,
-  "native_test_status": "not_run_host_failed_before_script",
-  "parameter_variation_status": "prepared_not_executed",
-  "cross_material_status": "Six original PNG inputs prepared, zero native material tests",
-  "visual_status": "No candidate movie, no visual comparison or acceptance requested",
+  "native_projects": 11,
+  "rendered_videos": 11,
+  "native_test_status": "passed_1980_frames_and11_edit_save_reopen_restore",
+  "parameter_variation_status": "both_axis_overshoot_plus_horizontal_range_and_text_variation",
+  "cross_material_status": "grid/type/map originals, actual native build/render in both directions, six image cases",
+  "visual_status": "110 native checkpoint PNGs viewed in contact sheets; original-left/candidate-right movies made; human feedback pending",
   "prepared_examples": [
     "skills/after-effects/ae-advanced-expressions/examples/course-scroll-vertical.json",
     "skills/after-effects/ae-advanced-expressions/examples/course-scroll-horizontal.json"
@@ -55,16 +55,636 @@
     "5fps visible-handle screen sampling and approximate0.95display scale",
     "Horizontal raw Null beyond clamped range not recovered"
   ],
-  "blocker": "AE cold startup CEP error; ASCII path language-license diagnostic unresolved",
+  "blocker": null,
   "existing_native_cases_preserved": 87,
   "tests_that_remain": [
-    "Two original native baselines",
-    "Two overshoot cases",
-    "Three new images both directions",
-    "Real AEP edit/reopen and180frame render/QA",
-    "Validate pixel detector with actual movie and frozen negative",
-    "Native dependency audit",
-    "Original-versus-real-candidate visual comparison"
+    "Human overall course-method review of two exact baseline hashes",
+    "Exact source fonts/artwork/canvas identity and subframe manual trajectory unproven",
+    "Video inputs and arbitrary timing/layout/fonts not validated"
   ],
-  "whole_goal_complete": false
+  "whole_goal_complete": false,
+  "cases": [
+    {
+      "case": "horizontal-001",
+      "directory": "samples/course2-scroll-001/horizontal-001",
+      "axis": "horizontal",
+      "project_sha256": "33ca9871eb55dc2536a8f1f527dfc01f7a8fcbfd7302ffe7f0c33ea763468e66",
+      "video_sha256": "151a41ed66e1e611ecd7f23eaa6ef92980b2970854f3200c2d2f404739617f4b",
+      "frames": 180,
+      "native_frames_checked": 180,
+      "native_project_reopened": true,
+      "native_edit": {
+        "original": [
+          75.7890014648438,
+          270.5,
+          0
+        ],
+        "edited_raw": [
+          120.789001464844,
+          285.5,
+          0
+        ],
+        "edited_knob": [
+          120.789001464844,
+          223,
+          0
+        ],
+        "edited_content": [
+          292.835156032017,
+          104,
+          0
+        ],
+        "restored": [
+          75.7890014648438,
+          270.5,
+          0
+        ]
+      },
+      "native_max_knob_error": 0,
+      "native_max_content_error": 0,
+      "max_knob_error_design_pixels": 0.7106130358810105,
+      "technical_checks": {
+        "native_reopened": true,
+        "native_frames": true,
+        "native_knob_formula": true,
+        "native_content_formula": true,
+        "no_expression_errors": true,
+        "media": true,
+        "full_movie": true,
+        "all_knob_frames": true,
+        "rendered_knob_trajectory": true,
+        "rendered_motion": true
+      },
+      "native_still_count": 10,
+      "visual_review": "Ten actual native PNGs viewed in contact sheets; baseline thumbnails480px, other cases320px; not pixel-level source identity",
+      "human_review": "pending"
+    },
+    {
+      "case": "horizontal-grid-001",
+      "directory": "samples/course2-scroll-001/horizontal-grid-001",
+      "axis": "horizontal",
+      "project_sha256": "da998142c69aa8d5a36623af861d6abe11314c4895e91e40c49bde70707913f3",
+      "video_sha256": "92c5c6e349a137b57179ecc9d8bb77842ccd9e3f8013c061dc6e9a4e6d4f9313",
+      "frames": 180,
+      "native_frames_checked": 180,
+      "native_project_reopened": true,
+      "native_edit": {
+        "original": [
+          75.7890014648438,
+          250,
+          0
+        ],
+        "edited_raw": [
+          120.789001464844,
+          265,
+          0
+        ],
+        "edited_knob": [
+          120.789001464844,
+          223,
+          0
+        ],
+        "edited_content": [
+          292.835156032017,
+          104,
+          0
+        ],
+        "restored": [
+          75.7890014648438,
+          250,
+          0
+        ]
+      },
+      "native_max_knob_error": 0,
+      "native_max_content_error": 0,
+      "max_knob_error_design_pixels": 0.7105934080460088,
+      "technical_checks": {
+        "native_reopened": true,
+        "native_frames": true,
+        "native_knob_formula": true,
+        "native_content_formula": true,
+        "no_expression_errors": true,
+        "media": true,
+        "full_movie": true,
+        "all_knob_frames": true,
+        "rendered_knob_trajectory": true,
+        "rendered_motion": true
+      },
+      "native_still_count": 10,
+      "visual_review": "Ten actual native PNGs viewed in contact sheets; baseline thumbnails480px, other cases320px; not pixel-level source identity",
+      "human_review": "not_requested"
+    },
+    {
+      "case": "horizontal-map-001",
+      "directory": "samples/course2-scroll-001/horizontal-map-001",
+      "axis": "horizontal",
+      "project_sha256": "3821c9f2ebd287ea37b8a3f79a0e23550d641ed233869db9b8759d67719ed722",
+      "video_sha256": "7c5c96bd8c41f478612ff992a10a09546b25ea06a9a16fc22e6e4fffb90b8721",
+      "frames": 180,
+      "native_frames_checked": 180,
+      "native_project_reopened": true,
+      "native_edit": {
+        "original": [
+          75.7890014648438,
+          250,
+          0
+        ],
+        "edited_raw": [
+          120.789001464844,
+          265,
+          0
+        ],
+        "edited_knob": [
+          120.789001464844,
+          223,
+          0
+        ],
+        "edited_content": [
+          292.835156032017,
+          104,
+          0
+        ],
+        "restored": [
+          75.7890014648438,
+          250,
+          0
+        ]
+      },
+      "native_max_knob_error": 0,
+      "native_max_content_error": 0,
+      "max_knob_error_design_pixels": 0.7105934080460088,
+      "technical_checks": {
+        "native_reopened": true,
+        "native_frames": true,
+        "native_knob_formula": true,
+        "native_content_formula": true,
+        "no_expression_errors": true,
+        "media": true,
+        "full_movie": true,
+        "all_knob_frames": true,
+        "rendered_knob_trajectory": true,
+        "rendered_motion": true
+      },
+      "native_still_count": 10,
+      "visual_review": "Ten actual native PNGs viewed in contact sheets; baseline thumbnails480px, other cases320px; not pixel-level source identity",
+      "human_review": "not_requested"
+    },
+    {
+      "case": "horizontal-overshoot-001",
+      "directory": "samples/course2-scroll-001/horizontal-overshoot-001",
+      "axis": "horizontal",
+      "project_sha256": "89d38b32934766f389903d19ed78cc85ad708292fe72b5aa29b7a70ddeb1207c",
+      "video_sha256": "2d3bdea542904ecad056a8ff12feb14f284e7f871aeb3a725a35309985152310",
+      "frames": 180,
+      "native_frames_checked": 180,
+      "native_project_reopened": true,
+      "native_edit": {
+        "original": [
+          -40,
+          250,
+          0
+        ],
+        "edited_raw": [
+          5,
+          265,
+          0
+        ],
+        "edited_knob": [
+          20,
+          223,
+          0
+        ],
+        "edited_content": [
+          615,
+          104,
+          0
+        ],
+        "restored": [
+          -40,
+          250,
+          0
+        ]
+      },
+      "native_max_knob_error": 0,
+      "native_max_content_error": 0,
+      "max_knob_error_design_pixels": 0.8446476559867051,
+      "technical_checks": {
+        "native_reopened": true,
+        "native_frames": true,
+        "native_knob_formula": true,
+        "native_content_formula": true,
+        "no_expression_errors": true,
+        "media": true,
+        "full_movie": true,
+        "all_knob_frames": true,
+        "rendered_knob_trajectory": true,
+        "rendered_motion": true
+      },
+      "native_still_count": 10,
+      "visual_review": "Ten actual native PNGs viewed in contact sheets; baseline thumbnails480px, other cases320px; not pixel-level source identity",
+      "human_review": "not_requested"
+    },
+    {
+      "case": "horizontal-type-001",
+      "directory": "samples/course2-scroll-001/horizontal-type-001",
+      "axis": "horizontal",
+      "project_sha256": "71414d31b10b690414d90c01173aa8f033ef8ecbb88582a036c4b03003cd3548",
+      "video_sha256": "ad47ca4d2fdfb404c05b7dcf034b84abfd2b08a02f1c42cf99e205235a9f944a",
+      "frames": 180,
+      "native_frames_checked": 180,
+      "native_project_reopened": true,
+      "native_edit": {
+        "original": [
+          75.7890014648438,
+          250,
+          0
+        ],
+        "edited_raw": [
+          120.789001464844,
+          265,
+          0
+        ],
+        "edited_knob": [
+          120.789001464844,
+          223,
+          0
+        ],
+        "edited_content": [
+          292.835156032017,
+          104,
+          0
+        ],
+        "restored": [
+          75.7890014648438,
+          250,
+          0
+        ]
+      },
+      "native_max_knob_error": 0,
+      "native_max_content_error": 0,
+      "max_knob_error_design_pixels": 0.7105934080460088,
+      "technical_checks": {
+        "native_reopened": true,
+        "native_frames": true,
+        "native_knob_formula": true,
+        "native_content_formula": true,
+        "no_expression_errors": true,
+        "media": true,
+        "full_movie": true,
+        "all_knob_frames": true,
+        "rendered_knob_trajectory": true,
+        "rendered_motion": true
+      },
+      "native_still_count": 10,
+      "visual_review": "Ten actual native PNGs viewed in contact sheets; baseline thumbnails480px, other cases320px; not pixel-level source identity",
+      "human_review": "not_requested"
+    },
+    {
+      "case": "horizontal-variation-isolated-001",
+      "directory": "samples/course2-scroll-001/horizontal-variation-isolated-001",
+      "axis": "horizontal",
+      "project_sha256": "5ef955a6634235e006ad33ace5d7fb54dde549864392e8aa268acb6629285f74",
+      "video_sha256": "7ec8c06b956e49c9687328b51a0a4f48e92f1b7b0403d841a67009e5bf42e4c3",
+      "frames": 180,
+      "native_frames_checked": 180,
+      "native_project_reopened": true,
+      "native_edit": {
+        "original": [
+          75.7890014648438,
+          250,
+          0
+        ],
+        "edited_raw": [
+          120.789001464844,
+          265,
+          0
+        ],
+        "edited_knob": [
+          120.789001464844,
+          223,
+          0
+        ],
+        "edited_content": [
+          272.83024597168,
+          104,
+          0
+        ],
+        "restored": [
+          75.7890014648438,
+          250,
+          0
+        ]
+      },
+      "native_max_knob_error": 0,
+      "native_max_content_error": 0,
+      "max_knob_error_design_pixels": 0.7105934080460088,
+      "technical_checks": {
+        "native_reopened": true,
+        "native_frames": true,
+        "native_knob_formula": true,
+        "native_content_formula": true,
+        "no_expression_errors": true,
+        "media": true,
+        "full_movie": true,
+        "all_knob_frames": true,
+        "rendered_knob_trajectory": true,
+        "rendered_motion": true
+      },
+      "native_still_count": 10,
+      "visual_review": "Ten actual native PNGs viewed in contact sheets; baseline thumbnails480px, other cases320px; not pixel-level source identity",
+      "human_review": "not_requested"
+    },
+    {
+      "case": "vertical-006",
+      "directory": "samples/course2-scroll-001/vertical-006",
+      "axis": "vertical",
+      "project_sha256": "ed798d21f6a8f574b35159183905abcee8eed09b0993cbf882f2663a170c1933",
+      "video_sha256": "a2239351bd5a75dbe2dab333d717580d1515f8f3bc54f5242307553c60ca6f88",
+      "frames": 180,
+      "native_frames_checked": 180,
+      "native_project_reopened": true,
+      "native_edit": {
+        "original": [
+          299,
+          112.63200378418,
+          0
+        ],
+        "edited_raw": [
+          344,
+          127.63200378418,
+          0
+        ],
+        "edited_knob": [
+          299,
+          127.63200378418,
+          0
+        ],
+        "edited_content": [
+          161,
+          30.0649335609292,
+          0
+        ],
+        "restored": [
+          299,
+          112.63200378418,
+          0
+        ]
+      },
+      "native_max_knob_error": 0,
+      "native_max_content_error": 0,
+      "max_knob_error_design_pixels": 0.8243362100569982,
+      "technical_checks": {
+        "native_reopened": true,
+        "native_frames": true,
+        "native_knob_formula": true,
+        "native_content_formula": true,
+        "no_expression_errors": true,
+        "media": true,
+        "full_movie": true,
+        "all_knob_frames": true,
+        "rendered_knob_trajectory": true,
+        "rendered_motion": true
+      },
+      "native_still_count": 10,
+      "visual_review": "Ten actual native PNGs viewed in contact sheets; baseline thumbnails480px, other cases320px; not pixel-level source identity",
+      "human_review": "pending"
+    },
+    {
+      "case": "vertical-grid-001",
+      "directory": "samples/course2-scroll-001/vertical-grid-001",
+      "axis": "vertical",
+      "project_sha256": "4c3ba14bf05ffd49a351cf2850c2b000563e44ad71b4bd5b575442284a88d97c",
+      "video_sha256": "aeacc09c1d5b310a7853437b8dea10626c317c1db0431f379f85d985793d60b1",
+      "frames": 180,
+      "native_frames_checked": 180,
+      "native_project_reopened": true,
+      "native_edit": {
+        "original": [
+          250,
+          112.63200378418,
+          0
+        ],
+        "edited_raw": [
+          295,
+          127.63200378418,
+          0
+        ],
+        "edited_knob": [
+          299,
+          127.63200378418,
+          0
+        ],
+        "edited_content": [
+          161,
+          30.0649335609292,
+          0
+        ],
+        "restored": [
+          250,
+          112.63200378418,
+          0
+        ]
+      },
+      "native_max_knob_error": 0,
+      "native_max_content_error": 0,
+      "max_knob_error_design_pixels": 0.8238472048520009,
+      "technical_checks": {
+        "native_reopened": true,
+        "native_frames": true,
+        "native_knob_formula": true,
+        "native_content_formula": true,
+        "no_expression_errors": true,
+        "media": true,
+        "full_movie": true,
+        "all_knob_frames": true,
+        "rendered_knob_trajectory": true,
+        "rendered_motion": true
+      },
+      "native_still_count": 10,
+      "visual_review": "Ten actual native PNGs viewed in contact sheets; baseline thumbnails480px, other cases320px; not pixel-level source identity",
+      "human_review": "not_requested"
+    },
+    {
+      "case": "vertical-map-001",
+      "directory": "samples/course2-scroll-001/vertical-map-001",
+      "axis": "vertical",
+      "project_sha256": "4fa04fef31103419db9626d2c244913a168fb0bb4bf98a513928fb104de949f2",
+      "video_sha256": "ae1a81e73c4e86a577e61f57f660ca32284bcd7358714377d6a3beeb049bba02",
+      "frames": 180,
+      "native_frames_checked": 180,
+      "native_project_reopened": true,
+      "native_edit": {
+        "original": [
+          250,
+          112.63200378418,
+          0
+        ],
+        "edited_raw": [
+          295,
+          127.63200378418,
+          0
+        ],
+        "edited_knob": [
+          299,
+          127.63200378418,
+          0
+        ],
+        "edited_content": [
+          161,
+          30.0649335609292,
+          0
+        ],
+        "restored": [
+          250,
+          112.63200378418,
+          0
+        ]
+      },
+      "native_max_knob_error": 0,
+      "native_max_content_error": 0,
+      "max_knob_error_design_pixels": 0.7890014648440058,
+      "technical_checks": {
+        "native_reopened": true,
+        "native_frames": true,
+        "native_knob_formula": true,
+        "native_content_formula": true,
+        "no_expression_errors": true,
+        "media": true,
+        "full_movie": true,
+        "all_knob_frames": true,
+        "rendered_knob_trajectory": true,
+        "rendered_motion": true
+      },
+      "native_still_count": 10,
+      "visual_review": "Ten actual native PNGs viewed in contact sheets; baseline thumbnails480px, other cases320px; not pixel-level source identity",
+      "human_review": "not_requested"
+    },
+    {
+      "case": "vertical-overshoot-001",
+      "directory": "samples/course2-scroll-001/vertical-overshoot-001",
+      "axis": "vertical",
+      "project_sha256": "722b2ad4af776d51aecf1c17ddb6e504e3ae8dc4a75b37c00163d510953c7606",
+      "video_sha256": "6690816b23d9ff4026d861693463d74b552bb9333ca57a8e0f417b8b0b02e20b",
+      "frames": 180,
+      "native_frames_checked": 180,
+      "native_project_reopened": true,
+      "native_edit": {
+        "original": [
+          250,
+          -47,
+          0
+        ],
+        "edited_raw": [
+          295,
+          -32,
+          0
+        ],
+        "edited_knob": [
+          299,
+          -32,
+          0
+        ],
+        "edited_content": [
+          161,
+          328,
+          0
+        ],
+        "restored": [
+          250,
+          -47,
+          0
+        ]
+      },
+      "native_max_knob_error": 0,
+      "native_max_content_error": 0,
+      "max_knob_error_design_pixels": 0.8026360544529041,
+      "technical_checks": {
+        "native_reopened": true,
+        "native_frames": true,
+        "native_knob_formula": true,
+        "native_content_formula": true,
+        "no_expression_errors": true,
+        "media": true,
+        "full_movie": true,
+        "all_knob_frames": true,
+        "rendered_knob_trajectory": true,
+        "rendered_motion": true
+      },
+      "native_still_count": 10,
+      "visual_review": "Ten actual native PNGs viewed in contact sheets; baseline thumbnails480px, other cases320px; not pixel-level source identity",
+      "human_review": "not_requested"
+    },
+    {
+      "case": "vertical-type-001",
+      "directory": "samples/course2-scroll-001/vertical-type-001",
+      "axis": "vertical",
+      "project_sha256": "8984035e14477019c96287a40a16d715b44542e3beeb577abb2b211753b5c9f3",
+      "video_sha256": "0999f370150b4cc23212ddcc2ec20ea7280f252932ca9ea961d69a6016b4639e",
+      "frames": 180,
+      "native_frames_checked": 180,
+      "native_project_reopened": true,
+      "native_edit": {
+        "original": [
+          250,
+          112.63200378418,
+          0
+        ],
+        "edited_raw": [
+          295,
+          127.63200378418,
+          0
+        ],
+        "edited_knob": [
+          299,
+          127.63200378418,
+          0
+        ],
+        "edited_content": [
+          161,
+          30.0649335609292,
+          0
+        ],
+        "restored": [
+          250,
+          112.63200378418,
+          0
+        ]
+      },
+      "native_max_knob_error": 0,
+      "native_max_content_error": 0,
+      "max_knob_error_design_pixels": 0.7906441357719984,
+      "technical_checks": {
+        "native_reopened": true,
+        "native_frames": true,
+        "native_knob_formula": true,
+        "native_content_formula": true,
+        "no_expression_errors": true,
+        "media": true,
+        "full_movie": true,
+        "all_knob_frames": true,
+        "rendered_knob_trajectory": true,
+        "rendered_motion": true
+      },
+      "native_still_count": 10,
+      "visual_review": "Ten actual native PNGs viewed in contact sheets; baseline thumbnails480px, other cases320px; not pixel-level source identity",
+      "human_review": "not_requested"
+    }
+  ],
+  "media_audit": "reports/native-media-dependencies-course2-scroll.json",
+  "independent_call": {
+    "case": "horizontal-variation-isolated-001",
+    "copied_skill_only": true,
+    "different_working_directory": true,
+    "real_native_build_render": true
+  },
+  "negative_controls": [
+    "vertical-006/negative-frozen.json",
+    "horizontal-001/negative-frozen.json"
+  ],
+  "validator_calibration": {
+    "initial_error": "Three frames containing one design pixel of exposed knob at viewport edge were incorrectly discarded by minimum3group rule",
+    "evidence": "vertical-overshoot-001/scroll-quality-initial-edge-miss.json",
+    "fix": "Permit short groups touching image boundary; retain all180frame checks and1.5pixel tolerance",
+    "all_cases_after_fix": "passed; no native animation changed"
+  }
 }

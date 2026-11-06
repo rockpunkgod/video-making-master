@@ -6,6 +6,7 @@ import subprocess
 import sys
 from pathlib import Path
 from validate_video import validate
+from launch_adobe import child_environment
 
 def check_output(root,cfg):
     report=validate(root/'final.mp4',cfg)
@@ -64,7 +65,8 @@ def render(directory,executable,timeout,reuse=False):
     if not data.get('selected_template'):raise ValueError('No supported output template found; inspect output_templates in the native receipt')
     if any((root/'render').glob('frame_*')) or (root/'final.mp4').exists():raise FileExistsError('Refusing stale render output')
     try:
-        result=subprocess.run([str(Path(executable).resolve()),*(['-reuse'] if reuse else []),'-project',str(project)],capture_output=True,timeout=timeout)
+        child_env,_=child_environment()
+        result=subprocess.run([str(Path(executable).resolve()),*(['-reuse'] if reuse else []),'-project',str(project)],capture_output=True,timeout=timeout,env=child_env)
         (root/'aerender.log').write_bytes(result.stdout+b'\n'+result.stderr)
     except subprocess.TimeoutExpired as e:
         (root/'aerender.log').write_bytes((e.stdout or b'')+b'\nTIMEOUT\n'+(e.stderr or b''));raise RuntimeError('Native render timed out; inspect running Adobe process before retry')

@@ -1,5 +1,5 @@
 {
-  "status": "unresolved",
+  "status": "recovered_after_missing_system_child_environment_restoration",
   "original_host": {
     "pid": 56296,
     "guard": "reports/host-blank-guard-20261107-0400.json",
@@ -54,5 +54,7 @@
     "https://helpx.adobe.com/after-effects/desktop/render-and-export/automate-rendering/automated-rendering-network-rendering.html"
   ],
   "source_limit": "Official guidance/flags do not prove local recovery; actual local attempts failed",
-  "user_question": "Asked whether usual user launch can enter blank project or uses another entry; pending response"
+  "user_question": "Superseded: native host recovered and cold retested without user intervention",
+  "historical_status": "unresolved",
+  "recovery_evidence": "evaluations/course2-p26-p27-scroll-001/host-environment-recovery.json"
 }
