@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "delivery_files_verified": 799,
+  "changed_files": [],
+  "native_projects_audited": 2,
+  "new_case_external_media_dependencies": 0,
+  "deleted_files": 157,
+  "deleted_bytes": 305632089,
+  "kept_learning_inputs": [
+    "cache/course-hires/BV1Yh4y1A7XT-p13-1080.mp4",
+    "cache/course-hires/BV1Yh4y1A7XT-p15-1080.mp4",
+    "cache/local-transcripts/BV1Yh4y1A7XT-p15-full-001/transcript.json",
+    "cache/watch/watch-z3iierxa/download/run-nv1kht5f/video.mp4"
+  ],
+  "course_scope": "Accepted P15 radial baseline and variation only; remaining polar,streaks,main assembly and broader curriculum incomplete"
+}

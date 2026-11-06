@@ -1,0 +1,22 @@
+{
+  "status": "completed",
+  "files": [
+    {
+      "path": "tools/__pycache__/validate_video.cpython-313.pyc",
+      "bytes": 5666
+    },
+    {
+      "path": "skills/after-effects/ae-advanced-compositing/scripts/__pycache__/render_ae.cpython-313.pyc",
+      "bytes": 6795
+    },
+    {
+      "path": "skills/after-effects/ae-advanced-compositing/scripts/__pycache__/validate_radial.cpython-313.pyc",
+      "bytes": 4001
+    },
+    {
+      "path": "skills/after-effects/ae-advanced-compositing/scripts/__pycache__/validate_video.cpython-313.pyc",
+      "bytes": 8561
+    }
+  ],
+  "bytes": 25023
+}

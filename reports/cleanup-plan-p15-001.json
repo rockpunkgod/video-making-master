@@ -1,0 +1,634 @@
+{
+  "status": "planned",
+  "scopes": [
+    "cache",
+    "samples/course-reproduction-011"
+  ],
+  "published_commit": "e65b850c5fea6db4ff6ec36c1c7409159b0a9873",
+  "manifest_sha256": "9e78321f56f69d319b727d83030ce89422acaf55730c50b61aaa383752f91a25",
+  "files": 153,
+  "bytes": 305607066,
+  "keep_active": [
+    "cache/course-hires/BV1Yh4y1A7XT-p13-1080.mp4",
+    "cache/course-hires/BV1Yh4y1A7XT-p15-1080.mp4",
+    "cache/local-transcripts/BV1Yh4y1A7XT-p15-full-001/transcript.json",
+    "cache/watch/watch-z3iierxa/download/run-nv1kht5f/video.mp4"
+  ],
+  "protected_delivery_files": 567,
+  "skipped_links": [],
+  "targets": [
+    {
+      "path": "cache/local-transcripts/BV1Yh4y1A7XT-p15-full-001/input.wav",
+      "bytes": 38978394
+    },
+    {
+      "path": "cache/local-transcripts/BV1Yh4y1A7XT-p15-full-001/transcript.srt",
+      "bytes": 20541
+    },
+    {
+      "path": "cache/p15-adjust-blur.jsx",
+      "bytes": 346
+    },
+    {
+      "path": "cache/p15-blue-ready.txt",
+      "bytes": 1
+    },
+    {
+      "path": "cache/p15-blue-shaped.png",
+      "bytes": 440111
+    },
+    {
+      "path": "cache/p15-blue.jsx",
+      "bytes": 427
+    },
+    {
+      "path": "cache/p15-blue002.png",
+      "bytes": 435741
+    },
+    {
+      "path": "cache/p15-blur-menu.png",
+      "bytes": 283426
+    },
+    {
+      "path": "cache/p15-channel.jsx",
+      "bytes": 537
+    },
+    {
+      "path": "cache/p15-comparison-check.png",
+      "bytes": 1057976
+    },
+    {
+      "path": "cache/p15-comparison002-check.png",
+      "bytes": 1080574
+    },
+    {
+      "path": "cache/p15-curves-graph.png",
+      "bytes": 333692
+    },
+    {
+      "path": "cache/p15-curves-new.png",
+      "bytes": 329917
+    },
+    {
+      "path": "cache/p15-curves-ready.png",
+      "bytes": 335332
+    },
+    {
+      "path": "cache/p15-curves-reset-ready.png",
+      "bytes": 159183
+    },
+    {
+      "path": "cache/p15-curves-reset.png",
+      "bytes": 159182
+    },
+    {
+      "path": "cache/p15-finalize-radial.jsx",
+      "bytes": 3349
+    },
+    {
+      "path": "cache/p15-finalize-radial002.jsx",
+      "bytes": 3349
+    },
+    {
+      "path": "cache/p15-graph-scroll.png",
+      "bytes": 401465
+    },
+    {
+      "path": "cache/p15-green-ready.txt",
+      "bytes": 1
+    },
+    {
+      "path": "cache/p15-green-shaped.png",
+      "bytes": 418863
+    },
+    {
+      "path": "cache/p15-green.jsx",
+      "bytes": 428
+    },
+    {
+      "path": "cache/p15-green002.png",
+      "bytes": 407557
+    },
+    {
+      "path": "cache/p15-isolated-run-001/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 157537
+    },
+    {
+      "path": "cache/p15-isolated-run-001/aerender.log",
+      "bytes": 3693
+    },
+    {
+      "path": "cache/p15-isolated-run-001/build.jsx",
+      "bytes": 5937
+    },
+    {
+      "path": "cache/p15-isolated-run-001/final.mp4",
+      "bytes": 6424357
+    },
+    {
+      "path": "cache/p15-isolated-run-001/inputs/radial-template.aep",
+      "bytes": 157305
+    },
+    {
+      "path": "cache/p15-isolated-run-001/native-still-0.png",
+      "bytes": 10138428
+    },
+    {
+      "path": "cache/p15-isolated-run-001/native-still-24.png",
+      "bytes": 10158924
+    },
+    {
+      "path": "cache/p15-isolated-run-001/native-still-36.png",
+      "bytes": 10207547
+    },
+    {
+      "path": "cache/p15-isolated-run-001/native-still-71.png",
+      "bytes": 10370303
+    },
+    {
+      "path": "cache/p15-isolated-run-001/plan.json",
+      "bytes": 570
+    },
+    {
+      "path": "cache/p15-isolated-run-001/project.aep",
+      "bytes": 156433
+    },
+    {
+      "path": "cache/p15-isolated-run-001/project.aep 日志/AE 2026-11-6 19-06-39.txt",
+      "bytes": 3031
+    },
+    {
+      "path": "cache/p15-isolated-run-001/quality.json",
+      "bytes": 1096
+    },
+    {
+      "path": "cache/p15-isolated-run-001/receipt.json",
+      "bytes": 793
+    },
+    {
+      "path": "cache/p15-isolated-run-001/request.json",
+      "bytes": 487
+    },
+    {
+      "path": "cache/p15-isolated-run-001/scene-quality.json",
+      "bytes": 873
+    },
+    {
+      "path": "cache/p15-isolated-skill-001/assets/course-p15-radial-template.aep",
+      "bytes": 157305
+    },
+    {
+      "path": "cache/p15-isolated-skill-001/examples/course-radial.json",
+      "bytes": 411
+    },
+    {
+      "path": "cache/p15-isolated-skill-001/scripts/__pycache__/validate_radial.cpython-313.pyc",
+      "bytes": 3985
+    },
+    {
+      "path": "cache/p15-isolated-skill-001/scripts/__pycache__/validate_video.cpython-313.pyc",
+      "bytes": 8545
+    },
+    {
+      "path": "cache/p15-isolated-skill-001/scripts/build_radial.py",
+      "bytes": 2557
+    },
+    {
+      "path": "cache/p15-isolated-skill-001/scripts/json_encode_adobe.jsx",
+      "bytes": 1080
+    },
+    {
+      "path": "cache/p15-isolated-skill-001/scripts/radial.jsx",
+      "bytes": 4316
+    },
+    {
+      "path": "cache/p15-isolated-skill-001/scripts/render_ae.py",
+      "bytes": 3565
+    },
+    {
+      "path": "cache/p15-isolated-skill-001/scripts/run_ae.py",
+      "bytes": 2350
+    },
+    {
+      "path": "cache/p15-isolated-skill-001/scripts/validate_radial.py",
+      "bytes": 2289
+    },
+    {
+      "path": "cache/p15-isolated-skill-001/scripts/validate_video.py",
+      "bytes": 4570
+    },
+    {
+      "path": "cache/p15-native-brightest.png",
+      "bytes": 338224
+    },
+    {
+      "path": "cache/p15-native-controls.png",
+      "bytes": 283401
+    },
+    {
+      "path": "cache/p15-native-effects.png",
+      "bytes": 283762
+    },
+    {
+      "path": "cache/p15-native-modal.png",
+      "bytes": 9185
+    },
+    {
+      "path": "cache/p15-native-start.png",
+      "bytes": 258404
+    },
+    {
+      "path": "cache/p15-radial-contact.jpg",
+      "bytes": 330696
+    },
+    {
+      "path": "cache/p15-radial002-contact.jpg",
+      "bytes": 240561
+    },
+    {
+      "path": "cache/p15-red-channel.png",
+      "bytes": 336146
+    },
+    {
+      "path": "cache/p15-red-ready.txt",
+      "bytes": 5
+    },
+    {
+      "path": "cache/p15-red-reset-confirm.png",
+      "bytes": 307115
+    },
+    {
+      "path": "cache/p15-red-shaped.png",
+      "bytes": 405924
+    },
+    {
+      "path": "cache/p15-red002-correct.png",
+      "bytes": 384039
+    },
+    {
+      "path": "cache/p15-red002.png",
+      "bytes": 381912
+    },
+    {
+      "path": "cache/p15-reset-curves.jsx",
+      "bytes": 824
+    },
+    {
+      "path": "cache/p15-reset-final.png",
+      "bytes": 159183
+    },
+    {
+      "path": "cache/p15-reset-observed.png",
+      "bytes": 366654
+    },
+    {
+      "path": "cache/p15-slow002-contact-final.jpg",
+      "bytes": 126389
+    },
+    {
+      "path": "cache/p15-source-curves.png",
+      "bytes": 330499
+    },
+    {
+      "path": "cache/reviews/p15-radial-original-vs-001/comparison.mp4",
+      "bytes": 2491082
+    },
+    {
+      "path": "cache/reviews/p15-radial-original-vs-002/comparison.mp4",
+      "bytes": 2438612
+    },
+    {
+      "path": "cache/watch/watch-d7zkedmp/frames/cue_0000.jpg",
+      "bytes": 120700
+    },
+    {
+      "path": "cache/watch/watch-d7zkedmp/frames/cue_0001.jpg",
+      "bytes": 200018
+    },
+    {
+      "path": "cache/watch/watch-d7zkedmp/frames/cue_0002.jpg",
+      "bytes": 215138
+    },
+    {
+      "path": "cache/watch/watch-d7zkedmp/frames/cue_0003.jpg",
+      "bytes": 207010
+    },
+    {
+      "path": "cache/watch/watch-d7zkedmp/frames/cue_0004.jpg",
+      "bytes": 215746
+    },
+    {
+      "path": "cache/watch/watch-d7zkedmp/frames/cue_0005.jpg",
+      "bytes": 201899
+    },
+    {
+      "path": "cache/watch/watch-d7zkedmp/frames/cue_0006.jpg",
+      "bytes": 207957
+    },
+    {
+      "path": "cache/watch/watch-d7zkedmp/frames/cue_0007.jpg",
+      "bytes": 163463
+    },
+    {
+      "path": "cache/watch/watch-d7zkedmp/frames/cue_0008.jpg",
+      "bytes": 165971
+    },
+    {
+      "path": "cache/watch/watch-d7zkedmp/frames/cue_0009.jpg",
+      "bytes": 164370
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/download/run-862dniju/final-path.jsonl",
+      "bytes": 109
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/download/run-862dniju/video.info.json",
+      "bytes": 12145
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/download/run-862dniju/video.mp4",
+      "bytes": 33864266
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0001.jpg",
+      "bytes": 18224
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0002.jpg",
+      "bytes": 91605
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0003.jpg",
+      "bytes": 47787
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0004.jpg",
+      "bytes": 25589
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0005.jpg",
+      "bytes": 49141
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0006.jpg",
+      "bytes": 60671
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0008.jpg",
+      "bytes": 54146
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0009.jpg",
+      "bytes": 82037
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0010.jpg",
+      "bytes": 56396
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0011.jpg",
+      "bytes": 97418
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0012.jpg",
+      "bytes": 98436
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0013.jpg",
+      "bytes": 88369
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0014.jpg",
+      "bytes": 101684
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0015.jpg",
+      "bytes": 88135
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0016.jpg",
+      "bytes": 90461
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0017.jpg",
+      "bytes": 100186
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0018.jpg",
+      "bytes": 88286
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0019.jpg",
+      "bytes": 102847
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0021.jpg",
+      "bytes": 98668
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0022.jpg",
+      "bytes": 95949
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0023.jpg",
+      "bytes": 92781
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0024.jpg",
+      "bytes": 95861
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0025.jpg",
+      "bytes": 99637
+    },
+    {
+      "path": "cache/watch/watch-ixmrpvi6/frames/frame_0026.jpg",
+      "bytes": 49927
+    },
+    {
+      "path": "cache/watch/watch-tlshxm21/frames/cue_0000.jpg",
+      "bytes": 204340
+    },
+    {
+      "path": "cache/watch/watch-tlshxm21/frames/cue_0001.jpg",
+      "bytes": 159899
+    },
+    {
+      "path": "cache/watch/watch-tlshxm21/frames/cue_0002.jpg",
+      "bytes": 144879
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-host-probe-001/build.jsx",
+      "bytes": 3068
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-host-probe-001/project.aep",
+      "bytes": 120993
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-host-probe-001/receipt.json",
+      "bytes": 9855
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-001/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 156749
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-001/aerender.log",
+      "bytes": 9427
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-001/build.jsx",
+      "bytes": 3130
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-001/final.mp4",
+      "bytes": 20832015
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-001/native-still-0.png",
+      "bytes": 10424621
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-001/native-still-144.png",
+      "bytes": 10060196
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-001/native-still-239.png",
+      "bytes": 10211440
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-001/native-still-24.png",
+      "bytes": 10418699
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-001/native-still-48.png",
+      "bytes": 10410823
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-001/native-still-96.png",
+      "bytes": 10303911
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-001/project.aep",
+      "bytes": 155751
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-001/project.aep 日志/AE 2026-11-6 18-43-42.txt",
+      "bytes": 7289
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-001/quality.json",
+      "bytes": 752
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-001/receipt.json",
+      "bytes": 3811
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-001/request.json",
+      "bytes": 292
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-002/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 158298
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-002/aerender.log",
+      "bytes": 9153
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-002/native-still-144.png",
+      "bytes": 10085731
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-002/native-still-48.png",
+      "bytes": 10410448
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-002/native-still-96.png",
+      "bytes": 10317078
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-002/project.aep 日志/AE 2026-11-6 18-56-35.txt",
+      "bytes": 7087
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-001/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 157563
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-001/aerender.log",
+      "bytes": 6276
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-001/build.jsx",
+      "bytes": 5627
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-001/final.mp4",
+      "bytes": 12035063
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-001/inputs/radial-template.aep",
+      "bytes": 155751
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-001/native-still-0.png",
+      "bytes": 9868316
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-001/native-still-143.png",
+      "bytes": 9438557
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-001/native-still-24.png",
+      "bytes": 9684396
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-001/native-still-72.png",
+      "bytes": 9373156
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-001/plan.json",
+      "bytes": 570
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-001/project.aep",
+      "bytes": 156459
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-001/project.aep 日志/AE 2026-11-6 18-46-20.txt",
+      "bytes": 4948
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-001/quality.json",
+      "bytes": 756
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-001/receipt.json",
+      "bytes": 998
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-001/request.json",
+      "bytes": 512
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-002/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 157563
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-002/aerender.log",
+      "bytes": 6069
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-002/build.jsx",
+      "bytes": 5627
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-002/project.aep 日志/AE 2026-11-6 18-57-51.txt",
+      "bytes": 4795
+    }
+  ],
+  "authorization": "User requested keeping only deliverables after library publication; scope restricted to this independent lab"
+}
