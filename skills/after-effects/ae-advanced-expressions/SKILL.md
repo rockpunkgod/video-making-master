@@ -1,9 +1,11 @@
 ---
 name: ae-advanced-expressions
-description: 使用AE表达式制作显隐、三维布局、数字、文字、弹簧、双翅和放大镜；纵横滑页。各分支保留明确的候选验证边界。
+description: 使用AE表达式制作显隐、三维布局、数字、文字、弹簧、双翅和放大镜；纵横滑页与滑块三维旋转。各分支保留明确的候选验证边界。
 ---
 
-0.8.1为candidate。八个单元有各自原生证据；第二套第26/27节滑页新增11例可编辑工程/视频、1980帧、三种图片双方向与独立复制调用，课程整体人工反馈仍待答。不能泛称已掌握全部高级表达式。第10节旧002–005失败保留；replay006收到“这次方向对，可以保留”，仅绑定006方向与节奏，不代表绝对种子、逐字数字或全部泛化通过。
+0.9.0为candidate。九个单元有各自原生证据；第二套第26/27节滑页新增11例可编辑工程/视频、1980帧、三种图片双方向与独立复制调用，课程整体人工反馈仍待答。不能泛称已掌握全部高级表达式。第10节旧002–005失败保留；replay006收到“这次方向对，可以保留”，仅绑定006方向与节奏，不代表绝对种子、逐字数字或全部泛化通过。
+
+滑块驱动三维文字旋转先读references/rotation-slider.md，用scripts/build_rotation_slider.py --out全新目录及同目录run_ae.py/render_ae.py。第28节原嵌套if边界缺陷实际保留，>=修复另列变体；8例720帧、三种新矢量和独立调用已实做。六ASCII字符/固定画幅时长；相机与布局为测量推定，整体反馈待答。原生开关图核验运动模糊，不靠单独开关值声称有效。
 
 纵横滑页先读references/scroll-ui.md，再用scripts/build_scroll_ui.py --axis vertical或horizontal --out全新目录，以及同目录run_ae.py/render_ae.py。保留纵向自由Y+向量linear、横向独立Null+clamp滑块/linear内容的区别。原课手动拖动，视频是采样重放；画布/字体/布局推定，不能当源工程身份。原生和像素验证边界见tests/scroll-ui-results.json。若AE冷启动CEP失败，先读references/host-startup.md；启动工具只补子进程缺失Windows环境，不修改系统或授权。
 

@@ -1,0 +1,517 @@
+{
+  "skill": "ae-advanced-expressions",
+  "version": "0.9.0",
+  "unit": "rotation_slider",
+  "status": "candidate_native_suite_passed_human_review_pending",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=28",
+  "cases": [
+    {
+      "case": "baseline-004",
+      "directory": "samples/course2-rotation-001/baseline-004",
+      "project_sha256": "287f8a82bb588a56c97b1d94cb7a4d40626d89eee8d5a4dff158b0fa566e096c",
+      "video_sha256": "90427fdd86f31b50f5b1405fc83fff8958cf21390ac0b96fbf96713792b91521",
+      "frames": 90,
+      "native_reopened": true,
+      "native_edit": {
+        "original": [
+          15.8000001907349,
+          290.100006103516,
+          0
+        ],
+        "edited_raw": [
+          55.7999992370605,
+          320.100006103516,
+          0
+        ],
+        "edited_knob": [
+          55.7999992370605,
+          225,
+          0
+        ],
+        "edited_rotation": 66.9857147761754,
+        "restored": [
+          15.8000001907349,
+          290.100006103516,
+          0
+        ]
+      },
+      "native_formula_max_error": 2.8421709430404e-14,
+      "native_projection_max_error": 3.61512292182294,
+      "movie_knob_max_error": 0.8611435112294004,
+      "blur_control": {
+        "on_edge_energy": 121155,
+        "off_edge_energy": 183806,
+        "mean_luma_difference": 2.4472560975609756
+      },
+      "checks": {
+        "full_movie": true,
+        "all_knob_frames": true,
+        "rendered_knob_trajectory": true,
+        "rendered_knob_motion": true,
+        "native_reopened": true,
+        "native_expression_errors": true,
+        "native_formula_trace": true,
+        "native_boundary_samples": true,
+        "native_3d_camera": true,
+        "native_projection_observations": true,
+        "native_blur_enabled": true,
+        "actual_blur_control_differs": true
+      },
+      "native_png_count": 12,
+      "visual_review": "All12 selected native PNGs viewed in320pixel contact sheets; five baseline PNGs also inspected full size",
+      "course_human_review": "pending"
+    },
+    {
+      "case": "variation-001",
+      "directory": "samples/course2-rotation-001/variation-001",
+      "project_sha256": "1e2af230970317f8eaf147ce39b369761ce0f7fc5b4f072d4f871f96ec7578c2",
+      "video_sha256": "38e11ff541d49b798f4821ef63293bc2875da74c0dd278cd51e7e808d8b62499",
+      "frames": 90,
+      "native_reopened": true,
+      "native_edit": {
+        "original": [
+          15.8000001907349,
+          290.100006103516,
+          0
+        ],
+        "edited_raw": [
+          55.7999992370605,
+          320.100006103516,
+          0
+        ],
+        "edited_knob": [
+          55.7999992370605,
+          225,
+          0
+        ],
+        "edited_rotation": 66.9857147761754,
+        "restored": [
+          15.8000001907349,
+          290.100006103516,
+          0
+        ]
+      },
+      "native_formula_max_error": 2.8421709430404e-14,
+      "native_projection_max_error": 3.61512292182294,
+      "movie_knob_max_error": 0.8398588269580003,
+      "blur_control": {
+        "on_edge_energy": 106675,
+        "off_edge_energy": 136842,
+        "mean_luma_difference": 0.6906859756097561
+      },
+      "checks": {
+        "full_movie": true,
+        "all_knob_frames": true,
+        "rendered_knob_trajectory": true,
+        "rendered_knob_motion": true,
+        "native_reopened": true,
+        "native_expression_errors": true,
+        "native_formula_trace": true,
+        "native_boundary_samples": true,
+        "native_3d_camera": true,
+        "native_projection_observations": true,
+        "native_blur_enabled": true,
+        "actual_blur_control_differs": true
+      },
+      "native_png_count": 12,
+      "visual_review": "All12 selected native PNGs viewed in320pixel contact sheets; five baseline PNGs also inspected full size",
+      "course_human_review": "not_requested"
+    },
+    {
+      "case": "hexagons-001",
+      "directory": "samples/course2-rotation-001/hexagons-001",
+      "project_sha256": "9612e34e1d51fddbddec340939653e3e7be159960c250b4c7af7106b449e62fa",
+      "video_sha256": "fc50ba4d609f74baabc14576ab2b64e748f00a35fc1aefeaf10b4bfc47c33b2e",
+      "frames": 90,
+      "native_reopened": true,
+      "native_edit": {
+        "original": [
+          15.8000001907349,
+          290.100006103516,
+          0
+        ],
+        "edited_raw": [
+          55.7999992370605,
+          320.100006103516,
+          0
+        ],
+        "edited_knob": [
+          55.7999992370605,
+          225,
+          0
+        ],
+        "edited_rotation": 66.9857147761754,
+        "restored": [
+          15.8000001907349,
+          290.100006103516,
+          0
+        ]
+      },
+      "native_formula_max_error": 2.8421709430404e-14,
+      "native_projection_max_error": 3.61512292182294,
+      "movie_knob_max_error": 0.8611435112294004,
+      "blur_control": {
+        "on_edge_energy": 92411,
+        "off_edge_energy": 163019,
+        "mean_luma_difference": 2.4857926829268293
+      },
+      "checks": {
+        "full_movie": true,
+        "all_knob_frames": true,
+        "rendered_knob_trajectory": true,
+        "rendered_knob_motion": true,
+        "native_reopened": true,
+        "native_expression_errors": true,
+        "native_formula_trace": true,
+        "native_boundary_samples": true,
+        "native_3d_camera": true,
+        "native_projection_observations": true,
+        "native_blur_enabled": true,
+        "actual_blur_control_differs": true
+      },
+      "native_png_count": 12,
+      "visual_review": "All12 selected native PNGs viewed in320pixel contact sheets; five baseline PNGs also inspected full size",
+      "course_human_review": "not_requested"
+    },
+    {
+      "case": "tags-001",
+      "directory": "samples/course2-rotation-001/tags-001",
+      "project_sha256": "4b19b3feaa39eb986aa4fcac08cf9b64fbc4f40a616394d3489e9096e6214197",
+      "video_sha256": "544ab6847dc67eaad3431ec8cc4c821b357a9ac67861bc12e46ed9535db1e1ab",
+      "frames": 90,
+      "native_reopened": true,
+      "native_edit": {
+        "original": [
+          15.8000001907349,
+          290.100006103516,
+          0
+        ],
+        "edited_raw": [
+          55.7999992370605,
+          320.100006103516,
+          0
+        ],
+        "edited_knob": [
+          55.7999992370605,
+          225,
+          0
+        ],
+        "edited_rotation": 66.9857147761754,
+        "restored": [
+          15.8000001907349,
+          290.100006103516,
+          0
+        ]
+      },
+      "native_formula_max_error": 2.8421709430404e-14,
+      "native_projection_max_error": 3.61512292182294,
+      "movie_knob_max_error": 0.8611435112294004,
+      "blur_control": {
+        "on_edge_energy": 72805,
+        "off_edge_energy": 136181,
+        "mean_luma_difference": 1.9920121951219512
+      },
+      "checks": {
+        "full_movie": true,
+        "all_knob_frames": true,
+        "rendered_knob_trajectory": true,
+        "rendered_knob_motion": true,
+        "native_reopened": true,
+        "native_expression_errors": true,
+        "native_formula_trace": true,
+        "native_boundary_samples": true,
+        "native_3d_camera": true,
+        "native_projection_observations": true,
+        "native_blur_enabled": true,
+        "actual_blur_control_differs": true
+      },
+      "native_png_count": 12,
+      "visual_review": "All12 selected native PNGs viewed in320pixel contact sheets; five baseline PNGs also inspected full size",
+      "course_human_review": "not_requested"
+    },
+    {
+      "case": "stars-001",
+      "directory": "samples/course2-rotation-001/stars-001",
+      "project_sha256": "d2a095e8a8be64e14554067d31112a32be4d77abbec7bcfdd74d3b2bdecf17a0",
+      "video_sha256": "3e925f35b3545d01857fa6db39745f168943d170bc2e07226a8d49d62a6e0c7b",
+      "frames": 90,
+      "native_reopened": true,
+      "native_edit": {
+        "original": [
+          15.8000001907349,
+          290.100006103516,
+          0
+        ],
+        "edited_raw": [
+          55.7999992370605,
+          320.100006103516,
+          0
+        ],
+        "edited_knob": [
+          55.7999992370605,
+          225,
+          0
+        ],
+        "edited_rotation": 66.9857147761754,
+        "restored": [
+          15.8000001907349,
+          290.100006103516,
+          0
+        ]
+      },
+      "native_formula_max_error": 2.8421709430404e-14,
+      "native_projection_max_error": 3.61512292182294,
+      "movie_knob_max_error": 0.8362843547370176,
+      "blur_control": {
+        "on_edge_energy": 84303,
+        "off_edge_energy": 148216,
+        "mean_luma_difference": 2.2597256097560976
+      },
+      "checks": {
+        "full_movie": true,
+        "all_knob_frames": true,
+        "rendered_knob_trajectory": true,
+        "rendered_knob_motion": true,
+        "native_reopened": true,
+        "native_expression_errors": true,
+        "native_formula_trace": true,
+        "native_boundary_samples": true,
+        "native_3d_camera": true,
+        "native_projection_observations": true,
+        "native_blur_enabled": true,
+        "actual_blur_control_differs": true
+      },
+      "native_png_count": 12,
+      "visual_review": "All12 selected native PNGs viewed in320pixel contact sheets; five baseline PNGs also inspected full size",
+      "course_human_review": "not_requested"
+    },
+    {
+      "case": "isolated-001",
+      "directory": "samples/course2-rotation-001/isolated-001",
+      "project_sha256": "870837a61344535ba734a661d30411bf0d8891e1e64ebfff701608e683128380",
+      "video_sha256": "e7b3f0147f77e71a64b1c49a8a5a14fe273904c2f805634858ad499f91c3ecaf",
+      "frames": 90,
+      "native_reopened": true,
+      "native_edit": {
+        "original": [
+          15.8000001907349,
+          290.100006103516,
+          0
+        ],
+        "edited_raw": [
+          55.7999992370605,
+          320.100006103516,
+          0
+        ],
+        "edited_knob": [
+          55.7999992370605,
+          225,
+          0
+        ],
+        "edited_rotation": 66.9857147761754,
+        "restored": [
+          15.8000001907349,
+          290.100006103516,
+          0
+        ]
+      },
+      "native_formula_max_error": 2.8421709430404e-14,
+      "native_projection_max_error": 3.61512292182294,
+      "movie_knob_max_error": 0.7019647122462942,
+      "blur_control": {
+        "on_edge_energy": 76019,
+        "off_edge_energy": 125706,
+        "mean_luma_difference": 1.1933689024390244
+      },
+      "checks": {
+        "full_movie": true,
+        "all_knob_frames": true,
+        "rendered_knob_trajectory": true,
+        "rendered_knob_motion": true,
+        "native_reopened": true,
+        "native_expression_errors": true,
+        "native_formula_trace": true,
+        "native_boundary_samples": true,
+        "native_3d_camera": true,
+        "native_projection_observations": true,
+        "native_blur_enabled": true,
+        "actual_blur_control_differs": true
+      },
+      "native_png_count": 12,
+      "visual_review": "All12 selected native PNGs viewed in320pixel contact sheets; five baseline PNGs also inspected full size",
+      "course_human_review": "not_requested"
+    },
+    {
+      "case": "boundary-original-001",
+      "directory": "samples/course2-rotation-001/boundary-original-001",
+      "project_sha256": "461253d3ad351702a9e77c7b51eed909feb39e020bead1611781895bc3276f94",
+      "video_sha256": "a5bd45f9c3097c5056affb11f08f1bcfae3ade29ff568de8bb013bbb4a3023a9",
+      "frames": 90,
+      "native_reopened": true,
+      "native_edit": {
+        "original": [
+          60,
+          290.100006103516,
+          0
+        ],
+        "edited_raw": [
+          100,
+          320.100006103516,
+          0
+        ],
+        "edited_knob": [
+          100,
+          225,
+          0
+        ],
+        "edited_rotation": 38.5714285714286,
+        "restored": [
+          60,
+          290.100006103516,
+          0
+        ]
+      },
+      "native_formula_max_error": 0,
+      "native_projection_max_error": 3.61512292182294,
+      "movie_knob_max_error": 0.5013438416960128,
+      "blur_control": {
+        "on_edge_energy": 83607,
+        "off_edge_energy": 142503,
+        "mean_luma_difference": 2.753810975609756
+      },
+      "checks": {
+        "full_movie": true,
+        "all_knob_frames": true,
+        "rendered_knob_trajectory": true,
+        "rendered_knob_motion": true,
+        "native_reopened": true,
+        "native_expression_errors": true,
+        "native_formula_trace": true,
+        "native_boundary_samples": true,
+        "native_3d_camera": true,
+        "native_projection_observations": true,
+        "native_blur_enabled": true,
+        "actual_blur_control_differs": true
+      },
+      "native_png_count": 12,
+      "visual_review": "All12 selected native PNGs viewed in320pixel contact sheets; five baseline PNGs also inspected full size",
+      "course_human_review": "not_requested"
+    },
+    {
+      "case": "boundary-repaired-001",
+      "directory": "samples/course2-rotation-001/boundary-repaired-001",
+      "project_sha256": "0e7f493eabf047b396306932863c09dc7add338719b9bd7461e4c281cc9253e4",
+      "video_sha256": "58be12a85b7ca7829c4eff819dd67c7dc51e38c7b92c0c4a47f9ec4db4ef940d",
+      "frames": 90,
+      "native_reopened": true,
+      "native_edit": {
+        "original": [
+          60,
+          290.100006103516,
+          0
+        ],
+        "edited_raw": [
+          100,
+          320.100006103516,
+          0
+        ],
+        "edited_knob": [
+          100,
+          225,
+          0
+        ],
+        "edited_rotation": 38.5714285714286,
+        "restored": [
+          60,
+          290.100006103516,
+          0
+        ]
+      },
+      "native_formula_max_error": 0,
+      "native_projection_max_error": 3.61512292182294,
+      "movie_knob_max_error": 0.5013438416960128,
+      "blur_control": {
+        "on_edge_energy": 83607,
+        "off_edge_energy": 142503,
+        "mean_luma_difference": 2.753810975609756
+      },
+      "checks": {
+        "full_movie": true,
+        "all_knob_frames": true,
+        "rendered_knob_trajectory": true,
+        "rendered_knob_motion": true,
+        "native_reopened": true,
+        "native_expression_errors": true,
+        "native_formula_trace": true,
+        "native_boundary_samples": true,
+        "native_3d_camera": true,
+        "native_projection_observations": true,
+        "native_blur_enabled": true,
+        "actual_blur_control_differs": true
+      },
+      "native_png_count": 12,
+      "visual_review": "All12 selected native PNGs viewed in320pixel contact sheets; five baseline PNGs also inspected full size",
+      "course_human_review": "not_requested"
+    }
+  ],
+  "delivered_native_cases": 8,
+  "decoded_frames": 720,
+  "selected_native_pngs_viewed": 96,
+  "observed_formulas": {
+    "knob_position": {
+      "text": "a=thisComp.layer(\"控制\").transform.position[0];\nmax_s=300;\nmin_s=20;\nif((a>min_s)&&(a<max_s))\n    [linear(a,min_s,max_s,20,300),225];\nelse\n    if(a>max_s)\n        [max_s,225]\n    else\n        [min_s,225]",
+      "observed_at": [
+        "13:31",
+        "15:00",
+        "15:51"
+      ],
+      "status": "Executed in actual native baseline004 and boundary pair; exact source identity limited to visible expression text"
+    },
+    "text_z_rotation": {
+      "text": "a=thisComp.layer(\"控制\").transform.position[0];\nmax_s=300;\nmin_s=20;\nlinear(a,min_s,max_s,90,-90)",
+      "observed_at": [
+        "15:51"
+      ],
+      "status": "Executed in actual native baseline004 and boundary pair; exact source identity limited to visible expression text"
+    }
+  },
+  "boundary": "Original exact300 returns20 confirmed; >= is a separate repair variant, actual same-input hold movies checked",
+  "parameter_variation": "PLANET65frames plus isolatedCINEMA55frames; other baseline geometry inferred and held fixed",
+  "cross_material": "Three independently generated editable vector fixtures:CAMERAhexagons/STORY1tags/MOTIONstars",
+  "independent_call": {
+    "case": "isolated-001",
+    "copied_skill_only": true,
+    "different_working_directory": true,
+    "actual_native_build_render": true
+  },
+  "native_holdout": "evaluations/course2-p28-rotation-study-001/native-heldout-projection.json",
+  "native_holdout_max_error_design_pixels": 3.74070482577454,
+  "movie_knob_max_error_design_pixels": 0.8611435112294004,
+  "negative_control": "samples/course2-rotation-001/baseline-004/negative-frozen.json rejects trajectory/motion",
+  "media_audit": "reports/native-media-dependencies-course2-rotation-final.json",
+  "inferred": [
+    "Rounded source first15.8/290.1 and last334.8/292.1, raw fractions unknown",
+    "41frame final end derived from multiple UI positions, not directly read",
+    "Equivalent camera/arc reconstructed from18 source circle positions with pre-existing SciPy/NumPy; not course method or original camera recovery",
+    "900x850 own editable vectors with corneranchor; source Illustrator art/font not retained",
+    "180degree shutter/-90phase are own choices; viewport scale.95/crops approximate"
+  ],
+  "human_review": {
+    "status": "pending",
+    "case": "baseline-004",
+    "video_sha256": "90427fdd86f31b50f5b1405fc83fff8958cf21390ac0b96fbf96713792b91521",
+    "comparison": "cache/reviews/course2-p28-rotation-001/comparison.mp4",
+    "source_interval": "16:24–16:27",
+    "right_side": "Actual native film frames reordered at5fps to follow15 source composition-counter readings; only local spatial review",
+    "continuous_delivery": "samples/course2-rotation-001/baseline-004/final.mp4 untouched90frame keyframe animation",
+    "exact_sync": false
+  },
+  "limitations": [
+    "Six ASCII glyphs, fixed3seconds30fps960x720 only",
+    "Own fixtures do not prove arbitrary Illustrator/image import or arbitrary fonts/nonLatin/number of glyphs",
+    "Fit+heldout projection tests do not prove source camera identity or full pixel/aesthetic fidelity",
+    "All glyph pixels at all video frames are not automatically measured",
+    "Baseline scene exits view at end of rotation; later hold is not an invented return loop"
+  ],
+  "whole_goal_complete": false
+}

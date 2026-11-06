@@ -1,0 +1,227 @@
+{
+  "additional_views": 34,
+  "initial_views": 33,
+  "total": 67,
+  "source_images_distributed": false,
+  "frames": [
+    {
+      "path": "cache/watch/watch-nqmd6ps0/frames/cue_0000.jpg",
+      "sha256": "cd2eb4015b7b0cacbdb58d8c086d457157f565ee6d51303a279d8a4b65ad666e",
+      "viewed": true,
+      "kind": "13technical_cues"
+    },
+    {
+      "path": "cache/watch/watch-nqmd6ps0/frames/cue_0001.jpg",
+      "sha256": "1ffe5f6d8c56d8e2e3ec6d8c6424119bdcb4561b2d5b423a9330a53f93b7cb03",
+      "viewed": true,
+      "kind": "13technical_cues"
+    },
+    {
+      "path": "cache/watch/watch-nqmd6ps0/frames/cue_0002.jpg",
+      "sha256": "971ce9574f84615ab2f0258e4543535cbc84c900e7819ff144abd68783abaeda",
+      "viewed": true,
+      "kind": "13technical_cues"
+    },
+    {
+      "path": "cache/watch/watch-nqmd6ps0/frames/cue_0003.jpg",
+      "sha256": "d09d5bc17b1f71367650c47a618ce14b8d0b618c3d8081b66e04975209e60c4d",
+      "viewed": true,
+      "kind": "13technical_cues"
+    },
+    {
+      "path": "cache/watch/watch-nqmd6ps0/frames/cue_0004.jpg",
+      "sha256": "bd11b42e0b75a23bc3e4f21c3f62db60f895cc79a0415e700114c4e6a43ac6fc",
+      "viewed": true,
+      "kind": "13technical_cues"
+    },
+    {
+      "path": "cache/watch/watch-nqmd6ps0/frames/cue_0005.jpg",
+      "sha256": "6b66b6704b0de070b33225d8c0f1cc9bdc1726c5b0819e7e8dac0fd13eb5d814",
+      "viewed": true,
+      "kind": "13technical_cues"
+    },
+    {
+      "path": "cache/watch/watch-nqmd6ps0/frames/cue_0006.jpg",
+      "sha256": "b85011b1f4c62f25d20c5245baeff68093652baa4d3ddfb7c4ebc908fecb064d",
+      "viewed": true,
+      "kind": "13technical_cues"
+    },
+    {
+      "path": "cache/watch/watch-nqmd6ps0/frames/cue_0007.jpg",
+      "sha256": "2b7c1fc442baec6f0c896d3623c9238b8b97655669275c817d67ef3ab8071696",
+      "viewed": true,
+      "kind": "13technical_cues"
+    },
+    {
+      "path": "cache/watch/watch-nqmd6ps0/frames/cue_0008.jpg",
+      "sha256": "f68b0a329c718df30acb4597122e5d1cd5bde3226b36bbc27660f2db39faffd7",
+      "viewed": true,
+      "kind": "13technical_cues"
+    },
+    {
+      "path": "cache/watch/watch-nqmd6ps0/frames/cue_0009.jpg",
+      "sha256": "17596172bcbf5a6c69c1efe2dd3fd0482dd8992edefe4acda5977d04cfd8c5f7",
+      "viewed": true,
+      "kind": "13technical_cues"
+    },
+    {
+      "path": "cache/watch/watch-nqmd6ps0/frames/cue_0010.jpg",
+      "sha256": "a62b6d51352f1fd39e1bd120da45c7cddf4f704882a7455a806fb6850e35102d",
+      "viewed": true,
+      "kind": "13technical_cues"
+    },
+    {
+      "path": "cache/watch/watch-nqmd6ps0/frames/cue_0011.jpg",
+      "sha256": "15ad6ec2169770153917044373d6fcc8b07e84fd5adfc825093cfdade00f2cd2",
+      "viewed": true,
+      "kind": "13technical_cues"
+    },
+    {
+      "path": "cache/watch/watch-nqmd6ps0/frames/cue_0012.jpg",
+      "sha256": "e8b48dd2813cbd0d1ec471ff62802ca28185666c17e3f4eb8119680bb73435de",
+      "viewed": true,
+      "kind": "13technical_cues"
+    },
+    {
+      "path": "cache/watch/watch-cy3y6xzy/frames/cue_0000.jpg",
+      "sha256": "0105020ff69989df9f61d40c8b5f707c65ad44f366c71c11e30418ef2aafcc2b",
+      "viewed": true,
+      "kind": "6measurement_crops"
+    },
+    {
+      "path": "cache/watch/watch-cy3y6xzy/frames/cue_0001.jpg",
+      "sha256": "cd2eb4015b7b0cacbdb58d8c086d457157f565ee6d51303a279d8a4b65ad666e",
+      "viewed": true,
+      "kind": "6measurement_crops"
+    },
+    {
+      "path": "cache/watch/watch-cy3y6xzy/frames/cue_0002.jpg",
+      "sha256": "b85011b1f4c62f25d20c5245baeff68093652baa4d3ddfb7c4ebc908fecb064d",
+      "viewed": true,
+      "kind": "6measurement_crops"
+    },
+    {
+      "path": "cache/watch/watch-cy3y6xzy/frames/cue_0003.jpg",
+      "sha256": "f68b0a329c718df30acb4597122e5d1cd5bde3226b36bbc27660f2db39faffd7",
+      "viewed": true,
+      "kind": "6measurement_crops"
+    },
+    {
+      "path": "cache/watch/watch-cy3y6xzy/frames/cue_0004.jpg",
+      "sha256": "44ffe365ab5496664e8f8e52a6643942ececd4f20c344cac29523aa84a49a797",
+      "viewed": true,
+      "kind": "6measurement_crops"
+    },
+    {
+      "path": "cache/watch/watch-cy3y6xzy/frames/cue_0005.jpg",
+      "sha256": "e8b48dd2813cbd0d1ec471ff62802ca28185666c17e3f4eb8119680bb73435de",
+      "viewed": true,
+      "kind": "6measurement_crops"
+    },
+    {
+      "path": "cache/rotation-debug-001/review-source/frame-001.png",
+      "sha256": "1160c2bd2685d1441742af616b68c24c921b35377a27710c99a8de2f6725c995",
+      "viewed": true,
+      "kind": "15fps5_sampling_scene_and_viewer_counter",
+      "note": "Sample buckets in984..987s; fps filter can choose a frame after each nominal bucket start"
+    },
+    {
+      "path": "cache/rotation-debug-001/review-source/frame-002.png",
+      "sha256": "f3e9bf80f31e231335012b846d2ef53e897580775bd57443d62c4ad387438f2e",
+      "viewed": true,
+      "kind": "15fps5_sampling_scene_and_viewer_counter",
+      "note": "Sample buckets in984..987s; fps filter can choose a frame after each nominal bucket start"
+    },
+    {
+      "path": "cache/rotation-debug-001/review-source/frame-003.png",
+      "sha256": "3fdc68a97555c35dd5d61dda3f6d35afca08fea6e5f01541036f05a5b9311f54",
+      "viewed": true,
+      "kind": "15fps5_sampling_scene_and_viewer_counter",
+      "note": "Sample buckets in984..987s; fps filter can choose a frame after each nominal bucket start"
+    },
+    {
+      "path": "cache/rotation-debug-001/review-source/frame-004.png",
+      "sha256": "de9543daffc60857b788f99c9bc9ed5d1a5730709a4a2e2b557eebef25f12ac5",
+      "viewed": true,
+      "kind": "15fps5_sampling_scene_and_viewer_counter",
+      "note": "Sample buckets in984..987s; fps filter can choose a frame after each nominal bucket start"
+    },
+    {
+      "path": "cache/rotation-debug-001/review-source/frame-005.png",
+      "sha256": "ff9b04a25e16dfeedf8e224f4c4652c58f19c7d6979f78ab42f1ad7e33749092",
+      "viewed": true,
+      "kind": "15fps5_sampling_scene_and_viewer_counter",
+      "note": "Sample buckets in984..987s; fps filter can choose a frame after each nominal bucket start"
+    },
+    {
+      "path": "cache/rotation-debug-001/review-source/frame-006.png",
+      "sha256": "be569a05f1db99e4389d7ceb952ed921cd1f36b9dc11c8e7115bd6843564f926",
+      "viewed": true,
+      "kind": "15fps5_sampling_scene_and_viewer_counter",
+      "note": "Sample buckets in984..987s; fps filter can choose a frame after each nominal bucket start"
+    },
+    {
+      "path": "cache/rotation-debug-001/review-source/frame-007.png",
+      "sha256": "a762549fa0db53a928e1c14ff6f0c2351f4b269820805f1b17e139c56712e9d4",
+      "viewed": true,
+      "kind": "15fps5_sampling_scene_and_viewer_counter",
+      "note": "Sample buckets in984..987s; fps filter can choose a frame after each nominal bucket start"
+    },
+    {
+      "path": "cache/rotation-debug-001/review-source/frame-008.png",
+      "sha256": "875960e92939f1d4684ecdadd1259a5f3604fabed8626ccb6d27f04a51bedb6c",
+      "viewed": true,
+      "kind": "15fps5_sampling_scene_and_viewer_counter",
+      "note": "Sample buckets in984..987s; fps filter can choose a frame after each nominal bucket start"
+    },
+    {
+      "path": "cache/rotation-debug-001/review-source/frame-009.png",
+      "sha256": "39cf29a29afb9e9bbaf028da99601ab634a65f4a1e284e5e0fd27be1ee6c0749",
+      "viewed": true,
+      "kind": "15fps5_sampling_scene_and_viewer_counter",
+      "note": "Sample buckets in984..987s; fps filter can choose a frame after each nominal bucket start"
+    },
+    {
+      "path": "cache/rotation-debug-001/review-source/frame-010.png",
+      "sha256": "57250c7b384c26a3f2e5ca38fcc0066e0c1b108abb16ac7afe412342191e9240",
+      "viewed": true,
+      "kind": "15fps5_sampling_scene_and_viewer_counter",
+      "note": "Sample buckets in984..987s; fps filter can choose a frame after each nominal bucket start"
+    },
+    {
+      "path": "cache/rotation-debug-001/review-source/frame-011.png",
+      "sha256": "84e3b217d638355e7c1a3ca2315254480e67707e1a76ea9026f6bd4264db71c8",
+      "viewed": true,
+      "kind": "15fps5_sampling_scene_and_viewer_counter",
+      "note": "Sample buckets in984..987s; fps filter can choose a frame after each nominal bucket start"
+    },
+    {
+      "path": "cache/rotation-debug-001/review-source/frame-012.png",
+      "sha256": "aa85c8b1a95844804ade29ba8167e9ac893d324378637ec69c1fe203f3e3e60f",
+      "viewed": true,
+      "kind": "15fps5_sampling_scene_and_viewer_counter",
+      "note": "Sample buckets in984..987s; fps filter can choose a frame after each nominal bucket start"
+    },
+    {
+      "path": "cache/rotation-debug-001/review-source/frame-013.png",
+      "sha256": "3db1a857ab2e00b00b0948a5163285d97f44e35203ee58f3bd4c591aa4f72bc4",
+      "viewed": true,
+      "kind": "15fps5_sampling_scene_and_viewer_counter",
+      "note": "Sample buckets in984..987s; fps filter can choose a frame after each nominal bucket start"
+    },
+    {
+      "path": "cache/rotation-debug-001/review-source/frame-014.png",
+      "sha256": "5d462d775697f62460a5ad828998f64ba3604492e16dff2da5c2092c05cb9906",
+      "viewed": true,
+      "kind": "15fps5_sampling_scene_and_viewer_counter",
+      "note": "Sample buckets in984..987s; fps filter can choose a frame after each nominal bucket start"
+    },
+    {
+      "path": "cache/rotation-debug-001/review-source/frame-015.png",
+      "sha256": "59745bcf77ffeedcc7d95e896c5c09ea1c6f9826ff187a921888d7819c9c1cd9",
+      "viewed": true,
+      "kind": "15fps5_sampling_scene_and_viewer_counter",
+      "note": "Sample buckets in984..987s; fps filter can choose a frame after each nominal bucket start"
+    }
+  ]
+}

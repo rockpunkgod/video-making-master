@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "same_raw_control_input": true,
+  "stationary300_frames": [
+    15,
+    45
+  ],
+  "original_knob_x": 20,
+  "repaired_knob_x": 300,
+  "original_movie": "a5bd45f9c3097c5056affb11f08f1bcfae3ade29ff568de8bb013bbb4a3023a9",
+  "repaired_movie": "58be12a85b7ca7829c4eff819dd67c7dc51e38c7b92c0c4a47f9ec4db4ef940d",
+  "actual_movie_pixel_checks": "Both90frame rotation-quality reports pass the distinct original/repaired trajectory; not formula-only demonstration",
+  "scope": "Authored diagnostic timeline, not tutorial baseline"
+}

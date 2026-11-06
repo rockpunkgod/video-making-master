@@ -1,0 +1,13 @@
+{
+  "status": "candidate",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=28",
+  "steps": [
+    "Create own editable vector fixture",
+    "Original2D Null drives exact conditional knob position and3D layer ZRotation",
+    "Use two source-value keys and derived final41frame timing",
+    "Native boundary samples,90frame traces, edit/save/reopen/restore",
+    "Native blur on/off stills and actual render"
+  ],
+  "course_fidelity": "Exact original expressions; own artwork and inferred camera must pass visual review separately",
+  "repair_boundary": true
+}

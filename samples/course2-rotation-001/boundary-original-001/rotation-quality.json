@@ -1,0 +1,571 @@
+{
+  "status": "passed",
+  "checks": {
+    "full_movie": true,
+    "all_knob_frames": true,
+    "rendered_knob_trajectory": true,
+    "rendered_knob_motion": true,
+    "native_reopened": true,
+    "native_expression_errors": true,
+    "native_formula_trace": true,
+    "native_boundary_samples": true,
+    "native_3d_camera": true,
+    "native_projection_observations": true,
+    "native_blur_enabled": true,
+    "actual_blur_control_differs": true
+  },
+  "sha256": "a5bd45f9c3097c5056affb11f08f1bcfae3ade29ff568de8bb013bbb4a3023a9",
+  "frames": 90,
+  "max_knob_error_design_pixels": 0.5013438416960128,
+  "knob_span": 280.0,
+  "blur_control": {
+    "on_edge_energy": 83607,
+    "off_edge_energy": 142503,
+    "mean_luma_difference": 2.753810975609756
+  },
+  "measurements": [
+    {
+      "frame": 0,
+      "actual": 59.5,
+      "expected": 60,
+      "error": 0.5
+    },
+    {
+      "frame": 1,
+      "actual": 75.5,
+      "expected": 76.0010406842321,
+      "error": 0.5010406842320947
+    },
+    {
+      "frame": 2,
+      "actual": 91.5,
+      "expected": 92.0002004687066,
+      "error": 0.5002004687065948
+    },
+    {
+      "frame": 3,
+      "actual": 107.5,
+      "expected": 107.999964187518,
+      "error": 0.4999641875180032
+    },
+    {
+      "frame": 4,
+      "actual": 123.5,
+      "expected": 124.000663856536,
+      "error": 0.5006638565359935
+    },
+    {
+      "frame": 5,
+      "actual": 139.5,
+      "expected": 140.001343841696,
+      "error": 0.5013438416960128
+    },
+    {
+      "frame": 6,
+      "actual": 155.5,
+      "expected": 156.000270275787,
+      "error": 0.5002702757869883
+    },
+    {
+      "frame": 7,
+      "actual": 171.5,
+      "expected": 171.999943550505,
+      "error": 0.4999435505050087
+    },
+    {
+      "frame": 8,
+      "actual": 187.5,
+      "expected": 187.996559502176,
+      "error": 0.4965595021760123
+    },
+    {
+      "frame": 9,
+      "actual": 203.5,
+      "expected": 203.998094418468,
+      "error": 0.49809441846801406
+    },
+    {
+      "frame": 10,
+      "actual": 219.5,
+      "expected": 219.999016692402,
+      "error": 0.49901669240199453
+    },
+    {
+      "frame": 11,
+      "actual": 235.5,
+      "expected": 235.99999126285,
+      "error": 0.4999912628499885
+    },
+    {
+      "frame": 12,
+      "actual": 251.5,
+      "expected": 251.999208485061,
+      "error": 0.4992084850609899
+    },
+    {
+      "frame": 13,
+      "actual": 267.5,
+      "expected": 267.99998717258,
+      "error": 0.49998717258000624
+    },
+    {
+      "frame": 14,
+      "actual": 283.5,
+      "expected": 283.999997044213,
+      "error": 0.4999970442129893
+    },
+    {
+      "frame": 15,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 16,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 17,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 18,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 19,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 20,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 21,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 22,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 23,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 24,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 25,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 26,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 27,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 28,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 29,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 30,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 31,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 32,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 33,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 34,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 35,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 36,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 37,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 38,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 39,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 40,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 41,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 42,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 43,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 44,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 45,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 46,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 47,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 48,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 49,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 50,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 51,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 52,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 53,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 54,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 55,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 56,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 57,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 58,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 59,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 60,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 61,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 62,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 63,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 64,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 65,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 66,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 67,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 68,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 69,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 70,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 71,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 72,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 73,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 74,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 75,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 76,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 77,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 78,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 79,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 80,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 81,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 82,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 83,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 84,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 85,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 86,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 87,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 88,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 89,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    }
+  ],
+  "errors": [],
+  "course_fidelity": "Not accepted; calibration observations are not held-out validation, source shutter unread",
+  "scope": "Movie knob pixels and real native blur controls; 3D formulas/projection use native property and toComp evidence, not pixel proof for every glyph"
+}

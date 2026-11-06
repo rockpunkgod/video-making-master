@@ -1,0 +1,27 @@
+{
+  "source_interval_seconds": [
+    984,
+    987
+  ],
+  "sampling_fps": 5,
+  "native_frame_ids": [
+    25,
+    25,
+    25,
+    24,
+    15,
+    15,
+    16,
+    16,
+    21,
+    23,
+    23,
+    23,
+    33,
+    37,
+    37
+  ],
+  "observations": "Read visible composition viewer counter of15 actual sampled source frames; source UI lags and subframe blur can differ",
+  "purpose": "Local spatial comparison only; original native90frame project/film untouched",
+  "exact_sync": false
+}

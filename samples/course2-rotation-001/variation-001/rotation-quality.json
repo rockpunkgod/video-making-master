@@ -1,0 +1,571 @@
+{
+  "status": "passed",
+  "checks": {
+    "full_movie": true,
+    "all_knob_frames": true,
+    "rendered_knob_trajectory": true,
+    "rendered_knob_motion": true,
+    "native_reopened": true,
+    "native_expression_errors": true,
+    "native_formula_trace": true,
+    "native_boundary_samples": true,
+    "native_3d_camera": true,
+    "native_projection_observations": true,
+    "native_blur_enabled": true,
+    "actual_blur_control_differs": true
+  },
+  "sha256": "38e11ff541d49b798f4821ef63293bc2875da74c0dd278cd51e7e808d8b62499",
+  "frames": 90,
+  "max_knob_error_design_pixels": 0.8398588269580003,
+  "knob_span": 280.0,
+  "blur_control": {
+    "on_edge_energy": 106675,
+    "off_edge_energy": 136842,
+    "mean_luma_difference": 0.6906859756097561
+  },
+  "measurements": [
+    {
+      "frame": 0,
+      "actual": 19.5,
+      "expected": 20,
+      "error": 0.5
+    },
+    {
+      "frame": 1,
+      "actual": 20.5,
+      "expected": 20.7074867322594,
+      "error": 0.20748673225940095
+    },
+    {
+      "frame": 2,
+      "actual": 25.0,
+      "expected": 25.6155125770053,
+      "error": 0.6155125770053012
+    },
+    {
+      "frame": 3,
+      "actual": 30.0,
+      "expected": 30.523471738138,
+      "error": 0.5234717381379994
+    },
+    {
+      "frame": 4,
+      "actual": 35.0,
+      "expected": 35.4315646942065,
+      "error": 0.4315646942065001
+    },
+    {
+      "frame": 5,
+      "actual": 39.5,
+      "expected": 40.339858826958,
+      "error": 0.8398588269580003
+    },
+    {
+      "frame": 6,
+      "actual": 44.5,
+      "expected": 45.246124458364,
+      "error": 0.746124458364001
+    },
+    {
+      "frame": 7,
+      "actual": 49.5,
+      "expected": 50.1541528349558,
+      "error": 0.6541528349558021
+    },
+    {
+      "frame": 8,
+      "actual": 54.5,
+      "expected": 55.0614998502234,
+      "error": 0.5614998502233988
+    },
+    {
+      "frame": 9,
+      "actual": 59.5,
+      "expected": 59.9695115071273,
+      "error": 0.46951150712730083
+    },
+    {
+      "frame": 10,
+      "actual": 64.5,
+      "expected": 64.8768688109894,
+      "error": 0.37686881098939295
+    },
+    {
+      "frame": 11,
+      "actual": 69.5,
+      "expected": 69.78500730754,
+      "error": 0.28500730753999903
+    },
+    {
+      "frame": 12,
+      "actual": 74.5,
+      "expected": 74.692703843303,
+      "error": 0.1927038433029935
+    },
+    {
+      "frame": 13,
+      "actual": 79.0,
+      "expected": 79.5999501104258,
+      "error": 0.5999501104257945
+    },
+    {
+      "frame": 14,
+      "actual": 84.0,
+      "expected": 84.5083094500855,
+      "error": 0.5083094500855054
+    },
+    {
+      "frame": 15,
+      "actual": 89.0,
+      "expected": 89.4171183074766,
+      "error": 0.41711830747659917
+    },
+    {
+      "frame": 16,
+      "actual": 94.0,
+      "expected": 94.3250921755887,
+      "error": 0.3250921755886935
+    },
+    {
+      "frame": 17,
+      "actual": 98.5,
+      "expected": 99.2320304635806,
+      "error": 0.7320304635805996
+    },
+    {
+      "frame": 18,
+      "actual": 103.5,
+      "expected": 104.138643638531,
+      "error": 0.6386436385309935
+    },
+    {
+      "frame": 19,
+      "actual": 108.5,
+      "expected": 109.046324038739,
+      "error": 0.5463240387390016
+    },
+    {
+      "frame": 20,
+      "actual": 113.5,
+      "expected": 113.9548637456,
+      "error": 0.45486374559999376
+    },
+    {
+      "frame": 21,
+      "actual": 118.5,
+      "expected": 118.86321098149,
+      "error": 0.3632109814899991
+    },
+    {
+      "frame": 22,
+      "actual": 123.5,
+      "expected": 123.770955654288,
+      "error": 0.2709556542880023
+    },
+    {
+      "frame": 23,
+      "actual": 128.5,
+      "expected": 128.678095252609,
+      "error": 0.17809525260901182
+    },
+    {
+      "frame": 24,
+      "actual": 133.0,
+      "expected": 133.584976445249,
+      "error": 0.5849764452489978
+    },
+    {
+      "frame": 25,
+      "actual": 138.0,
+      "expected": 138.492244071982,
+      "error": 0.49224407198198605
+    },
+    {
+      "frame": 26,
+      "actual": 143.0,
+      "expected": 143.400354473182,
+      "error": 0.4003544731820057
+    },
+    {
+      "frame": 27,
+      "actual": 147.5,
+      "expected": 148.308510092767,
+      "error": 0.8085100927669941
+    },
+    {
+      "frame": 28,
+      "actual": 152.5,
+      "expected": 153.216398912292,
+      "error": 0.7163989122919929
+    },
+    {
+      "frame": 29,
+      "actual": 157.5,
+      "expected": 158.123891119305,
+      "error": 0.6238911193050001
+    },
+    {
+      "frame": 30,
+      "actual": 162.5,
+      "expected": 163.030972653214,
+      "error": 0.5309726532140076
+    },
+    {
+      "frame": 31,
+      "actual": 167.5,
+      "expected": 167.937717811723,
+      "error": 0.4377178117229903
+    },
+    {
+      "frame": 32,
+      "actual": 172.5,
+      "expected": 172.844263102204,
+      "error": 0.34426310220399614
+    },
+    {
+      "frame": 33,
+      "actual": 177.5,
+      "expected": 177.750781964416,
+      "error": 0.25078196441600653
+    },
+    {
+      "frame": 34,
+      "actual": 182.5,
+      "expected": 182.657460007917,
+      "error": 0.15746000791699544
+    },
+    {
+      "frame": 35,
+      "actual": 187.0,
+      "expected": 187.564470417459,
+      "error": 0.5644704174590061
+    },
+    {
+      "frame": 36,
+      "actual": 192.0,
+      "expected": 192.47194918288,
+      "error": 0.471949182879996
+    },
+    {
+      "frame": 37,
+      "actual": 197.0,
+      "expected": 197.379969806604,
+      "error": 0.37996980660400936
+    },
+    {
+      "frame": 38,
+      "actual": 201.5,
+      "expected": 202.288517131751,
+      "error": 0.7885171317510071
+    },
+    {
+      "frame": 39,
+      "actual": 206.5,
+      "expected": 207.197459916721,
+      "error": 0.6974599167209874
+    },
+    {
+      "frame": 40,
+      "actual": 211.5,
+      "expected": 212.106521757497,
+      "error": 0.6065217574970063
+    },
+    {
+      "frame": 41,
+      "actual": 216.5,
+      "expected": 217.015249926048,
+      "error": 0.5152499260479999
+    },
+    {
+      "frame": 42,
+      "actual": 221.5,
+      "expected": 221.922954637111,
+      "error": 0.42295463711099046
+    },
+    {
+      "frame": 43,
+      "actual": 226.5,
+      "expected": 226.829775651229,
+      "error": 0.3297756512289993
+    },
+    {
+      "frame": 44,
+      "actual": 231.5,
+      "expected": 231.736620577144,
+      "error": 0.2366205771440093
+    },
+    {
+      "frame": 45,
+      "actual": 236.5,
+      "expected": 236.644069381566,
+      "error": 0.14406938156599836
+    },
+    {
+      "frame": 46,
+      "actual": 241.0,
+      "expected": 241.552293759256,
+      "error": 0.5522937592560027
+    },
+    {
+      "frame": 47,
+      "actual": 246.0,
+      "expected": 246.46098852411,
+      "error": 0.46098852411000735
+    },
+    {
+      "frame": 48,
+      "actual": 251.0,
+      "expected": 251.369234666448,
+      "error": 0.3692346664479942
+    },
+    {
+      "frame": 49,
+      "actual": 255.5,
+      "expected": 256.27591531757,
+      "error": 0.7759153175700249
+    },
+    {
+      "frame": 50,
+      "actual": 260.5,
+      "expected": 261.182484118958,
+      "error": 0.6824841189579729
+    },
+    {
+      "frame": 51,
+      "actual": 265.5,
+      "expected": 266.09012419673,
+      "error": 0.5901241967300166
+    },
+    {
+      "frame": 52,
+      "actual": 270.5,
+      "expected": 270.998938217289,
+      "error": 0.49893821728898047
+    },
+    {
+      "frame": 53,
+      "actual": 275.5,
+      "expected": 275.907717079992,
+      "error": 0.4077170799919827
+    },
+    {
+      "frame": 54,
+      "actual": 280.5,
+      "expected": 280.81502735831,
+      "error": 0.3150273583099761
+    },
+    {
+      "frame": 55,
+      "actual": 285.5,
+      "expected": 285.722575744538,
+      "error": 0.22257574453800544
+    },
+    {
+      "frame": 56,
+      "actual": 290.5,
+      "expected": 290.630811102816,
+      "error": 0.13081110281598285
+    },
+    {
+      "frame": 57,
+      "actual": 295.0,
+      "expected": 295.538159132499,
+      "error": 0.538159132499004
+    },
+    {
+      "frame": 58,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 59,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 60,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 61,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 62,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 63,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 64,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 65,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 66,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 67,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 68,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 69,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 70,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 71,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 72,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 73,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 74,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 75,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 76,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 77,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 78,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 79,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 80,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 81,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 82,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 83,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 84,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 85,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 86,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 87,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 88,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    },
+    {
+      "frame": 89,
+      "actual": 299.5,
+      "expected": 300,
+      "error": 0.5
+    }
+  ],
+  "errors": [],
+  "course_fidelity": "Not accepted; calibration observations are not held-out validation, source shutter unread",
+  "scope": "Movie knob pixels and real native blur controls; 3D formulas/projection use native property and toComp evidence, not pixel proof for every glyph"
+}

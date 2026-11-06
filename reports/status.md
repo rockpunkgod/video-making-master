@@ -2,7 +2,7 @@
 
 准备/失败证据提交46366ac已核验远端，随后清理262个实验室中间文件（76,348,112字节），1733份交付清单文件SHA未变；保留两份原片供宿主恢复后的实测。外部临时目录联接删除被自动审批以blocked by policy拒绝，联接暂留，未改用其他方法删除；见host-diagnostic-cleanup-scroll-001.json。
 
-第26/27节已实际完成11组原生AEP/视频、1980帧，包含三种图片双方向、越界与独立调用。AE冷启动通过补齐子进程缺失Windows系统环境恢复并冷启动复测；未改系统/授权/安装。ae-advanced-expressions0.8.1仍candidate，课程视觉反馈待答。现保留98组原生交付，总目标仍未完成。见[验证证据](evaluations/course2-p26-p27-scroll-001/summary.json)。
+第28节旋转滑动完成8例原生AEP/视频、720帧及三组新矢量、独立调用、原式300边界与修复对照。18个校准点加两个未参与拟合状态的7个原生投影检查通过；相机/布局和41帧末键仍为明确推定，整体人工反馈待答，ae-advanced-expressions0.9.0保持candidate。现保留106组原生交付，总目标未完成。见evaluations/course2-p28-rotation-study-001/summary.json。
 
 第25节交付99f5b2d已核验远端，随后删除1188个中间文件（3,221,014,716字节）；1724份交付清单文件SHA未变，5个AEP必要媒体与65张原生检查图均保留。仅暂留原课供无声尾段补查及待评审对照；详情见cleanup-applied-course2-magnifier-001.json。
 

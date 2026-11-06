@@ -1,0 +1,41 @@
+{
+  "attempts": [
+    {
+      "case": "baseline-001",
+      "reason": "Native2D Position requires3-component spatial tangents on this host; fixed by using value length",
+      "native_status": "failed",
+      "error": "Error: After Effects错误: 由于参数 2，无法调用“setSpatialTangentsAtKey”。值数组没有 3 元素。",
+      "project_sha256": null,
+      "video_sha256": null,
+      "binary_retained": false
+    },
+    {
+      "case": "baseline-002",
+      "reason": "Stale Comp reference after project reopen; fixed by lookup before receipt",
+      "native_status": "failed",
+      "error": "ReferenceError: 对象无效",
+      "project_sha256": "823732456aae2b7dea5f324e58af2b548edfc9d45d94166bce954b4b31c90f13",
+      "video_sha256": null,
+      "binary_retained": false
+    },
+    {
+      "case": "baseline-003",
+      "reason": "Original camera guess/linear layout visually unlike source; unexpected red fill; replaced by explicit color branches and measured inferred camera",
+      "native_status": "built",
+      "error": null,
+      "project_sha256": "a0053738220fb381c20d7e7498ab19c6774437a8933b8d8c784bba4ca7ff39ef",
+      "video_sha256": "414fc49798338618a3926c897db536a73be22730330c0b4b656bfdc11e01ba96",
+      "binary_retained": false
+    },
+    {
+      "case": "repaired-boundary-001",
+      "reason": "Technically passed but default movie never samples exactly300; duplicate-looking demonstration replaced by actual300hold pair",
+      "native_status": "built",
+      "error": null,
+      "project_sha256": "e0a211f8657f4440d2742ef65525fa1087806ab0715fa9d66a3a5e379f61f448",
+      "video_sha256": "90427fdd86f31b50f5b1405fc83fff8958cf21390ac0b96fbf96713792b91521",
+      "binary_retained": false
+    }
+  ],
+  "retention": "Reports kept, intermediates removed only after published delivery; no unowned Adobe project closed"
+}

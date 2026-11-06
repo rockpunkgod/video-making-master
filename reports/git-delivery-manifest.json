@@ -1,6 +1,14 @@
 {
   "scope": "Standalone video-skills-lab progress snapshot; overall curriculum incomplete",
   "cases": [
+    "samples/course2-rotation-001/baseline-004",
+    "samples/course2-rotation-001/variation-001",
+    "samples/course2-rotation-001/hexagons-001",
+    "samples/course2-rotation-001/tags-001",
+    "samples/course2-rotation-001/stars-001",
+    "samples/course2-rotation-001/isolated-001",
+    "samples/course2-rotation-001/boundary-original-001",
+    "samples/course2-rotation-001/boundary-repaired-001",
     "samples/course2-scroll-001/horizontal-001",
     "samples/course2-scroll-001/horizontal-grid-001",
     "samples/course2-scroll-001/horizontal-map-001",
@@ -957,9 +965,29 @@
       "sha256": "de986b62d900270f609d17b69f2223d7c6191483d206fbbd55ccb30a2878bc91"
     },
     {
+      "path": "evaluations/course2-p28-rotation-study-001/boundary-video-check.json",
+      "bytes": 550,
+      "sha256": "7415f2519976af1ff16d77b7ebd968113489ad99b7b213a3d4aff2647819a444"
+    },
+    {
+      "path": "evaluations/course2-p28-rotation-study-001/fit_projection.py",
+      "bytes": 3582,
+      "sha256": "5614b46030874d47f4b6c02e5120425b62eedc346017c3ce347e623ad1d62193"
+    },
+    {
+      "path": "evaluations/course2-p28-rotation-study-001/frame-provenance-additional.json",
+      "bytes": 9761,
+      "sha256": "9d8861572efb5b4da8373893c0ee6ee8972374bcae52b0aa531685d76cc3c0c0"
+    },
+    {
       "path": "evaluations/course2-p28-rotation-study-001/frame-provenance.json",
       "bytes": 8465,
       "sha256": "0828c3100d845f0dfa7f2a72b09b3c89b6f8c2c291a8c2fc8a4834fde39b1eec"
+    },
+    {
+      "path": "evaluations/course2-p28-rotation-study-001/heldout-projection-observations.json",
+      "bytes": 3178,
+      "sha256": "7cc07619cc530356f033d2b791500b95d82f391045b166246b999f0fc6b4f5d7"
     },
     {
       "path": "evaluations/course2-p28-rotation-study-001/host-short-path.json",
@@ -967,9 +995,39 @@
       "sha256": "a335238f3db03fd7f50f336a17d5d9fdca42a19f36088b9a957813d0f143c98e"
     },
     {
+      "path": "evaluations/course2-p28-rotation-study-001/native-heldout-projection.json",
+      "bytes": 1286,
+      "sha256": "1ecdc2981f9ea103769caf7f2959525dbbf96bc17f2380dc9df591eed65b3090"
+    },
+    {
+      "path": "evaluations/course2-p28-rotation-study-001/projection-fit.json",
+      "bytes": 6100,
+      "sha256": "c950df225251f3c3548f91ddb490209d5bbea3695e52b4d36d9a7727997b51fc"
+    },
+    {
+      "path": "evaluations/course2-p28-rotation-study-001/rejected-attempts.json",
+      "bytes": 1860,
+      "sha256": "986f9d443df0fed4c11db2fae9fd891f4150fa36d458e3a57c6488771daf6547"
+    },
+    {
+      "path": "evaluations/course2-p28-rotation-study-001/scrub-frame-map.json",
+      "bytes": 508,
+      "sha256": "7af399eb1b25e3d351bc6019889718c39ad77db960a3b5914ce3bf9d855d3bdd"
+    },
+    {
+      "path": "evaluations/course2-p28-rotation-study-001/source-circle-detection.json",
+      "bytes": 7699,
+      "sha256": "79c746f787026efb0d09d5e6ffdaca9dd26d398d1160c7b98000181055f2cbd7"
+    },
+    {
+      "path": "evaluations/course2-p28-rotation-study-001/source-study-initial.json",
+      "bytes": 4131,
+      "sha256": "5d5b4b5c8b55ebafadfbcfeb567fb0ff4c5d9a96f9d59bce0881f178d3efa9a4"
+    },
+    {
       "path": "evaluations/course2-p28-rotation-study-001/summary.json",
-      "bytes": 4208,
-      "sha256": "169c36d381dc1133105b8afc4c2cba845e3cea92a4e61dd2919cbeabe8e3c28d"
+      "bytes": 4164,
+      "sha256": "5ca5b29d050a23801fda04829af6fd737215c88f8f354cb92d74cf16f3ae3896"
     },
     {
       "path": "evaluations/first-skill.json",
@@ -7351,6 +7409,771 @@
       "sha256": "acc885500b7f53161aba490e280793cde784bc6585e8c353d5cfa2207b36d052"
     },
     {
+      "path": "samples/course2-rotation-001/baseline-004/final.mp4",
+      "bytes": 54409,
+      "sha256": "90427fdd86f31b50f5b1405fc83fff8958cf21390ac0b96fbf96713792b91521"
+    },
+    {
+      "path": "samples/course2-rotation-001/baseline-004/native-control-blur-off.png",
+      "bytes": 38656,
+      "sha256": "86aa581adb289062a28782430f1affe6bcd04a17fa78db1d9555368d0c028879"
+    },
+    {
+      "path": "samples/course2-rotation-001/baseline-004/native-control-blur-on.png",
+      "bytes": 39986,
+      "sha256": "ce01157d4cf0a319f1a43b5d24536513fbe4f7037acac88c32dc973bdde8c87f"
+    },
+    {
+      "path": "samples/course2-rotation-001/baseline-004/native-still-0.png",
+      "bytes": 15360,
+      "sha256": "9bb25cb49bbd58aaa4f0b4afc318e21751f73eb81c71e9fe63be67edd0b7b534"
+    },
+    {
+      "path": "samples/course2-rotation-001/baseline-004/native-still-10.png",
+      "bytes": 24590,
+      "sha256": "5dbeffb31eca88e146ad3dcb3614ac86e4b8c8f7c14e57ca7d48d1d5751c6ac7"
+    },
+    {
+      "path": "samples/course2-rotation-001/baseline-004/native-still-12.png",
+      "bytes": 28201,
+      "sha256": "6c049d62e64e86eb407e9a18c072716ef08dfba1621e96b164f9edea8398fdad"
+    },
+    {
+      "path": "samples/course2-rotation-001/baseline-004/native-still-20.png",
+      "bytes": 39986,
+      "sha256": "ce01157d4cf0a319f1a43b5d24536513fbe4f7037acac88c32dc973bdde8c87f"
+    },
+    {
+      "path": "samples/course2-rotation-001/baseline-004/native-still-25.png",
+      "bytes": 36465,
+      "sha256": "ad6574ff207d5327083ea22284ab2dda1ba7425a8685d9662dc62eae42dce76c"
+    },
+    {
+      "path": "samples/course2-rotation-001/baseline-004/native-still-29.png",
+      "bytes": 25696,
+      "sha256": "6a7b146a8e9a72874605f50bed2acc85879f9782ac9e04dd56fbd5320dab4491"
+    },
+    {
+      "path": "samples/course2-rotation-001/baseline-004/native-still-40.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/baseline-004/native-still-41.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/baseline-004/native-still-5.png",
+      "bytes": 19328,
+      "sha256": "c7f2d4e6e35aed19c323f55e854f977d7c4ea0c98ee4a50f5dabe5d94fe0dfb0"
+    },
+    {
+      "path": "samples/course2-rotation-001/baseline-004/native-still-89.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/baseline-004/negative-frozen.json",
+      "bytes": 11303,
+      "sha256": "0c8362f97df222e4c911fe25754e75c8eb29b62df4a4ede92ed0205ff1ca4215"
+    },
+    {
+      "path": "samples/course2-rotation-001/baseline-004/plan.json",
+      "bytes": 584,
+      "sha256": "be95bf074486c5c118ef1ab2ed51bb44c182fa68ccb40de7b112f9c2dfa4974a"
+    },
+    {
+      "path": "samples/course2-rotation-001/baseline-004/project.aep",
+      "bytes": 421327,
+      "sha256": "287f8a82bb588a56c97b1d94cb7a4d40626d89eee8d5a4dff158b0fa566e096c"
+    },
+    {
+      "path": "samples/course2-rotation-001/baseline-004/quality.json",
+      "bytes": 1000,
+      "sha256": "0f6b127b4b8f40d5e817aec053fd8418232c9e06002a2ff136854eea71c83897"
+    },
+    {
+      "path": "samples/course2-rotation-001/baseline-004/receipt.json",
+      "bytes": 19088,
+      "sha256": "fd9ece620a94a499e1ea3cae44a515fdb9bd64f7fa12bb59d2a33e25fdee5392"
+    },
+    {
+      "path": "samples/course2-rotation-001/baseline-004/request.json",
+      "bytes": 6679,
+      "sha256": "755f4cd0faf340f2adf50e29ab3ff16b51c3bd2f9f7e439a5836d5bb3592b3f7"
+    },
+    {
+      "path": "samples/course2-rotation-001/baseline-004/rotation-quality.json",
+      "bytes": 11363,
+      "sha256": "6fd748eb8ba171be1778c731569ba04d15d0d75ebde6259989ee4b9d6d4bcd2c"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-original-001/final.mp4",
+      "bytes": 35362,
+      "sha256": "a5bd45f9c3097c5056affb11f08f1bcfae3ade29ff568de8bb013bbb4a3023a9"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-original-001/native-control-blur-off.png",
+      "bytes": 32516,
+      "sha256": "30fd661fc3ccd526a6c485f7fba21d0e8cf662e80e0cdac52a00385ff51dbe35"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-original-001/native-control-blur-on.png",
+      "bytes": 40998,
+      "sha256": "8259102cd3a2f907f9bef608bcc1ff5be3a4bc25a2c18016414434d2aef087aa"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-original-001/native-still-0.png",
+      "bytes": 21228,
+      "sha256": "25cc6589d2a9f2173c742ef69ce6bfed81a63ab41a7d50b6efa63e8318b3cb2f"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-original-001/native-still-10.png",
+      "bytes": 41749,
+      "sha256": "c3b4b08f41dc73df15ae77b8f336187543b0935c8e92ebe31654a1db222fc964"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-original-001/native-still-12.png",
+      "bytes": 27844,
+      "sha256": "7ccf148122482eb309303c7b3b20730432b615511087264ac02224758fe24d73"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-original-001/native-still-20.png",
+      "bytes": 4597,
+      "sha256": "b3966f9a7fe7d7743b1d2dab73ad1d4c6b6c879db8dfb4fca0edccba03491f56"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-original-001/native-still-25.png",
+      "bytes": 4597,
+      "sha256": "b3966f9a7fe7d7743b1d2dab73ad1d4c6b6c879db8dfb4fca0edccba03491f56"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-original-001/native-still-29.png",
+      "bytes": 4597,
+      "sha256": "b3966f9a7fe7d7743b1d2dab73ad1d4c6b6c879db8dfb4fca0edccba03491f56"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-original-001/native-still-40.png",
+      "bytes": 4597,
+      "sha256": "b3966f9a7fe7d7743b1d2dab73ad1d4c6b6c879db8dfb4fca0edccba03491f56"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-original-001/native-still-41.png",
+      "bytes": 4597,
+      "sha256": "b3966f9a7fe7d7743b1d2dab73ad1d4c6b6c879db8dfb4fca0edccba03491f56"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-original-001/native-still-5.png",
+      "bytes": 40998,
+      "sha256": "8259102cd3a2f907f9bef608bcc1ff5be3a4bc25a2c18016414434d2aef087aa"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-original-001/native-still-89.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-original-001/plan.json",
+      "bytes": 584,
+      "sha256": "be95bf074486c5c118ef1ab2ed51bb44c182fa68ccb40de7b112f9c2dfa4974a"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-original-001/project.aep",
+      "bytes": 421591,
+      "sha256": "461253d3ad351702a9e77c7b51eed909feb39e020bead1611781895bc3276f94"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-original-001/quality.json",
+      "bytes": 1009,
+      "sha256": "272094bc9f70357e50c1ff5b99a6f9b99736df2c5e94c3ea04c7823430a612da"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-original-001/receipt.json",
+      "bytes": 17430,
+      "sha256": "2d2d35bd0f2176bf09ca8dd81b02938f0c03a407f8db6e620bdcd85edab90262"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-original-001/request.json",
+      "bytes": 6861,
+      "sha256": "1be2cc25ac890d8ffc0c1b9f568fb258990b9fe8cf0a3bff84dd9fe596a415f6"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-original-001/rotation-quality.json",
+      "bytes": 10688,
+      "sha256": "c2a9dbe670eefa34c0942f4abe830e1d5b531a79f03fb56439bd582b1d1727fd"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-repaired-001/final.mp4",
+      "bytes": 35421,
+      "sha256": "58be12a85b7ca7829c4eff819dd67c7dc51e38c7b92c0c4a47f9ec4db4ef940d"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-repaired-001/native-control-blur-off.png",
+      "bytes": 32516,
+      "sha256": "30fd661fc3ccd526a6c485f7fba21d0e8cf662e80e0cdac52a00385ff51dbe35"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-repaired-001/native-control-blur-on.png",
+      "bytes": 40998,
+      "sha256": "8259102cd3a2f907f9bef608bcc1ff5be3a4bc25a2c18016414434d2aef087aa"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-repaired-001/native-still-0.png",
+      "bytes": 21228,
+      "sha256": "25cc6589d2a9f2173c742ef69ce6bfed81a63ab41a7d50b6efa63e8318b3cb2f"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-repaired-001/native-still-10.png",
+      "bytes": 41749,
+      "sha256": "c3b4b08f41dc73df15ae77b8f336187543b0935c8e92ebe31654a1db222fc964"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-repaired-001/native-still-12.png",
+      "bytes": 27844,
+      "sha256": "7ccf148122482eb309303c7b3b20730432b615511087264ac02224758fe24d73"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-repaired-001/native-still-20.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-repaired-001/native-still-25.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-repaired-001/native-still-29.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-repaired-001/native-still-40.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-repaired-001/native-still-41.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-repaired-001/native-still-5.png",
+      "bytes": 40998,
+      "sha256": "8259102cd3a2f907f9bef608bcc1ff5be3a4bc25a2c18016414434d2aef087aa"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-repaired-001/native-still-89.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-repaired-001/plan.json",
+      "bytes": 583,
+      "sha256": "97a391ac7b40bc75f9acd367610a40f8e8853da78eda059f4d62ac5e4185092b"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-repaired-001/project.aep",
+      "bytes": 421593,
+      "sha256": "0e7f493eabf047b396306932863c09dc7add338719b9bd7461e4c281cc9253e4"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-repaired-001/quality.json",
+      "bytes": 1009,
+      "sha256": "d8669dec1e3fd4396f897671a307c5f882fbf0113fd152a8a7f3aaa58e9e8550"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-repaired-001/receipt.json",
+      "bytes": 17495,
+      "sha256": "6a4183b8715d0a59e4880bf6d25a39bb0f60483a888c85862d771a6361073df5"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-repaired-001/request.json",
+      "bytes": 6860,
+      "sha256": "1af2678849b9a907393d886c0cf150aebff5ac6d9bfaef0b1381645706170b94"
+    },
+    {
+      "path": "samples/course2-rotation-001/boundary-repaired-001/rotation-quality.json",
+      "bytes": 10750,
+      "sha256": "3b92ea8dccc3f14f8d6a7f9e2fe70788b5442561d5f4a369a3cd46363bfc06ab"
+    },
+    {
+      "path": "samples/course2-rotation-001/hexagons-001/final.mp4",
+      "bytes": 67679,
+      "sha256": "fc50ba4d609f74baabc14576ab2b64e748f00a35fc1aefeaf10b4bfc47c33b2e"
+    },
+    {
+      "path": "samples/course2-rotation-001/hexagons-001/native-control-blur-off.png",
+      "bytes": 54285,
+      "sha256": "f82379d22f91ae3af588572df2d2c29e7235879e1738a1eb68aca29d18e6bad2"
+    },
+    {
+      "path": "samples/course2-rotation-001/hexagons-001/native-control-blur-on.png",
+      "bytes": 73083,
+      "sha256": "685afe93ed82fbb206a49392b134d4030d3ad2d1519cceef8bfe4bea87f09525"
+    },
+    {
+      "path": "samples/course2-rotation-001/hexagons-001/native-still-0.png",
+      "bytes": 20446,
+      "sha256": "8c0435aead318dc0eeb13f4e59f4f7cbb0d7ad8aee805e9d0cddf0e72382b60a"
+    },
+    {
+      "path": "samples/course2-rotation-001/hexagons-001/native-still-10.png",
+      "bytes": 41700,
+      "sha256": "4a68594ef0bfc7a44c5cf744c639418f473991805dcb240e4bc11082c8889c3a"
+    },
+    {
+      "path": "samples/course2-rotation-001/hexagons-001/native-still-12.png",
+      "bytes": 45120,
+      "sha256": "1e4dcf5717385b0b02df7708f109e95c13e75c2420c34e3d6013a1aebb0a5383"
+    },
+    {
+      "path": "samples/course2-rotation-001/hexagons-001/native-still-20.png",
+      "bytes": 73083,
+      "sha256": "685afe93ed82fbb206a49392b134d4030d3ad2d1519cceef8bfe4bea87f09525"
+    },
+    {
+      "path": "samples/course2-rotation-001/hexagons-001/native-still-25.png",
+      "bytes": 67209,
+      "sha256": "325b33102c1720875ef7f4d0cbb7cb86b5dddf61c5f1e374e7aaf5cc908c217b"
+    },
+    {
+      "path": "samples/course2-rotation-001/hexagons-001/native-still-29.png",
+      "bytes": 47741,
+      "sha256": "249e19933368885d78a2dac854b0c250a21d479646c9612844b69427cac71f76"
+    },
+    {
+      "path": "samples/course2-rotation-001/hexagons-001/native-still-40.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/hexagons-001/native-still-41.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/hexagons-001/native-still-5.png",
+      "bytes": 30532,
+      "sha256": "03a5cfe6b914c706504d31b2b6089d95c450824a53ebf85c90f0220064892782"
+    },
+    {
+      "path": "samples/course2-rotation-001/hexagons-001/native-still-89.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/hexagons-001/plan.json",
+      "bytes": 584,
+      "sha256": "be95bf074486c5c118ef1ab2ed51bb44c182fa68ccb40de7b112f9c2dfa4974a"
+    },
+    {
+      "path": "samples/course2-rotation-001/hexagons-001/project.aep",
+      "bytes": 428289,
+      "sha256": "9612e34e1d51fddbddec340939653e3e7be159960c250b4c7af7106b449e62fa"
+    },
+    {
+      "path": "samples/course2-rotation-001/hexagons-001/quality.json",
+      "bytes": 1000,
+      "sha256": "9c825d76e95357470ee05685b19301a00d3e15c502c178aa5dfc86b47720e711"
+    },
+    {
+      "path": "samples/course2-rotation-001/hexagons-001/receipt.json",
+      "bytes": 19089,
+      "sha256": "0c9b0dee7eae8752ab4d824fb60162b722af48efd93a290c881cd38085daac70"
+    },
+    {
+      "path": "samples/course2-rotation-001/hexagons-001/request.json",
+      "bytes": 6679,
+      "sha256": "bbb97f31aa79a9f26cfa66167dd7b8a897717b1d823431e34f7a49d462fe1dba"
+    },
+    {
+      "path": "samples/course2-rotation-001/hexagons-001/rotation-quality.json",
+      "bytes": 11362,
+      "sha256": "40027cb7ca712fedbab81c3c52c1fa4bcaed97c723117f18762636c20f23a3ec"
+    },
+    {
+      "path": "samples/course2-rotation-001/isolated-001/final.mp4",
+      "bytes": 73805,
+      "sha256": "e7b3f0147f77e71a64b1c49a8a5a14fe273904c2f805634858ad499f91c3ecaf"
+    },
+    {
+      "path": "samples/course2-rotation-001/isolated-001/native-control-blur-off.png",
+      "bytes": 47615,
+      "sha256": "717d482dd10d19aea27953fa592f3d7a13c4fc0cf7ac98f0ed48931734aadadc"
+    },
+    {
+      "path": "samples/course2-rotation-001/isolated-001/native-control-blur-on.png",
+      "bytes": 56628,
+      "sha256": "e44aa478c174d38bad6d27258e37d578d292a9378a45e668bd812a64856cf89b"
+    },
+    {
+      "path": "samples/course2-rotation-001/isolated-001/native-still-0.png",
+      "bytes": 19954,
+      "sha256": "1b960cf2cd36545aed0025145ec931c7092039f9d080e8140f5f43ef1226ecdd"
+    },
+    {
+      "path": "samples/course2-rotation-001/isolated-001/native-still-10.png",
+      "bytes": 33430,
+      "sha256": "3c47372ca9c289356be6c905ef9187480bf4092bda98620ddcff339d6747d0ba"
+    },
+    {
+      "path": "samples/course2-rotation-001/isolated-001/native-still-12.png",
+      "bytes": 36641,
+      "sha256": "8f34baa0582caf62e1829e6b6d9ef263a9d6f79ec9ba44e9da081b0e53689b85"
+    },
+    {
+      "path": "samples/course2-rotation-001/isolated-001/native-still-20.png",
+      "bytes": 56628,
+      "sha256": "e44aa478c174d38bad6d27258e37d578d292a9378a45e668bd812a64856cf89b"
+    },
+    {
+      "path": "samples/course2-rotation-001/isolated-001/native-still-25.png",
+      "bytes": 68467,
+      "sha256": "2d128878ccf1a1a42c4c1c0fb9e9baa57f944f261aaf5c6858d0f3ec87abec28"
+    },
+    {
+      "path": "samples/course2-rotation-001/isolated-001/native-still-29.png",
+      "bytes": 66995,
+      "sha256": "e2c7785d69d5dc6033638014c6cb64ac1dc8d96bcd888f4544bd0f0937b85bcc"
+    },
+    {
+      "path": "samples/course2-rotation-001/isolated-001/native-still-40.png",
+      "bytes": 34279,
+      "sha256": "5473662b3eb30ed8421776d795196818cab9a283c9150cf29568cb0964333fe1"
+    },
+    {
+      "path": "samples/course2-rotation-001/isolated-001/native-still-41.png",
+      "bytes": 33073,
+      "sha256": "6eecc3be7f9df700d69e532162f9393d0a8113ac90d2d34dad2f08d775e243c9"
+    },
+    {
+      "path": "samples/course2-rotation-001/isolated-001/native-still-5.png",
+      "bytes": 27851,
+      "sha256": "a54ba8e67c42db8dff8ee139063e6b67f2c1ba96568d8276be5913a9935f0016"
+    },
+    {
+      "path": "samples/course2-rotation-001/isolated-001/native-still-89.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/isolated-001/plan.json",
+      "bytes": 584,
+      "sha256": "be95bf074486c5c118ef1ab2ed51bb44c182fa68ccb40de7b112f9c2dfa4974a"
+    },
+    {
+      "path": "samples/course2-rotation-001/isolated-001/project.aep",
+      "bytes": 428283,
+      "sha256": "870837a61344535ba734a661d30411bf0d8891e1e64ebfff701608e683128380"
+    },
+    {
+      "path": "samples/course2-rotation-001/isolated-001/quality.json",
+      "bytes": 1000,
+      "sha256": "700e4f287dfdb7f6ad55777fca218a0abb5ce39a87276c448794e39f486fd15f"
+    },
+    {
+      "path": "samples/course2-rotation-001/isolated-001/receipt.json",
+      "bytes": 19777,
+      "sha256": "69f63c1f28ec7333b886c5eb507e066354b6e29b378a9f75836dfab3544f9656"
+    },
+    {
+      "path": "samples/course2-rotation-001/isolated-001/request.json",
+      "bytes": 6679,
+      "sha256": "9c1e2844bd682a69b90e663e477ec5a2fc69b8acb8f02cfb271dce6d90219abe"
+    },
+    {
+      "path": "samples/course2-rotation-001/isolated-001/rotation-quality.json",
+      "bytes": 11721,
+      "sha256": "14285335b58ad8d4142b90e600991629f37f6685299aee9edbe82565990c4e97"
+    },
+    {
+      "path": "samples/course2-rotation-001/stars-001/final.mp4",
+      "bytes": 58788,
+      "sha256": "3e925f35b3545d01857fa6db39745f168943d170bc2e07226a8d49d62a6e0c7b"
+    },
+    {
+      "path": "samples/course2-rotation-001/stars-001/native-control-blur-off.png",
+      "bytes": 51928,
+      "sha256": "c26cfe166e9c3c300d2ee189600eb579b04a41cedc8088b5879412aad1372a69"
+    },
+    {
+      "path": "samples/course2-rotation-001/stars-001/native-control-blur-on.png",
+      "bytes": 63397,
+      "sha256": "096bab2cd8f044836bf7c634fd694115f77da2235f9620b1bf70d9e1d5b595d5"
+    },
+    {
+      "path": "samples/course2-rotation-001/stars-001/native-still-0.png",
+      "bytes": 18544,
+      "sha256": "b4ae32ee3228305b03a4daf17b8bffd138c8a2f4e072e694a3de0cc5dc291d96"
+    },
+    {
+      "path": "samples/course2-rotation-001/stars-001/native-still-10.png",
+      "bytes": 37088,
+      "sha256": "033f3c16cdf7b25a804b6eff7b7ad2a53a9c74ab8c18c0bb4deb5e2d79b97dbb"
+    },
+    {
+      "path": "samples/course2-rotation-001/stars-001/native-still-12.png",
+      "bytes": 42907,
+      "sha256": "f76d5849913a47032b850fab759404b4cd534f942ad24adab628407de6a1e9d4"
+    },
+    {
+      "path": "samples/course2-rotation-001/stars-001/native-still-20.png",
+      "bytes": 63397,
+      "sha256": "096bab2cd8f044836bf7c634fd694115f77da2235f9620b1bf70d9e1d5b595d5"
+    },
+    {
+      "path": "samples/course2-rotation-001/stars-001/native-still-25.png",
+      "bytes": 55999,
+      "sha256": "15b615b48a9f163afdb3862423b8da5b4fbdabc0edd9f162c3c16c0cc2f03cf6"
+    },
+    {
+      "path": "samples/course2-rotation-001/stars-001/native-still-29.png",
+      "bytes": 46001,
+      "sha256": "3ffa474672f90f8100713bebda1dc28a7e100306a307fb82eaf29234dc4ba0f1"
+    },
+    {
+      "path": "samples/course2-rotation-001/stars-001/native-still-40.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/stars-001/native-still-41.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/stars-001/native-still-5.png",
+      "bytes": 25981,
+      "sha256": "3b7cc1f26aea25f40ffd5edd2e9bd11ed42c52437fd9a0c00001a55c13e0609c"
+    },
+    {
+      "path": "samples/course2-rotation-001/stars-001/native-still-89.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/stars-001/plan.json",
+      "bytes": 584,
+      "sha256": "be95bf074486c5c118ef1ab2ed51bb44c182fa68ccb40de7b112f9c2dfa4974a"
+    },
+    {
+      "path": "samples/course2-rotation-001/stars-001/project.aep",
+      "bytes": 422969,
+      "sha256": "d2a095e8a8be64e14554067d31112a32be4d77abbec7bcfdd74d3b2bdecf17a0"
+    },
+    {
+      "path": "samples/course2-rotation-001/stars-001/quality.json",
+      "bytes": 997,
+      "sha256": "fee9e79df4ad99f1e22e1b17ba27a0324cd641f97891f6e4a488ddfed622102f"
+    },
+    {
+      "path": "samples/course2-rotation-001/stars-001/receipt.json",
+      "bytes": 19086,
+      "sha256": "2335ce53f238b43094129d995f1dc37296e087f36855e900c8b7c397c3123991"
+    },
+    {
+      "path": "samples/course2-rotation-001/stars-001/request.json",
+      "bytes": 6676,
+      "sha256": "c035df29bfa38604c9ff2821f8b2b34e976a61748653b200b0b33ee9f531c89c"
+    },
+    {
+      "path": "samples/course2-rotation-001/stars-001/rotation-quality.json",
+      "bytes": 11362,
+      "sha256": "082458cea52a73fdb9d7f3272750b6887cdca67bf81932b8a7ad5f26cd67d703"
+    },
+    {
+      "path": "samples/course2-rotation-001/tags-001/final.mp4",
+      "bytes": 79920,
+      "sha256": "544ab6847dc67eaad3431ec8cc4c821b357a9ac67861bc12e46ed9535db1e1ab"
+    },
+    {
+      "path": "samples/course2-rotation-001/tags-001/native-control-blur-off.png",
+      "bytes": 47677,
+      "sha256": "f446091a9d2ea3ea3bd600008d03b0e150a20697f81a7cf45fea9e069f19a870"
+    },
+    {
+      "path": "samples/course2-rotation-001/tags-001/native-control-blur-on.png",
+      "bytes": 63830,
+      "sha256": "0f3044c712a7a4ec5ced6498559f56794a13c212ad49d696d889c8a9ebefd989"
+    },
+    {
+      "path": "samples/course2-rotation-001/tags-001/native-still-0.png",
+      "bytes": 17576,
+      "sha256": "0f525bd9c09ffba63d60e0ef7fb1a8a2253621fa223da034c54d0dc2ab10a2f3"
+    },
+    {
+      "path": "samples/course2-rotation-001/tags-001/native-still-10.png",
+      "bytes": 42134,
+      "sha256": "1dfa17fe760f1d21e359cc51ffabe712d03c384b05a078a10d0520e12c5eff44"
+    },
+    {
+      "path": "samples/course2-rotation-001/tags-001/native-still-12.png",
+      "bytes": 47038,
+      "sha256": "843fd3615ba02ff7612753f9f03d6d3c501512924f2fdb122f2a2a8d264e1ad5"
+    },
+    {
+      "path": "samples/course2-rotation-001/tags-001/native-still-20.png",
+      "bytes": 63830,
+      "sha256": "0f3044c712a7a4ec5ced6498559f56794a13c212ad49d696d889c8a9ebefd989"
+    },
+    {
+      "path": "samples/course2-rotation-001/tags-001/native-still-25.png",
+      "bytes": 69856,
+      "sha256": "79a3513e3d13612221087efeb2e5823e9a9e69730da8718413c6379ca870c525"
+    },
+    {
+      "path": "samples/course2-rotation-001/tags-001/native-still-29.png",
+      "bytes": 48780,
+      "sha256": "e260ea8cd2c9dd8d3b252ae8782b1fc83e9ad7a8a9ecdefba146e4e3a8473d7c"
+    },
+    {
+      "path": "samples/course2-rotation-001/tags-001/native-still-40.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/tags-001/native-still-41.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/tags-001/native-still-5.png",
+      "bytes": 29123,
+      "sha256": "a061efbf1360f35ed43eeac695081044ea4bea857ac65953014c33243a2e1119"
+    },
+    {
+      "path": "samples/course2-rotation-001/tags-001/native-still-89.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/tags-001/plan.json",
+      "bytes": 584,
+      "sha256": "be95bf074486c5c118ef1ab2ed51bb44c182fa68ccb40de7b112f9c2dfa4974a"
+    },
+    {
+      "path": "samples/course2-rotation-001/tags-001/project.aep",
+      "bytes": 423179,
+      "sha256": "4b19b3feaa39eb986aa4fcac08cf9b64fbc4f40a616394d3489e9096e6214197"
+    },
+    {
+      "path": "samples/course2-rotation-001/tags-001/quality.json",
+      "bytes": 996,
+      "sha256": "660e6199e2d70fd7eb7c545deb79de15ec3fc59007f6bbaf7cd1c62eb4459985"
+    },
+    {
+      "path": "samples/course2-rotation-001/tags-001/receipt.json",
+      "bytes": 19085,
+      "sha256": "71fb6b31e4efc034f300f86bf0e9ef43ed33f116099718072ef54cf33daa1299"
+    },
+    {
+      "path": "samples/course2-rotation-001/tags-001/request.json",
+      "bytes": 6675,
+      "sha256": "f28006b6fe376f94fc427620ae9ce3a555fd3da903938b8e05c8ca23f8943bd8"
+    },
+    {
+      "path": "samples/course2-rotation-001/tags-001/rotation-quality.json",
+      "bytes": 11362,
+      "sha256": "e80ce8ea9c4188dd161e3056e1b3b4cce59e7ab1396ccc65821a76bdcd7f3a1c"
+    },
+    {
+      "path": "samples/course2-rotation-001/variation-001/final.mp4",
+      "bytes": 81010,
+      "sha256": "38e11ff541d49b798f4821ef63293bc2875da74c0dd278cd51e7e808d8b62499"
+    },
+    {
+      "path": "samples/course2-rotation-001/variation-001/native-control-blur-off.png",
+      "bytes": 29677,
+      "sha256": "c50ba37305b088fee1ad24993d900a979c1eff229c4c6ce566e6c1a9d254cc68"
+    },
+    {
+      "path": "samples/course2-rotation-001/variation-001/native-control-blur-on.png",
+      "bytes": 30519,
+      "sha256": "e70a1ebb1a3860b3673e7b105cae60b1db3c7fba8156688c9fa158c430ac1d1a"
+    },
+    {
+      "path": "samples/course2-rotation-001/variation-001/native-still-0.png",
+      "bytes": 15393,
+      "sha256": "1e54ed850e91f804abab36c801336b30c95dbe2717cd9b4579c8bb481e265c3d"
+    },
+    {
+      "path": "samples/course2-rotation-001/variation-001/native-still-10.png",
+      "bytes": 20742,
+      "sha256": "41950426722bbc14f4af29962c5daa02629291e2da06108601a9f4e5af572040"
+    },
+    {
+      "path": "samples/course2-rotation-001/variation-001/native-still-12.png",
+      "bytes": 22297,
+      "sha256": "fa6ae0306978fcd392009a2d9f7b7364bdd43f9a29bea4eee91f9b400b8e9796"
+    },
+    {
+      "path": "samples/course2-rotation-001/variation-001/native-still-20.png",
+      "bytes": 30519,
+      "sha256": "e70a1ebb1a3860b3673e7b105cae60b1db3c7fba8156688c9fa158c430ac1d1a"
+    },
+    {
+      "path": "samples/course2-rotation-001/variation-001/native-still-25.png",
+      "bytes": 35237,
+      "sha256": "87366c3436478d7fd7511c3f0955bb5edc85ce93acc2cff06dfeb2ef33deeb27"
+    },
+    {
+      "path": "samples/course2-rotation-001/variation-001/native-still-29.png",
+      "bytes": 38075,
+      "sha256": "145bae42c8a56b8751789c0898c136e6f291226afa27a0fed827f068e5f52130"
+    },
+    {
+      "path": "samples/course2-rotation-001/variation-001/native-still-40.png",
+      "bytes": 37396,
+      "sha256": "94b5df01e19c1b81acba76aefbfdffff9b9fa68f38d7d9c0fbd929da6b11ae3a"
+    },
+    {
+      "path": "samples/course2-rotation-001/variation-001/native-still-41.png",
+      "bytes": 37023,
+      "sha256": "14ee6186c1f35f80d2c8cd52be145a825669bce8a893f20f2309f3695f860739"
+    },
+    {
+      "path": "samples/course2-rotation-001/variation-001/native-still-5.png",
+      "bytes": 17806,
+      "sha256": "445dc1779a6fdf9fd96c581d3ba7c975a299c9c89aa4c1c306b848d31259b8a4"
+    },
+    {
+      "path": "samples/course2-rotation-001/variation-001/native-still-89.png",
+      "bytes": 4594,
+      "sha256": "6eed40a15679167c99fce15b8fbb438ff31059c826eb75e0a95342d94ac30bd4"
+    },
+    {
+      "path": "samples/course2-rotation-001/variation-001/plan.json",
+      "bytes": 584,
+      "sha256": "be95bf074486c5c118ef1ab2ed51bb44c182fa68ccb40de7b112f9c2dfa4974a"
+    },
+    {
+      "path": "samples/course2-rotation-001/variation-001/project.aep",
+      "bytes": 421353,
+      "sha256": "1e2af230970317f8eaf147ce39b369761ce0f7fc5b4f072d4f871f96ec7578c2"
+    },
+    {
+      "path": "samples/course2-rotation-001/variation-001/quality.json",
+      "bytes": 1001,
+      "sha256": "9a1bc820283651d0d49e9ef8d6670a2c09933c88035fffef10a442a58b9f688e"
+    },
+    {
+      "path": "samples/course2-rotation-001/variation-001/receipt.json",
+      "bytes": 20152,
+      "sha256": "931e758c846c54513ad463c7e5bfe481fabaf8687e48617840768845c191e5de"
+    },
+    {
+      "path": "samples/course2-rotation-001/variation-001/request.json",
+      "bytes": 6678,
+      "sha256": "e772400e9ae9b54e7f83e6ec7c3532a4cd99bb869d64b8bd636023cf6be13727"
+    },
+    {
+      "path": "samples/course2-rotation-001/variation-001/rotation-quality.json",
+      "bytes": 11941,
+      "sha256": "67dafbb1680b24d6316623c51aa0dba9803c1393f6d17da50921acf9571000a5"
+    },
+    {
       "path": "samples/course2-scroll-001/horizontal-001/final.mp4",
       "bytes": 1539605,
       "sha256": "151a41ed66e1e611ecd7f23eaa6ef92980b2970854f3200c2d2f404739617f4b"
@@ -9899,5 +10722,5 @@
     "repeated native audio/video exports"
   ],
   "portability": "Native projects retain original Windows media paths. Rebuild from the bundled scripts or relink the bundled inputs/assets; historical report references may point to local-only artifacts.",
-  "total_selected_bytes": 2443869310
+  "total_selected_bytes": 2450985346
 }
