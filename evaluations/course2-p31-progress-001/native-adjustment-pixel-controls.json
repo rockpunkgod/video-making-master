@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "case": "baseline-003",
+      "status": "passed",
+      "measurements": {
+        "title": {
+          "identical": true,
+          "mean_rgb_difference": 0.0
+        },
+        "numbers": {
+          "identical": true,
+          "mean_rgb_difference": 0.0
+        },
+        "bar": {
+          "identical": false,
+          "mean_rgb_difference": 77.41174545454545
+        }
+      }
+    },
+    {
+      "case": "export-001",
+      "status": "passed",
+      "measurements": {
+        "title": {
+          "identical": true,
+          "mean_rgb_difference": 0.0
+        },
+        "numbers": {
+          "identical": true,
+          "mean_rgb_difference": 0.0
+        },
+        "bar": {
+          "identical": false,
+          "mean_rgb_difference": 77.41174545454545
+        }
+      }
+    },
+    {
+      "case": "render-001",
+      "status": "passed",
+      "measurements": {
+        "title": {
+          "identical": true,
+          "mean_rgb_difference": 0.0
+        },
+        "numbers": {
+          "identical": true,
+          "mean_rgb_difference": 0.0
+        },
+        "bar": {
+          "identical": false,
+          "mean_rgb_difference": 77.41174545454545
+        }
+      }
+    },
+    {
+      "case": "sync-001",
+      "status": "passed",
+      "measurements": {
+        "title": {
+          "identical": true,
+          "mean_rgb_difference": 0.0
+        },
+        "numbers": {
+          "identical": true,
+          "mean_rgb_difference": 0.0
+        },
+        "bar": {
+          "identical": false,
+          "mean_rgb_difference": 77.41174545454545
+        }
+      }
+    },
+    {
+      "case": "variation-isolated-002",
+      "status": "passed",
+      "measurements": {
+        "title": {
+          "identical": true,
+          "mean_rgb_difference": 0.0
+        },
+        "numbers": {
+          "identical": true,
+          "mean_rgb_difference": 0.0
+        },
+        "bar": {
+          "identical": false,
+          "mean_rgb_difference": 129.24730909090908
+        }
+      }
+    }
+  ]
+}

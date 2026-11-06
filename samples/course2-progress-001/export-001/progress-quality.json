@@ -1,0 +1,2716 @@
+{
+  "status": "passed",
+  "checks": {
+    "full_movie": true,
+    "bar_geometry": true,
+    "title_pulse": true,
+    "fixed_spatial_gradient": true,
+    "native_numeral_checkpoints": true,
+    "native_reopened": true,
+    "native_formula": true,
+    "no_expression_errors": true,
+    "rawvalue_link_edited": true,
+    "left_anchor": true,
+    "title_font_compensation": true,
+    "separate_adjustment": true,
+    "media": true
+  },
+  "video_sha256": "86a90f4ce56176ba7e28e3b9b6d3dd519c5fc1a54fecaa831d7029091f28a1d4",
+  "frames": 375,
+  "max_bar_error_pixels": 1.6000000000000227,
+  "max_title_opacity_error_percent": 0.9753993400979653,
+  "fixed_point_rgb_drift": {
+    "120": 0.0,
+    "250": 1.799999999999983,
+    "400": 0.20000000000001705,
+    "600": 0.0
+  },
+  "native_numeral_checkpoints": [
+    {
+      "frame": 0,
+      "rgb_mae": 0.6420479302832244
+    },
+    {
+      "frame": 100,
+      "rgb_mae": 1.1583006535947713
+    },
+    {
+      "frame": 150,
+      "rgb_mae": 1.3220479302832244
+    },
+    {
+      "frame": 16,
+      "rgb_mae": 0.7286710239651416
+    },
+    {
+      "frame": 200,
+      "rgb_mae": 1.3869716775599128
+    },
+    {
+      "frame": 249,
+      "rgb_mae": 1.7103485838779957
+    },
+    {
+      "frame": 25,
+      "rgb_mae": 1.0237690631808278
+    },
+    {
+      "frame": 250,
+      "rgb_mae": 1.4968627450980392
+    },
+    {
+      "frame": 275,
+      "rgb_mae": 1.4969281045751635
+    },
+    {
+      "frame": 300,
+      "rgb_mae": 1.4969063180827886
+    },
+    {
+      "frame": 374,
+      "rgb_mae": 1.4968627450980392
+    },
+    {
+      "frame": 50,
+      "rgb_mae": 1.2863834422657952
+    },
+    {
+      "frame": 8,
+      "rgb_mae": 0.652244008714597
+    }
+  ],
+  "errors": [],
+  "measurements": [
+    {
+      "frame": 0,
+      "number_value": 0.0,
+      "bar_right": null,
+      "opacity_measured": 100.0,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 1,
+      "number_value": 0.4,
+      "bar_right": 98,
+      "opacity_measured": 94.07556126677703,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 2,
+      "number_value": 0.8,
+      "bar_right": 100,
+      "opacity_measured": 87.79994263685289,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 3,
+      "number_value": 1.2,
+      "bar_right": 102,
+      "opacity_measured": 81.54397201401106,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 4,
+      "number_value": 1.6,
+      "bar_right": 104,
+      "opacity_measured": 74.78166999026634,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 5,
+      "number_value": 2.0,
+      "bar_right": 106,
+      "opacity_measured": 68.92204709649882,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 6,
+      "number_value": 2.4,
+      "bar_right": 109,
+      "opacity_measured": 62.4375272418489,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 7,
+      "number_value": 2.8000000000000003,
+      "bar_right": 112,
+      "opacity_measured": 56.31096245875612,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 8,
+      "number_value": 3.2,
+      "bar_right": 114,
+      "opacity_measured": 49.69658508603343,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 9,
+      "number_value": 3.6,
+      "bar_right": 116,
+      "opacity_measured": 56.308252388813735,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 10,
+      "number_value": 4.0,
+      "bar_right": 118,
+      "opacity_measured": 62.45830444474054,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 11,
+      "number_value": 4.4,
+      "bar_right": 120,
+      "opacity_measured": 68.93243569794464,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 12,
+      "number_value": 4.8,
+      "bar_right": 122,
+      "opacity_measured": 74.77150722798237,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 13,
+      "number_value": 5.2,
+      "bar_right": 124,
+      "opacity_measured": 81.40169334203567,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 14,
+      "number_value": 5.6000000000000005,
+      "bar_right": 126,
+      "opacity_measured": 87.60685015345771,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 15,
+      "number_value": 6.0,
+      "bar_right": 128,
+      "opacity_measured": 93.82758986704849,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 16,
+      "number_value": 6.4,
+      "bar_right": 131,
+      "opacity_measured": 99.72221783090518,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 17,
+      "number_value": 6.8,
+      "bar_right": 134,
+      "opacity_measured": 93.88563053164798,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 18,
+      "number_value": 7.2,
+      "bar_right": 136,
+      "opacity_measured": 87.9934867985718,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 19,
+      "number_value": 7.6,
+      "bar_right": 138,
+      "opacity_measured": 81.41614704839508,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 20,
+      "number_value": 8.0,
+      "bar_right": 140,
+      "opacity_measured": 75.33587929348477,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 21,
+      "number_value": 8.4,
+      "bar_right": 142,
+      "opacity_measured": 68.59593534676475,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 22,
+      "number_value": 8.8,
+      "bar_right": 144,
+      "opacity_measured": 62.33589961900933,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 23,
+      "number_value": 9.2,
+      "bar_right": 146,
+      "opacity_measured": 56.35161350789195,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 24,
+      "number_value": 9.6,
+      "bar_right": 148,
+      "opacity_measured": 49.96126858374003,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 25,
+      "number_value": 10.0,
+      "bar_right": 150,
+      "opacity_measured": 56.35274270370128,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 26,
+      "number_value": 10.4,
+      "bar_right": 153,
+      "opacity_measured": 62.33206035325762,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 27,
+      "number_value": 10.8,
+      "bar_right": 156,
+      "opacity_measured": 68.8728141592121,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 28,
+      "number_value": 11.200000000000001,
+      "bar_right": 158,
+      "opacity_measured": 74.83609722827596,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 29,
+      "number_value": 11.599999999999998,
+      "bar_right": 160,
+      "opacity_measured": 81.14446253667063,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 30,
+      "number_value": 12.0,
+      "bar_right": 162,
+      "opacity_measured": 87.01605490601703,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 31,
+      "number_value": 12.4,
+      "bar_right": 164,
+      "opacity_measured": 93.57058490084532,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 32,
+      "number_value": 12.8,
+      "bar_right": 166,
+      "opacity_measured": 99.85478541892036,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 33,
+      "number_value": 13.2,
+      "bar_right": 168,
+      "opacity_measured": 93.57058490084532,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 34,
+      "number_value": 13.6,
+      "bar_right": 170,
+      "opacity_measured": 87.00882805283733,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 35,
+      "number_value": 14.0,
+      "bar_right": 172,
+      "opacity_measured": 81.16365886542921,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 36,
+      "number_value": 14.4,
+      "bar_right": 175,
+      "opacity_measured": 74.98899034085905,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 37,
+      "number_value": 14.8,
+      "bar_right": 177,
+      "opacity_measured": 69.03135325084182,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 38,
+      "number_value": 15.2,
+      "bar_right": 180,
+      "opacity_measured": 62.522442766710405,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 39,
+      "number_value": 15.6,
+      "bar_right": 182,
+      "opacity_measured": 56.41530015153808,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 40,
+      "number_value": 16.0,
+      "bar_right": 184,
+      "opacity_measured": 49.70584449166992,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 41,
+      "number_value": 16.4,
+      "bar_right": 186,
+      "opacity_measured": 56.41552599069994,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 42,
+      "number_value": 16.8,
+      "bar_right": 188,
+      "opacity_measured": 62.54141325630712,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 43,
+      "number_value": 17.2,
+      "bar_right": 190,
+      "opacity_measured": 69.02796566341382,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 44,
+      "number_value": 17.6,
+      "bar_right": 192,
+      "opacity_measured": 74.97385911701404,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 45,
+      "number_value": 18.0,
+      "bar_right": 194,
+      "opacity_measured": 81.48367295779292,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 46,
+      "number_value": 18.4,
+      "bar_right": 197,
+      "opacity_measured": 87.68047372022593,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 47,
+      "number_value": 18.8,
+      "bar_right": 200,
+      "opacity_measured": 93.89172818901835,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 48,
+      "number_value": 19.2,
+      "bar_right": 202,
+      "opacity_measured": 99.75293195691893,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 49,
+      "number_value": 19.6,
+      "bar_right": 204,
+      "opacity_measured": 93.89150234985648,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 50,
+      "number_value": 20.0,
+      "bar_right": 206,
+      "opacity_measured": 87.68611969927257,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 51,
+      "number_value": 20.4,
+      "bar_right": 208,
+      "opacity_measured": 81.48683470605904,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 52,
+      "number_value": 20.8,
+      "bar_right": 210,
+      "opacity_measured": 74.95421110993173,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 53,
+      "number_value": 21.2,
+      "bar_right": 212,
+      "opacity_measured": 68.66707468275244,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 54,
+      "number_value": 21.6,
+      "bar_right": 214,
+      "opacity_measured": 62.43007454950733,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 55,
+      "number_value": 22.000000000000004,
+      "bar_right": 216,
+      "opacity_measured": 56.43562567610599,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 56,
+      "number_value": 22.400000000000002,
+      "bar_right": 219,
+      "opacity_measured": 50.010501521026754,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 57,
+      "number_value": 22.799999999999997,
+      "bar_right": 221,
+      "opacity_measured": 56.42094613058472,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 58,
+      "number_value": 23.199999999999996,
+      "bar_right": 224,
+      "opacity_measured": 62.39394028360882,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 59,
+      "number_value": 23.6,
+      "bar_right": 226,
+      "opacity_measured": 68.93627496369635,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 60,
+      "number_value": 24.0,
+      "bar_right": 228,
+      "opacity_measured": 74.91265670414845,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 61,
+      "number_value": 24.4,
+      "bar_right": 230,
+      "opacity_measured": 81.20363239707945,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 62,
+      "number_value": 24.8,
+      "bar_right": 232,
+      "opacity_measured": 87.01831329763569,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 63,
+      "number_value": 25.2,
+      "bar_right": 234,
+      "opacity_measured": 93.5825543764242,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 64,
+      "number_value": 25.6,
+      "bar_right": 236,
+      "opacity_measured": 99.8518495098161,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 65,
+      "number_value": 26.0,
+      "bar_right": 238,
+      "opacity_measured": 93.5825543764242,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 66,
+      "number_value": 26.4,
+      "bar_right": 241,
+      "opacity_measured": 87.01289315775091,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 67,
+      "number_value": 26.8,
+      "bar_right": 243,
+      "opacity_measured": 81.17720921514116,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 68,
+      "number_value": 27.2,
+      "bar_right": 245,
+      "opacity_measured": 75.1025874392775,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 69,
+      "number_value": 27.6,
+      "bar_right": 248,
+      "opacity_measured": 68.61467999719959,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 70,
+      "number_value": 28.0,
+      "bar_right": 250,
+      "opacity_measured": 62.52357196251973,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 71,
+      "number_value": 28.4,
+      "bar_right": 252,
+      "opacity_measured": 55.9970460237628,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 72,
+      "number_value": 28.8,
+      "bar_right": 254,
+      "opacity_measured": 50.46421239721495,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 73,
+      "number_value": 29.2,
+      "bar_right": 256,
+      "opacity_measured": 56.000207772028915,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 74,
+      "number_value": 29.6,
+      "bar_right": 258,
+      "opacity_measured": 62.57077234734967,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 75,
+      "number_value": 30.0,
+      "bar_right": 260,
+      "opacity_measured": 68.70049887870856,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 76,
+      "number_value": 30.4,
+      "bar_right": 263,
+      "opacity_measured": 74.9912487324777,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 77,
+      "number_value": 30.8,
+      "bar_right": 265,
+      "opacity_measured": 80.78537826930416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 78,
+      "number_value": 31.2,
+      "bar_right": 268,
+      "opacity_measured": 87.48150941862225,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 79,
+      "number_value": 31.6,
+      "bar_right": 270,
+      "opacity_measured": 93.49221871167792,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 80,
+      "number_value": 32.0,
+      "bar_right": 272,
+      "opacity_measured": 99.5318354174524,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 81,
+      "number_value": 32.4,
+      "bar_right": 274,
+      "opacity_measured": 93.52428787266285,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 82,
+      "number_value": 32.8,
+      "bar_right": 276,
+      "opacity_measured": 87.4586996632738,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 83,
+      "number_value": 33.2,
+      "bar_right": 278,
+      "opacity_measured": 80.73569365369372,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 84,
+      "number_value": 33.6,
+      "bar_right": 280,
+      "opacity_measured": 74.94404834764777,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 85,
+      "number_value": 34.0,
+      "bar_right": 282,
+      "opacity_measured": 68.71427506758236,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 86,
+      "number_value": 34.4,
+      "bar_right": 285,
+      "opacity_measured": 62.54412332624951,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 87,
+      "number_value": 34.8,
+      "bar_right": 287,
+      "opacity_measured": 55.961363436188016,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 88,
+      "number_value": 35.2,
+      "bar_right": 289,
+      "opacity_measured": 50.240631626967904,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 89,
+      "number_value": 35.6,
+      "bar_right": 291,
+      "opacity_measured": 55.96226679283548,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 90,
+      "number_value": 36.0,
+      "bar_right": 293,
+      "opacity_measured": 62.55225353607668,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 91,
+      "number_value": 36.4,
+      "bar_right": 296,
+      "opacity_measured": 68.69349786469073,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 92,
+      "number_value": 36.8,
+      "bar_right": 298,
+      "opacity_measured": 75.31487625143126,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 93,
+      "number_value": 37.2,
+      "bar_right": 300,
+      "opacity_measured": 81.39017554478052,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 94,
+      "number_value": 37.6,
+      "bar_right": 302,
+      "opacity_measured": 87.93115518989686,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 95,
+      "number_value": 38.0,
+      "bar_right": 304,
+      "opacity_measured": 93.7063142371266,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 96,
+      "number_value": 38.4,
+      "bar_right": 307,
+      "opacity_measured": 99.02460065990203,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 97,
+      "number_value": 38.8,
+      "bar_right": 309,
+      "opacity_measured": 93.69953906227063,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 98,
+      "number_value": 39.2,
+      "bar_right": 311,
+      "opacity_measured": 87.93657532978163,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 99,
+      "number_value": 39.6,
+      "bar_right": 313,
+      "opacity_measured": 81.44189271284776,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 100,
+      "number_value": 40.0,
+      "bar_right": 315,
+      "opacity_measured": 75.53461775592659,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 101,
+      "number_value": 40.4,
+      "bar_right": 318,
+      "opacity_measured": 69.06726167757846,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 102,
+      "number_value": 40.8,
+      "bar_right": 320,
+      "opacity_measured": 62.70446913117416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 103,
+      "number_value": 41.2,
+      "bar_right": 322,
+      "opacity_measured": 55.91506640800554,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 104,
+      "number_value": 41.6,
+      "bar_right": 324,
+      "opacity_measured": 50.38833043882808,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 105,
+      "number_value": 42.0,
+      "bar_right": 326,
+      "opacity_measured": 55.91619560381488,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 106,
+      "number_value": 42.4,
+      "bar_right": 329,
+      "opacity_measured": 62.657042907182365,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 107,
+      "number_value": 42.8,
+      "bar_right": 331,
+      "opacity_measured": 68.96608573306263,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 108,
+      "number_value": 43.2,
+      "bar_right": 334,
+      "opacity_measured": 75.12720390792086,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 109,
+      "number_value": 43.60000000000001,
+      "bar_right": 335,
+      "opacity_measured": 80.90710557754979,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 110,
+      "number_value": 44.00000000000001,
+      "bar_right": 337,
+      "opacity_measured": 87.56687662180748,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 111,
+      "number_value": 44.400000000000006,
+      "bar_right": 340,
+      "opacity_measured": 93.5653906001224,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 112,
+      "number_value": 44.800000000000004,
+      "bar_right": 342,
+      "opacity_measured": 99.39836447278977,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 113,
+      "number_value": 45.199999999999996,
+      "bar_right": 344,
+      "opacity_measured": 93.63110979622532,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 114,
+      "number_value": 45.599999999999994,
+      "bar_right": 346,
+      "opacity_measured": 87.76900267167728,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 115,
+      "number_value": 45.99999999999999,
+      "bar_right": 348,
+      "opacity_measured": 81.21605355098207,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 116,
+      "number_value": 46.39999999999999,
+      "bar_right": 351,
+      "opacity_measured": 75.22408890836124,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 117,
+      "number_value": 46.8,
+      "bar_right": 353,
+      "opacity_measured": 68.72647038232311,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 118,
+      "number_value": 47.2,
+      "bar_right": 355,
+      "opacity_measured": 62.61187507480922,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 119,
+      "number_value": 47.6,
+      "bar_right": 357,
+      "opacity_measured": 56.04944070931564,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 120,
+      "number_value": 48.0,
+      "bar_right": 359,
+      "opacity_measured": 50.52722152337548,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 121,
+      "number_value": 48.4,
+      "bar_right": 362,
+      "opacity_measured": 56.05802259746654,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 122,
+      "number_value": 48.8,
+      "bar_right": 364,
+      "opacity_measured": 62.13038598171155,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 123,
+      "number_value": 49.2,
+      "bar_right": 366,
+      "opacity_measured": 68.71495258506796,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 124,
+      "number_value": 49.6,
+      "bar_right": 368,
+      "opacity_measured": 74.44200789082032,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 125,
+      "number_value": 50.0,
+      "bar_right": 370,
+      "opacity_measured": 81.2546720476611,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 126,
+      "number_value": 50.4,
+      "bar_right": 373,
+      "opacity_measured": 87.56732830013121,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 127,
+      "number_value": 50.8,
+      "bar_right": 375,
+      "opacity_measured": 94.08640154654658,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 128,
+      "number_value": 51.2,
+      "bar_right": 377,
+      "opacity_measured": 100.08401216821404,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 129,
+      "number_value": 51.6,
+      "bar_right": 379,
+      "opacity_measured": 94.08504651157538,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 130,
+      "number_value": 52.0,
+      "bar_right": 382,
+      "opacity_measured": 87.56461823018883,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 131,
+      "number_value": 52.4,
+      "bar_right": 384,
+      "opacity_measured": 81.23073309650333,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 132,
+      "number_value": 52.8,
+      "bar_right": 386,
+      "opacity_measured": 74.40203435917009,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 133,
+      "number_value": 53.2,
+      "bar_right": 388,
+      "opacity_measured": 68.70953244518319,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 134,
+      "number_value": 53.6,
+      "bar_right": 390,
+      "opacity_measured": 62.322800947621126,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 135,
+      "number_value": 54.0,
+      "bar_right": 392,
+      "opacity_measured": 56.36267962682337,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 136,
+      "number_value": 54.4,
+      "bar_right": 395,
+      "opacity_measured": 49.79527679976874,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 137,
+      "number_value": 54.8,
+      "bar_right": 398,
+      "opacity_measured": 56.364260500956426,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 138,
+      "number_value": 55.2,
+      "bar_right": 399,
+      "opacity_measured": 62.33093115744829,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 139,
+      "number_value": 55.6,
+      "bar_right": 401,
+      "opacity_measured": 68.71856601165781,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 140,
+      "number_value": 56.0,
+      "bar_right": 403,
+      "opacity_measured": 74.38848400945814,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 141,
+      "number_value": 56.4,
+      "bar_right": 406,
+      "opacity_measured": 81.24383176789155,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 142,
+      "number_value": 56.8,
+      "bar_right": 408,
+      "opacity_measured": 87.55197123712435,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 143,
+      "number_value": 57.2,
+      "bar_right": 410,
+      "opacity_measured": 93.988161511135,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 144,
+      "number_value": 57.6,
+      "bar_right": 412,
+      "opacity_measured": 100.01490538468313,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 145,
+      "number_value": 58.0,
+      "bar_right": 414,
+      "opacity_measured": 93.97709539220358,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 146,
+      "number_value": 58.4,
+      "bar_right": 417,
+      "opacity_measured": 87.49935071240964,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 147,
+      "number_value": 58.8,
+      "bar_right": 419,
+      "opacity_measured": 81.50174009074217,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 148,
+      "number_value": 59.2,
+      "bar_right": 421,
+      "opacity_measured": 75.06713069086457,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 149,
+      "number_value": 59.6,
+      "bar_right": 423,
+      "opacity_measured": 68.99612234159076,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 150,
+      "number_value": 60.0,
+      "bar_right": 425,
+      "opacity_measured": 62.18278066726439,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 151,
+      "number_value": 60.4,
+      "bar_right": 428,
+      "opacity_measured": 56.3703581583268,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 152,
+      "number_value": 60.8,
+      "bar_right": 430,
+      "opacity_measured": 50.114613374646844,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 153,
+      "number_value": 61.2,
+      "bar_right": 432,
+      "opacity_measured": 56.3703581583268,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 154,
+      "number_value": 61.6,
+      "bar_right": 434,
+      "opacity_measured": 62.18142563229319,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 155,
+      "number_value": 62.0,
+      "bar_right": 436,
+      "opacity_measured": 68.86061884447135,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 156,
+      "number_value": 62.4,
+      "bar_right": 439,
+      "opacity_measured": 74.80222135399612,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 157,
+      "number_value": 62.8,
+      "bar_right": 441,
+      "opacity_measured": 81.14288166253758,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 158,
+      "number_value": 63.2,
+      "bar_right": 443,
+      "opacity_measured": 87.08629088535727,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 159,
+      "number_value": 63.6,
+      "bar_right": 446,
+      "opacity_measured": 93.59023290792763,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 160,
+      "number_value": 64.0,
+      "bar_right": 447,
+      "opacity_measured": 99.86291562874752,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 161,
+      "number_value": 64.4,
+      "bar_right": 450,
+      "opacity_measured": 93.59023290792763,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 162,
+      "number_value": 64.8,
+      "bar_right": 452,
+      "opacity_measured": 87.08109658463435,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 163,
+      "number_value": 65.2,
+      "bar_right": 454,
+      "opacity_measured": 81.16252966961989,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 164,
+      "number_value": 65.6,
+      "bar_right": 456,
+      "opacity_measured": 74.81825593448858,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 165,
+      "number_value": 66.0,
+      "bar_right": 458,
+      "opacity_measured": 68.80190066238626,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 166,
+      "number_value": 66.4,
+      "bar_right": 461,
+      "opacity_measured": 62.1872974505017,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 167,
+      "number_value": 66.8,
+      "bar_right": 463,
+      "opacity_measured": 56.354323577834336,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 168,
+      "number_value": 67.2,
+      "bar_right": 465,
+      "opacity_measured": 50.06334788490333,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 169,
+      "number_value": 67.6,
+      "bar_right": 467,
+      "opacity_measured": 56.36267962682337,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 170,
+      "number_value": 68.0,
+      "bar_right": 469,
+      "opacity_measured": 62.183909863073715,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 171,
+      "number_value": 68.4,
+      "bar_right": 472,
+      "opacity_measured": 68.82448457857284,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 172,
+      "number_value": 68.8,
+      "bar_right": 474,
+      "opacity_measured": 74.8286445359344,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 173,
+      "number_value": 69.2,
+      "bar_right": 476,
+      "opacity_measured": 81.19821225719467,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 174,
+      "number_value": 69.6,
+      "bar_right": 478,
+      "opacity_measured": 87.10503553579213,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 175,
+      "number_value": 70.0,
+      "bar_right": 480,
+      "opacity_measured": 93.52361035517725,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 176,
+      "number_value": 70.4,
+      "bar_right": 483,
+      "opacity_measured": 99.66598387960063,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 177,
+      "number_value": 70.8,
+      "bar_right": 485,
+      "opacity_measured": 93.52451371182471,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 178,
+      "number_value": 71.2,
+      "bar_right": 487,
+      "opacity_measured": 87.10368050082093,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 179,
+      "number_value": 71.6,
+      "bar_right": 489,
+      "opacity_measured": 81.217860264277,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 180,
+      "number_value": 72.0,
+      "bar_right": 492,
+      "opacity_measured": 74.86003617943373,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 181,
+      "number_value": 72.4,
+      "bar_right": 494,
+      "opacity_measured": 68.87191080256463,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 182,
+      "number_value": 72.8,
+      "bar_right": 496,
+      "opacity_measured": 62.25866262565126,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 183,
+      "number_value": 73.2,
+      "bar_right": 498,
+      "opacity_measured": 56.4112350466245,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 184,
+      "number_value": 73.6,
+      "bar_right": 500,
+      "opacity_measured": 50.14984428389789,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 185,
+      "number_value": 74.0,
+      "bar_right": 502,
+      "opacity_measured": 56.41100920746263,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 186,
+      "number_value": 74.4,
+      "bar_right": 505,
+      "opacity_measured": 62.25459752073768,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 187,
+      "number_value": 74.8,
+      "bar_right": 507,
+      "opacity_measured": 68.89833398450291,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 188,
+      "number_value": 75.2,
+      "bar_right": 510,
+      "opacity_measured": 74.89684796281784,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 189,
+      "number_value": 75.6,
+      "bar_right": 512,
+      "opacity_measured": 81.26686736240184,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 190,
+      "number_value": 76.0,
+      "bar_right": 514,
+      "opacity_measured": 87.20214637539438,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 191,
+      "number_value": 76.4,
+      "bar_right": 516,
+      "opacity_measured": 93.74899783871922,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 192,
+      "number_value": 76.8,
+      "bar_right": 518,
+      "opacity_measured": 99.9769644054897,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 193,
+      "number_value": 77.2,
+      "bar_right": 520,
+      "opacity_measured": 93.7451585729675,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 194,
+      "number_value": 77.6,
+      "bar_right": 522,
+      "opacity_measured": 87.1953712005384,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 195,
+      "number_value": 78.0,
+      "bar_right": 524,
+      "opacity_measured": 81.26799655821117,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 196,
+      "number_value": 78.4,
+      "bar_right": 527,
+      "opacity_measured": 74.93456310284941,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 197,
+      "number_value": 78.8,
+      "bar_right": 529,
+      "opacity_measured": 68.91346520834792,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 198,
+      "number_value": 79.2,
+      "bar_right": 532,
+      "opacity_measured": 62.293667695740446,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 199,
+      "number_value": 79.6,
+      "bar_right": 534,
+      "opacity_measured": 56.47198578116637,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 200,
+      "number_value": 80.0,
+      "bar_right": 536,
+      "opacity_measured": 50.17446075254126,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 201,
+      "number_value": 80.39999999999999,
+      "bar_right": 538,
+      "opacity_measured": 56.48305190009779,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 202,
+      "number_value": 80.8,
+      "bar_right": 540,
+      "opacity_measured": 62.29524856987351,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 203,
+      "number_value": 81.19999999999999,
+      "bar_right": 542,
+      "opacity_measured": 68.81635436874566,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 204,
+      "number_value": 81.6,
+      "bar_right": 544,
+      "opacity_measured": 74.65248998967915,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 205,
+      "number_value": 81.99999999999999,
+      "bar_right": 546,
+      "opacity_measured": 81.4001124679026,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 206,
+      "number_value": 82.4,
+      "bar_right": 549,
+      "opacity_measured": 87.65066295085965,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 207,
+      "number_value": 82.79999999999998,
+      "bar_right": 551,
+      "opacity_measured": 94.06697937862613,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 208,
+      "number_value": 83.2,
+      "bar_right": 553,
+      "opacity_measured": 100.03726346170784,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 209,
+      "number_value": 83.6,
+      "bar_right": 556,
+      "opacity_measured": 94.07194784018718,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 210,
+      "number_value": 84.0,
+      "bar_right": 558,
+      "opacity_measured": 87.648404559241,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 211,
+      "number_value": 84.4,
+      "bar_right": 560,
+      "opacity_measured": 81.39582152382717,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 212,
+      "number_value": 84.8,
+      "bar_right": 562,
+      "opacity_measured": 74.65700677291646,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 213,
+      "number_value": 85.2,
+      "bar_right": 564,
+      "opacity_measured": 68.98302367020256,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 214,
+      "number_value": 85.6,
+      "bar_right": 566,
+      "opacity_measured": 62.489696088239874,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 215,
+      "number_value": 86.0,
+      "bar_right": 568,
+      "opacity_measured": 56.4638555713392,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 216,
+      "number_value": 86.4,
+      "bar_right": 571,
+      "opacity_measured": 49.88132152043957,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 217,
+      "number_value": 86.8,
+      "bar_right": 573,
+      "opacity_measured": 56.4559512006739,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 218,
+      "number_value": 87.20000000000002,
+      "bar_right": 575,
+      "opacity_measured": 62.48540514416443,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 219,
+      "number_value": 87.6,
+      "bar_right": 578,
+      "opacity_measured": 68.9590847190448,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 220,
+      "number_value": 88.00000000000001,
+      "bar_right": 580,
+      "opacity_measured": 74.65068327638423,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 221,
+      "number_value": 88.4,
+      "bar_right": 582,
+      "opacity_measured": 81.37368928596432,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 222,
+      "number_value": 88.80000000000001,
+      "bar_right": 584,
+      "opacity_measured": 87.62649816054002,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 223,
+      "number_value": 89.2,
+      "bar_right": 586,
+      "opacity_measured": 94.01277797977836,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 224,
+      "number_value": 89.60000000000001,
+      "bar_right": 588,
+      "opacity_measured": 99.98125534956515,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 225,
+      "number_value": 90.0,
+      "bar_right": 590,
+      "opacity_measured": 94.05613909885658,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 226,
+      "number_value": 90.39999999999999,
+      "bar_right": 593,
+      "opacity_measured": 87.73106169248385,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 227,
+      "number_value": 90.8,
+      "bar_right": 595,
+      "opacity_measured": 81.6602791823719,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 228,
+      "number_value": 91.19999999999999,
+      "bar_right": 598,
+      "opacity_measured": 75.17259757945587,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 229,
+      "number_value": 91.6,
+      "bar_right": 600,
+      "opacity_measured": 69.08442545388026,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 230,
+      "number_value": 91.99999999999999,
+      "bar_right": 602,
+      "opacity_measured": 62.28553748591328,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 231,
+      "number_value": 92.4,
+      "bar_right": 604,
+      "opacity_measured": 56.47853511686048,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 232,
+      "number_value": 92.79999999999998,
+      "bar_right": 606,
+      "opacity_measured": 50.22911382971275,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 233,
+      "number_value": 93.2,
+      "bar_right": 608,
+      "opacity_measured": 56.47514752943249,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 234,
+      "number_value": 93.6,
+      "bar_right": 610,
+      "opacity_measured": 62.28282741597089,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 235,
+      "number_value": 94.0,
+      "bar_right": 612,
+      "opacity_measured": 68.92566052308867,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 236,
+      "number_value": 94.4,
+      "bar_right": 615,
+      "opacity_measured": 74.88352345226777,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 237,
+      "number_value": 94.8,
+      "bar_right": 617,
+      "opacity_measured": 81.23141061398893,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 238,
+      "number_value": 95.2,
+      "bar_right": 619,
+      "opacity_measured": 87.16939969692385,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 239,
+      "number_value": 95.6,
+      "bar_right": 622,
+      "opacity_measured": 93.68079441183578,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 240,
+      "number_value": 96.0,
+      "bar_right": 624,
+      "opacity_measured": 99.84755856574066,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 241,
+      "number_value": 96.4,
+      "bar_right": 626,
+      "opacity_measured": 93.68079441183578,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 242,
+      "number_value": 96.8,
+      "bar_right": 628,
+      "opacity_measured": 87.16759298362892,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 243,
+      "number_value": 97.20000000000002,
+      "bar_right": 630,
+      "opacity_measured": 81.22553879578042,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 244,
+      "number_value": 97.6,
+      "bar_right": 632,
+      "opacity_measured": 74.87313485082194,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 245,
+      "number_value": 98.00000000000001,
+      "bar_right": 634,
+      "opacity_measured": 68.8707816067553,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 246,
+      "number_value": 98.4,
+      "bar_right": 637,
+      "opacity_measured": 62.216656541544246,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 247,
+      "number_value": 98.80000000000001,
+      "bar_right": 639,
+      "opacity_measured": 56.702793404593116,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 248,
+      "number_value": 99.2,
+      "bar_right": 642,
+      "opacity_measured": 50.514122851987274,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 249,
+      "number_value": 99.60000000000001,
+      "bar_right": 644,
+      "opacity_measured": 56.72018302005677,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 250,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 61.78123863746717,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 251,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 68.65917031208714,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 252,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 74.5949010034034,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 253,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 81.09026113782286,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 254,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 87.10955231902943,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 255,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 93.57171409665465,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 256,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.66169293552518,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 257,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 93.56968154419785,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 258,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 87.10864896238198,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 259,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 81.16614309620974,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 260,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 74.77692736786715,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 261,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 68.81183758550836,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 262,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 62.15997091191595,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 263,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 56.342805780579184,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 264,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 50.108289878114604,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 265,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 56.342805780579184,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 266,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 62.15951923359222,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 267,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 68.7528935642614,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 268,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 74.76902299720186,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 269,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 81.0742265573304,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 270,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 87.0241851158442,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 271,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 93.54122580980277,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 272,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.78025849550467,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 273,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 93.54122580980277,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 274,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 87.01944249344501,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 275,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 81.11216753652384,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 276,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 74.76382869647894,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 277,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 68.80596576729984,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 278,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 62.13016014254968,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 279,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 56.27324731872455,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 280,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 50.046635786925265,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 281,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 56.285668472627165,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 282,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 62.14619472304214,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 283,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 68.80438489316678,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 284,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 74.78279918607566,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 285,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 81.12278197713152,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 286,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 87.05128581526809,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 287,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 93.50667241803733,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 288,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.67885671182697,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 289,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 93.50667241803733,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 290,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 87.04947910197316,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 291,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 81.14694676745115,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 292,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 74.7970270532732,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 293,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 68.85677957871962,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 294,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 62.222754198914615,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 295,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 56.3947487878083,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 296,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 50.15210267551655,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 297,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 56.39249039618964,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 298,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 62.214398149925586,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 299,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 68.84729433392127,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 300,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 74.80018880153932,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 301,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 81.17336994938944,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 302,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 87.09826036093615,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 303,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 93.62907724376853,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 304,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.83875083842788,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 305,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 93.62907724376853,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 306,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 87.09306606021323,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 307,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 81.19121124317684,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 308,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 74.85416436122522,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 309,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 68.8491010472162,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 310,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 62.19339510787208,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 311,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 56.395426305293896,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 312,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 50.15842617204879,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 313,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 56.39655550110322,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 314,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 62.19633101697633,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 315,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 68.85994132698575,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 316,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 74.83135460587678,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 317,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 81.16523973956228,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 318,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 87.11948924215153,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 319,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 93.64646685923219,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 320,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.85681797137714,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 321,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 93.64646685923219,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 322,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 87.11745668969473,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 323,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 81.20747166283117,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 324,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 74.8035763889673,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 325,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 68.81929027784992,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 326,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 62.19204007290088,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 327,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 56.431560571192406,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 328,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 50.18372015817775,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 329,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 56.434948158620394,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 330,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 62.19271759038648,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 331,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 68.81816108204059,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 332,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 74.81667506035552,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 333,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 81.20950421528795,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 334,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 87.16556043117212,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 335,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 93.63698161443384,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 336,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.82791055865833,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 337,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 93.63472322281518,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 338,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 87.16397955703907,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 339,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 81.24970358610005,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 340,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 74.85868114446254,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 341,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 68.8852353131147,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 342,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 62.18978168128223,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 343,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 56.38277931222942,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 344,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 50.07328480802542,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 345,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 56.367196410060686,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 346,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 62.16222930353461,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 347,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 68.82312954360164,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 348,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 74.8148683470606,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 349,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 81.20566494953624,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 350,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 87.15133256397459,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 351,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 93.660243048106,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 352,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.82971727195326,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 353,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 93.660243048106,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 354,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 87.14613826325167,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 355,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 81.2381857888449,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 356,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 74.84648582972179,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 357,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 68.89652727120799,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 358,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 62.23517535281723,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 359,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 56.38819945211419,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 360,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 50.16474966858103,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 361,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 56.386844417142996,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 362,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 62.23201360455111,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 363,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 68.92272461398441,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 364,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 74.86906974590836,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 365,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 81.27386837641968,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 366,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 87.2809642428855,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 367,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 93.76074147513624,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 368,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 100.00022583916187,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 369,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 93.76074147513624,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 370,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 87.27825417294311,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 371,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 81.36623659362276,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 372,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 75.04251422222121,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 373,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 69.0808120272904,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 374,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 62.626328781168624,
+      "opacity_expected": 62.5
+    }
+  ],
+  "limits": [
+    "Not original font identity or aesthetic acceptance",
+    "Native Numeral PNG comparison only at exported checkpoints; native numeric parameter separately checked everyframe",
+    "Fixed point color invariance is checked after the point is12pixels inside the growing bar",
+    "Movie uses raw720x576pixels with square SAR; native PAL pixel aspect retained in editable AEP"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "status": "candidate_native_suite_passed_human_review_pending",
+  "skill": "ae-advanced-expressions",
+  "version": "0.12.0",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=31",
+  "native_cases": 5,
+  "decoded_frames": 1750,
+  "native_pngs_viewed": 71,
+  "learning_coverage": {
+    "video_seconds": 2324.08,
+    "audio_seconds": 1162.1545,
+    "source_sha256": "0f4101e37ae1529b55091feb8bee4c9a78a84f38406c7763f4ac0a48df2b0ab1",
+    "watch_global_frame_views": 18,
+    "watch_technical_frame_views": 38,
+    "local_dense_reference_frame_views": 75,
+    "transcript_sha256": "46c32faf7f1b4a4fb41f5f969ede4bc7f85ec2eb7b793519a9a1a06ac5175171",
+    "transcript_segments": 336,
+    "last_speech_end": 1160.0,
+    "all_transcript_segments_read": true,
+    "existing_local_ASR_only": true,
+    "video_only_tail": "Only sparse global sampling, not a complete duplicate assertion or full visual detail audit",
+    "count_note": "Frame views include repeats; two10/5second dense inspections total75frames, not full video viewing"
+  },
+  "tests": "skills/after-effects/ae-advanced-expressions/tests/loading-progress-results.json",
+  "media_audit": "reports/native-media-dependencies-course2-progress.json",
+  "human_review": {
+    "status": "pending",
+    "case": "baseline-003",
+    "sha256": "6a5c71854b7c03c996ce70b9b735192603dcc1d8cd66e915b463e3caabbd6f82",
+    "comparison": "cache/reviews/course2-p31-progress-002/comparison.mp4",
+    "source_interval": "18:16–18:21",
+    "method": "Both panels5fps. Right uses real movie frames selected by source composition counter, no synthesized drawing or changed AEP. Complete15second native movie stays continuous and unchanged.",
+    "sync": "Counter-sampled spatial/interaction review, exact original paint-refresh and subframe synchronization not established",
+    "crop": {
+      "left": [
+        349,
+        107,
+        645,
+        336
+      ],
+      "right": [
+        40,
+        196,
+        680,
+        354
+      ],
+      "reason": "Original100percent viewport clips comp edges; right shows corresponding inferred region, full native video retained"
+    }
+  },
+  "limitations": [
+    "Source AdobeHeitiStd/Gulim missing in actual nativefont catalog; titleArialNarrow-Bold and NumbersMicrosoftYaHeiUI substitutions explicitly retained",
+    "Title111/130percent compensation measured from one source screen, not source TextScale recovery",
+    "Title center360/260 and barleft95 inferred from screen; title green approximated",
+    "Source colorpoint values copied; observed hue/palette still visually differs and source color-space/render identity unverified. Coordinate-offset hypothesis tried and rejected; no compensation applied",
+    "Source showed720x576PAL1.09,25fps,15sec; AEP retains1.094017094PAR, delivery movie uses rawpixel720x576squareSAR like uncorrected viewport",
+    "Numbers font Options is GUI-only in tested enumeration; included self-created nativeAEP seed bypasses repeat prompts, not a claimed scripting font setter",
+    "Three PNG headers260x57 and ASCII title1..12 chars tested; arbitrary alphabets, sizes, empty/dark headers not generalized",
+    "CLI completion3..12sec, duration>=complete+2<=15, pulse4..16; only recorded cases empirically tested",
+    "Native numbers everyframe but pixelnumeral comparison only at13/9PNG checkpoints, no fullvideoOCR or sourcepixelidentity",
+    "Comparison5fps counter-sampled actualnative movie frames and same source-visible crop, sourceUI refresh lag persists; full15second film/AEP remain continuous",
+    "All18sources/166chapters still incomplete; unit and wholeSkill candidate pending humanreview"
+  ],
+  "whole_goal_complete": false
+}

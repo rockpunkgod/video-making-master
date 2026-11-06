@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course2-progress-001\\baseline-003\\final.mp4",
+  "sha256": "6a5c71854b7c03c996ce70b9b735192603dcc1d8cd66e915b463e3caabbd6f82",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 720,
+    "height": 576,
+    "fps": 25.0,
+    "duration": 15.0,
+    "decoded_frames": 375,
+    "unique_thumbnail_frames": 375
+  },
+  "motion_expectation": "required",
+  "static_pixel_check": null,
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": "",
+  "progress_quality": "progress-quality.json",
+  "course_fidelity": "original_Numbers_Scale_adjustment_method_font_adaptation_pending_review",
+  "delivery_status": "candidate_unaccepted"
+}

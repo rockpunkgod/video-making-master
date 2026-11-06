@@ -1,0 +1,53 @@
+{
+  "source_url": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=31",
+  "source_interval": "18:16–18:21",
+  "source_local": "E:\\自媒体\\video-skills-lab\\cache\\watch\\watch-xpe5h73r\\download\\run-er35tq5k\\video.mp4",
+  "candidate": "E:/自媒体/video-skills-lab/samples/course2-progress-001/baseline-003/final.mp4",
+  "candidate_sha256": "6a5c71854b7c03c996ce70b9b735192603dcc1d8cd66e915b463e3caabbd6f82",
+  "source_counters_frames": [
+    0,
+    0,
+    6,
+    6,
+    21,
+    21,
+    50,
+    54,
+    54,
+    73,
+    94,
+    94,
+    105,
+    136,
+    150,
+    153,
+    153,
+    198,
+    215,
+    231,
+    248,
+    263,
+    279,
+    281,
+    281
+  ],
+  "source_counter_basis": "Visually read25FFmpeg5fps selected source previews and timestamps; source rendering/number glyph sometimes lags the displayed timecode",
+  "review_method": "Both panels5fps. Right uses real movie frames selected by source composition counter, no synthesized drawing or changed AEP. Complete15second native movie stays continuous and unchanged.",
+  "crop": {
+    "left": [
+      349,
+      107,
+      645,
+      336
+    ],
+    "right": [
+      40,
+      196,
+      680,
+      354
+    ],
+    "reason": "Original100percent viewport clips comp edges; right shows corresponding inferred region, full native video retained"
+  },
+  "sync": "Counter-sampled spatial/interaction review, exact original paint-refresh and subframe synchronization not established",
+  "distribution": "Local-only tutorial reference cache, excluded from repository"
+}

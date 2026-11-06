@@ -1,0 +1,5709 @@
+{
+  "status": "failed",
+  "checks": {
+    "full_movie": true,
+    "bar_geometry": false,
+    "title_pulse": false,
+    "fixed_spatial_gradient": true,
+    "native_numeral_checkpoints": false,
+    "native_reopened": true,
+    "native_formula": true,
+    "no_expression_errors": true,
+    "rawvalue_link_edited": true,
+    "left_anchor": true,
+    "title_font_compensation": true,
+    "separate_adjustment": true,
+    "media": true
+  },
+  "video_sha256": "631ff8f3396d75c6405384b230345cebb18648cfdcc4d1e54bcb920aaa4667df",
+  "frames": 375,
+  "max_bar_error_pixels": 548.8,
+  "max_title_opacity_error_percent": 49.990197863134156,
+  "fixed_point_rgb_drift": {
+    "120": 0.0,
+    "250": 0.4000000000000057,
+    "400": 0.0,
+    "600": 0.0
+  },
+  "native_numeral_checkpoints": [
+    {
+      "frame": 0,
+      "rgb_mae": 5.355185185185185
+    },
+    {
+      "frame": 100,
+      "rgb_mae": 6.078061002178649
+    },
+    {
+      "frame": 150,
+      "rgb_mae": 3.775511982570806
+    },
+    {
+      "frame": 16,
+      "rgb_mae": 6.1957952069716775
+    },
+    {
+      "frame": 200,
+      "rgb_mae": 4.1120915032679735
+    },
+    {
+      "frame": 249,
+      "rgb_mae": 1.604880174291939
+    },
+    {
+      "frame": 25,
+      "rgb_mae": 6.184400871459695
+    },
+    {
+      "frame": 250,
+      "rgb_mae": 1.564553376906318
+    },
+    {
+      "frame": 275,
+      "rgb_mae": 1.5628540305010894
+    },
+    {
+      "frame": 300,
+      "rgb_mae": 1.5628540305010894
+    },
+    {
+      "frame": 374,
+      "rgb_mae": 1.5628540305010894
+    },
+    {
+      "frame": 50,
+      "rgb_mae": 4.928888888888889
+    },
+    {
+      "frame": 8,
+      "rgb_mae": 6.658976034858388
+    }
+  ],
+  "errors": [
+    {
+      "frame": 0,
+      "error": "Bar nonempty atzero"
+    },
+    {
+      "frame": 1,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        97.2
+      ]
+    },
+    {
+      "frame": 2,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        99.4
+      ]
+    },
+    {
+      "frame": 3,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        101.6
+      ]
+    },
+    {
+      "frame": 4,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        103.8
+      ]
+    },
+    {
+      "frame": 5,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        106.0
+      ]
+    },
+    {
+      "frame": 6,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        108.2
+      ]
+    },
+    {
+      "frame": 7,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        110.4
+      ]
+    },
+    {
+      "frame": 8,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        112.6
+      ]
+    },
+    {
+      "frame": 9,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        114.8
+      ]
+    },
+    {
+      "frame": 10,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        117.0
+      ]
+    },
+    {
+      "frame": 11,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        119.2
+      ]
+    },
+    {
+      "frame": 12,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        121.4
+      ]
+    },
+    {
+      "frame": 13,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        123.6
+      ]
+    },
+    {
+      "frame": 14,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        125.80000000000001
+      ]
+    },
+    {
+      "frame": 15,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        128.0
+      ]
+    },
+    {
+      "frame": 16,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        130.2
+      ]
+    },
+    {
+      "frame": 17,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        132.4
+      ]
+    },
+    {
+      "frame": 18,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        134.6
+      ]
+    },
+    {
+      "frame": 19,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        136.8
+      ]
+    },
+    {
+      "frame": 20,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        139.0
+      ]
+    },
+    {
+      "frame": 21,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        141.2
+      ]
+    },
+    {
+      "frame": 22,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        143.4
+      ]
+    },
+    {
+      "frame": 23,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        145.6
+      ]
+    },
+    {
+      "frame": 24,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        147.8
+      ]
+    },
+    {
+      "frame": 25,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        150.0
+      ]
+    },
+    {
+      "frame": 26,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        152.2
+      ]
+    },
+    {
+      "frame": 27,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        154.4
+      ]
+    },
+    {
+      "frame": 28,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        156.60000000000002
+      ]
+    },
+    {
+      "frame": 29,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        158.79999999999998
+      ]
+    },
+    {
+      "frame": 30,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        161.0
+      ]
+    },
+    {
+      "frame": 31,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        163.2
+      ]
+    },
+    {
+      "frame": 32,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        165.4
+      ]
+    },
+    {
+      "frame": 33,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        167.6
+      ]
+    },
+    {
+      "frame": 34,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        169.8
+      ]
+    },
+    {
+      "frame": 35,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        172.0
+      ]
+    },
+    {
+      "frame": 36,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        174.2
+      ]
+    },
+    {
+      "frame": 37,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        176.4
+      ]
+    },
+    {
+      "frame": 38,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        178.6
+      ]
+    },
+    {
+      "frame": 39,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        180.8
+      ]
+    },
+    {
+      "frame": 40,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        183.0
+      ]
+    },
+    {
+      "frame": 41,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        185.2
+      ]
+    },
+    {
+      "frame": 42,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        187.4
+      ]
+    },
+    {
+      "frame": 43,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        189.6
+      ]
+    },
+    {
+      "frame": 44,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        191.8
+      ]
+    },
+    {
+      "frame": 45,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        194.0
+      ]
+    },
+    {
+      "frame": 46,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        196.2
+      ]
+    },
+    {
+      "frame": 47,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        198.4
+      ]
+    },
+    {
+      "frame": 48,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        200.6
+      ]
+    },
+    {
+      "frame": 49,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        202.8
+      ]
+    },
+    {
+      "frame": 50,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        205.0
+      ]
+    },
+    {
+      "frame": 51,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        207.2
+      ]
+    },
+    {
+      "frame": 52,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        209.4
+      ]
+    },
+    {
+      "frame": 53,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        211.6
+      ]
+    },
+    {
+      "frame": 54,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        213.8
+      ]
+    },
+    {
+      "frame": 55,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        216.0
+      ]
+    },
+    {
+      "frame": 56,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        218.20000000000002
+      ]
+    },
+    {
+      "frame": 57,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        220.39999999999998
+      ]
+    },
+    {
+      "frame": 58,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        222.59999999999997
+      ]
+    },
+    {
+      "frame": 59,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        224.8
+      ]
+    },
+    {
+      "frame": 60,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        227.0
+      ]
+    },
+    {
+      "frame": 61,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        229.2
+      ]
+    },
+    {
+      "frame": 62,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        231.4
+      ]
+    },
+    {
+      "frame": 63,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        233.6
+      ]
+    },
+    {
+      "frame": 64,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        235.8
+      ]
+    },
+    {
+      "frame": 65,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        238.0
+      ]
+    },
+    {
+      "frame": 66,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        240.2
+      ]
+    },
+    {
+      "frame": 67,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        242.4
+      ]
+    },
+    {
+      "frame": 68,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        244.6
+      ]
+    },
+    {
+      "frame": 69,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        246.8
+      ]
+    },
+    {
+      "frame": 70,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        249.0
+      ]
+    },
+    {
+      "frame": 71,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        251.2
+      ]
+    },
+    {
+      "frame": 72,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        253.4
+      ]
+    },
+    {
+      "frame": 73,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        255.6
+      ]
+    },
+    {
+      "frame": 74,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        257.8
+      ]
+    },
+    {
+      "frame": 75,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        260.0
+      ]
+    },
+    {
+      "frame": 76,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        262.2
+      ]
+    },
+    {
+      "frame": 77,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        264.4
+      ]
+    },
+    {
+      "frame": 78,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        266.6
+      ]
+    },
+    {
+      "frame": 79,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        268.8
+      ]
+    },
+    {
+      "frame": 80,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        271.0
+      ]
+    },
+    {
+      "frame": 81,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        273.2
+      ]
+    },
+    {
+      "frame": 82,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        275.4
+      ]
+    },
+    {
+      "frame": 83,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        277.6
+      ]
+    },
+    {
+      "frame": 84,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        279.8
+      ]
+    },
+    {
+      "frame": 85,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        282.0
+      ]
+    },
+    {
+      "frame": 86,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        284.2
+      ]
+    },
+    {
+      "frame": 87,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        286.4
+      ]
+    },
+    {
+      "frame": 88,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        288.6
+      ]
+    },
+    {
+      "frame": 89,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        290.8
+      ]
+    },
+    {
+      "frame": 90,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        293.0
+      ]
+    },
+    {
+      "frame": 91,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        295.2
+      ]
+    },
+    {
+      "frame": 92,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        297.4
+      ]
+    },
+    {
+      "frame": 93,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        299.6
+      ]
+    },
+    {
+      "frame": 94,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        301.8
+      ]
+    },
+    {
+      "frame": 95,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        304.0
+      ]
+    },
+    {
+      "frame": 96,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        306.2
+      ]
+    },
+    {
+      "frame": 97,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        308.4
+      ]
+    },
+    {
+      "frame": 98,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        310.6
+      ]
+    },
+    {
+      "frame": 99,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        312.8
+      ]
+    },
+    {
+      "frame": 100,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        315.0
+      ]
+    },
+    {
+      "frame": 101,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        317.2
+      ]
+    },
+    {
+      "frame": 102,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        319.4
+      ]
+    },
+    {
+      "frame": 103,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        321.6
+      ]
+    },
+    {
+      "frame": 104,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        323.8
+      ]
+    },
+    {
+      "frame": 105,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        326.0
+      ]
+    },
+    {
+      "frame": 106,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        328.2
+      ]
+    },
+    {
+      "frame": 107,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        330.4
+      ]
+    },
+    {
+      "frame": 108,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        332.6
+      ]
+    },
+    {
+      "frame": 109,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        334.80000000000007
+      ]
+    },
+    {
+      "frame": 110,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        337.0
+      ]
+    },
+    {
+      "frame": 111,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        339.20000000000005
+      ]
+    },
+    {
+      "frame": 112,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        341.40000000000003
+      ]
+    },
+    {
+      "frame": 113,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        343.59999999999997
+      ]
+    },
+    {
+      "frame": 114,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        345.79999999999995
+      ]
+    },
+    {
+      "frame": 115,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        348.0
+      ]
+    },
+    {
+      "frame": 116,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        350.19999999999993
+      ]
+    },
+    {
+      "frame": 117,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        352.4
+      ]
+    },
+    {
+      "frame": 118,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        354.6
+      ]
+    },
+    {
+      "frame": 119,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        356.8
+      ]
+    },
+    {
+      "frame": 120,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        359.0
+      ]
+    },
+    {
+      "frame": 121,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        361.2
+      ]
+    },
+    {
+      "frame": 122,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        363.4
+      ]
+    },
+    {
+      "frame": 123,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        365.6
+      ]
+    },
+    {
+      "frame": 124,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        367.8
+      ]
+    },
+    {
+      "frame": 125,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        370.0
+      ]
+    },
+    {
+      "frame": 126,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        372.2
+      ]
+    },
+    {
+      "frame": 127,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        374.4
+      ]
+    },
+    {
+      "frame": 128,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        376.6
+      ]
+    },
+    {
+      "frame": 129,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        378.8
+      ]
+    },
+    {
+      "frame": 130,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        381.0
+      ]
+    },
+    {
+      "frame": 131,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        383.2
+      ]
+    },
+    {
+      "frame": 132,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        385.4
+      ]
+    },
+    {
+      "frame": 133,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        387.6
+      ]
+    },
+    {
+      "frame": 134,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        389.8
+      ]
+    },
+    {
+      "frame": 135,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        392.0
+      ]
+    },
+    {
+      "frame": 136,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        394.2
+      ]
+    },
+    {
+      "frame": 137,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        396.4
+      ]
+    },
+    {
+      "frame": 138,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        398.6
+      ]
+    },
+    {
+      "frame": 139,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        400.8
+      ]
+    },
+    {
+      "frame": 140,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        403.0
+      ]
+    },
+    {
+      "frame": 141,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        405.2
+      ]
+    },
+    {
+      "frame": 142,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        407.4
+      ]
+    },
+    {
+      "frame": 143,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        409.6
+      ]
+    },
+    {
+      "frame": 144,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        411.8
+      ]
+    },
+    {
+      "frame": 145,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        414.0
+      ]
+    },
+    {
+      "frame": 146,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        416.2
+      ]
+    },
+    {
+      "frame": 147,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        418.4
+      ]
+    },
+    {
+      "frame": 148,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        420.6
+      ]
+    },
+    {
+      "frame": 149,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        422.8
+      ]
+    },
+    {
+      "frame": 150,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        425.0
+      ]
+    },
+    {
+      "frame": 151,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        427.2
+      ]
+    },
+    {
+      "frame": 152,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        429.4
+      ]
+    },
+    {
+      "frame": 153,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        431.6
+      ]
+    },
+    {
+      "frame": 154,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        433.8
+      ]
+    },
+    {
+      "frame": 155,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        436.0
+      ]
+    },
+    {
+      "frame": 156,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        438.2
+      ]
+    },
+    {
+      "frame": 157,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        440.4
+      ]
+    },
+    {
+      "frame": 158,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        442.6
+      ]
+    },
+    {
+      "frame": 159,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        444.8
+      ]
+    },
+    {
+      "frame": 160,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        447.0
+      ]
+    },
+    {
+      "frame": 161,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        449.2
+      ]
+    },
+    {
+      "frame": 162,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        451.4
+      ]
+    },
+    {
+      "frame": 163,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        453.6
+      ]
+    },
+    {
+      "frame": 164,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        455.8
+      ]
+    },
+    {
+      "frame": 165,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        458.0
+      ]
+    },
+    {
+      "frame": 166,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        460.2
+      ]
+    },
+    {
+      "frame": 167,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        462.4
+      ]
+    },
+    {
+      "frame": 168,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        464.6
+      ]
+    },
+    {
+      "frame": 169,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        466.8
+      ]
+    },
+    {
+      "frame": 170,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        469.0
+      ]
+    },
+    {
+      "frame": 171,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        471.2
+      ]
+    },
+    {
+      "frame": 172,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        473.4
+      ]
+    },
+    {
+      "frame": 173,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        475.6
+      ]
+    },
+    {
+      "frame": 174,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        477.8
+      ]
+    },
+    {
+      "frame": 175,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        480.0
+      ]
+    },
+    {
+      "frame": 176,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        482.2
+      ]
+    },
+    {
+      "frame": 177,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        484.4
+      ]
+    },
+    {
+      "frame": 178,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        486.6
+      ]
+    },
+    {
+      "frame": 179,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        488.8
+      ]
+    },
+    {
+      "frame": 180,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        491.0
+      ]
+    },
+    {
+      "frame": 181,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        493.2
+      ]
+    },
+    {
+      "frame": 182,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        495.4
+      ]
+    },
+    {
+      "frame": 183,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        497.6
+      ]
+    },
+    {
+      "frame": 184,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        499.8
+      ]
+    },
+    {
+      "frame": 185,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        502.0
+      ]
+    },
+    {
+      "frame": 186,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        504.2
+      ]
+    },
+    {
+      "frame": 187,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        506.4
+      ]
+    },
+    {
+      "frame": 188,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        508.6
+      ]
+    },
+    {
+      "frame": 189,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        510.8
+      ]
+    },
+    {
+      "frame": 190,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        513.0
+      ]
+    },
+    {
+      "frame": 191,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        515.2
+      ]
+    },
+    {
+      "frame": 192,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        517.4
+      ]
+    },
+    {
+      "frame": 193,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        519.6
+      ]
+    },
+    {
+      "frame": 194,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        521.8
+      ]
+    },
+    {
+      "frame": 195,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        524.0
+      ]
+    },
+    {
+      "frame": 196,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        526.2
+      ]
+    },
+    {
+      "frame": 197,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        528.4
+      ]
+    },
+    {
+      "frame": 198,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        530.6
+      ]
+    },
+    {
+      "frame": 199,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        532.8
+      ]
+    },
+    {
+      "frame": 200,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        535.0
+      ]
+    },
+    {
+      "frame": 201,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        537.1999999999999
+      ]
+    },
+    {
+      "frame": 202,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        539.4
+      ]
+    },
+    {
+      "frame": 203,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        541.5999999999999
+      ]
+    },
+    {
+      "frame": 204,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        543.8
+      ]
+    },
+    {
+      "frame": 205,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        546.0
+      ]
+    },
+    {
+      "frame": 206,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        548.2
+      ]
+    },
+    {
+      "frame": 207,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        550.3999999999999
+      ]
+    },
+    {
+      "frame": 208,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        552.6
+      ]
+    },
+    {
+      "frame": 209,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        554.8
+      ]
+    },
+    {
+      "frame": 210,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        557.0
+      ]
+    },
+    {
+      "frame": 211,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        559.2
+      ]
+    },
+    {
+      "frame": 212,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        561.4
+      ]
+    },
+    {
+      "frame": 213,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        563.6
+      ]
+    },
+    {
+      "frame": 214,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        565.8
+      ]
+    },
+    {
+      "frame": 215,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        568.0
+      ]
+    },
+    {
+      "frame": 216,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        570.2
+      ]
+    },
+    {
+      "frame": 217,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        572.4
+      ]
+    },
+    {
+      "frame": 218,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        574.6000000000001
+      ]
+    },
+    {
+      "frame": 219,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        576.8
+      ]
+    },
+    {
+      "frame": 220,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        579.0
+      ]
+    },
+    {
+      "frame": 221,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        581.2
+      ]
+    },
+    {
+      "frame": 222,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        583.4000000000001
+      ]
+    },
+    {
+      "frame": 223,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        585.6
+      ]
+    },
+    {
+      "frame": 224,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        587.8000000000001
+      ]
+    },
+    {
+      "frame": 225,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        590.0
+      ]
+    },
+    {
+      "frame": 226,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        592.1999999999999
+      ]
+    },
+    {
+      "frame": 227,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        594.4
+      ]
+    },
+    {
+      "frame": 228,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        596.5999999999999
+      ]
+    },
+    {
+      "frame": 229,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        598.8
+      ]
+    },
+    {
+      "frame": 230,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        601.0
+      ]
+    },
+    {
+      "frame": 231,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        603.2
+      ]
+    },
+    {
+      "frame": 232,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        605.3999999999999
+      ]
+    },
+    {
+      "frame": 233,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        607.6
+      ]
+    },
+    {
+      "frame": 234,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        609.8
+      ]
+    },
+    {
+      "frame": 235,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        612.0
+      ]
+    },
+    {
+      "frame": 236,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        614.2
+      ]
+    },
+    {
+      "frame": 237,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        616.4
+      ]
+    },
+    {
+      "frame": 238,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        618.6
+      ]
+    },
+    {
+      "frame": 239,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        620.8
+      ]
+    },
+    {
+      "frame": 240,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        623.0
+      ]
+    },
+    {
+      "frame": 241,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        625.2
+      ]
+    },
+    {
+      "frame": 242,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        627.4
+      ]
+    },
+    {
+      "frame": 243,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        629.6
+      ]
+    },
+    {
+      "frame": 244,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        631.8
+      ]
+    },
+    {
+      "frame": 245,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        634.0000000000001
+      ]
+    },
+    {
+      "frame": 246,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        636.2
+      ]
+    },
+    {
+      "frame": 247,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        638.4000000000001
+      ]
+    },
+    {
+      "frame": 248,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        640.6
+      ]
+    },
+    {
+      "frame": 249,
+      "error": "Bar extent",
+      "measured": [
+        94,
+        646
+      ],
+      "expected": [
+        95,
+        642.8000000000001
+      ]
+    }
+  ],
+  "measurements": [
+    {
+      "frame": 0,
+      "number_value": 0.0,
+      "bar_right": 646,
+      "opacity_measured": 100.0,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 1,
+      "number_value": 0.4,
+      "bar_right": 646,
+      "opacity_measured": 100.00525114474955,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 2,
+      "number_value": 0.8,
+      "bar_right": 646,
+      "opacity_measured": 100.00997717502416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 3,
+      "number_value": 1.2,
+      "bar_right": 646,
+      "opacity_measured": 100.0150532816154,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 4,
+      "number_value": 1.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 5,
+      "number_value": 2.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 6,
+      "number_value": 2.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 7,
+      "number_value": 2.8000000000000003,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 8,
+      "number_value": 3.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 9,
+      "number_value": 3.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 10,
+      "number_value": 4.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 11,
+      "number_value": 4.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 12,
+      "number_value": 4.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 13,
+      "number_value": 5.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 14,
+      "number_value": 5.6000000000000005,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 15,
+      "number_value": 6.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 16,
+      "number_value": 6.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 17,
+      "number_value": 6.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 18,
+      "number_value": 7.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 19,
+      "number_value": 7.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 20,
+      "number_value": 8.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 21,
+      "number_value": 8.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 22,
+      "number_value": 8.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 23,
+      "number_value": 9.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 24,
+      "number_value": 9.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 25,
+      "number_value": 10.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 26,
+      "number_value": 10.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 27,
+      "number_value": 10.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 28,
+      "number_value": 11.200000000000001,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 29,
+      "number_value": 11.599999999999998,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 30,
+      "number_value": 12.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 31,
+      "number_value": 12.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 32,
+      "number_value": 12.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 33,
+      "number_value": 13.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 34,
+      "number_value": 13.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 35,
+      "number_value": 14.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 36,
+      "number_value": 14.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 37,
+      "number_value": 14.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 38,
+      "number_value": 15.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 39,
+      "number_value": 15.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 40,
+      "number_value": 16.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 41,
+      "number_value": 16.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 42,
+      "number_value": 16.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 43,
+      "number_value": 17.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 44,
+      "number_value": 17.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 45,
+      "number_value": 18.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 46,
+      "number_value": 18.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 47,
+      "number_value": 18.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 48,
+      "number_value": 19.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 49,
+      "number_value": 19.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 50,
+      "number_value": 20.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 51,
+      "number_value": 20.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 52,
+      "number_value": 20.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 53,
+      "number_value": 21.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 54,
+      "number_value": 21.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 55,
+      "number_value": 22.000000000000004,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 56,
+      "number_value": 22.400000000000002,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 57,
+      "number_value": 22.799999999999997,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 58,
+      "number_value": 23.199999999999996,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 59,
+      "number_value": 23.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 60,
+      "number_value": 24.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 61,
+      "number_value": 24.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 62,
+      "number_value": 24.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 63,
+      "number_value": 25.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 64,
+      "number_value": 25.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 65,
+      "number_value": 26.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 66,
+      "number_value": 26.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 67,
+      "number_value": 26.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 68,
+      "number_value": 27.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 69,
+      "number_value": 27.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 70,
+      "number_value": 28.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 71,
+      "number_value": 28.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 72,
+      "number_value": 28.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 73,
+      "number_value": 29.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 74,
+      "number_value": 29.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 75,
+      "number_value": 30.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 76,
+      "number_value": 30.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 77,
+      "number_value": 30.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 78,
+      "number_value": 31.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 79,
+      "number_value": 31.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 80,
+      "number_value": 32.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 81,
+      "number_value": 32.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 82,
+      "number_value": 32.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 83,
+      "number_value": 33.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 84,
+      "number_value": 33.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 85,
+      "number_value": 34.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 86,
+      "number_value": 34.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 87,
+      "number_value": 34.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 88,
+      "number_value": 35.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 89,
+      "number_value": 35.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 90,
+      "number_value": 36.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 91,
+      "number_value": 36.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 92,
+      "number_value": 36.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 93,
+      "number_value": 37.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 94,
+      "number_value": 37.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 95,
+      "number_value": 38.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 96,
+      "number_value": 38.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 97,
+      "number_value": 38.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 98,
+      "number_value": 39.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 99,
+      "number_value": 39.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 100,
+      "number_value": 40.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 101,
+      "number_value": 40.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 102,
+      "number_value": 40.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 103,
+      "number_value": 41.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 104,
+      "number_value": 41.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 105,
+      "number_value": 42.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 106,
+      "number_value": 42.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 107,
+      "number_value": 42.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 108,
+      "number_value": 43.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 109,
+      "number_value": 43.60000000000001,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 110,
+      "number_value": 44.00000000000001,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 111,
+      "number_value": 44.400000000000006,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 112,
+      "number_value": 44.800000000000004,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 113,
+      "number_value": 45.199999999999996,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 114,
+      "number_value": 45.599999999999994,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 115,
+      "number_value": 45.99999999999999,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 116,
+      "number_value": 46.39999999999999,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 117,
+      "number_value": 46.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 118,
+      "number_value": 47.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 119,
+      "number_value": 47.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 120,
+      "number_value": 48.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 121,
+      "number_value": 48.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 122,
+      "number_value": 48.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 123,
+      "number_value": 49.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 124,
+      "number_value": 49.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 125,
+      "number_value": 50.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 126,
+      "number_value": 50.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 127,
+      "number_value": 50.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 128,
+      "number_value": 51.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 129,
+      "number_value": 51.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 130,
+      "number_value": 52.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 131,
+      "number_value": 52.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 132,
+      "number_value": 52.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 133,
+      "number_value": 53.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 134,
+      "number_value": 53.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 135,
+      "number_value": 54.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 136,
+      "number_value": 54.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 137,
+      "number_value": 54.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 138,
+      "number_value": 55.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 139,
+      "number_value": 55.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 140,
+      "number_value": 56.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 141,
+      "number_value": 56.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 142,
+      "number_value": 56.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 143,
+      "number_value": 57.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 144,
+      "number_value": 57.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 145,
+      "number_value": 58.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 146,
+      "number_value": 58.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 147,
+      "number_value": 58.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 148,
+      "number_value": 59.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 149,
+      "number_value": 59.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 150,
+      "number_value": 60.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 151,
+      "number_value": 60.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 152,
+      "number_value": 60.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 153,
+      "number_value": 61.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 154,
+      "number_value": 61.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 155,
+      "number_value": 62.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 156,
+      "number_value": 62.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 157,
+      "number_value": 62.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 158,
+      "number_value": 63.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 159,
+      "number_value": 63.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 160,
+      "number_value": 64.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 161,
+      "number_value": 64.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 162,
+      "number_value": 64.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 163,
+      "number_value": 65.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 164,
+      "number_value": 65.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 165,
+      "number_value": 66.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 166,
+      "number_value": 66.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 167,
+      "number_value": 66.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 168,
+      "number_value": 67.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 169,
+      "number_value": 67.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 170,
+      "number_value": 68.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 171,
+      "number_value": 68.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 172,
+      "number_value": 68.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 173,
+      "number_value": 69.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 174,
+      "number_value": 69.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 175,
+      "number_value": 70.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 176,
+      "number_value": 70.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 177,
+      "number_value": 70.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 178,
+      "number_value": 71.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 179,
+      "number_value": 71.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 180,
+      "number_value": 72.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 181,
+      "number_value": 72.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 182,
+      "number_value": 72.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 183,
+      "number_value": 73.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 184,
+      "number_value": 73.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 185,
+      "number_value": 74.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 186,
+      "number_value": 74.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 187,
+      "number_value": 74.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 188,
+      "number_value": 75.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 189,
+      "number_value": 75.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 190,
+      "number_value": 76.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 191,
+      "number_value": 76.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 192,
+      "number_value": 76.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 193,
+      "number_value": 77.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 194,
+      "number_value": 77.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 195,
+      "number_value": 78.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 196,
+      "number_value": 78.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 197,
+      "number_value": 78.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 198,
+      "number_value": 79.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 199,
+      "number_value": 79.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 200,
+      "number_value": 80.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 201,
+      "number_value": 80.39999999999999,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 202,
+      "number_value": 80.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 203,
+      "number_value": 81.19999999999999,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 204,
+      "number_value": 81.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 205,
+      "number_value": 81.99999999999999,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 206,
+      "number_value": 82.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 207,
+      "number_value": 82.79999999999998,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 208,
+      "number_value": 83.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 209,
+      "number_value": 83.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 210,
+      "number_value": 84.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 211,
+      "number_value": 84.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 212,
+      "number_value": 84.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 213,
+      "number_value": 85.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 214,
+      "number_value": 85.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 215,
+      "number_value": 86.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 216,
+      "number_value": 86.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 217,
+      "number_value": 86.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 218,
+      "number_value": 87.20000000000002,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 219,
+      "number_value": 87.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 220,
+      "number_value": 88.00000000000001,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 221,
+      "number_value": 88.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 222,
+      "number_value": 88.80000000000001,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 223,
+      "number_value": 89.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 224,
+      "number_value": 89.60000000000001,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 225,
+      "number_value": 90.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 226,
+      "number_value": 90.39999999999999,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 227,
+      "number_value": 90.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 228,
+      "number_value": 91.19999999999999,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 229,
+      "number_value": 91.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 230,
+      "number_value": 91.99999999999999,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 231,
+      "number_value": 92.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 232,
+      "number_value": 92.79999999999998,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 233,
+      "number_value": 93.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 234,
+      "number_value": 93.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 235,
+      "number_value": 94.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 236,
+      "number_value": 94.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 237,
+      "number_value": 94.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 238,
+      "number_value": 95.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 239,
+      "number_value": 95.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 240,
+      "number_value": 96.0,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 241,
+      "number_value": 96.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 242,
+      "number_value": 96.8,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 243,
+      "number_value": 97.20000000000002,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 244,
+      "number_value": 97.6,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 245,
+      "number_value": 98.00000000000001,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 246,
+      "number_value": 98.4,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 247,
+      "number_value": 98.80000000000001,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 248,
+      "number_value": 99.2,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 249,
+      "number_value": 99.60000000000001,
+      "bar_right": 646,
+      "opacity_measured": 99.99019786313416,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 250,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.68528139134331,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 251,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.6975340624256,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 252,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69578368084242,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 253,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.6984092532172,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 254,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 255,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 256,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 257,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 258,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 259,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 260,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 261,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 262,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 263,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 264,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 265,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 266,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 267,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 268,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 269,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 270,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 271,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 272,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 273,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 274,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 275,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 276,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 277,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 278,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 279,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 280,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 281,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 282,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 283,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 284,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 285,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 286,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 287,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 288,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 289,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 290,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 291,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 292,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 293,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 294,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 295,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 296,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 297,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 298,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 299,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 300,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 301,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 302,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 303,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 304,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 305,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 306,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 307,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 308,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 309,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 310,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 311,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 312,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 313,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 314,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 315,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 316,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 317,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 318,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 319,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 320,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 321,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 322,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 323,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 324,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 325,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 326,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 327,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 328,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 329,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 330,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 331,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 332,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 333,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 334,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 335,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 336,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 337,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 338,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 339,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 340,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 341,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 342,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 343,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 344,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 345,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 346,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 347,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 348,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 349,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 350,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 351,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 352,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 353,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 354,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 355,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 356,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 357,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 358,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 359,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 360,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 50.0
+    },
+    {
+      "frame": 361,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 56.25
+    },
+    {
+      "frame": 362,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 62.5
+    },
+    {
+      "frame": 363,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 364,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 365,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 366,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 367,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 368,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 100.0
+    },
+    {
+      "frame": 369,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 93.75
+    },
+    {
+      "frame": 370,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 87.5
+    },
+    {
+      "frame": 371,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 81.25
+    },
+    {
+      "frame": 372,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 75.0
+    },
+    {
+      "frame": 373,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 68.75
+    },
+    {
+      "frame": 374,
+      "number_value": 100,
+      "bar_right": 646,
+      "opacity_measured": 99.69420833741756,
+      "opacity_expected": 62.5
+    }
+  ],
+  "limits": [
+    "Not original font identity or aesthetic acceptance",
+    "Native Numeral PNG comparison only at exported checkpoints; native numeric parameter separately checked everyframe",
+    "Fixed point color invariance is checked after the point is12pixels inside the growing bar",
+    "Movie uses raw720x576pixels with square SAR; native PAL pixel aspect retained in editable AEP"
+  ]
+}

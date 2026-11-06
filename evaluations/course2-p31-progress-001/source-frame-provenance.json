@@ -1,0 +1,57 @@
+{
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=31",
+  "learning": {
+    "video_seconds": 2324.08,
+    "audio_seconds": 1162.1545,
+    "source_sha256": "0f4101e37ae1529b55091feb8bee4c9a78a84f38406c7763f4ac0a48df2b0ab1",
+    "watch_global_frame_views": 18,
+    "watch_technical_frame_views": 38,
+    "local_dense_reference_frame_views": 75,
+    "transcript_sha256": "46c32faf7f1b4a4fb41f5f969ede4bc7f85ec2eb7b793519a9a1a06ac5175171",
+    "transcript_segments": 336,
+    "last_speech_end": 1160.0,
+    "all_transcript_segments_read": true,
+    "existing_local_ASR_only": true,
+    "video_only_tail": "Only sparse global sampling, not a complete duplicate assertion or full visual detail audit",
+    "count_note": "Frame views include repeats; two10/5second dense inspections total75frames, not full video viewing"
+  },
+  "observed": [
+    {
+      "interval": "01:34–02:48",
+      "facts": "PAL720x5761.09,25fps15seconds; opacitykeys0/8/16frames100/50/100 with Linear Info visible02:48"
+    },
+    {
+      "interval": "03:20–03:54",
+      "facts": "cycle first, final loopOut(type=\"pingpong\",numKeyframes=0); CapsLock disabled refresh warning is not expression failure"
+    },
+    {
+      "interval": "04:54–05:07",
+      "facts": "Numbers Options Gulim Regular Horizontal, brieflyLeft/Center then FINALRight confirmed05:05..05:07"
+    },
+    {
+      "interval": "05:20–09:40",
+      "facts": "Numbersposition391/355,size62,decimals0,random/currenttime/compositeoff; finalif(time<10)time*10;elsevalue; raw100 deliberatelyset after prior70causedpost10drop"
+    },
+    {
+      "interval": "10:18–14:58",
+      "facts": "Solidwidth550height50, anchorleft, scaleXlinks NumbersValue, Y=transform.scale[1]; numbers reference not independenttime curve"
+    },
+    {
+      "interval": "15:05–18:20",
+      "facts": "4color firstonbar rejected becausewholegradient scales. Separate adjustment movedbelowtitle/numbers; sourcepoints124446,345448,595451,3924798.4; colorsredyellowgreenblue,Blend100,Jitter0,Opacity100,None"
+    },
+    {
+      "interval": "18:16–18:21",
+      "facts": "Source manuallyscrubs and some screen refresh lags counter;25selected5fps framesread, nativeframesselectedbyrecordedcounter forreview only"
+    }
+  ],
+  "inferred": [
+    "Source AdobeHeitiStd/Gulim missing in actual nativefont catalog; titleArialNarrow-Bold and NumbersMicrosoftYaHeiUI substitutions explicitly retained",
+    "Title111/130percent compensation measured from one source screen, not source TextScale recovery",
+    "Title center360/260 and barleft95 inferred from screen; title green approximated",
+    "Source colorpoint values copied; observed hue/palette still visually differs and source color-space/render identity unverified. Coordinate-offset hypothesis tried and rejected; no compensation applied",
+    "Source showed720x576PAL1.09,25fps,15sec; AEP retains1.094017094PAR, delivery movie uses rawpixel720x576squareSAR like uncorrected viewport"
+  ],
+  "native_template": "Self-generated Numbers AEP only, no tutorial or installed vendor project copied",
+  "rejected_coordinate_hypothesis": "Subtracting adjustment offset from four points was natively rendered, looked worse and was not applied; nativeprojectworkingSpaceNone,linearBlendingfalse,linearizefalse,8bpc actuallyread"
+}

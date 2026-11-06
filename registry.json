@@ -337,9 +337,9 @@
     },
     {
       "name": "ae-advanced-expressions",
-      "version": "0.11.0",
+      "version": "0.12.0",
       "status": "candidate",
-      "execution_status": "eleven_units_with_native_evidence_spiral7cases1356frames_Writeon_only_Particular_missing_human_review_pending",
+      "execution_status": "twelve_units_with_native_evidence_loading5cases1750frames_font_adaptation_human_review_pending",
       "path": "skills/after-effects/ae-advanced-expressions",
       "dependencies": [
         "After Effects AE26 Chinese Windows tested",
@@ -364,7 +364,8 @@
         "纵向自由Y滑块/向量linear与横向Null/clamp滑块/linear内容的独立原法，文字或图片输入候选",
         "二维滑块与嵌套if控制三维矢量文字Z旋转，原式边界缺陷及明确修复变体",
         "无关键帧cos/sin圆周运动、独立XY投影与同步自转，PNG替换和半径/角速度候选",
-        "原生Write-on螺旋累积、固定及滑杆椭圆、方形像素新图片显露适配候选"
+        "原生Write-on螺旋累积、固定及滑杆椭圆、方形像素新图片显露适配候选",
+        "Numbers效果if/else原始value驱动左锚点进度条、三键pingpong标题和独立调整层固定色场候选"
       ],
       "sources": [
         {
@@ -386,7 +387,8 @@
             27,
             28,
             29,
-            30
+            30,
+            31
           ]
         }
       ],
@@ -402,7 +404,8 @@
         "第26/27节：11例1980帧与三素材双方向/独立调用通过；原课手动拖动采样、画布/文字推定，两个基线人工课程效果待反馈",
         "第28节：8例720帧、三组新矢量及独立调用通过；相机/布局数值推定，源AI/字体及精确快门未恢复，整体人工反馈待答",
         "第29节：6例1800帧/三图片/独立复制调用通过；素材色彩尺寸推定，时间轴拖动未同步，整体人工反馈待答",
-        "第30节：Write-on7例1356帧通过；Particular缺失导致三维粒子部分未制作，PAR/时长及控制器缓动边界有说明，整体人工反馈待答"
+        "第30节：Write-on7例1356帧通过；Particular缺失导致三维粒子部分未制作，PAR/时长及控制器缓动边界有说明，整体人工反馈待答",
+        "第31节：5例1750帧/三新PNG/独立调用通过；Gulim与AdobeHeitiStd缺失，实际替代字体和111/130字形补偿、部分布局及调色身份有适配边界；整体反馈待答"
       ],
       "evidence_by_unit": {
         "threshold": "evaluations/course-p08-suite-001/summary.json",
@@ -415,7 +418,8 @@
         "scroll_ui": "evaluations/course2-p26-p27-scroll-001/summary.json",
         "rotation_slider": "evaluations/course2-p28-rotation-study-001/summary.json",
         "orbit_projections": "evaluations/course2-p29-orbit-001/summary.json",
-        "spiral_writeon": "evaluations/course2-p30-spiral-001/summary.json"
+        "spiral_writeon": "evaluations/course2-p30-spiral-001/summary.json",
+        "loading_progress": "evaluations/course2-p31-progress-001/summary.json"
       },
       "p09_latest_user_feedback": "挺好的; retain current version; prior needs-adjustment response preserved",
       "accepted_candidate_artifacts": [

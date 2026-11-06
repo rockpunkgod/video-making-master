@@ -1,0 +1,20 @@
+{
+  "source_box_screen": [
+    535,
+    140,
+    776,
+    191
+  ],
+  "native_box": [
+    245,
+    239,
+    474,
+    280
+  ],
+  "source_screen_scale": 0.95,
+  "inferred_font_compensation": [
+    110.75514874141876,
+    130.32581453634086
+  ],
+  "scope": "Single screen font fit; not recovered source Text Scale. Source fonts absent."
+}

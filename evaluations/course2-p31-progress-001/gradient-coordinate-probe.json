@@ -1,0 +1,56 @@
+{
+  "status": "native_probe_completed",
+  "project_modified_on_disk": false,
+  "point_conversion": [
+    {
+      "source_numbers": [
+        124,
+        446
+      ],
+      "adapted_local": [
+        120,
+        56
+      ]
+    },
+    {
+      "source_numbers": [
+        345,
+        448
+      ],
+      "adapted_local": [
+        341,
+        58
+      ]
+    },
+    {
+      "source_numbers": [
+        595,
+        451
+      ],
+      "adapted_local": [
+        591,
+        61
+      ]
+    },
+    {
+      "source_numbers": [
+        392,
+        4798.39990234375
+      ],
+      "adapted_local": [
+        388,
+        4408.39990234375
+      ]
+    }
+  ],
+  "color_settings": {
+    "workingSpace": "None",
+    "linearBlending": false,
+    "linearizeWorkingSpace": false,
+    "bpc": 8
+  },
+  "png": "E:/自媒体/video-skills-lab/cache/progress-study-001/compensated-gradient.png",
+  "conclusion": "Rejected: native compensated PNG shifted towards brown/olive and was visually worse than original direct source point values. No such coordinate conversion applied to the delivered recipe.",
+  "baseline_project_sha256": "999ea0d3ec4450c9d7164e3c8254807fb8904cdca02191a3d8be4ee9d7d565bc",
+  "project_hash_guard": "Python wrapper asserted the on-disk AEP SHA unchanged before/after native probe."
+}

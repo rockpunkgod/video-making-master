@@ -1,0 +1,91 @@
+{
+  "name": "COURSE_LOADING_PROGRESS",
+  "animation": "loading-progress",
+  "motion_expectation": "required",
+  "width": 720,
+  "height": 576,
+  "par": 1.09401709401709,
+  "fps": 25,
+  "duration": 15,
+  "complete": 10,
+  "title": "LOADING",
+  "font": "ArialNarrow-Bold",
+  "font_size": 57,
+  "tracking": 123,
+  "title_center": [
+    360,
+    260
+  ],
+  "pulse_frames": 8,
+  "title_asset": "E:/自媒体/video-skills-lab/samples/course2-progress-001/export-001/assets/title.png",
+  "bar_width": 550,
+  "bar_height": 50,
+  "bar_position": [
+    95,
+    448
+  ],
+  "number_position": [
+    391,
+    355
+  ],
+  "number_size": 62,
+  "number_template": "E:/自媒体/video-skills-lab/skills/after-effects/ae-advanced-expressions/assets/numbers-msyhui-right.aep",
+  "number_template_sha256": "781c8ac47aef52a48cfe3c00bb3e6eb1df85758d3a748817d472d8e67b887002",
+  "number_font": "Microsoft YaHei UI Regular",
+  "number_alignment": "Right",
+  "gradient_points": [
+    [
+      124,
+      446
+    ],
+    [
+      345,
+      448
+    ],
+    [
+      595,
+      451
+    ],
+    [
+      392,
+      4798.4
+    ]
+  ],
+  "gradient_colors": [
+    [
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      1
+    ]
+  ],
+  "adjustment_position": [
+    364,
+    678
+  ],
+  "inferred": [
+    "Title ArialNarrow-Bold and Numbers Microsoft YaHei UI substitute absent AdobeHeitiStd/Gulim, not exact typography",
+    "Title center360/260 and bar left95 inferred from screen; title green approximated",
+    "Native PAL PAR retained in AEP; movie bitmap720x576square SAR matches raw source viewport without correction",
+    "Current final gradientpoint3=595/451 observed18:15; fourthpoint392/4798.4 observed17:55"
+  ],
+  "variant": true
+}

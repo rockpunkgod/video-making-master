@@ -1,0 +1,13 @@
+{
+  "builder": "scripts/build_loading_progress.py",
+  "arguments": {
+    "title": "LOADING",
+    "complete": 10,
+    "duration": 15,
+    "pulse_frames": 8
+  },
+  "note": "Documented CLI arguments, no --profile parser",
+  "expected": "Numbers and left-anchored550x50bar reach100 at10sec, remain100 through15sec; title keeps100/50/100pingpong; gradient does not move withscale",
+  "status": "candidate",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=31"
+}

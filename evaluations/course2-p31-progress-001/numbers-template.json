@@ -1,0 +1,13 @@
+{
+  "status": "saved_reopened",
+  "template": "E:/自媒体/video-skills-lab/skills/after-effects/ae-advanced-expressions/assets/numbers-msyhui-right.aep",
+  "font": "Microsoft YaHei UI Regular",
+  "direction": "Horizontal",
+  "alignment": "Right",
+  "font_method": "Observed native Numbers Options dialog; no scripting font setter claimed",
+  "source_font": "Gulim Regular absent",
+  "external_media": [],
+  "correction": "Native screenshot actually shows Microsoft YaHei UI, not intended Arial. Final template deliberately documents this observed substitution; no Arial claim. Source Gulim absent. Rename and native comment correction follow.",
+  "render_png_status": "Initial seed PNG did not flush before close; not used as validation. Actual independent builds export flushed native checkpoints.",
+  "font_evidence": "skills/after-effects/ae-advanced-expressions/references/native-numbers-options.png"
+}
