@@ -1,0 +1,70 @@
+{
+  "status": "candidate_native_radial_branch",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=15",
+  "cases": [
+    {
+      "case": "p15-radial-002",
+      "directory": "samples/course-reproduction-011/p15-radial-002",
+      "project_sha256": "3854131c9b0d9f3ad3d845f4e2aed530bccac241c27c1c6afec88fc47bc5ce80",
+      "video_sha256": "f4cb2c8b53eb2006d98760806100104cef5da625ae4b2d253da03260142e4612",
+      "frames": 240,
+      "full_decode": true,
+      "native_evolution_frames": 240,
+      "native_controller_edit": null,
+      "scene_check": "passed",
+      "visual_review": "Six baseline and four variation native contact frames actually viewed; baseline includes an additional120-frame consistency checkpoint",
+      "media_dependencies": "None; actual saved-project audit completed",
+      "course_fidelity": "baseline overall accepted; source curve points and seed identity remain inferred"
+    },
+    {
+      "case": "p15-radial-slow-002",
+      "directory": "samples/course-reproduction-011/p15-radial-slow-002",
+      "project_sha256": "4aeb1213c9be29a80d90b9eea5482247475991155a1af6ee1d06ef230792e27b",
+      "video_sha256": "8d18b602f78b93a73315c512981d6848162a71a4cb330f13f824297f42ae4221",
+      "frames": 144,
+      "full_decode": true,
+      "native_evolution_frames": 144,
+      "native_controller_edit": {
+        "original": 12,
+        "changed": 13,
+        "restored": 12
+      },
+      "scene_check": "passed",
+      "visual_review": "Six baseline and four variation native contact frames actually viewed; baseline includes an additional120-frame consistency checkpoint",
+      "media_dependencies": "None; actual saved-project audit completed",
+      "course_fidelity": "parameter variation only, no human acceptance transfer"
+    }
+  ],
+  "human_review": {
+    "case": "p15-radial-002",
+    "feedback": "整体符合，可以保留",
+    "scope": "Overall radial contours, blue-purple layering and evolution motion; exact curves/noise identity and parameter variant not approved",
+    "comparison": "Original p15 05:29–05:34 on left, native baseline002 on right, not frame synchronized",
+    "video_sha256": "f4cb2c8b53eb2006d98760806100104cef5da625ae4b2d253da03260142e4612"
+  },
+  "isolated_skill": {
+    "status": "passed",
+    "frames": 72,
+    "parameters": {
+      "speed": 30,
+      "seed": 32,
+      "duration": 3
+    },
+    "native_controller_edit": {
+      "original": 30,
+      "changed": 31,
+      "restored": 30
+    },
+    "four_native_pngs_present": true,
+    "renderer": "Copied Skill scripts, template and profile only; no external laboratory code dependency",
+    "initial_failure": "Renderer imported P13 validate_scene eagerly; fixed with branch-specific lazy validation, then actual render/decode passed"
+  },
+  "objective_scope": "Native editability, full video decode/motion and sampled native-render consistency; no aesthetic equivalence metric",
+  "gaps": [
+    "Three distinct new materials not tested; seed changes are not materials",
+    "P15 polar, streak,gradient background and full assembly unfinished",
+    "Exact RGB control-point values and source random seed not shown"
+  ],
+  "native_png_issue": "Initial readback reported PNG missing although file appeared later; fresh File existence polling and explicit exports passed isolated real native test. Underlying host cause unproven",
+  "overall_project_complete": false
+}

@@ -7,6 +7,8 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 CASES=[
+ 'samples/course-reproduction-011/p15-radial-002',
+ 'samples/course-reproduction-011/p15-radial-slow-002',
  'samples/course-reproduction-010/p13-baseline-004',
  'samples/course-reproduction-010/p13-geometry-001',
  'samples/course-reproduction-010/p13-typography-001',
@@ -64,6 +66,7 @@ for name in CASES:
   elif len(rel.parts)==1 and (path.name in {'project.aep','project.prproj','final.mp4','native-mix.wav','credits.md'} or path.suffix.lower()=='.json'):
    chosen.append(path)
   elif len(rel.parts)==1 and path.name.startswith('native-still-') and path.suffix.lower()=='.png':
+   if folder.name=='p15-radial-002' and path.name not in {'native-still-0.png','native-still-24.png','native-still-120.png','native-still-239.png','native-still-gui-red.png','native-still-gui-green.png','native-still-gui-blue.png'}:continue
    chosen.append(path)
  # Every published demonstration must include both its actual native project and video.
  if not (folder/'final.mp4').is_file() or not any((folder/p).is_file() for p in ['project.aep','project.prproj']):raise ValueError('Incomplete native delivery '+name)
@@ -73,7 +76,7 @@ for path in (ROOT/'evaluations').rglob('*'):
 # These are necessary inputs, not disposable renders. Read the actual saved
 # Adobe dependencies before cleanup instead of guessing from folder names.
 supplemental=[]
-for name in ['native-media-dependencies.json','pr-media-dependencies.json']:
+for name in ['native-media-dependencies.json','pr-media-dependencies.json','native-media-dependencies-p15.json']:
  audit=ROOT/'reports'/name
  if not audit.is_file():continue
  data=json.loads(audit.read_text(encoding='utf-8-sig'))

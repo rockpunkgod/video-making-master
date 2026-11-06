@@ -1,0 +1,10 @@
+{
+  "name": "P15_RADIAL",
+  "width": 1920,
+  "height": 1080,
+  "duration": 10,
+  "fps": 24,
+  "evolution_speed": 25,
+  "mode": "course_radial",
+  "course_fidelity": "candidate; channel curves reconstructed visually, random seed and exact native curve interpolation not established"
+}

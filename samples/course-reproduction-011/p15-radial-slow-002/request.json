@@ -1,0 +1,15 @@
+{
+  "name": "P15_RADIAL",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "duration": 6.0,
+  "speed": 12.0,
+  "seed": 17,
+  "template": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-reproduction-011/p15-radial-slow-002/inputs/radial-template.aep",
+  "template_sha256": "3854131c9b0d9f3ad3d845f4e2aed530bccac241c27c1c6afec88fc47bc5ce80",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=15",
+  "source_interval": "00:57\u201305:33",
+  "status": "candidate",
+  "variant": true
+}

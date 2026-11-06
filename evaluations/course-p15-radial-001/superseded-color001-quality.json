@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course-reproduction-011\\p15-radial-001\\final.mp4",
+  "sha256": "0d684b6efe9b2b8d5605f02f9e030da59cb40c7b567f3ad3f7744232a7487ef8",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "has_motion": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24.0,
+    "duration": 10.0,
+    "decoded_frames": 240,
+    "unique_thumbnail_frames": 240
+  },
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": ""
+}

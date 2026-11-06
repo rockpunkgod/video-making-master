@@ -5,11 +5,14 @@ import re
 import subprocess
 from pathlib import Path
 from validate_video import validate
-from validate_scene import validate as validate_scene
 
 def check_output(root,cfg):
     report=validate(root/'final.mp4',cfg)
-    scene=validate_scene(root);report['scene_quality']='scene-quality.json'
+    if cfg.get('name') == 'P15_RADIAL':
+        from validate_radial import validate as validate_branch
+    else:
+        from validate_scene import validate as validate_branch
+    scene=validate_branch(root);report['scene_quality']='scene-quality.json'
     if scene['status']!='passed':report['status']='failed'
     (root/'quality.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
     return report

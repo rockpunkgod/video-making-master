@@ -1,4 +1,4 @@
-param([int]$ProcessId,[int]$X,[int]$Y,[ValidateSet('Left','Right')][string]$Button='Left')
+param([int]$ProcessId,[int]$X,[int]$Y,[ValidateSet('Left','Right')][string]$Button='Left',[ValidateRange(-1200,1200)][int]$WheelDelta=0,[long]$WindowHandle=0)
 Add-Type -AssemblyName UIAutomationClient
 Add-Type @'
 using System;using System.Runtime.InteropServices;
@@ -19,6 +19,11 @@ $wins=[System.Windows.Automation.AutomationElement]::RootElement.FindAll([System
 $win=$wins | Where-Object {$_.Current.ClassName -like 'AE_CApplication*'} | Select-Object -First 1
 if(!$win){throw 'No matching native Adobe window'}
 $handle=[IntPtr]$win.Current.NativeWindowHandle
+if($WindowHandle){
+ $handle=[IntPtr]$WindowHandle;[uint32]$windowOwner=0
+ [LabOwnedWindowClick]::GetWindowThreadProcessId($handle,[ref]$windowOwner) | Out-Null
+ if($windowOwner -ne $ProcessId){throw 'Requested dialog belongs to another process'}
+}
 $rect=New-Object LabOwnedWindowClick+RECT
 [LabOwnedWindowClick]::GetWindowRect($handle,[ref]$rect) | Out-Null
 if($X -lt 0 -or $Y -lt 0 -or $X -ge ($rect.R-$rect.L) -or $Y -ge ($rect.B-$rect.T)){throw 'Coordinates outside observed native window'}
@@ -36,6 +41,12 @@ $point=New-Object LabOwnedWindowClick+POINT;$point.X=$screenX;$point.Y=$screenY
 [LabOwnedWindowClick]::ScreenToClient($target,[ref]$point) | Out-Null
 $pos=[IntPtr](($point.Y -shl 16) -bor ($point.X -band 0xffff))
 [LabOwnedWindowClick]::PostMessage($target,0x200,[IntPtr]0,$pos) | Out-Null
+if($WheelDelta){
+ $screenPos=[IntPtr](($screenY -shl 16) -bor ($screenX -band 0xffff))
+ [LabOwnedWindowClick]::PostMessage($target,0x20A,[IntPtr]($WheelDelta -shl 16),$screenPos) | Out-Null
+ Write-Output 'Wheel message posted to the observed Adobe control; verify the application result.'
+ return
+}
 if($Button -eq 'Right'){
  [LabOwnedWindowClick]::PostMessage($target,0x204,[IntPtr]2,$pos) | Out-Null
  [LabOwnedWindowClick]::PostMessage($target,0x205,[IntPtr]0,$pos) | Out-Null

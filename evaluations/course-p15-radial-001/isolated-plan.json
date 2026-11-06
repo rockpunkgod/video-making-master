@@ -1,0 +1,17 @@
+{
+  "skill": "ae-advanced-compositing",
+  "branch": "course-p15-radial",
+  "status": "candidate",
+  "steps": [
+    "Import own editable template with native RGB channel curves",
+    "Change explicitly requested evolution parameters",
+    "Save/reopen and edit/restore native controller",
+    "Render through Adobe",
+    "Decode every frame and compare against the course"
+  ],
+  "limitations": [
+    "Curve points inferred from source UI",
+    "No three-material generalization yet",
+    "P15 polar/streak/main assembly not provided by this branch"
+  ]
+}

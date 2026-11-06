@@ -402,9 +402,9 @@
     },
     {
       "name": "ae-advanced-compositing",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "status": "candidate",
-      "execution_status": "native_rough_layout_four_real_cases_with_explicit_source_and_readability_limits",
+      "execution_status": "native_p13_rough_layout_and_course_p15_radial_candidate",
       "path": "skills/after-effects/ae-advanced-compositing",
       "dependencies": [
         "After Effects26.0x67 tested",
@@ -416,13 +416,15 @@
       "scenarios": [
         "Five editable native precompositions in3D depth",
         "External camera, selective collapse and Linear Color Key2",
-        "Random time-remapped dot clusters"
+        "Random time-remapped dot clusters",
+        "Course15 native radial outline background with preserved editable RGB channel curves"
       ],
       "sources": [
         {
           "id": "BV1Yh4y1A7XT",
           "parts": [
-            13
+            13,
+            15
           ]
         }
       ],
@@ -430,7 +432,20 @@
       "blockers": [
         "Course13 is unfinished rough layout with blank tail, later styling not made",
         "Exact source key timing and final dot count inferred",
-        "No overall human review; three PNG inputs do not prove text readability or arbitrary materials"
+        "No overall human review; three PNG inputs do not prove text readability or arbitrary materials",
+        "P15 radial lacks three-material generalization; P15 other assets and assembly unfinished"
+      ],
+      "additional_evidence": [
+        "evaluations/course-p15-radial-001/summary.json"
+      ],
+      "human_reviews": [
+        {
+          "case": "p15-radial-002",
+          "feedback": "整体符合，可以保留",
+          "scope": "Overall radial contours, blue-purple layering and evolution motion; exact curves/noise identity and parameter variant not approved",
+          "comparison": "Original p15 05:29–05:34 on left, native baseline002 on right, not frame synchronized",
+          "video_sha256": "f4cb2c8b53eb2006d98760806100104cef5da625ae4b2d253da03260142e4612"
+        }
       ]
     }
   ],
@@ -451,10 +466,6 @@
     },
     {
       "name": "ae-kinetic-typography",
-      "status": "unimplemented"
-    },
-    {
-      "name": "ae-advanced-compositing",
       "status": "unimplemented"
     },
     {

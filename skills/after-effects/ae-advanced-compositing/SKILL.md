@@ -3,7 +3,9 @@ name: ae-advanced-compositing
 description: 将自制AE预合成组合成三维片头粗布局，使用外部摄像机、选择性折叠变换、线性颜色键和随机点阵时移；当前candidate，非完整风格化片头。
 ---
 
-0.1.0候选。以课程第13节原法组合五个可编辑组件，不把课内粗排当最终电影。参考references/course-composite.md，先核对调用者已有AE/FFmpeg及明确的输入角色、来源和参数。当前20秒例子后段尚空，不能用于要求完整成片的交付或自动降级替代其他高级效果。
+0.1.1候选。第13节组合五个可编辑组件，另有第15节径向轮廓背景分支；两者均不代表完成整套片头。先按需求选择references/course-composite.md或references/course-radial.md，只加载相关分支。第13节20秒例子后段尚空，不能用于要求完整成片的交付或自动降级替代其他高级效果。
+
+径向背景：scripts/build_radial.py --out全新目录；随后run_ae.py与render_ae.py。默认examples/course-radial.json引用本Skill自制可编辑AEP模板，保留课程Fractal Noise/CC Radial Fast Blur/Unsharp Mask/Find Edges/Curves链。--speed、--seed、--duration为显式变体；曲线按画面推定，跨三种素材与课程视觉验收尚缺，详见tests/radial-results.json。不要把此分支当任意素材处理或完整第15节总装。
 
 scripts/build_composite.py --profile examples/course-composite.json --out全新目录，复制五个自制原生AEP和必要素材，保存请求/计划；随后scripts/run_ae.py --ae本机AfterFX路径，再scripts/render_ae.py --aerender本机路径 --reuse。脚本拒绝关闭未保存或不属于本实验的工程。示例和底层工具均在本Skill内，不读取其他视频仓库或教程缓存。
 

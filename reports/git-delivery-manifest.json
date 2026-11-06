@@ -1,6 +1,8 @@
 {
   "scope": "Standalone video-skills-lab progress snapshot; overall curriculum incomplete",
   "cases": [
+    "samples/course-reproduction-011/p15-radial-002",
+    "samples/course-reproduction-011/p15-radial-slow-002",
     "samples/course-reproduction-010/p13-baseline-004",
     "samples/course-reproduction-010/p13-geometry-001",
     "samples/course-reproduction-010/p13-typography-001",
@@ -426,6 +428,71 @@
       "path": "evaluations/course-p14-probe-001/summary.json",
       "bytes": 7276,
       "sha256": "d735edd9504eadfc488f160c1e4b46a7878aebe9710fc2450f3bb0fefb83102d"
+    },
+    {
+      "path": "evaluations/course-p15-radial-001/isolated-plan.json",
+      "bytes": 570,
+      "sha256": "ff4e8fe66fe0de5462ca41abe0c659ce7d9b80203f7fa25054d29fa2df3781d6"
+    },
+    {
+      "path": "evaluations/course-p15-radial-001/isolated-quality.json",
+      "bytes": 1096,
+      "sha256": "c2f66ba0a16b07d038c09320dcd10b6a3b637b187e24c6c0ca8f853dc6745f72"
+    },
+    {
+      "path": "evaluations/course-p15-radial-001/isolated-receipt.json",
+      "bytes": 793,
+      "sha256": "6012c2e6cfc776e7f6f2078853deec85d1eecde58a9dddb992e2517b276f8555"
+    },
+    {
+      "path": "evaluations/course-p15-radial-001/isolated-request.json",
+      "bytes": 487,
+      "sha256": "eb08996fa912a45c342a5eff608b4183ff419f1dc89237aa76876a321061a0e5"
+    },
+    {
+      "path": "evaluations/course-p15-radial-001/isolated-scene-quality.json",
+      "bytes": 873,
+      "sha256": "6746e9707b519c249bfde22e84ffaf8befbbddb2405616fe2c0c46beb86d33fb"
+    },
+    {
+      "path": "evaluations/course-p15-radial-001/native-effects-probe.json",
+      "bytes": 9855,
+      "sha256": "6a98465bbd6ab6107e9c5fdf5cb2e1af7d1a35eefacf10797447038772c65eca"
+    },
+    {
+      "path": "evaluations/course-p15-radial-001/native-project-audit-002.json",
+      "bytes": 664,
+      "sha256": "8a286a7f7d490dbf3256ecc1451f06734200445796fd997df62c8c4073576a67"
+    },
+    {
+      "path": "evaluations/course-p15-radial-001/native-project-audit-002.jsx",
+      "bytes": 3172,
+      "sha256": "6d4917ef851de70d04f8ec040263467c0b8b4ab16a541030e01b3f8419c2014b"
+    },
+    {
+      "path": "evaluations/course-p15-radial-001/native-project-audit.json",
+      "bytes": 62,
+      "sha256": "bd75100a87d53a7a35ce785fbcade7b41ff48e5f6728badea70bf5b1a3108d52"
+    },
+    {
+      "path": "evaluations/course-p15-radial-001/native-project-audit.jsx",
+      "bytes": 3025,
+      "sha256": "84070ec189c72b19ff52ab02beca326b2e8b7aab7f8dc89e35647130b630a8a9"
+    },
+    {
+      "path": "evaluations/course-p15-radial-001/summary.json",
+      "bytes": 3467,
+      "sha256": "f5e4b1fa402d6bd78571aa4897439b38dadaa6af3d6b670011d68294772f77eb"
+    },
+    {
+      "path": "evaluations/course-p15-radial-001/superseded-color001-quality.json",
+      "bytes": 752,
+      "sha256": "3ab8619df7a15fdfaaf0c968811dda0287a4e7d6f9fd02359d9847316a8bb61e"
+    },
+    {
+      "path": "evaluations/course-p15-radial-001/superseded-color001-receipt.json",
+      "bytes": 3811,
+      "sha256": "80587bf0246ac282422550ebdbfe4aad756eac53a32cf7a37df8288640376c5f"
     },
     {
       "path": "evaluations/first-skill.json",
@@ -3038,6 +3105,131 @@
       "sha256": "0206825c44c0c738e8425f1397f878651cccd3fde308efffbed122ada1e58258"
     },
     {
+      "path": "samples/course-reproduction-011/p15-radial-002/final.mp4",
+      "bytes": 20109294,
+      "sha256": "f4cb2c8b53eb2006d98760806100104cef5da625ae4b2d253da03260142e4612"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-002/native-still-0.png",
+      "bytes": 10444522,
+      "sha256": "1e72552ffcf6cf1d329fff8ab44a32bc51718157c6a9fadee8f11881b4334456"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-002/native-still-120.png",
+      "bytes": 10288853,
+      "sha256": "2c776e1f0563c88493f5c6617ec725f33f492316d871c81c8e6bc158d37562b6"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-002/native-still-239.png",
+      "bytes": 10228374,
+      "sha256": "5d9bc01ee42462bc7abe848df047b584d61e7cd84e9007e6c51fed355de1638b"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-002/native-still-24.png",
+      "bytes": 10422680,
+      "sha256": "1b8f9acf1ca6c2dff009e0097cde9e78da306c034af7b1a3fa981ac7d97c432a"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-002/native-still-gui-blue.png",
+      "bytes": 435741,
+      "sha256": "2ba75dea30f1f9444d3100ec0856c08d5005b6c5c978c51fe6cd91acf26d4d8f"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-002/native-still-gui-green.png",
+      "bytes": 407557,
+      "sha256": "8c3a0c2b6dff09cbc58408b886a5e220821992827ac3dc709aa46de1ba6265a7"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-002/native-still-gui-red.png",
+      "bytes": 384039,
+      "sha256": "c5a8ea6f08722fa68270e2ddbea326d66d14fb3b5d763fdd0c7b7b85fa3c7584"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-002/project.aep",
+      "bytes": 157305,
+      "sha256": "3854131c9b0d9f3ad3d845f4e2aed530bccac241c27c1c6afec88fc47bc5ce80"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-002/quality.json",
+      "bytes": 1121,
+      "sha256": "e44d06cda932c8fe56a00f7b99aee004d15274ca67a7b2283fec6824116c837f"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-002/receipt.json",
+      "bytes": 3811,
+      "sha256": "80587bf0246ac282422550ebdbfe4aad756eac53a32cf7a37df8288640376c5f"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-002/request.json",
+      "bytes": 292,
+      "sha256": "a7f8e4c7dd0da3a002b1b76375cf921c91c3384815e015aa8cf3e517442c667d"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-002/scene-quality.json",
+      "bytes": 877,
+      "sha256": "9c674e192f3391b2e846bc6c96a3b9d3f3ae8f1c1c99f05f94eb9397baea22f6"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-002/final.mp4",
+      "bytes": 12046091,
+      "sha256": "8d18b602f78b93a73315c512981d6848162a71a4cb330f13f824297f42ae4221"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-002/inputs/radial-template.aep",
+      "bytes": 157305,
+      "sha256": "3854131c9b0d9f3ad3d845f4e2aed530bccac241c27c1c6afec88fc47bc5ce80"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-002/native-still-0.png",
+      "bytes": 9870833,
+      "sha256": "a192786bbb62988058ef6ec18d976f5acd58549d24dd0a644ea37667726aaa52"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-002/native-still-143.png",
+      "bytes": 9438872,
+      "sha256": "80c28d4b519e554b01d92d6fed9fe3da667bac1c8f2e16fd39b376588e8c9074"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-002/native-still-24.png",
+      "bytes": 9689937,
+      "sha256": "c89e04c2cc8b0f27071c40240d9ab2bb5cb6d6891ca9845e87af106e878a66c7"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-002/native-still-72.png",
+      "bytes": 9379174,
+      "sha256": "c277f9180d084f9d6169682c13e8c93b065f5f16f8d70fb3ee40eb8b02360237"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-002/plan.json",
+      "bytes": 570,
+      "sha256": "ff4e8fe66fe0de5462ca41abe0c659ce7d9b80203f7fa25054d29fa2df3781d6"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-002/project.aep",
+      "bytes": 156459,
+      "sha256": "4aeb1213c9be29a80d90b9eea5482247475991155a1af6ee1d06ef230792e27b"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-002/quality.json",
+      "bytes": 1125,
+      "sha256": "fc2f67fac2b1d27b242eefb662673057f2bd3d45cb39c939fbc3553343639acf"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-002/receipt.json",
+      "bytes": 998,
+      "sha256": "bc99e1960c557262bbedf4355958774d51c5cf31245a413864c3d3c236b64b04"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-002/request.json",
+      "bytes": 512,
+      "sha256": "bd3b3d15203b309fe8489ac57fb3ae67f9aac1b6cc8637727430e481c4aec65d"
+    },
+    {
+      "path": "samples/course-reproduction-011/p15-radial-slow-002/scene-quality.json",
+      "bytes": 875,
+      "sha256": "61f0e255cc75c634cae81105b9d785dd8a736d16b7d6547aff7c314d233c4862"
+    },
+    {
       "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/assets.json",
       "bytes": 3976,
       "sha256": "9544dead507abc1e5e63152574fa5b94a67908d2b5d649788572fb7b9396cca1"
@@ -3934,5 +4126,5 @@
     "repeated native audio/video exports"
   ],
   "portability": "Native projects retain original Windows media paths. Rebuild from the bundled scripts or relink the bundled inputs/assets; historical report references may point to local-only artifacts.",
-  "total_selected_bytes": 556087950
+  "total_selected_bytes": 669743794
 }

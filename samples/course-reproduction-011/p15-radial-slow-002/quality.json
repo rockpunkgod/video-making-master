@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course-reproduction-011\\p15-radial-slow-002\\final.mp4",
+  "sha256": "8d18b602f78b93a73315c512981d6848162a71a4cb330f13f824297f42ae4221",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "difference_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24.0,
+    "duration": 6.0,
+    "decoded_frames": 144,
+    "unique_thumbnail_frames": 144
+  },
+  "temporal_contract": {
+    "expectation": "required",
+    "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+    "decoded_difference_frames": 143,
+    "maximum_mean_luma_difference": 0.344971,
+    "codec_noise_threshold": 0.1
+  },
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": "",
+  "scene_quality": "scene-quality.json"
+}

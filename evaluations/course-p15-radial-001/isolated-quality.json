@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\cache\\p15-isolated-run-001\\final.mp4",
+  "sha256": "5e2582ebc495255c80e49e15b0518f3a9c55845fc6fb1cbab69d4265d66c3e26",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "difference_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24.0,
+    "duration": 3.0,
+    "decoded_frames": 72,
+    "unique_thumbnail_frames": 72
+  },
+  "temporal_contract": {
+    "expectation": "required",
+    "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+    "decoded_difference_frames": 71,
+    "maximum_mean_luma_difference": 0.692627,
+    "codec_noise_threshold": 0.1
+  },
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": "",
+  "scene_quality": "scene-quality.json"
+}
