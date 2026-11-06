@@ -1,0 +1,303 @@
+{
+  "status": "planned",
+  "scopes": [
+    "cache",
+    "samples/course-reproduction-012"
+  ],
+  "published_commit": "c6fb01033482c7162a0bef9f44da84eca23b33dc",
+  "manifest_sha256": "d86a0a75272f6559602c0936663be1aeda161998471b62a56d4a37e60e458c55",
+  "files": 70,
+  "bytes": 17163420,
+  "keep_active": [
+    "cache/course-hires/BV1Yh4y1A7XT-p13-1080.mp4",
+    "cache/course-hires/BV1Yh4y1A7XT-p15-1080.mp4",
+    "cache/local-transcripts/BV1Yh4y1A7XT-p15-full-001/transcript.json",
+    "cache/reviews/p15-polar-original-vs-003/comparison.mp4",
+    "cache/watch/watch-z3iierxa/download/run-nv1kht5f/video.mp4"
+  ],
+  "protected_delivery_files": 593,
+  "skipped_links": [],
+  "targets": [
+    {
+      "path": "cache/p15-polar-comparison-check.png",
+      "bytes": 159320
+    },
+    {
+      "path": "cache/p15-polar-comparison003-check.png",
+      "bytes": 131142
+    },
+    {
+      "path": "cache/p15-polar-contact.png",
+      "bytes": 167008
+    },
+    {
+      "path": "cache/p15-polar-isolated-run-001/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 273319
+    },
+    {
+      "path": "cache/p15-polar-isolated-run-001/aerender.log",
+      "bytes": 7863
+    },
+    {
+      "path": "cache/p15-polar-isolated-run-001/build.jsx",
+      "bytes": 8220
+    },
+    {
+      "path": "cache/p15-polar-isolated-run-001/final.mp4",
+      "bytes": 8107576
+    },
+    {
+      "path": "cache/p15-polar-isolated-run-001/inputs/noise.aep",
+      "bytes": 527085
+    },
+    {
+      "path": "cache/p15-polar-isolated-run-001/native-still-0.png",
+      "bytes": 259107
+    },
+    {
+      "path": "cache/p15-polar-isolated-run-001/native-still-105.png",
+      "bytes": 292411
+    },
+    {
+      "path": "cache/p15-polar-isolated-run-001/native-still-209.png",
+      "bytes": 225469
+    },
+    {
+      "path": "cache/p15-polar-isolated-run-001/native-still-30.png",
+      "bytes": 242321
+    },
+    {
+      "path": "cache/p15-polar-isolated-run-001/plan.json",
+      "bytes": 643
+    },
+    {
+      "path": "cache/p15-polar-isolated-run-001/project.aep",
+      "bytes": 272215
+    },
+    {
+      "path": "cache/p15-polar-isolated-run-001/project.aep 日志/AE 2026-11-6 19-27-46.txt",
+      "bytes": 6130
+    },
+    {
+      "path": "cache/p15-polar-isolated-run-001/quality.json",
+      "bytes": 1102
+    },
+    {
+      "path": "cache/p15-polar-isolated-run-001/receipt.json",
+      "bytes": 1097
+    },
+    {
+      "path": "cache/p15-polar-isolated-run-001/request.json",
+      "bytes": 584
+    },
+    {
+      "path": "cache/p15-polar-isolated-run-001/scene-quality.json",
+      "bytes": 1014
+    },
+    {
+      "path": "cache/p15-polar-isolated-skill-001/examples/course-polar.json",
+      "bytes": 492
+    },
+    {
+      "path": "cache/p15-polar-isolated-skill-001/examples/inputs/noise.aep",
+      "bytes": 527085
+    },
+    {
+      "path": "cache/p15-polar-isolated-skill-001/scripts/__pycache__/validate_radial.cpython-313.pyc",
+      "bytes": 4666
+    },
+    {
+      "path": "cache/p15-polar-isolated-skill-001/scripts/__pycache__/validate_video.cpython-313.pyc",
+      "bytes": 8551
+    },
+    {
+      "path": "cache/p15-polar-isolated-skill-001/scripts/build_noise_asset.py",
+      "bytes": 2718
+    },
+    {
+      "path": "cache/p15-polar-isolated-skill-001/scripts/json_encode_adobe.jsx",
+      "bytes": 1080
+    },
+    {
+      "path": "cache/p15-polar-isolated-skill-001/scripts/noise_asset.jsx",
+      "bytes": 6497
+    },
+    {
+      "path": "cache/p15-polar-isolated-skill-001/scripts/render_ae.py",
+      "bytes": 3587
+    },
+    {
+      "path": "cache/p15-polar-isolated-skill-001/scripts/run_ae.py",
+      "bytes": 2350
+    },
+    {
+      "path": "cache/p15-polar-isolated-skill-001/scripts/validate_radial.py",
+      "bytes": 2773
+    },
+    {
+      "path": "cache/p15-polar-isolated-skill-001/scripts/validate_video.py",
+      "bytes": 4570
+    },
+    {
+      "path": "cache/p15-polar-negative-001/frozen.mp4",
+      "bytes": 56887
+    },
+    {
+      "path": "cache/p15-polar-open.jsx",
+      "bytes": 423
+    },
+    {
+      "path": "cache/p15-polar-props.png",
+      "bytes": 296368
+    },
+    {
+      "path": "cache/p15-polar-save-failed.jsx",
+      "bytes": 454
+    },
+    {
+      "path": "cache/p15-polar-ui-ready.txt",
+      "bytes": 5
+    },
+    {
+      "path": "cache/p15-polar-ui.png",
+      "bytes": 181626
+    },
+    {
+      "path": "cache/reviews/p15-polar-original-vs-002/comparison.mp4",
+      "bytes": 585559
+    },
+    {
+      "path": "cache/watch/watch-2e22n5t4/frames/cue_0000.jpg",
+      "bytes": 148292
+    },
+    {
+      "path": "cache/watch/watch-2e22n5t4/frames/cue_0001.jpg",
+      "bytes": 152112
+    },
+    {
+      "path": "cache/watch/watch-frourl7v/frames/cue_0000.jpg",
+      "bytes": 178669
+    },
+    {
+      "path": "cache/watch/watch-frourl7v/frames/cue_0001.jpg",
+      "bytes": 180250
+    },
+    {
+      "path": "cache/watch/watch-frourl7v/frames/cue_0002.jpg",
+      "bytes": 155258
+    },
+    {
+      "path": "cache/watch/watch-g5p67pc1/frames/cue_0000.jpg",
+      "bytes": 154498
+    },
+    {
+      "path": "cache/watch/watch-g5p67pc1/frames/cue_0001.jpg",
+      "bytes": 152798
+    },
+    {
+      "path": "cache/watch/watch-g5p67pc1/frames/cue_0002.jpg",
+      "bytes": 188079
+    },
+    {
+      "path": "cache/watch/watch-g5p67pc1/frames/cue_0003.jpg",
+      "bytes": 184819
+    },
+    {
+      "path": "cache/watch/watch-g5p67pc1/frames/cue_0004.jpg",
+      "bytes": 190683
+    },
+    {
+      "path": "cache/watch/watch-g5p67pc1/frames/cue_0005.jpg",
+      "bytes": 174099
+    },
+    {
+      "path": "cache/watch/watch-icz4vn66/frames/cue_0000.jpg",
+      "bytes": 159899
+    },
+    {
+      "path": "cache/watch/watch-icz4vn66/frames/cue_0001.jpg",
+      "bytes": 144879
+    },
+    {
+      "path": "cache/watch/watch-icz4vn66/frames/cue_0002.jpg",
+      "bytes": 211453
+    },
+    {
+      "path": "cache/watch/watch-icz4vn66/frames/cue_0003.jpg",
+      "bytes": 192110
+    },
+    {
+      "path": "cache/watch/watch-icz4vn66/frames/cue_0004.jpg",
+      "bytes": 146430
+    },
+    {
+      "path": "cache/watch/watch-jk30k286/frames/cue_0000.jpg",
+      "bytes": 182104
+    },
+    {
+      "path": "cache/watch/watch-jk30k286/frames/cue_0001.jpg",
+      "bytes": 186030
+    },
+    {
+      "path": "cache/watch/watch-jk30k286/frames/cue_0002.jpg",
+      "bytes": 188944
+    },
+    {
+      "path": "samples/course-reproduction-012/p15-polar-001/build.jsx",
+      "bytes": 8176
+    },
+    {
+      "path": "samples/course-reproduction-012/p15-polar-001/failed-project.aep",
+      "bytes": 235773
+    },
+    {
+      "path": "samples/course-reproduction-012/p15-polar-001/inputs/noise.aep",
+      "bytes": 527085
+    },
+    {
+      "path": "samples/course-reproduction-012/p15-polar-001/plan.json",
+      "bytes": 643
+    },
+    {
+      "path": "samples/course-reproduction-012/p15-polar-001/receipt.json",
+      "bytes": 166
+    },
+    {
+      "path": "samples/course-reproduction-012/p15-polar-001/request.json",
+      "bytes": 598
+    },
+    {
+      "path": "samples/course-reproduction-012/p15-polar-002/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 326257
+    },
+    {
+      "path": "samples/course-reproduction-012/p15-polar-002/aerender.log",
+      "bytes": 8045
+    },
+    {
+      "path": "samples/course-reproduction-012/p15-polar-002/build.jsx",
+      "bytes": 8247
+    },
+    {
+      "path": "samples/course-reproduction-012/p15-polar-002/project.aep 日志/AE 2026-11-6 19-20-11.txt",
+      "bytes": 6267
+    },
+    {
+      "path": "samples/course-reproduction-012/p15-polar-variation-001/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 379199
+    },
+    {
+      "path": "samples/course-reproduction-012/p15-polar-variation-001/aerender.log",
+      "bytes": 7851
+    },
+    {
+      "path": "samples/course-reproduction-012/p15-polar-variation-001/build.jsx",
+      "bytes": 8263
+    },
+    {
+      "path": "samples/course-reproduction-012/p15-polar-variation-001/project.aep 日志/AE 2026-11-6 19-20-52.txt",
+      "bytes": 6127
+    }
+  ],
+  "authorization": "User requested keeping only deliverables after library publication; scope restricted to this independent lab"
+}
