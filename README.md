@@ -1,5 +1,7 @@
 # video-skills-lab
 
+第32节新增透明云层Alpha采样联动的内置LensFlare明确变体：5例原生工程/视频、850帧独立Alpha核对、三新素材和独立复制调用。课程原版OpticalFlares/GoldenSun缺失，未完成；保持candidate，不因技术通过升级。当前129组原生交付，全部课程目标仍未完成。见evaluations/course2-p32-cloud-001/summary.json。
+
 第31节Numbers读取进度已完成5例原生AEP/视频、1750帧、三新PNG标题及独立复制调用，实际调整层开关与71张PNG检查通过。原课字体缺失、字形补偿/部分布局与色彩有适配边界，整体反馈待答；ae-advanced-expressions0.12.0保持candidate。现保留124组原生交付，总目标未完成。见evaluations/course2-p31-progress-001/summary.json。
 
 第25节新增随动放大镜候选：5份真实AEP/视频、750帧检查、65张原生时点/效果开关PNG，含独立Skill副本调用、变参及三个新图片输入。原法光学机制通过技术检查；源课是手动拖动，示例位置关键帧为采样重放适配，人工光学反馈待答。ae-advanced-expressions当前0.7.0 candidate。[报告](evaluations/course2-p25-magnifier-001/summary.json)。
@@ -44,7 +46,7 @@ python skills/after-effects/ae-procedural-motion/scripts/render_ae.py samples/ru
 
 构建脚本拒绝替换已有内容的工程，避免关闭用户工作。新素材路径由 asset 参数指定；原素材和预合成保留。跨机器迁移时须连同样例资产一起复制，并重新生成其绝对路径配置。
 
-render_ae.py 只接受成功的原生构建回执，通过aerender原生输出H.264或帧序列，再保留为final.mp4。quality.json包含解码、帧数、帧率、画幅和运动存在性检测；回执还逐帧核对延迟旋转、Z深度及形状顶点。技术检测不评价美感，工程可编辑性和视觉对照另有原生审计与审查记录。
+render_ae.py 只接受成功的原生构建回执；多数分支通过aerender原生输出H.264或帧序列。第32节为解决本机sampleImage异步读回问题，以原生CompItem.saveFrameToPng导出后由FFmpeg编码，回执明确未调用aerender，不混淆执行路径。最后保留final.mp4。quality.json包含解码、帧数、帧率、画幅和运动存在性检测；回执还逐帧核对延迟旋转、Z深度及形状顶点。技术检测不评价美感，工程可编辑性和视觉对照另有原生审计与审查记录。
 
 当前课程配置为1080方形、30fps、7秒；2→5帧延迟是已测变参，PNG输入使用opacity分支。旧triangle/hexagon、自制画幅和曲线属于历史泛化变体，不在0.3.0课程配置验证范围。按技能tests/protocol.md记录技术与视觉证据，registry不会因为生成脚本自动升级。
 

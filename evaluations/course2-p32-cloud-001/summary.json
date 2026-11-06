@@ -1,0 +1,190 @@
+{
+  "status": "candidate_explicit_variant_native_suite_passed_original_blocked",
+  "skill": "ae-advanced-expressions",
+  "version": "0.13.0",
+  "unit": "cloud_occlusion_native_variant",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=32",
+  "original_status": "blocked_OpticalFlares_not_registered",
+  "course_fidelity": "LumaMatte/transparentWhiteCloud/finalScreenBothLayers/sampleImage[2,2]Alpha3/linear100..50 retained; nativeflare explicit alternative under source05:37 speech, originalGoldenSun not reproduced",
+  "cases": [
+    {
+      "case": "baseline-005",
+      "directory": "samples/course2-cloud-native-001/baseline-005",
+      "frames": 250,
+      "video_sha256": "588564c717fbd2053322acaa1d5453c431abe16dfc511080ea6cfc75764893b2",
+      "project_sha256": "04fab86e9ba2ac3ebb28a3510d23360e614f9f77ee94599d8ec7831a0d6ab9fa",
+      "max_alpha_error": 0.0019607847775635293,
+      "checks": {
+        "course_blending": true,
+        "full_movie": true,
+        "native_checkpoint_rgb": true,
+        "rendered_alpha_vs_sample": true,
+        "alpha_varies": true,
+        "native_mapping": true,
+        "native_materialization": true,
+        "no_expression_errors": true,
+        "luma_matte": true,
+        "actual_feedback_pixel_effect": true,
+        "point_edit_saved": true,
+        "media": true,
+        "explicit_variant": true
+      },
+      "native_pngs_viewed": 24,
+      "alpha_range": [
+        0,
+        0.55686277151108
+      ],
+      "max_formula_error": 0,
+      "feedback_roi_mean_rgb_difference": 33.7489013671875
+    },
+    {
+      "case": "bands-003",
+      "directory": "samples/course2-cloud-native-001/bands-003",
+      "frames": 150,
+      "video_sha256": "4267d19b1f17245b698465efda74641f367ab63201d3b5dbaab588c534675d97",
+      "project_sha256": "ba47035b092ea03d578e8fd8da422b90d968aa4923642345776933f81d0726a5",
+      "max_alpha_error": 0.0019526984913726952,
+      "checks": {
+        "course_blending": true,
+        "full_movie": true,
+        "native_checkpoint_rgb": true,
+        "rendered_alpha_vs_sample": true,
+        "alpha_varies": true,
+        "native_mapping": true,
+        "native_materialization": true,
+        "no_expression_errors": true,
+        "luma_matte": true,
+        "actual_feedback_pixel_effect": true,
+        "point_edit_saved": true,
+        "media": true,
+        "explicit_variant": true
+      },
+      "native_pngs_viewed": 14,
+      "alpha_range": [
+        0.02745098248124,
+        0.96470594406128
+      ],
+      "max_formula_error": 0,
+      "feedback_roi_mean_rgb_difference": 20.35870361328125
+    },
+    {
+      "case": "cells-002",
+      "directory": "samples/course2-cloud-native-001/cells-002",
+      "frames": 150,
+      "video_sha256": "8a5bc26e053ac96a7786c8bdf76485bb4bcd2d5e360fb619576b830ccd010ff3",
+      "project_sha256": "a55e7e4bfbe7287a75312e126c2714a70dbae75158bbc2b7c12e657e1a221011",
+      "max_alpha_error": 0.0019608018444990938,
+      "checks": {
+        "course_blending": true,
+        "full_movie": true,
+        "native_checkpoint_rgb": true,
+        "rendered_alpha_vs_sample": true,
+        "alpha_varies": true,
+        "native_mapping": true,
+        "native_materialization": true,
+        "no_expression_errors": true,
+        "luma_matte": true,
+        "actual_feedback_pixel_effect": true,
+        "point_edit_saved": true,
+        "media": true,
+        "explicit_variant": true
+      },
+      "native_pngs_viewed": 14,
+      "alpha_range": [
+        0.35686275362968,
+        0.70588237047195
+      ],
+      "max_formula_error": 0,
+      "feedback_roi_mean_rgb_difference": 20.0306396484375
+    },
+    {
+      "case": "rings-001",
+      "directory": "samples/course2-cloud-native-001/rings-001",
+      "frames": 150,
+      "video_sha256": "b334c4122d355a040f36cda092d94081abd2fe330dcf2f816c227447774d1417",
+      "project_sha256": "f803559f9ce1effcd65a46ee0c5cbc9e82d2735f0449ee80dfa5f6bfd9fa9715",
+      "max_alpha_error": 0.0019488426702437,
+      "checks": {
+        "course_blending": true,
+        "full_movie": true,
+        "native_checkpoint_rgb": true,
+        "rendered_alpha_vs_sample": true,
+        "alpha_varies": true,
+        "native_mapping": true,
+        "native_materialization": true,
+        "no_expression_errors": true,
+        "luma_matte": true,
+        "actual_feedback_pixel_effect": true,
+        "point_edit_saved": true,
+        "media": true,
+        "explicit_variant": true
+      },
+      "native_pngs_viewed": 14,
+      "alpha_range": [
+        0.02745098248124,
+        0.96470594406128
+      ],
+      "max_formula_error": 0,
+      "feedback_roi_mean_rgb_difference": 19.055521647135418
+    },
+    {
+      "case": "variation-isolated-001",
+      "directory": "samples/course2-cloud-native-001/variation-isolated-001",
+      "frames": 150,
+      "video_sha256": "dfb138746d02cc1bacb1f8554feea62ff56d86fdea27dd9c5d3b6fde1c916c0a",
+      "project_sha256": "78544248718b85dacf4826953822317034e3cf6ebf8fe7650132faee18b335a7",
+      "max_alpha_error": 0.0018995093400835297,
+      "checks": {
+        "course_blending": true,
+        "full_movie": true,
+        "native_checkpoint_rgb": true,
+        "rendered_alpha_vs_sample": true,
+        "alpha_varies": true,
+        "native_mapping": true,
+        "native_materialization": true,
+        "no_expression_errors": true,
+        "luma_matte": true,
+        "actual_feedback_pixel_effect": true,
+        "point_edit_saved": true,
+        "media": true,
+        "explicit_variant": true
+      },
+      "native_pngs_viewed": 14,
+      "alpha_range": [
+        0,
+        0.29019609093666
+      ],
+      "max_formula_error": 0,
+      "feedback_roi_mean_rgb_difference": 34.18743896484375
+    }
+  ],
+  "total_frames": 850,
+  "native_pngs_viewed": 80,
+  "human_review": "not_requested_for_original_identity; native optical variant unaccepted",
+  "objective": "All native frames formula and independent alpha sample measured, main native checkpoints compared to final movie, effect off/on actual pixel test, edit/save/reopen and media audit",
+  "subjective": "Native PNGs viewed for gross composition/visibility; no source optical identity or aesthetic pass inferred",
+  "negative": "Frozen movie rejected by cloud RGB checkpoint check; generic frame uniqueness falsely accepted codec microvariation and is insufficient alone",
+  "host_failure": "Synchronous sampleImage reads returnedzero or inconsistent values. Actual scheduleTask phases sourcePNG/mainPNG/readback corrected it; previous Normal-cloud variants rejected against final source Screen",
+  "limitations": [
+    "Original OpticalFlares/GoldenSun optical reproduction blocked",
+    "Source random seed/background exact RGB not read; nativeLensFlare optics explicit substitution",
+    "PNG sweep is new material adaptation, not source motion keys",
+    "Source24:30..24:35 paused preview compared to continuous native, not timeline synchronized",
+    "Second video-only half sparse global frames only",
+    "Full18sources/166chapters goal incomplete"
+  ],
+  "evidence": [
+    "source-frame-provenance.json",
+    "host-effects.json",
+    "existing-plugin-search.json",
+    "rejected-sample-read-attempts.json",
+    "rejected-normal-blend.json",
+    "sample-render-order-probe.json",
+    "sample-dependency-probe.json",
+    "sample-prime-probe.json",
+    "frozen-cloud-negative.json",
+    "frozen-negative.json",
+    "isolated-copy.json",
+    "regular-renderer-regression.json"
+  ]
+}

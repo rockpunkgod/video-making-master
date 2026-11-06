@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "projects": [
+    {
+      "case": "baseline-005",
+      "checks": {
+        "screen": true,
+        "luma": true,
+        "flare": true,
+        "format": true,
+        "noise_parameters": true,
+        "offset_expression": true
+      }
+    },
+    {
+      "case": "bands-003",
+      "checks": {
+        "screen": true,
+        "luma": true,
+        "flare": true,
+        "format": true
+      }
+    },
+    {
+      "case": "cells-002",
+      "checks": {
+        "screen": true,
+        "luma": true,
+        "flare": true,
+        "format": true
+      }
+    },
+    {
+      "case": "rings-001",
+      "checks": {
+        "screen": true,
+        "luma": true,
+        "flare": true,
+        "format": true
+      }
+    },
+    {
+      "case": "variation-isolated-001",
+      "checks": {
+        "screen": true,
+        "luma": true,
+        "flare": true,
+        "format": true,
+        "noise_parameters": true,
+        "offset_expression": true
+      }
+    }
+  ],
+  "source": "Actual saved AEP read-only audit, not script source inspection"
+}

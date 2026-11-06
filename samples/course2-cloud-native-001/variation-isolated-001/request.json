@@ -1,0 +1,48 @@
+{
+  "name": "COURSE_CLOUD_NATIVE_VARIANT",
+  "animation": "cloud-occlusion",
+  "motion_expectation": "required",
+  "width": 720,
+  "height": 576,
+  "par": 1.09401709401709,
+  "fps": 25,
+  "duration": 6.0,
+  "speed": -45.0,
+  "floor": 20.0,
+  "implementation": "native-lens-flare",
+  "original_course_status": "blocked_OpticalFlares_not_registered_in_host",
+  "source_point": [
+    236,
+    164
+  ],
+  "sweep": false,
+  "asset": null,
+  "source_noise": {
+    "fractal": 1,
+    "noise": 3,
+    "contrast": 177,
+    "brightness": -44,
+    "uniform": 0,
+    "width": 237,
+    "height": 100,
+    "complexity": 6,
+    "sub_influence": 70,
+    "sub_scale": 56,
+    "evolution": 0,
+    "seed": 0
+  },
+  "sampling_radius": [
+    2,
+    2
+  ],
+  "background": [
+    0.035,
+    0.03,
+    0.14
+  ],
+  "inferred": [
+    "Native Lens Flare enum1 is an explicit implementation variant, not GoldenSun preset or OpticalFlares object identity",
+    "Dark blue background approximated from footage, source seed0 not explicitly read",
+    "PNG matte/static-image light-sweep adaptation is new; source cloud drift method retained in noasset branch"
+  ]
+}

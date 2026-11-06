@@ -1,0 +1,25 @@
+{
+  "status": "bounded_readonly_search",
+  "roots": [
+    {
+      "root": "C:\\Program Files\\Adobe",
+      "exists": true,
+      "matches": [],
+      "scan_exit": 1
+    },
+    {
+      "root": "C:\\Program Files\\Common Files\\Adobe\\Plug-Ins",
+      "exists": true,
+      "matches": [],
+      "scan_exit": 1
+    },
+    {
+      "root": "E:\\自媒体\\Adobe After Effects 2026\\Support Files\\Plug-ins",
+      "exists": true,
+      "matches": [],
+      "scan_exit": 1
+    }
+  ],
+  "files_modified": false,
+  "installation_attempted": false
+}

@@ -1,0 +1,6034 @@
+[
+  {
+    "case": "baseline-001",
+    "receipt": {
+      "status": "failed",
+      "project_reopened": true,
+      "expression_errors": [
+        "Sample mapping or variation check failed"
+      ],
+      "selected_template": "带有 Alpha 的 TIFF 序列 ",
+      "output_format": "tiff",
+      "native_frames_checked": 250,
+      "max_formula_error": 0,
+      "alpha_range": [
+        0,
+        0
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 1,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 2,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 3,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 4,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 5,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 6,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 7,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 8,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 9,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 10,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 11,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 12,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 13,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 14,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 15,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 16,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 17,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 18,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 19,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 20,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 21,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 22,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 23,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 24,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 25,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 26,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 27,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 28,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 29,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 30,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 31,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 32,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 33,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 34,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 35,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 36,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 37,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 38,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 39,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 40,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 41,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 42,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 43,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 44,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 45,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 46,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 47,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 48,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 49,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 50,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 51,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 52,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 53,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 54,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 55,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 56,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 57,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 58,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 59,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 60,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 61,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 62,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 63,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 64,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 65,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 66,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 67,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 68,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 69,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 70,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 71,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 72,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 73,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 74,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 75,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 76,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 77,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 78,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 79,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 80,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 81,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 82,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 83,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 84,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 85,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 86,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 87,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 88,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 89,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 90,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 91,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 92,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 93,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 94,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 95,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 96,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 97,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 98,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 99,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 100,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 101,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 102,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 103,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 104,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 105,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 106,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 107,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 108,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 109,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 110,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 111,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 112,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 113,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 114,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 115,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 116,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 117,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 118,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 119,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 120,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 121,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 122,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 123,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 124,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 125,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 126,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 127,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 128,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 129,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 130,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 131,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 132,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 133,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 134,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 135,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 136,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 137,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 138,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 139,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 140,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 141,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 142,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 143,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 144,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 145,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 146,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 147,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 148,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 149,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 150,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 151,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 152,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 153,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 154,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 155,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 156,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 157,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 158,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 159,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 160,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 161,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 162,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 163,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 164,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 165,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 166,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 167,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 168,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 169,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 170,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 171,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 172,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 173,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 174,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 175,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 176,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 177,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 178,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 179,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 180,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 181,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 182,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 183,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 184,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 185,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 186,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 187,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 188,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 189,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 190,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 191,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 192,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 193,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 194,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 195,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 196,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 197,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 198,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 199,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 200,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 201,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 202,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 203,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 204,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 205,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 206,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 207,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 208,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 209,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 210,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 211,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 212,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 213,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 214,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 215,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 216,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 217,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 218,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 219,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 220,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 221,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 222,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 223,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 224,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 225,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 226,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 227,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 228,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 229,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 230,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 231,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 232,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 233,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 234,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 235,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 236,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 237,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 238,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 239,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 240,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 241,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 242,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 243,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 244,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 245,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 246,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 247,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 248,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 249,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        }
+      ],
+      "matte": {
+        "type_luma": true,
+        "source": "NOISE_LUMA",
+        "source_enabled": false
+      },
+      "native_edit": {
+        "original_point": [
+          236,
+          164
+        ],
+        "edited_point": [
+          248,
+          171
+        ],
+        "restored": [
+          236,
+          164
+        ]
+      },
+      "feedback_control": {
+        "frame": 0,
+        "alpha": 0,
+        "on_brightness": 100,
+        "off_brightness": 100
+      },
+      "media": [],
+      "expressions": {
+        "sample": "mubiao=thisComp.layer(\"白云\");\nalpha=mubiao.sampleImage(effect(\"ADBE Lens Flare\")(\"ADBE Lens Flare-0001\"),[2,2])[3];\nalpha",
+        "brightness": "mubiao=thisComp.layer(\"白云\");\nalpha=mubiao.sampleImage(effect(\"ADBE Lens Flare\")(\"ADBE Lens Flare-0001\"),[2,2])[3];\nlinear(alpha,0,1,100,50);"
+      },
+      "implementation": "explicit built-in Lens Flare variant, notOpticalFlares",
+      "original_course_status": "blocked_OpticalFlares_missing",
+      "course_fidelity": "LumaMatte/transparentprecomp/sampleImagealpha/linear branch retained; nativeflare optics and approximatebackground are explicitadaptations",
+      "rendered": false
+    },
+    "project_sha256": "dc8c41965c3a7f1e1355bf1c82c2d6df3c1beb7178b517692d602309aa328457",
+    "reason": "001: scripted sampleImage before rendering returnedallzero.002: PNG rendered before first query still left auxiliaryAPI sampleallzero while visiblebrightnessvaried; warm scalarqueries before forcingrender resolved in003. Neitherfailed case accepted or encoded as delivered video."
+  },
+  {
+    "case": "baseline-002",
+    "receipt": {
+      "status": "failed",
+      "project_reopened": true,
+      "expression_errors": [
+        "Sample mapping or variation check failed"
+      ],
+      "selected_template": "带有 Alpha 的 TIFF 序列 ",
+      "output_format": "png",
+      "native_render_method": "CompItem.saveFrameToPng",
+      "native_export_complete": true,
+      "native_frames_rendered": 250,
+      "queued_format": "tiff",
+      "native_frames_checked": 250,
+      "max_formula_error": 26.6666680574417,
+      "alpha_range": [
+        0,
+        0
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 1,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 2,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 3,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 4,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 5,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 6,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 7,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 8,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 9,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 10,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 11,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 12,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 13,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 14,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 15,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 16,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 17,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 18,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 19,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 20,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 21,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 22,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 23,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 24,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 25,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 26,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 27,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 28,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 29,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 30,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 31,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 32,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 33,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 34,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 99.8039215570316
+        },
+        {
+          "frame": 35,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 36,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 37,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 38,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 39,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 96.6666664928198
+        },
+        {
+          "frame": 40,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 41,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 42,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 43,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 44,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 45,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 46,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 47,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 48,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 49,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 50,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 51,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 52,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 53,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 54,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 55,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 56,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 57,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 58,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 59,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 60,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 61,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 62,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 63,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 93.7254898250103
+        },
+        {
+          "frame": 64,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 65,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 66,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 67,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 68,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 69,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 70,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 71,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 72,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 73,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 74,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 75,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 76,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 77,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 78,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 79,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 80,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 81,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 82,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 83,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 84,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 85,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 86,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 87,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 88,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 89,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 90,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 91,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 92,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 93,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 94,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 95,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 96,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 97,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 98,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 99,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 100,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 101,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 102,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 103,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 104,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 105,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 106,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 107,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 108,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 109,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 110,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 111,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 112,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 113,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 114,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 115,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 116,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 117,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 118,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 119,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 120,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 121,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 122,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 123,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 124,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 125,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 126,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 127,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 128,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 129,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 130,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 131,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 80.7843118906021
+        },
+        {
+          "frame": 132,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 133,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 134,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 135,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 136,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 137,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 138,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 139,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 140,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 73.3333319425583
+        },
+        {
+          "frame": 141,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 142,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 143,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 144,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 145,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 79.6078413724899
+        },
+        {
+          "frame": 146,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 147,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 148,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 149,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 150,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 151,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 152,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 153,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 154,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 155,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 156,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 157,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 158,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 159,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 160,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 161,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 162,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 163,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 164,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 165,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 166,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 167,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 168,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 169,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 170,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 171,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 172,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 173,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 174,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 175,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 176,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 177,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 178,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 179,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 180,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 181,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 182,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 183,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 184,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 185,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 186,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 187,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 188,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 189,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 190,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 191,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 192,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 193,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 194,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 195,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 196,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 197,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 198,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 199,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 200,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 201,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 202,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 203,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 204,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 205,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 206,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 207,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 97.2549017518759
+        },
+        {
+          "frame": 208,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 209,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 210,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 211,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 212,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 213,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 214,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 215,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 216,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 217,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 218,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 219,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 220,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 221,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 222,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 223,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 224,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 225,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 226,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 227,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 228,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 229,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 230,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 231,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 232,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 233,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 234,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 235,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 236,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 237,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 238,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 239,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 240,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 241,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 242,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 243,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 244,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 245,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 246,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 247,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 248,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 249,
+          "point": [
+            236,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        }
+      ],
+      "matte": {
+        "type_luma": true,
+        "source": "NOISE_LUMA",
+        "source_enabled": false
+      },
+      "native_edit": {
+        "original_point": [
+          236,
+          164
+        ],
+        "edited_point": [
+          248,
+          171
+        ],
+        "restored": [
+          236,
+          164
+        ]
+      },
+      "feedback_control": {
+        "frame": 0,
+        "alpha": 0,
+        "on_brightness": 100,
+        "off_brightness": 100
+      },
+      "media": [],
+      "expressions": {
+        "sample": "mubiao=thisComp.layer(\"白云\");\nalpha=mubiao.sampleImage(effect(\"ADBE Lens Flare\")(\"ADBE Lens Flare-0001\"),[2,2])[3];\nalpha",
+        "brightness": "mubiao=thisComp.layer(\"白云\");\nalpha=mubiao.sampleImage(effect(\"ADBE Lens Flare\")(\"ADBE Lens Flare-0001\"),[2,2])[3];\nlinear(alpha,0,1,100,50);"
+      },
+      "implementation": "explicit built-in Lens Flare variant, notOpticalFlares",
+      "original_course_status": "blocked_OpticalFlares_missing",
+      "course_fidelity": "LumaMatte/transparentprecomp/sampleImagealpha/linear branch retained; nativeflare optics and approximatebackground are explicitadaptations",
+      "rendered": true
+    },
+    "project_sha256": "c3008cb8af004172843e0937959416f20ccab24f54c961514678d629dbcae539",
+    "reason": "001: scripted sampleImage before rendering returnedallzero.002: PNG rendered before first query still left auxiliaryAPI sampleallzero while visiblebrightnessvaried; warm scalarqueries before forcingrender resolved in003. Neitherfailed case accepted or encoded as delivered video."
+  },
+  {
+    "case": "bands-001",
+    "receipt": {
+      "status": "failed",
+      "project_reopened": true,
+      "expression_errors": [
+        "Sample mapping or variation check failed"
+      ],
+      "selected_template": "带有 Alpha 的 TIFF 序列 ",
+      "output_format": "png",
+      "native_render_method": "CompItem.saveFrameToPng",
+      "native_export_complete": true,
+      "native_frames_rendered": 150,
+      "queued_format": "tiff",
+      "native_frames_checked": 150,
+      "max_formula_error": 46.6666698455811,
+      "alpha_range": [
+        0,
+        0.96470594406128
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "point": [
+            100,
+            164
+          ],
+          "alpha": 0.95294123888016,
+          "brightness": 52.3529380559921
+        },
+        {
+          "frame": 1,
+          "point": [
+            103.490245929835,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 2,
+          "point": [
+            106.979838292965,
+            164
+          ],
+          "alpha": 0.93333339691162,
+          "brightness": 53.3333301544189
+        },
+        {
+          "frame": 3,
+          "point": [
+            110.469488011102,
+            164
+          ],
+          "alpha": 0.92549026012421,
+          "brightness": 53.7254869937897
+        },
+        {
+          "frame": 4,
+          "point": [
+            113.959752929554,
+            164
+          ],
+          "alpha": 0.90980398654938,
+          "brightness": 54.5098006725311
+        },
+        {
+          "frame": 5,
+          "point": [
+            117.450337947119,
+            164
+          ],
+          "alpha": 0.89411771297455,
+          "brightness": 55.2941143512726
+        },
+        {
+          "frame": 6,
+          "point": [
+            120.940794205802,
+            164
+          ],
+          "alpha": 0.87843143939972,
+          "brightness": 56.078428030014
+        },
+        {
+          "frame": 7,
+          "point": [
+            124.430056499647,
+            164
+          ],
+          "alpha": 0.85882359743118,
+          "brightness": 57.0588201284409
+        },
+        {
+          "frame": 8,
+          "point": [
+            127.919409626555,
+            164
+          ],
+          "alpha": 0.83921575546265,
+          "brightness": 58.0392122268677
+        },
+        {
+          "frame": 9,
+          "point": [
+            131.409652487051,
+            164
+          ],
+          "alpha": 0.81960791349411,
+          "brightness": 59.0196043252945
+        },
+        {
+          "frame": 10,
+          "point": [
+            134.899336546542,
+            164
+          ],
+          "alpha": 0.79607850313187,
+          "brightness": 60.1960748434067
+        },
+        {
+          "frame": 11,
+          "point": [
+            138.389323612296,
+            164
+          ],
+          "alpha": 0.77254909276962,
+          "brightness": 61.3725453615189
+        },
+        {
+          "frame": 12,
+          "point": [
+            141.879437331593,
+            164
+          ],
+          "alpha": 0.74509805440903,
+          "brightness": 62.7450972795486
+        },
+        {
+          "frame": 13,
+          "point": [
+            145.369124112989,
+            164
+          ],
+          "alpha": 0.72156864404678,
+          "brightness": 63.9215677976608
+        },
+        {
+          "frame": 14,
+          "point": [
+            148.859083044779,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 15,
+          "point": [
+            152.349434882143,
+            164
+          ],
+          "alpha": 0.66666668653488,
+          "brightness": 66.6666656732559
+        },
+        {
+          "frame": 16,
+          "point": [
+            155.839435225258,
+            164
+          ],
+          "alpha": 0.63921570777893,
+          "brightness": 68.0392146110535
+        },
+        {
+          "frame": 17,
+          "point": [
+            159.329069034864,
+            164
+          ],
+          "alpha": 0.60784316062927,
+          "brightness": 69.6078419685364
+        },
+        {
+          "frame": 18,
+          "point": [
+            162.818711887622,
+            164
+          ],
+          "alpha": 0.58039218187332,
+          "brightness": 70.9803909063339
+        },
+        {
+          "frame": 19,
+          "point": [
+            166.308914723666,
+            164
+          ],
+          "alpha": 0.54901963472366,
+          "brightness": 72.5490182638168
+        },
+        {
+          "frame": 20,
+          "point": [
+            169.799110363256,
+            164
+          ],
+          "alpha": 0.52156865596771,
+          "brightness": 73.9215672016144
+        },
+        {
+          "frame": 21,
+          "point": [
+            173.288997999297,
+            164
+          ],
+          "alpha": 0.49019610881805,
+          "brightness": 75.4901945590973
+        },
+        {
+          "frame": 22,
+          "point": [
+            176.778653263714,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 76.8627434968948
+        },
+        {
+          "frame": 23,
+          "point": [
+            180.268365557361,
+            164
+          ],
+          "alpha": 0.43137258291245,
+          "brightness": 78.4313708543777
+        },
+        {
+          "frame": 24,
+          "point": [
+            183.758548701533,
+            164
+          ],
+          "alpha": 0.40000003576279,
+          "brightness": 79.9999982118607
+        },
+        {
+          "frame": 25,
+          "point": [
+            187.248892984154,
+            164
+          ],
+          "alpha": 0.37647062540054,
+          "brightness": 81.1764687299728
+        },
+        {
+          "frame": 26,
+          "point": [
+            190.739061725681,
+            164
+          ],
+          "alpha": 0.34509804844856,
+          "brightness": 82.7450975775719
+        },
+        {
+          "frame": 27,
+          "point": [
+            194.228956085038,
+            164
+          ],
+          "alpha": 0.31764706969261,
+          "brightness": 84.1176465153694
+        },
+        {
+          "frame": 28,
+          "point": [
+            197.718608516918,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 29,
+          "point": [
+            201.208169621441,
+            164
+          ],
+          "alpha": 0.26666668057442,
+          "brightness": 86.6666659712791
+        },
+        {
+          "frame": 30,
+          "point": [
+            204.697896824503,
+            164
+          ],
+          "alpha": 0.23921570181847,
+          "brightness": 88.0392149090767
+        },
+        {
+          "frame": 31,
+          "point": [
+            208.188056023695,
+            164
+          ],
+          "alpha": 0.21568629145622,
+          "brightness": 89.2156854271889
+        },
+        {
+          "frame": 32,
+          "point": [
+            211.678180333587,
+            164
+          ],
+          "alpha": 0.18823531270027,
+          "brightness": 90.5882343649864
+        },
+        {
+          "frame": 33,
+          "point": [
+            215.168107061189,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 91.5686272084713
+        },
+        {
+          "frame": 34,
+          "point": [
+            218.657878283477,
+            164
+          ],
+          "alpha": 0.14901961386204,
+          "brightness": 92.5490193068981
+        },
+        {
+          "frame": 35,
+          "point": [
+            222.147607496299,
+            164
+          ],
+          "alpha": 0.1294117718935,
+          "brightness": 93.5294114053249
+        },
+        {
+          "frame": 36,
+          "point": [
+            225.637473914302,
+            164
+          ],
+          "alpha": 0.10980392992496,
+          "brightness": 94.5098035037518
+        },
+        {
+          "frame": 37,
+          "point": [
+            229.127645724265,
+            164
+          ],
+          "alpha": 0.09411765635014,
+          "brightness": 95.2941171824932
+        },
+        {
+          "frame": 38,
+          "point": [
+            232.617743183979,
+            164
+          ],
+          "alpha": 0.07843137532473,
+          "brightness": 96.0784312337637
+        },
+        {
+          "frame": 39,
+          "point": [
+            236.107664519701,
+            164
+          ],
+          "alpha": 0.0666666701436,
+          "brightness": 96.6666664928198
+        },
+        {
+          "frame": 40,
+          "point": [
+            239.597455202845,
+            164
+          ],
+          "alpha": 0.05490196496248,
+          "brightness": 97.2549017518759
+        },
+        {
+          "frame": 41,
+          "point": [
+            243.087206175173,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 42,
+          "point": [
+            246.577050640557,
+            164
+          ],
+          "alpha": 0.03529411926866,
+          "brightness": 98.2352940365672
+        },
+        {
+          "frame": 43,
+          "point": [
+            250.067155284572,
+            164
+          ],
+          "alpha": 0.03137255087495,
+          "brightness": 98.4313724562526
+        },
+        {
+          "frame": 44,
+          "point": [
+            253.557287625314,
+            164
+          ],
+          "alpha": 0.02745098248124,
+          "brightness": 98.6274508759379
+        },
+        {
+          "frame": 45,
+          "point": [
+            257.047248485568,
+            164
+          ],
+          "alpha": 0.02745098248124,
+          "brightness": 98.6274508759379
+        },
+        {
+          "frame": 46,
+          "point": [
+            260.537077830305,
+            164
+          ],
+          "alpha": 0.02745098248124,
+          "brightness": 98.6274508759379
+        },
+        {
+          "frame": 47,
+          "point": [
+            264.026845569063,
+            164
+          ],
+          "alpha": 0.02745098248124,
+          "brightness": 98.6274508759379
+        },
+        {
+          "frame": 48,
+          "point": [
+            267.51664957049,
+            164
+          ],
+          "alpha": 0.03137255087495,
+          "brightness": 98.4313724562526
+        },
+        {
+          "frame": 49,
+          "point": [
+            271.006613815669,
+            164
+          ],
+          "alpha": 0.03529411926866,
+          "brightness": 98.2352940365672
+        },
+        {
+          "frame": 50,
+          "point": [
+            274.496800478789,
+            164
+          ],
+          "alpha": 0.04313725605607,
+          "brightness": 97.8431371971965
+        },
+        {
+          "frame": 51,
+          "point": [
+            277.986909333832,
+            164
+          ],
+          "alpha": 0.05098039656878,
+          "brightness": 97.4509801715612
+        },
+        {
+          "frame": 52,
+          "point": [
+            281.476892615413,
+            164
+          ],
+          "alpha": 0.0627451017499,
+          "brightness": 96.8627449125051
+        },
+        {
+          "frame": 53,
+          "point": [
+            284.966763776916,
+            164
+          ],
+          "alpha": 0.07450980693102,
+          "brightness": 96.2745096534491
+        },
+        {
+          "frame": 54,
+          "point": [
+            288.456554781258,
+            164
+          ],
+          "alpha": 0.09019608050585,
+          "brightness": 95.4901959747076
+        },
+        {
+          "frame": 55,
+          "point": [
+            291.946314856869,
+            164
+          ],
+          "alpha": 0.10588236153126,
+          "brightness": 94.7058819234371
+        },
+        {
+          "frame": 56,
+          "point": [
+            295.436109317902,
+            164
+          ],
+          "alpha": 0.12549020349979,
+          "brightness": 93.7254898250103
+        },
+        {
+          "frame": 57,
+          "point": [
+            298.926018443498,
+            164
+          ],
+          "alpha": 0.14509804546833,
+          "brightness": 92.7450977265835
+        },
+        {
+          "frame": 58,
+          "point": [
+            302.416134417812,
+            164
+          ],
+          "alpha": 0.16470588743687,
+          "brightness": 91.7647056281567
+        },
+        {
+          "frame": 59,
+          "point": [
+            305.90627750681,
+            164
+          ],
+          "alpha": 0.1843137294054,
+          "brightness": 90.7843135297298
+        },
+        {
+          "frame": 60,
+          "point": [
+            309.396287218419,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 89.6078422665596
+        },
+        {
+          "frame": 61,
+          "point": [
+            312.88618550128,
+            164
+          ],
+          "alpha": 0.23137256503105,
+          "brightness": 88.4313717484474
+        },
+        {
+          "frame": 62,
+          "point": [
+            316.376004483272,
+            164
+          ],
+          "alpha": 0.258823543787,
+          "brightness": 87.0588228106499
+        },
+        {
+          "frame": 63,
+          "point": [
+            319.865785625151,
+            164
+          ],
+          "alpha": 0.28627452254295,
+          "brightness": 85.6862738728523
+        },
+        {
+          "frame": 64,
+          "point": [
+            323.355578902463,
+            164
+          ],
+          "alpha": 0.3137255012989,
+          "brightness": 84.3137249350548
+        },
+        {
+          "frame": 65,
+          "point": [
+            326.845442013034,
+            164
+          ],
+          "alpha": 0.34117648005486,
+          "brightness": 82.9411759972572
+        },
+        {
+          "frame": 66,
+          "point": [
+            330.335439607474,
+            164
+          ],
+          "alpha": 0.36862745881081,
+          "brightness": 81.5686270594597
+        },
+        {
+          "frame": 67,
+          "point": [
+            333.825613741015,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 68,
+          "point": [
+            337.315755791378,
+            164
+          ],
+          "alpha": 0.42745101451874,
+          "brightness": 78.6274492740631
+        },
+        {
+          "frame": 69,
+          "point": [
+            340.805810971504,
+            164
+          ],
+          "alpha": 0.45490199327469,
+          "brightness": 77.2549003362656
+        },
+        {
+          "frame": 70,
+          "point": [
+            344.295785650222,
+            164
+          ],
+          "alpha": 0.48627454042435,
+          "brightness": 75.6862729787827
+        },
+        {
+          "frame": 71,
+          "point": [
+            347.785689707894,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 74.3137240409851
+        },
+        {
+          "frame": 72,
+          "point": [
+            351.27553588555,
+            164
+          ],
+          "alpha": 0.54509806632996,
+          "brightness": 72.7450966835022
+        },
+        {
+          "frame": 73,
+          "point": [
+            354.765339141497,
+            164
+          ],
+          "alpha": 0.57647061347961,
+          "brightness": 71.1764693260193
+        },
+        {
+          "frame": 74,
+          "point": [
+            358.255116013705,
+            164
+          ],
+          "alpha": 0.60392159223557,
+          "brightness": 69.8039203882217
+        },
+        {
+          "frame": 75,
+          "point": [
+            361.744883986296,
+            164
+          ],
+          "alpha": 0.63137257099152,
+          "brightness": 68.4313714504242
+        },
+        {
+          "frame": 76,
+          "point": [
+            365.234660858503,
+            164
+          ],
+          "alpha": 0.65882354974747,
+          "brightness": 67.0588225126266
+        },
+        {
+          "frame": 77,
+          "point": [
+            368.72446411445,
+            164
+          ],
+          "alpha": 0.68627452850342,
+          "brightness": 65.6862735748291
+        },
+        {
+          "frame": 78,
+          "point": [
+            372.214310292106,
+            164
+          ],
+          "alpha": 0.71372550725937,
+          "brightness": 64.3137246370316
+        },
+        {
+          "frame": 79,
+          "point": [
+            375.704214349777,
+            164
+          ],
+          "alpha": 0.74117648601532,
+          "brightness": 62.941175699234
+        },
+        {
+          "frame": 80,
+          "point": [
+            379.194189028497,
+            164
+          ],
+          "alpha": 0.76470595598221,
+          "brightness": 61.7647022008896
+        },
+        {
+          "frame": 81,
+          "point": [
+            382.684244208622,
+            164
+          ],
+          "alpha": 0.79215693473816,
+          "brightness": 60.392153263092
+        },
+        {
+          "frame": 82,
+          "point": [
+            386.174386258986,
+            164
+          ],
+          "alpha": 0.8117647767067,
+          "brightness": 59.4117611646652
+        },
+        {
+          "frame": 83,
+          "point": [
+            389.664559779351,
+            164
+          ],
+          "alpha": 0.83529418706894,
+          "brightness": 58.235290646553
+        },
+        {
+          "frame": 84,
+          "point": [
+            393.154551190184,
+            164
+          ],
+          "alpha": 0.85490202903748,
+          "brightness": 57.2548985481262
+        },
+        {
+          "frame": 85,
+          "point": [
+            396.644396800094,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 86,
+          "point": [
+            400.134155663172,
+            164
+          ],
+          "alpha": 0.89019614458084,
+          "brightness": 55.4901927709579
+        },
+        {
+          "frame": 87,
+          "point": [
+            403.623879905324,
+            164
+          ],
+          "alpha": 0.90588241815567,
+          "brightness": 54.7058790922165
+        },
+        {
+          "frame": 88,
+          "point": [
+            407.113613961414,
+            164
+          ],
+          "alpha": 0.91764712333679,
+          "brightness": 54.1176438331604
+        },
+        {
+          "frame": 89,
+          "point": [
+            410.603393789632,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 53.3333301544189
+        },
+        {
+          "frame": 90,
+          "point": [
+            414.093246060583,
+            164
+          ],
+          "alpha": 0.94117653369904,
+          "brightness": 52.9411733150482
+        },
+        {
+          "frame": 91,
+          "point": [
+            417.583187318435,
+            164
+          ],
+          "alpha": 0.94901967048645,
+          "brightness": 52.5490164756775
+        },
+        {
+          "frame": 92,
+          "point": [
+            421.073223111342,
+            164
+          ],
+          "alpha": 0.95686280727386,
+          "brightness": 52.1568596363068
+        },
+        {
+          "frame": 93,
+          "point": [
+            424.563347088269,
+            164
+          ],
+          "alpha": 0.96470594406128,
+          "brightness": 51.764702796936
+        },
+        {
+          "frame": 94,
+          "point": [
+            428.053540059136,
+            164
+          ],
+          "alpha": 0.96470594406128,
+          "brightness": 51.764702796936
+        },
+        {
+          "frame": 95,
+          "point": [
+            431.543731964363,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 96,
+          "point": [
+            435.033702129677,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 97,
+          "point": [
+            438.523514331071,
+            164
+          ],
+          "alpha": 0.96470594406128,
+          "brightness": 51.764702796936
+        },
+        {
+          "frame": 98,
+          "point": [
+            442.013265449585,
+            164
+          ],
+          "alpha": 0.96078437566757,
+          "brightness": 51.9607812166214
+        },
+        {
+          "frame": 99,
+          "point": [
+            445.503033862282,
+            164
+          ],
+          "alpha": 0.95294123888016,
+          "brightness": 52.3529380559921
+        },
+        {
+          "frame": 100,
+          "point": [
+            448.992878116089,
+            164
+          ],
+          "alpha": 0.94509810209274,
+          "brightness": 52.7450948953629
+        },
+        {
+          "frame": 101,
+          "point": [
+            452.482835520799,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 102,
+          "point": [
+            455.972920654181,
+            164
+          ],
+          "alpha": 0.9215686917305,
+          "brightness": 53.921565413475
+        },
+        {
+          "frame": 103,
+          "point": [
+            459.463120484379,
+            164
+          ],
+          "alpha": 0.90980398654938,
+          "brightness": 54.5098006725311
+        },
+        {
+          "frame": 104,
+          "point": [
+            462.953155120035,
+            164
+          ],
+          "alpha": 0.89411771297455,
+          "brightness": 55.2941143512726
+        },
+        {
+          "frame": 105,
+          "point": [
+            466.442978769179,
+            164
+          ],
+          "alpha": 0.87843143939972,
+          "brightness": 56.078428030014
+        },
+        {
+          "frame": 106,
+          "point": [
+            469.932737429122,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 107,
+          "point": [
+            473.422545099151,
+            164
+          ],
+          "alpha": 0.83921575546265,
+          "brightness": 58.0392122268677
+        },
+        {
+          "frame": 108,
+          "point": [
+            476.912481479214,
+            164
+          ],
+          "alpha": 0.81960791349411,
+          "brightness": 59.0196043252945
+        },
+        {
+          "frame": 109,
+          "point": [
+            480.40258947318,
+            164
+          ],
+          "alpha": 0.79607850313187,
+          "brightness": 60.1960748434067
+        },
+        {
+          "frame": 110,
+          "point": [
+            483.892737691078,
+            164
+          ],
+          "alpha": 0.77254909276962,
+          "brightness": 61.3725453615189
+        },
+        {
+          "frame": 111,
+          "point": [
+            487.382598792901,
+            164
+          ],
+          "alpha": 0.74509805440903,
+          "brightness": 62.7450972795486
+        },
+        {
+          "frame": 112,
+          "point": [
+            490.87234080577,
+            164
+          ],
+          "alpha": 0.72156864404678,
+          "brightness": 63.9215677976608
+        },
+        {
+          "frame": 113,
+          "point": [
+            494.362118949195,
+            164
+          ],
+          "alpha": 0.69411766529083,
+          "brightness": 65.2941167354584
+        },
+        {
+          "frame": 114,
+          "point": [
+            497.852035999838,
+            164
+          ],
+          "alpha": 0.66666668653488,
+          "brightness": 66.6666656732559
+        },
+        {
+          "frame": 115,
+          "point": [
+            501.342138071111,
+            164
+          ],
+          "alpha": 0.63921570777893,
+          "brightness": 68.0392146110535
+        },
+        {
+          "frame": 116,
+          "point": [
+            504.832319614874,
+            164
+          ],
+          "alpha": 0.61176472902298,
+          "brightness": 69.411763548851
+        },
+        {
+          "frame": 117,
+          "point": [
+            508.322171878299,
+            164
+          ],
+          "alpha": 0.58039218187332,
+          "brightness": 70.9803909063339
+        },
+        {
+          "frame": 118,
+          "point": [
+            511.811883307237,
+            164
+          ],
+          "alpha": 0.55294120311737,
+          "brightness": 72.3529398441315
+        },
+        {
+          "frame": 119,
+          "point": [
+            515.301657178554,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 100
+        },
+        {
+          "frame": 120,
+          "point": [
+            518.791613338722,
+            164
+          ],
+          "alpha": 0.49019610881805,
+          "brightness": 75.4901945590973
+        },
+        {
+          "frame": 121,
+          "point": [
+            522.281780266891,
+            164
+          ],
+          "alpha": 0.4627451300621,
+          "brightness": 76.8627434968948
+        },
+        {
+          "frame": 122,
+          "point": [
+            525.771881311493,
+            164
+          ],
+          "alpha": 0.43137258291245,
+          "brightness": 78.4313708543777
+        },
+        {
+          "frame": 123,
+          "point": [
+            529.261510028519,
+            164
+          ],
+          "alpha": 0,
+          "brightness": 79.8039197921753
+        },
+        {
+          "frame": 124,
+          "point": [
+            532.751029973775,
+            164
+          ],
+          "alpha": 0.37254902720451,
+          "brightness": 81.3725486397743
+        },
+        {
+          "frame": 125,
+          "point": [
+            536.24072155469,
+            164
+          ],
+          "alpha": 0.34901961684227,
+          "brightness": 82.5490191578865
+        },
+        {
+          "frame": 126,
+          "point": [
+            539.730724546242,
+            164
+          ],
+          "alpha": 0.31764706969261,
+          "brightness": 84.1176465153694
+        },
+        {
+          "frame": 127,
+          "point": [
+            543.22102104315,
+            164
+          ],
+          "alpha": 0.29019609093666,
+          "brightness": 85.490195453167
+        },
+        {
+          "frame": 128,
+          "point": [
+            546.711415152604,
+            164
+          ],
+          "alpha": 0.26666668057442,
+          "brightness": 86.6666659712791
+        },
+        {
+          "frame": 129,
+          "point": [
+            550.201351753084,
+            164
+          ],
+          "alpha": 0.23921570181847,
+          "brightness": 88.0392149090767
+        },
+        {
+          "frame": 130,
+          "point": [
+            553.69095741795,
+            164
+          ],
+          "alpha": 0.21568629145622,
+          "brightness": 89.2156854271889
+        },
+        {
+          "frame": 131,
+          "point": [
+            557.180704213504,
+            164
+          ],
+          "alpha": 0.19215688109398,
+          "brightness": 90.3921559453011
+        },
+        {
+          "frame": 132,
+          "point": [
+            560.67080151308,
+            164
+          ],
+          "alpha": 0.16862745583057,
+          "brightness": 91.5686272084713
+        },
+        {
+          "frame": 133,
+          "point": [
+            564.161134298752,
+            164
+          ],
+          "alpha": 0.14901961386204,
+          "brightness": 92.5490193068981
+        },
+        {
+          "frame": 134,
+          "point": [
+            567.650972909917,
+            164
+          ],
+          "alpha": 0.1294117718935,
+          "brightness": 93.5294114053249
+        },
+        {
+          "frame": 135,
+          "point": [
+            571.140697314415,
+            164
+          ],
+          "alpha": 0.10980392992496,
+          "brightness": 94.5098035037518
+        },
+        {
+          "frame": 136,
+          "point": [
+            574.630821847887,
+            164
+          ],
+          "alpha": 0.09411765635014,
+          "brightness": 95.2941171824932
+        },
+        {
+          "frame": 137,
+          "point": [
+            578.120814861383,
+            164
+          ],
+          "alpha": 0.07843137532473,
+          "brightness": 96.0784312337637
+        },
+        {
+          "frame": 138,
+          "point": [
+            581.610492167281,
+            164
+          ],
+          "alpha": 0.0666666701436,
+          "brightness": 96.6666664928198
+        },
+        {
+          "frame": 139,
+          "point": [
+            585.100630105074,
+            164
+          ],
+          "alpha": 0.05490196496248,
+          "brightness": 97.2549017518759
+        },
+        {
+          "frame": 140,
+          "point": [
+            588.59056864631,
+            164
+          ],
+          "alpha": 0.04705882817507,
+          "brightness": 97.6470585912466
+        },
+        {
+          "frame": 141,
+          "point": [
+            592.080283971476,
+            164
+          ],
+          "alpha": 0.03921568766236,
+          "brightness": 98.0392156168818
+        },
+        {
+          "frame": 142,
+          "point": [
+            595.570561374346,
+            164
+          ],
+          "alpha": 0.03137255087495,
+          "brightness": 98.4313724562526
+        },
+        {
+          "frame": 143,
+          "point": [
+            599.06019904856,
+            164
+          ],
+          "alpha": 0.02745098248124,
+          "brightness": 98.6274508759379
+        },
+        {
+          "frame": 144,
+          "point": [
+            602.550356252876,
+            164
+          ],
+          "alpha": 0.02745098248124,
+          "brightness": 98.6274508759379
+        },
+        {
+          "frame": 145,
+          "point": [
+            606.040247070446,
+            164
+          ],
+          "alpha": 0.02745098248124,
+          "brightness": 98.6274508759379
+        },
+        {
+          "frame": 146,
+          "point": [
+            609.530511988898,
+            164
+          ],
+          "alpha": 0.02745098248124,
+          "brightness": 98.6274508759379
+        },
+        {
+          "frame": 147,
+          "point": [
+            613.020161707035,
+            164
+          ],
+          "alpha": 0.03137255087495,
+          "brightness": 98.4313724562526
+        },
+        {
+          "frame": 148,
+          "point": [
+            616.509754070165,
+            164
+          ],
+          "alpha": 0.03529411926866,
+          "brightness": 98.2352940365672
+        },
+        {
+          "frame": 149,
+          "point": [
+            620,
+            164
+          ],
+          "alpha": 0.04313725605607,
+          "brightness": 97.8431371971965
+        }
+      ],
+      "matte": {
+        "type_luma": true,
+        "source": "OWN_INPUT_LUMA",
+        "source_enabled": false
+      },
+      "native_edit": {
+        "original_point": [
+          100,
+          164
+        ],
+        "edited_point": [
+          112,
+          171
+        ],
+        "restored": [
+          100,
+          164
+        ]
+      },
+      "feedback_control": {
+        "frame": 21,
+        "alpha": 0.49019610881805,
+        "on_brightness": 75.4901945590973,
+        "off_brightness": 100
+      },
+      "media": [
+        {
+          "path": "E:\\自媒体\\video-skills-lab\\samples\\course2-cloud-native-001\\bands-001\\assets\\matte.png",
+          "missing": false,
+          "pixel_aspect": 1.09401709401709
+        }
+      ],
+      "expressions": {
+        "sample": "mubiao=thisComp.layer(\"白云\");\nalpha=mubiao.sampleImage(effect(\"ADBE Lens Flare\")(\"ADBE Lens Flare-0001\"),[2,2])[3];\nalpha",
+        "brightness": "mubiao=thisComp.layer(\"白云\");\nalpha=mubiao.sampleImage(effect(\"ADBE Lens Flare\")(\"ADBE Lens Flare-0001\"),[2,2])[3];\nlinear(alpha,0,1,100,50);"
+      },
+      "implementation": "explicit built-in Lens Flare variant, notOpticalFlares",
+      "original_course_status": "blocked_OpticalFlares_missing",
+      "course_fidelity": "LumaMatte/transparentprecomp/sampleImagealpha/linear branch retained; nativeflare optics and approximatebackground are explicitadaptations",
+      "rendered": true
+    },
+    "receipt_sha256": "68dfdc00da766e35892fd9a56335bb5b0ae9b3d983180a1f63c2ea76413ec6a3",
+    "diagnosis": "Blocking per-frame sampling intermittent; replaced with native scheduleTask phased rendering and readback"
+  }
+]

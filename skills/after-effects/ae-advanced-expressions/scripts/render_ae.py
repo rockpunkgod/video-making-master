@@ -10,6 +10,13 @@ from launch_adobe import child_environment
 
 def check_output(root,cfg):
     report=validate(root/'final.mp4',cfg)
+    if cfg.get('animation')=='cloud-occlusion':
+        from validate_cloud_occlusion import validate as cloud_validate
+        audit=cloud_validate(root)
+        report['cloud_quality']='cloud-quality.json'
+        report['course_fidelity']='explicit_native_flare_variant_original_OpticalFlares_blocked'
+        report['delivery_status']='candidate_variant_unaccepted'
+        if audit['status']!='passed':report['status']='failed'
     if cfg.get('animation')=='loading-progress':
         from validate_loading_progress import validate as progress_validate
         audit=progress_validate(root)
@@ -91,14 +98,22 @@ def render(directory,executable,timeout,reuse=False):
     if data.get('status')!='built' or not data.get('project_reopened') or data.get('expression_errors'):
         raise ValueError('Build did not pass native reopen and expression checks')
     if not data.get('selected_template'):raise ValueError('No supported output template found; inspect output_templates in the native receipt')
-    if any((root/'render').glob('frame_*')) or (root/'final.mp4').exists():raise FileExistsError('Refusing stale render output')
-    try:
-        child_env,_=child_environment()
-        result=subprocess.run([str(Path(executable).resolve()),*(['-reuse'] if reuse else []),'-project',str(project)],capture_output=True,timeout=timeout,env=child_env)
-        (root/'aerender.log').write_bytes(result.stdout+b'\n'+result.stderr)
-    except subprocess.TimeoutExpired as e:
-        (root/'aerender.log').write_bytes((e.stdout or b'')+b'\nTIMEOUT\n'+(e.stderr or b''));raise RuntimeError('Native render timed out; inspect running Adobe process before retry')
-    if result.returncode:raise RuntimeError(f'aerender exited {result.returncode}; see aerender.log')
+    # Cross-layer sampleImage in AE26 returned zero until its source was rendered.
+    # This branch packages actual CompItem.saveFrameToPng exports already produced by AE.
+    native_ready=(data.get('native_export_complete') is True and data.get('rendered') is True and data.get('output_format')=='png' and data.get('native_render_method')=='CompItem.saveFrameToPng')
+    if (root/'final.mp4').exists() or (not native_ready and any((root/'render').glob('frame_*'))):raise FileExistsError('Refusing stale render output')
+    if native_ready:
+        cfg=json.loads((root/'request.json').read_text(encoding='utf-8'))
+        if data.get('native_frames_rendered')!=round(cfg['duration']*cfg['fps']):raise ValueError('Incomplete native PNG materialization receipt')
+        (root/'native-render-method.json').write_text(json.dumps(dict(method='CompItem.saveFrameToPng',frames=data['native_frames_rendered'],aerender_invoked=False,reason='AE26sampleImage source must be rendered before script read; all actual Adobe PNGs materialized before trace capture'),indent=2)+'\n',encoding='utf-8')
+    else:
+        try:
+            child_env,_=child_environment()
+            result=subprocess.run([str(Path(executable).resolve()),*(['-reuse'] if reuse else []),'-project',str(project)],capture_output=True,timeout=timeout,env=child_env)
+            (root/'aerender.log').write_bytes(result.stdout+b'\n'+result.stderr)
+        except subprocess.TimeoutExpired as e:
+            (root/'aerender.log').write_bytes((e.stdout or b'')+b'\nTIMEOUT\n'+(e.stderr or b''));raise RuntimeError('Native render timed out; inspect running Adobe process before retry')
+        if result.returncode:raise RuntimeError(f'aerender exited {result.returncode}; see aerender.log')
     cfg=json.loads((root/'request.json').read_text(encoding='utf-8'))
     if data.get('output_format')=='mp4':
         native=root/'native.mp4'

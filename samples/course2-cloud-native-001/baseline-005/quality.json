@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course2-cloud-native-001\\baseline-005\\final.mp4",
+  "sha256": "588564c717fbd2053322acaa1d5453c431abe16dfc511080ea6cfc75764893b2",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 720,
+    "height": 576,
+    "fps": 25.0,
+    "duration": 10.0,
+    "decoded_frames": 250,
+    "unique_thumbnail_frames": 250
+  },
+  "motion_expectation": "required",
+  "static_pixel_check": null,
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": "",
+  "cloud_quality": "cloud-quality.json",
+  "course_fidelity": "explicit_native_flare_variant_original_OpticalFlares_blocked",
+  "delivery_status": "candidate_variant_unaccepted"
+}

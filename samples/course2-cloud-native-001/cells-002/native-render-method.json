@@ -1,0 +1,6 @@
+{
+  "method": "CompItem.saveFrameToPng",
+  "frames": 150,
+  "aerender_invoked": false,
+  "reason": "AE26sampleImage source must be rendered before script read; all actual Adobe PNGs materialized before trace capture"
+}

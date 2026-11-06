@@ -1,0 +1,18 @@
+{
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=32",
+  "source_interval": [
+    1470,
+    1475
+  ],
+  "original_crop": [
+    540,
+    165,
+    344,
+    274
+  ],
+  "source_preview_paused": true,
+  "source_final_cloud_and_sun_blend": "Screen",
+  "right": "baseline-005 first5seconds",
+  "timelines_synchronized": false,
+  "scope": "Native LensFlare alternative; not OpticalFlares Golden Sun identity; source preview paused, right continuous cloud animation"
+}

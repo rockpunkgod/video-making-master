@@ -1,0 +1,35 @@
+{
+  "status": "known_generic_detector_false_accept",
+  "expected": "frozen movie should be rejected",
+  "actual_generic_report": {
+    "status": "passed",
+    "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\cache\\cloud-negative-control-001\\frozen.mp4",
+    "sha256": "efb0e17efe21927189089c0a0e0421ffc93ed468b393e626531c3cb07d075342",
+    "checks": {
+      "full_decode": true,
+      "frame_hash_decode": true,
+      "expected_temporal_behavior": true,
+      "width": true,
+      "height": true,
+      "fps": true,
+      "duration": true,
+      "frame_count": true
+    },
+    "observed": {
+      "width": 720,
+      "height": 576,
+      "fps": 25.0,
+      "duration": 10.0,
+      "decoded_frames": 250,
+      "unique_thumbnail_frames": 66
+    },
+    "motion_expectation": "required",
+    "static_pixel_check": null,
+    "audio_sync": "not_applicable",
+    "visual_review": "not_reviewed",
+    "native_project_editability": "not_checked_by_this_tool",
+    "stderr": ""
+  },
+  "cause": "Lossy video codec introduced tiny frame pixel differences; frame-hash uniqueness alone is insufficient",
+  "mitigation": "Required cloud-specific native RGB checkpoints reject actual frozen movie; do not claim generic detector fixed"
+}

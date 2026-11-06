@@ -1,0 +1,11 @@
+{
+  "status": "candidate_explicit_native_variant",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=32",
+  "original_optical_flares": "unavailable_not_reproduced",
+  "source_core": "WhiteSolid uses FractalNoise LumaMatte, precomp alpha sampled radius2 at flare center; linear0..1 =>100..50",
+  "variant_notice": [
+    "Native Lens Flare enum1 is an explicit implementation variant, not GoldenSun preset or OpticalFlares object identity",
+    "Dark blue background approximated from footage, source seed0 not explicitly read",
+    "PNG matte/static-image light-sweep adaptation is new; source cloud drift method retained in noasset branch"
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "status": "agent_gross_frame_inspection_only_not_human_acceptance",
+  "cases": [
+    {
+      "case": "baseline-005",
+      "frames": [
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-control-cloud-alpha-0.png",
+          "sha256": "d5e057ca7c530228c245b837ff16408817e924ad71decc7258fbb7f355d4756a"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-control-cloud-alpha-100.png",
+          "sha256": "7bcb1c09aa032968cc6693e982cbe64bee5dda213d1c58b4c2d1f296c9698a58"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-control-cloud-alpha-125.png",
+          "sha256": "76bf69c18c106324dee22a0a9b98872b437488ffdd7230431814ddd38f44fc3d"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-control-cloud-alpha-150.png",
+          "sha256": "dba3fa1289ffd5c9512c839cff67361d7830c40ee13f485546cf20efd993f5d9"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-control-cloud-alpha-175.png",
+          "sha256": "cb4676b85f8c8768b1c24496330342e52810f1855b5458e5405fca0cfad124bc"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-control-cloud-alpha-200.png",
+          "sha256": "8b0b213c70ce969739d8bad847fa42abc64e319ba47798edc07a6bfc8ff7aa8a"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-control-cloud-alpha-225.png",
+          "sha256": "fc37f5d67484dcec7ab6199789a273f8f267402d67594f722c4d2a0dc9f1cdf3"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-control-cloud-alpha-249.png",
+          "sha256": "d0599169b29929b0fff2f988820e8d6081fdd83f91e4106600983d291f096c52"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-control-cloud-alpha-25.png",
+          "sha256": "c9102d5ebbaa91b28ff642f7b9f693caab472cfee975b72c2efdcfb5731d5269"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-control-cloud-alpha-50.png",
+          "sha256": "497dd53888ee1719986a2743eb73e440d2cfcf1d60d59d28c455f1123a84669e"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-control-cloud-alpha-75.png",
+          "sha256": "ae518dbabaa79b1ed9ff512de85ee56f47b9d8cc7bbf7980a1648792511f4fe5"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-control-feedback-off.png",
+          "sha256": "7875862e0217c610f9dc193ddbef295d4a33dc8c9728ab3520d662b22d81b079"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-control-feedback-on.png",
+          "sha256": "da2abf8b96f0baa2fd0b7f15d59bd884696852cc7a6efa943eb79da483f638bd"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-still-0.png",
+          "sha256": "e6d686dde098b79dc3ca55301081230f8df47b0206fbbfb6061b21fd8f9f4586"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-still-100.png",
+          "sha256": "52dc67781f98fa336427f0ba15b57d13ea20418ef43c2af16bacf01370979112"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-still-125.png",
+          "sha256": "eb24e394754bcc0bd88491779df2a82bcf44a6dd1a60b63632565788b2bb3e6b"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-still-150.png",
+          "sha256": "29b8d6cd219415775f2a5549acd3348b760d02f37a1b0ba59a7c6277c307eb5c"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-still-175.png",
+          "sha256": "b3a668d8005bc5f070cd5f32b55d997285f03e9ab1fc0d2003795761442d9586"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-still-200.png",
+          "sha256": "f8bdffec8b241423baa7a01dfd4f7597b35e44b589f71ceff57eb5fd03ce3b59"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-still-225.png",
+          "sha256": "913fa8dc87d7b0fc66671d43d8bf2587e767d6f96a4b5e9104c91c891d1e6964"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-still-249.png",
+          "sha256": "0a14bb57078dd595758b2873dfd0402a223e9065bf195e5f4d47412ce428e262"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-still-25.png",
+          "sha256": "2c19d6fd95a4170997333c0b5419b9b986a914c0317a22ead0000c080587b584"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-still-50.png",
+          "sha256": "bd3a8b87a5e3c9c373a50176e46b49e8243c634cd398623a499778a9ae43aff5"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/baseline-005/native-still-75.png",
+          "sha256": "667d21d70d88fd94a20c7c41e9a6ba3ecde77e3b7d61cdd2373eeb86c55fa0a2"
+        }
+      ]
+    },
+    {
+      "case": "bands-003",
+      "frames": [
+        {
+          "path": "samples/course2-cloud-native-001/bands-003/native-control-cloud-alpha-0.png",
+          "sha256": "d5631a9f3305fa4393a3d0f21d0818a325fa9d28121d6b9a6a9fcbbaff9f1ca1"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/bands-003/native-control-cloud-alpha-100.png",
+          "sha256": "d5631a9f3305fa4393a3d0f21d0818a325fa9d28121d6b9a6a9fcbbaff9f1ca1"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/bands-003/native-control-cloud-alpha-125.png",
+          "sha256": "d5631a9f3305fa4393a3d0f21d0818a325fa9d28121d6b9a6a9fcbbaff9f1ca1"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/bands-003/native-control-cloud-alpha-25.png",
+          "sha256": "d5631a9f3305fa4393a3d0f21d0818a325fa9d28121d6b9a6a9fcbbaff9f1ca1"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/bands-003/native-control-cloud-alpha-50.png",
+          "sha256": "d5631a9f3305fa4393a3d0f21d0818a325fa9d28121d6b9a6a9fcbbaff9f1ca1"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/bands-003/native-control-cloud-alpha-75.png",
+          "sha256": "d5631a9f3305fa4393a3d0f21d0818a325fa9d28121d6b9a6a9fcbbaff9f1ca1"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/bands-003/native-control-feedback-off.png",
+          "sha256": "b105acf7217d0f09534001bf5c8e21cc0563200155df4e80c94b949b41d5e379"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/bands-003/native-control-feedback-on.png",
+          "sha256": "8bd425f67a60457f40148009d8e94539ac7b8a1767c40579cd19b3f447591ee0"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/bands-003/native-still-0.png",
+          "sha256": "bad03854ba75b6ca529baf7eb11e9c461c5294de3de070961fc39441977fc055"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/bands-003/native-still-100.png",
+          "sha256": "30d6d92b8a8aa43bcd91bc09bf1714d2e89712c88bfcd27fe8b54f1e8de0c981"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/bands-003/native-still-125.png",
+          "sha256": "f2c86d63b5000b7e596b783aa9e0e86ece630d2fa533395411c9251c7edaceff"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/bands-003/native-still-25.png",
+          "sha256": "842379a3a09c5c9916b6c612372c5d0e9844f0d58885881f95859f4d78843176"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/bands-003/native-still-50.png",
+          "sha256": "96e7b63f02c2b18e2451417a01514b2232fe18b9acda1b1b8077e92cdc83479b"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/bands-003/native-still-75.png",
+          "sha256": "ef113f97dae8a53aedf82e2ec20b12db5ff35b6079c3d8dcaab4f32aaaaf67aa"
+        }
+      ]
+    },
+    {
+      "case": "cells-002",
+      "frames": [
+        {
+          "path": "samples/course2-cloud-native-001/cells-002/native-control-cloud-alpha-0.png",
+          "sha256": "05ce50a4055bfd4356280836f5fc8a87b8d703ae57569eb051233eff55449a04"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/cells-002/native-control-cloud-alpha-100.png",
+          "sha256": "05ce50a4055bfd4356280836f5fc8a87b8d703ae57569eb051233eff55449a04"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/cells-002/native-control-cloud-alpha-125.png",
+          "sha256": "05ce50a4055bfd4356280836f5fc8a87b8d703ae57569eb051233eff55449a04"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/cells-002/native-control-cloud-alpha-25.png",
+          "sha256": "05ce50a4055bfd4356280836f5fc8a87b8d703ae57569eb051233eff55449a04"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/cells-002/native-control-cloud-alpha-50.png",
+          "sha256": "05ce50a4055bfd4356280836f5fc8a87b8d703ae57569eb051233eff55449a04"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/cells-002/native-control-cloud-alpha-75.png",
+          "sha256": "05ce50a4055bfd4356280836f5fc8a87b8d703ae57569eb051233eff55449a04"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/cells-002/native-control-feedback-off.png",
+          "sha256": "9edaf97c901703e7e15fdb188925f0da2d8f82291751595c13f84dd21dc8dfe4"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/cells-002/native-control-feedback-on.png",
+          "sha256": "01078fc7c8674636feb22b984a0c74c31a6dc96de91265142cc3007cd92ae20f"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/cells-002/native-still-0.png",
+          "sha256": "9a2b33ef4aa661854e9cd79c1892a1b46dd287f90f8f1b57d5906dc7e5c05277"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/cells-002/native-still-100.png",
+          "sha256": "d5c6e540060a9687b1abb50202aaa322a08e63d8a722c2e0ecfa2d3a6532baff"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/cells-002/native-still-125.png",
+          "sha256": "c6d675076f68360f1d939dd5a2a38f3d6ffd039c7d9db58b758b081b13821387"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/cells-002/native-still-25.png",
+          "sha256": "51fbad0c8c816ce4fc19df4e06d33e51fdfe10e1ab2b42366bdacd6fc9225b0b"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/cells-002/native-still-50.png",
+          "sha256": "106db46ab9a428df14df277e4b64562b42ac874fde3bfe62fb59946d8ad9d360"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/cells-002/native-still-75.png",
+          "sha256": "b8fe3ef1b6e9d1fbd9654f170f0a53939c4ad0ba0492f4f23c656976c4528935"
+        }
+      ]
+    },
+    {
+      "case": "rings-001",
+      "frames": [
+        {
+          "path": "samples/course2-cloud-native-001/rings-001/native-control-cloud-alpha-0.png",
+          "sha256": "9e663438a5643800854c8c1eb18d7be7d66e9e3e5d960ab7964de5681a5cbe9d"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/rings-001/native-control-cloud-alpha-100.png",
+          "sha256": "9e663438a5643800854c8c1eb18d7be7d66e9e3e5d960ab7964de5681a5cbe9d"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/rings-001/native-control-cloud-alpha-125.png",
+          "sha256": "9e663438a5643800854c8c1eb18d7be7d66e9e3e5d960ab7964de5681a5cbe9d"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/rings-001/native-control-cloud-alpha-25.png",
+          "sha256": "9e663438a5643800854c8c1eb18d7be7d66e9e3e5d960ab7964de5681a5cbe9d"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/rings-001/native-control-cloud-alpha-50.png",
+          "sha256": "9e663438a5643800854c8c1eb18d7be7d66e9e3e5d960ab7964de5681a5cbe9d"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/rings-001/native-control-cloud-alpha-75.png",
+          "sha256": "9e663438a5643800854c8c1eb18d7be7d66e9e3e5d960ab7964de5681a5cbe9d"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/rings-001/native-control-feedback-off.png",
+          "sha256": "3176577e563217d86a4064496d54876e01d5e27c9742c879500f54e29bc1e0bb"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/rings-001/native-control-feedback-on.png",
+          "sha256": "05af4cdd01999122d787b38a9526eed9821d52e9388b93c3c26b8788aecce8a4"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/rings-001/native-still-0.png",
+          "sha256": "45beb0b4e521420df9bd5e327cc36043d6c9e31d37c44b9e5cfbb096612b79e1"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/rings-001/native-still-100.png",
+          "sha256": "5345d9108f29a34a60997e24a7209c571af5efb1742d3193990bd321d5257075"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/rings-001/native-still-125.png",
+          "sha256": "8f1a0cc1d5adfce68a097e33049bd8690897335d25d645482fe882ef0d69c7aa"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/rings-001/native-still-25.png",
+          "sha256": "da5436ec16dd2b8e3d8e65e3df49ef582b32b135a816e5da92b433f677624ab5"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/rings-001/native-still-50.png",
+          "sha256": "40e5fa0c6e1132b2217bc1f8141b6536b1dd6e6ae9b4b766349e0c3fb1957f7b"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/rings-001/native-still-75.png",
+          "sha256": "b9fa4c11834b6f1ed52b74b10a659c0604943bb42b2f87e96d68af250ffface4"
+        }
+      ]
+    },
+    {
+      "case": "variation-isolated-001",
+      "frames": [
+        {
+          "path": "samples/course2-cloud-native-001/variation-isolated-001/native-control-cloud-alpha-0.png",
+          "sha256": "d5e057ca7c530228c245b837ff16408817e924ad71decc7258fbb7f355d4756a"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/variation-isolated-001/native-control-cloud-alpha-100.png",
+          "sha256": "c318a7d553f22de7d849e5648602e512a7eba1c5a659c49f5cf0cc3750246e0b"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/variation-isolated-001/native-control-cloud-alpha-125.png",
+          "sha256": "037b4f9904024e59327c05fd631e70af84f589d95205bf99509e038b331b175f"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/variation-isolated-001/native-control-cloud-alpha-25.png",
+          "sha256": "76b3fc6b8961807aab745d483319f13e2b12dda9ba0b4424792fc729c7737835"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/variation-isolated-001/native-control-cloud-alpha-50.png",
+          "sha256": "a9044e09f1b39635a8aabd470ff927f911ff8ee8bf735bcce6efb3c5e4b840f4"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/variation-isolated-001/native-control-cloud-alpha-75.png",
+          "sha256": "08e7bca15b6e002cec4e342f6018c4b379b049bdadff7a13085116974109d764"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/variation-isolated-001/native-control-feedback-off.png",
+          "sha256": "9291c5c8a17caaf5b2bec5e59629750d7cd4b210e55f58e81135fcf98dbbab92"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/variation-isolated-001/native-control-feedback-on.png",
+          "sha256": "82d539bdc318b8c628e7a113b63297cca1620717d309a20b3b2dad4f4a5d355d"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/variation-isolated-001/native-still-0.png",
+          "sha256": "e6d686dde098b79dc3ca55301081230f8df47b0206fbbfb6061b21fd8f9f4586"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/variation-isolated-001/native-still-100.png",
+          "sha256": "0aa13b758fca7b752a23e7c9916640c16adff0774cbb81eabae5d37f3bd52cfb"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/variation-isolated-001/native-still-125.png",
+          "sha256": "4cf377e6738a525432341108f4ff9c973679c9bb2e0ba8d21c58f326d9caa9d5"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/variation-isolated-001/native-still-25.png",
+          "sha256": "3c924773f88f5cb38f8da6d9d28de1a6f13ca5f015428e3b4ab538f988f0b28e"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/variation-isolated-001/native-still-50.png",
+          "sha256": "d008cd17fd476c7b9c07e20152f2f9a2d8247e11972e1ea8ed44386e4a5feb9c"
+        },
+        {
+          "path": "samples/course2-cloud-native-001/variation-isolated-001/native-still-75.png",
+          "sha256": "7f125fea8b31ea847076d28633be9289d765864ae85e3fb3fdef28da2be61c28"
+        }
+      ]
+    }
+  ],
+  "total_native_pngs": 80,
+  "method": "All80necessarynativePNG represented in ten contact sheets and viewed; alpha flattened on darkgray only for contact display, originalRGBA retained",
+  "findings": "Clouds and flare visible, own band/cell/ring input identity retained, on/off control images differ. Native flare ring and optical style differ from originalGoldenSun.",
+  "aesthetic_continuous_playback": "not_claimed",
+  "original_optical_identity": "not_reproduced",
+  "review_video": "Local original24:30..24:35 paused viewport beside continuous native0..5; not time synchronized"
+}

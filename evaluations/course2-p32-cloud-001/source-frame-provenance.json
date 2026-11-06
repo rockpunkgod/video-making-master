@@ -1,0 +1,154 @@
+{
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=32",
+  "video_duration": 3001.44,
+  "audio_duration": 1500.8425,
+  "global_frames_viewed": 18,
+  "technical_frames_viewed": 28,
+  "counts_include_repeated_content": true,
+  "speech_segments_read": 330,
+  "local_transcript_sha256": "533ea3c01a35c78cb34786e57181b8ad96f57eec1c4b2c56427c00b1107e8d7f",
+  "local_only_model": true,
+  "audio_uploaded": false,
+  "detail_coverage": "Speech-bearing first half sampled in technical frames and complete local transcript read; second video-only half sparse global frames only",
+  "course_final_expression": "mubiao=thisComp.layer(\"白云\");alpha=mubiao.sampleImage(effect(\"Optical Flares\")(\"Position XY\"),[2,2])[3];linear(alpha,0,1,100,50)",
+  "observations": [
+    {
+      "time": "01:10",
+      "fact": "PAL720x576,25fps,10seconds"
+    },
+    {
+      "time": "05:37",
+      "fact": "Speech permits any lens flare plugin; visual original remains OpticalFlares"
+    },
+    {
+      "time": "05:52",
+      "fact": "Golden Sun preset in OpticalFlares"
+    },
+    {
+      "time": "07:45",
+      "fact": "Final noise offset X time*60"
+    },
+    {
+      "time": "24:50–24:59",
+      "fact": "Final radius[2,2] Alpha[3] mapping100..50, position236/164"
+    },
+    {
+      "time": "24:30/24:59",
+      "fact": "Final cloud layer AND sun layer Screen; earlier Normal implementation rejected after source image recheck"
+    }
+  ],
+  "frame_evidence": [
+    {
+      "path": "cache/watch/watch-ui21kp76/frames/cue_0000.jpg",
+      "sha256": "eb91573b16007ab5172fd1a79eca90a9f65773fc47d2fc5e4b270d48ee64fd6e"
+    },
+    {
+      "path": "cache/watch/watch-ui21kp76/frames/cue_0001.jpg",
+      "sha256": "80e69b1f2bd6ee864f1b4d3b76b40b727b2322bb360974a3b3cc2e75fb64eb65"
+    },
+    {
+      "path": "cache/watch/watch-ui21kp76/frames/cue_0002.jpg",
+      "sha256": "073bbc25ccddab8a25b0890aa64f7a2c0efedfb56a516be9ab549752bee93101"
+    },
+    {
+      "path": "cache/watch/watch-ui21kp76/frames/cue_0003.jpg",
+      "sha256": "3d7d9a3c963f93206ee52ae90d6effcfdad004f9438523e2e3403a80944bcf43"
+    },
+    {
+      "path": "cache/watch/watch-ui21kp76/frames/cue_0004.jpg",
+      "sha256": "1590dc83c8ecf29e2f35e189bd1ae9bce7f62780189a095041f0e29d6a50a88c"
+    },
+    {
+      "path": "cache/watch/watch-ui21kp76/frames/cue_0005.jpg",
+      "sha256": "24c165f52834ff37660e424b505f883945c3c4ca7c85d886603d97274ba519f9"
+    },
+    {
+      "path": "cache/watch/watch-ui21kp76/frames/cue_0006.jpg",
+      "sha256": "880a4f9fffd6a3339c6f98ad14d521ae3553dfc044736a209791bec611a166f9"
+    },
+    {
+      "path": "cache/watch/watch-ui21kp76/frames/cue_0007.jpg",
+      "sha256": "ec6b1c48928e445726e0b50012a1b91520ae786fc697abb35ee0159fec539437"
+    },
+    {
+      "path": "cache/watch/watch-ui21kp76/frames/cue_0008.jpg",
+      "sha256": "65adf3c0719580842013cfa16e0a238611301d0fa238968f164374ea630f3de4"
+    },
+    {
+      "path": "cache/watch/watch-ui21kp76/frames/cue_0009.jpg",
+      "sha256": "7e3d363c94b8733af42f546273ef15c1d11b645a34ef07d21476640496b139f2"
+    },
+    {
+      "path": "cache/watch/watch-ui21kp76/frames/cue_0010.jpg",
+      "sha256": "eedb489e750da96cdc96140520e274c9de06c51d6740d7d2d841831bf4cfe966"
+    },
+    {
+      "path": "cache/watch/watch-ui21kp76/frames/cue_0011.jpg",
+      "sha256": "4efe6f568546a6a885dd1808222694a52664c0b42a839421b019284bcdc87dfc"
+    },
+    {
+      "path": "cache/watch/watch-ui21kp76/frames/cue_0012.jpg",
+      "sha256": "4986e843194af198438a021a0c9d92c37e1c22b4b10d4a6b1014266e680eba7c"
+    },
+    {
+      "path": "cache/watch/watch-ui21kp76/frames/cue_0013.jpg",
+      "sha256": "b331dcc59c9e40d4e530e483fc4886105abb90e90252dd467e0bd558e497bf79"
+    },
+    {
+      "path": "cache/watch/watch-ui21kp76/frames/cue_0014.jpg",
+      "sha256": "4d9359d57ac4e4b2677107db59468f8bfee863a6ceb0964cf419b39e960f97c3"
+    },
+    {
+      "path": "cache/watch/watch-ui21kp76/frames/cue_0015.jpg",
+      "sha256": "ef2ea7f5433006b977d60e939bff76f27b7843515b6a6178b8b57ca4043b1fe2"
+    },
+    {
+      "path": "cache/watch/watch-ui21kp76/frames/cue_0016.jpg",
+      "sha256": "5b898836220106db9a2e96c2fe0dca263370fbb9f0a42a007e3ab1137c062c62"
+    },
+    {
+      "path": "cache/watch/watch-ui21kp76/frames/cue_0017.jpg",
+      "sha256": "f8bd695c58b394295228b7778eb16f17981c60fbdb1ca088d72ae9af1e095faf"
+    },
+    {
+      "path": "cache/watch/watch-ui21kp76/frames/cue_0018.jpg",
+      "sha256": "c85481c306dfc0edaca69b1162fe9f16566ce6196d39111c9d1b49b28aa25547"
+    },
+    {
+      "path": "cache/watch/watch-ui21kp76/frames/cue_0019.jpg",
+      "sha256": "894a77110e8293359d8c34cecfcd26ae16c6f154d6afcfe4fbac7b95440468bc"
+    },
+    {
+      "path": "cache/watch/watch-qi7yfba9/frames/cue_0000.jpg",
+      "sha256": "ce4b48aca2817c1fd5342ec02d2c3089b8478cd677ec1dfdb5492edf0773e82d"
+    },
+    {
+      "path": "cache/watch/watch-qi7yfba9/frames/cue_0001.jpg",
+      "sha256": "ae1bb9cb5858f2331bb38bb559e635b9fc545aaf4b46a392067223e6b25f282f"
+    },
+    {
+      "path": "cache/watch/watch-qi7yfba9/frames/cue_0002.jpg",
+      "sha256": "cf603f4c25535838419ce4b9a7e66090b9e64102e2b711e164908c5a744c8da5"
+    },
+    {
+      "path": "cache/watch/watch-qi7yfba9/frames/cue_0003.jpg",
+      "sha256": "eb103210ab26edcbbc5dbf8650176400fc2fec76b6bfaff9b71bf739856e80b3"
+    },
+    {
+      "path": "cache/watch/watch-qi7yfba9/frames/cue_0004.jpg",
+      "sha256": "26946cba5f30f4b34be1465bf3ac6f897877875597935538d7dc2d5277bdc4a6"
+    },
+    {
+      "path": "cache/watch/watch-qi7yfba9/frames/cue_0005.jpg",
+      "sha256": "d60c37c28526e0834f685772e5150cf8201c8a25a2a20da68a3d2072cdd5cba4"
+    },
+    {
+      "path": "cache/watch/watch-qi7yfba9/frames/cue_0006.jpg",
+      "sha256": "2ec346295a657bc137dde280414e9e523f7f1e5d7abcb97267c979040253eec8"
+    },
+    {
+      "path": "cache/watch/watch-qi7yfba9/frames/cue_0007.jpg",
+      "sha256": "3eeed2ee7453b10a9638adf12227239ec59a327b86e982b8e664390014dec5ba"
+    }
+  ]
+}

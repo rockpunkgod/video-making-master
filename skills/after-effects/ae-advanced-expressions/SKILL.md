@@ -1,9 +1,11 @@
 ---
 name: ae-advanced-expressions
-description: 使用AE表达式制作显隐、三维布局、数字、文字、弹簧、双翅和放大镜；纵横滑页与滑块三维旋转、圆周投影和自转、Write-on螺旋累积和Numbers进度联动。各分支保留明确的候选验证边界。
+description: 使用AE表达式制作显隐、三维布局、数字、文字、弹簧、双翅和放大镜；纵横滑页与滑块三维旋转、圆周投影和自转、Write-on螺旋累积、Numbers进度联动和透明云层Alpha采样耀斑明确变体。各分支保留明确的候选验证边界。
 ---
 
-0.12.0为candidate。十二个单元有各自原生证据；第二套第26/27节滑页新增11例可编辑工程/视频、1980帧、三种图片双方向与独立复制调用，课程整体人工反馈仍待答。不能泛称已掌握全部高级表达式。第10节旧002–005失败保留；replay006收到“这次方向对，可以保留”，仅绑定006方向与节奏，不代表绝对种子、逐字数字或全部泛化通过。
+0.13.0为candidate。十三个单元有各自原生证据；最新第32节是内置耀斑明确变体，原课OpticalFlares未制作，不能以变体代替原版验收。不能泛称已掌握全部高级表达式。第10节旧002–005失败保留；replay006收到“这次方向对，可以保留”，仅绑定006方向与节奏，不代表绝对种子、逐字数字或全部泛化通过。
+
+云层遮挡联动先读references/cloud-occlusion.md，必须显式选择--implementation native-lens-flare；原版OpticalFlares缺失未制作。5例850帧、三新PNG及独立调用的候选变体有真实工程/视频与逐帧Alpha像素证据。按分阶段原生导出执行，不得同时启动其他AE任务；课程最终白云和太阳均Screen，旧Normal版不入库。详见tests/cloud-occlusion-results.json。
 
 读取进度先读references/loading-progress.md，用scripts/build_loading_progress.py --out全新目录及同目录run_ae.py/render_ae.py。保留原生Numbers、if/elsevalue、左anchor独立ScaleX/Y、三键pingpong和单独渐变调节层；5例1750帧、三新PNG标题和独立复制调用已制作，71张原生PNG及真实调整层开关核对。字体替代/字形补偿、部分布局与色彩身份有边界，人工反馈待答，仍candidate。
 
