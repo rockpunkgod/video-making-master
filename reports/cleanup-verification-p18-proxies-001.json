@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "date": "2026-11-07",
+  "deleted_files": 842,
+  "deleted_bytes": 3021542958,
+  "all_manifest_files_rehashed": 1311,
+  "changed_or_missing_deliverables": [],
+  "necessary_native_proxy_files": 4,
+  "native_proxy_bytes": 655180736,
+  "lfs_status": "Four objects uploaded100% before cleanup; local fsck and index-pointer/entity matching passed",
+  "published_delivery_commit": "d8ff784f82df142570be8dd7dd5d29dabdd9a81e",
+  "publication_checks": {
+    "status": "passed",
+    "tracked_files": 1739,
+    "json_parsed": 657,
+    "python_compiled": 139,
+    "native_demonstrations": 68,
+    "problems": []
+  },
+  "retained_learning_inputs": "P18 original videos and transcript retained for unresolved final camera/text comparison; other active chapter inputs untouched",
+  "native_media_audit": "reports/native-media-dependencies-p18-proxies.json"
+}
