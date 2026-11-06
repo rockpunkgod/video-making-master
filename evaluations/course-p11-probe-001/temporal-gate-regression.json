@@ -1,0 +1,167 @@
+{
+  "status": "passed",
+  "positive_cases": [
+    {
+      "directory": "samples/course-reproduction-002/p06-final-003",
+      "status": "passed",
+      "temporal": {
+        "expectation": "required",
+        "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+        "decoded_difference_frames": 209,
+        "maximum_mean_luma_difference": 2.08716,
+        "codec_noise_threshold": 0.1
+      }
+    },
+    {
+      "directory": "samples/course-reproduction-002/p06-delay5-002",
+      "status": "passed",
+      "temporal": {
+        "expectation": "required",
+        "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+        "decoded_difference_frames": 209,
+        "maximum_mean_luma_difference": 2.08838,
+        "codec_noise_threshold": 0.1
+      }
+    },
+    {
+      "directory": "samples/course-generalization-001/geometry",
+      "status": "passed",
+      "temporal": {
+        "expectation": "required",
+        "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+        "decoded_difference_frames": 209,
+        "maximum_mean_luma_difference": 1.95312,
+        "codec_noise_threshold": 0.1
+      }
+    },
+    {
+      "directory": "samples/course-generalization-001/typography",
+      "status": "passed",
+      "temporal": {
+        "expectation": "required",
+        "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+        "decoded_difference_frames": 209,
+        "maximum_mean_luma_difference": 0.452637,
+        "codec_noise_threshold": 0.1
+      }
+    },
+    {
+      "directory": "samples/course-generalization-001/texture",
+      "status": "passed",
+      "temporal": {
+        "expectation": "required",
+        "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+        "decoded_difference_frames": 209,
+        "maximum_mean_luma_difference": 3.34106,
+        "codec_noise_threshold": 0.1
+      }
+    },
+    {
+      "directory": "samples/course-reproduction-007/p11-baseline-001",
+      "status": "passed",
+      "temporal": {
+        "expectation": "static_layout",
+        "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+        "decoded_difference_frames": 149,
+        "maximum_mean_luma_difference": 0.00927734,
+        "codec_noise_threshold": 0.1,
+        "native_png_sha256": [
+          "e9b9795720fab62ff054a9198b3454dd300dbdc22fccd8c4d9c719ae0d4a3f1e",
+          "e9b9795720fab62ff054a9198b3454dd300dbdc22fccd8c4d9c719ae0d4a3f1e",
+          "e9b9795720fab62ff054a9198b3454dd300dbdc22fccd8c4d9c719ae0d4a3f1e",
+          "e9b9795720fab62ff054a9198b3454dd300dbdc22fccd8c4d9c719ae0d4a3f1e",
+          "e9b9795720fab62ff054a9198b3454dd300dbdc22fccd8c4d9c719ae0d4a3f1e"
+        ],
+        "native_samples": 150
+      }
+    },
+    {
+      "directory": "samples/course-reproduction-007/p11-variation-002",
+      "status": "passed",
+      "temporal": {
+        "expectation": "static_layout",
+        "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+        "decoded_difference_frames": 149,
+        "maximum_mean_luma_difference": 0.00219727,
+        "codec_noise_threshold": 0.1,
+        "native_png_sha256": [
+          "50688e22803b8cde2cd5e9cb505c7431fc6a9fe6fe9d9203bf9ebb5187da0c19",
+          "50688e22803b8cde2cd5e9cb505c7431fc6a9fe6fe9d9203bf9ebb5187da0c19",
+          "50688e22803b8cde2cd5e9cb505c7431fc6a9fe6fe9d9203bf9ebb5187da0c19",
+          "50688e22803b8cde2cd5e9cb505c7431fc6a9fe6fe9d9203bf9ebb5187da0c19",
+          "50688e22803b8cde2cd5e9cb505c7431fc6a9fe6fe9d9203bf9ebb5187da0c19"
+        ],
+        "native_samples": 150
+      }
+    },
+    {
+      "directory": "samples/course-reproduction-007/p11-geometry-002",
+      "status": "passed",
+      "temporal": {
+        "expectation": "static_layout",
+        "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+        "decoded_difference_frames": 149,
+        "maximum_mean_luma_difference": 0.010498,
+        "codec_noise_threshold": 0.1,
+        "native_png_sha256": [
+          "cefcf8a9c76b576ee53d102347116b99cf52995f46ef10f8df6c23e43ca2a4c1",
+          "cefcf8a9c76b576ee53d102347116b99cf52995f46ef10f8df6c23e43ca2a4c1",
+          "cefcf8a9c76b576ee53d102347116b99cf52995f46ef10f8df6c23e43ca2a4c1",
+          "cefcf8a9c76b576ee53d102347116b99cf52995f46ef10f8df6c23e43ca2a4c1",
+          "cefcf8a9c76b576ee53d102347116b99cf52995f46ef10f8df6c23e43ca2a4c1"
+        ],
+        "native_samples": 150
+      }
+    },
+    {
+      "directory": "samples/course-reproduction-007/p11-typography-002",
+      "status": "passed",
+      "temporal": {
+        "expectation": "static_layout",
+        "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+        "decoded_difference_frames": 149,
+        "maximum_mean_luma_difference": 0.00463867,
+        "codec_noise_threshold": 0.1,
+        "native_png_sha256": [
+          "0c2eaf938e937b297ecad82bbc8c62996cf1298a4b599a0b0175bb79181efd03",
+          "0c2eaf938e937b297ecad82bbc8c62996cf1298a4b599a0b0175bb79181efd03",
+          "0c2eaf938e937b297ecad82bbc8c62996cf1298a4b599a0b0175bb79181efd03",
+          "0c2eaf938e937b297ecad82bbc8c62996cf1298a4b599a0b0175bb79181efd03",
+          "0c2eaf938e937b297ecad82bbc8c62996cf1298a4b599a0b0175bb79181efd03"
+        ],
+        "native_samples": 150
+      }
+    },
+    {
+      "directory": "samples/course-reproduction-007/p11-texture-002",
+      "status": "passed",
+      "temporal": {
+        "expectation": "static_layout",
+        "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+        "decoded_difference_frames": 149,
+        "maximum_mean_luma_difference": 0.0314941,
+        "codec_noise_threshold": 0.1,
+        "native_png_sha256": [
+          "09aad3f0ce434996a37273c1bce6a62ee2eae49ed0cdb28623898a7efaab0ec5",
+          "09aad3f0ce434996a37273c1bce6a62ee2eae49ed0cdb28623898a7efaab0ec5",
+          "09aad3f0ce434996a37273c1bce6a62ee2eae49ed0cdb28623898a7efaab0ec5",
+          "09aad3f0ce434996a37273c1bce6a62ee2eae49ed0cdb28623898a7efaab0ec5",
+          "09aad3f0ce434996a37273c1bce6a62ee2eae49ed0cdb28623898a7efaab0ec5"
+        ],
+        "native_samples": 150
+      }
+    }
+  ],
+  "negative_control": {
+    "artifact": "p11-baseline-001/final.mp4",
+    "required_motion_was_rejected": true,
+    "temporal": {
+      "expectation": "required",
+      "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+      "decoded_difference_frames": 149,
+      "maximum_mean_luma_difference": 0.00927734,
+      "codec_noise_threshold": 0.1
+    }
+  },
+  "scope": "Real rendered motion cases remain valid; a real stationary H264 is not counted as animation from codec hash changes"
+}

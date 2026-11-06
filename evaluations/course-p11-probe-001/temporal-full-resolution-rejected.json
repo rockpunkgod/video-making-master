@@ -1,0 +1,42 @@
+{
+  "status": "failed",
+  "path": "E:\\自媒体\\video-skills-lab\\samples\\course-reproduction-007\\p11-texture-002\\final.mp4",
+  "sha256": "0748454bf1923c329f4be6fb0c1fcaa7ae4ee3e56681d753d9b9828699ab7792",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "difference_decode": true,
+    "expected_temporal_behavior": false,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 1080,
+    "height": 1080,
+    "fps": 30.0,
+    "duration": 5.0,
+    "decoded_frames": 150,
+    "unique_thumbnail_frames": 148
+  },
+  "temporal_contract": {
+    "expectation": "static_layout",
+    "decoded_difference_frames": 149,
+    "maximum_mean_luma_difference": 0.136616,
+    "codec_noise_threshold": 0.1,
+    "native_png_sha256": [
+      "09aad3f0ce434996a37273c1bce6a62ee2eae49ed0cdb28623898a7efaab0ec5",
+      "09aad3f0ce434996a37273c1bce6a62ee2eae49ed0cdb28623898a7efaab0ec5",
+      "09aad3f0ce434996a37273c1bce6a62ee2eae49ed0cdb28623898a7efaab0ec5",
+      "09aad3f0ce434996a37273c1bce6a62ee2eae49ed0cdb28623898a7efaab0ec5",
+      "09aad3f0ce434996a37273c1bce6a62ee2eae49ed0cdb28623898a7efaab0ec5"
+    ],
+    "native_samples": 150
+  },
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": ""
+}

@@ -1,0 +1,22 @@
+{
+  "name": "COURSE_P11_ALGORITHMIC_LAYOUT",
+  "width": 1080,
+  "height": 1080,
+  "fps": 30,
+  "duration": 5,
+  "count": 176,
+  "phase": 106,
+  "phase_step": 63,
+  "z_step": 35,
+  "radius": 73,
+  "motion_expectation": "static_layout",
+  "asset": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-reproduction-007/p11-typography-002/assets/input.png",
+  "status": "candidate",
+  "background": "black",
+  "source": "BV1Yh4y1A7XT?p=11 07:20 final+value,09:20 corrected multiplication,09:43 ellipse100,11:14 controls",
+  "observed": "Phase106,Phase increment63,Z increment35,Radius73; r=Radius*PI*2; myIndex=index-controls.index; [x,y,z]+value",
+  "inferred": "176 layers selected by actual AE silhouette comparison (not directly read); fill100/255,bg224/255 inferred. Black background is an explicit contrast variation, not tutorial gray baseline.",
+  "animation_scope": "The source reference is paused. This output documents a static procedural rig; no animation acceptance claim or invented time/keyframes.",
+  "asset_sha256": "3130efd93a8d60694178091ed3dc6cd54c043917c6e2668a25a51effe8198600",
+  "asset_scope": "Original PNG baseShape substitution, not the tutorial circle"
+}

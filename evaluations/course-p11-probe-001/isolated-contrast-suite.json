@@ -1,0 +1,47 @@
+{
+  "status": "technical_pass_visual_pending_static_layout_only",
+  "cases": [
+    {
+      "directory": "samples/course-reproduction-007/p11-geometry-002",
+      "status": "native_render_pass_contrast_review_pending",
+      "video_sha256": "01659157a8ba04ef35e7f421eaa2fbbb758623ab59c4c6d50c05c656874515ef",
+      "asset_sha256": "f4e0b0064871dc9f639959b72cecbcfb2e3414f940166c5f21f40d1552dc5009",
+      "native_phase_edit": {
+        "original": 106,
+        "changed": 126,
+        "restored": 106
+      },
+      "max_position_error": 1.13686837721616e-13,
+      "background": "black_explicit_generalization"
+    },
+    {
+      "directory": "samples/course-reproduction-007/p11-typography-002",
+      "status": "native_render_pass_contrast_review_pending",
+      "video_sha256": "bf76c4ef392b781fd9f5b2868dfc95070e2c7569522c6f2a4c26fc76817838c9",
+      "asset_sha256": "3130efd93a8d60694178091ed3dc6cd54c043917c6e2668a25a51effe8198600",
+      "native_phase_edit": {
+        "original": 106,
+        "changed": 126,
+        "restored": 106
+      },
+      "max_position_error": 1.13686837721616e-13,
+      "background": "black_explicit_generalization"
+    },
+    {
+      "directory": "samples/course-reproduction-007/p11-texture-002",
+      "status": "native_render_pass_contrast_review_pending",
+      "video_sha256": "0748454bf1923c329f4be6fb0c1fcaa7ae4ee3e56681d753d9b9828699ab7792",
+      "asset_sha256": "700ce5d87d80c90d2e23409bbac14ba38da5a31397abc60f194cbe62326cbae9",
+      "native_phase_edit": {
+        "original": 106,
+        "changed": 126,
+        "restored": 106
+      },
+      "max_position_error": 1.13686837721616e-13,
+      "background": "black_explicit_generalization"
+    }
+  ],
+  "copy": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\isolated-skill-012\\ae-procedural-motion",
+  "cwd": "E:\\\u81ea\u5a92\u4f53",
+  "same_builder": true
+}

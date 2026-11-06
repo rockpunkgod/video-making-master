@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course-reproduction-007\\p11-variation-002\\final.mp4",
+  "sha256": "7a448cf5bf28c9d552ca26e24f2fc3b00908d0178f9fa1f0b3e1dacbcb0c58ec",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "difference_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 1080,
+    "height": 1080,
+    "fps": 30.0,
+    "duration": 5.0,
+    "decoded_frames": 150,
+    "unique_thumbnail_frames": 24
+  },
+  "temporal_contract": {
+    "expectation": "static_layout",
+    "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+    "decoded_difference_frames": 149,
+    "maximum_mean_luma_difference": 0.00219727,
+    "codec_noise_threshold": 0.1,
+    "native_png_sha256": [
+      "50688e22803b8cde2cd5e9cb505c7431fc6a9fe6fe9d9203bf9ebb5187da0c19",
+      "50688e22803b8cde2cd5e9cb505c7431fc6a9fe6fe9d9203bf9ebb5187da0c19",
+      "50688e22803b8cde2cd5e9cb505c7431fc6a9fe6fe9d9203bf9ebb5187da0c19",
+      "50688e22803b8cde2cd5e9cb505c7431fc6a9fe6fe9d9203bf9ebb5187da0c19",
+      "50688e22803b8cde2cd5e9cb505c7431fc6a9fe6fe9d9203bf9ebb5187da0c19"
+    ],
+    "native_samples": 150
+  },
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": ""
+}

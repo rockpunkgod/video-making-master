@@ -1,0 +1,36 @@
+{
+  "status": "measured_not_verified",
+  "reference": "p11 11:14 crop[571,101,241,241]",
+  "alignment": "Fixed source viewport and native resize only; no fitting, translation, rotation or scale search",
+  "results": [
+    {
+      "count": 44,
+      "intersection_over_union": 0.620733050180903,
+      "symmetric_mask_distance_mean": 3.2820684909820557,
+      "symmetric_mask_distance_p95": 21.581396102905273,
+      "native_dark_pixels": 8047,
+      "reference_dark_pixels": 12559
+    },
+    {
+      "count": 88,
+      "intersection_over_union": 0.8136335209505942,
+      "symmetric_mask_distance_mean": 0.5243633985519409,
+      "symmetric_mask_distance_p95": 4.996899604797363,
+      "native_dark_pixels": 10641,
+      "reference_dark_pixels": 12559
+    },
+    {
+      "count": 176,
+      "intersection_over_union": 0.9472462871287128,
+      "symmetric_mask_distance_mean": 0.02925104834139347,
+      "symmetric_mask_distance_p95": 0.0,
+      "native_dark_pixels": 12615,
+      "reference_dark_pixels": 12559
+    }
+  ],
+  "limits": [
+    "Layer count remains inferred, not read from the course project",
+    "Background and fill values are inferred",
+    "Metrics measure silhouette, not editability or animation"
+  ]
+}

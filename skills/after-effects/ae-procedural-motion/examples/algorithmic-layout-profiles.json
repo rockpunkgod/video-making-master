@@ -1,0 +1,9 @@
+{
+  "status": "candidate_static_layout_only",
+  "baseline": {"count": 176, "phase": 106, "phase_step": 63, "z_step": 35, "radius": 73},
+  "parameter_variation": {"count": 88, "phase": 133, "phase_step": 72.1, "z_step": 275, "radius": 74},
+  "input_variation": {"asset": "caller-owned.png", "background": "black"},
+  "fixed_profile": {"width": 1080, "height": 1080, "fps": 30, "duration": 5},
+  "inferred": ["final layer count176", "gray fill and background colors"],
+  "not_claimed": "No original timeline animation has been established for this chapter; do not turn the static render into an animation-completion claim"
+}

@@ -150,6 +150,14 @@
           "status": "candidate",
           "evidence": "evaluations/course-p07-probe-001/production-candidate.json",
           "script": "scripts/build_course_noise.py"
+        },
+        {
+          "name": "course-p11-algorithmic-layout",
+          "version": "0.1.0",
+          "status": "candidate",
+          "evidence": "evaluations/course-p11-probe-001/summary.json",
+          "script": "scripts/build_algorithmic_spiral.py",
+          "scope": "static spatial rig only; no animation acceptance"
         }
       ]
     },

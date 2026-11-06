@@ -17,6 +17,14 @@ def execute(executable,jsx,timeout=120):
             try: result=json.loads(receipt.read_text(encoding='utf-8-sig'))
             except (ValueError,OSError):time.sleep(0.25);continue
             if result.get('status')=='built' and not target.is_file():result={'status':'failed','error':'receipt exists but AEP missing'}
+            if result.get('status')=='built' and result.get('native_png_exports'):
+                # saveFrameToPng can return while its worker is still flushing.
+                paths=[jsx.parent/name for name in result['native_png_exports']];previous=None
+                while time.monotonic()<deadline:
+                    sizes=[f.stat().st_size if f.is_file() else 0 for f in paths]
+                    if all(sizes) and sizes==previous:break
+                    previous=sizes;time.sleep(0.5)
+                else:return {'status':'failed','error':'Native PNG exports not finished; inspect existing project before retry'}
             return result
         time.sleep(0.5)
     result={'status':'blocked','reason':'No AE execution receipt before timeout; inspect startup dialogs','launcher_pid':p.pid,'launcher_exit':p.poll(),'project_exists':target.exists()}

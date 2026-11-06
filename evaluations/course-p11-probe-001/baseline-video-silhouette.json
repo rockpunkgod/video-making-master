@@ -1,0 +1,26 @@
+{
+  "status": "passed_static_silhouette_only",
+  "reference_crop": [
+    571,
+    101,
+    241,
+    241
+  ],
+  "reference": "cache\\watch\\watch-jlvepvq8\\frames\\cue_0003.jpg",
+  "candidate_video": "samples\\course-reproduction-007\\p11-baseline-001\\final.mp4",
+  "iou": 0.9476993865030675,
+  "symmetric_mask_distance_mean": 0.029237180948257446,
+  "symmetric_mask_distance_p95": 0.0,
+  "thresholds": {
+    "iou_min": 0.9,
+    "mean_max": 0.15,
+    "p95_max": 1
+  },
+  "alignment": "Fixed crop and resize, no spatial fitting",
+  "not_validated": [
+    "Exact source layer count",
+    "Original AEP values for inferred colors",
+    "Animation or temporal reference alignment",
+    "Human aesthetics"
+  ]
+}

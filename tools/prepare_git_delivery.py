@@ -32,6 +32,11 @@ CASES=[
  'samples/course-reproduction-006/p10-variation-002',
  'samples/course-reproduction-006/p10-single-digit-002',
  'samples/course-reproduction-006/p10-controls-animation-005',
+ 'samples/course-reproduction-007/p11-baseline-001',
+ 'samples/course-reproduction-007/p11-variation-002',
+ 'samples/course-reproduction-007/p11-geometry-002',
+ 'samples/course-reproduction-007/p11-typography-002',
+ 'samples/course-reproduction-007/p11-texture-002',
  'samples/tracking-fixture-001/solve-calibrated-001/composite-001',
  'samples/tracking-fixture-001/solve-calibrated-001/composite-typography',
  'samples/tracking-gallery-001/solve-001/composite-pixel-sized',
@@ -50,6 +55,8 @@ for name in CASES:
   if rel.parts[0] in {'inputs','assets'}:
    if path.suffix.lower() in {'.png','.jpg','.jpeg','.wav','.mp3','.mp4','.json','.md'}:chosen.append(path)
   elif len(rel.parts)==1 and (path.name in {'project.aep','project.prproj','final.mp4','native-mix.wav','credits.md','build.jsx'} or path.suffix.lower()=='.json'):
+   chosen.append(path)
+  elif len(rel.parts)==1 and path.name.startswith('native-still-') and path.suffix.lower()=='.png':
    chosen.append(path)
  # Every published demonstration must include both its actual native project and video.
  if not (folder/'final.mp4').is_file() or not any((folder/p).is_file() for p in ['project.aep','project.prproj']):raise ValueError('Incomplete native delivery '+name)

@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course-reproduction-007\\p11-typography-002\\final.mp4",
+  "sha256": "bf76c4ef392b781fd9f5b2868dfc95070e2c7569522c6f2a4c26fc76817838c9",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "difference_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 1080,
+    "height": 1080,
+    "fps": 30.0,
+    "duration": 5.0,
+    "decoded_frames": 150,
+    "unique_thumbnail_frames": 150
+  },
+  "temporal_contract": {
+    "expectation": "static_layout",
+    "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+    "decoded_difference_frames": 149,
+    "maximum_mean_luma_difference": 0.00463867,
+    "codec_noise_threshold": 0.1,
+    "native_png_sha256": [
+      "0c2eaf938e937b297ecad82bbc8c62996cf1298a4b599a0b0175bb79181efd03",
+      "0c2eaf938e937b297ecad82bbc8c62996cf1298a4b599a0b0175bb79181efd03",
+      "0c2eaf938e937b297ecad82bbc8c62996cf1298a4b599a0b0175bb79181efd03",
+      "0c2eaf938e937b297ecad82bbc8c62996cf1298a4b599a0b0175bb79181efd03",
+      "0c2eaf938e937b297ecad82bbc8c62996cf1298a4b599a0b0175bb79181efd03"
+    ],
+    "native_samples": 150
+  },
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": ""
+}

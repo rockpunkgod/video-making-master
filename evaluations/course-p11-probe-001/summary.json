@@ -1,0 +1,446 @@
+{
+  "skill": "ae-procedural-motion",
+  "unit": "course-p11-algorithmic-layout",
+  "unit_version": "0.1.0",
+  "status": "candidate",
+  "scope": "Static procedural 3D layout and editable controls only; no timeline animation verified",
+  "source": "BV1Yh4y1A7XT?p=11",
+  "observed": [
+    "07:20 final +value",
+    "09:20 corrected offset multiplication",
+    "09:43 ellipse100x100",
+    "11:14 controls106/63/35/73"
+  ],
+  "inferred": [
+    "176 layers adopted from fixed-viewport native silhouette tests, not read source layer count",
+    "gray fill100/255 and background224/255"
+  ],
+  "count_hypotheses": {
+    "status": "measured_not_verified",
+    "reference": "p11 11:14 crop[571,101,241,241]",
+    "alignment": "Fixed source viewport and native resize only; no fitting, translation, rotation or scale search",
+    "results": [
+      {
+        "count": 44,
+        "intersection_over_union": 0.620733050180903,
+        "symmetric_mask_distance_mean": 3.2820684909820557,
+        "symmetric_mask_distance_p95": 21.581396102905273,
+        "native_dark_pixels": 8047,
+        "reference_dark_pixels": 12559
+      },
+      {
+        "count": 88,
+        "intersection_over_union": 0.8136335209505942,
+        "symmetric_mask_distance_mean": 0.5243633985519409,
+        "symmetric_mask_distance_p95": 4.996899604797363,
+        "native_dark_pixels": 10641,
+        "reference_dark_pixels": 12559
+      },
+      {
+        "count": 176,
+        "intersection_over_union": 0.9472462871287128,
+        "symmetric_mask_distance_mean": 0.02925104834139347,
+        "symmetric_mask_distance_p95": 0.0,
+        "native_dark_pixels": 12615,
+        "reference_dark_pixels": 12559
+      }
+    ],
+    "limits": [
+      "Layer count remains inferred, not read from the course project",
+      "Background and fill values are inferred",
+      "Metrics measure silhouette, not editability or animation"
+    ]
+  },
+  "rendered_baseline_comparison": {
+    "status": "passed_static_silhouette_only",
+    "reference_crop": [
+      571,
+      101,
+      241,
+      241
+    ],
+    "reference": "cache\\watch\\watch-jlvepvq8\\frames\\cue_0003.jpg",
+    "candidate_video": "samples\\course-reproduction-007\\p11-baseline-001\\final.mp4",
+    "iou": 0.9476993865030675,
+    "symmetric_mask_distance_mean": 0.029237180948257446,
+    "symmetric_mask_distance_p95": 0.0,
+    "thresholds": {
+      "iou_min": 0.9,
+      "mean_max": 0.15,
+      "p95_max": 1
+    },
+    "alignment": "Fixed crop and resize, no spatial fitting",
+    "not_validated": [
+      "Exact source layer count",
+      "Original AEP values for inferred colors",
+      "Animation or temporal reference alignment",
+      "Human aesthetics"
+    ]
+  },
+  "cases": [
+    {
+      "case": "p11-baseline-001",
+      "directory": "samples/course-reproduction-007/p11-baseline-001",
+      "video_sha256": "8b31af65554dcea84dae6997fb41f70e0e5ea11014e76f294ecb90ec255755c1",
+      "asset_sha256": null,
+      "background": "course",
+      "max_position_error": 1.13686837721616e-13,
+      "max_index_error": 0,
+      "native_phase_edit": {
+        "original": 106,
+        "changed": 126,
+        "restored": 106
+      },
+      "native_static_frames": 150,
+      "native_png_sha256": "e9b9795720fab62ff054a9198b3454dd300dbdc22fccd8c4d9c719ae0d4a3f1e",
+      "native_png_exports": [
+        "native-still-0.png",
+        "native-still-1.png",
+        "native-still-2.png",
+        "native-still-3.png",
+        "native-still-4.png"
+      ],
+      "stored_controls": "Baseline integer controls exactly represented; no noninteger quantization",
+      "visual_review": "10 actual video frames inspected; gray PNG inputs low contrast, black variation still has tiny-text readability limits; no user acceptance"
+    },
+    {
+      "case": "p11-variation-002",
+      "directory": "samples/course-reproduction-007/p11-variation-002",
+      "video_sha256": "7a448cf5bf28c9d552ca26e24f2fc3b00908d0178f9fa1f0b3e1dacbcb0c58ec",
+      "asset_sha256": null,
+      "background": "course",
+      "max_position_error": 5.6843418860808e-14,
+      "max_index_error": 0,
+      "native_phase_edit": {
+        "original": 133,
+        "changed": 153,
+        "restored": 133
+      },
+      "native_static_frames": 150,
+      "native_png_sha256": "50688e22803b8cde2cd5e9cb505c7431fc6a9fe6fe9d9203bf9ebb5187da0c19",
+      "native_png_exports": [
+        "native-still-0.png",
+        "native-still-1.png",
+        "native-still-2.png",
+        "native-still-3.png",
+        "native-still-4.png"
+      ],
+      "stored_controls": {
+        "phase": 133,
+        "phase_step": 72.0999984741211,
+        "z_step": 275,
+        "radius": 74
+      },
+      "visual_review": "10 actual video frames inspected; gray PNG inputs low contrast, black variation still has tiny-text readability limits; no user acceptance"
+    },
+    {
+      "case": "p11-geometry-001",
+      "directory": "samples/course-reproduction-007/p11-geometry-001",
+      "video_sha256": "50be00a85b5116b5de07ed00b8e3be937db4c39d8cb32f89964c8aba324ed777",
+      "asset_sha256": "f4e0b0064871dc9f639959b72cecbcfb2e3414f940166c5f21f40d1552dc5009",
+      "background": "course",
+      "max_position_error": 1.13686837721616e-13,
+      "max_index_error": 0,
+      "native_phase_edit": {
+        "original": 106,
+        "changed": 126,
+        "restored": 106
+      },
+      "native_static_frames": 150,
+      "native_png_sha256": "08a11afaa78ca38f8d2a3993976b41b400c07dfe54c9361847414a086252bd0f",
+      "native_png_exports": [
+        "native-still-0.png",
+        "native-still-1.png",
+        "native-still-2.png",
+        "native-still-3.png",
+        "native-still-4.png"
+      ],
+      "stored_controls": {
+        "phase": 106,
+        "phase_step": 63,
+        "z_step": 35,
+        "radius": 73
+      },
+      "visual_review": "10 actual video frames inspected; gray PNG inputs low contrast, black variation still has tiny-text readability limits; no user acceptance"
+    },
+    {
+      "case": "p11-typography-001",
+      "directory": "samples/course-reproduction-007/p11-typography-001",
+      "video_sha256": "44a455c367afac6dc774d51a2174c98d45b4c515282b694efea7c36293b50efa",
+      "asset_sha256": "3130efd93a8d60694178091ed3dc6cd54c043917c6e2668a25a51effe8198600",
+      "background": "course",
+      "max_position_error": 1.13686837721616e-13,
+      "max_index_error": 0,
+      "native_phase_edit": {
+        "original": 106,
+        "changed": 126,
+        "restored": 106
+      },
+      "native_static_frames": 150,
+      "native_png_sha256": "fea836a0a0c06fd73f7dd6da0384e5920a33cb23831491f11dbcd2c66b00df9d",
+      "native_png_exports": [
+        "native-still-0.png",
+        "native-still-1.png",
+        "native-still-2.png",
+        "native-still-3.png",
+        "native-still-4.png"
+      ],
+      "stored_controls": {
+        "phase": 106,
+        "phase_step": 63,
+        "z_step": 35,
+        "radius": 73
+      },
+      "visual_review": "10 actual video frames inspected; gray PNG inputs low contrast, black variation still has tiny-text readability limits; no user acceptance"
+    },
+    {
+      "case": "p11-texture-001",
+      "directory": "samples/course-reproduction-007/p11-texture-001",
+      "video_sha256": "cd65ad49e8179fb735150a6c4f735ea1c1f89bfa6c3af51054d0c7cc1518bd46",
+      "asset_sha256": "700ce5d87d80c90d2e23409bbac14ba38da5a31397abc60f194cbe62326cbae9",
+      "background": "course",
+      "max_position_error": 1.13686837721616e-13,
+      "max_index_error": 0,
+      "native_phase_edit": {
+        "original": 106,
+        "changed": 126,
+        "restored": 106
+      },
+      "native_static_frames": 150,
+      "native_png_sha256": "5fcb66c235ea39fb06a3498fdf1a7d5bd6214b7791d51adfed3db2cb38eafefb",
+      "native_png_exports": [
+        "native-still-0.png",
+        "native-still-1.png",
+        "native-still-2.png",
+        "native-still-3.png",
+        "native-still-4.png"
+      ],
+      "stored_controls": {
+        "phase": 106,
+        "phase_step": 63,
+        "z_step": 35,
+        "radius": 73
+      },
+      "visual_review": "10 actual video frames inspected; gray PNG inputs low contrast, black variation still has tiny-text readability limits; no user acceptance"
+    },
+    {
+      "case": "p11-geometry-002",
+      "directory": "samples/course-reproduction-007/p11-geometry-002",
+      "video_sha256": "01659157a8ba04ef35e7f421eaa2fbbb758623ab59c4c6d50c05c656874515ef",
+      "asset_sha256": "f4e0b0064871dc9f639959b72cecbcfb2e3414f940166c5f21f40d1552dc5009",
+      "background": "black",
+      "max_position_error": 1.13686837721616e-13,
+      "max_index_error": 0,
+      "native_phase_edit": {
+        "original": 106,
+        "changed": 126,
+        "restored": 106
+      },
+      "native_static_frames": 150,
+      "native_png_sha256": "cefcf8a9c76b576ee53d102347116b99cf52995f46ef10f8df6c23e43ca2a4c1",
+      "native_png_exports": [
+        "native-still-0.png",
+        "native-still-1.png",
+        "native-still-2.png",
+        "native-still-3.png",
+        "native-still-4.png"
+      ],
+      "stored_controls": {
+        "phase": 106,
+        "phase_step": 63,
+        "z_step": 35,
+        "radius": 73
+      },
+      "visual_review": "10 actual video frames inspected; gray PNG inputs low contrast, black variation still has tiny-text readability limits; no user acceptance"
+    },
+    {
+      "case": "p11-typography-002",
+      "directory": "samples/course-reproduction-007/p11-typography-002",
+      "video_sha256": "bf76c4ef392b781fd9f5b2868dfc95070e2c7569522c6f2a4c26fc76817838c9",
+      "asset_sha256": "3130efd93a8d60694178091ed3dc6cd54c043917c6e2668a25a51effe8198600",
+      "background": "black",
+      "max_position_error": 1.13686837721616e-13,
+      "max_index_error": 0,
+      "native_phase_edit": {
+        "original": 106,
+        "changed": 126,
+        "restored": 106
+      },
+      "native_static_frames": 150,
+      "native_png_sha256": "0c2eaf938e937b297ecad82bbc8c62996cf1298a4b599a0b0175bb79181efd03",
+      "native_png_exports": [
+        "native-still-0.png",
+        "native-still-1.png",
+        "native-still-2.png",
+        "native-still-3.png",
+        "native-still-4.png"
+      ],
+      "stored_controls": {
+        "phase": 106,
+        "phase_step": 63,
+        "z_step": 35,
+        "radius": 73
+      },
+      "visual_review": "10 actual video frames inspected; gray PNG inputs low contrast, black variation still has tiny-text readability limits; no user acceptance"
+    },
+    {
+      "case": "p11-texture-002",
+      "directory": "samples/course-reproduction-007/p11-texture-002",
+      "video_sha256": "0748454bf1923c329f4be6fb0c1fcaa7ae4ee3e56681d753d9b9828699ab7792",
+      "asset_sha256": "700ce5d87d80c90d2e23409bbac14ba38da5a31397abc60f194cbe62326cbae9",
+      "background": "black",
+      "max_position_error": 1.13686837721616e-13,
+      "max_index_error": 0,
+      "native_phase_edit": {
+        "original": 106,
+        "changed": 126,
+        "restored": 106
+      },
+      "native_static_frames": 150,
+      "native_png_sha256": "09aad3f0ce434996a37273c1bce6a62ee2eae49ed0cdb28623898a7efaab0ec5",
+      "native_png_exports": [
+        "native-still-0.png",
+        "native-still-1.png",
+        "native-still-2.png",
+        "native-still-3.png",
+        "native-still-4.png"
+      ],
+      "stored_controls": {
+        "phase": 106,
+        "phase_step": 63,
+        "z_step": 35,
+        "radius": 73
+      },
+      "visual_review": "10 actual video frames inspected; gray PNG inputs low contrast, black variation still has tiny-text readability limits; no user acceptance"
+    }
+  ],
+  "isolated_suite": {
+    "status": "technical_pass_visual_pending_static_layout_only",
+    "cases": [
+      {
+        "directory": "samples/course-reproduction-007/p11-variation-002",
+        "status": "native_render_pass",
+        "video_sha256": "7a448cf5bf28c9d552ca26e24f2fc3b00908d0178f9fa1f0b3e1dacbcb0c58ec",
+        "asset_sha256": null,
+        "native_phase_edit": {
+          "original": 133,
+          "changed": 153,
+          "restored": 133
+        },
+        "max_position_error": 5.6843418860808e-14,
+        "static_frames": 150
+      },
+      {
+        "directory": "samples/course-reproduction-007/p11-geometry-001",
+        "status": "native_render_pass",
+        "video_sha256": "50be00a85b5116b5de07ed00b8e3be937db4c39d8cb32f89964c8aba324ed777",
+        "asset_sha256": "f4e0b0064871dc9f639959b72cecbcfb2e3414f940166c5f21f40d1552dc5009",
+        "native_phase_edit": {
+          "original": 106,
+          "changed": 126,
+          "restored": 106
+        },
+        "max_position_error": 1.13686837721616e-13,
+        "static_frames": 150
+      },
+      {
+        "directory": "samples/course-reproduction-007/p11-typography-001",
+        "status": "native_render_pass",
+        "video_sha256": "44a455c367afac6dc774d51a2174c98d45b4c515282b694efea7c36293b50efa",
+        "asset_sha256": "3130efd93a8d60694178091ed3dc6cd54c043917c6e2668a25a51effe8198600",
+        "native_phase_edit": {
+          "original": 106,
+          "changed": 126,
+          "restored": 106
+        },
+        "max_position_error": 1.13686837721616e-13,
+        "static_frames": 150
+      },
+      {
+        "directory": "samples/course-reproduction-007/p11-texture-001",
+        "status": "native_render_pass",
+        "video_sha256": "cd65ad49e8179fb735150a6c4f735ea1c1f89bfa6c3af51054d0c7cc1518bd46",
+        "asset_sha256": "700ce5d87d80c90d2e23409bbac14ba38da5a31397abc60f194cbe62326cbae9",
+        "native_phase_edit": {
+          "original": 106,
+          "changed": 126,
+          "restored": 106
+        },
+        "max_position_error": 1.13686837721616e-13,
+        "static_frames": 150
+      }
+    ],
+    "copy": "E:\\自媒体\\video-skills-lab\\samples\\isolated-skill-011\\ae-procedural-motion",
+    "cwd": "E:\\自媒体",
+    "same_builder": true
+  },
+  "isolated_contrast_suite": {
+    "status": "technical_pass_visual_pending_static_layout_only",
+    "cases": [
+      {
+        "directory": "samples/course-reproduction-007/p11-geometry-002",
+        "status": "native_render_pass_contrast_review_pending",
+        "video_sha256": "01659157a8ba04ef35e7f421eaa2fbbb758623ab59c4c6d50c05c656874515ef",
+        "asset_sha256": "f4e0b0064871dc9f639959b72cecbcfb2e3414f940166c5f21f40d1552dc5009",
+        "native_phase_edit": {
+          "original": 106,
+          "changed": 126,
+          "restored": 106
+        },
+        "max_position_error": 1.13686837721616e-13,
+        "background": "black_explicit_generalization"
+      },
+      {
+        "directory": "samples/course-reproduction-007/p11-typography-002",
+        "status": "native_render_pass_contrast_review_pending",
+        "video_sha256": "bf76c4ef392b781fd9f5b2868dfc95070e2c7569522c6f2a4c26fc76817838c9",
+        "asset_sha256": "3130efd93a8d60694178091ed3dc6cd54c043917c6e2668a25a51effe8198600",
+        "native_phase_edit": {
+          "original": 106,
+          "changed": 126,
+          "restored": 106
+        },
+        "max_position_error": 1.13686837721616e-13,
+        "background": "black_explicit_generalization"
+      },
+      {
+        "directory": "samples/course-reproduction-007/p11-texture-002",
+        "status": "native_render_pass_contrast_review_pending",
+        "video_sha256": "0748454bf1923c329f4be6fb0c1fcaa7ae4ee3e56681d753d9b9828699ab7792",
+        "asset_sha256": "700ce5d87d80c90d2e23409bbac14ba38da5a31397abc60f194cbe62326cbae9",
+        "native_phase_edit": {
+          "original": 106,
+          "changed": 126,
+          "restored": 106
+        },
+        "max_position_error": 1.13686837721616e-13,
+        "background": "black_explicit_generalization"
+      }
+    ],
+    "copy": "E:\\自媒体\\video-skills-lab\\samples\\isolated-skill-012\\ae-procedural-motion",
+    "cwd": "E:\\自媒体",
+    "same_builder": true
+  },
+  "comparison": "cache/reviews/p11-original-vs-baseline001-001/comparison.mp4",
+  "failures_retained": [
+    {
+      "directory": "samples/course-reproduction-007/p11-count-probe-001",
+      "reason": "Native project count wrongly assumed all items are comps; null sources/folders add items. Corrected actual comp counting in002, no algorithm change"
+    },
+    {
+      "directory": "samples/course-reproduction-007/p11-variation-001",
+      "reason": "Expected positions used literal72.1 instead of stored slider72.0999984741211; max difference0.00108886. Read native controls in002 without relaxing1e-8 gate"
+    },
+    {
+      "directory": "samples/course-reproduction-007/p11-count-probe-002",
+      "reason": "Last saveFrameToPng job cancelled by premature project close; exported missing176 PNG once from reopened project and left it open. Production runner now waits for actual exports"
+    }
+  ],
+  "missing": [
+    "User course-layout review",
+    "Original source layer count is inferred, not uniquely identified",
+    "Timeline animation is not established in this lesson",
+    "PNG small-text readability and subtle-line contrast remain limited"
+  ],
+  "human_visual_review": "not_requested_yet; do not infer acceptance from other lessons"
+}

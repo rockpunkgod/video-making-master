@@ -1,0 +1,19 @@
+{
+  "name": "COURSE_P11_ALGORITHMIC_LAYOUT",
+  "width": 1080,
+  "height": 1080,
+  "fps": 30,
+  "duration": 5,
+  "count": 176,
+  "phase": 106,
+  "phase_step": 63,
+  "z_step": 35,
+  "radius": 73,
+  "motion_expectation": "static_layout",
+  "asset": null,
+  "status": "candidate",
+  "source": "BV1Yh4y1A7XT?p=11 07:20 final+value,09:20 corrected multiplication,09:42 ellipse size edit,11:14 controls",
+  "observed": "Phase106,Phase increment63,Z increment35,Radius73; r=Radius*PI*2; myIndex=index-controls.index; [x,y,z]+value",
+  "inferred": "176 layers selected by actual AE silhouette comparison (not directly read); ellipse100 from narration and path-size edit; fill100/255,bg224/255 inferred",
+  "animation_scope": "The source reference is paused. This output documents a static procedural rig; no animation acceptance claim or invented time/keyframes."
+}
