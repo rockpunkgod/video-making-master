@@ -1,0 +1,222 @@
+{
+  "status": "candidate_native_suite_passed_human_review_pending",
+  "skill": "ae-advanced-expressions",
+  "version": "0.11.0",
+  "unit": "spiral_writeon",
+  "cases": [
+    {
+      "case": "baseline-001",
+      "directory": "samples/course2-spiral-001/baseline-001",
+      "project_sha256": "782d33100fa547357f3240203125c559f3ec5f36450d519ddb94cee274ac7619",
+      "video_sha256": "722f31bf1962237ee7330fad9ad7cbe1a4ebadf07c4d846b9ae327bb076957dc",
+      "frames": 201,
+      "native_formula_max_error": 1.13686837721616e-13,
+      "native_pngs": 9,
+      "media": [],
+      "checks": {
+        "full_movie": true,
+        "history_retained": true,
+        "nontrivial_growth": true,
+        "native_reopened": true,
+        "native_formula": true,
+        "no_expression_errors": true,
+        "native_edit_restored": true,
+        "paint_style": true,
+        "unlimited_stroke": true,
+        "spacing_native_minimum": true,
+        "media": true
+      }
+    },
+    {
+      "case": "ellipse-fixed-002",
+      "directory": "samples/course2-spiral-001/ellipse-fixed-002",
+      "project_sha256": "d0a2ede896795369275dfa7e85a1b99a291e48ffb7d64e184f4f13affc078755",
+      "video_sha256": "87d61b6d70cd0cbf6720219dced7f168decaa3d82ee98346c5b9eb03b70b411d",
+      "frames": 201,
+      "native_formula_max_error": 1.13686837721616e-13,
+      "native_pngs": 9,
+      "media": [],
+      "checks": {
+        "full_movie": true,
+        "history_retained": true,
+        "nontrivial_growth": true,
+        "native_reopened": true,
+        "native_formula": true,
+        "no_expression_errors": true,
+        "native_edit_restored": true,
+        "paint_style": true,
+        "unlimited_stroke": true,
+        "spacing_native_minimum": true,
+        "media": true
+      }
+    },
+    {
+      "case": "ellipse-controller-001",
+      "directory": "samples/course2-spiral-001/ellipse-controller-001",
+      "project_sha256": "e933e75a21cabbb76824c1ea112807901486277d34a74acb80c48f49e89c33d3",
+      "video_sha256": "a1d851d33ae0bc0d5655ea7a0341ad57e46a1e652f49fd19fcc1370b1b5dc558",
+      "frames": 201,
+      "native_formula_max_error": 2.27373675443232e-13,
+      "native_pngs": 9,
+      "media": [],
+      "checks": {
+        "full_movie": true,
+        "history_retained": true,
+        "nontrivial_growth": true,
+        "native_reopened": true,
+        "native_formula": true,
+        "no_expression_errors": true,
+        "native_edit_restored": true,
+        "paint_style": true,
+        "unlimited_stroke": true,
+        "spacing_native_minimum": true,
+        "media": true
+      }
+    },
+    {
+      "case": "grid-003",
+      "directory": "samples/course2-spiral-001/grid-003",
+      "project_sha256": "be12a3aba159abeb9b210f8ffaedadd74df0d2974727c4f994558e625ad53f74",
+      "video_sha256": "5da5d3600831c8ae7e01a90620c4ea53a8e868f3552b99935c76b48cb674c4fc",
+      "frames": 201,
+      "native_formula_max_error": 1.13686837721616e-13,
+      "native_pngs": 9,
+      "media": [
+        {
+          "path": "E:\\自媒体\\video-skills-lab\\samples\\course2-spiral-001\\grid-003\\assets\\material.png",
+          "missing": false,
+          "pixel_aspect": 1
+        }
+      ],
+      "checks": {
+        "full_movie": true,
+        "history_retained": true,
+        "nontrivial_growth": true,
+        "native_reopened": true,
+        "native_formula": true,
+        "no_expression_errors": true,
+        "native_edit_restored": true,
+        "paint_style": true,
+        "unlimited_stroke": true,
+        "spacing_native_minimum": true,
+        "media": true
+      }
+    },
+    {
+      "case": "type-002",
+      "directory": "samples/course2-spiral-001/type-002",
+      "project_sha256": "34527d02e5fe13892630559e8cc787d758fbcc562d929413a613dad4222643f5",
+      "video_sha256": "c66e833d3a0461d66e1247ef2c444895b8b5b7cc0d928d0c86fda286e03e77fb",
+      "frames": 201,
+      "native_formula_max_error": 1.13686837721616e-13,
+      "native_pngs": 9,
+      "media": [
+        {
+          "path": "E:\\自媒体\\video-skills-lab\\samples\\course2-spiral-001\\type-002\\assets\\material.png",
+          "missing": false,
+          "pixel_aspect": 1
+        }
+      ],
+      "checks": {
+        "full_movie": true,
+        "history_retained": true,
+        "nontrivial_growth": true,
+        "native_reopened": true,
+        "native_formula": true,
+        "no_expression_errors": true,
+        "native_edit_restored": true,
+        "paint_style": true,
+        "unlimited_stroke": true,
+        "spacing_native_minimum": true,
+        "media": true
+      }
+    },
+    {
+      "case": "map-002",
+      "directory": "samples/course2-spiral-001/map-002",
+      "project_sha256": "b220e17d7f37dd60cf35f3d56b9456be142d7a2a7cf851050c6feb4ad25e35e6",
+      "video_sha256": "46ae0d3b70d5399794cc3c75edbd672ad48f4c44ad49cfabd1243cea4a400665",
+      "frames": 201,
+      "native_formula_max_error": 1.13686837721616e-13,
+      "native_pngs": 9,
+      "media": [
+        {
+          "path": "E:\\自媒体\\video-skills-lab\\samples\\course2-spiral-001\\map-002\\assets\\material.png",
+          "missing": false,
+          "pixel_aspect": 1
+        }
+      ],
+      "checks": {
+        "full_movie": true,
+        "history_retained": true,
+        "nontrivial_growth": true,
+        "native_reopened": true,
+        "native_formula": true,
+        "no_expression_errors": true,
+        "native_edit_restored": true,
+        "paint_style": true,
+        "unlimited_stroke": true,
+        "spacing_native_minimum": true,
+        "media": true
+      }
+    },
+    {
+      "case": "variation-isolated-001",
+      "directory": "samples/course2-spiral-001/variation-isolated-001",
+      "project_sha256": "3c8ea2e22cc092abbb90ba42434cbc295dee9d72a0fb7a2c1eae24a1845afd2b",
+      "video_sha256": "fa5c122b9d4e00bcc0e28e0867b5b37275b4ae6dfce420bde92ff2f1515c6126",
+      "frames": 150,
+      "native_formula_max_error": 1.13686837721616e-13,
+      "native_pngs": 6,
+      "media": [],
+      "checks": {
+        "full_movie": true,
+        "history_retained": true,
+        "nontrivial_growth": true,
+        "native_reopened": true,
+        "native_formula": true,
+        "no_expression_errors": true,
+        "native_edit_restored": true,
+        "paint_style": true,
+        "unlimited_stroke": true,
+        "spacing_native_minimum": true,
+        "media": true
+      }
+    }
+  ],
+  "decoded_frames": 1356,
+  "native_pngs_viewed": 60,
+  "tests": {
+    "basic": "Real AE Write-on source method, AEP edit/save/reopen and201native/movieframes",
+    "parameters": "Fixed ellipse, animated controller and independent growth35/angular-18/duration6",
+    "materials": "Three original opaque720x576RGB images with RevealOriginalImage; native alpha same as white baseline and premultiplied color error<=0.501/255 in27PNGs",
+    "technical": "Full decode;16history points per frame with native spacing tolerance; native brush equation each frame; actual pixel-aspect edit/reopen; no expression errors",
+    "negative": "Frozen-last movie rejected by growth. Wrong-PAR native movie rejected by current history checks."
+  },
+  "independent_call": {
+    "copied_skill_only": true,
+    "different_working_directory": true,
+    "native_build_render": true,
+    "case": "variation-isolated-001"
+  },
+  "human_review": {
+    "status": "pending",
+    "case": "baseline-001",
+    "video_sha256": "722f31bf1962237ee7330fad9ad7cbe1a4ebadf07c4d846b9ae327bb076957dc",
+    "comparison": "cache/reviews/course2-p30-spiral-002/comparison.mp4",
+    "source_interval": "09:00–09:05",
+    "candidate_interval": "0–5seconds",
+    "sync": "Manual source scrubbing versus continuous native rendering; exact synchronization unverified"
+  },
+  "limitations": [
+    "Particular not installed: entire3D particle section not reproduced, no substitute passed off as original",
+    "Current720x576 square-pixel adapter only; opaque material minimum luma64, PNG tested, JPG accepted but not empirically tested",
+    "Duration2..8.04s/growth10..80/angular magnitude5..40 CLI bounds, tested only listed cases; controller duration>=5.04s",
+    "Actual native spacing rounds/clamps to0.00100708007812, not exact decimal0.001",
+    "Native PNG premultiplied-black RGB observed; optional Pillow/NumPy color audit, runtime uses stdlib/FFmpeg",
+    "No source pixel identity, originalPAR or exact manual-playback timing assertion",
+    "Source controller easing handles unverified; native linear interpolation declared",
+    "Sparse history points per movie frame, not all output pixels quantified",
+    "All18sources/166chapters remain incomplete"
+  ]
+}

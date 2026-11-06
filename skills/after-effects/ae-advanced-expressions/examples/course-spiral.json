@@ -1,0 +1,13 @@
+{
+  "builder": "scripts/build_spiral_writeon.py",
+  "arguments": {
+    "growth": 50,
+    "angular": 30,
+    "duration": 8.04,
+    "ellipse": "none"
+  },
+  "note": "Example documented arguments, not an undocumented --profile option",
+  "expected": "White spiral accumulating from center; finite brush spacing makes outer marks dotted;720x57625fps",
+  "status": "candidate",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=30"
+}

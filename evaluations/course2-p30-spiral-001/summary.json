@@ -1,0 +1,53 @@
+{
+  "status": "candidate_native_suite_passed_human_review_pending",
+  "skill": "ae-advanced-expressions",
+  "version": "0.11.0",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=30",
+  "native_cases": 7,
+  "decoded_frames": 1356,
+  "native_pngs_viewed": 60,
+  "learning_coverage": {
+    "url": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=30",
+    "video_seconds": 1626.08,
+    "audio_seconds": 1626.069977,
+    "source_sha256": "83cadb5c053002f6bfaf7750f633a7c9723eba3ea7391072efeca386a2eda80f",
+    "watch_global_frames_viewed": 18,
+    "watch_technical_frames_viewed": 27,
+    "ffmpeg_local_motion_frames_viewed": 50,
+    "view_note": "Counts include repeats. Two5fps5second excerpts,535..540 and540..545, inspected. Sparse global+technical coverage, not continuous visual inspection of every1626seconds.",
+    "transcript_sha256": "b10d9b65fa032fbd02010aeff7bef60af37a0b56801a1cc308e6dbb58d6b0106",
+    "transcript_segments": 383,
+    "all_transcript_segments_read": true,
+    "last_speech_end": 1625.64,
+    "ASR_existing_local_only": true,
+    "source_fps_dimensions": {
+      "dimensions": "720x576 spoken04:53..04:56",
+      "fps": "25fps spoken09:27..09:33",
+      "duration": "201frames inferred from visible layer Info; square PAR explicit adaptation"
+    }
+  },
+  "tests": "skills/after-effects/ae-advanced-expressions/tests/spiral-writeon-results.json",
+  "media_audit": "reports/native-media-dependencies-course2-spiral.json",
+  "human_review": {
+    "status": "pending",
+    "case": "baseline-001",
+    "video_sha256": "722f31bf1962237ee7330fad9ad7cbe1a4ebadf07c4d846b9ae327bb076957dc",
+    "comparison": "cache/reviews/course2-p30-spiral-002/comparison.mp4",
+    "source_interval": "09:00–09:05",
+    "candidate_interval": "0–5seconds",
+    "sync": "Manual source scrubbing versus continuous native rendering; exact synchronization unverified"
+  },
+  "source_scope": "Write-on source branch plus own RevealOriginalImage adaptation; Particular part blocked",
+  "limitations": [
+    "Particular not installed: entire3D particle section not reproduced, no substitute passed off as original",
+    "Current720x576 square-pixel adapter only; opaque material minimum luma64, PNG tested, JPG accepted but not empirically tested",
+    "Duration2..8.04s/growth10..80/angular magnitude5..40 CLI bounds, tested only listed cases; controller duration>=5.04s",
+    "Actual native spacing rounds/clamps to0.00100708007812, not exact decimal0.001",
+    "Native PNG premultiplied-black RGB observed; optional Pillow/NumPy color audit, runtime uses stdlib/FFmpeg",
+    "No source pixel identity, originalPAR or exact manual-playback timing assertion",
+    "Source controller easing handles unverified; native linear interpolation declared",
+    "Sparse history points per movie frame, not all output pixels quantified",
+    "All18sources/166chapters remain incomplete"
+  ],
+  "whole_goal_complete": false
+}

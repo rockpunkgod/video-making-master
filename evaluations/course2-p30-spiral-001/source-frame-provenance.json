@@ -1,0 +1,55 @@
+{
+  "source": {
+    "url": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=30",
+    "video_seconds": 1626.08,
+    "audio_seconds": 1626.069977,
+    "source_sha256": "83cadb5c053002f6bfaf7750f633a7c9723eba3ea7391072efeca386a2eda80f",
+    "watch_global_frames_viewed": 18,
+    "watch_technical_frames_viewed": 27,
+    "ffmpeg_local_motion_frames_viewed": 50,
+    "view_note": "Counts include repeats. Two5fps5second excerpts,535..540 and540..545, inspected. Sparse global+technical coverage, not continuous visual inspection of every1626seconds.",
+    "transcript_sha256": "b10d9b65fa032fbd02010aeff7bef60af37a0b56801a1cc308e6dbb58d6b0106",
+    "transcript_segments": 383,
+    "all_transcript_segments_read": true,
+    "last_speech_end": 1625.64,
+    "ASR_existing_local_only": true,
+    "source_fps_dimensions": {
+      "dimensions": "720x576 spoken04:53..04:56",
+      "fps": "25fps spoken09:27..09:33",
+      "duration": "201frames inferred from visible layer Info; square PAR explicit adaptation"
+    }
+  },
+  "observed": [
+    {
+      "interval": "01:16–02:19",
+      "evidence": "Solid/Write-on; switch OnTransparent to hide cyan"
+    },
+    {
+      "interval": "02:37–07:15",
+      "evidence": "Radius60; time30 cos/sin plus compwidth/2 andheight/2; BrushSpacing UI0.001"
+    },
+    {
+      "interval": "08:22–10:56",
+      "evidence": "Radius=time50. 09:11 visually reads full expression and brush2,hardness79,opacity100,stroke0,color/none/transparent"
+    },
+    {
+      "interval": "11:34–13:24",
+      "evidence": "x adds time50 inside radius; output dotted at outer radius, spacing explained"
+    },
+    {
+      "interval": "13:39–15:15",
+      "evidence": "Replace extra50 with SliderControl; spoken50frame0,125frame80; 14:50 visible expression time*Slider. Exact source graph handles not read"
+    },
+    {
+      "interval": "15:32–26:39",
+      "evidence": "Particular alternative; copy XY; zero four velocity fields;10xSmooth,1000particles/sec,life20.1,size2 visually; Ztime50, camera manual orbit, wind/turbulence then reset and Zkeyframes. Plugin absent: no native reproduction claim"
+    }
+  ],
+  "official_writeon_reference": "https://helpx.adobe.com/after-effects/desktop/apply-effects-and-animation-presets/list-of-effects/generate-effects.html",
+  "inferred": [
+    "Square PAR adaptation, source original interpretation not directly read",
+    "8.04second duration from Info201frames",
+    "Controller zero key atframe0 is redundant own hold setup; source50/125 targets spoken, exact easing handles unverified",
+    "Own PNG RevealOriginalImage is an adaptation, not courseOnTransparent baseline"
+  ]
+}

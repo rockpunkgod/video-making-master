@@ -10,6 +10,13 @@ from launch_adobe import child_environment
 
 def check_output(root,cfg):
     report=validate(root/'final.mp4',cfg)
+    if cfg.get('animation')=='spiral-writeon':
+        from validate_spiral_writeon import validate as spiral_validate
+        audit=spiral_validate(root)
+        report['spiral_quality']='spiral-quality.json'
+        report['course_fidelity']='Write-on_branch_only_Particular_missing_pending_review'
+        report['delivery_status']='candidate_unaccepted'
+        if audit['status']!='passed':report['status']='failed'
     if cfg.get('animation')=='orbit-projections':
         from validate_orbit_projections import validate as orbit_validate
         audit=orbit_validate(root)

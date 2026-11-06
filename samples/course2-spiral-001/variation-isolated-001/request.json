@@ -1,0 +1,25 @@
+{
+  "name": "COURSE_SPIRAL_WRITEON",
+  "animation": "spiral-writeon",
+  "motion_expectation": "required",
+  "width": 720,
+  "height": 576,
+  "fps": 25,
+  "duration": 6.0,
+  "growth": 35.0,
+  "angular": -18.0,
+  "ellipse": "none",
+  "asset": null,
+  "paint_style": 2,
+  "brush_size": 2,
+  "hardness": 0.79,
+  "stroke_length": 0,
+  "requested_spacing": 0.001,
+  "particular": "blocked_missing_effect",
+  "inferred": [
+    "Square pixel adaptation: original PAL DV pixel aspect not directly read",
+    "Duration201frames inferred from source layer Info00201; output may be shortened by caller",
+    "Solid color is own cyan and irrelevant in OnTransparent mode"
+  ],
+  "variant": true
+}
