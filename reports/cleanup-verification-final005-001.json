@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "retained_files_checked": 1352,
+  "hash_changes": [],
+  "deleted_files": 863,
+  "deleted_bytes": 5299019536,
+  "review_inputs_preserved": [
+    "cache/reviews/final005-ending-001/comparison.mp4",
+    "cache/reviews/final005-ending-001/original-course.mp4",
+    "cache/reviews/final005-ending-001/review.json",
+    "cache/reviews/final005-tunnel-001/comparison.mp4",
+    "cache/reviews/final005-tunnel-001/original-course.mp4",
+    "cache/reviews/final005-tunnel-001/review.json"
+  ],
+  "active_learning_source": "cache/course-hires/BV1Yh4y1A7XT-p18-1080.mp4",
+  "reason": "Final offscreen camera/color reconstruction remains active. Current review video excerpts and source master retained locally, not distributed.",
+  "retired_versions": "002/003/004 full binaries retired;003/004 failure receipts and3 selected002 native QA PNGs retained for diagnostic comparison",
+  "native_media_dependency_audit": "reports/native-media-dependencies-final-reconstruction-005.json",
+  "course_fidelity": "not_passed; composition-only feedback pending"
+}
