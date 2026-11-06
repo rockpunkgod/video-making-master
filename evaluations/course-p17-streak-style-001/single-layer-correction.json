@@ -1,0 +1,8 @@
+{
+  "status": "superseded_course_mismatch",
+  "case": "p17-streak-style-002",
+  "technical_status": "passed",
+  "cause": "Sparse frame sampling missed08:37\u201308:38 duplication from1 to7 layers",
+  "evidence": "12 dense Watch frames08:34\u201308:41 actually inspected; frame0008 shows seven noise layers9total",
+  "action": "Rebuild seven layers; do not distribute single-layer demonstration as course baseline"
+}

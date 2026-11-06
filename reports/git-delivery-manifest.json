@@ -1,6 +1,8 @@
 {
   "scope": "Standalone video-skills-lab progress snapshot; overall curriculum incomplete",
   "cases": [
+    "samples/course-reproduction-019/p17-streak-style-003",
+    "samples/course-reproduction-019/p17-streak-style-variation-001",
     "samples/course-reproduction-018/p17-tunnel-001",
     "samples/course-reproduction-018/p17-tunnel-variation-001",
     "samples/course-reproduction-017/p16-style-003",
@@ -637,6 +639,31 @@
       "path": "evaluations/course-p16-styled-assembly-001/summary.json",
       "bytes": 7153,
       "sha256": "8510a4577826c89eb165f555028b923ca6a92053245486babb743b020046a7b5"
+    },
+    {
+      "path": "evaluations/course-p17-streak-style-001/initial-scale-ease-array-failure.json",
+      "bytes": 176,
+      "sha256": "6d48eee2469c52dffb5df780a3a0afbca3aaa4141958f506013716521a1df63c"
+    },
+    {
+      "path": "evaluations/course-p17-streak-style-001/seven-layer-regression-negative.json",
+      "bytes": 1905,
+      "sha256": "81dfcf67e21a2b42e6147a52c87267f3c645c748d6774802ced7cb652236ed74"
+    },
+    {
+      "path": "evaluations/course-p17-streak-style-001/single-layer-correction.json",
+      "bytes": 422,
+      "sha256": "ed1b2402542ff71a63185878bf991cd4039824b5a7e2ae0dcfe4064bcfe3b4f8"
+    },
+    {
+      "path": "evaluations/course-p17-streak-style-001/summary.json",
+      "bytes": 6948,
+      "sha256": "6413ab51ae72208a25c7d68deaadcbd5dff01c2df86379c6c2b3f374ab9a24ee"
+    },
+    {
+      "path": "evaluations/course-p17-streak-style-001/superseded-single-layer-quality.json",
+      "bytes": 1126,
+      "sha256": "1dcb8119d243db9afe23791a18a139da9eabc84fd892884d846aaca35a8e4e09"
     },
     {
       "path": "evaluations/course-p17-tunnel-001/initial-float-comparison-failure.json",
@@ -4579,6 +4606,206 @@
       "sha256": "b01aa44b04d52b91987a512d11888d472ed1b1b4128116c501fc4a1420dea541"
     },
     {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/final.mp4",
+      "bytes": 34212381,
+      "sha256": "9f10bbbb421675223491629974dbe944921f399fb2a13ea8066981acfe4d516d"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/inputs/main/project.aep",
+      "bytes": 3358811,
+      "sha256": "add183fd084adcf6ee0b5c7c26386aa36ccebd069f45fcdd7c19e29e75ae88a6"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/inputs/palette/project.aep",
+      "bytes": 88873,
+      "sha256": "0f192325d6bb03ef519b65fb6fed180ec10d35ebdb1d9d27630d5b93dd6a817e"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/native-still-100.png",
+      "bytes": 2754622,
+      "sha256": "eccd037c3b9b6678d87cbfeee9ace05d24b1dedce19eb402dc6247e7924cf969"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/native-still-120.png",
+      "bytes": 2570892,
+      "sha256": "e57542f08610362f75ac27c63d9258eb6fc97aebd19f497bd5fb7f527c551e3e"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/native-still-132.png",
+      "bytes": 2412450,
+      "sha256": "b6ae155b93ed86d98e38fe7ef96635b26e610d7e5c334e857d7739994c2f458d"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/native-still-144.png",
+      "bytes": 2291491,
+      "sha256": "be60ced2809740289616380cb1b6eaed1f1bab5757bd843dacc4300a2adbdd77"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/native-still-156.png",
+      "bytes": 1745302,
+      "sha256": "8f0aa1e96d5df8443e6a8b88ebca10d97c7b75d4fe081d4d718ed6c637a9671f"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/native-still-168.png",
+      "bytes": 2138172,
+      "sha256": "e2574583128fc3a2c3fdf9e146078667087112fe8c9f69cbead46c728bb59b30"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/native-still-173.png",
+      "bytes": 2078784,
+      "sha256": "3357f3da0f3d473e4b49f3c8d1a305a7f88a55b4c33b969ef8aa10c35aecb409"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/native-still-180.png",
+      "bytes": 2029224,
+      "sha256": "1c61692406a6ce820a8238566f76b06774fde3dc674d6eed015010b94592e15a"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/native-still-184.png",
+      "bytes": 2040796,
+      "sha256": "798cc9b15fcaf4846342781fb76272cf1e8eaf2943ff8cb983b78b60cf002943"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/native-still-189.png",
+      "bytes": 2170292,
+      "sha256": "e6e79b7f24b8fce89d93d95d5c203451908d04e8d391f8063fb28050a2a4e6a8"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/native-still-192.png",
+      "bytes": 2158138,
+      "sha256": "19b0b87036a9c78437baf2b962bef9ede87a82b53217d297adf14c7666ca6309"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/plan.json",
+      "bytes": 1434,
+      "sha256": "dd47805ba436dfccee91d059183958a1af00ef4456bb3d899d2aadd341805aef"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/project.aep",
+      "bytes": 3261891,
+      "sha256": "71f5996296be715516472e40581193c47af53b70f09223c3e70130c1348c968e"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/quality.json",
+      "bytes": 1126,
+      "sha256": "fc5856833dc34fa2321b011b22653b62651aa0222309f7259d02423f20782db3"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/receipt.json",
+      "bytes": 9034,
+      "sha256": "c807829a8511d5ebfe098b11e286da2c0cb3d6a94743e0c00511006ad2af119a"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/request.json",
+      "bytes": 2191,
+      "sha256": "babbb09c1d3fba7ee8a238b05579ec4528053613ac88879387ab9c0a07b47087"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-003/scene-quality.json",
+      "bytes": 1891,
+      "sha256": "e08f498b84961e6f8bb797aba6cca2a0dd3a4ade04fac8ed4e0722f1ac8a9823"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/final.mp4",
+      "bytes": 34286951,
+      "sha256": "bde34200666467b262f2f49bda6c9194bf3d1eb9bbf2c148e5442b9634642fb3"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/inputs/main/project.aep",
+      "bytes": 3358811,
+      "sha256": "add183fd084adcf6ee0b5c7c26386aa36ccebd069f45fcdd7c19e29e75ae88a6"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/inputs/palette/project.aep",
+      "bytes": 88873,
+      "sha256": "0f192325d6bb03ef519b65fb6fed180ec10d35ebdb1d9d27630d5b93dd6a817e"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/native-still-100.png",
+      "bytes": 2754622,
+      "sha256": "eccd037c3b9b6678d87cbfeee9ace05d24b1dedce19eb402dc6247e7924cf969"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/native-still-120.png",
+      "bytes": 2570892,
+      "sha256": "e57542f08610362f75ac27c63d9258eb6fc97aebd19f497bd5fb7f527c551e3e"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/native-still-132.png",
+      "bytes": 2412450,
+      "sha256": "b6ae155b93ed86d98e38fe7ef96635b26e610d7e5c334e857d7739994c2f458d"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/native-still-144.png",
+      "bytes": 2291491,
+      "sha256": "be60ced2809740289616380cb1b6eaed1f1bab5757bd843dacc4300a2adbdd77"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/native-still-156.png",
+      "bytes": 1744083,
+      "sha256": "2d43e3a20da53b655e3ce2305124fa40dd1651edc56e720f8e705aa93abe4d54"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/native-still-168.png",
+      "bytes": 2144038,
+      "sha256": "3359a63c13979f63364d8cbf3f2e1a4a407e4cb5b83fdba0e2f4fef877db6d0d"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/native-still-173.png",
+      "bytes": 2095640,
+      "sha256": "90eb9c08746ec26bfc7392b0e456f7a21496a34c307741c24785671fa45e3fca"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/native-still-180.png",
+      "bytes": 2021145,
+      "sha256": "e0aa0328269e388f40a509f1c5d228a3fafa5ebae57b4304797e7a723443e549"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/native-still-184.png",
+      "bytes": 2046378,
+      "sha256": "eac6aebb364f6682bbb426b28098dbedd7449aeb79ae1c4877efbcf3185cc62a"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/native-still-189.png",
+      "bytes": 2166266,
+      "sha256": "e51dfe46c26fb7433a455f81db44f451fde9fa750aa7429303baecd4a80aabfa"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/native-still-192.png",
+      "bytes": 2158138,
+      "sha256": "19b0b87036a9c78437baf2b962bef9ede87a82b53217d297adf14c7666ca6309"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/plan.json",
+      "bytes": 1434,
+      "sha256": "dd47805ba436dfccee91d059183958a1af00ef4456bb3d899d2aadd341805aef"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/project.aep",
+      "bytes": 3261901,
+      "sha256": "6a83a77be57444ea851ad6d59f67b2406c7cb9f351202e6868ee42c18f5707a8"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/quality.json",
+      "bytes": 1136,
+      "sha256": "cabf951e1c3e6bef5ce43241db34afce9dff0dc0c00655844f3dfef0032f722b"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/receipt.json",
+      "bytes": 9034,
+      "sha256": "d135b9fb06d4b41ebb7f6276d679d43e827c3f110bd01a89766ae30252be2e60"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/request.json",
+      "bytes": 2212,
+      "sha256": "6f093f3c91fc6095598884d07dfcb45dfc7c2e8138ce4f53ffe3fb3e81633b11"
+    },
+    {
+      "path": "samples/course-reproduction-019/p17-streak-style-variation-001/scene-quality.json",
+      "bytes": 1903,
+      "sha256": "7a510dfb43d0430e5aa14f209e9c80e327771f657e498a74af6139db5bacc803"
+    },
+    {
       "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/assets.json",
       "bytes": 3976,
       "sha256": "9544dead507abc1e5e63152574fa5b94a67908d2b5d649788572fb7b9396cca1"
@@ -5475,5 +5702,5 @@
     "repeated native audio/video exports"
   ],
   "portability": "Native projects retain original Windows media paths. Rebuild from the bundled scripts or relink the bundled inputs/assets; historical report references may point to local-only artifacts.",
-  "total_selected_bytes": 1248054036
+  "total_selected_bytes": 1378809806
 }

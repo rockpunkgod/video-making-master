@@ -402,9 +402,9 @@
     },
     {
       "name": "ae-advanced-compositing",
-      "version": "0.1.8",
+      "version": "0.1.9",
       "status": "candidate",
-      "execution_status": "native_p13_p15_p16_and_p17_tunnel_candidates",
+      "execution_status": "native_p13_p15_p16_and_p17_tunnel_streak_candidates",
       "path": "skills/after-effects/ae-advanced-compositing",
       "dependencies": [
         "After Effects26.0x67 tested",
@@ -424,7 +424,8 @@
         "Course16 dynamic hollow shell: animated alpha matte, equation rig, Tritone/CC Vector Blur/CC Lens",
         "Course16 editable Colorama/Glow noise styling component with course fade",
         "Course16 native Colorama/Screen/FindEdges/black-key assembly, linked fades and white contour depth animation",
-        "Course17 first contour disabled, static null shift and expression-plus-keyframe outer rotation/fade"
+        "Course17 first contour disabled, static null shift and expression-plus-keyframe outer rotation/fade",
+        "Course17 seven keyed noise layers, editable native RGB Curves, dualGlow and outer X-scale collapse"
       ],
       "sources": [
         {
@@ -448,7 +449,8 @@
         "P16 exact camera/curves, title projection, full-sequence review and three-material generalization remain unverified",
         "P16 noise component technical checks pass; palette/fade inferred and camera/full-assembly visual alignment unresolved",
         "P16 styled assembly technical gates pass; estimated mask/palette/key timing, gray streaks/red lines and missing human review keep candidate",
-        "P17 tunnel key times, raw rotation endpoint and easing inferred; later streak/line styling and three-material suite incomplete"
+        "P17 tunnel key times, raw rotation endpoint and easing inferred; later streak/line styling and three-material suite incomplete",
+        "P17 streak curves/key times estimated; camera/random identities, cyber-line continuation, title and three materials unresolved"
       ],
       "additional_evidence": [
         "evaluations/course-p15-radial-001/summary.json",
@@ -458,7 +460,8 @@
         "evaluations/course-p16-core-001/summary.json",
         "evaluations/course-p16-noise-style-001/summary.json",
         "evaluations/course-p16-styled-assembly-001/summary.json",
-        "evaluations/course-p17-tunnel-001/summary.json"
+        "evaluations/course-p17-tunnel-001/summary.json",
+        "evaluations/course-p17-streak-style-001/summary.json"
       ],
       "human_reviews": [
         {

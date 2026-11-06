@@ -105,3 +105,5 @@ AE恢复后，从最新模板生成新运行目录，执行构建、原生工程
 第16节总装新增p16-style-003与圆环发光0.7变体，保留原生Colorama白标、Screen/FindEdges黑键、Hue315/-37、三层淡出联动及白色隧道深度；各480帧、14个原生检查图与编辑重开通过。仍有后段条带/线条、标题和课程视觉/三素材未验，ae-advanced-compositing0.1.7保持candidate，见evaluations/course-p16-styled-assembly-001/summary.json。
 
 第17节隧道延续基线与独立副本25度/秒变体各20秒480帧真实渲染、10原生检查图、静态Null编辑重开恢复通过。关闭首层而非删层，保留index原法；未完成后段条带/线条和标题，candidate0.1.8。见evaluations/course-p17-tunnel-001/summary.json。
+
+第17节条带：密集抽帧修正最终层数为7；原生RGB曲线/双Glow/内层键白与外层X收拢基线003和独立副本发光3变体各480帧技术检查通过。单层002不作为课程基线交付。三素材、精确曲线/相机、线条/标题与整片验收仍缺，0.1.9为candidate。见evaluations/course-p17-streak-style-001/summary.json。

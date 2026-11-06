@@ -1,0 +1,63 @@
+{
+  "name": "COURSE_P17_STREAK_STYLE",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "duration": 20,
+  "motion_expectation": "required",
+  "status": "candidate",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=17",
+  "inputs": {
+    "main": {
+      "project": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-reproduction-019/p17-streak-style-003/inputs/main/project.aep",
+      "composition": "COURSE_P17_TUNNEL_STYLE",
+      "sha256": "add183fd084adcf6ee0b5c7c26386aa36ccebd069f45fcdd7c19e29e75ae88a6"
+    },
+    "palette": {
+      "project": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-reproduction-019/p17-streak-style-003/inputs/palette/project.aep",
+      "composition": "P17_CURVES_STREAK_TEMPLATE",
+      "sha256": "0f192325d6bb03ef519b65fb6fed180ec10d35ebdb1d9d27630d5b93dd6a817e"
+    }
+  },
+  "depth": -19810,
+  "noise_width": 30,
+  "scale_frames": [
+    173,
+    190
+  ],
+  "glow_intensity": 5,
+  "checkpoints": [
+    100,
+    120,
+    132,
+    144,
+    156,
+    168,
+    173,
+    180,
+    184,
+    189,
+    192
+  ],
+  "provenance": {
+    "observed": [
+      "08:34\u201308:41 dense12 frames: single fN is a staging step, author duplicates to7 fN layers before returning to main; allMultiply",
+      "08:35 FN Contrast2000 Width30 Height2270 Complexity1; internal whiteLinearKey",
+      "09:40 outer Position960/540/-19810",
+      "10:45 Glow29.4%/30/5 and Glow2 56.9%/111/1",
+      "11:50 final red/green/blue nonmonotonic curves; RGB identity",
+      "09:50 Easy Ease Out; ScaleX100 to0, Y/Z100"
+    ],
+    "inferred": [
+      "Scale key times173 to190 estimated from final timeline ruler; ease influence33.333333 reconstructed",
+      "Curves points visually estimated from11:50 graph, exact source numeric positions not available",
+      "Inherited internal random Position and Scale503 remain estimates; no claim of matching noise identity",
+      "Inherited camera/masks/palette/timing remain approximate"
+    ],
+    "unverified": [
+      "Course17 lines/title unfinished",
+      "Exact reference playback alignment and three materials incomplete"
+    ]
+  },
+  "variant": false
+}

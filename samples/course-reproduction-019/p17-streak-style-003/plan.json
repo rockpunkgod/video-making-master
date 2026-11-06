@@ -1,0 +1,31 @@
+{
+  "skill": "ae-advanced-compositing",
+  "branch": "course17-streak-style",
+  "status": "candidate",
+  "steps": [
+    "Import own tunnel assembly and native RGB curves",
+    "Copy styled source to seven noise layers with internal white keys",
+    "Apply outer depth, width collapse and dualGlow",
+    "Edit/reopen/restore, native render and inspect"
+  ],
+  "provenance": {
+    "observed": [
+      "08:34\u201308:41 dense12 frames: single fN is a staging step, author duplicates to7 fN layers before returning to main; allMultiply",
+      "08:35 FN Contrast2000 Width30 Height2270 Complexity1; internal whiteLinearKey",
+      "09:40 outer Position960/540/-19810",
+      "10:45 Glow29.4%/30/5 and Glow2 56.9%/111/1",
+      "11:50 final red/green/blue nonmonotonic curves; RGB identity",
+      "09:50 Easy Ease Out; ScaleX100 to0, Y/Z100"
+    ],
+    "inferred": [
+      "Scale key times173 to190 estimated from final timeline ruler; ease influence33.333333 reconstructed",
+      "Curves points visually estimated from11:50 graph, exact source numeric positions not available",
+      "Inherited internal random Position and Scale503 remain estimates; no claim of matching noise identity",
+      "Inherited camera/masks/palette/timing remain approximate"
+    ],
+    "unverified": [
+      "Course17 lines/title unfinished",
+      "Exact reference playback alignment and three materials incomplete"
+    ]
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "status": "candidate_native_p17_streak_style",
+  "date": "2026-11-06",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=17",
+  "interval": "03:45–11:55",
+  "cases": [
+    {
+      "case": "p17-streak-style-003",
+      "directory": "samples/course-reproduction-019/p17-streak-style-003",
+      "video_sha256": "9f10bbbb421675223491629974dbe944921f399fb2a13ea8066981acfe4d516d",
+      "project_sha256": "71f5996296be715516472e40581193c47af53b70f09223c3e70130c1348c968e",
+      "frames": 480,
+      "technical_status": "passed",
+      "native_checks": {
+        "reopened": true,
+        "expressions": true,
+        "media": true,
+        "seven_noise": true,
+        "all_noise": true,
+        "internal_effects": true,
+        "multiply": true,
+        "noise": true,
+        "outer_effects": true,
+        "position": true,
+        "collapse": true,
+        "scale_keys": true,
+        "scale_times": true,
+        "scale_continuous": true,
+        "all_frames": true,
+        "edit": true,
+        "glows": true,
+        "native_render_checkpoints": true
+      },
+      "glows": [
+        {
+          "threshold": 74.9700012207031,
+          "radius": 30,
+          "intensity": 5
+        },
+        {
+          "threshold": 145.095001220703,
+          "radius": 111,
+          "intensity": 1
+        }
+      ],
+      "native_edit": {
+        "original": 111,
+        "changed": 112,
+        "restored": 111
+      },
+      "expressions_checked": 509,
+      "checkpoints": [
+        {
+          "frame": 100,
+          "mean_luma_error_255": 0.9697222222222223,
+          "passed": true
+        },
+        {
+          "frame": 120,
+          "mean_luma_error_255": 0.9795833333333334,
+          "passed": true
+        },
+        {
+          "frame": 132,
+          "mean_luma_error_255": 0.9861805555555555,
+          "passed": true
+        },
+        {
+          "frame": 144,
+          "mean_luma_error_255": 0.99375,
+          "passed": true
+        },
+        {
+          "frame": 156,
+          "mean_luma_error_255": 1.5502083333333334,
+          "passed": true
+        },
+        {
+          "frame": 168,
+          "mean_luma_error_255": 5.597083333333333,
+          "passed": true
+        },
+        {
+          "frame": 173,
+          "mean_luma_error_255": 4.060972222222222,
+          "passed": true
+        },
+        {
+          "frame": 180,
+          "mean_luma_error_255": 6.171805555555555,
+          "passed": true
+        },
+        {
+          "frame": 184,
+          "mean_luma_error_255": 7.051041666666666,
+          "passed": true
+        },
+        {
+          "frame": 189,
+          "mean_luma_error_255": 2.9299305555555555,
+          "passed": true
+        },
+        {
+          "frame": 192,
+          "mean_luma_error_255": 1.5840972222222223,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "case": "p17-streak-style-variation-001",
+      "directory": "samples/course-reproduction-019/p17-streak-style-variation-001",
+      "video_sha256": "bde34200666467b262f2f49bda6c9194bf3d1eb9bbf2c148e5442b9634642fb3",
+      "project_sha256": "6a83a77be57444ea851ad6d59f67b2406c7cb9f351202e6868ee42c18f5707a8",
+      "frames": 480,
+      "technical_status": "passed",
+      "native_checks": {
+        "reopened": true,
+        "expressions": true,
+        "media": true,
+        "seven_noise": true,
+        "all_noise": true,
+        "internal_effects": true,
+        "multiply": true,
+        "noise": true,
+        "outer_effects": true,
+        "position": true,
+        "collapse": true,
+        "scale_keys": true,
+        "scale_times": true,
+        "scale_continuous": true,
+        "all_frames": true,
+        "edit": true,
+        "glows": true,
+        "native_render_checkpoints": true
+      },
+      "glows": [
+        {
+          "threshold": 74.9700012207031,
+          "radius": 30,
+          "intensity": 3
+        },
+        {
+          "threshold": 145.095001220703,
+          "radius": 111,
+          "intensity": 1
+        }
+      ],
+      "native_edit": {
+        "original": 111,
+        "changed": 112,
+        "restored": 111
+      },
+      "expressions_checked": 509,
+      "checkpoints": [
+        {
+          "frame": 100,
+          "mean_luma_error_255": 0.9708333333333333,
+          "passed": true
+        },
+        {
+          "frame": 120,
+          "mean_luma_error_255": 0.9758333333333333,
+          "passed": true
+        },
+        {
+          "frame": 132,
+          "mean_luma_error_255": 0.9827083333333333,
+          "passed": true
+        },
+        {
+          "frame": 144,
+          "mean_luma_error_255": 0.9945833333333334,
+          "passed": true
+        },
+        {
+          "frame": 156,
+          "mean_luma_error_255": 1.5147916666666668,
+          "passed": true
+        },
+        {
+          "frame": 168,
+          "mean_luma_error_255": 5.757847222222222,
+          "passed": true
+        },
+        {
+          "frame": 173,
+          "mean_luma_error_255": 4.455763888888889,
+          "passed": true
+        },
+        {
+          "frame": 180,
+          "mean_luma_error_255": 6.2086805555555555,
+          "passed": true
+        },
+        {
+          "frame": 184,
+          "mean_luma_error_255": 7.303958333333333,
+          "passed": true
+        },
+        {
+          "frame": 189,
+          "mean_luma_error_255": 2.9677777777777776,
+          "passed": true
+        },
+        {
+          "frame": 192,
+          "mean_luma_error_255": 1.5854166666666667,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "independent_skill_variation": "Skill copied outside main location; only its packaged own AEPs used; tightGlow intensity3 instead5",
+  "visual_review": {
+    "status": "22 native PNGs actually inspected chronologically; own RGB GUI and reopened ramp also viewed",
+    "observations": [
+      "Seven layers produce cyan/blue/magenta/white streaks with soft outer glow",
+      "Width collapses smoothly before8seconds",
+      "Later red cyber lines remain unfinished",
+      "Inherited camera/random identities and estimated curves prevent claiming precise reference equivalence"
+    ]
+  },
+  "course_fidelity": "unverified",
+  "human_review": "not_requested_for_unfinished_full_assembly",
+  "material_generalization": "not_completed",
+  "repairs": [
+    "001 failed because3D Scale ease needed three-dimensional array; actual failure receipt retained",
+    "002 passed technical checks but wrong final course layer count; dense Watch frames proved7 instead1; obsolete binary not distributed"
+  ],
+  "remaining": [
+    "Course17 cyber lines and title projection",
+    "Exact source curve controls and timeline alignment",
+    "Three materials and human course review"
+  ]
+}

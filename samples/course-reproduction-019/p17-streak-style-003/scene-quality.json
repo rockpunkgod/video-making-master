@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "checks": {
+    "reopened": true,
+    "expressions": true,
+    "media": true,
+    "seven_noise": true,
+    "all_noise": true,
+    "internal_effects": true,
+    "multiply": true,
+    "noise": true,
+    "outer_effects": true,
+    "position": true,
+    "collapse": true,
+    "scale_keys": true,
+    "scale_times": true,
+    "scale_continuous": true,
+    "all_frames": true,
+    "edit": true,
+    "glows": true,
+    "native_render_checkpoints": true
+  },
+  "checkpoints": [
+    {
+      "frame": 100,
+      "mean_luma_error_255": 0.9697222222222223,
+      "passed": true
+    },
+    {
+      "frame": 120,
+      "mean_luma_error_255": 0.9795833333333334,
+      "passed": true
+    },
+    {
+      "frame": 132,
+      "mean_luma_error_255": 0.9861805555555555,
+      "passed": true
+    },
+    {
+      "frame": 144,
+      "mean_luma_error_255": 0.99375,
+      "passed": true
+    },
+    {
+      "frame": 156,
+      "mean_luma_error_255": 1.5502083333333334,
+      "passed": true
+    },
+    {
+      "frame": 168,
+      "mean_luma_error_255": 5.597083333333333,
+      "passed": true
+    },
+    {
+      "frame": 173,
+      "mean_luma_error_255": 4.060972222222222,
+      "passed": true
+    },
+    {
+      "frame": 180,
+      "mean_luma_error_255": 6.171805555555555,
+      "passed": true
+    },
+    {
+      "frame": 184,
+      "mean_luma_error_255": 7.051041666666666,
+      "passed": true
+    },
+    {
+      "frame": 189,
+      "mean_luma_error_255": 2.9299305555555555,
+      "passed": true
+    },
+    {
+      "frame": 192,
+      "mean_luma_error_255": 1.5840972222222223,
+      "passed": true
+    }
+  ],
+  "course_fidelity": "unverified",
+  "scope": "Native streak structure, animation continuity and codec checks only. Estimated RGB curves/random layout/camera and pending lines/title remain."
+}
