@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "date": "2026-11-07",
+  "deleted_files": 1125,
+  "deleted_bytes": 8158387089,
+  "all_manifest_files_rehashed": 1154,
+  "changed_or_missing_deliverables": [],
+  "publication_checks": {
+    "status": "passed",
+    "tracked_files": 1562,
+    "json_parsed": 612,
+    "python_compiled": 136,
+    "native_demonstrations": 64,
+    "problems": []
+  },
+  "retained_learning_inputs": "P17 full source videos and transcript JSON/SRT retained for final source comparison; other active chapter inputs untouched",
+  "no_external_project_media": true
+}

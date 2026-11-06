@@ -1,0 +1,4526 @@
+{
+  "status": "planned",
+  "scopes": [
+    "samples/course-reproduction-020",
+    "cache/p17-line-curves-native",
+    "cache/watch/watch-prtpsu_n",
+    "cache/watch/watch-voah35s6",
+    "cache/watch/watch-4aqzyz3x",
+    "cache/watch/watch-5v7f8v4i",
+    "cache/watch/watch-np66m_gx",
+    "cache/local-transcripts/BV1Yh4y1A7XT-p17-full-001"
+  ],
+  "published_commit": "322ecdb71ca9d35da27c30cece22ce2d32a7279d",
+  "manifest_sha256": "f4a3eac7de09ff634159c84f18805d2e14816771f2bb2331993877a424e4458a",
+  "files": 1125,
+  "bytes": 8158387089,
+  "keep_active": [
+    "cache/local-transcripts/BV1Yh4y1A7XT-p17-full-001/transcript.json",
+    "cache/local-transcripts/BV1Yh4y1A7XT-p17-full-001/transcript.srt"
+  ],
+  "protected_delivery_files": 884,
+  "skipped_links": [],
+  "targets": [
+    {
+      "path": "cache/local-transcripts/BV1Yh4y1A7XT-p17-full-001/input.wav",
+      "bytes": 40128092
+    },
+    {
+      "path": "cache/p17-line-curves-native/alpha-clear.png",
+      "bytes": 270527
+    },
+    {
+      "path": "cache/p17-line-curves-native/audit.jsx",
+      "bytes": 2817
+    },
+    {
+      "path": "cache/p17-line-curves-native/collapsed.png",
+      "bytes": 249432
+    },
+    {
+      "path": "cache/p17-line-curves-native/current.png",
+      "bytes": 258672
+    },
+    {
+      "path": "cache/p17-line-curves-native/curves-final.png",
+      "bytes": 272691
+    },
+    {
+      "path": "cache/p17-line-curves-native/drag.py",
+      "bytes": 1388
+    },
+    {
+      "path": "cache/p17-line-curves-native/error.png",
+      "bytes": 14768
+    },
+    {
+      "path": "cache/p17-line-curves-native/failed-build001.aep",
+      "bytes": 3388427
+    },
+    {
+      "path": "cache/p17-line-curves-native/finalize.py",
+      "bytes": 9381
+    },
+    {
+      "path": "cache/p17-line-curves-native/graph.png",
+      "bytes": 249498
+    },
+    {
+      "path": "cache/p17-line-curves-native/initial.png",
+      "bytes": 254572
+    },
+    {
+      "path": "cache/p17-line-curves-native/list-templates.jsx",
+      "bytes": 316
+    },
+    {
+      "path": "cache/p17-line-curves-native/native-final.png",
+      "bytes": 271985
+    },
+    {
+      "path": "cache/p17-line-curves-native/output-templates.txt",
+      "bytes": 405
+    },
+    {
+      "path": "cache/p17-line-curves-native/overlay-off.png",
+      "bytes": 271951
+    },
+    {
+      "path": "cache/p17-line-curves-native/p17-line-baseline-contact.jpg",
+      "bytes": 158955
+    },
+    {
+      "path": "cache/p17-line-curves-native/p17-line-build-001.log",
+      "bytes": 273
+    },
+    {
+      "path": "cache/p17-line-curves-native/p17-line-build-002.log",
+      "bytes": 49485
+    },
+    {
+      "path": "cache/p17-line-curves-native/p17-line-build-003.log",
+      "bytes": 49476
+    },
+    {
+      "path": "cache/p17-line-curves-native/p17-line-build-variation-001.log",
+      "bytes": 49500
+    },
+    {
+      "path": "cache/p17-line-curves-native/p17-line-build-variation-002.log",
+      "bytes": 49491
+    },
+    {
+      "path": "cache/p17-line-curves-native/p17-line-render-002.log",
+      "bytes": 1125
+    },
+    {
+      "path": "cache/p17-line-curves-native/p17-line-render-003.log",
+      "bytes": 1126
+    },
+    {
+      "path": "cache/p17-line-curves-native/p17-line-render-frame162.png",
+      "bytes": 351425
+    },
+    {
+      "path": "cache/p17-line-curves-native/p17-line-render-variation-002.log",
+      "bytes": 1136
+    },
+    {
+      "path": "cache/p17-line-curves-native/p17-line-style-003-contact.jpg",
+      "bytes": 158955
+    },
+    {
+      "path": "cache/p17-line-curves-native/p17-line-style-variation-002-contact.jpg",
+      "bytes": 157834
+    },
+    {
+      "path": "cache/p17-line-curves-native/p17-lines-playback-contact.jpg",
+      "bytes": 222988
+    },
+    {
+      "path": "cache/p17-line-curves-native/p17-lines-playback-watch.log",
+      "bytes": 2535
+    },
+    {
+      "path": "cache/p17-line-curves-native/prepare.jsx",
+      "bytes": 1290
+    },
+    {
+      "path": "cache/p17-line-curves-native/preserve-failure.jsx",
+      "bytes": 373
+    },
+    {
+      "path": "cache/p17-line-curves-native/ready.txt",
+      "bytes": 5
+    },
+    {
+      "path": "cache/p17-line-curves-native/red2.png",
+      "bytes": 254870
+    },
+    {
+      "path": "cache/p17-line-curves-native/reopen-current.png",
+      "bytes": 262055
+    },
+    {
+      "path": "cache/p17-line-curves-native/reopen-for-proof.jsx",
+      "bytes": 786
+    },
+    {
+      "path": "cache/p17-line-curves-native/reopened.txt",
+      "bytes": 35
+    },
+    {
+      "path": "cache/p17-line-curves-native/reset.jsx",
+      "bytes": 286
+    },
+    {
+      "path": "cache/p17-line-curves-native/reset.png",
+      "bytes": 210799
+    },
+    {
+      "path": "cache/p17-line-curves-native/reset2.png",
+      "bytes": 210800
+    },
+    {
+      "path": "cache/p17-line-curves-native/reset3.png",
+      "bytes": 216735
+    },
+    {
+      "path": "cache/p17-line-curves-native/rgb-channels.png",
+      "bytes": 268498
+    },
+    {
+      "path": "cache/p17-line-curves-native/rgb-corrected.png",
+      "bytes": 272298
+    },
+    {
+      "path": "cache/p17-line-curves-native/rgb-red-fixed.png",
+      "bytes": 259123
+    },
+    {
+      "path": "cache/p17-line-curves-native/rgb-red.png",
+      "bytes": 261679
+    },
+    {
+      "path": "cache/p17-line-curves-native/rgb.png",
+      "bytes": 257585
+    },
+    {
+      "path": "cache/p17-line-curves-native/rgb3.png",
+      "bytes": 271522
+    },
+    {
+      "path": "cache/p17-line-curves-native/save.jsx",
+      "bytes": 701
+    },
+    {
+      "path": "cache/p17-line-curves-native/saved.txt",
+      "bytes": 31
+    },
+    {
+      "path": "cache/p17-line-curves-native/set-blue.jsx",
+      "bytes": 340
+    },
+    {
+      "path": "cache/p17-line-curves-native/set-green.jsx",
+      "bytes": 340
+    },
+    {
+      "path": "cache/p17-line-curves-native/set-red.jsx",
+      "bytes": 340
+    },
+    {
+      "path": "cache/p17-line-curves-native/set-rgb.jsx",
+      "bytes": 342
+    },
+    {
+      "path": "cache/p17-line-curves-native/stage.aep",
+      "bytes": 138357
+    },
+    {
+      "path": "cache/p17-line-curves-native/trace.png",
+      "bytes": 272990
+    },
+    {
+      "path": "cache/watch/watch-4aqzyz3x/frames/cue_0000.jpg",
+      "bytes": 173681
+    },
+    {
+      "path": "cache/watch/watch-4aqzyz3x/frames/cue_0001.jpg",
+      "bytes": 173166
+    },
+    {
+      "path": "cache/watch/watch-4aqzyz3x/frames/cue_0002.jpg",
+      "bytes": 174467
+    },
+    {
+      "path": "cache/watch/watch-5v7f8v4i/frames/cue_0000.jpg",
+      "bytes": 56507
+    },
+    {
+      "path": "cache/watch/watch-5v7f8v4i/frames/cue_0001.jpg",
+      "bytes": 59803
+    },
+    {
+      "path": "cache/watch/watch-5v7f8v4i/frames/cue_0002.jpg",
+      "bytes": 61285
+    },
+    {
+      "path": "cache/watch/watch-5v7f8v4i/frames/cue_0003.jpg",
+      "bytes": 62218
+    },
+    {
+      "path": "cache/watch/watch-5v7f8v4i/frames/cue_0004.jpg",
+      "bytes": 63346
+    },
+    {
+      "path": "cache/watch/watch-5v7f8v4i/frames/cue_0005.jpg",
+      "bytes": 63991
+    },
+    {
+      "path": "cache/watch/watch-5v7f8v4i/frames/cue_0006.jpg",
+      "bytes": 63747
+    },
+    {
+      "path": "cache/watch/watch-5v7f8v4i/frames/cue_0007.jpg",
+      "bytes": 44400
+    },
+    {
+      "path": "cache/watch/watch-5v7f8v4i/frames/cue_0008.jpg",
+      "bytes": 62309
+    },
+    {
+      "path": "cache/watch/watch-5v7f8v4i/frames/cue_0009.jpg",
+      "bytes": 45184
+    },
+    {
+      "path": "cache/watch/watch-5v7f8v4i/frames/cue_0010.jpg",
+      "bytes": 45286
+    },
+    {
+      "path": "cache/watch/watch-5v7f8v4i/frames/cue_0011.jpg",
+      "bytes": 43867
+    },
+    {
+      "path": "cache/watch/watch-5v7f8v4i/frames/cue_0012.jpg",
+      "bytes": 43455
+    },
+    {
+      "path": "cache/watch/watch-np66m_gx/frames/cue_0000.jpg",
+      "bytes": 134106
+    },
+    {
+      "path": "cache/watch/watch-np66m_gx/frames/cue_0001.jpg",
+      "bytes": 107693
+    },
+    {
+      "path": "cache/watch/watch-np66m_gx/frames/cue_0002.jpg",
+      "bytes": 145156
+    },
+    {
+      "path": "cache/watch/watch-np66m_gx/frames/cue_0003.jpg",
+      "bytes": 138217
+    },
+    {
+      "path": "cache/watch/watch-np66m_gx/frames/cue_0004.jpg",
+      "bytes": 135297
+    },
+    {
+      "path": "cache/watch/watch-np66m_gx/frames/cue_0005.jpg",
+      "bytes": 160593
+    },
+    {
+      "path": "cache/watch/watch-np66m_gx/frames/cue_0006.jpg",
+      "bytes": 138799
+    },
+    {
+      "path": "cache/watch/watch-np66m_gx/frames/cue_0007.jpg",
+      "bytes": 136194
+    },
+    {
+      "path": "cache/watch/watch-np66m_gx/frames/cue_0008.jpg",
+      "bytes": 144892
+    },
+    {
+      "path": "cache/watch/watch-np66m_gx/frames/cue_0009.jpg",
+      "bytes": 132215
+    },
+    {
+      "path": "cache/watch/watch-np66m_gx/frames/cue_0010.jpg",
+      "bytes": 160422
+    },
+    {
+      "path": "cache/watch/watch-np66m_gx/frames/cue_0011.jpg",
+      "bytes": 170908
+    },
+    {
+      "path": "cache/watch/watch-np66m_gx/frames/cue_0012.jpg",
+      "bytes": 166564
+    },
+    {
+      "path": "cache/watch/watch-np66m_gx/frames/cue_0013.jpg",
+      "bytes": 154263
+    },
+    {
+      "path": "cache/watch/watch-np66m_gx/frames/cue_0014.jpg",
+      "bytes": 168764
+    },
+    {
+      "path": "cache/watch/watch-np66m_gx/frames/cue_0015.jpg",
+      "bytes": 156075
+    },
+    {
+      "path": "cache/watch/watch-prtpsu_n/frames/cue_0000.jpg",
+      "bytes": 134656
+    },
+    {
+      "path": "cache/watch/watch-prtpsu_n/frames/cue_0001.jpg",
+      "bytes": 137509
+    },
+    {
+      "path": "cache/watch/watch-prtpsu_n/frames/cue_0002.jpg",
+      "bytes": 132287
+    },
+    {
+      "path": "cache/watch/watch-prtpsu_n/frames/cue_0003.jpg",
+      "bytes": 136083
+    },
+    {
+      "path": "cache/watch/watch-prtpsu_n/frames/cue_0004.jpg",
+      "bytes": 115091
+    },
+    {
+      "path": "cache/watch/watch-prtpsu_n/frames/cue_0005.jpg",
+      "bytes": 139197
+    },
+    {
+      "path": "cache/watch/watch-prtpsu_n/frames/cue_0006.jpg",
+      "bytes": 163205
+    },
+    {
+      "path": "cache/watch/watch-prtpsu_n/frames/cue_0007.jpg",
+      "bytes": 164136
+    },
+    {
+      "path": "cache/watch/watch-prtpsu_n/frames/cue_0008.jpg",
+      "bytes": 157383
+    },
+    {
+      "path": "cache/watch/watch-prtpsu_n/frames/cue_0009.jpg",
+      "bytes": 170648
+    },
+    {
+      "path": "cache/watch/watch-prtpsu_n/frames/cue_0010.jpg",
+      "bytes": 147908
+    },
+    {
+      "path": "cache/watch/watch-prtpsu_n/frames/cue_0011.jpg",
+      "bytes": 119310
+    },
+    {
+      "path": "cache/watch/watch-prtpsu_n/frames/cue_0012.jpg",
+      "bytes": 173210
+    },
+    {
+      "path": "cache/watch/watch-voah35s6/frames/cue_0000.jpg",
+      "bytes": 139234
+    },
+    {
+      "path": "cache/watch/watch-voah35s6/frames/cue_0001.jpg",
+      "bytes": 139368
+    },
+    {
+      "path": "cache/watch/watch-voah35s6/frames/cue_0002.jpg",
+      "bytes": 160924
+    },
+    {
+      "path": "cache/watch/watch-voah35s6/frames/cue_0003.jpg",
+      "bytes": 163754
+    },
+    {
+      "path": "cache/watch/watch-voah35s6/frames/cue_0004.jpg",
+      "bytes": 154014
+    },
+    {
+      "path": "cache/watch/watch-voah35s6/frames/cue_0005.jpg",
+      "bytes": 156820
+    },
+    {
+      "path": "cache/watch/watch-voah35s6/frames/cue_0006.jpg",
+      "bytes": 175496
+    },
+    {
+      "path": "cache/watch/watch-voah35s6/frames/cue_0007.jpg",
+      "bytes": 174303
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-001/build.jsx",
+      "bytes": 12171
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-001/inputs/main/project.aep",
+      "bytes": 3261891
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-001/inputs/palette/project.aep",
+      "bytes": 139461
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-001/plan.json",
+      "bytes": 1430
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-001/receipt.json",
+      "bytes": 183
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-001/request.json",
+      "bytes": 2534
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 3334157
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/aerender.log",
+      "bytes": 17291
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/build.jsx",
+      "bytes": 12171
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/final.mp4",
+      "bytes": 34274814
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/inputs/main/project.aep",
+      "bytes": 3261891
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/inputs/palette/project.aep",
+      "bytes": 139461
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/native-still-144.png",
+      "bytes": 2287810
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/native-still-150.png",
+      "bytes": 1856241
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/native-still-156.png",
+      "bytes": 1748537
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/native-still-162.png",
+      "bytes": 1467596
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/native-still-168.png",
+      "bytes": 1855741
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/native-still-174.png",
+      "bytes": 2301501
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/native-still-180.png",
+      "bytes": 3013003
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/native-still-186.png",
+      "bytes": 3306078
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/native-still-192.png",
+      "bytes": 3983174
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/native-still-198.png",
+      "bytes": 3982601
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/native-still-204.png",
+      "bytes": 3982402
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/plan.json",
+      "bytes": 1430
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/project.aep",
+      "bytes": 3333053
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/project.aep 日志/AE 2026-11-6 23-56-35.txt",
+      "bytes": 13084
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/quality.json",
+      "bytes": 1123
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/receipt.json",
+      "bytes": 30861
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/request.json",
+      "bytes": 2534
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/scene-quality-initial-failure.json",
+      "bytes": 2060
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-002/scene-quality.json",
+      "bytes": 2060
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 3300239
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/aerender.log",
+      "bytes": 18043
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/build.jsx",
+      "bytes": 12219
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/project.aep 日志/AE 2026-11-7 0-02-44.txt",
+      "bytes": 13674
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00000.tif",
+      "bytes": 8315136
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00001.tif",
+      "bytes": 8315104
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00002.tif",
+      "bytes": 8315092
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00003.tif",
+      "bytes": 8315088
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00004.tif",
+      "bytes": 8315076
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00005.tif",
+      "bytes": 8315088
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00006.tif",
+      "bytes": 8315084
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00007.tif",
+      "bytes": 8315072
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00008.tif",
+      "bytes": 8315060
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00009.tif",
+      "bytes": 8315036
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00010.tif",
+      "bytes": 8315156
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00011.tif",
+      "bytes": 8315324
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00012.tif",
+      "bytes": 8315552
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00013.tif",
+      "bytes": 8315740
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00014.tif",
+      "bytes": 8315912
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00015.tif",
+      "bytes": 8316072
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00016.tif",
+      "bytes": 8316204
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00017.tif",
+      "bytes": 8316380
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00018.tif",
+      "bytes": 8316388
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00019.tif",
+      "bytes": 8316344
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00020.tif",
+      "bytes": 8316320
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00021.tif",
+      "bytes": 8316124
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00022.tif",
+      "bytes": 8316288
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00023.tif",
+      "bytes": 8316248
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00024.tif",
+      "bytes": 8315640
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00025.tif",
+      "bytes": 8315208
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00026.tif",
+      "bytes": 8315460
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00027.tif",
+      "bytes": 8315292
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00028.tif",
+      "bytes": 8315164
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00029.tif",
+      "bytes": 8315428
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00030.tif",
+      "bytes": 8315604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00031.tif",
+      "bytes": 8315652
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00032.tif",
+      "bytes": 8315624
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00033.tif",
+      "bytes": 8315360
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00034.tif",
+      "bytes": 8315372
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00035.tif",
+      "bytes": 8315808
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00036.tif",
+      "bytes": 8316184
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00037.tif",
+      "bytes": 8316088
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00038.tif",
+      "bytes": 8316276
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00039.tif",
+      "bytes": 8316496
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00040.tif",
+      "bytes": 8316456
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00041.tif",
+      "bytes": 8316556
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00042.tif",
+      "bytes": 8316576
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00043.tif",
+      "bytes": 8316424
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00044.tif",
+      "bytes": 8316388
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00045.tif",
+      "bytes": 8316404
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00046.tif",
+      "bytes": 8316472
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00047.tif",
+      "bytes": 8316460
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00048.tif",
+      "bytes": 8316476
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00049.tif",
+      "bytes": 8316380
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00050.tif",
+      "bytes": 8316420
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00051.tif",
+      "bytes": 8316320
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00052.tif",
+      "bytes": 8316316
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00053.tif",
+      "bytes": 8316264
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00054.tif",
+      "bytes": 8316216
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00055.tif",
+      "bytes": 8316212
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00056.tif",
+      "bytes": 8316264
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00057.tif",
+      "bytes": 8316248
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00058.tif",
+      "bytes": 8316288
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00059.tif",
+      "bytes": 8316304
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00060.tif",
+      "bytes": 8316236
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00061.tif",
+      "bytes": 8316128
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00062.tif",
+      "bytes": 8316000
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00063.tif",
+      "bytes": 8315960
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00064.tif",
+      "bytes": 8315836
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00065.tif",
+      "bytes": 8315884
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00066.tif",
+      "bytes": 8315796
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00067.tif",
+      "bytes": 8315592
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00068.tif",
+      "bytes": 8315492
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00069.tif",
+      "bytes": 8315440
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00070.tif",
+      "bytes": 8315332
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00071.tif",
+      "bytes": 8315368
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00072.tif",
+      "bytes": 8315332
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00073.tif",
+      "bytes": 8315244
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00074.tif",
+      "bytes": 8315168
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00075.tif",
+      "bytes": 8315108
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00076.tif",
+      "bytes": 8314980
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00077.tif",
+      "bytes": 8314904
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00078.tif",
+      "bytes": 8314872
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00079.tif",
+      "bytes": 8314764
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00080.tif",
+      "bytes": 8316124
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00081.tif",
+      "bytes": 8315964
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00082.tif",
+      "bytes": 8315360
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00083.tif",
+      "bytes": 8314880
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00084.tif",
+      "bytes": 8314564
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00085.tif",
+      "bytes": 8314248
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00086.tif",
+      "bytes": 8314000
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00087.tif",
+      "bytes": 8313740
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00088.tif",
+      "bytes": 8313704
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00089.tif",
+      "bytes": 8313720
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00090.tif",
+      "bytes": 8313708
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00091.tif",
+      "bytes": 8313500
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00092.tif",
+      "bytes": 8313496
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00093.tif",
+      "bytes": 8313496
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00094.tif",
+      "bytes": 8313504
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00095.tif",
+      "bytes": 8313572
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00096.tif",
+      "bytes": 8313620
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00097.tif",
+      "bytes": 8313656
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00098.tif",
+      "bytes": 8313716
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00099.tif",
+      "bytes": 8313740
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00100.tif",
+      "bytes": 8313792
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00101.tif",
+      "bytes": 8313816
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00102.tif",
+      "bytes": 8313828
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00103.tif",
+      "bytes": 8313876
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00104.tif",
+      "bytes": 8313924
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00105.tif",
+      "bytes": 8313944
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00106.tif",
+      "bytes": 8313968
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00107.tif",
+      "bytes": 8313960
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00108.tif",
+      "bytes": 8313992
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00109.tif",
+      "bytes": 8314036
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00110.tif",
+      "bytes": 8314044
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00111.tif",
+      "bytes": 8314056
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00112.tif",
+      "bytes": 8314048
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00113.tif",
+      "bytes": 8314036
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00114.tif",
+      "bytes": 8314028
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00115.tif",
+      "bytes": 8314028
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00116.tif",
+      "bytes": 8314008
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00117.tif",
+      "bytes": 8314016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00118.tif",
+      "bytes": 8313988
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00119.tif",
+      "bytes": 8313976
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00120.tif",
+      "bytes": 8313980
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00121.tif",
+      "bytes": 8313944
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00122.tif",
+      "bytes": 8313960
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00123.tif",
+      "bytes": 8313932
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00124.tif",
+      "bytes": 8313908
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00125.tif",
+      "bytes": 8313892
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00126.tif",
+      "bytes": 8313892
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00127.tif",
+      "bytes": 8313868
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00128.tif",
+      "bytes": 8313816
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00129.tif",
+      "bytes": 8313864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00130.tif",
+      "bytes": 8313832
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00131.tif",
+      "bytes": 8313868
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00132.tif",
+      "bytes": 8313832
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00133.tif",
+      "bytes": 8313800
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00134.tif",
+      "bytes": 8313784
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00135.tif",
+      "bytes": 8313784
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00136.tif",
+      "bytes": 8313764
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00137.tif",
+      "bytes": 8313752
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00138.tif",
+      "bytes": 8313752
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00139.tif",
+      "bytes": 8313736
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00140.tif",
+      "bytes": 8313664
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00141.tif",
+      "bytes": 8313636
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00142.tif",
+      "bytes": 8313584
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00143.tif",
+      "bytes": 8313576
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00144.tif",
+      "bytes": 8313536
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00145.tif",
+      "bytes": 8313388
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00146.tif",
+      "bytes": 8313240
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00147.tif",
+      "bytes": 8313136
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00148.tif",
+      "bytes": 8313032
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00149.tif",
+      "bytes": 8312944
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00150.tif",
+      "bytes": 8312896
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00151.tif",
+      "bytes": 8312880
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00152.tif",
+      "bytes": 8312840
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00153.tif",
+      "bytes": 8312812
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00154.tif",
+      "bytes": 8312784
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00155.tif",
+      "bytes": 8312760
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00156.tif",
+      "bytes": 8312788
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00157.tif",
+      "bytes": 8313932
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00158.tif",
+      "bytes": 8313600
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00159.tif",
+      "bytes": 8314244
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00160.tif",
+      "bytes": 8314044
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00161.tif",
+      "bytes": 8314432
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00162.tif",
+      "bytes": 8314528
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00163.tif",
+      "bytes": 8314644
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00164.tif",
+      "bytes": 8314864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00165.tif",
+      "bytes": 8315096
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00166.tif",
+      "bytes": 8315120
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00167.tif",
+      "bytes": 8315068
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00168.tif",
+      "bytes": 8315008
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00169.tif",
+      "bytes": 8315056
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00170.tif",
+      "bytes": 8315192
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00171.tif",
+      "bytes": 8315236
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00172.tif",
+      "bytes": 8315392
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00173.tif",
+      "bytes": 8315500
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00174.tif",
+      "bytes": 8315704
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00175.tif",
+      "bytes": 8315640
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00176.tif",
+      "bytes": 8315712
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00177.tif",
+      "bytes": 8315800
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00178.tif",
+      "bytes": 8315852
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00179.tif",
+      "bytes": 8315772
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00180.tif",
+      "bytes": 8315956
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00181.tif",
+      "bytes": 8315968
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00182.tif",
+      "bytes": 8316096
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00183.tif",
+      "bytes": 8316140
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00184.tif",
+      "bytes": 8316200
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00185.tif",
+      "bytes": 8316360
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00186.tif",
+      "bytes": 8316280
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00187.tif",
+      "bytes": 8315932
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00188.tif",
+      "bytes": 8315780
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00189.tif",
+      "bytes": 8314952
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00190.tif",
+      "bytes": 8315020
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00191.tif",
+      "bytes": 8315020
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00192.tif",
+      "bytes": 8315020
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00193.tif",
+      "bytes": 8315028
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00194.tif",
+      "bytes": 8315032
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00195.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00196.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00197.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00198.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00199.tif",
+      "bytes": 8315036
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00200.tif",
+      "bytes": 8315020
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00201.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00202.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00203.tif",
+      "bytes": 8315036
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00204.tif",
+      "bytes": 8315028
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00205.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00206.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00207.tif",
+      "bytes": 8315020
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00208.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00209.tif",
+      "bytes": 8315028
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00210.tif",
+      "bytes": 8315028
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00211.tif",
+      "bytes": 8315012
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00212.tif",
+      "bytes": 8315032
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00213.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00214.tif",
+      "bytes": 8315020
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00215.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00216.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00217.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00218.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00219.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00220.tif",
+      "bytes": 8315028
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00221.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00222.tif",
+      "bytes": 8315020
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00223.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00224.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00225.tif",
+      "bytes": 8315032
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00226.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00227.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00228.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00229.tif",
+      "bytes": 8315020
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00230.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00231.tif",
+      "bytes": 8315020
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00232.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00233.tif",
+      "bytes": 8315012
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00234.tif",
+      "bytes": 8315008
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00235.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00236.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00237.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00238.tif",
+      "bytes": 8315020
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00239.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00240.tif",
+      "bytes": 8315020
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00241.tif",
+      "bytes": 8315028
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00242.tif",
+      "bytes": 8315012
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00243.tif",
+      "bytes": 8315028
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00244.tif",
+      "bytes": 8315020
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00245.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00246.tif",
+      "bytes": 8315028
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00247.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00248.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00249.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00250.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00251.tif",
+      "bytes": 8315032
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00252.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00253.tif",
+      "bytes": 8315020
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00254.tif",
+      "bytes": 8315032
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00255.tif",
+      "bytes": 8315008
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00256.tif",
+      "bytes": 8315036
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00257.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00258.tif",
+      "bytes": 8315032
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00259.tif",
+      "bytes": 8315028
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00260.tif",
+      "bytes": 8315032
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00261.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00262.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00263.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00264.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00265.tif",
+      "bytes": 8315004
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00266.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00267.tif",
+      "bytes": 8315020
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00268.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00269.tif",
+      "bytes": 8315024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00270.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00271.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00272.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00273.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00274.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00275.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00276.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00277.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00278.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00279.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00280.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00281.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00282.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00283.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00284.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00285.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00286.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00287.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00288.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00289.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00290.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00291.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00292.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00293.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00294.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00295.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00296.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00297.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00298.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00299.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00300.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00301.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00302.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00303.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00304.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00305.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00306.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00307.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00308.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00309.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00310.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00311.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00312.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00313.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00314.tif",
+      "bytes": 8312612
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00315.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00316.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00317.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00318.tif",
+      "bytes": 8312612
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00319.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00320.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00321.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00322.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00323.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00324.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00325.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00326.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00327.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00328.tif",
+      "bytes": 8312612
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00329.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00330.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00331.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00332.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00333.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00334.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00335.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00336.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00337.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00338.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00339.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00340.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00341.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00342.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00343.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00344.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00345.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00346.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00347.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00348.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00349.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00350.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00351.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00352.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00353.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00354.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00355.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00356.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00357.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00358.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00359.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00360.tif",
+      "bytes": 8312612
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00361.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00362.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00363.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00364.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00365.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00366.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00367.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00368.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00369.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00370.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00371.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00372.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00373.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00374.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00375.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00376.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00377.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00378.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00379.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00380.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00381.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00382.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00383.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00384.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00385.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00386.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00387.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00388.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00389.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00390.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00391.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00392.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00393.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00394.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00395.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00396.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00397.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00398.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00399.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00400.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00401.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00402.tif",
+      "bytes": 8312612
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00403.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00404.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00405.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00406.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00407.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00408.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00409.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00410.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00411.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00412.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00413.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00414.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00415.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00416.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00417.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00418.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00419.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00420.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00421.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00422.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00423.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00424.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00425.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00426.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00427.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00428.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00429.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00430.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00431.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00432.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00433.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00434.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00435.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00436.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00437.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00438.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00439.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00440.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00441.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00442.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00443.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00444.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00445.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00446.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00447.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00448.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00449.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00450.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00451.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00452.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00453.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00454.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00455.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00456.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00457.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00458.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00459.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00460.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00461.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00462.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00463.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00464.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00465.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00466.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00467.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00468.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00469.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00470.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00471.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00472.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00473.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00474.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00475.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00476.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00477.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00478.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-003/render/frame_00479.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-001/build.jsx",
+      "bytes": 12202
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-001/inputs/main/project.aep",
+      "bytes": 3261891
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-001/inputs/palette/project.aep",
+      "bytes": 139461
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-001/native-still-144.png",
+      "bytes": 2287810
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-001/native-still-150.png",
+      "bytes": 1856241
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-001/native-still-156.png",
+      "bytes": 1748537
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-001/native-still-162.png",
+      "bytes": 1444577
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-001/native-still-168.png",
+      "bytes": 1808607
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-001/native-still-174.png",
+      "bytes": 2240152
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-001/native-still-180.png",
+      "bytes": 2915357
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-001/native-still-186.png",
+      "bytes": 3211242
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-001/native-still-192.png",
+      "bytes": 3876833
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-001/native-still-198.png",
+      "bytes": 3876174
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-001/native-still-204.png",
+      "bytes": 3876050
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-001/plan.json",
+      "bytes": 1430
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-001/project.aep",
+      "bytes": 3333375
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-001/receipt.json",
+      "bytes": 30876
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-001/request.json",
+      "bytes": 2555
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/Adobe After Effects 自动保存/project自动保存 1.aep",
+      "bytes": 3300561
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/aerender.log",
+      "bytes": 18053
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/build.jsx",
+      "bytes": 12250
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/project.aep 日志/AE 2026-11-7 0-04-41.txt",
+      "bytes": 13684
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00000.tif",
+      "bytes": 8315136
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00001.tif",
+      "bytes": 8315120
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00002.tif",
+      "bytes": 8315096
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00003.tif",
+      "bytes": 8315092
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00004.tif",
+      "bytes": 8315072
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00005.tif",
+      "bytes": 8315076
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00006.tif",
+      "bytes": 8315072
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00007.tif",
+      "bytes": 8315076
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00008.tif",
+      "bytes": 8315072
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00009.tif",
+      "bytes": 8315040
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00010.tif",
+      "bytes": 8315144
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00011.tif",
+      "bytes": 8315332
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00012.tif",
+      "bytes": 8315564
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00013.tif",
+      "bytes": 8315724
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00014.tif",
+      "bytes": 8315888
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00015.tif",
+      "bytes": 8316072
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00016.tif",
+      "bytes": 8316208
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00017.tif",
+      "bytes": 8316384
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00018.tif",
+      "bytes": 8316392
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00019.tif",
+      "bytes": 8316364
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00020.tif",
+      "bytes": 8316328
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00021.tif",
+      "bytes": 8316136
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00022.tif",
+      "bytes": 8316276
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00023.tif",
+      "bytes": 8316256
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00024.tif",
+      "bytes": 8315640
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00025.tif",
+      "bytes": 8315212
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00026.tif",
+      "bytes": 8315448
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00027.tif",
+      "bytes": 8315280
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00028.tif",
+      "bytes": 8315152
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00029.tif",
+      "bytes": 8315424
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00030.tif",
+      "bytes": 8315612
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00031.tif",
+      "bytes": 8315644
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00032.tif",
+      "bytes": 8315636
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00033.tif",
+      "bytes": 8315364
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00034.tif",
+      "bytes": 8315388
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00035.tif",
+      "bytes": 8315808
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00036.tif",
+      "bytes": 8316172
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00037.tif",
+      "bytes": 8316072
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00038.tif",
+      "bytes": 8316264
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00039.tif",
+      "bytes": 8316484
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00040.tif",
+      "bytes": 8316452
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00041.tif",
+      "bytes": 8316572
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00042.tif",
+      "bytes": 8316572
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00043.tif",
+      "bytes": 8316416
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00044.tif",
+      "bytes": 8316392
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00045.tif",
+      "bytes": 8316396
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00046.tif",
+      "bytes": 8316464
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00047.tif",
+      "bytes": 8316444
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00048.tif",
+      "bytes": 8316464
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00049.tif",
+      "bytes": 8316388
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00050.tif",
+      "bytes": 8316436
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00051.tif",
+      "bytes": 8316348
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00052.tif",
+      "bytes": 8316332
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00053.tif",
+      "bytes": 8316276
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00054.tif",
+      "bytes": 8316220
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00055.tif",
+      "bytes": 8316208
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00056.tif",
+      "bytes": 8316256
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00057.tif",
+      "bytes": 8316260
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00058.tif",
+      "bytes": 8316296
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00059.tif",
+      "bytes": 8316320
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00060.tif",
+      "bytes": 8316220
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00061.tif",
+      "bytes": 8316120
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00062.tif",
+      "bytes": 8315984
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00063.tif",
+      "bytes": 8315956
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00064.tif",
+      "bytes": 8315840
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00065.tif",
+      "bytes": 8315896
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00066.tif",
+      "bytes": 8315800
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00067.tif",
+      "bytes": 8315580
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00068.tif",
+      "bytes": 8315512
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00069.tif",
+      "bytes": 8315444
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00070.tif",
+      "bytes": 8315312
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00071.tif",
+      "bytes": 8315388
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00072.tif",
+      "bytes": 8315352
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00073.tif",
+      "bytes": 8315228
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00074.tif",
+      "bytes": 8315164
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00075.tif",
+      "bytes": 8315104
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00076.tif",
+      "bytes": 8314984
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00077.tif",
+      "bytes": 8314920
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00078.tif",
+      "bytes": 8314860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00079.tif",
+      "bytes": 8314776
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00080.tif",
+      "bytes": 8316128
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00081.tif",
+      "bytes": 8315976
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00082.tif",
+      "bytes": 8315356
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00083.tif",
+      "bytes": 8314896
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00084.tif",
+      "bytes": 8314576
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00085.tif",
+      "bytes": 8314252
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00086.tif",
+      "bytes": 8314000
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00087.tif",
+      "bytes": 8313732
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00088.tif",
+      "bytes": 8313708
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00089.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00090.tif",
+      "bytes": 8313700
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00091.tif",
+      "bytes": 8313500
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00092.tif",
+      "bytes": 8313500
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00093.tif",
+      "bytes": 8313508
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00094.tif",
+      "bytes": 8313512
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00095.tif",
+      "bytes": 8313572
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00096.tif",
+      "bytes": 8313628
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00097.tif",
+      "bytes": 8313660
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00098.tif",
+      "bytes": 8313720
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00099.tif",
+      "bytes": 8313748
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00100.tif",
+      "bytes": 8313788
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00101.tif",
+      "bytes": 8313816
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00102.tif",
+      "bytes": 8313824
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00103.tif",
+      "bytes": 8313880
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00104.tif",
+      "bytes": 8313912
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00105.tif",
+      "bytes": 8313956
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00106.tif",
+      "bytes": 8313964
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00107.tif",
+      "bytes": 8313964
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00108.tif",
+      "bytes": 8313980
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00109.tif",
+      "bytes": 8314032
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00110.tif",
+      "bytes": 8314044
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00111.tif",
+      "bytes": 8314056
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00112.tif",
+      "bytes": 8314052
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00113.tif",
+      "bytes": 8314040
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00114.tif",
+      "bytes": 8314016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00115.tif",
+      "bytes": 8314024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00116.tif",
+      "bytes": 8314000
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00117.tif",
+      "bytes": 8314024
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00118.tif",
+      "bytes": 8313984
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00119.tif",
+      "bytes": 8313972
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00120.tif",
+      "bytes": 8313984
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00121.tif",
+      "bytes": 8313944
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00122.tif",
+      "bytes": 8313964
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00123.tif",
+      "bytes": 8313932
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00124.tif",
+      "bytes": 8313912
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00125.tif",
+      "bytes": 8313892
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00126.tif",
+      "bytes": 8313900
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00127.tif",
+      "bytes": 8313868
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00128.tif",
+      "bytes": 8313836
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00129.tif",
+      "bytes": 8313860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00130.tif",
+      "bytes": 8313828
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00131.tif",
+      "bytes": 8313864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00132.tif",
+      "bytes": 8313836
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00133.tif",
+      "bytes": 8313796
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00134.tif",
+      "bytes": 8313788
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00135.tif",
+      "bytes": 8313784
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00136.tif",
+      "bytes": 8313768
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00137.tif",
+      "bytes": 8313756
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00138.tif",
+      "bytes": 8313748
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00139.tif",
+      "bytes": 8313744
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00140.tif",
+      "bytes": 8313664
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00141.tif",
+      "bytes": 8313620
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00142.tif",
+      "bytes": 8313568
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00143.tif",
+      "bytes": 8313568
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00144.tif",
+      "bytes": 8313536
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00145.tif",
+      "bytes": 8313384
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00146.tif",
+      "bytes": 8313236
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00147.tif",
+      "bytes": 8313132
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00148.tif",
+      "bytes": 8313020
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00149.tif",
+      "bytes": 8312944
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00150.tif",
+      "bytes": 8312904
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00151.tif",
+      "bytes": 8312880
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00152.tif",
+      "bytes": 8312840
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00153.tif",
+      "bytes": 8312816
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00154.tif",
+      "bytes": 8312784
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00155.tif",
+      "bytes": 8312760
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00156.tif",
+      "bytes": 8312792
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00157.tif",
+      "bytes": 8313948
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00158.tif",
+      "bytes": 8313604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00159.tif",
+      "bytes": 8314260
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00160.tif",
+      "bytes": 8314052
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00161.tif",
+      "bytes": 8314444
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00162.tif",
+      "bytes": 8314520
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00163.tif",
+      "bytes": 8314632
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00164.tif",
+      "bytes": 8314852
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00165.tif",
+      "bytes": 8315096
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00166.tif",
+      "bytes": 8315108
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00167.tif",
+      "bytes": 8315068
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00168.tif",
+      "bytes": 8314988
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00169.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00170.tif",
+      "bytes": 8315160
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00171.tif",
+      "bytes": 8315180
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00172.tif",
+      "bytes": 8315340
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00173.tif",
+      "bytes": 8315452
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00174.tif",
+      "bytes": 8315664
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00175.tif",
+      "bytes": 8315592
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00176.tif",
+      "bytes": 8315692
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00177.tif",
+      "bytes": 8315752
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00178.tif",
+      "bytes": 8315796
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00179.tif",
+      "bytes": 8315712
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00180.tif",
+      "bytes": 8315888
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00181.tif",
+      "bytes": 8315932
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00182.tif",
+      "bytes": 8316052
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00183.tif",
+      "bytes": 8316064
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00184.tif",
+      "bytes": 8316132
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00185.tif",
+      "bytes": 8316312
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00186.tif",
+      "bytes": 8316240
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00187.tif",
+      "bytes": 8315864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00188.tif",
+      "bytes": 8315716
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00189.tif",
+      "bytes": 8314880
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00190.tif",
+      "bytes": 8314872
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00191.tif",
+      "bytes": 8314860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00192.tif",
+      "bytes": 8314860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00193.tif",
+      "bytes": 8314872
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00194.tif",
+      "bytes": 8314872
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00195.tif",
+      "bytes": 8314856
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00196.tif",
+      "bytes": 8314868
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00197.tif",
+      "bytes": 8314872
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00198.tif",
+      "bytes": 8314868
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00199.tif",
+      "bytes": 8314860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00200.tif",
+      "bytes": 8314864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00201.tif",
+      "bytes": 8314864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00202.tif",
+      "bytes": 8314868
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00203.tif",
+      "bytes": 8314864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00204.tif",
+      "bytes": 8314856
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00205.tif",
+      "bytes": 8314864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00206.tif",
+      "bytes": 8314860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00207.tif",
+      "bytes": 8314860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00208.tif",
+      "bytes": 8314876
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00209.tif",
+      "bytes": 8314872
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00210.tif",
+      "bytes": 8314864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00211.tif",
+      "bytes": 8314844
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00212.tif",
+      "bytes": 8314864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00213.tif",
+      "bytes": 8314852
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00214.tif",
+      "bytes": 8314876
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00215.tif",
+      "bytes": 8314860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00216.tif",
+      "bytes": 8314864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00217.tif",
+      "bytes": 8314868
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00218.tif",
+      "bytes": 8314864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00219.tif",
+      "bytes": 8314860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00220.tif",
+      "bytes": 8314860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00221.tif",
+      "bytes": 8314860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00222.tif",
+      "bytes": 8314868
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00223.tif",
+      "bytes": 8314876
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00224.tif",
+      "bytes": 8314864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00225.tif",
+      "bytes": 8314868
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00226.tif",
+      "bytes": 8314852
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00227.tif",
+      "bytes": 8314848
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00228.tif",
+      "bytes": 8314876
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00229.tif",
+      "bytes": 8314864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00230.tif",
+      "bytes": 8314868
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00231.tif",
+      "bytes": 8314864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00232.tif",
+      "bytes": 8314864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00233.tif",
+      "bytes": 8314856
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00234.tif",
+      "bytes": 8314856
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00235.tif",
+      "bytes": 8314864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00236.tif",
+      "bytes": 8314872
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00237.tif",
+      "bytes": 8314868
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00238.tif",
+      "bytes": 8314868
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00239.tif",
+      "bytes": 8314852
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00240.tif",
+      "bytes": 8314868
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00241.tif",
+      "bytes": 8314868
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00242.tif",
+      "bytes": 8314868
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00243.tif",
+      "bytes": 8314860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00244.tif",
+      "bytes": 8314856
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00245.tif",
+      "bytes": 8314844
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00246.tif",
+      "bytes": 8314868
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00247.tif",
+      "bytes": 8314868
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00248.tif",
+      "bytes": 8314860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00249.tif",
+      "bytes": 8314860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00250.tif",
+      "bytes": 8314848
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00251.tif",
+      "bytes": 8314864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00252.tif",
+      "bytes": 8314860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00253.tif",
+      "bytes": 8314860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00254.tif",
+      "bytes": 8314860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00255.tif",
+      "bytes": 8314860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00256.tif",
+      "bytes": 8314856
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00257.tif",
+      "bytes": 8314852
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00258.tif",
+      "bytes": 8314856
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00259.tif",
+      "bytes": 8314876
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00260.tif",
+      "bytes": 8314864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00261.tif",
+      "bytes": 8314872
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00262.tif",
+      "bytes": 8314864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00263.tif",
+      "bytes": 8314860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00264.tif",
+      "bytes": 8314860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00265.tif",
+      "bytes": 8314868
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00266.tif",
+      "bytes": 8314860
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00267.tif",
+      "bytes": 8314852
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00268.tif",
+      "bytes": 8314856
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00269.tif",
+      "bytes": 8314864
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00270.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00271.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00272.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00273.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00274.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00275.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00276.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00277.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00278.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00279.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00280.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00281.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00282.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00283.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00284.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00285.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00286.tif",
+      "bytes": 8312612
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00287.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00288.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00289.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00290.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00291.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00292.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00293.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00294.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00295.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00296.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00297.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00298.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00299.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00300.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00301.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00302.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00303.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00304.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00305.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00306.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00307.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00308.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00309.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00310.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00311.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00312.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00313.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00314.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00315.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00316.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00317.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00318.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00319.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00320.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00321.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00322.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00323.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00324.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00325.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00326.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00327.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00328.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00329.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00330.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00331.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00332.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00333.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00334.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00335.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00336.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00337.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00338.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00339.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00340.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00341.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00342.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00343.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00344.tif",
+      "bytes": 8312612
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00345.tif",
+      "bytes": 8312612
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00346.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00347.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00348.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00349.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00350.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00351.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00352.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00353.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00354.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00355.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00356.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00357.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00358.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00359.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00360.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00361.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00362.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00363.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00364.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00365.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00366.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00367.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00368.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00369.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00370.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00371.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00372.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00373.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00374.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00375.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00376.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00377.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00378.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00379.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00380.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00381.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00382.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00383.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00384.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00385.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00386.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00387.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00388.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00389.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00390.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00391.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00392.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00393.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00394.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00395.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00396.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00397.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00398.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00399.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00400.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00401.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00402.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00403.tif",
+      "bytes": 8312612
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00404.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00405.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00406.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00407.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00408.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00409.tif",
+      "bytes": 8312612
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00410.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00411.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00412.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00413.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00414.tif",
+      "bytes": 8312600
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00415.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00416.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00417.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00418.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00419.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00420.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00421.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00422.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00423.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00424.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00425.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00426.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00427.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00428.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00429.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00430.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00431.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00432.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00433.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00434.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00435.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00436.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00437.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00438.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00439.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00440.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00441.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00442.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00443.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00444.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00445.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00446.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00447.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00448.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00449.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00450.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00451.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00452.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00453.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00454.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00455.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00456.tif",
+      "bytes": 8312612
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00457.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00458.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00459.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00460.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00461.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00462.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00463.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00464.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00465.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00466.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00467.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00468.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00469.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00470.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00471.tif",
+      "bytes": 8312612
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00472.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00473.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00474.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00475.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00476.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00477.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00478.tif",
+      "bytes": 8312604
+    },
+    {
+      "path": "samples/course-reproduction-020/p17-line-style-variation-002/render/frame_00479.tif",
+      "bytes": 8312604
+    }
+  ],
+  "authorization": "User requested keeping only deliverables after library publication; scope restricted to this independent lab"
+}
