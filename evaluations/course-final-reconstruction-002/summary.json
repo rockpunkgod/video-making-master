@@ -1,0 +1,106 @@
+{
+  "status": "candidate",
+  "case": "samples/course-reproduction-022/final-reconstruction-005",
+  "video_sha256": "f179ee54a9e91193784efde828c5b143895739ab7dfbbfe086e1968a6c8f91fa",
+  "project_sha256": "223e862dcdce4cc8312bd35cff7df26d3da670e3c3ce11c09d8fbde8bc17c5d7",
+  "technical_checks": {
+    "native_build": true,
+    "native_reopened": true,
+    "expression_sample_checks": true,
+    "root_layers": true,
+    "camera_parent": true,
+    "first_label_parent": true,
+    "camera_samples": true,
+    "title_in_front_at22": true,
+    "native_text_edit_restore": true,
+    "self_contained_media": true,
+    "native_pngs": true,
+    "title_plane_before_lines": true,
+    "saved_title_position": true,
+    "saved_lines_position": true,
+    "saved_title_scale": true,
+    "saved_camera_rotation": true,
+    "saved_dof_keys": true,
+    "saved_blur_keys": true,
+    "saved_mask_vertices": true,
+    "retained_mask_feather": true,
+    "retained_mask_expansion": true
+  },
+  "video_checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "difference_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "decoded_frames": 600,
+  "native_pngs_viewed": [
+    "native-still-36.png",
+    "native-still-60.png",
+    "native-still-78.png",
+    "native-still-102.png",
+    "native-still-126.png",
+    "native-still-168.png",
+    "native-still-198.png",
+    "native-still-228.png",
+    "native-still-248.png",
+    "native-still-264.png",
+    "native-still-288.png",
+    "native-still-306.png",
+    "native-still-324.png",
+    "native-still-348.png",
+    "native-still-372.png",
+    "native-still-396.png",
+    "native-still-420.png",
+    "native-still-450.png",
+    "native-still-486.png",
+    "native-still-504.png",
+    "native-still-540.png",
+    "native-still-594.png"
+  ],
+  "course_fidelity": "not_passed",
+  "unresolved": [
+    "Exact final camera poses/ease and label animation are not recovered",
+    "Vig implementation not shown; inherited background retained",
+    "No three-material or parameter-variation suite for this branch",
+    "Streaks retain excessive saturated magenta compared with final course playback",
+    "Early polar/noise overlap and transition timing differ",
+    "Ending path identity/brightness and exact turn count not recovered"
+  ],
+  "source_review": {
+    "p18_global_interval": "07:25–08:46 at1fps,81 frames all viewed",
+    "p18_rotation": "07:30–07:34 at12fps,48 frames all viewed; repeated cached pictures and jumps prevent exact turn-count recovery",
+    "p16": "6 more1080p frames07:55/08:15/08:22/08:30/08:45/15:28; hand-drawn mask is not the old small ellipse",
+    "p17": "10:45 Glow settings and11:50 curves rechecked; no speculative desaturation applied"
+  },
+  "human_review": {
+    "status": "pending",
+    "scope": "Tunnel extent and ending title/line placement only",
+    "comparison": [
+      "cache/reviews/final005-tunnel-001/comparison.mp4",
+      "cache/reviews/final005-ending-001/comparison.mp4"
+    ],
+    "source_intervals": [
+      "P18 07:39–07:42",
+      "P18 07:56–08:03"
+    ],
+    "native_intervals": [
+      "9.5–12.5",
+      "17.5–24.5"
+    ],
+    "synchronization": "not frame synchronized; source preview/UI clock can lag"
+  },
+  "metrics": "extent-measurements.json",
+  "diagnostic": "aperture-diagnostic.json",
+  "regressions": [
+    "Rejected003/004 native receipts retained; incomplete binary probes removed after publication",
+    "005 checks native title plane before line plane, actual mask, rotation/DOF/Blur keys after reopen"
+  ],
+  "parameter_variation": "not completed for this assembled film",
+  "three_materials": "not completed",
+  "overall_goal": "incomplete; no full film or whole Skill verification"
+}

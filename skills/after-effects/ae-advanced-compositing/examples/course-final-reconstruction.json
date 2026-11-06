@@ -18,11 +18,14 @@
       "P18 06:50: line scale 170,201,170"
     ],
     "inferred": [
-      "All camera Z values except initial; ease; key times estimated from ruler",
-      "Label font size, positions, reveal reuse and exact timing",
-      "Drift rates and application of P4 formula to camera null",
-      "Core/noise/contour fades and line source extension",
-      "Inherited background retained below layers; vig recipe not shown"
+      "Camera Z values except initial, estimated key times/ease and drifts are reconstruction values; contour interval permits forward movement rather than forcing monotonic retreat",
+      "Camera roll0-to360/influence80 remains unverified: source cache skips and bar orientation repeats modulo180; dense48-frame sequence does not recover unique turn count",
+      "Label font/position/reveal reuse and layer starts are estimated from source playback/bars",
+      "Core Scale140, ending cameraZ-23000, linesY750, titleY560/Scale46 fitted visually; original titleZ-22000 remains in front of linesZ-20000",
+      "Irregular7-point radial mask and fitted handles estimated from P16 08:15/08:22 projected layer rectangle; feather114/expansion-33 retain shown settings",
+      "Contour rotation/fade, streak width collapse and noise fade retain P17 key offsets relative to estimated new layer starts",
+      "DOF/Blur key positions and values are inferred; inherited aperture25.3/focus2666.7 retained after larger apertures failed to repair color",
+      "Line source extended after static paths complete; inherited gradient retained instead of unshown vig recipe"
     ]
   },
   "camera": [
@@ -32,27 +35,27 @@
     ],
     [
       2.1666666666666665,
-      -2500
+      -3200
     ],
     [
       2.5,
-      -7500
+      -3500
     ],
     [
       4.875,
-      -8500
+      -7500
     ],
     [
       5.291666666666667,
-      -12500
+      -8500
     ],
     [
       8.083333333333334,
-      -12500
+      -10000
     ],
     [
       11.458333333333334,
-      -21000
+      -9000
     ],
     [
       11.833333333333334,
@@ -60,7 +63,7 @@
     ],
     [
       16.875,
-      -25000
+      -23000
     ]
   ],
   "drift": [
@@ -68,9 +71,9 @@
     1
   ],
   "core_scale": [
-    100,
-    100,
-    100
+    140,
+    140,
+    140
   ],
   "line_scale": [
     170,
@@ -89,37 +92,37 @@
   ],
   "noise_fade": [
     [
-      6,
+      4.758333333333333,
       100
     ],
     [
-      8.5,
+      6.258333333333333,
       0
     ]
   ],
   "contour_fade": [
     [
-      13.4,
+      11.158333333333333,
       100
     ],
     [
-      14.4,
+      12.116666666666665,
       0
     ]
   ],
   "contour_rotation": [
     [
-      13.4,
+      11.158333333333333,
       0
     ],
     [
-      14.4,
+      12.116666666666665,
       80
     ]
   ],
   "streak_scale": [
     [
-      16,
+      14.966666666666667,
       [
         100,
         100,
@@ -127,7 +130,7 @@
       ]
     ],
     [
-      17,
+      15.675,
       [
         0,
         100,
@@ -182,8 +185,8 @@
     {
       "text": "TECHNOLOGY",
       "position": [
-        -600,
-        450,
+        -1050,
+        520,
         0
       ],
       "start": 0.5,
@@ -193,7 +196,7 @@
     {
       "text": "INTERNET",
       "position": [
-        850,
+        1250,
         100,
         0
       ],
@@ -204,8 +207,8 @@
     {
       "text": "BIG DATA",
       "position": [
-        -600,
-        -300,
+        -750,
+        -350,
         0
       ],
       "start": 0.5,
@@ -215,8 +218,8 @@
     {
       "text": "ATTENTION",
       "position": [
-        -550,
-        -300,
+        340,
+        350,
         -5000
       ],
       "start": 3.5,
@@ -226,8 +229,8 @@
     {
       "text": "FINANCIALIZED",
       "position": [
-        500,
-        350,
+        340,
+        250,
         -5000
       ],
       "start": 3.5,
@@ -237,8 +240,8 @@
     {
       "text": "ADVERTISING",
       "position": [
-        600,
-        -300,
+        -350,
+        -80,
         -5000
       ],
       "start": 3.5,
@@ -247,21 +250,169 @@
     }
   ],
   "checkpoints": [
-    0,
-    12,
-    45,
-    53,
-    72,
-    110,
-    145,
-    202,
-    252,
+    36,
+    60,
+    78,
+    102,
+    126,
+    168,
+    198,
+    228,
+    248,
+    264,
     288,
-    338,
-    390,
+    306,
+    324,
+    348,
+    372,
+    396,
+    420,
     450,
-    498,
+    486,
+    504,
     540,
-    599
-  ]
+    594
+  ],
+  "positions": {
+    "ROLE_TITLE": [
+      960,
+      560,
+      -22000
+    ],
+    "ROLE_LINES": [
+      960,
+      750,
+      -20000
+    ]
+  },
+  "camera_rotation": [
+    [
+      2.5,
+      0
+    ],
+    [
+      4.875,
+      360
+    ]
+  ],
+  "rotation_influence": 80,
+  "dof": [
+    [
+      12.5,
+      0
+    ],
+    [
+      12.85,
+      1
+    ]
+  ],
+  "blur_level": [
+    [
+      14.75,
+      100
+    ],
+    [
+      15.75,
+      0
+    ]
+  ],
+  "radial_mask": {
+    "vertices": [
+      [
+        240.28880866425996,
+        94.61538461538461
+      ],
+      [
+        103.971119133574,
+        431.53846153846155
+      ],
+      [
+        579.9277978339351,
+        927.6923076923076
+      ],
+      [
+        1386.2815884476536,
+        983.0769230769231
+      ],
+      [
+        1735.1624548736463,
+        720.0
+      ],
+      [
+        1809.0974729241877,
+        226.15384615384616
+      ],
+      [
+        1072.057761732852,
+        180.0
+      ]
+    ],
+    "out_tangents": [
+      [
+        -161.34777376654634,
+        41.92307692307693
+      ],
+      [
+        56.60649819494586,
+        138.84615384615384
+      ],
+      [
+        213.71841155234657,
+        91.92307692307692
+      ],
+      [
+        192.53910950661853,
+        -34.615384615384606
+      ],
+      [
+        70.46931407942236,
+        -126.15384615384615
+      ],
+      [
+        -110.51744885679905,
+        -90.0
+      ],
+      [
+        -261.46811070998797,
+        -21.923076923076923
+      ]
+    ],
+    "in_tangents": [
+      [
+        161.34777376654634,
+        -41.92307692307693
+      ],
+      [
+        -56.60649819494586,
+        -138.84615384615384
+      ],
+      [
+        -213.71841155234657,
+        -91.92307692307692
+      ],
+      [
+        -192.53910950661853,
+        34.615384615384606
+      ],
+      [
+        -70.46931407942236,
+        126.15384615384615
+      ],
+      [
+        110.51744885679905,
+        90.0
+      ],
+      [
+        261.46811070998797,
+        21.923076923076923
+      ]
+    ]
+  },
+  "scales": {
+    "ROLE_TITLE": [
+      46,
+      46,
+      46
+    ]
+  }
 }

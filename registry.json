@@ -402,7 +402,7 @@
     },
     {
       "name": "ae-advanced-compositing",
-      "version": "0.1.12",
+      "version": "0.1.13",
       "status": "candidate",
       "execution_status": "native_branches_and_inferred25s_candidate_made_course_fidelity_incomplete",
       "path": "skills/after-effects/ae-advanced-compositing",
@@ -456,7 +456,8 @@
         "P17 streak curves/key times estimated; camera/random identities, cyber-line continuation, title and three materials unresolved",
         "P17 two19-path groups and dualGlow native-tested; final first-group state, curves/key timing, reference playback, title/full-film and three materials unverified",
         "Course18 proxy suite covers3 distinct native components and final-policy variant; final~25s camera/drift/text assembly not reproduced, broader material/generalization and exact course-film acceptance remain",
-        "25s inferred reconstruction exists with six labels/drift/visible title, but middle framing and final scale do not match course; no full-film acceptance or generalization"
+        "25s inferred reconstruction exists with six labels/drift/visible title, but middle framing and final scale do not match course; no full-film acceptance or generalization",
+        "Final005 repairs tunnel extent, mask and title occlusion; excessive streak color, polar overlap, random line geometry and offscreen camera values still fail full course fidelity. Composition-only review pending."
       ],
       "additional_evidence": [
         "evaluations/course-p15-radial-001/summary.json",
@@ -470,7 +471,8 @@
         "evaluations/course-p17-streak-style-001/summary.json",
         "evaluations/course-p17-line-style-001/summary.json",
         "evaluations/course-p18-proxy-suite-001/summary.json",
-        "evaluations/course-final-reconstruction-001/summary.json"
+        "evaluations/course-final-reconstruction-001/summary.json",
+        "evaluations/course-final-reconstruction-002/summary.json"
       ],
       "human_reviews": [
         {

@@ -1,0 +1,426 @@
+{
+  "name": "COURSE_FINAL_RECONSTRUCTION",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "duration": 25,
+  "motion_expectation": "required",
+  "input": {
+    "project": "E:/自媒体/video-skills-lab/samples/course-reproduction-022/final-reconstruction-005/inputs/main.aep",
+    "composition": "COURSE_P17_LINE_STYLE",
+    "sha256": "0a18219dc63916fb4b3d6a562757d3d8d6a6a0941a4e840d77bcba23c0f88de1"
+  },
+  "provenance": {
+    "observed": [
+      "P3 00:32-00:40: 25s SUBPRIME brief",
+      "P18 06:50 /07:25: six labels, drift camera parent, T1_ctrl parent of first three labels",
+      "P18 08:00: initial camera local position 0,0,-2500 and multiple position keys",
+      "P18 06:50: line scale 170,201,170"
+    ],
+    "inferred": [
+      "All camera Z values except initial; ease; key times estimated from ruler",
+      "Label font size, positions, reveal reuse and exact timing",
+      "Drift rates and application of P4 formula to camera null",
+      "Core/noise/contour fades and line source extension",
+      "Inherited background retained below layers; vig recipe not shown",
+      "Revision003 fits source playback envelope; inherited early negative Z guesses replaced, not recovered original values",
+      "Camera rotation0-to360/influence80 and DOF/Blur values inferred from visible motion/key positions; original aperture/focus retained",
+      "CoreScale140 and titleZ-20500 inferred screen-space fit",
+      "Irregular7-point radial mask fitted from P16 08:15/08:22; coordinates and handles inferred, replacing incorrect small ellipse",
+      "Second label placements corrected to advertising upper-left, financialized and attention stacked lower-right",
+      "Revision004 camera contour segment allows a forward move; monotonic retreat was an unsupported assumption",
+      "Final cameraZ-22000/titleZ-19800 fit visible ending extent; values not displayed by teacher",
+      "Contour rotation/fade, streak scale and noise fade retain audited P17 key offsets relative to each newly estimated layer start",
+      "Aperture diagnostic25.3/250/1000 did not resolve streak color mismatch; larger aperture rejected, original25.3 retained",
+      "Revision005 retains original titleZ-22000 in front of lineZ-20000; Scale46/Y560 fits text projection. Last cameraZ-23000 and lineY750 fit vertical reference envelope; numeric values remain inferred",
+      "Rejected004 placement caused title to sit behind lines and line apex to clip. Native plane-order audit now required; linesScale170/201 unchanged rather than stretching paths to hide random-geometry mismatch"
+    ]
+  },
+  "camera": [
+    [
+      0,
+      -2500
+    ],
+    [
+      2.1666666666666665,
+      -3200
+    ],
+    [
+      2.5,
+      -3500
+    ],
+    [
+      4.875,
+      -7500
+    ],
+    [
+      5.291666666666667,
+      -8500
+    ],
+    [
+      8.083333333333334,
+      -10000
+    ],
+    [
+      11.458333333333334,
+      -9000
+    ],
+    [
+      11.833333333333334,
+      -21000
+    ],
+    [
+      16.875,
+      -23000
+    ]
+  ],
+  "drift": [
+    2,
+    1
+  ],
+  "core_scale": [
+    140,
+    140,
+    140
+  ],
+  "line_scale": [
+    170,
+    201,
+    170
+  ],
+  "core_fade": [
+    [
+      3.15,
+      100
+    ],
+    [
+      4.1,
+      0
+    ]
+  ],
+  "noise_fade": [
+    [
+      4.758333333333333,
+      100
+    ],
+    [
+      6.258333333333333,
+      0
+    ]
+  ],
+  "contour_fade": [
+    [
+      11.158333333333333,
+      100
+    ],
+    [
+      12.116666666666665,
+      0
+    ]
+  ],
+  "contour_rotation": [
+    [
+      11.158333333333333,
+      0
+    ],
+    [
+      12.116666666666665,
+      80
+    ]
+  ],
+  "streak_scale": [
+    [
+      14.966666666666667,
+      [
+        100,
+        100,
+        100
+      ]
+    ],
+    [
+      15.675,
+      [
+        0,
+        100,
+        100
+      ]
+    ]
+  ],
+  "label_size": 80,
+  "timings": {
+    "ROLE_CORE": [
+      0,
+      5
+    ],
+    "ROLE_DOTS": [
+      0,
+      5.0333333333
+    ],
+    "ROLE_RADIAL": [
+      0,
+      10
+    ],
+    "ROLE_NOISE": [
+      2.8,
+      9.8
+    ],
+    "ROLE_POLAR": [
+      3.7,
+      10.7
+    ],
+    "ROLE_CONTOURS": [
+      8.7,
+      15.7
+    ],
+    "ROLE_STREAKS": [
+      11.3,
+      18.3
+    ],
+    "ROLE_TITLE": [
+      20,
+      25
+    ],
+    "ROLE_LINES": [
+      16.3,
+      25
+    ],
+    "ROLE_BACKGROUND": [
+      0,
+      25
+    ]
+  },
+  "labels": [
+    {
+      "text": "TECHNOLOGY",
+      "position": [
+        -1050,
+        520,
+        0
+      ],
+      "start": 0.5,
+      "end": 3.9,
+      "parent": true
+    },
+    {
+      "text": "INTERNET",
+      "position": [
+        1250,
+        100,
+        0
+      ],
+      "start": 0.5,
+      "end": 3.9,
+      "parent": true
+    },
+    {
+      "text": "BIG DATA",
+      "position": [
+        -750,
+        -350,
+        0
+      ],
+      "start": 0.5,
+      "end": 3.9,
+      "parent": true
+    },
+    {
+      "text": "ATTENTION",
+      "position": [
+        340,
+        350,
+        -5000
+      ],
+      "start": 3.5,
+      "end": 6.8,
+      "parent": false
+    },
+    {
+      "text": "FINANCIALIZED",
+      "position": [
+        340,
+        250,
+        -5000
+      ],
+      "start": 3.5,
+      "end": 6.8,
+      "parent": false
+    },
+    {
+      "text": "ADVERTISING",
+      "position": [
+        -350,
+        -80,
+        -5000
+      ],
+      "start": 3.5,
+      "end": 6.8,
+      "parent": false
+    }
+  ],
+  "checkpoints": [
+    36,
+    60,
+    78,
+    102,
+    126,
+    168,
+    198,
+    228,
+    248,
+    264,
+    288,
+    306,
+    324,
+    348,
+    372,
+    396,
+    420,
+    450,
+    486,
+    504,
+    540,
+    594
+  ],
+  "positions": {
+    "ROLE_TITLE": [
+      960,
+      560,
+      -22000
+    ],
+    "ROLE_LINES": [
+      960,
+      750,
+      -20000
+    ]
+  },
+  "camera_rotation": [
+    [
+      2.5,
+      0
+    ],
+    [
+      4.875,
+      360
+    ]
+  ],
+  "rotation_influence": 80,
+  "dof": [
+    [
+      12.5,
+      0
+    ],
+    [
+      12.85,
+      1
+    ]
+  ],
+  "blur_level": [
+    [
+      14.75,
+      100
+    ],
+    [
+      15.75,
+      0
+    ]
+  ],
+  "radial_mask": {
+    "vertices": [
+      [
+        240.28880866425996,
+        94.61538461538461
+      ],
+      [
+        103.971119133574,
+        431.53846153846155
+      ],
+      [
+        579.9277978339351,
+        927.6923076923076
+      ],
+      [
+        1386.2815884476536,
+        983.0769230769231
+      ],
+      [
+        1735.1624548736463,
+        720.0
+      ],
+      [
+        1809.0974729241877,
+        226.15384615384616
+      ],
+      [
+        1072.057761732852,
+        180.0
+      ]
+    ],
+    "out_tangents": [
+      [
+        -161.34777376654634,
+        41.92307692307693
+      ],
+      [
+        56.60649819494586,
+        138.84615384615384
+      ],
+      [
+        213.71841155234657,
+        91.92307692307692
+      ],
+      [
+        192.53910950661853,
+        -34.615384615384606
+      ],
+      [
+        70.46931407942236,
+        -126.15384615384615
+      ],
+      [
+        -110.51744885679905,
+        -90.0
+      ],
+      [
+        -261.46811070998797,
+        -21.923076923076923
+      ]
+    ],
+    "in_tangents": [
+      [
+        161.34777376654634,
+        -41.92307692307693
+      ],
+      [
+        -56.60649819494586,
+        -138.84615384615384
+      ],
+      [
+        -213.71841155234657,
+        -91.92307692307692
+      ],
+      [
+        -192.53910950661853,
+        34.615384615384606
+      ],
+      [
+        -70.46931407942236,
+        126.15384615384615
+      ],
+      [
+        110.51744885679905,
+        90.0
+      ],
+      [
+        261.46811070998797,
+        21.923076923076923
+      ]
+    ]
+  },
+  "scales": {
+    "ROLE_TITLE": [
+      46,
+      46,
+      46
+    ]
+  }
+}

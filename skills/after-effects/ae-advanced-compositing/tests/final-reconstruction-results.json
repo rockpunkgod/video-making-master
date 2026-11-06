@@ -1,105 +1,106 @@
 {
   "status": "candidate",
-  "branch": "25s ending inferred reconstruction",
-  "case": "samples/course-reproduction-022/final-reconstruction-002",
-  "video_sha256": "18fe56460a6067286ea58353eb7ecbecea6f40eeaea0b99645f6cdd9a9dccb60",
-  "project_sha256": "e80eebd51d33cc0c4429d11c0cdf197e08aa29a9902046f5e6e7b29dbc4f5f21",
-  "native_technical": {
-    "status": "passed",
-    "checks": {
-      "native_build": true,
-      "native_reopened": true,
-      "expression_sample_checks": true,
-      "root_layers": true,
-      "camera_parent": true,
-      "first_label_parent": true,
-      "camera_samples": true,
-      "title_in_front_at22": true,
-      "native_text_edit_restore": true,
-      "self_contained_media": true,
-      "native_pngs": true
-    },
-    "scope": "Native structure and sampled expressions only; expression evaluation is not claimed for every property on every frame",
-    "course_fidelity": "not_passed",
-    "visual_review": "incomplete reconstruction",
-    "unresolved": [
-      "Middle tunnel is too small in native checkpoints",
-      "Streak section fills frame more than available course reference",
-      "Exact final camera poses/ease and label animation are not recovered",
-      "Vig implementation not shown; inherited background retained",
-      "No three-material or parameter-variation suite for this branch"
-    ],
-    "user_acceptance": "not_requested",
-    "audio_sync": "not_applicable_silent_visual_candidate"
+  "case": "samples/course-reproduction-022/final-reconstruction-005",
+  "video_sha256": "f179ee54a9e91193784efde828c5b143895739ab7dfbbfe086e1968a6c8f91fa",
+  "project_sha256": "223e862dcdce4cc8312bd35cff7df26d3da670e3c3ce11c09d8fbde8bc17c5d7",
+  "technical_checks": {
+    "native_build": true,
+    "native_reopened": true,
+    "expression_sample_checks": true,
+    "root_layers": true,
+    "camera_parent": true,
+    "first_label_parent": true,
+    "camera_samples": true,
+    "title_in_front_at22": true,
+    "native_text_edit_restore": true,
+    "self_contained_media": true,
+    "native_pngs": true,
+    "title_plane_before_lines": true,
+    "saved_title_position": true,
+    "saved_lines_position": true,
+    "saved_title_scale": true,
+    "saved_camera_rotation": true,
+    "saved_dof_keys": true,
+    "saved_blur_keys": true,
+    "saved_mask_vertices": true,
+    "retained_mask_feather": true,
+    "retained_mask_expansion": true
   },
-  "video_technical": {
-    "status": "passed",
-    "path": "E:\\自媒体\\video-skills-lab\\samples\\course-reproduction-022\\final-reconstruction-002\\final.mp4",
-    "sha256": "18fe56460a6067286ea58353eb7ecbecea6f40eeaea0b99645f6cdd9a9dccb60",
-    "checks": {
-      "full_decode": true,
-      "frame_hash_decode": true,
-      "difference_decode": true,
-      "expected_temporal_behavior": true,
-      "width": true,
-      "height": true,
-      "fps": true,
-      "duration": true,
-      "frame_count": true
-    },
-    "observed": {
-      "width": 1920,
-      "height": 1080,
-      "fps": 24.0,
-      "duration": 25.0,
-      "decoded_frames": 600,
-      "unique_thumbnail_frames": 600
-    },
-    "temporal_contract": {
-      "expectation": "required",
-      "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
-      "decoded_difference_frames": 599,
-      "maximum_mean_luma_difference": 67.4792,
-      "codec_noise_threshold": 0.1
-    },
-    "audio_sync": "not_applicable",
-    "visual_review": "not_reviewed",
-    "native_project_editability": "not_checked_by_this_tool",
-    "stderr": "",
-    "scene_quality": "scene-quality.json",
-    "course_fidelity": "not_passed",
-    "delivery_status": "candidate_unaccepted"
+  "video_checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "difference_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
   },
-  "course_fidelity": "not_passed",
-  "human_review": "not_requested_due_visible_discrepancies",
+  "decoded_frames": 600,
   "native_pngs_viewed": [
-    "native-still-0.png",
-    "native-still-12.png",
-    "native-still-45.png",
-    "native-still-53.png",
-    "native-still-72.png",
-    "native-still-110.png",
-    "native-still-145.png",
-    "native-still-202.png",
-    "native-still-252.png",
+    "native-still-36.png",
+    "native-still-60.png",
+    "native-still-78.png",
+    "native-still-102.png",
+    "native-still-126.png",
+    "native-still-168.png",
+    "native-still-198.png",
+    "native-still-228.png",
+    "native-still-248.png",
+    "native-still-264.png",
     "native-still-288.png",
-    "native-still-338.png",
-    "native-still-390.png",
+    "native-still-306.png",
+    "native-still-324.png",
+    "native-still-348.png",
+    "native-still-372.png",
+    "native-still-396.png",
+    "native-still-420.png",
     "native-still-450.png",
-    "native-still-498.png",
+    "native-still-486.png",
+    "native-still-504.png",
     "native-still-540.png",
-    "native-still-599.png"
+    "native-still-594.png"
   ],
-  "reference_evidence": {
-    "p18": "Four additional1080p cues06:50/07:25/08:00/08:20 viewed",
-    "p20": "Six cues07:45–08:35 rechecked: presenter speaking, no continuous final film there"
+  "course_fidelity": "not_passed",
+  "unresolved": [
+    "Exact final camera poses/ease and label animation are not recovered",
+    "Vig implementation not shown; inherited background retained",
+    "No three-material or parameter-variation suite for this branch",
+    "Streaks retain excessive saturated magenta compared with final course playback",
+    "Early polar/noise overlap and transition timing differ",
+    "Ending path identity/brightness and exact turn count not recovered"
+  ],
+  "source_review": {
+    "p18_global_interval": "07:25–08:46 at1fps,81 frames all viewed",
+    "p18_rotation": "07:30–07:34 at12fps,48 frames all viewed; repeated cached pictures and jumps prevent exact turn-count recovery",
+    "p16": "6 more1080p frames07:55/08:15/08:22/08:30/08:45/15:28; hand-drawn mask is not the old small ellipse",
+    "p17": "10:45 Glow settings and11:50 curves rechecked; no speculative desaturation applied"
   },
-  "tests": {
-    "baseline": "native made, course fidelity failed",
-    "parameter_variation": "not_run",
-    "three_materials": "not_run",
-    "editable_project": "actual text edit/save/reopen/restore passed"
+  "human_review": {
+    "status": "pending",
+    "scope": "Tunnel extent and ending title/line placement only",
+    "comparison": [
+      "cache/reviews/final005-tunnel-001/comparison.mp4",
+      "cache/reviews/final005-ending-001/comparison.mp4"
+    ],
+    "source_intervals": [
+      "P18 07:39–07:42",
+      "P18 07:56–08:03"
+    ],
+    "native_intervals": [
+      "9.5–12.5",
+      "17.5–24.5"
+    ],
+    "synchronization": "not frame synchronized; source preview/UI clock can lag"
   },
-  "failure_evidence": "copy-layer-failure.json",
-  "overall_goal": "incomplete; remaining sources and full skill acceptance outstanding"
+  "metrics": "extent-measurements.json",
+  "diagnostic": "aperture-diagnostic.json",
+  "regressions": [
+    "Rejected003/004 native receipts retained; incomplete binary probes removed after publication",
+    "005 checks native title plane before line plane, actual mask, rotation/DOF/Blur keys after reopen"
+  ],
+  "parameter_variation": "not completed for this assembled film",
+  "three_materials": "not completed",
+  "overall_goal": "incomplete; no full film or whole Skill verification"
 }

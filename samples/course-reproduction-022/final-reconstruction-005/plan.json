@@ -1,0 +1,39 @@
+{
+  "skill": "ae-advanced-compositing",
+  "branch": "course-final-reconstruction",
+  "status": "candidate",
+  "course_fidelity": "unverified; offscreen camera/labels reconstructed from reference",
+  "steps": [
+    "Retain editable P13–17 components",
+    "Rebuild 25s timing and grouped labels",
+    "Parent camera to drift null",
+    "Native edit/reopen/restore and preview",
+    "Compare before any course-fidelity acceptance"
+  ],
+  "limitations": {
+    "observed": [
+      "P3 00:32-00:40: 25s SUBPRIME brief",
+      "P18 06:50 /07:25: six labels, drift camera parent, T1_ctrl parent of first three labels",
+      "P18 08:00: initial camera local position 0,0,-2500 and multiple position keys",
+      "P18 06:50: line scale 170,201,170"
+    ],
+    "inferred": [
+      "All camera Z values except initial; ease; key times estimated from ruler",
+      "Label font size, positions, reveal reuse and exact timing",
+      "Drift rates and application of P4 formula to camera null",
+      "Core/noise/contour fades and line source extension",
+      "Inherited background retained below layers; vig recipe not shown",
+      "Revision003 fits source playback envelope; inherited early negative Z guesses replaced, not recovered original values",
+      "Camera rotation0-to360/influence80 and DOF/Blur values inferred from visible motion/key positions; original aperture/focus retained",
+      "CoreScale140 and titleZ-20500 inferred screen-space fit",
+      "Irregular7-point radial mask fitted from P16 08:15/08:22; coordinates and handles inferred, replacing incorrect small ellipse",
+      "Second label placements corrected to advertising upper-left, financialized and attention stacked lower-right",
+      "Revision004 camera contour segment allows a forward move; monotonic retreat was an unsupported assumption",
+      "Final cameraZ-22000/titleZ-19800 fit visible ending extent; values not displayed by teacher",
+      "Contour rotation/fade, streak scale and noise fade retain audited P17 key offsets relative to each newly estimated layer start",
+      "Aperture diagnostic25.3/250/1000 did not resolve streak color mismatch; larger aperture rejected, original25.3 retained",
+      "Revision005 retains original titleZ-22000 in front of lineZ-20000; Scale46/Y560 fits text projection. Last cameraZ-23000 and lineY750 fit vertical reference envelope; numeric values remain inferred",
+      "Rejected004 placement caused title to sit behind lines and line apex to clip. Native plane-order audit now required; linesScale170/201 unchanged rather than stretching paths to hide random-geometry mismatch"
+    ]
+  }
+}

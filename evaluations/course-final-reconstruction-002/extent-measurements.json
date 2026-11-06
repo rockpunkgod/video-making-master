@@ -1,0 +1,227 @@
+{
+  "status": "measured_not_acceptance",
+  "method": "Contour: minRGB>165 and channel spread<35. Lines: maxRGB>80 and spread>35. Bounding boxes in each image normalized to its own size.",
+  "limitations": [
+    "Preview can lag behind source UI clock; samples are stage-envelope comparisons, not exact matched frames",
+    "Random path identities differ; extent alone cannot validate geometry, timing, color or aesthetics",
+    "A cropped outer contour can touch frame boundaries; no claim that larger is always better"
+  ],
+  "pairs": [
+    {
+      "name": "tunnel10",
+      "reference": {
+        "path": "cache/final-fit-20261107/reference-frames/frame_025.jpg",
+        "sha256": "ecbc9511cdeba4a643ace3d3d3cd18d0589aad322e96b2188003073c888316ae",
+        "width": 965,
+        "height": 543,
+        "pixel_fraction": 0.03339344841076728,
+        "bbox": [
+          0,
+          5,
+          964,
+          536
+        ],
+        "extent": [
+          0.9989637305699481,
+          0.9779005524861878
+        ]
+      },
+      "prior002": {
+        "path": "samples/course-reproduction-022/final-reconstruction-005/inputs/extent-baseline/native-still-252.png",
+        "sha256": "2d0aa7892e2c7b697fb8d70af2cf701fb3bf2ff6e70caa278562b922fdc92cc0",
+        "width": 1920,
+        "height": 1080,
+        "pixel_fraction": 0.0043287037037037035,
+        "bbox": [
+          816,
+          398,
+          1097,
+          678
+        ],
+        "extent": [
+          0.14635416666666667,
+          0.25925925925925924
+        ]
+      },
+      "current005": {
+        "path": "samples/course-reproduction-022/final-reconstruction-005/native-still-248.png",
+        "sha256": "5e608bf8df903a4a38157b789a402434b7fb5045315356926486c1ca93455ada",
+        "width": 1920,
+        "height": 1080,
+        "pixel_fraction": 0.018330922067901236,
+        "bbox": [
+          368,
+          0,
+          1526,
+          1080
+        ],
+        "extent": [
+          0.603125,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "tunnel11",
+      "reference": {
+        "path": "cache/final-fit-20261107/reference-frames/frame_026.jpg",
+        "sha256": "6b42fbc16d683f3a457dde1b1ed80b324637f41f55b5ed5446d641b258924d3d",
+        "width": 965,
+        "height": 543,
+        "pixel_fraction": 0.023933434479336636,
+        "bbox": [
+          64,
+          0,
+          901,
+          504
+        ],
+        "extent": [
+          0.8673575129533678,
+          0.9281767955801105
+        ]
+      },
+      "prior002": {
+        "path": "samples/course-reproduction-022/final-reconstruction-005/inputs/extent-baseline/native-still-252.png",
+        "sha256": "2d0aa7892e2c7b697fb8d70af2cf701fb3bf2ff6e70caa278562b922fdc92cc0",
+        "width": 1920,
+        "height": 1080,
+        "pixel_fraction": 0.0043287037037037035,
+        "bbox": [
+          816,
+          398,
+          1097,
+          678
+        ],
+        "extent": [
+          0.14635416666666667,
+          0.25925925925925924
+        ]
+      },
+      "current005": {
+        "path": "samples/course-reproduction-022/final-reconstruction-005/native-still-264.png",
+        "sha256": "c6f4f7cf1323720f3eccbccddd99d7e6f11a730dc06c3db9dee13311d9b75023",
+        "width": 1920,
+        "height": 1080,
+        "pixel_fraction": 0.01937548225308642,
+        "bbox": [
+          0,
+          0,
+          1920,
+          1080
+        ],
+        "extent": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "ending22",
+      "reference": {
+        "path": "cache/final-fit-20261107/reference-frames/frame_037.jpg",
+        "sha256": "9b08494df6ced47518a007a207350b3be2915f173301c2e08ebc1c26870a8732",
+        "width": 965,
+        "height": 543,
+        "pixel_fraction": 0.07418200555348811,
+        "bbox": [
+          254,
+          13,
+          712,
+          471
+        ],
+        "extent": [
+          0.47461139896373056,
+          0.8434622467771639
+        ]
+      },
+      "prior002": {
+        "path": "samples/course-reproduction-022/final-reconstruction-005/inputs/extent-baseline/native-still-540.png",
+        "sha256": "21a77b18c2c0193f87f7d990d3adbf38b9078b420a32a239eb5458b7def59221",
+        "width": 1920,
+        "height": 1080,
+        "pixel_fraction": 0.019367766203703705,
+        "bbox": [
+          701,
+          126,
+          1168,
+          732
+        ],
+        "extent": [
+          0.24322916666666666,
+          0.5611111111111111
+        ]
+      },
+      "current005": {
+        "path": "samples/course-reproduction-022/final-reconstruction-005/native-still-540.png",
+        "sha256": "47c75126f262bdf387a95c75a7f8f5bdf4cb3736ae4e9053f1a018205c6da20e",
+        "width": 1920,
+        "height": 1080,
+        "pixel_fraction": 0.05214747299382716,
+        "bbox": [
+          555,
+          0,
+          1306,
+          991
+        ],
+        "extent": [
+          0.39114583333333336,
+          0.9175925925925926
+        ]
+      }
+    },
+    {
+      "name": "ending24",
+      "reference": {
+        "path": "cache/final-fit-20261107/reference-frames/frame_038.jpg",
+        "sha256": "d8f9f6f88260da2abcaab7bf97a104ebe32e8c2c65177c5ca71afc1d97495108",
+        "width": 965,
+        "height": 543,
+        "pixel_fraction": 0.06963234382007462,
+        "bbox": [
+          264,
+          22,
+          703,
+          462
+        ],
+        "extent": [
+          0.45492227979274613,
+          0.8103130755064457
+        ]
+      },
+      "prior002": {
+        "path": "samples/course-reproduction-022/final-reconstruction-005/inputs/extent-baseline/native-still-599.png",
+        "sha256": "97541ae2123cdcf977667e2b6a8229eb4cb1ad706053bf104ed702805d27ed3f",
+        "width": 1920,
+        "height": 1080,
+        "pixel_fraction": 0.019448302469135804,
+        "bbox": [
+          697,
+          125,
+          1166,
+          731
+        ],
+        "extent": [
+          0.24427083333333333,
+          0.5611111111111111
+        ]
+      },
+      "current005": {
+        "path": "samples/course-reproduction-022/final-reconstruction-005/native-still-594.png",
+        "sha256": "868fa2dd46cc9ef6dd670068b36f258e5ac360e8ce46077e133acbd594abf945",
+        "width": 1920,
+        "height": 1080,
+        "pixel_fraction": 0.05197434413580247,
+        "bbox": [
+          545,
+          0,
+          1303,
+          990
+        ],
+        "extent": [
+          0.39479166666666665,
+          0.9166666666666666
+        ]
+      }
+    }
+  ]
+}

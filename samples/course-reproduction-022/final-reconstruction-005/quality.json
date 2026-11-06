@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course-reproduction-022\\final-reconstruction-002\\final.mp4",
-  "sha256": "18fe56460a6067286ea58353eb7ecbecea6f40eeaea0b99645f6cdd9a9dccb60",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course-reproduction-022\\final-reconstruction-005\\final.mp4",
+  "sha256": "f179ee54a9e91193784efde828c5b143895739ab7dfbbfe086e1968a6c8f91fa",
   "checks": {
     "full_decode": true,
     "frame_hash_decode": true,
@@ -25,11 +25,11 @@
     "expectation": "required",
     "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
     "decoded_difference_frames": 599,
-    "maximum_mean_luma_difference": 67.4792,
+    "maximum_mean_luma_difference": 66.9419,
     "codec_noise_threshold": 0.1
   },
   "audio_sync": "not_applicable",
-  "visual_review": "not_reviewed",
+  "visual_review": "22 native checkpoints viewed; partial reconstruction remains",
   "native_project_editability": "not_checked_by_this_tool",
   "stderr": "",
   "scene_quality": "scene-quality.json",

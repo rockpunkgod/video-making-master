@@ -1,0 +1,157 @@
+{
+  "status": "completed",
+  "apertures": [
+    25.3093363329584,
+    250,
+    1000
+  ],
+  "noise_layers": [
+    {
+      "name": "Camera 1",
+      "index": 1,
+      "position": [
+        540,
+        540,
+        333.333374023438
+      ],
+      "scale": [
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "name": "controls",
+      "index": 2,
+      "position": [
+        540,
+        540,
+        500
+      ],
+      "scale": [
+        100,
+        100,
+        100
+      ]
+    },
+    {
+      "name": "P17_FN 7",
+      "index": 3,
+      "position": [
+        2717.17385349823,
+        540,
+        582.145643556059
+      ],
+      "scale": [
+        503,
+        503,
+        503
+      ]
+    },
+    {
+      "name": "P17_FN 6",
+      "index": 4,
+      "position": [
+        918.450574727368,
+        540,
+        9.65172983930734
+      ],
+      "scale": [
+        503,
+        503,
+        503
+      ]
+    },
+    {
+      "name": "P17_FN 5",
+      "index": 5,
+      "position": [
+        794.944621430464,
+        540,
+        765.030845246518
+      ],
+      "scale": [
+        503,
+        503,
+        503
+      ]
+    },
+    {
+      "name": "P17_FN 4",
+      "index": 6,
+      "position": [
+        843.201267961227,
+        540,
+        437.029586275348
+      ],
+      "scale": [
+        503,
+        503,
+        503
+      ]
+    },
+    {
+      "name": "P17_FN 3",
+      "index": 7,
+      "position": [
+        1820.52780016524,
+        540,
+        346.257464109514
+      ],
+      "scale": [
+        503,
+        503,
+        503
+      ]
+    },
+    {
+      "name": "P17_FN 2",
+      "index": 8,
+      "position": [
+        1956.0357112717,
+        540,
+        452.862870984912
+      ],
+      "scale": [
+        503,
+        503,
+        503
+      ]
+    },
+    {
+      "name": "FN",
+      "index": 9,
+      "position": [
+        -299.614058229982,
+        540,
+        852.724674356339
+      ],
+      "scale": [
+        503,
+        503,
+        503
+      ]
+    }
+  ],
+  "images": [
+    "E:/自媒体/video-skills-lab/cache/final-fit-20261107/dof-aperture-0.png",
+    "E:/自媒体/video-skills-lab/cache/final-fit-20261107/dof-aperture-1.png",
+    "E:/自媒体/video-skills-lab/cache/final-fit-20261107/dof-aperture-2.png"
+  ],
+  "scope": "Diagnostic variation only; no source aperture value claimed",
+  "image_statistics": [
+    {
+      "sha256": "3e23a06e3ae61296d3c8821b41a3ee260da37bd1a274b879f2d2f912fa629a01",
+      "bright_color_fraction": 0.25888551311728397
+    },
+    {
+      "sha256": "23a1b39fe19f650b98789048e33dcb2d54cdd5896d534f2123cf54676fbffdaa",
+      "bright_color_fraction": 0.26445650077160493
+    },
+    {
+      "sha256": "e6d4a5cbddedff8cf2fdcbfd43ed14e8f8ab4f3553a7890f0dc23a38efce781e",
+      "bright_color_fraction": 0.28576292438271605
+    }
+  ],
+  "visual_observation": "All3 native PNGs viewed: changing aperture alone preserved large saturated magenta bars and did not match mostly white source streak stage. No large-aperture setting adopted."
+}

@@ -29,7 +29,7 @@ def check_output(root,cfg):
     scene=validate_branch(root);report['scene_quality']='scene-quality.json'
     if 'course_fidelity' in scene:
         report['course_fidelity']=scene['course_fidelity']
-        if scene['course_fidelity']=='not_passed':report['delivery_status']='candidate_unaccepted'
+        if scene['course_fidelity'] not in {'passed','accepted_overall'}:report['delivery_status']='candidate_unaccepted'
     if scene['status']!='passed':report['status']='failed'
     (root/'quality.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
     return report
