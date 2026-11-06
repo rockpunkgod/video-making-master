@@ -1,6 +1,13 @@
 {
   "scope": "Standalone video-skills-lab progress snapshot; overall curriculum incomplete",
   "cases": [
+    "samples/course2-spring-001/baseline-004",
+    "samples/course2-spring-001/constant-stage-001",
+    "samples/course2-spring-001/variation-001",
+    "samples/course2-spring-001/zigzag-002",
+    "samples/course2-spring-001/ribbon-002",
+    "samples/course2-spring-001/chain-002",
+    "samples/course2-spring-001/external-png-002",
     "samples/course-reproduction-022/final-reconstruction-005",
     "samples/course-reproduction-021/p18-proxy-lines-003",
     "samples/course-reproduction-021/p18-proxy-core-001",
@@ -761,6 +768,36 @@
       "path": "evaluations/course-p18-proxy-suite-001/summary.json",
       "bytes": 22108,
       "sha256": "83bd7bba07ef69839adc3cc2da5848d09b73e121bf4564e5b6855986835a11de"
+    },
+    {
+      "path": "evaluations/course2-p23-spring-001/external-path-repair.json",
+      "bytes": 385,
+      "sha256": "74078820d896f4d2331c56b31e39751dc576d871e1857b8c575cb5bf374d6727"
+    },
+    {
+      "path": "evaluations/course2-p23-spring-001/frozen-negative.json",
+      "bytes": 26531,
+      "sha256": "400813775be8ed0e28e7fb45004afe4384002ae06334120bb063d866a86fa572"
+    },
+    {
+      "path": "evaluations/course2-p23-spring-001/initial-png-template-failure.json",
+      "bytes": 110,
+      "sha256": "46b19b371cee424ba25a81d753efac042fd9455b52ee727f41d6a8f3ad47508d"
+    },
+    {
+      "path": "evaluations/course2-p23-spring-001/missing-percent-negative.json",
+      "bytes": 496,
+      "sha256": "12458729d1638948dcaa431b513a9ea68d375707fe5136b9077395fd7afda55e"
+    },
+    {
+      "path": "evaluations/course2-p23-spring-001/stream-coverage.json",
+      "bytes": 397,
+      "sha256": "55d52a7c74b8c4e6fa6275f5a2527d6379c836f04ced11f99010e588a6035d57"
+    },
+    {
+      "path": "evaluations/course2-p23-spring-001/summary.json",
+      "bytes": 8081,
+      "sha256": "5c81bfcc7736150df8852376d4b5d580370409f6533d0addb6f102f66832e38a"
     },
     {
       "path": "evaluations/first-skill.json",
@@ -6022,6 +6059,641 @@
       "sha256": "753aa0d0260f93e88b49449cb115aa7ff2f02dda588581801eb3c806c550b66c"
     },
     {
+      "path": "samples/course2-spring-001/baseline-004/assets/connector.png",
+      "bytes": 1281,
+      "sha256": "c3230d80d2af597cb6106a0f91c024fb6d59b59710d01c79d1ba07d0a7da601e"
+    },
+    {
+      "path": "samples/course2-spring-001/baseline-004/final.mp4",
+      "bytes": 92746,
+      "sha256": "d99d80b1c5fa64a382d21e9fe766a2b65ff2edbbd07edc0599ebc5e7c783f3ee"
+    },
+    {
+      "path": "samples/course2-spring-001/baseline-004/frozen-negative.json",
+      "bytes": 27813,
+      "sha256": "72ca18c56de56e348380730094de4cc9dde8dcf195abc7d30635b80ed0109228"
+    },
+    {
+      "path": "samples/course2-spring-001/baseline-004/native-still-0.png",
+      "bytes": 26734,
+      "sha256": "f9f18241b0627443179860171dc5349db8f42ebb1a4f50b17d4013f23b940c6f"
+    },
+    {
+      "path": "samples/course2-spring-001/baseline-004/native-still-10.png",
+      "bytes": 63455,
+      "sha256": "fd9020fee4a07c287ed15ce1fbf5bcadabd6b9196eb832a5d627c86cb750937d"
+    },
+    {
+      "path": "samples/course2-spring-001/baseline-004/native-still-15.png",
+      "bytes": 54765,
+      "sha256": "f5b025edb2784efe9419f5c825df7550f5ac66e0523f5ad40ad4f13e83de3a25"
+    },
+    {
+      "path": "samples/course2-spring-001/baseline-004/native-still-179.png",
+      "bytes": 26734,
+      "sha256": "f9f18241b0627443179860171dc5349db8f42ebb1a4f50b17d4013f23b940c6f"
+    },
+    {
+      "path": "samples/course2-spring-001/baseline-004/native-still-25.png",
+      "bytes": 36835,
+      "sha256": "039d9384b24eb7b2f752820030748838ee28b80cbc3c536cc5a5c3668c9cac9b"
+    },
+    {
+      "path": "samples/course2-spring-001/baseline-004/native-still-40.png",
+      "bytes": 53272,
+      "sha256": "63919375a4bef17197d1ffd1973c0a3ab377368a3fca240dc50d04f3694037fe"
+    },
+    {
+      "path": "samples/course2-spring-001/baseline-004/native-still-5.png",
+      "bytes": 64611,
+      "sha256": "33e2f8d8658599347b47481534c901915be37690a83028ec5d1d940a0bcf2f77"
+    },
+    {
+      "path": "samples/course2-spring-001/baseline-004/native-still-55.png",
+      "bytes": 50470,
+      "sha256": "c09edb88e84e7282363ad70896c84a3c65e814745ae85dd89322800babd4f857"
+    },
+    {
+      "path": "samples/course2-spring-001/baseline-004/native-still-60.png",
+      "bytes": 26734,
+      "sha256": "f9f18241b0627443179860171dc5349db8f42ebb1a4f50b17d4013f23b940c6f"
+    },
+    {
+      "path": "samples/course2-spring-001/baseline-004/native-still-90.png",
+      "bytes": 26734,
+      "sha256": "f9f18241b0627443179860171dc5349db8f42ebb1a4f50b17d4013f23b940c6f"
+    },
+    {
+      "path": "samples/course2-spring-001/baseline-004/plan.json",
+      "bytes": 623,
+      "sha256": "eced6050e0a9522c0bc72a246445aac7c6b3ed1024676a5e26acabb0a958bb76"
+    },
+    {
+      "path": "samples/course2-spring-001/baseline-004/project.aep",
+      "bytes": 386947,
+      "sha256": "7f6210b58b095a2cee557a956f37b8b8090543ea4a5d955e494ba004638f43e5"
+    },
+    {
+      "path": "samples/course2-spring-001/baseline-004/quality.json",
+      "bytes": 955,
+      "sha256": "5d57659f80bd8df8ac3fd8136c58838c5370fa661155a618e7f1c668c0d40897"
+    },
+    {
+      "path": "samples/course2-spring-001/baseline-004/receipt.json",
+      "bytes": 18555,
+      "sha256": "f0e812c084ee4120fe5b0265075aeb7865ef18f6bdaad697bc143b41a9a6543f"
+    },
+    {
+      "path": "samples/course2-spring-001/baseline-004/request.json",
+      "bytes": 1172,
+      "sha256": "baebb051bec4e83d1860a8f05c585ea95d00a3fc0dbfcfce03b0838507bdad4a"
+    },
+    {
+      "path": "samples/course2-spring-001/baseline-004/spring-quality.json",
+      "bytes": 27843,
+      "sha256": "0397045cd11dde9b4ff7ef54e481651235b10202a1e5f48278171d31953e810e"
+    },
+    {
+      "path": "samples/course2-spring-001/chain-002/assets/connector.png",
+      "bytes": 780,
+      "sha256": "785510c740bf4d8bffffaafa6df0a2be8eaba3f1de2ce718d44d70ab35f0d6d1"
+    },
+    {
+      "path": "samples/course2-spring-001/chain-002/final.mp4",
+      "bytes": 95062,
+      "sha256": "ce76b6eaae18a7533f07b699d90cce59907da121f2d674054ad4176e5aee9038"
+    },
+    {
+      "path": "samples/course2-spring-001/chain-002/native-still-0.png",
+      "bytes": 29741,
+      "sha256": "f5c2484a0b4e14b3371fd9793f3473c6a5af5936a429838aec886c74d95c4163"
+    },
+    {
+      "path": "samples/course2-spring-001/chain-002/native-still-10.png",
+      "bytes": 74783,
+      "sha256": "cc860f45b261032cc6315d60fb1e25ab16f86fcdb76a25b2d5a2426dc8d40de5"
+    },
+    {
+      "path": "samples/course2-spring-001/chain-002/native-still-15.png",
+      "bytes": 69184,
+      "sha256": "73d17da4d78247c2ac1e3ce79123c743fe43130704950be78be96c664084e434"
+    },
+    {
+      "path": "samples/course2-spring-001/chain-002/native-still-179.png",
+      "bytes": 29741,
+      "sha256": "f5c2484a0b4e14b3371fd9793f3473c6a5af5936a429838aec886c74d95c4163"
+    },
+    {
+      "path": "samples/course2-spring-001/chain-002/native-still-25.png",
+      "bytes": 53129,
+      "sha256": "6880dd926834ba07f3a6bbce285f188a701307130107257d926ac57cf097aeec"
+    },
+    {
+      "path": "samples/course2-spring-001/chain-002/native-still-40.png",
+      "bytes": 62856,
+      "sha256": "c78dc35c38af9a7f6fac5c2b012cd18a03e3be91fc82044e3aee136d5ee40e90"
+    },
+    {
+      "path": "samples/course2-spring-001/chain-002/native-still-5.png",
+      "bytes": 75890,
+      "sha256": "284347518459c9a31669187be6b18c1d444c213cb526b0ea205301c1022c83f0"
+    },
+    {
+      "path": "samples/course2-spring-001/chain-002/native-still-55.png",
+      "bytes": 62658,
+      "sha256": "67895191de0aacc7183af429b9d526f69b52c688bb714ceaf18f8aba6d984ab8"
+    },
+    {
+      "path": "samples/course2-spring-001/chain-002/native-still-60.png",
+      "bytes": 29741,
+      "sha256": "f5c2484a0b4e14b3371fd9793f3473c6a5af5936a429838aec886c74d95c4163"
+    },
+    {
+      "path": "samples/course2-spring-001/chain-002/native-still-90.png",
+      "bytes": 29741,
+      "sha256": "f5c2484a0b4e14b3371fd9793f3473c6a5af5936a429838aec886c74d95c4163"
+    },
+    {
+      "path": "samples/course2-spring-001/chain-002/plan.json",
+      "bytes": 623,
+      "sha256": "eced6050e0a9522c0bc72a246445aac7c6b3ed1024676a5e26acabb0a958bb76"
+    },
+    {
+      "path": "samples/course2-spring-001/chain-002/project.aep",
+      "bytes": 484261,
+      "sha256": "f4f0d33b4853ae81bb53956b75c4bb84dd3b3b820a5fe4d178a39c73af55403c"
+    },
+    {
+      "path": "samples/course2-spring-001/chain-002/quality.json",
+      "bytes": 952,
+      "sha256": "942d10f9113ade6ce265d56a0211ae0872fb912b6c51f5910d996c86361a4d59"
+    },
+    {
+      "path": "samples/course2-spring-001/chain-002/receipt.json",
+      "bytes": 18553,
+      "sha256": "a8637d00b96c91ac62a9a8f68be9374e0b9ceb280c9a4c3698700f2dc99a9f95"
+    },
+    {
+      "path": "samples/course2-spring-001/chain-002/request.json",
+      "bytes": 1251,
+      "sha256": "2e59b886ed88b74ccf58cd3c4bac3999d0cc1eaab957c6a0f39cf3a2459e9472"
+    },
+    {
+      "path": "samples/course2-spring-001/chain-002/spring-quality.json",
+      "bytes": 27830,
+      "sha256": "ee22f0ab1a739bf13a4aadf1369eac29af2076bfcc198d18a7a9e3a0ced1569d"
+    },
+    {
+      "path": "samples/course2-spring-001/constant-stage-001/assets/connector.png",
+      "bytes": 1281,
+      "sha256": "c3230d80d2af597cb6106a0f91c024fb6d59b59710d01c79d1ba07d0a7da601e"
+    },
+    {
+      "path": "samples/course2-spring-001/constant-stage-001/final.mp4",
+      "bytes": 196903,
+      "sha256": "9ce4bad0acbe8a3f7c817a10351f37d227e06dbbf9dd3e69d499c8c7531c49ac"
+    },
+    {
+      "path": "samples/course2-spring-001/constant-stage-001/native-still-0.png",
+      "bytes": 28822,
+      "sha256": "6be88ec2394109cc4a81c040681095e28e2c4ae26a2555e219ae65119d1d80a5"
+    },
+    {
+      "path": "samples/course2-spring-001/constant-stage-001/native-still-10.png",
+      "bytes": 60796,
+      "sha256": "2146268b2e33c122c5cdd45452d3659af7fa0fa008933e92171758093c6051b3"
+    },
+    {
+      "path": "samples/course2-spring-001/constant-stage-001/native-still-15.png",
+      "bytes": 62971,
+      "sha256": "6817e7b626933b4b08161a89aa617ed9488cccab61af202bcfe9abc975582d53"
+    },
+    {
+      "path": "samples/course2-spring-001/constant-stage-001/native-still-179.png",
+      "bytes": 43581,
+      "sha256": "dc81b8c85dcc0070d087aa48ebed16916df5ebff8ea2f283c23ed84e423d0a31"
+    },
+    {
+      "path": "samples/course2-spring-001/constant-stage-001/native-still-25.png",
+      "bytes": 57904,
+      "sha256": "2c1c6cd128be31eff0b1ea8635893ab9a8df48302d3187897897ecbb59312652"
+    },
+    {
+      "path": "samples/course2-spring-001/constant-stage-001/native-still-40.png",
+      "bytes": 44344,
+      "sha256": "c080492f6c7668acb7667fee80e61c278922425667ad83cda3d6c2532b7b5bec"
+    },
+    {
+      "path": "samples/course2-spring-001/constant-stage-001/native-still-5.png",
+      "bytes": 60086,
+      "sha256": "6e1dbe7e30f364fcf0ef87d28296a706d2d93c7415ed46e8c137ea51dad6ca8f"
+    },
+    {
+      "path": "samples/course2-spring-001/constant-stage-001/native-still-55.png",
+      "bytes": 45139,
+      "sha256": "605d89ed578c74c0eada2c6028104f06c9f849ae08226e86fe4c189f348c0f06"
+    },
+    {
+      "path": "samples/course2-spring-001/constant-stage-001/native-still-60.png",
+      "bytes": 51338,
+      "sha256": "f95509aa0a9e37539f3f171a1bc8482538594b4e781ce5aaa797be2dbda429a4"
+    },
+    {
+      "path": "samples/course2-spring-001/constant-stage-001/native-still-90.png",
+      "bytes": 59485,
+      "sha256": "c32795171e8ce2f58d2ca0c848df266b531e82aa8cf81eab3b9f24c47884a9a5"
+    },
+    {
+      "path": "samples/course2-spring-001/constant-stage-001/plan.json",
+      "bytes": 623,
+      "sha256": "eced6050e0a9522c0bc72a246445aac7c6b3ed1024676a5e26acabb0a958bb76"
+    },
+    {
+      "path": "samples/course2-spring-001/constant-stage-001/project.aep",
+      "bytes": 386939,
+      "sha256": "974907720dc5690e948947c7ba5af46edd63e0cf1ba4154070e95f979b9219ef"
+    },
+    {
+      "path": "samples/course2-spring-001/constant-stage-001/quality.json",
+      "bytes": 962,
+      "sha256": "7524e8021b7a2f4be25fb28b7f23c781b7e28ee2b6f53d471c4c7be48e2a4573"
+    },
+    {
+      "path": "samples/course2-spring-001/constant-stage-001/receipt.json",
+      "bytes": 21630,
+      "sha256": "a1dcac41557a95eb45e09b06679286b7eec9a27550907c47e017bb3fbb6645ff"
+    },
+    {
+      "path": "samples/course2-spring-001/constant-stage-001/request.json",
+      "bytes": 1096,
+      "sha256": "fd71eda93be64720939dc45040b9cfef4c029a52908bcd61cb39626a9bc91e09"
+    },
+    {
+      "path": "samples/course2-spring-001/constant-stage-001/spring-quality.json",
+      "bytes": 31154,
+      "sha256": "d2bcf8904f9ac4ba04ad8dfbf7336ff3a2509f7dd868fe69459ace0d5e25f1ec"
+    },
+    {
+      "path": "samples/course2-spring-001/external-png-002/assets/connector.png",
+      "bytes": 1300,
+      "sha256": "1d2573ae31715e42043da8057ac080027e6045eb642884475855cfcfbbc32bda"
+    },
+    {
+      "path": "samples/course2-spring-001/external-png-002/final.mp4",
+      "bytes": 63191,
+      "sha256": "3173d211aacacd4acf952e346567a0e9332770a8748f98afa3974b95dcc185f5"
+    },
+    {
+      "path": "samples/course2-spring-001/external-png-002/native-still-0.png",
+      "bytes": 34264,
+      "sha256": "fc30a4c368d4c2069588134e29591969fea1cd496a2fbe9a9e10edab4b0f09ed"
+    },
+    {
+      "path": "samples/course2-spring-001/external-png-002/native-still-10.png",
+      "bytes": 44077,
+      "sha256": "f4cb0b0973077057a28f2be99d3ec01bdb50acb2593fda3f4d1657aa0682e1c5"
+    },
+    {
+      "path": "samples/course2-spring-001/external-png-002/native-still-15.png",
+      "bytes": 43447,
+      "sha256": "a8a9793af0c149027b05ba10a36dbdddeb44e3091d381bdba47272b45a167847"
+    },
+    {
+      "path": "samples/course2-spring-001/external-png-002/native-still-179.png",
+      "bytes": 34264,
+      "sha256": "fc30a4c368d4c2069588134e29591969fea1cd496a2fbe9a9e10edab4b0f09ed"
+    },
+    {
+      "path": "samples/course2-spring-001/external-png-002/native-still-25.png",
+      "bytes": 39508,
+      "sha256": "ac230695575a2a90162099ccbb7a0d86d77e3f3f03a1cf2f604e0244d6cbc66f"
+    },
+    {
+      "path": "samples/course2-spring-001/external-png-002/native-still-40.png",
+      "bytes": 37530,
+      "sha256": "b96dc911148ba768e1870741b7530f9e6e97ce0bbb1cd2ff44ecedb91884a3c7"
+    },
+    {
+      "path": "samples/course2-spring-001/external-png-002/native-still-5.png",
+      "bytes": 42481,
+      "sha256": "0d2a878c34a46ddfc5eac9f465cf88e2c7580c2ce0564b2716c8ed41bedcc6c7"
+    },
+    {
+      "path": "samples/course2-spring-001/external-png-002/native-still-55.png",
+      "bytes": 41274,
+      "sha256": "503f80478a4e99dd344f81d0c8990bb9e37716fa33255110f7885a66509eaa9d"
+    },
+    {
+      "path": "samples/course2-spring-001/external-png-002/native-still-60.png",
+      "bytes": 41153,
+      "sha256": "a8bc7ab0feeabf03a14b82da8049ba5c86b49e4a287bb857d07c9e36f0fc76f8"
+    },
+    {
+      "path": "samples/course2-spring-001/external-png-002/native-still-90.png",
+      "bytes": 34264,
+      "sha256": "fc30a4c368d4c2069588134e29591969fea1cd496a2fbe9a9e10edab4b0f09ed"
+    },
+    {
+      "path": "samples/course2-spring-001/external-png-002/plan.json",
+      "bytes": 623,
+      "sha256": "eced6050e0a9522c0bc72a246445aac7c6b3ed1024676a5e26acabb0a958bb76"
+    },
+    {
+      "path": "samples/course2-spring-001/external-png-002/project.aep",
+      "bytes": 322731,
+      "sha256": "2f2f0a7f0d6a036b62833f45d9e6e1058fe248033eaae6843791cf2d2db31c09"
+    },
+    {
+      "path": "samples/course2-spring-001/external-png-002/quality.json",
+      "bytes": 959,
+      "sha256": "d3d312d1327e20029b2e30e1968b4821752104c5eecee03bd216729d85b74aa3"
+    },
+    {
+      "path": "samples/course2-spring-001/external-png-002/receipt.json",
+      "bytes": 18941,
+      "sha256": "a656f5634c871df81175446deffc38ee26ddf63da2dc5a35de9517303ad540d7"
+    },
+    {
+      "path": "samples/course2-spring-001/external-png-002/request.json",
+      "bytes": 1644,
+      "sha256": "1e9d1b3eaa887cda770f2a1e3b5f6080f1758d6533fd08db382fed704021a2a2"
+    },
+    {
+      "path": "samples/course2-spring-001/external-png-002/spring-quality.json",
+      "bytes": 28267,
+      "sha256": "9b5a346a59d957dea89cf262eaff8f7df374756d2ca545cae5d6f1e3321d0f4c"
+    },
+    {
+      "path": "samples/course2-spring-001/ribbon-002/assets/connector.png",
+      "bytes": 1061,
+      "sha256": "39f644cc2a345d7a4725b2b8b03688311804ccb1f522aee7a855c3c7d8cbbfbc"
+    },
+    {
+      "path": "samples/course2-spring-001/ribbon-002/final.mp4",
+      "bytes": 81474,
+      "sha256": "23d7b5210d35ae32cd1f31028b9f21fa1c1133def360ab250f50e248e3a38223"
+    },
+    {
+      "path": "samples/course2-spring-001/ribbon-002/native-still-0.png",
+      "bytes": 36092,
+      "sha256": "c8fd14020814724496997a458b00c55934cae39bd5907d113c107a966d8420f6"
+    },
+    {
+      "path": "samples/course2-spring-001/ribbon-002/native-still-10.png",
+      "bytes": 77522,
+      "sha256": "17678ecd10b13602eb1524c30396b51168892088cb50f0b9fd1904a531effe91"
+    },
+    {
+      "path": "samples/course2-spring-001/ribbon-002/native-still-15.png",
+      "bytes": 68553,
+      "sha256": "b974513e508683c58cf93af2358612434763e3b82e0ffffe56034a529ceacdac"
+    },
+    {
+      "path": "samples/course2-spring-001/ribbon-002/native-still-179.png",
+      "bytes": 36092,
+      "sha256": "c8fd14020814724496997a458b00c55934cae39bd5907d113c107a966d8420f6"
+    },
+    {
+      "path": "samples/course2-spring-001/ribbon-002/native-still-25.png",
+      "bytes": 54575,
+      "sha256": "46185922ba3940b26a16344416f65b8e5ee9dc58484b2128049b0b56374a1d71"
+    },
+    {
+      "path": "samples/course2-spring-001/ribbon-002/native-still-40.png",
+      "bytes": 59931,
+      "sha256": "5c0d3dda756d1cafc089552ee04f63234c2e5006da2b31a40ef005602d8199cc"
+    },
+    {
+      "path": "samples/course2-spring-001/ribbon-002/native-still-5.png",
+      "bytes": 76883,
+      "sha256": "c2512a085460cb1b335c7ba3bd8df61d9eccc23c11693ae20a1866f75f792d29"
+    },
+    {
+      "path": "samples/course2-spring-001/ribbon-002/native-still-55.png",
+      "bytes": 63292,
+      "sha256": "39542dccbdd5598409100e53e602e3f1de10439e2c55ca915481b5fa3299e627"
+    },
+    {
+      "path": "samples/course2-spring-001/ribbon-002/native-still-60.png",
+      "bytes": 36092,
+      "sha256": "c8fd14020814724496997a458b00c55934cae39bd5907d113c107a966d8420f6"
+    },
+    {
+      "path": "samples/course2-spring-001/ribbon-002/native-still-90.png",
+      "bytes": 36092,
+      "sha256": "c8fd14020814724496997a458b00c55934cae39bd5907d113c107a966d8420f6"
+    },
+    {
+      "path": "samples/course2-spring-001/ribbon-002/plan.json",
+      "bytes": 623,
+      "sha256": "eced6050e0a9522c0bc72a246445aac7c6b3ed1024676a5e26acabb0a958bb76"
+    },
+    {
+      "path": "samples/course2-spring-001/ribbon-002/project.aep",
+      "bytes": 411379,
+      "sha256": "b40873d0bc9a2182e8cc5343184ba3c58620bb1b58d04d908b95147f8fdf6aa0"
+    },
+    {
+      "path": "samples/course2-spring-001/ribbon-002/quality.json",
+      "bytes": 953,
+      "sha256": "9acff50f5eb21e69ba2a9f102ad2c1971c2bdd74a28a535e410f650c9dcc435e"
+    },
+    {
+      "path": "samples/course2-spring-001/ribbon-002/receipt.json",
+      "bytes": 18545,
+      "sha256": "36b5f50f741249379d3077a1ec2f5d2d9be637bdbd4e05c9c79fc37e1db3beb6"
+    },
+    {
+      "path": "samples/course2-spring-001/ribbon-002/request.json",
+      "bytes": 1253,
+      "sha256": "75ff82905bc43cf79257536d83edc15588a3e289547de3f38b7471c72a96bf40"
+    },
+    {
+      "path": "samples/course2-spring-001/ribbon-002/spring-quality.json",
+      "bytes": 27837,
+      "sha256": "e9bcb286a53d69c7e0e40990e7d1ea2bdc7da76bbec93e1c02698f65e07d4a93"
+    },
+    {
+      "path": "samples/course2-spring-001/variation-001/assets/connector.png",
+      "bytes": 1281,
+      "sha256": "c3230d80d2af597cb6106a0f91c024fb6d59b59710d01c79d1ba07d0a7da601e"
+    },
+    {
+      "path": "samples/course2-spring-001/variation-001/final.mp4",
+      "bytes": 125233,
+      "sha256": "a7ff00f89c8cb2dc347c5dabe889f8d92e0c7b9acee0c1381e07e3d0664c7f98"
+    },
+    {
+      "path": "samples/course2-spring-001/variation-001/native-still-0.png",
+      "bytes": 28822,
+      "sha256": "6be88ec2394109cc4a81c040681095e28e2c4ae26a2555e219ae65119d1d80a5"
+    },
+    {
+      "path": "samples/course2-spring-001/variation-001/native-still-10.png",
+      "bytes": 60235,
+      "sha256": "beb60683d3371c2a4946496247d6a069bd0f286b2e789432530e9e7c0604432b"
+    },
+    {
+      "path": "samples/course2-spring-001/variation-001/native-still-120.png",
+      "bytes": 28822,
+      "sha256": "6be88ec2394109cc4a81c040681095e28e2c4ae26a2555e219ae65119d1d80a5"
+    },
+    {
+      "path": "samples/course2-spring-001/variation-001/native-still-15.png",
+      "bytes": 43421,
+      "sha256": "4e6824f7ff9f4116ee5c6d8f06147d72e68ff3bb6f19a6fb8e79ab6493be83d1"
+    },
+    {
+      "path": "samples/course2-spring-001/variation-001/native-still-239.png",
+      "bytes": 28822,
+      "sha256": "6be88ec2394109cc4a81c040681095e28e2c4ae26a2555e219ae65119d1d80a5"
+    },
+    {
+      "path": "samples/course2-spring-001/variation-001/native-still-25.png",
+      "bytes": 58310,
+      "sha256": "2e09bc309730cae3eb0484e40377d7f5c2c31b87b677cde9dd66b8df738a250c"
+    },
+    {
+      "path": "samples/course2-spring-001/variation-001/native-still-40.png",
+      "bytes": 45929,
+      "sha256": "bf1785e70441e8e0ac7dccc94703f96b98a4005f094953672c3220f12da766c1"
+    },
+    {
+      "path": "samples/course2-spring-001/variation-001/native-still-5.png",
+      "bytes": 64379,
+      "sha256": "bca6387beef8772f1e4a970f56cfcdcc52e759676f70c0f98ee287ad9b387fd5"
+    },
+    {
+      "path": "samples/course2-spring-001/variation-001/native-still-55.png",
+      "bytes": 55125,
+      "sha256": "5a06709fc0a26bdc6125ab3228c98df7f4b9bee294702267edef9ef55d1da386"
+    },
+    {
+      "path": "samples/course2-spring-001/variation-001/native-still-60.png",
+      "bytes": 53470,
+      "sha256": "d6dfae28e9f2cde05b0920f800354612d1056459413c315dcc6f40b5487e842d"
+    },
+    {
+      "path": "samples/course2-spring-001/variation-001/plan.json",
+      "bytes": 623,
+      "sha256": "eced6050e0a9522c0bc72a246445aac7c6b3ed1024676a5e26acabb0a958bb76"
+    },
+    {
+      "path": "samples/course2-spring-001/variation-001/project.aep",
+      "bytes": 386945,
+      "sha256": "5245f00c5a8c5831a73bca9856c41e4fe97834208d8c70b7d706e1266d903326"
+    },
+    {
+      "path": "samples/course2-spring-001/variation-001/quality.json",
+      "bytes": 957,
+      "sha256": "6781e8027c915fc54da3ca32c98d848c0ba21a0aa72af89181d541256099930f"
+    },
+    {
+      "path": "samples/course2-spring-001/variation-001/receipt.json",
+      "bytes": 24491,
+      "sha256": "1be53cb4956096a25589bafcf906a3d52e7ba95b4465a34d7e00a0253d58d541"
+    },
+    {
+      "path": "samples/course2-spring-001/variation-001/request.json",
+      "bytes": 1124,
+      "sha256": "509737881e52f3014ccc72e0fdad4d7a112283f6373f6dca2c17ad1b5948c82d"
+    },
+    {
+      "path": "samples/course2-spring-001/variation-001/spring-quality.json",
+      "bytes": 37190,
+      "sha256": "376e35f027310c559697d923f63472a5e464af395a3b0ebc04f67d389e683690"
+    },
+    {
+      "path": "samples/course2-spring-001/zigzag-002/assets/connector.png",
+      "bytes": 2168,
+      "sha256": "0b19c099ac52fae489b742434c9ea765efc84304a4717e287df555e650c70ca9"
+    },
+    {
+      "path": "samples/course2-spring-001/zigzag-002/final.mp4",
+      "bytes": 87793,
+      "sha256": "94cd01406d6d8042f9d3b0c3136f4fd36ed9a753304d3f3c48b40bc02e5fa463"
+    },
+    {
+      "path": "samples/course2-spring-001/zigzag-002/native-still-0.png",
+      "bytes": 49035,
+      "sha256": "2b1e50cea14c95b993af31e75100ed6cf2d67063f7f1070fdfc6b91ead2f1c00"
+    },
+    {
+      "path": "samples/course2-spring-001/zigzag-002/native-still-10.png",
+      "bytes": 67718,
+      "sha256": "9f506177d60f0bace9f2d81394d5b07c5d1f18b2d29b3f93e10222b6ac3f7b85"
+    },
+    {
+      "path": "samples/course2-spring-001/zigzag-002/native-still-15.png",
+      "bytes": 59990,
+      "sha256": "0549f358607981f1dd663fe5657391484c92614a6beb737cf1189fb73d245be0"
+    },
+    {
+      "path": "samples/course2-spring-001/zigzag-002/native-still-179.png",
+      "bytes": 49035,
+      "sha256": "2b1e50cea14c95b993af31e75100ed6cf2d67063f7f1070fdfc6b91ead2f1c00"
+    },
+    {
+      "path": "samples/course2-spring-001/zigzag-002/native-still-25.png",
+      "bytes": 44011,
+      "sha256": "db5cb094dbd2596c76209e3ce0e87b3612f75f2977b658624aa34dd1b687b963"
+    },
+    {
+      "path": "samples/course2-spring-001/zigzag-002/native-still-40.png",
+      "bytes": 63929,
+      "sha256": "2401d138de42a557ae9046c01c2a2be7680210afc94a9597d5e3c5d29317e98f"
+    },
+    {
+      "path": "samples/course2-spring-001/zigzag-002/native-still-5.png",
+      "bytes": 71058,
+      "sha256": "b40d701e04a163cc36193d39f821e03db5bb3cc41039a76cb22cbcf85042951b"
+    },
+    {
+      "path": "samples/course2-spring-001/zigzag-002/native-still-55.png",
+      "bytes": 56555,
+      "sha256": "27cee36883cc7062e66a507598dc540f1e0212c345e125acaa90fdd08bf3cbfb"
+    },
+    {
+      "path": "samples/course2-spring-001/zigzag-002/native-still-60.png",
+      "bytes": 49035,
+      "sha256": "2b1e50cea14c95b993af31e75100ed6cf2d67063f7f1070fdfc6b91ead2f1c00"
+    },
+    {
+      "path": "samples/course2-spring-001/zigzag-002/native-still-90.png",
+      "bytes": 49035,
+      "sha256": "2b1e50cea14c95b993af31e75100ed6cf2d67063f7f1070fdfc6b91ead2f1c00"
+    },
+    {
+      "path": "samples/course2-spring-001/zigzag-002/plan.json",
+      "bytes": 623,
+      "sha256": "eced6050e0a9522c0bc72a246445aac7c6b3ed1024676a5e26acabb0a958bb76"
+    },
+    {
+      "path": "samples/course2-spring-001/zigzag-002/project.aep",
+      "bytes": 380183,
+      "sha256": "02e487347f0307a2d51289414fadbaf2e7d01fd37865b80df7cbc6debeadd0dd"
+    },
+    {
+      "path": "samples/course2-spring-001/zigzag-002/quality.json",
+      "bytes": 953,
+      "sha256": "ac78af676fc28c3307aa87302d8f60ca001793887d27c262a8c119b0cc3227f3"
+    },
+    {
+      "path": "samples/course2-spring-001/zigzag-002/receipt.json",
+      "bytes": 18548,
+      "sha256": "55786734e1fa47c2f12202d971e4557ef778bf05c28ea2a92bdffc437b454b8b"
+    },
+    {
+      "path": "samples/course2-spring-001/zigzag-002/request.json",
+      "bytes": 1253,
+      "sha256": "0e34318e88ae06d97a77067b4de784ea2c78e91db59c06af2bd767f74c0db663"
+    },
+    {
+      "path": "samples/course2-spring-001/zigzag-002/spring-quality.json",
+      "bytes": 27837,
+      "sha256": "dcf547d702afafeda23cae1838e234936b5704386f377dfac3b7e8dcd13cba82"
+    },
+    {
       "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/assets.json",
       "bytes": 3976,
       "sha256": "9544dead507abc1e5e63152574fa5b94a67908d2b5d649788572fb7b9396cca1"
@@ -6857,6 +7529,13 @@
     "samples/course-reproduction-021/p18-proxy-lines-003/assets/proxy.mov",
     "samples/course-reproduction-021/p18-proxy-lines-originals-001/assets/proxy.mov",
     "samples/course-reproduction-021/p18-proxy-type-001/assets/proxy.mov",
+    "samples/course2-spring-001/baseline-004/assets/connector.png",
+    "samples/course2-spring-001/chain-002/assets/connector.png",
+    "samples/course2-spring-001/constant-stage-001/assets/connector.png",
+    "samples/course2-spring-001/external-png-002/assets/connector.png",
+    "samples/course2-spring-001/ribbon-002/assets/connector.png",
+    "samples/course2-spring-001/variation-001/assets/connector.png",
+    "samples/course2-spring-001/zigzag-002/assets/connector.png",
     "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/dialogue-0.wav",
     "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/dialogue-1.wav",
     "samples/pr-sound-suite-001/baseline-soft-transitions-001/inputs/impact.wav",
@@ -6922,5 +7601,5 @@
     "repeated native audio/video exports"
   ],
   "portability": "Native projects retain original Windows media paths. Rebuild from the bundled scripts or relink the bundled inputs/assets; historical report references may point to local-only artifacts.",
-  "total_selected_bytes": 2351370501
+  "total_selected_bytes": 2358738715
 }

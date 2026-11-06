@@ -9,6 +9,13 @@ from validate_video import validate
 
 def check_output(root,cfg):
     report=validate(root/'final.mp4',cfg)
+    if cfg.get('animation')=='spring-connector':
+        from validate_spring_connector import validate as spring_validate
+        spring=spring_validate(root)
+        report['spring_quality']='spring-quality.json'
+        report['course_fidelity']='not_evaluated'
+        report['delivery_status']='candidate_unaccepted'
+        if spring['status']!='passed':report['status']='failed'
     if cfg.get('animation')=='type-reveal':
         audit=subprocess.run([sys.executable,str(Path(__file__).parent/'validate_type_reveal.py'),str(root)],capture_output=True)
         (root/'type-reveal-validation.log').write_bytes(audit.stdout+b'\n'+audit.stderr)
@@ -34,7 +41,7 @@ def render(directory,executable,timeout,reuse=False):
     if data.get('status')!='built' or not data.get('project_reopened') or data.get('expression_errors'):
         raise ValueError('Build did not pass native reopen and expression checks')
     if not data.get('selected_template'):raise ValueError('No supported output template found; inspect output_templates in the native receipt')
-    if any((root/'render').glob('frame_*.png')) or (root/'final.mp4').exists():raise FileExistsError('Refusing stale render output')
+    if any((root/'render').glob('frame_*')) or (root/'final.mp4').exists():raise FileExistsError('Refusing stale render output')
     try:
         result=subprocess.run([str(Path(executable).resolve()),*(['-reuse'] if reuse else []),'-project',str(project)],capture_output=True,timeout=timeout)
         (root/'aerender.log').write_bytes(result.stdout+b'\n'+result.stderr)
@@ -47,13 +54,14 @@ def render(directory,executable,timeout,reuse=False):
         if not native.is_file():raise RuntimeError('Native render output missing')
         native.replace(root/'final.mp4')
         return check_output(root,cfg)
-    frames=sorted((root/'render').glob('frame_*.png'))
-    numbers=[int(re.fullmatch(r'frame_(\d+)\.png',p.name).group(1)) for p in frames]
+    suffix='tif' if data.get('output_format')=='tiff' else 'png'
+    frames=sorted((root/'render').glob('frame_*.'+suffix))
+    numbers=[int(re.fullmatch(r'frame_(\d+)\.'+suffix,p.name).group(1)) for p in frames]
     cfg=json.loads((root/'request.json').read_text(encoding='utf-8'))
     if not numbers or len(numbers)!=round(cfg['duration']*cfg['fps']) or numbers!=list(range(numbers[0],numbers[0]+len(numbers))):
         raise RuntimeError('Missing, extra or noncontiguous native frames')
     digits=len(frames[0].stem.split('_')[-1])
-    subprocess.run(['ffmpeg','-v','error','-n','-framerate',str(cfg['fps']),'-start_number',str(numbers[0]),'-i',str(root/'render'/f'frame_%0{digits}d.png'),
+    subprocess.run(['ffmpeg','-v','error','-n','-framerate',str(cfg['fps']),'-start_number',str(numbers[0]),'-i',str(root/'render'/f'frame_%0{digits}d.{suffix}'),
                     '-c:v','libx264','-crf','18','-pix_fmt','yuv420p','-movflags','+faststart',str(root/'final.mp4')],check=True,timeout=timeout)
     return check_output(root,cfg)
 

@@ -1,0 +1,292 @@
+{
+  "skill": "ae-advanced-expressions",
+  "version": "0.5.0",
+  "status": "candidate",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=23",
+  "date": "2026-11-07",
+  "native_host": "After Effects 26.0x67",
+  "cases": [
+    {
+      "case": "samples/course2-spring-001/baseline-004",
+      "frames": 180,
+      "max_rendered_b_error_design_pixels": 1.125558386717131,
+      "video_sha256": "d99d80b1c5fa64a382d21e9fe766a2b65ff2edbbd07edc0599ebc5e7c783f3ee",
+      "project_sha256": "7f6210b58b095a2cee557a956f37b8b8090543ea4a5d955e494ba004638f43e5",
+      "mode": "linear_decay",
+      "angular_rate": 6,
+      "amplitude": 100,
+      "decay_end": 2,
+      "asset_width": 128,
+      "b_anchor": [
+        10,
+        20
+      ],
+      "native_edit": {
+        "before": [
+          163.58400060449,
+          50,
+          0
+        ],
+        "changed": [
+          166.58400060449,
+          52,
+          0
+        ],
+        "restored": [
+          163.58400060449,
+          50,
+          0
+        ]
+      },
+      "technical": "passed",
+      "native_stills_reviewed": 10
+    },
+    {
+      "case": "samples/course2-spring-001/constant-stage-001",
+      "frames": 180,
+      "max_rendered_b_error_design_pixels": 1.1214602180078685,
+      "video_sha256": "9ce4bad0acbe8a3f7c817a10351f37d227e06dbbf9dd3e69d499c8c7531c49ac",
+      "project_sha256": "974907720dc5690e948947c7ba5af46edd63e0cf1ba4154070e95f979b9219ef",
+      "mode": "constant",
+      "angular_rate": 3.0,
+      "amplitude": 60.0,
+      "decay_end": 2,
+      "asset_width": 128,
+      "b_anchor": [
+        0,
+        20
+      ],
+      "native_edit": {
+        "before": [
+          212.849699196243,
+          50,
+          0
+        ],
+        "changed": [
+          215.849699196243,
+          52,
+          0
+        ],
+        "restored": [
+          212.849699196243,
+          50,
+          0
+        ]
+      },
+      "technical": "passed",
+      "native_stills_reviewed": 10
+    },
+    {
+      "case": "samples/course2-spring-001/variation-001",
+      "frames": 240,
+      "max_rendered_b_error_design_pixels": 1.128580860842618,
+      "video_sha256": "a7ff00f89c8cb2dc347c5dabe889f8d92e0c7b9acee0c1381e07e3d0664c7f98",
+      "project_sha256": "5245f00c5a8c5831a73bca9856c41e4fe97834208d8c70b7d706e1266d903326",
+      "mode": "linear_decay",
+      "angular_rate": 8.0,
+      "amplitude": 70.0,
+      "decay_end": 3.0,
+      "asset_width": 128,
+      "b_anchor": [
+        0,
+        20
+      ],
+      "native_edit": {
+        "before": [
+          108.853187773704,
+          50,
+          0
+        ],
+        "changed": [
+          111.853187773704,
+          52,
+          0
+        ],
+        "restored": [
+          108.853187773704,
+          50,
+          0
+        ]
+      },
+      "technical": "passed",
+      "native_stills_reviewed": 10
+    },
+    {
+      "case": "samples/course2-spring-001/zigzag-002",
+      "frames": 180,
+      "max_rendered_b_error_design_pixels": 1.119059207318628,
+      "video_sha256": "94cd01406d6d8042f9d3b0c3136f4fd36ed9a753304d3f3c48b40bc02e5fa463",
+      "project_sha256": "02e487347f0307a2d51289414fadbaf2e7d01fd37865b80df7cbc6debeadd0dd",
+      "mode": "linear_decay",
+      "angular_rate": 6,
+      "amplitude": 100,
+      "decay_end": 2,
+      "asset_width": 160,
+      "b_anchor": [
+        10,
+        20
+      ],
+      "native_edit": {
+        "before": [
+          195.58400060449,
+          50,
+          0
+        ],
+        "changed": [
+          198.58400060449,
+          52,
+          0
+        ],
+        "restored": [
+          195.58400060449,
+          50,
+          0
+        ]
+      },
+      "technical": "passed",
+      "native_stills_reviewed": 10
+    },
+    {
+      "case": "samples/course2-spring-001/ribbon-002",
+      "frames": 180,
+      "max_rendered_b_error_design_pixels": 1.119059207318628,
+      "video_sha256": "23d7b5210d35ae32cd1f31028b9f21fa1c1133def360ab250f50e248e3a38223",
+      "project_sha256": "b40873d0bc9a2182e8cc5343184ba3c58620bb1b58d04d908b95147f8fdf6aa0",
+      "mode": "linear_decay",
+      "angular_rate": 6,
+      "amplitude": 100,
+      "decay_end": 2,
+      "asset_width": 176,
+      "b_anchor": [
+        10,
+        20
+      ],
+      "native_edit": {
+        "before": [
+          211.58400060449,
+          50,
+          0
+        ],
+        "changed": [
+          214.58400060449,
+          52,
+          0
+        ],
+        "restored": [
+          211.58400060449,
+          50,
+          0
+        ]
+      },
+      "technical": "passed",
+      "native_stills_reviewed": 10
+    },
+    {
+      "case": "samples/course2-spring-001/chain-002",
+      "frames": 180,
+      "max_rendered_b_error_design_pixels": 1.119059207318628,
+      "video_sha256": "ce76b6eaae18a7533f07b699d90cce59907da121f2d674054ad4176e5aee9038",
+      "project_sha256": "f4f0d33b4853ae81bb53956b75c4bb84dd3b3b820a5fe4d178a39c73af55403c",
+      "mode": "linear_decay",
+      "angular_rate": 6,
+      "amplitude": 100,
+      "decay_end": 2,
+      "asset_width": 224,
+      "b_anchor": [
+        10,
+        20
+      ],
+      "native_edit": {
+        "before": [
+          259.58400060449,
+          50,
+          0
+        ],
+        "changed": [
+          262.58400060449,
+          52,
+          0
+        ],
+        "restored": [
+          259.58400060449,
+          50,
+          0
+        ]
+      },
+      "technical": "passed",
+      "native_stills_reviewed": 10
+    },
+    {
+      "case": "samples/course2-spring-001/external-png-002",
+      "frames": 180,
+      "max_rendered_b_error_design_pixels": 1.1479685819445535,
+      "video_sha256": "3173d211aacacd4acf952e346567a0e9332770a8748f98afa3974b95dcc185f5",
+      "project_sha256": "2f2f0a7f0d6a036b62833f45d9e6e1058fe248033eaae6843791cf2d2db31c09",
+      "mode": "linear_decay",
+      "angular_rate": 4.0,
+      "amplitude": 50.0,
+      "decay_end": 2.5,
+      "asset_width": 160,
+      "b_anchor": [
+        10,
+        20
+      ],
+      "native_edit": {
+        "before": [
+          221.371897073027,
+          50,
+          0
+        ],
+        "changed": [
+          224.371897073027,
+          52,
+          0
+        ],
+        "restored": [
+          221.371897073027,
+          50,
+          0
+        ]
+      },
+      "technical": "passed",
+      "native_stills_reviewed": 10
+    }
+  ],
+  "total_rendered_frames": 1320,
+  "native_stills_reviewed": 70,
+  "pixel_tolerance_design_pixels": 1.5,
+  "max_measured_error": 1.1479685819445535,
+  "technical_status": "passed",
+  "course_fidelity": {
+    "method": "Screen-observed expressions retained; not substituted with inertial overshoot",
+    "artwork": "Self-authored replacement; source bitmap identity unavailable",
+    "layout": "Design canvas, intrinsic source dimensions and exact B anchor offset inferred",
+    "human_review": "pending",
+    "reference_interval": "22:25.4–22:28.4",
+    "baseline_interval": "0–3 seconds",
+    "frame_synchronization": "not established",
+    "comparison_local_only": "cache/reviews/course2-p23-spring-001/comparison.mp4",
+    "baseline_sha256": "d99d80b1c5fa64a382d21e9fe766a2b65ff2edbbd07edc0599ebc5e7c783f3ee"
+  },
+  "negative_tests": {
+    "frozen_video": "rejected by full-frame rendered trajectory",
+    "missing_scale_percent": "actual native clone endpoint error126.72 design pixels"
+  },
+  "coverage": {
+    "source_frame_views": 106,
+    "includes_repeats": true,
+    "audio_seconds": 1401.7065,
+    "video_seconds": 2803.2,
+    "tail": "No audio; sparse visual checks only; partial half-stream thumbnail matches, not proven identical"
+  },
+  "media_audit": "reports/native-media-dependencies-course2-spring.json",
+  "limitations": [
+    "Same-height horizontal connection only",
+    "External PNG64–256px wide and32px high with alpha and mid-height attachment points",
+    "No full46-minute speech coverage",
+    "Overall visual review pending; technical success is not aesthetic acceptance",
+    "Second source other35 chapters not learned this turn",
+    "Only recorded parameter combinations empirically tested"
+  ],
+  "whole_goal_complete": false
+}

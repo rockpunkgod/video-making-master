@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "stage": "queue",
+  "error": "Error: Native PNG output unavailable",
+  "line": 44
+}

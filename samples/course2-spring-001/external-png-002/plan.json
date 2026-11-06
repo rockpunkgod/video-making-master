@@ -1,0 +1,15 @@
+{
+  "skill": "ae-advanced-expressions",
+  "branch": "course23-horizontal-spring",
+  "status": "candidate",
+  "steps": [
+    "Create self-authored editable connector artwork",
+    "Export/import its actual alpha PNG",
+    "Bind spring position and normalize scale by intrinsic width",
+    "Apply course sine and linear amplitude envelope to B",
+    "Edit A/save/reopen/restore, inspect every native frame",
+    "Render and measure actual B motion"
+  ],
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=23",
+  "fidelity": "Course expressions preserved; own artwork/layout inferred; review required"
+}

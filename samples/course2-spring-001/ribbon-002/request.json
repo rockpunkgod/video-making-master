@@ -1,0 +1,39 @@
+{
+  "name": "COURSE_SPRING_CONNECTOR",
+  "animation": "spring-connector",
+  "motion_expectation": "required",
+  "width": 1440,
+  "height": 400,
+  "design_width": 360,
+  "fps": 30,
+  "duration": 6,
+  "a_position": [
+    25,
+    50
+  ],
+  "asset_width": 176,
+  "graphic": "ribbon",
+  "angular_rate": 6,
+  "amplitude": 100,
+  "decay_end": 2,
+  "mode": "linear_decay",
+  "background": [
+    0,
+    0.2,
+    0.15
+  ],
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=23",
+  "observed": "Final22:25: sin(time*6), linear(time,0,2,100,0); spring position=A; scaleX=(B.x-A.x)/spring.width*100; Y100; source6s30fps; spring left anchor, B left anchor. A position25/50 visible21:55.",
+  "inferred": "Own editable artwork replaces unavailable course bitmaps;128px intrinsic width and300x100 design canvas inferred.4x outer presentation comp is a delivery adaptation. Exact anchor offset and source pixel identity not recovered. B anchor10/20 inferred from03:00 left-interior crosshair on own40px disk, not a displayed numeric author value.",
+  "status": "candidate",
+  "b_anchor": [
+    10,
+    20
+  ],
+  "variant": true,
+  "overrides": {
+    "graphic": "ribbon",
+    "asset_width": 176,
+    "design_width": 360
+  }
+}

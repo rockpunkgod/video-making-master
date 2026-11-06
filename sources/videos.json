@@ -192,15 +192,15 @@
       "id": "BV1c7GTzMEh5",
       "platform": "bilibili",
       "url": "https://www.bilibili.com/video/BV1c7GTzMEh5/",
-      "status": "page_inspected",
+      "status": "partially_analyzed",
       "title": "【自用】Ae表达式教程（高级课程不适合新手）",
       "categories": [
         "ae-advanced-expressions"
       ],
       "passes": {
-        "global": "pending",
-        "detail": "pending",
-        "abstraction": "pending"
+        "global": "p23 only:106 frame views including repeats, actual audio1401.7065s; video-only tail sparsely inspected",
+        "detail": "p23 key expressions/anchor/width normalization visually read and native reproduced",
+        "abstraction": "p23 horizontal connector merged into ae-advanced-expressions; other35 parts pending"
       },
       "page": {
         "title": "【自用】Ae表达式教程（高级课程不适合新手）_哔哩哔哩_bilibili",
@@ -391,7 +391,11 @@
         }
       ],
       "description": "自用课程，免费分享给大家",
-      "classification_basis": "page title/description/part list; content unverified except noted passes"
+      "classification_basis": "page title/description/part list; content unverified except noted passes",
+      "learning_notes": [
+        "sources/learning-notes/BV1c7GTzMEh5-p23.md"
+      ],
+      "native_evidence": "evaluations/course2-p23-spring-001/summary.json"
     },
     {
       "order": 3,

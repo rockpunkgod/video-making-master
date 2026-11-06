@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course2-spring-001\\ribbon-002\\final.mp4",
+  "sha256": "23d7b5210d35ae32cd1f31028b9f21fa1c1133def360ab250f50e248e3a38223",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 1440,
+    "height": 400,
+    "fps": 30.0,
+    "duration": 6.0,
+    "decoded_frames": 180,
+    "unique_thumbnail_frames": 84
+  },
+  "motion_expectation": "required",
+  "static_pixel_check": null,
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": "",
+  "spring_quality": "spring-quality.json",
+  "course_fidelity": "not_evaluated",
+  "delivery_status": "candidate_unaccepted"
+}

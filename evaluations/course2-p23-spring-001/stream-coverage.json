@@ -1,0 +1,10 @@
+{
+  "total_decoded_frames": 70080,
+  "half_frames": 35040,
+  "paired_thumbnail_hash_matches": 23280,
+  "comparison": "64x36 area-averaged decoded thumbnails, first vs second half",
+  "video_duration": 2803.2,
+  "audio_duration": 1401.7065,
+  "transcript_last_segment_end": 1400.88,
+  "interpretation": "Only the measured image/audio coverage is asserted; no speech invented for video-only tail"
+}

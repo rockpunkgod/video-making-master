@@ -1,0 +1,12 @@
+{
+  "status": "expected_failure",
+  "native_scale": [
+    1,
+    100,
+    100
+  ],
+  "connection_error_design_pixels": 126.72,
+  "expression": "q=thisComp.layer(\"b\").transform.position[0];\nchangdu=q-thisComp.layer(\"a\").transform.position[0];\nbianliang=changdu/thisComp.layer(\"弹簧\").width;\nx=bianliang;\ny=100;\n[x,y]",
+  "source_step": "P23 17:10–17:47 explains the missing*100 failure; actual native deliberate omission tested on own clone",
+  "original_project_modified": false
+}

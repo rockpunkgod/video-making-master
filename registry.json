@@ -337,7 +337,7 @@
     },
     {
       "name": "ae-advanced-expressions",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "status": "candidate",
       "execution_status": "four_course_units_with_native_evidence_and_explicit_candidate_limits",
       "path": "skills/after-effects/ae-advanced-expressions",
@@ -356,7 +356,8 @@
         "independent X drift and editable manual position offset",
         "editable decimal/binary string loops and paragraph layout",
         "source-sampled number update/hold/quantity animation (candidate)",
-        "odd/even character position and randomized opacity range reveal (candidate)"
+        "odd/even character position and randomized opacity range reveal (candidate)",
+        "同高水平端点间的弹簧伸缩与线性振幅归零，固定高度透明PNG适配"
       ],
       "sources": [
         {
@@ -367,6 +368,12 @@
             10,
             14
           ]
+        },
+        {
+          "id": "BV1c7GTzMEh5",
+          "parts": [
+            23
+          ]
         }
       ],
       "evidence": "evaluations/course-p10-probe-001/summary.json",
@@ -374,13 +381,15 @@
         "p08 course visual acceptance pending",
         "fine-line/text PNG foreground readability not established",
         "p10 replay006 direction accepted; seed variations pass; exact source seeds and generalized inputs beyond seed configurations remain unverified",
-        "p14 baseline accepted; three new Latin text inputs pass; final source graph handles estimated, source random seed unread, non-Latin/other-font generalization unverified"
+        "p14 baseline accepted; three new Latin text inputs pass; final source graph handles estimated, source random seed unread, non-Latin/other-font generalization unverified",
+        "来源2第23节：7例原生及全帧像素检查通过，基线整体课程效果人工反馈待回复；素材身份和推定画布/锚点未证实"
       ],
       "evidence_by_unit": {
         "threshold": "evaluations/course-p08-suite-001/summary.json",
         "displacement": "evaluations/course-p09-probe-001/summary.json",
         "number_sequences": "evaluations/course-p10-probe-001/summary.json",
-        "type_reveal": "evaluations/course-p14-probe-001/summary.json"
+        "type_reveal": "evaluations/course-p14-probe-001/summary.json",
+        "spring_connector": "evaluations/course2-p23-spring-001/summary.json"
       },
       "p09_latest_user_feedback": "挺好的; retain current version; prior needs-adjustment response preserved",
       "accepted_candidate_artifacts": [

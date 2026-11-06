@@ -1,0 +1,7 @@
+{
+  "status": "repaired_and_native_retested",
+  "issue": "CLI relative --asset was initially resolved against the profile directory rather than current working directory",
+  "effect": "Preparation failed before Adobe invocation",
+  "repair": "Separate CLI current-directory paths from profile-relative paths",
+  "evidence": "samples/course2-spring-001/external-png-002/receipt.json"
+}

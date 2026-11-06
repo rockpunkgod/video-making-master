@@ -1,5 +1,7 @@
 # Git交付范围
 
+2026-11-07新增来源2第23节7份真实AE工程/视频、必要透明PNG与70张原生检查PNG，共1320帧；课程整体人工反馈待答，不计为verified。宽度连接、线性减幅、三组新图形及外部PNG分支的技术证据见evaluations/course2-p23-spring-001/summary.json，7份工程媒体依赖见native-media-dependencies-course2-spring.json。教程原片/对照仍仅本机使用，不进Git。
+
 第10节最新方向验收：replay006用户答“这次方向对，可以保留”，仅绑定该SHA；旧002–005拒绝保留。44组为原生制作历史数量，不是44组用户验收成功；源种子/逐字数字和新输入泛化仍有缺口。具体反馈见summary.current_reference_replay.human_visual_review。
 
 用户指定发布到rockpunkgod/video-making-master。远端检查为空仓库，本项目仍以独立video-skills-lab运行，不引入或接入其他Video Making内部实现。
