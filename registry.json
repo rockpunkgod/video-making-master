@@ -337,7 +337,7 @@
     },
     {
       "name": "ae-advanced-expressions",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "status": "candidate",
       "execution_status": "four_course_units_with_native_evidence_and_explicit_candidate_limits",
       "path": "skills/after-effects/ae-advanced-expressions",
@@ -357,7 +357,8 @@
         "editable decimal/binary string loops and paragraph layout",
         "source-sampled number update/hold/quantity animation (candidate)",
         "odd/even character position and randomized opacity range reveal (candidate)",
-        "同高水平端点间的弹簧伸缩与线性振幅归零，固定高度透明PNG适配"
+        "同高水平端点间的弹簧伸缩与线性振幅归零，固定高度透明PNG适配",
+        "四键pingpong双翅铰链循环及二维父对象控制三维部件的平面飞行（部分候选）"
       ],
       "sources": [
         {
@@ -372,7 +373,8 @@
         {
           "id": "BV1c7GTzMEh5",
           "parts": [
-            23
+            23,
+            24
           ]
         }
       ],
@@ -382,14 +384,16 @@
         "fine-line/text PNG foreground readability not established",
         "p10 replay006 direction accepted; seed variations pass; exact source seeds and generalized inputs beyond seed configurations remain unverified",
         "p14 baseline accepted; three new Latin text inputs pass; final source graph handles estimated, source random seed unread, non-Latin/other-font generalization unverified",
-        "来源2第23节：7例原生及全帧像素检查通过，基线整体课程效果人工反馈待回复；素材身份和推定画布/锚点未证实"
+        "来源2第23节：7例原生及全帧像素检查通过，基线整体课程效果人工反馈待回复；素材身份和推定画布/锚点未证实",
+        "来源2第24节：Particular未安装，粒子拖尾未制作；双翅运动待人工反馈，摄像机/键值/路径推定，任意外部图形适配未验"
       ],
       "evidence_by_unit": {
         "threshold": "evaluations/course-p08-suite-001/summary.json",
         "displacement": "evaluations/course-p09-probe-001/summary.json",
         "number_sequences": "evaluations/course-p10-probe-001/summary.json",
         "type_reveal": "evaluations/course-p14-probe-001/summary.json",
-        "spring_connector": "evaluations/course2-p23-spring-001/summary.json"
+        "spring_connector": "evaluations/course2-p23-spring-001/summary.json",
+        "butterfly_rig": "evaluations/course2-p24-butterfly-001/summary.json"
       },
       "p09_latest_user_feedback": "挺好的; retain current version; prior needs-adjustment response preserved",
       "accepted_candidate_artifacts": [

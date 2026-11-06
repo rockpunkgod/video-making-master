@@ -9,6 +9,13 @@ from validate_video import validate
 
 def check_output(root,cfg):
     report=validate(root/'final.mp4',cfg)
+    if cfg.get('animation')=='butterfly-rig':
+        from validate_butterfly_rig import validate as butterfly_validate
+        audit=butterfly_validate(root)
+        report['butterfly_quality']='butterfly-quality.json'
+        report['course_fidelity']='partial_lesson_pending_review'
+        report['delivery_status']='candidate_unaccepted'
+        if audit['status']!='passed':report['status']='failed'
     if cfg.get('animation')=='spring-connector':
         from validate_spring_connector import validate as spring_validate
         spring=spring_validate(root)
@@ -61,7 +68,10 @@ def render(directory,executable,timeout,reuse=False):
     if not numbers or len(numbers)!=round(cfg['duration']*cfg['fps']) or numbers!=list(range(numbers[0],numbers[0]+len(numbers))):
         raise RuntimeError('Missing, extra or noncontiguous native frames')
     digits=len(frames[0].stem.split('_')[-1])
-    subprocess.run(['ffmpeg','-v','error','-n','-framerate',str(cfg['fps']),'-start_number',str(numbers[0]),'-i',str(root/'render'/f'frame_%0{digits}d.{suffix}'),
+    padding=cfg.get('delivery_padding')
+    if padding is not None and padding!=[0,1]:raise ValueError('Unsupported delivery padding')
+    filters=['-vf','pad=iw:ih+1:0:0:color=black'] if padding else []
+    subprocess.run(['ffmpeg','-v','error','-n','-framerate',str(cfg['fps']),'-start_number',str(numbers[0]),'-i',str(root/'render'/f'frame_%0{digits}d.{suffix}'),*filters,
                     '-c:v','libx264','-crf','18','-pix_fmt','yuv420p','-movflags','+faststart',str(root/'final.mp4')],check=True,timeout=timeout)
     return check_output(root,cfg)
 

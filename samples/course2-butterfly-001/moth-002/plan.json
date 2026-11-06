@@ -1,0 +1,13 @@
+{
+  "skill": "ae-advanced-expressions",
+  "branch": "course24-hinged-wing",
+  "status": "candidate",
+  "steps": [
+    "Create original editable source artwork and mask it",
+    "Mirror wing precomp; place3D hinge anchors at body",
+    "Right four Y keys with pingpong loop, left opposite right",
+    "Parent body/wings to2D null; optional native spatial Bezier flight and Along Path orientation",
+    "Save/reopen; edit/restore key amplitude; native full-frame trace; render"
+  ],
+  "missing": "Particular absent: no particle tail replacement or full lesson completion claim"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "checks": {
+    "native_reopened": true,
+    "native_frames": true,
+    "native_loop": true,
+    "native_opposite": true,
+    "native_expressions": true,
+    "controller_2d": true,
+    "media": true,
+    "full_decode": true,
+    "rendered_motion": true
+  },
+  "video_sha256": "f41cefc87fb4b19ec8a931bf1a0daa32d022909f028b1b2e4e4124c38a8bb81e",
+  "decoded_frames": 200,
+  "max_mean_rgb_difference_from_first": 2.9382039270407656,
+  "rendered_repeat_period_frames": null,
+  "max_repeat_mean_rgb_error": null,
+  "repeat_rgb_tolerance": 1.5,
+  "course_fidelity": "not_evaluated",
+  "scope": "Actual rendered motion and periodicity, not source timing/artwork/camera identity or aesthetic acceptance"
+}

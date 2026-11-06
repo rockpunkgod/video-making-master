@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "stage": "course hinge rig",
+  "error": "Error: After Effects错误: 由于参数 2，无法调用“setSpatialTangentsAtKey”。值数组没有 3 元素。",
+  "line": 54
+}

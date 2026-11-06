@@ -1,0 +1,7 @@
+{
+  "status": "repaired_and_native_tested",
+  "observed": "AE26.0 returned3-component Position on a2D controller and rejected two-element spatial tangents",
+  "repair": "Pad tangent vectors to actual property value length, preserve2D layer and zero Z",
+  "evidence": "reports/native-media-dependencies-course2-butterfly.json",
+  "retest": "samples/course2-butterfly-001/flight-002/receipt.json"
+}

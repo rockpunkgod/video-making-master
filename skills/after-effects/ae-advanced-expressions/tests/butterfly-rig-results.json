@@ -1,0 +1,170 @@
+{
+  "skill": "ae-advanced-expressions",
+  "version": "0.6.0",
+  "status": "candidate",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=24",
+  "cases": [
+    {
+      "case": "samples/course2-butterfly-001/flap-baseline-003",
+      "video_sha256": "875e668832faa0d777d993b300ada7c9e7f93b62b3e14f401af712c56af9073c",
+      "project_sha256": "55c9044e17feb1f78d9acc469bc8504dc4babdd2925bf442fa79f495c1d17ec6",
+      "frames": 200,
+      "mode": "flap",
+      "style": "monarch",
+      "speed": 1,
+      "technical": "passed",
+      "native_stills_reviewed": 10,
+      "max_loop_error": 7.62939450282829e-07,
+      "max_opposite_error": 0,
+      "rendered_period_frames": 26,
+      "max_repeat_mean_rgb_error": 0.22892787135785242,
+      "native_edit": {
+        "before": -44.7999992370605,
+        "edited": -41.7999992370605,
+        "left_after_edit": 41.7999992370605,
+        "restored": -44.7999992370605
+      }
+    },
+    {
+      "case": "samples/course2-butterfly-001/flap-fast-002",
+      "video_sha256": "1da3a7333f1c5f3e7fff8f9318cb8e9ddcd23cdc2efa8dd2b45929cbe7ab9874",
+      "project_sha256": "e7cd4e92fc23b4e5e4e135b879bd3cc7d7f07a3e1adf8b1fd82a51aa69a137b0",
+      "frames": 200,
+      "mode": "flap",
+      "style": "monarch",
+      "speed": 2.0,
+      "technical": "passed",
+      "native_stills_reviewed": 10,
+      "max_loop_error": 7.62939450282829e-07,
+      "max_opposite_error": 0,
+      "rendered_period_frames": 13,
+      "max_repeat_mean_rgb_error": 0.22949267417522176,
+      "native_edit": {
+        "before": -44.7999992370605,
+        "edited": -41.7999992370605,
+        "left_after_edit": 41.7999992370605,
+        "restored": -44.7999992370605
+      }
+    },
+    {
+      "case": "samples/course2-butterfly-001/moth-002",
+      "video_sha256": "c154987cf6fbad4ad4874717e00db4910883601746e249604b519e9d215f802c",
+      "project_sha256": "3037d515f56931d79313de01fd0a275b783837d30095325be368ac02f37ddc9b",
+      "frames": 200,
+      "mode": "flap",
+      "style": "moth",
+      "speed": 1,
+      "technical": "passed",
+      "native_stills_reviewed": 10,
+      "max_loop_error": 7.62939450282829e-07,
+      "max_opposite_error": 0,
+      "rendered_period_frames": 26,
+      "max_repeat_mean_rgb_error": 0.18271371141898402,
+      "native_edit": {
+        "before": -44.7999992370605,
+        "edited": -41.7999992370605,
+        "left_after_edit": 41.7999992370605,
+        "restored": -44.7999992370605
+      }
+    },
+    {
+      "case": "samples/course2-butterfly-001/petal-002",
+      "video_sha256": "776c6af1aaca5e5efb0eddd3082c20a418dabcd5a42e6d61c2f3f4c31466ce18",
+      "project_sha256": "5280237c0e5b50705000d0389085790c4b6a7dcf525d4c437259a32d81ab13a1",
+      "frames": 200,
+      "mode": "flap",
+      "style": "petal",
+      "speed": 1,
+      "technical": "passed",
+      "native_stills_reviewed": 10,
+      "max_loop_error": 7.62939450282829e-07,
+      "max_opposite_error": 0,
+      "rendered_period_frames": 26,
+      "max_repeat_mean_rgb_error": 0.18555433735340043,
+      "native_edit": {
+        "before": -44.7999992370605,
+        "edited": -41.7999992370605,
+        "left_after_edit": 41.7999992370605,
+        "restored": -44.7999992370605
+      }
+    },
+    {
+      "case": "samples/course2-butterfly-001/mechanical-002",
+      "video_sha256": "b9bebb02e09a239cd2d5579ec575b2bc45a517d818147a2dcfb68f8b63e149ff",
+      "project_sha256": "655d65faadcb60a0d032cc4d47b17516f66b32be44c306ae3fc7d1cc4f496be9",
+      "frames": 200,
+      "mode": "flap",
+      "style": "mechanical",
+      "speed": 1,
+      "technical": "passed",
+      "native_stills_reviewed": 10,
+      "max_loop_error": 7.62939450282829e-07,
+      "max_opposite_error": 0,
+      "rendered_period_frames": 26,
+      "max_repeat_mean_rgb_error": 0.15879265091863518,
+      "native_edit": {
+        "before": -44.7999992370605,
+        "edited": -41.7999992370605,
+        "left_after_edit": 41.7999992370605,
+        "restored": -44.7999992370605
+      }
+    },
+    {
+      "case": "samples/course2-butterfly-001/flight-002",
+      "video_sha256": "f41cefc87fb4b19ec8a931bf1a0daa32d022909f028b1b2e4e4124c38a8bb81e",
+      "project_sha256": "d2f9c5e37765e0518d769507dd4f87a7c987286d0dc3a3cd887f676e64f875dd",
+      "frames": 200,
+      "mode": "flight",
+      "style": "monarch",
+      "speed": 1,
+      "technical": "passed",
+      "native_stills_reviewed": 10,
+      "max_loop_error": 7.62939450282829e-07,
+      "max_opposite_error": 0,
+      "rendered_period_frames": null,
+      "max_repeat_mean_rgb_error": null,
+      "native_edit": {
+        "before": -44.7999992370605,
+        "edited": -41.7999992370605,
+        "left_after_edit": 41.7999992370605,
+        "restored": -44.7999992370605
+      }
+    }
+  ],
+  "total_rendered_frames": 1200,
+  "native_stills_reviewed": 60,
+  "technical_status": "passed_within_recorded_rig_scope",
+  "whole_lesson_status": "incomplete_Particular_unavailable",
+  "human_review": {
+    "status": "pending",
+    "scope": "Synchronous wing opening and hinge direction only; does not accept artwork/camera/key timing/particles",
+    "case": "samples/course2-butterfly-001/flap-baseline-003",
+    "video_sha256": "875e668832faa0d777d993b300ada7c9e7f93b62b3e14f401af712c56af9073c",
+    "source_interval": "12:28–12:33",
+    "native_interval": "0–5seconds",
+    "comparison_local_only": "cache/reviews/course2-p24-flap-002/comparison.mp4",
+    "frame_sync": "not established"
+  },
+  "observed": "Masked bitmap, mirrored precomp,3D hinged wings, four Y keys with pingpong loop and opposite left expression,2D parent Null, Along Path orientation+90degree Rotation",
+  "inferred": [
+    "Four key times0/4/8/13 and values-44.8/55",
+    "Camera65degree and115percent presentation scale",
+    "Self-authored replacement artwork and hinge pixel coordinates",
+    "Flight spatial Bezier coordinates/tangents and exact temporal rhythm"
+  ],
+  "negative_tests": {
+    "frozen_video": "Rejected by actual rendered motion; periodicity alone would pass",
+    "odd_height": "Original MP4 encode failed; preserved native height and added one bottom row",
+    "spatial_tangent": "Native initial two-element tangents failed, actual dimension adaptive fix passed"
+  },
+  "media_audit": "reports/native-media-dependencies-course2-butterfly.json",
+  "limitations": [
+    "Particular trail missing, no alternative presented as original technique",
+    "Only four self-authored styles, no arbitrary external-photo adapter",
+    "No source-identical camera/material/keyframe claim",
+    "Video-only latter half sparsely inspected, no complete58minute speech claim",
+    "Only recorded speed1/2 empirically tested",
+    "Independent frame periodicity is not source-reference fidelity"
+  ],
+  "whole_goal_complete": false
+}

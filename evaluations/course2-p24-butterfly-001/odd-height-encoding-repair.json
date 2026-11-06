@@ -1,0 +1,14 @@
+{
+  "status": "repaired_and_native_rerendered",
+  "original_error": "[libx264 @ 000001d719981000] height not divisible by 2 (790x633)",
+  "native_size": [
+    790,
+    633
+  ],
+  "video_size": [
+    790,
+    634
+  ],
+  "repair": "Add one black bottom row only during FFmpeg packaging; native composition unchanged",
+  "actual_retest": "samples/course2-butterfly-001/flap-baseline-003/quality.json"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "COURSE_BUTTERFLY_RIG",
+  "animation": "butterfly-rig",
+  "motion_expectation": "required",
+  "width": 790,
+  "height": 634,
+  "fps": 25,
+  "duration": 8,
+  "style": "mechanical",
+  "mode": "flap",
+  "key_frames": [
+    0,
+    4,
+    8,
+    13
+  ],
+  "key_angles": [
+    -44.8,
+    55,
+    -44.8,
+    55
+  ],
+  "camera_tilt": 65,
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=24",
+  "observed": "Source790x633/25fps/8sec; masked artwork; mirrored right precomp; 3D wings hinged at body; right Y Rotation loopOut(type=pingpong,numKeyframes=0); left=-right;2D parent null. Auto Orient Along Path and Rotation90 in flight stage.",
+  "inferred": "Exact four key values/times, camera tilt and pixel coordinates not numerically recovered; keyframes0/4/8/13 and angles-44.8/55 are screen-derived candidate values. All bitmap/vector artwork is self-authored replacement.",
+  "status": "candidate",
+  "speed": 1,
+  "variant": true,
+  "native_height": 633,
+  "delivery_padding": [
+    0,
+    1
+  ]
+}

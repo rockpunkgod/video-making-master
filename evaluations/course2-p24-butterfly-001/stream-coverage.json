@@ -1,0 +1,11 @@
+{
+  "video_seconds": 3529.76,
+  "video_frames": 88244,
+  "video_fps": 25,
+  "audio_seconds": 1764.9705,
+  "transcript_last_end": 1764.48,
+  "transcript_segments": 408,
+  "source_frame_views": 118,
+  "includes_repeats": true,
+  "tail": "Repeated opening visually observed near29:25; sparse tail frames only. No audio in latter half, no assertion that full video halves are identical."
+}

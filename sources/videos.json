@@ -198,9 +198,9 @@
         "ae-advanced-expressions"
       ],
       "passes": {
-        "global": "p23 only:106 frame views including repeats, actual audio1401.7065s; video-only tail sparsely inspected",
-        "detail": "p23 key expressions/anchor/width normalization visually read and native reproduced",
-        "abstraction": "p23 horizontal connector merged into ae-advanced-expressions; other35 parts pending"
+        "global": "p23 only:106 frame views including repeats, actual audio1401.7065s; video-only tail sparsely inspected; p24:118 visual frame views, actual1764.9705s audio; no complete video-only tail coverage",
+        "detail": "p23 key expressions/anchor/width normalization visually read and native reproduced; p24 mask/hinge/loop/parent/path/particle workflow observed, Particular absent",
+        "abstraction": "p23 connector and p24 wing/flight rig merged into ae-advanced-expressions;34other parts pending"
       },
       "page": {
         "title": "【自用】Ae表达式教程（高级课程不适合新手）_哔哩哔哩_bilibili",
@@ -393,9 +393,14 @@
       "description": "自用课程，免费分享给大家",
       "classification_basis": "page title/description/part list; content unverified except noted passes",
       "learning_notes": [
-        "sources/learning-notes/BV1c7GTzMEh5-p23.md"
+        "sources/learning-notes/BV1c7GTzMEh5-p23.md",
+        "sources/learning-notes/BV1c7GTzMEh5-p24.md"
       ],
-      "native_evidence": "evaluations/course2-p23-spring-001/summary.json"
+      "native_evidence": "evaluations/course2-p23-spring-001/summary.json",
+      "evidence_by_part": {
+        "23": "evaluations/course2-p23-spring-001/summary.json",
+        "24": "evaluations/course2-p24-butterfly-001/summary.json"
+      }
     },
     {
       "order": 3,

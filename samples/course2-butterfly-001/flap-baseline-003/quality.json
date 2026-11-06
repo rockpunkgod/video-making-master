@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course2-butterfly-001\\flap-baseline-003\\final.mp4",
+  "sha256": "875e668832faa0d777d993b300ada7c9e7f93b62b3e14f401af712c56af9073c",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 790,
+    "height": 634,
+    "fps": 25.0,
+    "duration": 8.0,
+    "decoded_frames": 200,
+    "unique_thumbnail_frames": 159
+  },
+  "motion_expectation": "required",
+  "static_pixel_check": null,
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": "",
+  "butterfly_quality": "butterfly-quality.json",
+  "course_fidelity": "partial_lesson_pending_review",
+  "delivery_status": "candidate_unaccepted"
+}
