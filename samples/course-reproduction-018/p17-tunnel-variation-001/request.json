@@ -1,0 +1,62 @@
+{
+  "name": "COURSE_P17_TUNNEL_STYLE",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "duration": 20,
+  "motion_expectation": "required",
+  "status": "candidate",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=17",
+  "input": {
+    "project": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-reproduction-018/p17-tunnel-variation-001/inputs/main.aep",
+    "composition": "COURSE_P16_STYLED_ASSEMBLY",
+    "sha256": "a17d9dd566513552d1879038ce03d494d29df5b26504c1bd983b70613f0e45f9"
+  },
+  "null_position": [
+    540,
+    540,
+    -2190
+  ],
+  "z_spacing": 3000,
+  "rotation_speed": 25.0,
+  "rotation_end": 80,
+  "outer_frames": [
+    139,
+    162
+  ],
+  "ease_influence": 66.666667,
+  "checkpoints": [
+    80,
+    92,
+    114,
+    132,
+    139,
+    145,
+    150,
+    156,
+    162,
+    168
+  ],
+  "provenance": {
+    "observed": [
+      "01:15 first shape18 disabled; retained rather than deleted to preserve indices",
+      "01:25 Position grey stopwatch and readout540/540/-2190; static null shift, not new keys",
+      "01:25 spacing3000 at source3:00; inherited0 first key retained",
+      "02:00 outer Z rotation expression time*20+value",
+      "02:55 main6:18 evaluated rotation215 degrees with expression active; opacity0",
+      "03:25 value graph changes acceleration"
+    ],
+    "inferred": [
+      "Raw final rotation80=215-(6+18/24)*20; not a direct keyValue read",
+      "Outer keys139 and162 at24fps estimated from timeline ruler",
+      "Exact graph handles not exposed: symmetric zero-speed66.666667 influence reconstructed",
+      "Inherited camera/spacing endpoint times and all previous mask/palette estimates remain"
+    ],
+    "unverified": [
+      "Course17 later streaks/lines not yet reproduced",
+      "Full film/title and three materials unresolved",
+      "Human visual comparison pending"
+    ]
+  },
+  "variant": true
+}

@@ -103,3 +103,5 @@ AE恢复后，从最新模板生成新运行目录，执行构建、原生工程
 第16节噪波调色新增4秒可编辑组件基线与发光变化版：原生Colorama→Glow，96帧解码及7原生PNG、每帧淡出和编辑重开恢复通过。仅组件技术检查，前段空黑、近似相机和未完成总装仍待处理，未通过课程视觉验收，ae-advanced-compositing0.1.6为candidate。详见evaluations/course-p16-noise-style-001/summary.json。
 
 第16节总装新增p16-style-003与圆环发光0.7变体，保留原生Colorama白标、Screen/FindEdges黑键、Hue315/-37、三层淡出联动及白色隧道深度；各480帧、14个原生检查图与编辑重开通过。仍有后段条带/线条、标题和课程视觉/三素材未验，ae-advanced-compositing0.1.7保持candidate，见evaluations/course-p16-styled-assembly-001/summary.json。
+
+第17节隧道延续基线与独立副本25度/秒变体各20秒480帧真实渲染、10原生检查图、静态Null编辑重开恢复通过。关闭首层而非删层，保留index原法；未完成后段条带/线条和标题，candidate0.1.8。见evaluations/course-p17-tunnel-001/summary.json。

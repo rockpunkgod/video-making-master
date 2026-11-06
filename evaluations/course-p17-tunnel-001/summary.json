@@ -1,0 +1,221 @@
+{
+  "status": "candidate_native_p17_tunnel",
+  "date": "2026-11-06",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=17",
+  "source_interval": "00:00–03:45",
+  "cases": [
+    {
+      "case": "p17-tunnel-001",
+      "directory": "samples/course-reproduction-018/p17-tunnel-001",
+      "video_sha256": "afaaf6f7e203a6f18c0d33f63624829c35f66525ce1cef08ecaea277acfe0fab",
+      "project_sha256": "add183fd084adcf6ee0b5c7c26386aa36ccebd069f45fcdd7c19e29e75ae88a6",
+      "frames": 480,
+      "technical_status": "passed",
+      "checks": {
+        "reopened": true,
+        "no_expression_errors": true,
+        "no_external_media": true,
+        "first_disabled": true,
+        "null_static": true,
+        "null_position": true,
+        "spacing_keys": true,
+        "rotation_expression": true,
+        "rotation_keys": true,
+        "key_times": true,
+        "opacity_keys": true,
+        "frame_coverage": true,
+        "rotation_formula": true,
+        "linear_fade": true,
+        "edit_reopened": true,
+        "native_render_checkpoints": true
+      },
+      "max_rotation_error": 2.8421709430404e-14,
+      "max_opacity_error": 1.4210854715202e-14,
+      "native_edit": {
+        "original": [
+          540,
+          540,
+          -2190
+        ],
+        "changed": [
+          540,
+          540,
+          -2189
+        ],
+        "restored": [
+          540,
+          540,
+          -2190
+        ]
+      },
+      "checkpoints": [
+        {
+          "frame": 80,
+          "mean_luma_error_255": 1.7136805555555557,
+          "passed": true
+        },
+        {
+          "frame": 92,
+          "mean_luma_error_255": 0.8263194444444445,
+          "passed": true
+        },
+        {
+          "frame": 114,
+          "mean_luma_error_255": 0.9355555555555556,
+          "passed": true
+        },
+        {
+          "frame": 132,
+          "mean_luma_error_255": 0.9597916666666667,
+          "passed": true
+        },
+        {
+          "frame": 139,
+          "mean_luma_error_255": 0.9171527777777778,
+          "passed": true
+        },
+        {
+          "frame": 145,
+          "mean_luma_error_255": 0.8399305555555555,
+          "passed": true
+        },
+        {
+          "frame": 150,
+          "mean_luma_error_255": 0.7077777777777777,
+          "passed": true
+        },
+        {
+          "frame": 156,
+          "mean_luma_error_255": 0.7678472222222222,
+          "passed": true
+        },
+        {
+          "frame": 162,
+          "mean_luma_error_255": 1.157361111111111,
+          "passed": true
+        },
+        {
+          "frame": 168,
+          "mean_luma_error_255": 1.1590972222222222,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "case": "p17-tunnel-variation-001",
+      "directory": "samples/course-reproduction-018/p17-tunnel-variation-001",
+      "video_sha256": "c7687db1aa7e968215457cdc890e08bb635f3c8c3c3e39c0f6fc67f92c251635",
+      "project_sha256": "88dfc3497d8de670332fdeb8a67a8337170ace93e5ecc07150ea26eecb2cef7f",
+      "frames": 480,
+      "technical_status": "passed",
+      "checks": {
+        "reopened": true,
+        "no_expression_errors": true,
+        "no_external_media": true,
+        "first_disabled": true,
+        "null_static": true,
+        "null_position": true,
+        "spacing_keys": true,
+        "rotation_expression": true,
+        "rotation_keys": true,
+        "key_times": true,
+        "opacity_keys": true,
+        "frame_coverage": true,
+        "rotation_formula": true,
+        "linear_fade": true,
+        "edit_reopened": true,
+        "native_render_checkpoints": true
+      },
+      "max_rotation_error": 5.6843418860808e-14,
+      "max_opacity_error": 1.4210854715202e-14,
+      "native_edit": {
+        "original": [
+          540,
+          540,
+          -2190
+        ],
+        "changed": [
+          540,
+          540,
+          -2189
+        ],
+        "restored": [
+          540,
+          540,
+          -2190
+        ]
+      },
+      "checkpoints": [
+        {
+          "frame": 80,
+          "mean_luma_error_255": 1.7161805555555556,
+          "passed": true
+        },
+        {
+          "frame": 92,
+          "mean_luma_error_255": 0.825625,
+          "passed": true
+        },
+        {
+          "frame": 114,
+          "mean_luma_error_255": 0.9440972222222223,
+          "passed": true
+        },
+        {
+          "frame": 132,
+          "mean_luma_error_255": 0.9709027777777778,
+          "passed": true
+        },
+        {
+          "frame": 139,
+          "mean_luma_error_255": 0.9108333333333334,
+          "passed": true
+        },
+        {
+          "frame": 145,
+          "mean_luma_error_255": 0.8381944444444445,
+          "passed": true
+        },
+        {
+          "frame": 150,
+          "mean_luma_error_255": 0.7081944444444445,
+          "passed": true
+        },
+        {
+          "frame": 156,
+          "mean_luma_error_255": 0.7652777777777777,
+          "passed": true
+        },
+        {
+          "frame": 162,
+          "mean_luma_error_255": 1.1548611111111111,
+          "passed": true
+        },
+        {
+          "frame": 168,
+          "mean_luma_error_255": 1.1511111111111112,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "isolated_skill_variation": "Independent copied Skill uses only bundled own input AEP;25deg/sec rather than20",
+  "visual_review": {
+    "status": "20 actual native PNGs inspected chronologically",
+    "observations": [
+      "White nested quadrilaterals unfold, rotate, recede and fade",
+      "Grey streaks and red lines remain from unfinished later stages",
+      "Source camera/random identity and inferred easing differ; not a synchronized comparison"
+    ]
+  },
+  "course_fidelity": "unverified",
+  "human_review": "not_requested_for_unfinished_full_assembly",
+  "material_generalization": "not_completed",
+  "validation_repair": "Initial exact float equality rejected5.79166666666667 versus139/24; preserved failure JSON. Fixed1e-8s comparison, about2.4e-7frame; no project/keyframe or threshold-for-visual change.",
+  "remaining": [
+    "Complete course17 streak single-noise-layer structure, width/scale/depth, final RGB curves and dualGlow",
+    "Course17 cyber lines styling and timeline",
+    "Title projection and full film",
+    "Three materials and course visual review"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "checks": {
+    "reopened": true,
+    "no_expression_errors": true,
+    "no_external_media": true,
+    "first_disabled": true,
+    "null_static": true,
+    "null_position": true,
+    "spacing_keys": true,
+    "rotation_expression": true,
+    "rotation_keys": true,
+    "key_times": true,
+    "opacity_keys": true,
+    "frame_coverage": true,
+    "rotation_formula": true,
+    "linear_fade": true,
+    "edit_reopened": true,
+    "native_render_checkpoints": true
+  },
+  "checkpoints": [
+    {
+      "frame": 80,
+      "mean_luma_error_255": 1.7136805555555557,
+      "passed": true
+    },
+    {
+      "frame": 92,
+      "mean_luma_error_255": 0.8263194444444445,
+      "passed": true
+    },
+    {
+      "frame": 114,
+      "mean_luma_error_255": 0.9355555555555556,
+      "passed": true
+    },
+    {
+      "frame": 132,
+      "mean_luma_error_255": 0.9597916666666667,
+      "passed": true
+    },
+    {
+      "frame": 139,
+      "mean_luma_error_255": 0.9171527777777778,
+      "passed": true
+    },
+    {
+      "frame": 145,
+      "mean_luma_error_255": 0.8399305555555555,
+      "passed": true
+    },
+    {
+      "frame": 150,
+      "mean_luma_error_255": 0.7077777777777777,
+      "passed": true
+    },
+    {
+      "frame": 156,
+      "mean_luma_error_255": 0.7678472222222222,
+      "passed": true
+    },
+    {
+      "frame": 162,
+      "mean_luma_error_255": 1.157361111111111,
+      "passed": true
+    },
+    {
+      "frame": 168,
+      "mean_luma_error_255": 1.1590972222222222,
+      "passed": true
+    }
+  ],
+  "course_fidelity": "unverified",
+  "scope": "Course17 tunnel continuation only. Camera and graph approximate; later stylization and title unresolved."
+}

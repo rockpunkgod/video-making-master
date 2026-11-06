@@ -1,0 +1,32 @@
+__ENCODER__
+(function(){var cfg=__CONFIG__,out=__OUTPUT__,stage='guard',errors=[];
+function write(v){var f=new File(out+'/receipt.json');f.encoding='UTF-8';f.open('w');f.write(encode(v));f.close();}
+function find(n){for(var i=1;i<=app.project.numItems;i++)if(app.project.item(i) instanceof CompItem&&app.project.item(i).name===n)return app.project.item(i);throw Error('Missing '+n);}
+function reopen(){app.project.save();app.project.close(CloseOptions.DO_NOT_SAVE_CHANGES);app.open(new File(out+'/project.aep'));return find(cfg.name);}
+function cleanKeys(p){if(p.canSetExpression)p.expression='';while(p.numKeys)p.removeKey(1);}
+try{
+ if(app.project&&app.project.numItems){if(app.project.dirty)throw Error('Preserve dirty work');var owned=false;for(var i=1;i<=app.project.numItems;i++)if(app.project.item(i) instanceof CompItem){owned=true;if(app.project.item(i).comment.indexOf('video-skills-lab:')!==0)throw Error('Preserve unrelated work');}if(!owned)throw Error('No lab ownership');app.project.close(CloseOptions.DO_NOT_SAVE_CHANGES);}
+ app.newProject();app.project.bitsPerChannel=16;stage='import';app.project.importFile(new ImportOptions(new File(cfg.input.project)));var c=find(cfg.input.composition);c.name=cfg.name;c.comment='video-skills-lab:course17 tunnel continuation';
+ var outer=c.layer('ROLE_CONTOURS'),rig=outer.source,ctrl=rig.layer('controls');stage='source controller';
+ // Source01:25 shows a grey Position stopwatch. This is a static shift, not new motion keys.
+ cleanKeys(ctrl.transform.position);ctrl.transform.position.setValue(cfg.null_position);
+ var z=ctrl.effect('Position Z spacing')(1);if(z.numKeys!==2)throw Error('Expected two inherited spacing keys');z.setValueAtKey(2,cfg.z_spacing);
+ var first=rig.layer(ctrl.index+1);if(!(first instanceof ShapeLayer))throw Error('Unexpected first contour');first.enabled=false;
+ var rotation=outer.transform.zRotation,opacity=outer.transform.opacity;cleanKeys(rotation);cleanKeys(opacity);
+ for(var k=0;k<2;k++){var t=cfg.outer_frames[k]/c.frameRate;rotation.setValueAtTime(t,k?cfg.rotation_end:0);opacity.setValueAtTime(t,k?0:100);opacity.setInterpolationTypeAtKey(k+1,KeyframeInterpolationType.LINEAR,KeyframeInterpolationType.LINEAR);}
+ // Exact graph influence is not exposed in the recording; keep this explicitly inferred.
+ for(var k=1;k<=2;k++){rotation.setInterpolationTypeAtKey(k,KeyframeInterpolationType.BEZIER,KeyframeInterpolationType.BEZIER);rotation.setTemporalEaseAtKey(k,[new KeyframeEase(0,cfg.ease_influence)],[new KeyframeEase(0,cfg.ease_influence)]);}
+ rotation.expression='time*'+cfg.rotation_speed+'+value';
+ app.project.reduceProject([c]);while(app.project.renderQueue.numItems)app.project.renderQueue.item(1).remove();var rq=app.project.renderQueue.items.add(c),om=rq.outputModule(1),selected='';for(var i=0;i<om.templates.length;i++)if(/H\.264/.test(om.templates[i])&&/15 Mbps/.test(om.templates[i])){selected=om.templates[i];break;}if(!selected)throw Error('Native H264 unavailable');om.applyTemplate(selected);om.file=new File(out+'/native.mp4');
+ stage='save edit reopen';app.project.save(new File(out+'/project.aep'));c=reopen();var original=c.layer('ROLE_CONTOURS').source.layer('controls').transform.position.value;var edited=[original[0],original[1],original[2]+1];c.layer('ROLE_CONTOURS').source.layer('controls').transform.position.setValue(edited);c=reopen();var changed=c.layer('ROLE_CONTOURS').source.layer('controls').transform.position.value;if(changed[2]!==edited[2])throw Error('Edit lost');c.layer('ROLE_CONTOURS').source.layer('controls').transform.position.setValue(original);c=reopen();
+ stage='checks';outer=c.layer('ROLE_CONTOURS');rig=outer.source;ctrl=rig.layer('controls');rotation=outer.transform.zRotation;opacity=outer.transform.opacity;z=ctrl.effect('Position Z spacing')(1);first=rig.layer(ctrl.index+1);
+ var expressions=0,media=[],trace=[];
+ function inspect(p){if(p.propertyType===PropertyType.PROPERTY){if(p.canSetExpression&&p.expressionEnabled){expressions++;for(var f=0;f<480;f++)p.valueAtTime(f/24,false);if(p.expressionError)errors.push(p.expressionError);}}else for(var j=1;j<=p.numProperties;j++)inspect(p(j));}
+ for(var i=1;i<=app.project.numItems;i++){var x=app.project.item(i);if(x instanceof CompItem)for(var j=1;j<=x.numLayers;j++)inspect(x.layer(j));else if(x instanceof FootageItem&&x.file)media.push({path:x.file.fsName,missing:x.footageMissing});}if(media.length)errors.push('Unexpected external media');
+ var maxRot=0,maxFade=0;
+ for(var f=0;f<480;f++){var t=f/24,base=rotation.valueAtTime(t,true),rot=rotation.valueAtTime(t,false),a=opacity.valueAtTime(t,false),expect=100;if(f>=cfg.outer_frames[1])expect=0;else if(f>cfg.outer_frames[0])expect=100*(cfg.outer_frames[1]-f)/(cfg.outer_frames[1]-cfg.outer_frames[0]);maxRot=Math.max(maxRot,Math.abs(rot-base-t*cfg.rotation_speed));maxFade=Math.max(maxFade,Math.abs(a-expect));trace.push({frame:f,rotation:rot,base:base,opacity:a});}
+ if(maxRot>1e-5||maxFade>1e-5)errors.push('Native animation trace differs');
+ var pngs=[];for(var i=0;i<cfg.checkpoints.length;i++){var frame=cfg.checkpoints[i],name='native-still-'+frame+'.png',path=out+'/'+name;c.saveFrameToPng(frame/24,new File(path));var until=new Date().getTime()+15000;while(!(new File(path)).exists&&new Date().getTime()<until)$.sleep(100);if(!(new File(path)).exists)throw Error('PNG missing');pngs.push(name);}
+ write({status:errors.length?'failed':'built',project_reopened:true,expression_errors:errors,expressions_checked:expressions,selected_template:selected,output_format:'mp4',native_frames_checked:480,native_png_exports:pngs,media:media,first_contour:{name:first.name,index:first.index,enabled:first.enabled,position_expression:first.transform.position.expression},null_position:ctrl.transform.position.value,null_position_keys:ctrl.transform.position.numKeys,z_spacing_keys:[z.keyValue(1),z.keyValue(2)],rotation_expression:rotation.expression,rotation_keys:[rotation.keyValue(1),rotation.keyValue(2)],rotation_key_times:[rotation.keyTime(1),rotation.keyTime(2)],opacity_keys:[opacity.keyValue(1),opacity.keyValue(2)],opacity_key_times:[opacity.keyTime(1),opacity.keyTime(2)],native_edit:{original:original,changed:changed,restored:ctrl.transform.position.value},max_rotation_error:maxRot,max_opacity_error:maxFade,trace:trace,course_fidelity:'candidate; graph, key times and inherited camera approximate; later course17 streaks/lines and title unresolved',rendered:false});
+}catch(e){write({status:'failed',stage:stage,error:e.toString(),line:e.line});}
+})();

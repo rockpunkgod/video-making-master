@@ -1,6 +1,8 @@
 {
   "scope": "Standalone video-skills-lab progress snapshot; overall curriculum incomplete",
   "cases": [
+    "samples/course-reproduction-018/p17-tunnel-001",
+    "samples/course-reproduction-018/p17-tunnel-variation-001",
     "samples/course-reproduction-017/p16-style-003",
     "samples/course-reproduction-017/p16-style-variation-001",
     "samples/course-reproduction-016/p16-noise-002",
@@ -635,6 +637,16 @@
       "path": "evaluations/course-p16-styled-assembly-001/summary.json",
       "bytes": 7153,
       "sha256": "8510a4577826c89eb165f555028b923ca6a92053245486babb743b020046a7b5"
+    },
+    {
+      "path": "evaluations/course-p17-tunnel-001/initial-float-comparison-failure.json",
+      "bytes": 1772,
+      "sha256": "0e06a3dfb4530a81942942d47caedef4a88df5a4ad74edf907166107d265c027"
+    },
+    {
+      "path": "evaluations/course-p17-tunnel-001/summary.json",
+      "bytes": 6543,
+      "sha256": "1f55445941292fd446124816c4bfd2f278bbf83bab8e712179718308e4144cee"
     },
     {
       "path": "evaluations/first-skill.json",
@@ -4387,6 +4399,186 @@
       "sha256": "c0a67bf551c9d0596088a743582943acac97b37a2fcdf14ea9cd2261f729f021"
     },
     {
+      "path": "samples/course-reproduction-018/p17-tunnel-001/final.mp4",
+      "bytes": 34452806,
+      "sha256": "afaaf6f7e203a6f18c0d33f63624829c35f66525ce1cef08ecaea277acfe0fab"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-001/inputs/main.aep",
+      "bytes": 3358047,
+      "sha256": "a17d9dd566513552d1879038ce03d494d29df5b26504c1bd983b70613f0e45f9"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-001/native-still-114.png",
+      "bytes": 2572810,
+      "sha256": "f9661c77f95e968f632d65bb814a2e5299b34e1645fd3dc213a06788cc91ba54"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-001/native-still-132.png",
+      "bytes": 2190583,
+      "sha256": "7667fd4d33cc52f4dc34bb07993593666cf69f8969a871e3c15a7ea79a2f6e77"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-001/native-still-139.png",
+      "bytes": 2039731,
+      "sha256": "ba797f0e203ff7867bfbfce74d340df0878a1b7f0a72cc67d40bf1a4bc00ded8"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-001/native-still-145.png",
+      "bytes": 1717988,
+      "sha256": "76ac60004b6bebe8a4f95002320a4aef9ef2a5221f6477fee4c25f8d9c096e47"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-001/native-still-150.png",
+      "bytes": 1473756,
+      "sha256": "1f020298fa6d24d92d2308b8f5db47457695cf66d419befe4a5d4b287745dd21"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-001/native-still-156.png",
+      "bytes": 1438418,
+      "sha256": "15a2ab429d35e4596c8e73e72e22d4581af2db6d166326b542b8365e86529f93"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-001/native-still-162.png",
+      "bytes": 1734041,
+      "sha256": "0668d7fa48d8d76bcfb9793cea8d49926c97234da24f4b5f0bf042b6bc4ab512"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-001/native-still-168.png",
+      "bytes": 1715319,
+      "sha256": "c3923d608099d00584bea344ed28428e896e1612382fcccdab6bb7737c941799"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-001/native-still-80.png",
+      "bytes": 5565695,
+      "sha256": "b6d3f71aae40cc333ccbb7f2389b27f910d0346c3b7726546da77889dc503973"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-001/native-still-92.png",
+      "bytes": 2592603,
+      "sha256": "dc9187ca0626e655669e0fdf30463680d2805128fa3b51ed2d20502fcefc6a5d"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-001/plan.json",
+      "bytes": 1418,
+      "sha256": "504b25b07f37bf65ff49758ccd2d35b8f12e02b0e496ef9f1bf0baf6edc1565d"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-001/project.aep",
+      "bytes": 3358811,
+      "sha256": "add183fd084adcf6ee0b5c7c26386aa36ccebd069f45fcdd7c19e29e75ae88a6"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-001/quality.json",
+      "bytes": 1120,
+      "sha256": "72a3ff1b71a6b2998e663b5d2206d5f1e84b579bd076825b91ffd0fc18146aea"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-001/receipt.json",
+      "bytes": 30871,
+      "sha256": "15b4dfe9f4477b926169af5fd6d5c8741d1fd10e365d73b7ccaf333ac2af0313"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-001/request.json",
+      "bytes": 1919,
+      "sha256": "764ce0d26f865d0325dacd702e4b195dd182b26d5df566b54b51ccd9a7a37e94"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-001/scene-quality.json",
+      "bytes": 1771,
+      "sha256": "9c33eac0a56e0146e7f2f4ac19c8ba4f1b9631208a6c130330a50cab9a231c98"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-variation-001/final.mp4",
+      "bytes": 34453987,
+      "sha256": "c7687db1aa7e968215457cdc890e08bb635f3c8c3c3e39c0f6fc67f92c251635"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-variation-001/inputs/main.aep",
+      "bytes": 3358047,
+      "sha256": "a17d9dd566513552d1879038ce03d494d29df5b26504c1bd983b70613f0e45f9"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-variation-001/native-still-114.png",
+      "bytes": 2595196,
+      "sha256": "3838f5223be037e643eff3652b60f02143c064359328f61c6f9a14cc51317241"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-variation-001/native-still-132.png",
+      "bytes": 2164673,
+      "sha256": "420c3cd84bfa77bbe94107547c10abface27c6fe551e19fc0ef6557915232068"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-variation-001/native-still-139.png",
+      "bytes": 2002368,
+      "sha256": "0896677d87acd85fefc44223366e5a1d4bbbd58c509312ae48378b3fc9404285"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-variation-001/native-still-145.png",
+      "bytes": 1651019,
+      "sha256": "10736cad30803492d4a3ac4c1d9528e9459dd42ebe07270fad1516ee187bcc94"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-variation-001/native-still-150.png",
+      "bytes": 1507386,
+      "sha256": "40bce501ed2265b6d66f3dd991daed30a183ae15d719883458f9de55990dee32"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-variation-001/native-still-156.png",
+      "bytes": 1422094,
+      "sha256": "4ff8147cb80a2fb5264127250035a218c5c4910c1d85a804cfa401463dbc2af6"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-variation-001/native-still-162.png",
+      "bytes": 1734041,
+      "sha256": "0668d7fa48d8d76bcfb9793cea8d49926c97234da24f4b5f0bf042b6bc4ab512"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-variation-001/native-still-168.png",
+      "bytes": 1715319,
+      "sha256": "c3923d608099d00584bea344ed28428e896e1612382fcccdab6bb7737c941799"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-variation-001/native-still-80.png",
+      "bytes": 5565695,
+      "sha256": "b6d3f71aae40cc333ccbb7f2389b27f910d0346c3b7726546da77889dc503973"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-variation-001/native-still-92.png",
+      "bytes": 2644427,
+      "sha256": "30ab7ebdecdaa830b4ddada3f220edd9fe3c6529f7b06549234575c103fdf884"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-variation-001/plan.json",
+      "bytes": 1418,
+      "sha256": "504b25b07f37bf65ff49758ccd2d35b8f12e02b0e496ef9f1bf0baf6edc1565d"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-variation-001/project.aep",
+      "bytes": 3358821,
+      "sha256": "88dfc3497d8de670332fdeb8a67a8337170ace93e5ecc07150ea26eecb2cef7f"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-variation-001/quality.json",
+      "bytes": 1129,
+      "sha256": "760e7fd900f067cba829b59674cdbc48f81655abfe160e3f18f2cc081ab65860"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-variation-001/receipt.json",
+      "bytes": 31189,
+      "sha256": "c75f4086f51446c0fa0da91209be3ea1b9f52fca52bfbe5ecacc0d167763a3bc"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-variation-001/request.json",
+      "bytes": 1930,
+      "sha256": "4e1b470ade68887da9fe1d5a1321752951399426ee2cf48537dc8f30bde6d7a7"
+    },
+    {
+      "path": "samples/course-reproduction-018/p17-tunnel-variation-001/scene-quality.json",
+      "bytes": 1762,
+      "sha256": "b01aa44b04d52b91987a512d11888d472ed1b1b4128116c501fc4a1420dea541"
+    },
+    {
       "path": "samples/pr-sound-suite-001/baseline-soft-transitions-001/assets.json",
       "bytes": 3976,
       "sha256": "9544dead507abc1e5e63152574fa5b94a67908d2b5d649788572fb7b9396cca1"
@@ -5283,5 +5475,5 @@
     "repeated native audio/video exports"
   ],
   "portability": "Native projects retain original Windows media paths. Rebuild from the bundled scripts or relink the bundled inputs/assets; historical report references may point to local-only artifacts.",
-  "total_selected_bytes": 1119587513
+  "total_selected_bytes": 1248054036
 }

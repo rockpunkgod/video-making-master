@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course-reproduction-018\\p17-tunnel-variation-001\\final.mp4",
+  "sha256": "c7687db1aa7e968215457cdc890e08bb635f3c8c3c3e39c0f6fc67f92c251635",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "difference_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24.0,
+    "duration": 20.0,
+    "decoded_frames": 480,
+    "unique_thumbnail_frames": 480
+  },
+  "temporal_contract": {
+    "expectation": "required",
+    "difference_measurement": "64x64 area-averaged luma; basic visible-motion presence only",
+    "decoded_difference_frames": 479,
+    "maximum_mean_luma_difference": 69.644,
+    "codec_noise_threshold": 0.1
+  },
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": "",
+  "scene_quality": "scene-quality.json"
+}

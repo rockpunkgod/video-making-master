@@ -3,7 +3,7 @@ name: ae-advanced-compositing
 description: 制作三维预合成粗布局、径向轮廓背景、极坐标噪波圆环、空间条带及动态球形核心候选；保留可编辑AE工程。条带部分流程仍为推定，非完整风格化片头。
 ---
 
-0.1.7候选。第13节组合五个可编辑组件，第15节提供径向轮廓背景、极坐标圆环与空间条带候选；均不代表完成整套片头。按需求选择references/course-composite.md、references/course-radial.md、references/course-polar.md或references/course-streaks.md，只加载相关分支。第13节20秒例子后段尚空，不能用于要求完整成片的交付或自动降级替代其他高级效果。
+0.1.8候选。第13节组合五个可编辑组件，第15节提供径向轮廓背景、极坐标圆环与空间条带候选；均不代表完成整套片头。按需求选择references/course-composite.md、references/course-radial.md、references/course-polar.md或references/course-streaks.md，只加载相关分支。第13节20秒例子后段尚空，不能用于要求完整成片的交付或自动降级替代其他高级效果。
 
 径向背景：scripts/build_radial.py --out全新目录；随后run_ae.py与render_ae.py。默认examples/course-radial.json引用本Skill自制可编辑AEP模板，保留课程Fractal Noise/CC Radial Fast Blur/Unsharp Mask/Find Edges/Curves链。--speed、--seed、--duration为显式变体；基线002整体已获用户认可，精确曲线及跨三种素材仍未验证，详见tests/radial-results.json。不要把此分支当任意素材处理或完整第15节总装。
 
@@ -26,3 +26,5 @@ scripts/build_composite.py --profile examples/course-composite.json --out全新�
 第16节噪波调色：先读references/course-noise-style.md，运行scripts/build_noise_style.py --out全新目录及通用原生执行/渲染。保留原生Colorama色标；--glow-intensity为显式变体。默认4秒96帧仅展示组件，前段可能为空黑；不作为总装或课程视觉一致的验收。见tests/noise-style-results.json。
 
 第16节总装：先读references/course-styled-assembly.md，运行scripts/build_styled_assembly.py --out新目录及通用原生执行/渲染。组合动态核心、噪波与原生圆环调色，链接三层淡出并制作白色轮廓深度；--polar-glow-intensity为变体。色相回读前刷新通道控制，详见分支诊断。20秒候选后段和标题未完成，不作为完整片头交付，见tests/styled-assembly-results.json。
+
+第17节隧道延续：先读references/course-tunnel-style.md，再运行scripts/build_tunnel_style.py --out新目录与通用原生执行/渲染。关闭首个静止轮廓，静态移动Null、扩展Spacing，叠加time*20+value旋转及淡出；--rotation-speed为显式变体。精确曲线和摄影机未确认，后段条带/线条与标题未完成，保持candidate。
