@@ -1,0 +1,108 @@
+{
+  "name": "COURSE_P15_ASSEMBLY",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "duration": 20,
+  "motion_expectation": "required",
+  "status": "candidate",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=15",
+  "inputs": {
+    "main": {
+      "project": "assembly-inputs/main.aep",
+      "composition": "COURSE_P13_COMPOSITE",
+      "sha256": "b9a93b8973578d84cb4e42fc5e20f0e5955e74a4a7090e78ec78e9509821df5d"
+    },
+    "title": {
+      "project": "assembly-inputs/title.aep",
+      "composition": "COURSE_P14_TYPE_REVEAL",
+      "sha256": "9ca620e5b7c734d6e9753a78860455bcd8c4483503f0ee076c58f22eb700683c"
+    },
+    "radial": {
+      "project": "assembly-inputs/radial.aep",
+      "composition": "P15_RADIAL",
+      "sha256": "3854131c9b0d9f3ad3d845f4e2aed530bccac241c27c1c6afec88fc47bc5ce80"
+    },
+    "polar": {
+      "project": "assembly-inputs/polar.aep",
+      "composition": "COURSE_P15_POLAR",
+      "sha256": "46d5282ab6d79fe9345884ec41e508747f6aad7c943076b20ec8838dc9b42427"
+    },
+    "streaks": {
+      "project": "assembly-inputs/streaks.aep",
+      "composition": "COURSE_P15_STREAKS",
+      "sha256": "63c4b324e714371305c832a7813fe6721849aee3641c26e5dd6dd519cd043bc0"
+    },
+    "background": {
+      "project": "assembly-inputs/background.aep",
+      "composition": "P15_BG_TEMPLATE",
+      "sha256": "7456177d9d42ac2132e479b84b24f3ef36d77bad0260d2c209958f2e58472df1"
+    }
+  },
+  "layers": {
+    "core": {
+      "start_frame": 0,
+      "z": 0,
+      "collapse": false
+    },
+    "lines": {
+      "start_frame": 150,
+      "z": -20000,
+      "collapse": false
+    },
+    "polar": {
+      "start_frame": 0,
+      "z": -2830,
+      "collapse": false
+    },
+    "streaks": {
+      "start_frame": 85,
+      "z": -12735,
+      "collapse": true
+    },
+    "contours": {
+      "start_frame": 80,
+      "z": -8230,
+      "collapse": true
+    },
+    "noise": {
+      "start_frame": 12,
+      "z": -5000,
+      "collapse": true
+    },
+    "dots": {
+      "start_frame": 0,
+      "z": -3810,
+      "collapse": true
+    },
+    "title": {
+      "start_frame": 197,
+      "z": -22000,
+      "collapse": false
+    }
+  },
+  "background_blend": 100,
+  "provenance": {
+    "observed": [
+      "13:03 Color3#004353;13:19\u201320 Color1#00114D;13:10 Color2#02001E;13:26\u201327 Color4#011F2A",
+      "13:55 Point1[192,108],2[1674,824],3[192,972],4[1816,126];Blend100/Jitter0/Opacity100/None",
+      "14:05 native RGB Curves after gradient; one interior point below diagonal",
+      "15:10 polarZ-5350, titleZ-22000;19:55 contourZ-8230 and streakZ-12735",
+      "DotsZ-3810; radial main Scale159 at12:40",
+      "18:30 polarZ-2830 supersedes15:10 -5350",
+      "16:40 polar white Linear Color Key tolerance0/softness10;17:56 streak same key",
+      "19:55 switches show streak collapse ON, polar OFF"
+    ],
+    "inferred": [
+      "Timeline starts12/80/85/150/197frames estimated from19:55 ruler",
+      "Radial fade frames28\u201337 estimated from12:54 ruler; linear interpolation unproven",
+      "Curves interior point(.56,.43) estimated from graph; reconstructed using native GUI",
+      "Inherit P13 camera approximate keyframe indices; do not silently move camera to fix title"
+    ],
+    "unverified": [
+      "Title atZ-22000 may remain behind inherited final cameraZ-21000; actual projection checked and reported",
+      "Exact source random layer identities and streak scale method remain unproven",
+      "Not a complete stylized film; P16/17 pending"
+    ]
+  }
+}

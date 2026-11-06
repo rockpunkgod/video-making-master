@@ -75,3 +75,5 @@ python tools/environment_probe.py
 
 已制作第15节径向轮廓背景原生基线与速度/种子/时长变体，保留原生RGB曲线、可复用自制AEP模板和独立调用脚本。基线p15-radial-002经原版左/复刻右对照后，用户反馈“整体符合，可以保留”；精确曲线和噪波身份仍是推定。参见skills/after-effects/ae-advanced-compositing/references/course-radial.md和evaluations/course-p15-radial-001/summary.json。该分支保持candidate，三组跨素材验证及本节圆环、条带、总装尚未完成。自包含Skill隔离原生制作、72帧渲染与完整解码已通过。
 
+
+第15节总装最新进展：11层可编辑AEP、20秒/480帧真实视频及独立调用背景Blend150变体已制作并通过技术检查。最终圆环Z=-2830、条带Z=-12735、轮廓Z=-8230，保留课程白色线性颜色键和选择性折叠。标题沿课程可读Z=-22000，在继承摄影机后方，尚未显示，不能当完整片头；课程一致性保持未通过。详见skills/after-effects/ae-advanced-compositing/references/course-assembly.md。此前“总装未制作”的进度由此更新。圆环002用户整体反馈已接受；不转移至总装或变体。

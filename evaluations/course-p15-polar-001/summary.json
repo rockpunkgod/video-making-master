@@ -67,7 +67,14 @@
         "scope": "Native/render consistency at sampled frames plus native evolution coverage; no course aesthetics or material-generalization claim"
       },
       "visual_review": "Four actual native contact frames per case viewed; baseline source/render side-by-side inspected",
-      "human_review": "pending"
+      "human_review": {
+        "status": "accepted_overall",
+        "case": "p15-polar-002",
+        "feedback": "整体符合，可以保留",
+        "scope": "Overall ring layers, density and outward movement only; exact noise identity, variants and generalization not approved",
+        "comparison": "Original08:40–08:45 left, native baseline002 right; not frame synchronized",
+        "video_sha256": "bc6840662ce1f3e3f595b52b2dc613ae7990e9049c9fa230105e82783cb94480"
+      }
     },
     {
       "case": "p15-polar-variation-001",
@@ -153,10 +160,12 @@
   },
   "negative_control": "negative-frozen-video.json: real seven-second frozen video decoded normally but failed expected_temporal_behavior",
   "human_review": {
-    "status": "pending",
+    "status": "accepted_overall",
     "case": "p15-polar-002",
-    "comparison": "Original08:40–08:45 left, native baseline right, not frame synchronized",
-    "local_comparison": "cache/reviews/p15-polar-original-vs-003/comparison.mp4"
+    "feedback": "整体符合，可以保留",
+    "scope": "Overall ring layers, density and outward movement only; exact noise identity, variants and generalization not approved",
+    "comparison": "Original08:40–08:45 left, native baseline002 right; not frame synchronized",
+    "video_sha256": "bc6840662ce1f3e3f595b52b2dc613ae7990e9049c9fa230105e82783cb94480"
   },
   "gaps": [
     "Three distinct materials not tested",

@@ -1,0 +1,36 @@
+{
+  "skill": "ae-advanced-compositing",
+  "branch": "course15-assembly",
+  "status": "candidate",
+  "steps": [
+    "Import self-made native components",
+    "Preserve course13 camera",
+    "Apply course15 final visible depths and estimated starts",
+    "Add native gradient/Curves background and radial fade",
+    "Edit/save/reopen/restore gradient point",
+    "Native checkpoints, Adobe render, decode, original comparison"
+  ],
+  "provenance": {
+    "observed": [
+      "13:03 Color3#004353;13:19\u201320 Color1#00114D;13:10 Color2#02001E;13:26\u201327 Color4#011F2A",
+      "13:55 Point1[192,108],2[1674,824],3[192,972],4[1816,126];Blend100/Jitter0/Opacity100/None",
+      "14:05 native RGB Curves after gradient; one interior point below diagonal",
+      "15:10 polarZ-5350, titleZ-22000;19:55 contourZ-8230 and streakZ-12735",
+      "DotsZ-3810; radial main Scale159 at12:40",
+      "18:30 polarZ-2830 supersedes15:10 -5350",
+      "16:40 polar white Linear Color Key tolerance0/softness10;17:56 streak same key",
+      "19:55 switches show streak collapse ON, polar OFF"
+    ],
+    "inferred": [
+      "Timeline starts12/80/85/150/197frames estimated from19:55 ruler",
+      "Radial fade frames28\u201337 estimated from12:54 ruler; linear interpolation unproven",
+      "Curves interior point(.56,.43) estimated from graph; reconstructed using native GUI",
+      "Inherit P13 camera approximate keyframe indices; do not silently move camera to fix title"
+    ],
+    "unverified": [
+      "Title atZ-22000 may remain behind inherited final cameraZ-21000; actual projection checked and reported",
+      "Exact source random layer identities and streak scale method remain unproven",
+      "Not a complete stylized film; P16/17 pending"
+    ]
+  }
+}

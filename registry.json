@@ -402,7 +402,7 @@
     },
     {
       "name": "ae-advanced-compositing",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "status": "candidate",
       "execution_status": "native_p13_layout_p15_radial_polar_streak_candidates_with_explicit_inference",
       "path": "skills/after-effects/ae-advanced-compositing",
@@ -435,13 +435,15 @@
         "Course13 is unfinished rough layout with blank tail, later styling not made",
         "Exact source key timing and final dot count inferred",
         "No overall human review; three PNG inputs do not prove text readability or arbitrary materials",
-        "P15 radial/polar/streaks lack three-material generalization; main assembly unfinished",
-        "P15 streak Position base0 and constant Scale reconstruction not confirmed as source operations"
+        "P15 radial/polar/streaks lack three-material generalization; assembly candidate has unresolved title projection",
+        "P15 streak Position base0 and constant Scale reconstruction not confirmed as source operations",
+        "P15 title behind inherited camera on all active frames197–317; no completed-film acceptance"
       ],
       "additional_evidence": [
         "evaluations/course-p15-radial-001/summary.json",
         "evaluations/course-p15-polar-001/summary.json",
-        "evaluations/course-p15-streaks-001/summary.json"
+        "evaluations/course-p15-streaks-001/summary.json",
+        "evaluations/course-p15-assembly-001/summary.json"
       ],
       "human_reviews": [
         {
@@ -450,6 +452,14 @@
           "scope": "Overall radial contours, blue-purple layering and evolution motion; exact curves/noise identity and parameter variant not approved",
           "comparison": "Original p15 05:29–05:34 on left, native baseline002 on right, not frame synchronized",
           "video_sha256": "f4cb2c8b53eb2006d98760806100104cef5da625ae4b2d253da03260142e4612"
+        },
+        {
+          "status": "accepted_overall",
+          "case": "p15-polar-002",
+          "feedback": "整体符合，可以保留",
+          "scope": "Overall ring layers, density and outward movement only; exact noise identity, variants and generalization not approved",
+          "comparison": "Original08:40–08:45 left, native baseline002 right; not frame synchronized",
+          "video_sha256": "bc6840662ce1f3e3f595b52b2dc613ae7990e9049c9fa230105e82783cb94480"
         }
       ]
     }
