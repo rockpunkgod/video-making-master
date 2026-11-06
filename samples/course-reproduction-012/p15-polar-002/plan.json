@@ -1,0 +1,18 @@
+{
+  "skill": "ae-advanced-compositing",
+  "branch": "course15-polar",
+  "status": "candidate",
+  "steps": [
+    "Import own noise rig and retain FN7",
+    "Disable inherited camera",
+    "Apply final course noise dimensions and Rect to Polar",
+    "Offset Turbulence exact time expression and six-layer repetition",
+    "Save/reopen, edit/restore expression, inspect every frame",
+    "Render with Adobe, decode and inspect against original"
+  ],
+  "limitations": [
+    "Exact source random identities not recovered",
+    "No three-material generalization",
+    "This asset is separate from unfinished P15 main assembly"
+  ]
+}

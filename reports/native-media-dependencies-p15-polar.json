@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "projects": [
+    {
+      "project": "E:/自媒体/video-skills-lab/samples/course-reproduction-012/p15-polar-002/project.aep",
+      "sha256": "46d5282ab6d79fe9345884ec41e508747f6aad7c943076b20ec8838dc9b42427",
+      "media": [],
+      "origin": "Actual saved/reopened native build audit; no post-audit AEP mutation"
+    },
+    {
+      "project": "E:/自媒体/video-skills-lab/samples/course-reproduction-012/p15-polar-variation-001/project.aep",
+      "sha256": "089355c64ec2eaf8d8ed983563a727b2d940143c16c1687c5d5b5811ac835226",
+      "media": [],
+      "origin": "Actual saved/reopened native build audit; no post-audit AEP mutation"
+    }
+  ]
+}

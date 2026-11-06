@@ -1,11 +1,13 @@
 ---
 name: ae-advanced-compositing
-description: 将自制AE预合成组合成三维片头粗布局，使用外部摄像机、选择性折叠变换、线性颜色键和随机点阵时移；当前candidate，非完整风格化片头。
+description: 制作课程原法的三维预合成粗布局、径向轮廓背景和极坐标噪波圆环；保留可编辑原生工程与参数控制。当前candidate，非完整风格化片头。
 ---
 
-0.1.1候选。第13节组合五个可编辑组件，另有第15节径向轮廓背景分支；两者均不代表完成整套片头。先按需求选择references/course-composite.md或references/course-radial.md，只加载相关分支。第13节20秒例子后段尚空，不能用于要求完整成片的交付或自动降级替代其他高级效果。
+0.1.2候选。第13节组合五个可编辑组件，第15节提供径向轮廓背景与极坐标噪波圆环；均不代表完成整套片头。先按需求选择references/course-composite.md、references/course-radial.md或references/course-polar.md，只加载相关分支。第13节20秒例子后段尚空，不能用于要求完整成片的交付或自动降级替代其他高级效果。
 
-径向背景：scripts/build_radial.py --out全新目录；随后run_ae.py与render_ae.py。默认examples/course-radial.json引用本Skill自制可编辑AEP模板，保留课程Fractal Noise/CC Radial Fast Blur/Unsharp Mask/Find Edges/Curves链。--speed、--seed、--duration为显式变体；曲线按画面推定，跨三种素材与课程视觉验收尚缺，详见tests/radial-results.json。不要把此分支当任意素材处理或完整第15节总装。
+径向背景：scripts/build_radial.py --out全新目录；随后run_ae.py与render_ae.py。默认examples/course-radial.json引用本Skill自制可编辑AEP模板，保留课程Fractal Noise/CC Radial Fast Blur/Unsharp Mask/Find Edges/Curves链。--speed、--seed、--duration为显式变体；基线002整体已获用户认可，精确曲线及跨三种素材仍未验证，详见tests/radial-results.json。不要把此分支当任意素材处理或完整第15节总装。
+
+极坐标圆环：scripts/build_noise_asset.py --out全新目录，随后run_ae.py与render_ae.py。默认examples/course-polar.json复用自制噪波AEP，保留六层3D/Multiply及value+[0,time*100]。偏移速度、Height、数量和种子变体明确记录；每层全帧检查并实际修改、重开、恢复表达式，渲染检查不能替代原片对照。详见references/course-polar.md与tests/polar-results.json；跨三种素材尚未验证。
 
 scripts/build_composite.py --profile examples/course-composite.json --out全新目录，复制五个自制原生AEP和必要素材，保存请求/计划；随后scripts/run_ae.py --ae本机AfterFX路径，再scripts/render_ae.py --aerender本机路径 --reuse。脚本拒绝关闭未保存或不属于本实验的工程。示例和底层工具均在本Skill内，不读取其他视频仓库或教程缓存。
 

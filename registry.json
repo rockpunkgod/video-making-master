@@ -402,9 +402,9 @@
     },
     {
       "name": "ae-advanced-compositing",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "status": "candidate",
-      "execution_status": "native_p13_rough_layout_and_course_p15_radial_candidate",
+      "execution_status": "native_p13_layout_p15_radial_and_polar_candidates",
       "path": "skills/after-effects/ae-advanced-compositing",
       "dependencies": [
         "After Effects26.0x67 tested",
@@ -417,7 +417,8 @@
         "Five editable native precompositions in3D depth",
         "External camera, selective collapse and Linear Color Key2",
         "Random time-remapped dot clusters",
-        "Course15 native radial outline background with preserved editable RGB channel curves"
+        "Course15 native radial outline background with preserved editable RGB channel curves",
+        "Course15 six-layer native Rect to Polar noise rings with animated turbulence offset"
       ],
       "sources": [
         {
@@ -433,10 +434,11 @@
         "Course13 is unfinished rough layout with blank tail, later styling not made",
         "Exact source key timing and final dot count inferred",
         "No overall human review; three PNG inputs do not prove text readability or arbitrary materials",
-        "P15 radial lacks three-material generalization; P15 other assets and assembly unfinished"
+        "P15 radial/polar lack three-material generalization; streaks and main assembly unfinished"
       ],
       "additional_evidence": [
-        "evaluations/course-p15-radial-001/summary.json"
+        "evaluations/course-p15-radial-001/summary.json",
+        "evaluations/course-p15-polar-001/summary.json"
       ],
       "human_reviews": [
         {

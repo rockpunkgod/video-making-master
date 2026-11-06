@@ -69,5 +69,7 @@ python tools/environment_probe.py
 旧输入测试仅检查build.py历史变体。当前课程技能验收以evaluations/course-p06-final-001/summary.json为准；所有课程总体任务仍未完成。
 # 第15节径向背景补充
 
+同节极坐标圆环已完成六层原生基线与九层参数变体，保留动态Offset Turbulence和可编辑3D图层；另有独立Skill副本的三层真实制作、渲染与冻结视频负例。参见skills/after-effects/ae-advanced-compositing/references/course-polar.md及evaluations/course-p15-polar-001/summary.json。原片对照反馈单独记录；参数变化不等于三组新素材，本节条带和总装仍待制作。
+
 已制作第15节径向轮廓背景原生基线与速度/种子/时长变体，保留原生RGB曲线、可复用自制AEP模板和独立调用脚本。基线p15-radial-002经原版左/复刻右对照后，用户反馈“整体符合，可以保留”；精确曲线和噪波身份仍是推定。参见skills/after-effects/ae-advanced-compositing/references/course-radial.md和evaluations/course-p15-radial-001/summary.json。该分支保持candidate，三组跨素材验证及本节圆环、条带、总装尚未完成。自包含Skill隔离原生制作、72帧渲染与完整解码已通过。
 

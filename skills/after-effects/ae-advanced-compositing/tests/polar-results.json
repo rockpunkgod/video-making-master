@@ -1,0 +1,167 @@
+{
+  "status": "candidate_native_polar_asset",
+  "date": "2026-11-06",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=15",
+  "source_detail": "05:35–08:45",
+  "cases": [
+    {
+      "case": "p15-polar-002",
+      "directory": "samples/course-reproduction-012/p15-polar-002",
+      "project_sha256": "46d5282ab6d79fe9345884ec41e508747f6aad7c943076b20ec8838dc9b42427",
+      "video_sha256": "bc6840662ce1f3e3f595b52b2dc613ae7990e9049c9fa230105e82783cb94480",
+      "frames": 210,
+      "layers": 6,
+      "max_offset_error": 2.27373675443232e-13,
+      "max_evolution_error": 0,
+      "max_z_error": 0,
+      "native_offset_edit": {
+        "before": [
+          540,
+          640
+        ],
+        "changed": [
+          540,
+          641
+        ],
+        "restored": [
+          540,
+          640
+        ]
+      },
+      "full_decode": true,
+      "scene_quality": {
+        "status": "passed",
+        "checks": {
+          "checkpoints": true,
+          "native_evolution_coverage": true,
+          "native_expression_errors": true,
+          "native_project_reopened": true,
+          "native_layer_count": true,
+          "native_offset": true,
+          "native_evolution": true,
+          "native_z_spacing": true
+        },
+        "checkpoints": [
+          {
+            "frame": 0,
+            "mean_luma_error_255": 0.11930555555555555,
+            "passed": true
+          },
+          {
+            "frame": 30,
+            "mean_luma_error_255": 0.12027777777777778,
+            "passed": true
+          },
+          {
+            "frame": 105,
+            "mean_luma_error_255": 0.0967361111111111,
+            "passed": true
+          },
+          {
+            "frame": 209,
+            "mean_luma_error_255": 0.07284722222222222,
+            "passed": true
+          }
+        ],
+        "tolerance": "Mean absolute luma error <=8/255 on160x90 checkpoints; allows codec differences",
+        "scope": "Native/render consistency at sampled frames plus native evolution coverage; no course aesthetics or material-generalization claim"
+      },
+      "visual_review": "Four actual native contact frames per case viewed; baseline source/render side-by-side inspected",
+      "human_review": "pending"
+    },
+    {
+      "case": "p15-polar-variation-001",
+      "directory": "samples/course-reproduction-012/p15-polar-variation-001",
+      "project_sha256": "089355c64ec2eaf8d8ed983563a727b2d940143c16c1687c5d5b5811ac835226",
+      "video_sha256": "e79d86e9745642ae7de6a86264d7bb70f63966a137cd0aff9b38642eaef5b310",
+      "frames": 210,
+      "layers": 9,
+      "max_offset_error": 1.13686837721616e-13,
+      "max_evolution_error": 0,
+      "max_z_error": 0,
+      "native_offset_edit": {
+        "before": [
+          540,
+          600
+        ],
+        "changed": [
+          540,
+          601
+        ],
+        "restored": [
+          540,
+          600
+        ]
+      },
+      "full_decode": true,
+      "scene_quality": {
+        "status": "passed",
+        "checks": {
+          "checkpoints": true,
+          "native_evolution_coverage": true,
+          "native_expression_errors": true,
+          "native_project_reopened": true,
+          "native_layer_count": true,
+          "native_offset": true,
+          "native_evolution": true,
+          "native_z_spacing": true
+        },
+        "checkpoints": [
+          {
+            "frame": 0,
+            "mean_luma_error_255": 0.12708333333333333,
+            "passed": true
+          },
+          {
+            "frame": 30,
+            "mean_luma_error_255": 0.12715277777777778,
+            "passed": true
+          },
+          {
+            "frame": 105,
+            "mean_luma_error_255": 0.1232638888888889,
+            "passed": true
+          },
+          {
+            "frame": 209,
+            "mean_luma_error_255": 0.13701388888888888,
+            "passed": true
+          }
+        ],
+        "tolerance": "Mean absolute luma error <=8/255 on160x90 checkpoints; allows codec differences",
+        "scope": "Native/render consistency at sampled frames plus native evolution coverage; no course aesthetics or material-generalization claim"
+      },
+      "visual_review": "Four actual native contact frames per case viewed; baseline source/render side-by-side inspected",
+      "human_review": "not_requested"
+    }
+  ],
+  "native_conversion_confirmation": {
+    "gui_screenshot": "samples/course-reproduction-012/p15-polar-002/native-still-gui-conversion.png",
+    "interpolation_script_value": 1,
+    "interpolation_gui": "100.0%",
+    "conversion_script_value": 1,
+    "conversion_gui": "矩形到极线 / Rect to Polar"
+  },
+  "isolated_skill": {
+    "status": "passed",
+    "frames": 210,
+    "count": 3,
+    "offset_speed": 140,
+    "height": 120,
+    "seed": 23,
+    "scope": "Copied Skill scripts/profile and own input AEP only; real native build and video, not three materials"
+  },
+  "negative_control": "negative-frozen-video.json: real seven-second frozen video decoded normally but failed expected_temporal_behavior",
+  "human_review": {
+    "status": "pending",
+    "case": "p15-polar-002",
+    "comparison": "Original08:40–08:45 left, native baseline right, not frame synchronized",
+    "local_comparison": "cache/reviews/p15-polar-original-vs-003/comparison.mp4"
+  },
+  "gaps": [
+    "Three distinct materials not tested",
+    "Exact course noise identity unproven",
+    "P15 streaks,gradient background and main assembly incomplete"
+  ],
+  "overall_project_complete": false
+}

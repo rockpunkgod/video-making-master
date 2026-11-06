@@ -1,0 +1,18 @@
+{
+  "name": "COURSE_P15_POLAR",
+  "input_project": "E:/\u81ea\u5a92\u4f53/video-skills-lab/samples/course-reproduction-012/p15-polar-002/inputs/noise.aep",
+  "input_comp": "COURSE_P07_DIGITAL_BLOCKS",
+  "input_sha256": "19f2374c9e1127e5a51d30f6dca65865a2fbe799f9a025eb0cb56b9ef49326bb",
+  "width": 1080,
+  "height": 1080,
+  "fps": 30,
+  "duration": 7,
+  "noise_height": 149.9,
+  "offset_speed": 100,
+  "count": 6,
+  "seed": null,
+  "status": "candidate",
+  "source": "https://www.bilibili.com/video/BV1Yh4y1A7XT/?p=15",
+  "source_interval": "05:35\u201308:45",
+  "variant": false
+}
