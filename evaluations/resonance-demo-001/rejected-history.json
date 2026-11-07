@@ -1,0 +1,15 @@
+{
+  "cases": [
+    {
+      "case": "resonance-001",
+      "reason": "Initialwave too shallow in widescreen; native render stopped85/600 due AE memory warning despite launcherexit0; framecountgate correctly rejected",
+      "retained": false
+    },
+    {
+      "case": "resonance-002 initialpackaging",
+      "reason": "Native600/600 complete; defaultFFmpeg encoder thread allocation failed under memory pressure; reused existing nativeframes, bounded encoder2threads and released only clean ownedAE instance before encoding"
+    }
+  ],
+  "quantization": "Initialidealcontinuous-timeformula gate rejected max0.119794Zpixel phase difference. Actual temporaryclockprobe observedvalueAtTime1/1024frame quantization; measuredgridmodel matches all600nodes within5.46e-12. Original requested-time difference retained in report, not silently hidden.",
+  "cleanup": "Only after native audit and published exactmanifest"
+}

@@ -1,0 +1,83 @@
+{
+  "title": "RESONANCE",
+  "subtitle": "让变化，彼此呼应。",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 20,
+  "palette": {
+    "background": "07151D",
+    "paper": "EEECE2",
+    "cyan": "69D8C8",
+    "accent": "F19A72",
+    "muted": "64838F"
+  },
+  "field": {
+    "columns": 14,
+    "rows": 8,
+    "radius": 260
+  },
+  "wave": {
+    "count": 28,
+    "amplitude": 290,
+    "rate": 2.35,
+    "delay": 0.11,
+    "spacing": 56,
+    "camera": {
+      "point_of_interest": [
+        1000,
+        600,
+        0
+      ],
+      "position_start": [
+        1440,
+        -80,
+        -1450
+      ],
+      "position_end": [
+        950,
+        100,
+        -1500
+      ],
+      "zoom": 1450
+    }
+  },
+  "seed": 37,
+  "purpose": "Original composition generalizing learned methods; not a course reproduction or new verified scope",
+  "name": "RESONANCE_MASTER",
+  "animation": "creative-combination",
+  "motion_expectation": "required",
+  "rgb": {
+    "background": [
+      0.027450980392156862,
+      0.08235294117647059,
+      0.11372549019607843
+    ],
+    "paper": [
+      0.9333333333333333,
+      0.9254901960784314,
+      0.8862745098039215
+    ],
+    "cyan": [
+      0.4117647058823529,
+      0.8470588235294118,
+      0.7843137254901961
+    ],
+    "accent": [
+      0.9450980392156862,
+      0.6039215686274509,
+      0.4470588235294118
+    ],
+    "muted": [
+      0.39215686274509803,
+      0.5137254901960784,
+      0.5607843137254902
+    ]
+  },
+  "audio_assets": [
+    "E:/自媒体/video-skills-lab/samples/composition-demo-001/resonance-002/assets/pad.wav",
+    "E:/自媒体/video-skills-lab/samples/composition-demo-001/resonance-002/assets/pulse.wav",
+    "E:/自媒体/video-skills-lab/samples/composition-demo-001/resonance-002/assets/accents.wav"
+  ],
+  "audio_gain_db": 6
+}

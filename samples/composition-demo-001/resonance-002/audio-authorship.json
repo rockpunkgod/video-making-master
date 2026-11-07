@@ -1,0 +1,16 @@
+{
+  "source": "Original deterministic sine partials/chords; no noise generator, speech, or external recordings",
+  "sample_rate": 48000,
+  "channels": 2,
+  "seconds": 20,
+  "peak": 0.249697718412677,
+  "rms": 0.05243630592503213,
+  "stems": [
+    "pad",
+    "pulse",
+    "accents"
+  ],
+  "limiting_or_clipping": false,
+  "finishing_gain_db": 6,
+  "integrated_loudness_before_gain_lufs": -29.3
+}

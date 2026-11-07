@@ -1,0 +1,40 @@
+{
+  "status": "new_composition_unreviewed",
+  "theme": "共振 / Resonance",
+  "timeline": [
+    {
+      "seconds": [
+        0,
+        4.2
+      ],
+      "idea": "A single point radiates editable delayed contours"
+    },
+    {
+      "seconds": [
+        4.2,
+        9.4
+      ],
+      "idea": "A field turns toward a focus and scales by distance"
+    },
+    {
+      "seconds": [
+        9.2,
+        15.5
+      ],
+      "idea": "Recursive historical positions form a cinematic3D wave"
+    },
+    {
+      "seconds": [
+        15,
+        20
+      ],
+      "idea": "Orbiting points and alternating character reveal resolve into a title"
+    }
+  ],
+  "reused_skills": [
+    "ae-procedural-motion: delayed repetition principle",
+    "ae-advanced-expressions: type-reveal/free-pointing/distance-controller/delayed-wave/orbit"
+  ],
+  "adaptation": "New artwork, camera, colors, words, inputs and timing; not a course reference clip montage",
+  "audio": "Three original harmonic PCM stems; nativeAE project contains separately editable tracks; FFmpeg final audio/video packaging"
+}

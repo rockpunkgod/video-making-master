@@ -1,6 +1,7 @@
 {
   "scope": "Standalone video-skills-lab progress snapshot; overall curriculum incomplete",
   "cases": [
+    "samples/composition-demo-001/resonance-002",
     "samples/course2-distance-001/scale-003",
     "samples/course2-distance-001/blur-001",
     "samples/course2-distance-001/digits-scale-001",
@@ -2298,6 +2299,26 @@
       "sha256": "399b926933d6525dce2902586a48bb1554490e76817c5093746c40886f4531c6"
     },
     {
+      "path": "evaluations/resonance-demo-001/audio-loudness.txt",
+      "bytes": 37077,
+      "sha256": "068232878da5cacd22b25c1267abee43ab15c29baa85dcb1071a4f95d9bad7d9"
+    },
+    {
+      "path": "evaluations/resonance-demo-001/README.md",
+      "bytes": 1355,
+      "sha256": "5828e387a542242b6e27e46c72ba97084ec0582046baee8f0eb7132d7bae98b7"
+    },
+    {
+      "path": "evaluations/resonance-demo-001/rejected-history.json",
+      "bytes": 928,
+      "sha256": "aea5299deb34db68473932f23728269a896af044a3c70045327d9ccce8631d2b"
+    },
+    {
+      "path": "evaluations/resonance-demo-001/summary.json",
+      "bytes": 3941,
+      "sha256": "0d33b6517d9e53c97716873077617db4fe1c2612e864b0782e99dfe570dcb075"
+    },
+    {
       "path": "evaluations/tracking-candidate.json",
       "bytes": 2365,
       "sha256": "cdc33a0799cc0daa01a6c0938da32d84ce87570c6d7026e0ae9690ed7c67d5ef"
@@ -2331,6 +2352,141 @@
       "path": "evaluations/tracking-verified.json",
       "bytes": 3769,
       "sha256": "c0da3ad1b8983d2ef26728249681fb27b2679f5508152daa226277f47addfefb"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/assets/accents.wav",
+      "bytes": 3840044,
+      "sha256": "2980ca3e7bc039dc0fc6fa1c6b07bdb997ce70329321a3ed20d4eedc2330480f"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/assets/pad.wav",
+      "bytes": 3840044,
+      "sha256": "2496f8aff37e7b39be23f598cbe1444ddde9974f0c39dd16789edec33d121a47"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/assets/pulse.wav",
+      "bytes": 3840044,
+      "sha256": "a4f157bbfd55b43429debf877a54681e042a1ed11c38628b91abe77f493f393e"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/assets/score.wav",
+      "bytes": 3840044,
+      "sha256": "aab379408f5e3ff0d77c6323db77f307c7c9d346b1da723e9b95f844163cf160"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/audio-authorship.json",
+      "bytes": 411,
+      "sha256": "2609c00e47051368b8cd24f8653b92eb917879028812b434ce5d18acce0920d3"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/composition-quality.json",
+      "bytes": 65906,
+      "sha256": "79b664820198d0b8a3fbb9e6d1c74efcb803fc9d2b191c5d34f7e159a11558f5"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/credits.md",
+      "bytes": 990,
+      "sha256": "fbda3be4a726c63f680bb0e894d86a22e5dc14ec1b5ff0bcf5b444784c5e3c24"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/final.mp4",
+      "bytes": 2898197,
+      "sha256": "cb4b5684649d258612cce31013e7b2b9e7af23d36a6f3824676a16476fd916ec"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/native-render.json",
+      "bytes": 356,
+      "sha256": "33c1fc92597c867d778ae1d454bcb2e47b6faae834c51a66fc194c2395cb83f7"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/native-still-0.png",
+      "bytes": 18828,
+      "sha256": "e27a0e8f556839cefcf85aaa8a531d7e70b0834184c16c520baa0f6b1294e635"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/native-still-135.png",
+      "bytes": 238408,
+      "sha256": "33f5b6fbdc006b2a04111dde29d1cf318fbc5329ba196113a241e3f575f030a7"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/native-still-186.png",
+      "bytes": 142922,
+      "sha256": "08795a27a301250ea8e6432ffc81fcfd85b5fbbc80f4ce89f751df3aac8238bb"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/native-still-24.png",
+      "bytes": 53255,
+      "sha256": "7ec36f1e6118a7a2be76da121fe92139fbee94a4927c0e018fa9abf4ee2fd4be"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/native-still-252.png",
+      "bytes": 143505,
+      "sha256": "08c59320c4148a5fcd68e2f096d045b69105beb84f3b084fc750188fa77ac07c"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/native-still-294.png",
+      "bytes": 311323,
+      "sha256": "18b8a9e7660c91e4fb58a3f5c0b8c54415a21ead32c2f5d838b5fac3c14f613c"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/native-still-330.png",
+      "bytes": 267261,
+      "sha256": "71e12c53c9c8a908950898af36ce3b732466ae83aa572f204fa6d8d5cd99f4ed"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/native-still-396.png",
+      "bytes": 283485,
+      "sha256": "a9e7313c01754c4795e4f10486ff49bab6e405852b4caf9aeb548995b1a6f270"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/native-still-474.png",
+      "bytes": 464720,
+      "sha256": "d995b4e42f80de5dd486194d0293809ac2b1e6c39b877f3eedc1b1d752dd0aed"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/native-still-519.png",
+      "bytes": 257311,
+      "sha256": "fc7bb331d302e0e516daf368eb4ccb87cfe5e3fb2aa6c68c266f9febf4b5e26c"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/native-still-558.png",
+      "bytes": 256993,
+      "sha256": "9f873922d016f5fa1688f7dc99ed77044086f9b1b687a4ddc25a6386faba7027"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/native-still-597.png",
+      "bytes": 190437,
+      "sha256": "1dcef50e544572806b54827309a85a8e75178efc2f4948db86cf4152d423e73a"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/native-still-75.png",
+      "bytes": 187804,
+      "sha256": "f89aada42c13d35f8f23c48f62f7bf89a26c5fe01b78e8dc58add662d083f6d5"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/plan.json",
+      "bytes": 1118,
+      "sha256": "8f1941fd68c1149cbf82c19a702dd5db4b2e538fd13cbefab5ad2e764f6906cc"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/project.aep",
+      "bytes": 2738259,
+      "sha256": "7c30dda7aafbdd7bd4c6cd3e19c8d6782544eed6e1811d4b3d1a4fa48f7ec7d2"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/quality.json",
+      "bytes": 832,
+      "sha256": "e2a4b1db7724119ce173939833521b4dd33a962007f348a66c4ef96dbd1dc3e2"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/receipt.json",
+      "bytes": 108323,
+      "sha256": "37dd9d95e3f6ef95171454ff55c4d22e748aefc713d4be642784770e9f38af32"
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/request.json",
+      "bytes": 1898,
+      "sha256": "2eba138f100c53c77972553eecc36bb6b45e2900b23ffd2370e43b585fd65c30"
     },
     {
       "path": "samples/course-generalization-001/geometry/assets/input.png",
@@ -16693,6 +16849,9 @@
     }
   ],
   "supplemental_native_media": [
+    "samples/composition-demo-001/resonance-002/assets/accents.wav",
+    "samples/composition-demo-001/resonance-002/assets/pad.wav",
+    "samples/composition-demo-001/resonance-002/assets/pulse.wav",
     "samples/course-generalization-001/geometry/assets/input.png",
     "samples/course-generalization-001/texture/assets/input.png",
     "samples/course-generalization-001/typography/assets/input.png",
@@ -16868,5 +17027,5 @@
     "repeated native audio/video exports"
   ],
   "portability": "Native projects retain original Windows media paths. Rebuild from the bundled scripts or relink the bundled inputs/assets; historical report references may point to local-only artifacts.",
-  "total_selected_bytes": 2535879276
+  "total_selected_bytes": 2559915295
 }

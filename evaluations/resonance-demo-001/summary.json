@@ -1,0 +1,101 @@
+{
+  "status": "actual_native_original_composition_passed_checks_pending_user_aesthetic_review",
+  "case": "resonance-002",
+  "directory": "samples/composition-demo-001/resonance-002",
+  "video": "samples/composition-demo-001/resonance-002/final.mp4",
+  "project": "samples/composition-demo-001/resonance-002/project.aep",
+  "video_sha256": "cb4b5684649d258612cce31013e7b2b9e7af23d36a6f3824676a16476fd916ec",
+  "project_sha256": "7c30dda7aafbdd7bd4c6cd3e19c8d6782544eed6e1811d4b3d1a4fa48f7ec7d2",
+  "seconds": 20,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "frames": 600,
+  "native_pngs_viewed": 13,
+  "main_layers": 46,
+  "field_layers": 115,
+  "wave_layers": 29,
+  "learned_methods_generalized": [
+    {
+      "unit": "delayed contours",
+      "source": "BV1Yh4y1A7XT/p6",
+      "new_input": "Circular outlines, six delays, new20sec layout and timing"
+    },
+    {
+      "unit": "type reveal",
+      "source": "BV1Yh4y1A7XT/p14",
+      "new_input": "ONE/FIELD/IN RHYTHM/RESONANCE, Chinese secondary type, new fonts and timing; native alternating position/random opacity"
+    },
+    {
+      "unit": "free pointing",
+      "source": "BV1c7GTzMEh5/p33",
+      "new_input": "14x8 field responding to a procedural movingfocus"
+    },
+    {
+      "unit": "distance controller",
+      "source": "BV1c7GTzMEh5/p35",
+      "new_input": "Radius260, vectorscale235/180 to65 and opacity coupling"
+    },
+    {
+      "unit": "recursive delayed3D wave",
+      "source": "BV1c7GTzMEh5/p34",
+      "new_input": "28bars, amplitude290, rate2.35,delay.11, spacing56, fullHDcamera and depthoffield"
+    },
+    {
+      "unit": "orbit",
+      "source": "BV1c7GTzMEh5/p29",
+      "new_input": "18points onthreeellipticalorbits behind closingtitle"
+    }
+  ],
+  "checks": {
+    "final_aac_audio": true,
+    "native_expression_errors": true,
+    "native_independent_formulas": true,
+    "editable_title": true,
+    "native_fonts": true,
+    "media": true,
+    "full_decoded_movie": true,
+    "native_movie_checkpoints": true,
+    "field_direction_pixels": true,
+    "no_unintended_blank_middle": true,
+    "native_stem_mix": true,
+    "audio_no_clip": true,
+    "audio_no_abrupt_samples": true,
+    "audio_no_middle_gaps": true
+  },
+  "native_formula_error": 5.4569682106375694e-12,
+  "actual_movie_direction_max_error_degrees": 2.9712047437780007,
+  "native_time_precision": {
+    "requested_delay": 0.11,
+    "effective_delay": 0.10999348958333334,
+    "clock_probe": {
+      "comp_fps": 30,
+      "requested_previous_time": -0.11,
+      "actual_sampled_time": -0.10999348958333,
+      "expression_error": ""
+    },
+    "max_difference_from_ideal_unquantized_z": 0.11979418848311496,
+    "explanation": "Actual valueAtTime time sampling observed at1/1024frame; recursive27calls accumulate a subpixel phase offset; retained rather than fake exact continuous-time identity"
+  },
+  "native_media_audit": "reports/native-media-dependencies-resonance-final.json",
+  "audio": {
+    "stems": [
+      "pad",
+      "pulse",
+      "accents"
+    ],
+    "authorship": "Original harmonic synthesis; no noise/voice/downloaded media",
+    "final_integrated_lufs": -23.3,
+    "final_true_peak_dbfs": -12.1,
+    "aac_source_correlation": 0.9999946185083958,
+    "subjective_listening": "User review pending; no subjective listening claim inferred from metrics"
+  },
+  "native_edit_test": {
+    "before": "RESONANCE",
+    "test": "EDITABLE",
+    "restored": "RESONANCE"
+  },
+  "new_layout_subjective_review": "13native checkpoints and their actualmovie equivalents visually assessed; no clipped final title or missing Chinese glyph observed",
+  "scope": "New parameterized composition joining existing methods. One20sec creative case, not six new verifiedSkills or completion of curriculum",
+  "previous_curriculum_goal": "Remains paused; no new course learning resumed"
+}

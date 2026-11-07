@@ -1,0 +1,48 @@
+{
+  "title": "RESONANCE",
+  "subtitle": "让变化，彼此呼应。",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 20,
+  "palette": {
+    "background": "07151D",
+    "paper": "EEECE2",
+    "cyan": "69D8C8",
+    "accent": "F19A72",
+    "muted": "64838F"
+  },
+  "field": {
+    "columns": 14,
+    "rows": 8,
+    "radius": 260
+  },
+  "wave": {
+    "count": 28,
+    "amplitude": 290,
+    "rate": 2.35,
+    "delay": 0.11,
+    "spacing": 56,
+    "camera": {
+      "point_of_interest": [
+        1000,
+        600,
+        0
+      ],
+      "position_start": [
+        1440,
+        -80,
+        -1450
+      ],
+      "position_end": [
+        950,
+        100,
+        -1500
+      ],
+      "zoom": 1450
+    }
+  },
+  "seed": 37,
+  "purpose": "Original composition generalizing learned methods; not a course reproduction or new verified scope",
+  "audio_gain_db": 6
+}

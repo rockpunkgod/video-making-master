@@ -1,5 +1,7 @@
 # video-skills-lab
 
+新增原创泛化演示《共振》：20秒1080p30，组合延迟轮廓、动态文字、目标朝向、距离联动、递归三维波浪和椭圆轨道，保留可编辑工程及三条配乐分轨。真实600帧渲染和像素/音频检查通过；这是新构图组合示例，审美待用户观看，完整课程学习仍暂停。交付见samples/composition-demo-001/resonance-002，验证见evaluations/resonance-demo-001/summary.json。当前170组原生交付，既有Skill状态保持按registry记录。
+
 第35节距离控制已按length/linear与FastBlur原法制作9组AEP/电影1200帧，含三新素材的双分支和独立8秒变参，63张原生PNG及完整电影检查通过。scale003/blur001整体获用户认可；第34节补景深两基线也已获认可。当前169组原生交付，高级表达式0.16.0十六单元，整体仍candidate；原AI/字体/画布及测量重放等推定边界保留，全部课程目标未完成。见evaluations/course2-p35-distance-001/summary.json。
 
 第34节递归延迟三维波浪已按课程原法制作7组AEP/视频1700帧，含固定/三Slider、三幅新PNG、负间距和独立8秒变参。漏景深旧版已排除，原生5mm光圈单位与实际景深开关重测通过；63张原生PNG已审阅。现160组原生交付，高级表达式0.15.0含十五单元、仍candidate。推定机位/颜色/控件数量、未同步和人工反馈缺口保留，全部课程目标未完成。见evaluations/course2-p34-delayed-wave-001/summary.json。

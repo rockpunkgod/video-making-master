@@ -621,5 +621,20 @@
       "status": "unimplemented"
     }
   ],
-  "acceptance_policy": "Course-based baseline must pass explicit method and effect comparison before generalized technical tests can support verified status."
+  "acceptance_policy": "Course-based baseline must pass explicit method and effect comparison before generalized technical tests can support verified status.",
+  "composition_examples": [
+    {
+      "name": "resonance",
+      "status": "native_demo_checked_aesthetic_review_pending",
+      "config": "skills/after-effects/ae-advanced-expressions/examples/compositions/resonance.json",
+      "build": "tools/build_resonance_demo.py",
+      "evidence": "evaluations/resonance-demo-001/summary.json",
+      "skills": [
+        "ae-procedural-motion",
+        "ae-advanced-expressions"
+      ],
+      "editable_project": "samples/composition-demo-001/resonance-002/project.aep",
+      "video": "samples/composition-demo-001/resonance-002/final.mp4"
+    }
+  ]
 }
