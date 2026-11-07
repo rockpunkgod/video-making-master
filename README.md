@@ -1,6 +1,10 @@
 # video-skills-lab
 
-新增原创泛化演示《共振》：20秒1080p30，组合延迟轮廓、动态文字、目标朝向、距离联动、递归三维波浪和椭圆轨道，保留可编辑工程及三条配乐分轨。真实600帧渲染和像素/音频检查通过；这是新构图组合示例，审美待用户观看，完整课程学习仍暂停。交付见samples/composition-demo-001/resonance-002，验证见evaluations/resonance-demo-001/summary.json。当前170组原生交付，既有Skill状态保持按registry记录。
+新增[Video Art Direction](skills/video-art-direction/SKILL.md)：把Distinctive AI Design的探索—制作—精修方法转为视频流程。先为同一主题提出2–3种真正不同的镜头方向，确定具体Brief，再组合制作技能；遇惯性才引入真实随机种子。独立评审必须依据真实成片全长正常播放与实际试听，截图和技术指标不能替代运动、节奏和听感。每轮优先通过减法修正最重要的1–3项，默认最多两轮，剩余问题如实交付。
+
+此次提供《共振》三种下一版方向、选定Brief、可独立调用的方案/评审工具，以及现有真实成片的版本绑定评审包。新方向尚未制作，现有片声画艺术评审仍待完成；工具测试不代表审美验收。见[evaluations/video-art-direction-001/summary.json](evaluations/video-art-direction-001/summary.json)。课程复刻的严格原法要求继续有效，全部18条来源的完整学习未完成。
+
+新增原创泛化演示《共振》：20秒1080p30，组合延迟轮廓、动态文字、目标朝向、距离联动、递归三维波浪和椭圆轨道，保留可编辑工程及三条配乐分轨。真实600帧渲染和像素/音频检查通过；这是新构图组合示例，审美待用户观看，完整课程学习尚未完成。交付见samples/composition-demo-001/resonance-002，验证见evaluations/resonance-demo-001/summary.json。当前170组原生交付，既有Skill状态保持按registry记录。
 
 第35节距离控制已按length/linear与FastBlur原法制作9组AEP/电影1200帧，含三新素材的双分支和独立8秒变参，63张原生PNG及完整电影检查通过。scale003/blur001整体获用户认可；第34节补景深两基线也已获认可。当前169组原生交付，高级表达式0.16.0十六单元，整体仍candidate；原AI/字体/画布及测量重放等推定边界保留，全部课程目标未完成。见evaluations/course2-p35-distance-001/summary.json。
 
@@ -28,7 +32,7 @@
 
 Git提交包含Skills、来源、验证记录及代表性可编辑工程/成片；数量以交付清单为准，包含未验收或被否决的历史。第10节已保留原片时点驱动的006及两个seed变参；第14节基线002整体效果获用户认可，另有三组新文字原生变体；第11/12节静态设置仍为候选，不冒充最终动画。已入库的临时数据按清理规则删除，来源链接和验证报告保留。分发范围和跨机器重建说明见[Git交付范围](reports/git-delivery.md)，逐文件校验见[交付清单](reports/git-delivery-manifest.json)。
 
-**当前状态：1个verified、4个candidate。** ae-procedural-motion 0.3.0已按课程第5、6节原法制作、完成变参、三组原创素材、原生编辑重开和独立目录调用；用户确认最终效果符合课程。验证仅覆盖记录的课程配置与PNG分支，录屏播放时码的精确逐帧对齐未确认。第8节ae-advanced-expressions新增五组原生制作及逐帧像素验证，待课程整体视觉验收；摄像机跟踪与PR声音仍待完整课程流程复刻。详见 evaluations/course-p06-final-001/summary.json、evaluations/course-p08-suite-001/summary.json和registry.json。全部课程学习和完整AE/PR技能库未完成。
+**当前状态：1个verified、5个candidate（含新增艺术指导层）。** ae-procedural-motion 0.3.0已按课程第5、6节原法制作、完成变参、三组原创素材、原生编辑重开和独立目录调用；用户确认最终效果符合课程。验证仅覆盖记录的课程配置与PNG分支，录屏播放时码的精确逐帧对齐未确认。第8节ae-advanced-expressions新增五组原生制作及逐帧像素验证，待课程整体视觉验收；摄像机跟踪与PR声音仍待完整课程流程复刻。详见 evaluations/course-p06-final-001/summary.json、evaluations/course-p08-suite-001/summary.json和registry.json。全部课程学习和完整AE/PR技能库未完成。
 
 已访问18条课程页面，并读取B站分P目录，共166个章节条目。第一套课程的第1、5—14节已有画面取证，第5—14节复用已有本机语音工具转录；第11/12节已有静态设置候选，第14节已制作文字选择器动画及三组文字变体，曲线部分估算与源种子未读仍标明。第13节已制作三维粗排候选及三素材变体，主合成后段仍空，不能当最终片头；第15—18节已追加学习与原生候选，第19/20节方法课已读；仍有估算及整片缺口，第2—4节未完成学习，不能称首套课程完成。共有13条来源已开始局部分析，尚未完成全部课程学习。详见 [课程清单](reports/source-catalog.md)、[当前执行报告](reports/status.md) 和 [技能登记](registry.json)。
 

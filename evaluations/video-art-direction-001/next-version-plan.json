@@ -1,0 +1,64 @@
+{
+  "status": "production_plan_ready",
+  "errors": [],
+  "selected_direction": "single-line",
+  "shots": [
+    {
+      "start": 0,
+      "end": 5,
+      "focus": "唯一扰动的起点和返回",
+      "framing": "固定平面中景，线偏下",
+      "movement": "一次扰动沿线传播并衰减",
+      "motivation": "先让观众识别变化来自哪里",
+      "sound": "一次轻脉冲，尾音自然结束"
+    },
+    {
+      "start": 5,
+      "end": 13,
+      "focus": "相邻位置之间的关系",
+      "framing": "保持同一镜头",
+      "movement": "间隔逐渐形成可预测的连续传播，不突然换形",
+      "motivation": "从偶发事件转入共同节律",
+      "sound": "第二次脉冲与第一段的尾音留出空隙"
+    },
+    {
+      "start": 13,
+      "end": 17,
+      "focus": "整条线的同相运动",
+      "framing": "同一构图，留白保持",
+      "movement": "保留一轮完整节律，降低运动幅度",
+      "motivation": "让整体关系成立，而不是急于切走",
+      "sound": "一次和声音程随形变出现并衰减"
+    },
+    {
+      "start": 17,
+      "end": 20,
+      "focus": "共振片名与线的余动",
+      "framing": "片名出现在上方留白",
+      "movement": "线继续细微余动；文字一次淡入，不重复强调",
+      "motivation": "命名发生在体验之后，并留足阅读时间",
+      "sound": "自然尾音，末尾不截断"
+    }
+  ],
+  "skill_bindings": [
+    {
+      "name": "ae-advanced-expressions",
+      "use": "复用延迟/波形原理；新的连续线实现先实测",
+      "status": "candidate_new_composition",
+      "shots": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "ae-procedural-motion",
+      "use": "只在符合既有已验边界时复用，不能把轮廓隧道强加进本方向",
+      "status": "optional_not_required"
+    }
+  ],
+  "artistic_status": "pending",
+  "creative_distinctness": "Declared differences need human/Agent judgment; string checks do not judge creativity",
+  "scope": "Plan only; no AE/PR execution, render, playback or listening implied",
+  "brief_sha256": "86d9baef1206dcd578c417d0740b945f78b1835104664c61cb9399fde103685a"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Art Direction"
+  short_description: "以大胆方向和精准取舍指导视频，用连续运动与声音评审支撑有限精修"
+  default_prompt: "使用 $video-art-direction 为当前视频探索不同镜头方向、制定Brief，并按真实连续播放和试听证据精修最重要的问题。"

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-07",
+  "skill": "video-art-direction",
+  "version": "0.1.0",
+  "status": "candidate",
+  "execution_status": "contract_tools_and_real_media_preflight_passed",
+  "artistic_end_to_end": "pending_native_new_direction_production_and_independent_continuous_motion_actual_listening_review",
+  "source_provenance": "source-provenance.json",
+  "implemented": [
+    "2_to_3_different_treatments_and_specific_brief",
+    "real_seed_exploration_and_replay",
+    "existing_skill_plan_binding",
+    "real_video_version_bound_blind_review_packet",
+    "separate_technical_and_artistic_status",
+    "top_1_to_3_fixes_default_two_round_budget"
+  ],
+  "tests": {
+    "result": "passed",
+    "count": 20,
+    "evidence": "contract-tests.txt",
+    "reviewer_declarations": "synthetic_test_fixtures_only_not_actual_reviews"
+  },
+  "independent_copy": {
+    "actual_execution": true,
+    "cwd": "outside_project_working_directory",
+    "evidence": "invocations.json"
+  },
+  "real_media": {
+    "path": "E:\\自媒体\\video-skills-lab\\samples\\composition-demo-001\\resonance-002\\final.mp4",
+    "sha256": "cb4b5684649d258612cce31013e7b2b9e7af23d36a6f3824676a16476fd916ec",
+    "technical_preflight": "passed",
+    "evidence": "current-film-review/technical-observations.json",
+    "artistic_status": "pending",
+    "negative_gate_evidence": "pending-review-check.json"
+  },
+  "proposals": {
+    "brief": "skills/video-art-direction/examples/resonance-brief.json",
+    "directions": [
+      "material",
+      "single-line",
+      "spatial-take"
+    ],
+    "selected": "single-line",
+    "status": "not_rendered_not_reviewed",
+    "plan": "next-version-plan.json"
+  },
+  "limitations": [
+    "Record consistency cannot prove anyone actually watched or heard",
+    "Current-film target is retrospective; no fabricated original exploration history",
+    "New-direction AE/PR production and independent audiovisual refinement not completed",
+    "No new aesthetic user acceptance or Skill verified claim"
+  ],
+  "overall_curriculum": {
+    "status": "incomplete",
+    "sources": 18,
+    "catalog_chapters": 166
+  },
+  "next_work": "Native short-segment validation of selected continuous-line direction, then real editable full movie and continuous audiovisual review"
+}

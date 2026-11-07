@@ -1,0 +1,24 @@
+{
+  "kind": "exploration_prompts_not_design_directions",
+  "seed": "88c9e8cf817a4d0f718d928b2a3514b2",
+  "seed_source": "system_entropy_secrets",
+  "prompts": [
+    {
+      "space": "贴近材质与局部变化",
+      "rhythm": "长镜头内改变密度",
+      "composition": "通过一次破格改变观看关系"
+    },
+    {
+      "space": "一个平面中的连续形变",
+      "rhythm": "保持一次动作的完整起停",
+      "composition": "一个主焦点带动其余层退让"
+    },
+    {
+      "space": "从个体进入群体的纵深",
+      "rhythm": "以安静而非新特效制造转折",
+      "composition": "让同一形状承担开场与结尾"
+    }
+  ],
+  "keep_locked": "User/brand/content constraints; no randomized public seed label",
+  "next": "Author2–3 genuinely different treatments, compare their expression and tradeoffs"
+}

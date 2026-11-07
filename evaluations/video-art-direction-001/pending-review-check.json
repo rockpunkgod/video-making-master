@@ -1,0 +1,17 @@
+{
+  "status": "evidence_incomplete",
+  "artistic_status": "pending",
+  "errors": [
+    "full_actual_listening_evidence_missing",
+    "full_normal_speed_motion_evidence_missing",
+    "independent_review_missing_or_biased",
+    "timecoded_observation_missing_focus_typography",
+    "timecoded_observation_missing_motion_camera",
+    "timecoded_observation_missing_narrative_rhythm",
+    "timecoded_observation_missing_sound_picture"
+  ],
+  "next_action": "retain_evidence_or_obtain_missing_review",
+  "iteration_budget_exhausted": false,
+  "video_sha256": "cb4b5684649d258612cce31013e7b2b9e7af23d36a6f3824676a16476fd916ec",
+  "scope": "Checks artifact binding and declared evidence consistency only; does not prove anyone watched/listened or certify aesthetic quality. Never sets Skill verified."
+}

@@ -1,0 +1,36 @@
+{
+  "repository": "houxin0010/distinctive-ai-design",
+  "revision": "92c68366767b98924fe2719c16659e7f1e93c7af",
+  "read_at": "2026-11-07",
+  "files": [
+    {
+      "path": "README.md",
+      "expected_git_blob": "241b1f5d8f9855c1b262bf615d56a4b8c3827b2b",
+      "read_content_git_blob": "241b1f5d8f9855c1b262bf615d56a4b8c3827b2b",
+      "matches": true,
+      "bytes": 8898
+    },
+    {
+      "path": "SKILL.md",
+      "expected_git_blob": "60d93763a3d135e0e30373fe7d54efe6d3a28886",
+      "read_content_git_blob": "60d93763a3d135e0e30373fe7d54efe6d3a28886",
+      "matches": true,
+      "bytes": 5053
+    },
+    {
+      "path": "references/review-and-media.md",
+      "expected_git_blob": "07dd6292d6ebba70519ea44159f0746388557b28",
+      "read_content_git_blob": "07dd6292d6ebba70519ea44159f0746388557b28",
+      "matches": true,
+      "bytes": 2372
+    },
+    {
+      "path": "docs/VALIDATION_RESULTS.md",
+      "expected_git_blob": "2d4b3c45dafb5eaff7b9edfc34e8be8bbe8eeba2",
+      "read_content_git_blob": "2d4b3c45dafb5eaff7b9edfc34e8be8bbe8eeba2",
+      "matches": true,
+      "bytes": 4262
+    }
+  ],
+  "method": "Read and paraphrased; no upstream code executed or full source bundled; original Lenny article not independently read"
+}

@@ -1,0 +1,82 @@
+{
+  "project": "共振：现有成片声画评审目标",
+  "purpose": "观察一点信号扩展为场、节律和整体关系的视觉演示",
+  "audience": "对动态视觉有兴趣、不了解AE技术的普通观众",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration_s": 20
+  },
+  "visual_style": {
+    "colors": {
+      "background": "deep blue green",
+      "type": "cream",
+      "accent": "cyan and warm highlights"
+    },
+    "fonts": {
+      "heading": "现有工程所用无衬线标题",
+      "secondary": "现有工程所用中文无衬线"
+    },
+    "composition_rule": "分段中央图形、大标题、辅助文字与常驻边栏"
+  },
+  "motion_language": "延迟轮廓、目标朝向及距离联动，递归三维波浪，末尾椭圆轨道",
+  "camera_language": "分段构图，三维波浪以透视展示前后层次",
+  "emotional_arc": [
+    "信号出现",
+    "场的响应",
+    "节律建立",
+    "共振命名"
+  ],
+  "sound": {
+    "intent": "music_and_effects",
+    "strategy": "三条可编辑声音分轨：和声底层、脉冲与强调音；评审其连续听感与声画关系"
+  },
+  "shots": [
+    {
+      "start": 0,
+      "end": 4.2,
+      "focus": "ONE及一点信号",
+      "framing": "中央点和延迟轮廓，标题与说明",
+      "movement": "延迟轮廓展开",
+      "motivation": "建立个体信号",
+      "sound": "和声底层与脉冲"
+    },
+    {
+      "start": 4.2,
+      "end": 9.1,
+      "focus": "FIELD及跟随目标",
+      "framing": "112条方向元素围绕焦点",
+      "movement": "目标运动带动朝向和距离尺度变化",
+      "motivation": "从一点进入场",
+      "sound": "底层连续，脉冲变化"
+    },
+    {
+      "start": 9.1,
+      "end": 15,
+      "focus": "IN RHYTHM及三维条形波浪",
+      "framing": "28条立体波浪呈前后关系",
+      "movement": "递归延迟形成波浪",
+      "motivation": "由场进入节律",
+      "sound": "和声与强调音"
+    },
+    {
+      "start": 15,
+      "end": 20,
+      "focus": "RESONANCE及轨道点",
+      "framing": "片名配18个轨道点，结尾淡出",
+      "movement": "椭圆轨道和文字展开后淡出",
+      "motivation": "整体命名与结束",
+      "sound": "保留尾音并结束"
+    }
+  ],
+  "direction": {
+    "treatment": "由点到场到节律到共振的四段动态图形",
+    "space": "平面场与三维条形波浪、末尾轨道结构交替",
+    "camera": "分段构图，三维波浪具有透视关系",
+    "rhythm": "20秒四段展示，章节大字与图形分段出现",
+    "composition": "中央图形配章节标题、中文说明和常驻信息",
+    "sound": "持续和声底层、脉冲及强调音，随段落推进",
+    "bold_choice": "以图形数量和关系变化连接多个技术结构"
+  }
+}

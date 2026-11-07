@@ -1,0 +1,96 @@
+{
+  "cwd": "E:\\自媒体\\video-skills-lab\\cache\\vad-isolated-001",
+  "isolated_skill_copy": true,
+  "scope": "Actual outside-project-cwd invocation of a copied Skill. Test viewer declarations are synthetic; no continuous playback/listening or aesthetic acceptance claimed.",
+  "commands": [
+    {
+      "arguments": [
+        "E:\\自媒体\\video-skills-lab\\.venv\\Scripts\\python.exe",
+        "E:\\自媒体\\video-skills-lab\\cache\\vad-isolated-001\\video-art-direction\\scripts\\art_direction.py",
+        "explore",
+        "--out",
+        "E:\\自媒体\\video-skills-lab\\evaluations\\video-art-direction-001\\exploration-seed.json"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "stdout": "{\"seed_source\": \"system_entropy_secrets\"}\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "E:\\自媒体\\video-skills-lab\\.venv\\Scripts\\python.exe",
+        "E:\\自媒体\\video-skills-lab\\cache\\vad-isolated-001\\video-art-direction\\scripts\\art_direction.py",
+        "explore",
+        "--seed",
+        "88c9e8cf817a4d0f718d928b2a3514b2",
+        "--out",
+        "E:\\自媒体\\video-skills-lab\\evaluations\\video-art-direction-001\\exploration-replay.json"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "stdout": "{\"seed_source\": \"caller_replay\"}\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "E:\\自媒体\\video-skills-lab\\.venv\\Scripts\\python.exe",
+        "E:\\自媒体\\video-skills-lab\\cache\\vad-isolated-001\\video-art-direction\\scripts\\art_direction.py",
+        "plan",
+        "--brief",
+        "E:\\自媒体\\video-skills-lab\\cache\\vad-isolated-001\\video-art-direction\\examples\\resonance-brief.json",
+        "--registry",
+        "E:\\自媒体\\video-skills-lab\\registry.json",
+        "--out",
+        "E:\\自媒体\\video-skills-lab\\evaluations\\video-art-direction-001\\next-version-plan.json"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "stdout": "{\"status\": \"production_plan_ready\", \"errors\": [], \"artistic_status\": \"pending\"}\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "E:\\自媒体\\video-skills-lab\\.venv\\Scripts\\python.exe",
+        "E:\\自媒体\\video-skills-lab\\cache\\vad-isolated-001\\video-art-direction\\scripts\\art_direction.py",
+        "packet",
+        "--brief",
+        "E:\\自媒体\\video-skills-lab\\cache\\vad-isolated-001\\video-art-direction\\examples\\resonance-current-review-brief.json",
+        "--video",
+        "E:\\自媒体\\video-skills-lab\\samples\\composition-demo-001\\resonance-002\\final.mp4",
+        "--out",
+        "E:\\自媒体\\video-skills-lab\\evaluations\\video-art-direction-001\\current-film-review"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "stdout": "{\"video_sha256\": \"cb4b5684649d258612cce31013e7b2b9e7af23d36a6f3824676a16476fd916ec\", \"artistic_status\": \"pending\"}\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "E:\\自媒体\\video-skills-lab\\.venv\\Scripts\\python.exe",
+        "E:\\自媒体\\video-skills-lab\\cache\\vad-isolated-001\\video-art-direction\\scripts\\art_direction.py",
+        "check",
+        "--packet",
+        "E:\\自媒体\\video-skills-lab\\evaluations\\video-art-direction-001\\current-film-review\\review-packet.json",
+        "--review",
+        "E:\\自媒体\\video-skills-lab\\evaluations\\video-art-direction-001\\current-film-review\\review-template.json",
+        "--out",
+        "E:\\自媒体\\video-skills-lab\\evaluations\\video-art-direction-001\\pending-review-check.json"
+      ],
+      "exit_code": 1,
+      "expected_exit_code": 1,
+      "stdout": "{\"status\": \"evidence_incomplete\", \"artistic_status\": \"pending\", \"errors\": [\"full_actual_listening_evidence_missing\", \"full_normal_speed_motion_evidence_missing\", \"independent_review_missing_or_biased\", \"timecoded_observation_missing_focus_typography\", \"timecoded_observation_missing_motion_camera\", \"timecoded_observation_missing_narrative_rhythm\", \"timecoded_observation_missing_sound_picture\"], \"video_sha256\": \"cb4b5684649d258612cce31013e7b2b9e7af23d36a6f3824676a16476fd916ec\"}\n",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "E:\\自媒体\\video-skills-lab\\.venv\\Scripts\\python.exe",
+        "E:\\自媒体\\video-skills-lab\\cache\\vad-isolated-001\\video-art-direction\\tests\\test_evidence_gate.py"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "stdout": "",
+      "stderr": "test_approval_with_open_issues_rejected (__main__.EvidenceGate.test_approval_with_open_issues_rejected) ... ok\ntest_budget_stops_without_passing (__main__.EvidenceGate.test_budget_stops_without_passing) ... ok\ntest_clean_reviewer_brief_omits_implementation (__main__.EvidenceGate.test_clean_reviewer_brief_omits_implementation) ... ok\ntest_color_swap_is_not_a_distinct_direction (__main__.EvidenceGate.test_color_swap_is_not_a_distinct_direction) ... ok\ntest_consistent_declaration_is_not_verification (__main__.EvidenceGate.test_consistent_declaration_is_not_verification) ... ok\ntest_full_duration_required_for_both (__main__.EvidenceGate.test_full_duration_required_for_both) ... ok\ntest_localized_observations_valid_without_start_at_zero (__main__.EvidenceGate.test_localized_observations_valid_without_start_at_zero) ... ok\ntest_max_three_priority_fixes (__main__.EvidenceGate.test_max_three_priority_fixes) ... ok\ntest_metrics_do_not_pass_listening_gate (__main__.EvidenceGate.test_metrics_do_not_pass_listening_gate) ... ok\ntest_missing_and_malformed_observation (__main__.EvidenceGate.test_missing_and_malformed_observation) ... ok\ntest_missing_audio_actual_media_fails (__main__.EvidenceGate.test_missing_audio_actual_media_fails) ... ok\ntest_no_overwrite_evidence (__main__.EvidenceGate.test_no_overwrite_evidence) ... ok\ntest_real_gap_rejected (__main__.EvidenceGate.test_real_gap_rejected) ... ok\ntest_real_seed_and_replay (__main__.EvidenceGate.test_real_seed_and_replay) ... ok\ntest_screenshots_do_not_pass_motion_gate (__main__.EvidenceGate.test_screenshots_do_not_pass_motion_gate) ... ok\ntest_self_review_and_biased_context_rejected (__main__.EvidenceGate.test_self_review_and_biased_context_rejected) ... ok\ntest_slow_motion_diagnostic_is_not_normal_playback (__main__.EvidenceGate.test_slow_motion_diagnostic_is_not_normal_playback) ... ok\ntest_stale_movie_binding (__main__.EvidenceGate.test_stale_movie_binding) ... ok\ntest_tampered_packet_metadata_reprobed (__main__.EvidenceGate.test_tampered_packet_metadata_reprobed) ... ok\ntest_too_many_changes (__main__.EvidenceGate.test_too_many_changes) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 1.038s\n\nOK\n"
+    }
+  ]
+}

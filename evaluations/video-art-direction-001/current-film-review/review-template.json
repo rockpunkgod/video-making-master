@@ -1,0 +1,28 @@
+{
+  "video_sha256": "cb4b5684649d258612cce31013e7b2b9e7af23d36a6f3824676a16476fd916ec",
+  "reviewer": {
+    "id": null,
+    "kind": null,
+    "was_implementer": null,
+    "received_code_history_or_scores": null
+  },
+  "playback": {
+    "kind": "pending",
+    "speed": 1,
+    "intervals": [],
+    "observation": ""
+  },
+  "sound": {
+    "kind": "pending",
+    "intervals": [],
+    "listening_conditions": "",
+    "observation": ""
+  },
+  "observations": [],
+  "priority_issues": [],
+  "iteration": {
+    "round": 1,
+    "changes": []
+  },
+  "artistic_decision": "pending"
+}

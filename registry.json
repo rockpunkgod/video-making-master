@@ -591,6 +591,36 @@
           "scope": "Overall unfolding, hollow spherical structure and color layers only; exact easing, variant and three materials not approved"
         }
       ]
+    },
+    {
+      "name": "video-art-direction",
+      "version": "0.1.0",
+      "status": "candidate",
+      "execution_status": "contract_tools_tested_artistic_end_to_end_pending",
+      "path": "skills/video-art-direction",
+      "role": "direction_brief_and_continuous_audiovisual_review",
+      "dependencies": [
+        "Python 3.10+",
+        "Existing FFmpeg/FFprobe for real-file preflight",
+        "Independent reviewer with actual continuous playback and listening capability"
+      ],
+      "plugins": [],
+      "scenarios": [
+        "original video direction exploration",
+        "concrete visual camera motion and sound brief",
+        "subtractive refinement of actual renders"
+      ],
+      "sources": [
+        {
+          "repository": "houxin0010/distinctive-ai-design",
+          "revision": "92c68366767b98924fe2719c16659e7f1e93c7af"
+        }
+      ],
+      "evidence": "evaluations/video-art-direction-001/summary.json",
+      "blockers": [
+        "New directions not yet natively produced and independently reviewed",
+        "Continuous playback/listening judgments cannot be inferred from preflight or declarations"
+      ]
     }
   ],
   "research_queue": [
@@ -636,5 +666,23 @@
       "editable_project": "samples/composition-demo-001/resonance-002/project.aep",
       "video": "samples/composition-demo-001/resonance-002/final.mp4"
     }
-  ]
+  ],
+  "workflows": {
+    "original_video": {
+      "entry_skill": "video-art-direction",
+      "stages": [
+        "purpose_and_constraints",
+        "2_to_3_distinct_treatments_when_needed",
+        "selected_brief_and_timecoded_shot_sound_plan",
+        "bind_existing_skills_with_explicit_limits",
+        "native_AE_PR_production_and_render",
+        "independent_full_length_normal_speed_playback_and_actual_listening",
+        "top_1_to_3_subtractive_fixes_within_budget"
+      ],
+      "default_max_refinement_rounds": 2,
+      "technical_and_artistic_acceptance_separate": true,
+      "missing_motion_or_listening": "pending_artistic_review",
+      "interface": "JSON Brief and plan, existing production Skill scripts, real project/video, version-bound review packet; no renderer or autonomous aesthetics claimed"
+    }
+  }
 }

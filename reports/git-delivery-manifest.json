@@ -2354,6 +2354,81 @@
       "sha256": "c0da3ad1b8983d2ef26728249681fb27b2679f5508152daa226277f47addfefb"
     },
     {
+      "path": "evaluations/video-art-direction-001/contract-tests.txt",
+      "bytes": 2248,
+      "sha256": "5e6e59450d209ae433df9df3a98fb13424e5a9b0420e79e0da0e48509be13e6b"
+    },
+    {
+      "path": "evaluations/video-art-direction-001/current-film-review/brief.json",
+      "bytes": 2916,
+      "sha256": "6b7dfe983c174c5efb84c0348ccbb77a9b7f5b8e8a169dfde45d29368374f8a8"
+    },
+    {
+      "path": "evaluations/video-art-direction-001/current-film-review/review-packet.json",
+      "bytes": 3846,
+      "sha256": "3b684a0e02653c8d6e9ffae27977ba2b71313a29a969146cb074569e390959c9"
+    },
+    {
+      "path": "evaluations/video-art-direction-001/current-film-review/review-template.json",
+      "bytes": 601,
+      "sha256": "50690d76b4eb239a0d9fcdc6c83dd90fb4f0eac7c5b2c551c6bf19b67f50dc16"
+    },
+    {
+      "path": "evaluations/video-art-direction-001/current-film-review/reviewer-prompt.md",
+      "bytes": 764,
+      "sha256": "a7feac879e42d529ebc92c7ea2a9630c6fdabadd035bd37444796b056d3192dc"
+    },
+    {
+      "path": "evaluations/video-art-direction-001/current-film-review/technical-observations.json",
+      "bytes": 226,
+      "sha256": "7368c111a607dbdfc4af3757c058e43b3715cf192130413b40795718a8ba0849"
+    },
+    {
+      "path": "evaluations/video-art-direction-001/exploration-replay.json",
+      "bytes": 877,
+      "sha256": "8fef19295d3317cb87adbf867f59117258b55f63ebc0b0a7f3b84a86453618d6"
+    },
+    {
+      "path": "evaluations/video-art-direction-001/exploration-seed.json",
+      "bytes": 886,
+      "sha256": "89ccae9b631abc4590102274ccc3a1e9a733ec4293ba254fcf3575026d52b468"
+    },
+    {
+      "path": "evaluations/video-art-direction-001/invocations.json",
+      "bytes": 6924,
+      "sha256": "bba6f4a02dc89bbb61274e1e3e970302755dd55b742ff384a70e595215246d41"
+    },
+    {
+      "path": "evaluations/video-art-direction-001/next-version-plan.json",
+      "bytes": 2277,
+      "sha256": "888b0c562eb9b14e88bf60deb6b7c55e8f631e2004e1edcbfdc4754da7573cd7"
+    },
+    {
+      "path": "evaluations/video-art-direction-001/pending-review-check.json",
+      "bytes": 814,
+      "sha256": "6bc3631eecd2c85942a78cd19b862fb0bcf674b76e91fe1ff2876f5ecd13de3a"
+    },
+    {
+      "path": "evaluations/video-art-direction-001/report.md",
+      "bytes": 1944,
+      "sha256": "a3d2715e3a1b1d37eda3d7ecf3c2f8e101a4ce4a5b20401d2386a9828a0798f3"
+    },
+    {
+      "path": "evaluations/video-art-direction-001/skill-validation.json",
+      "bytes": 356,
+      "sha256": "a11626a2f5ea41771dee6351ef1e7c7e33e061eead500e10efa89a51bb225029"
+    },
+    {
+      "path": "evaluations/video-art-direction-001/source-provenance.json",
+      "bytes": 1279,
+      "sha256": "438af8b3d97f5b123125c708e9fba5e0369f4afc15fbe013cdc3c3806fbe1376"
+    },
+    {
+      "path": "evaluations/video-art-direction-001/summary.json",
+      "bytes": 2350,
+      "sha256": "eb6cf7bf00d6ac9ddf489c1bf56cf0b137d96eaa3add4357618b7bb935dcd07c"
+    },
+    {
       "path": "samples/composition-demo-001/resonance-002/assets/accents.wav",
       "bytes": 3840044,
       "sha256": "2980ca3e7bc039dc0fc6fa1c6b07bdb997ce70329321a3ed20d4eedc2330480f"
@@ -17027,5 +17102,5 @@
     "repeated native audio/video exports"
   ],
   "portability": "Native projects retain original Windows media paths. Rebuild from the bundled scripts or relink the bundled inputs/assets; historical report references may point to local-only artifacts.",
-  "total_selected_bytes": 2559915295
+  "total_selected_bytes": 2559943603
 }
