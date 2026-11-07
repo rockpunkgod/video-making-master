@@ -1,0 +1,636 @@
+{
+  "source_start": 785,
+  "source_end": 790,
+  "crop": [
+    552,
+    161,
+    300,
+    225
+  ],
+  "observations": [
+    {
+      "frame": 0,
+      "time": 0.0,
+      "source_crop_center": [
+        195.18135245901638,
+        204.1372950819672
+      ],
+      "pixels": 976,
+      "inferred_native_xy": [
+        208.1934426229508,
+        217.74644808743167
+      ]
+    },
+    {
+      "frame": 1,
+      "time": 0.1,
+      "source_crop_center": [
+        120.86260869565217,
+        195.37739130434784
+      ],
+      "pixels": 575,
+      "inferred_native_xy": [
+        128.92011594202899,
+        208.4025507246377
+      ]
+    },
+    {
+      "frame": 2,
+      "time": 0.2,
+      "source_crop_center": [
+        70.59695431472082,
+        182.15431472081218
+      ],
+      "pixels": 985,
+      "inferred_native_xy": [
+        75.30341793570221,
+        194.29793570219965
+      ]
+    },
+    {
+      "frame": 3,
+      "time": 0.3,
+      "source_crop_center": [
+        45.089463220675945,
+        174.75149105367794
+      ],
+      "pixels": 1006,
+      "inferred_native_xy": [
+        48.09542743538768,
+        186.40159045725648
+      ]
+    },
+    {
+      "frame": 4,
+      "time": 0.4,
+      "source_crop_center": [
+        33.56767283349562,
+        162.57740993184032
+      ],
+      "pixels": 1027,
+      "inferred_native_xy": [
+        35.805517689062,
+        173.41590392729634
+      ]
+    },
+    {
+      "frame": 5,
+      "time": 0.5,
+      "source_crop_center": [
+        28.229508196721312,
+        156.952868852459
+      ],
+      "pixels": 976,
+      "inferred_native_xy": [
+        30.111475409836068,
+        167.41639344262293
+      ]
+    },
+    {
+      "frame": 6,
+      "time": 0.6,
+      "source_crop_center": [
+        27.916429249762583,
+        148.77207977207976
+      ],
+      "pixels": 1053,
+      "inferred_native_xy": [
+        29.777524533080086,
+        158.69021842355176
+      ]
+    },
+    {
+      "frame": 7,
+      "time": 0.7,
+      "source_crop_center": [
+        32.843023255813954,
+        141.0920542635659
+      ],
+      "pixels": 1032,
+      "inferred_native_xy": [
+        35.032558139534885,
+        150.49819121447027
+      ]
+    },
+    {
+      "frame": 8,
+      "time": 0.8,
+      "source_crop_center": [
+        49.62461538461538,
+        126.96615384615384
+      ],
+      "pixels": 975,
+      "inferred_native_xy": [
+        52.93292307692307,
+        135.4305641025641
+      ]
+    },
+    {
+      "frame": 9,
+      "time": 0.9,
+      "source_crop_center": [
+        54.39887640449438,
+        125.39513108614233
+      ],
+      "pixels": 1068,
+      "inferred_native_xy": [
+        58.025468164794,
+        133.75480649188515
+      ]
+    },
+    {
+      "frame": 10,
+      "time": 1.0,
+      "source_crop_center": [
+        78.74825174825175,
+        116.64597902097903
+      ],
+      "pixels": 1144,
+      "inferred_native_xy": [
+        83.99813519813519,
+        124.42237762237764
+      ]
+    },
+    {
+      "frame": 11,
+      "time": 1.1,
+      "source_crop_center": [
+        88.90080428954424,
+        116.00983020554067
+      ],
+      "pixels": 1119,
+      "inferred_native_xy": [
+        94.82752457551385,
+        123.74381888591006
+      ]
+    },
+    {
+      "frame": 12,
+      "time": 1.2,
+      "source_crop_center": [
+        104.35507921714819,
+        112.98415657036347
+      ],
+      "pixels": 1073,
+      "inferred_native_xy": [
+        111.3120844982914,
+        120.51643367505436
+      ]
+    },
+    {
+      "frame": 13,
+      "time": 1.3,
+      "source_crop_center": null,
+      "pixels": 0,
+      "inferred_native_xy": null
+    },
+    {
+      "frame": 14,
+      "time": 1.4,
+      "source_crop_center": [
+        144.1420814479638,
+        104.79276018099547
+      ],
+      "pixels": 1105,
+      "inferred_native_xy": [
+        153.75155354449473,
+        111.77894419306183
+      ]
+    },
+    {
+      "frame": 15,
+      "time": 1.5,
+      "source_crop_center": [
+        155.5749364944962,
+        103.22777307366638
+      ],
+      "pixels": 1181,
+      "inferred_native_xy": [
+        165.94659892746262,
+        110.10962461191082
+      ]
+    },
+    {
+      "frame": 16,
+      "time": 1.6,
+      "source_crop_center": [
+        180.9060118543607,
+        99.67400508044031
+      ],
+      "pixels": 1181,
+      "inferred_native_xy": [
+        192.96641264465143,
+        106.31893875246966
+      ]
+    },
+    {
+      "frame": 17,
+      "time": 1.7,
+      "source_crop_center": [
+        214.531279178338,
+        97.11297852474323
+      ],
+      "pixels": 1071,
+      "inferred_native_xy": [
+        228.83336445689386,
+        103.58717709305944
+      ]
+    },
+    {
+      "frame": 18,
+      "time": 1.8,
+      "source_crop_center": [
+        247.0123711340206,
+        97.15567010309279
+      ],
+      "pixels": 970,
+      "inferred_native_xy": [
+        263.47986254295535,
+        103.63271477663231
+      ]
+    },
+    {
+      "frame": 19,
+      "time": 1.9,
+      "source_crop_center": [
+        281.25894736842105,
+        96.33263157894737
+      ],
+      "pixels": 950,
+      "inferred_native_xy": [
+        300.0095438596491,
+        102.75480701754387
+      ]
+    },
+    {
+      "frame": 20,
+      "time": 2.0,
+      "source_crop_center": [
+        285.6715945089757,
+        98.00950369588173
+      ],
+      "pixels": 947,
+      "inferred_native_xy": [
+        304.71636747624075,
+        104.54347060894051
+      ]
+    },
+    {
+      "frame": 21,
+      "time": 2.1,
+      "source_crop_center": [
+        292.99226804123714,
+        102.97164948453609
+      ],
+      "pixels": 388,
+      "inferred_native_xy": [
+        312.52508591065293,
+        109.83642611683848
+      ]
+    },
+    {
+      "frame": 22,
+      "time": 2.2,
+      "source_crop_center": null,
+      "pixels": 0,
+      "inferred_native_xy": null
+    },
+    {
+      "frame": 23,
+      "time": 2.3,
+      "source_crop_center": null,
+      "pixels": 0,
+      "inferred_native_xy": null
+    },
+    {
+      "frame": 24,
+      "time": 2.4,
+      "source_crop_center": null,
+      "pixels": 0,
+      "inferred_native_xy": null
+    },
+    {
+      "frame": 25,
+      "time": 2.5,
+      "source_crop_center": null,
+      "pixels": 0,
+      "inferred_native_xy": null
+    },
+    {
+      "frame": 26,
+      "time": 2.6,
+      "source_crop_center": [
+        255.7607476635514,
+        185.2859813084112
+      ],
+      "pixels": 1070,
+      "inferred_native_xy": [
+        272.81146417445484,
+        197.6383800623053
+      ]
+    },
+    {
+      "frame": 27,
+      "time": 2.7,
+      "source_crop_center": [
+        225.897903372835,
+        195.73108477666364
+      ],
+      "pixels": 1097,
+      "inferred_native_xy": [
+        240.9577635976907,
+        208.77982376177457
+      ]
+    },
+    {
+      "frame": 28,
+      "time": 2.8,
+      "source_crop_center": [
+        192.94011406844106,
+        192.4458174904943
+      ],
+      "pixels": 1052,
+      "inferred_native_xy": [
+        205.80278833967046,
+        205.27553865652726
+      ]
+    },
+    {
+      "frame": 29,
+      "time": 2.9,
+      "source_crop_center": [
+        175.30078125,
+        186.6298828125
+      ],
+      "pixels": 1024,
+      "inferred_native_xy": [
+        186.9875,
+        199.071875
+      ]
+    },
+    {
+      "frame": 30,
+      "time": 3.0,
+      "source_crop_center": [
+        156.16631355932202,
+        172.08262711864407
+      ],
+      "pixels": 944,
+      "inferred_native_xy": [
+        166.5774011299435,
+        183.554802259887
+      ]
+    },
+    {
+      "frame": 31,
+      "time": 3.1,
+      "source_crop_center": [
+        156.1997885835095,
+        172.0676532769556
+      ],
+      "pixels": 946,
+      "inferred_native_xy": [
+        166.61310782241014,
+        183.538830162086
+      ]
+    },
+    {
+      "frame": 32,
+      "time": 3.2,
+      "source_crop_center": [
+        156.58198380566802,
+        172.24392712550608
+      ],
+      "pixels": 988,
+      "inferred_native_xy": [
+        167.02078272604587,
+        183.7268556005398
+      ]
+    },
+    {
+      "frame": 33,
+      "time": 3.3,
+      "source_crop_center": [
+        156.79377431906616,
+        172.84630350194553
+      ],
+      "pixels": 1028,
+      "inferred_native_xy": [
+        167.24669260700392,
+        184.36939040207523
+      ]
+    },
+    {
+      "frame": 34,
+      "time": 3.4,
+      "source_crop_center": [
+        156.72936660268715,
+        172.92130518234165
+      ],
+      "pixels": 1042,
+      "inferred_native_xy": [
+        167.1779910428663,
+        184.4493921944978
+      ]
+    },
+    {
+      "frame": 35,
+      "time": 3.5,
+      "source_crop_center": [
+        156.78036929057336,
+        172.72303206997086
+      ],
+      "pixels": 1029,
+      "inferred_native_xy": [
+        167.23239390994493,
+        184.23790087463559
+      ]
+    },
+    {
+      "frame": 36,
+      "time": 3.6,
+      "source_crop_center": [
+        156.5677618069815,
+        171.98254620123203
+      ],
+      "pixels": 974,
+      "inferred_native_xy": [
+        167.00561259411361,
+        183.44804928131416
+      ]
+    },
+    {
+      "frame": 37,
+      "time": 3.7,
+      "source_crop_center": [
+        156.56365503080082,
+        172.0123203285421
+      ],
+      "pixels": 974,
+      "inferred_native_xy": [
+        167.0012320328542,
+        183.4798083504449
+      ]
+    },
+    {
+      "frame": 38,
+      "time": 3.8,
+      "source_crop_center": [
+        156.51684210526315,
+        172.18105263157895
+      ],
+      "pixels": 950,
+      "inferred_native_xy": [
+        166.95129824561403,
+        183.6597894736842
+      ]
+    },
+    {
+      "frame": 39,
+      "time": 3.9,
+      "source_crop_center": [
+        156.4984160506864,
+        172.15100316789864
+      ],
+      "pixels": 947,
+      "inferred_native_xy": [
+        166.93164378739883,
+        183.6277367124252
+      ]
+    },
+    {
+      "frame": 40,
+      "time": 4.0,
+      "source_crop_center": [
+        156.63747454175152,
+        172.52545824847252
+      ],
+      "pixels": 982,
+      "inferred_native_xy": [
+        167.07997284453495,
+        184.02715546503737
+      ]
+    },
+    {
+      "frame": 41,
+      "time": 4.1,
+      "source_crop_center": [
+        153.3604757548033,
+        174.2753888380604
+      ],
+      "pixels": 1093,
+      "inferred_native_xy": [
+        163.58450747179018,
+        185.8937480939311
+      ]
+    },
+    {
+      "frame": 42,
+      "time": 4.2,
+      "source_crop_center": [
+        123.48785228377065,
+        176.64625850340136
+      ],
+      "pixels": 1029,
+      "inferred_native_xy": [
+        131.72037576935534,
+        188.42267573696145
+      ]
+    },
+    {
+      "frame": 43,
+      "time": 4.3,
+      "source_crop_center": null,
+      "pixels": 0,
+      "inferred_native_xy": null
+    },
+    {
+      "frame": 44,
+      "time": 4.4,
+      "source_crop_center": [
+        55.53528225806452,
+        162.34576612903226
+      ],
+      "pixels": 992,
+      "inferred_native_xy": [
+        59.23763440860216,
+        173.16881720430106
+      ]
+    },
+    {
+      "frame": 45,
+      "time": 4.5,
+      "source_crop_center": [
+        43.526267281105994,
+        154.33548387096775
+      ],
+      "pixels": 1085,
+      "inferred_native_xy": [
+        46.42801843317972,
+        164.62451612903226
+      ]
+    },
+    {
+      "frame": 46,
+      "time": 4.6,
+      "source_crop_center": [
+        39.95594262295082,
+        146.9047131147541
+      ],
+      "pixels": 976,
+      "inferred_native_xy": [
+        42.619672131147546,
+        156.69836065573767
+      ]
+    },
+    {
+      "frame": 47,
+      "time": 4.7,
+      "source_crop_center": [
+        39.9244135534318,
+        144.2632493483927
+      ],
+      "pixels": 1151,
+      "inferred_native_xy": [
+        42.586041123660586,
+        153.8807993049522
+      ]
+    },
+    {
+      "frame": 48,
+      "time": 4.8,
+      "source_crop_center": [
+        43.20988805970149,
+        134.47201492537314
+      ],
+      "pixels": 1072,
+      "inferred_native_xy": [
+        46.090547263681586,
+        143.43681592039803
+      ]
+    },
+    {
+      "frame": 49,
+      "time": 4.9,
+      "source_crop_center": [
+        46.05440900562852,
+        129.72138836772984
+      ],
+      "pixels": 1066,
+      "inferred_native_xy": [
+        49.12470293933709,
+        138.3694809255785
+      ]
+    }
+  ],
+  "limits": [
+    "Controller center by bright green connected component; source selection handles/cursor/ghosting can bias center",
+    "320x240 canvas inferred from41/120 position,80 native spacing and300x225 recorded preview; exact source dialog not shown",
+    "Sampled10fps interaction replay is adaptation; original had no motion keyframes",
+    "Initial simple brightgreen detector mistakenly chose left border and missed controller over black letters; excluded, replaced with yellow-component detector",
+    "Union of green-over-background and yellow-over-black detector; source repaint/cursor bias unresolved; not native controller ground truth"
+  ],
+  "status": "unverified_measurement_proposal",
+  "inspected_contact_frames": 50,
+  "not_controller_ground_truth": true
+}

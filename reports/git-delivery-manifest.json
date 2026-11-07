@@ -1524,6 +1524,21 @@
       "sha256": "9a49654c86f31404b43c03a303e561b0aaaa912442fb0ae6ef86dd04c0cb2370"
     },
     {
+      "path": "evaluations/course2-p35-distance-study-001/blur-final-measurements.json",
+      "bytes": 13666,
+      "sha256": "bd9ff447df353cd9abf56cadd57d94f6836d614d577e6e178fda210f4135d6f5"
+    },
+    {
+      "path": "evaluations/course2-p35-distance-study-001/scale-final-measurements.json",
+      "bytes": 14318,
+      "sha256": "f901004c5034cdc09afbe395802ee93f466f8eb80be45a7d5c38da70647d19b9"
+    },
+    {
+      "path": "evaluations/course2-p35-distance-study-001/summary.json",
+      "bytes": 4129,
+      "sha256": "e88587865959eb3436435ed269c5da1cf8b1a7ed6ae16f73bd214d0cf6d8a2d3"
+    },
+    {
       "path": "evaluations/first-skill.json",
       "bytes": 4116,
       "sha256": "301f271d2e67cd372e42c58bc8ba0da3c7cec5b586167ecd1e89124d4fe9a398"
@@ -15996,5 +16011,5 @@
     "repeated native audio/video exports"
   ],
   "portability": "Native projects retain original Windows media paths. Rebuild from the bundled scripts or relink the bundled inputs/assets; historical report references may point to local-only artifacts.",
-  "total_selected_bytes": 2531938299
+  "total_selected_bytes": 2531970412
 }

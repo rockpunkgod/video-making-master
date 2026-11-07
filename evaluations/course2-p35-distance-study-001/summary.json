@@ -1,0 +1,112 @@
+{
+  "status": "source_learning_in_progress_no_native_production",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=35",
+  "raw": "cache/watch/watch-07ie3rz3/download/run-uf8gbagd/video.mp4",
+  "video_seconds": 1652.24,
+  "audio_seconds": 826.2185,
+  "views": {
+    "global_watch": 18,
+    "technical_watch": 37,
+    "interaction_crops_10fps": 100,
+    "interaction_ranges": [
+      "08:50-08:55",
+      "13:05-13:10"
+    ]
+  },
+  "transcript": {
+    "segments_read": 217,
+    "engine": "existing local faster-whisper-small int8",
+    "models_installed_or_downloaded": false,
+    "audio_uploaded": false
+  },
+  "observed_expressions": {
+    "scale": "point1=transform.position; point2=thisComp.layer(\"控制\").transform.position; distance=length(point1,point2); linear(distance,0,70,[250,250],[70,70])",
+    "scale_alternative": "chazhi=sub(point1,point2); distance=length(chazhi); same linear output",
+    "blur": "point1=transform.position; point2=thisComp.layer(\"控制\").transform.position; distance=length(point1,point2); linear(distance,0,70,40,0)"
+  },
+  "observed": {
+    "scale_final_far": 70,
+    "scale_initial_far_variants": [
+      75,
+      100
+    ],
+    "scale_near": 250,
+    "distance_radius": 70,
+    "blur_near": 40,
+    "blur_far": 0,
+    "control_motion": "manual dragging, no course motion keys; sample replay will be explicit adaptation",
+    "same_space": "unparented2D centered artwork, positions in same comp",
+    "scale_units": "two-dimensional percent vector",
+    "blur_effect": "Fast Blur, Horizontal and Vertical, RepeatEdgePixels off",
+    "artwork": "four a.ai/b.ai/c.ai/d.ai main exercise; early5letter preview separate",
+    "comp_a_first_position": [
+      41,
+      120
+    ],
+    "comp_a_late_control_position": [
+      140,
+      209
+    ],
+    "preview_fps": 29.97
+  },
+  "inferred": {
+    "canvas": [
+      320,
+      240
+    ],
+    "canvas_basis": "Source recording comp preview300x225 is whole-recording-scaled; aPosition41/120 and latecontrol140/209 align at~0.94scale. Do not mistake recorded crop300x225 for native comp300x225",
+    "target_centers_proposal": [
+      [
+        41,
+        120
+      ],
+      [
+        121,
+        120
+      ],
+      [
+        201,
+        120
+      ],
+      [
+        281,
+        120
+      ]
+    ],
+    "par": 1,
+    "fps": "Actualcompfps not read;29.97 is Preview setting only",
+    "background": "Recorded bg mostlyRGB0/45/37..39; exact native color/render matte not read",
+    "artwork_size_font": "AI assets unavailable; own editable circle/text replacement dimensions/font remain inferred"
+  },
+  "excluded": [
+    {
+      "range": "08:45-08:50",
+      "reason": "Contains expression edit black frames, not final interaction",
+      "dense_extracted": 125,
+      "dense_individually_viewed": false
+    },
+    {
+      "measurement": "v1 green detector",
+      "reason": "Chose left crop border and missed green-over-black; excluded"
+    },
+    {
+      "measurement": "v2 yellow detector",
+      "reason": "Missed green-over-background; excluded"
+    },
+    {
+      "measurement": "v3 union",
+      "reason": "Reviewed but misses1/50scale,6/50blur, clipping/ghosting/cursor biases; not ready as exact replay"
+    }
+  ],
+  "pending": [
+    "Correct controller centers using observed selection handles; ambiguous/clipped positions stay inferred, no arbitrary smoothing",
+    "Confirm native output matte/shape dimensions and preserve source target expression logic",
+    "Build native scale and FastBlur baselines, editable AEP/movie, real effect-off controls and fullframe formula/pixel checks",
+    "Parameter and three new-material variants, independent copied-Skill call, real original-left/right-native comparison",
+    "Merge common distance primitive with existing expression knowledge; retain two dimension-specific implementations"
+  ],
+  "native_cases": 0,
+  "skill_registered": false,
+  "whole_course_complete": false,
+  "video_only_tail": "Only sparse global views; no complete visual detailed coverage"
+}
