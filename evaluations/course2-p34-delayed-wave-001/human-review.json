@@ -1,0 +1,12 @@
+{
+  "status": "pending",
+  "comparison": "cache/reviews/course2-p34-delayed-wave-002/comparison.mp4",
+  "comparison_sha256": "24683821c14120d7ddc92601a5a2bfc2581aea5cbd6c5d1e1798d62f70f2444d",
+  "artifacts": {
+    "fixed-004": "8b78048e47fb6564ffc74686789a8a02422f355e6caefebc1f82c0c5c1c0b173",
+    "controller-003": "8738e5d5fbcb9ddea55fb08796900e334bf05ec262fcaa4411f38b2965362e09"
+  },
+  "question": "Overall course wave/delay/opacity after observed DOF correction",
+  "previous_sharp_review": "superseded; no user reply transferred",
+  "scope": "User overall aesthetic judgment separate from technical metrics; no exact camera/phase/color identity acceptance inferred"
+}

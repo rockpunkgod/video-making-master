@@ -1,0 +1,60 @@
+{
+  "status": "explicit_mirrored_camera_variant",
+  "source_crop": [
+    538,
+    112,
+    320,
+    256
+  ],
+  "scale_to_native": 2.25,
+  "fit_parameters": [
+    522.3023605993261,
+    975.4165078943938,
+    -469.0760612191131,
+    -0.04883772306183752,
+    -0.9137665549302327,
+    -0.00021285291343699144,
+    7.20888875582261
+  ],
+  "position": [
+    197.6976394006739,
+    975.4165078943938,
+    -469.0760612191131
+  ],
+  "point_of_interest": [
+    224.95191871338142,
+    183.60666690470896,
+    140.96339918204848
+  ],
+  "roll_degrees": 0.01219557359700306,
+  "zoom": 1351.389708728895,
+  "rms_native_pixels": 1.9343229915337377,
+  "observations": [],
+  "heldout": {
+    "time": 7.88,
+    "index": 1,
+    "point": "bottom",
+    "source_crop_xy": [
+      30,
+      221
+    ],
+    "predicted_source_crop": [
+      30.697606865550775,
+      220.71380588233075
+    ],
+    "error_px": 0.7540307764621145
+  },
+  "limits": [
+    "13 source endpoint observations measured under source selection handles/compression",
+    "Camera/zoom fitted, not source parameter readback",
+    "Heldout firstbar bottom7.88sec was not included in endpoint fit",
+    "Own mirrored camera for negative spacing; not source camera"
+  ],
+  "native_mapping_calibration": {
+    "case": "fixed-001",
+    "observations": 345,
+    "old_assumption": "fx=zoom/PAR incorrect",
+    "actual_mapping": "Exact tested AE PAL model: physicalX=worldX*PAR; camera direction usesphysicalX; fx=zoom/PAR,fy=zoom.345 actual native points checked.",
+    "max_error_actual_native_pixels": 1.3184732671042186e-12
+  }
+}

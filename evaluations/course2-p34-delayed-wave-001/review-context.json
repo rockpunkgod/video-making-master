@@ -1,0 +1,50 @@
+{
+  "source_url": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=34",
+  "left": "Actual cropped original recording",
+  "right": "Actual native AE continuous movies; no static image substitution",
+  "segments": [
+    {
+      "case": "fixed-004",
+      "source_start": 905,
+      "source_end": 910,
+      "crop": [
+        538,
+        112,
+        320,
+        256
+      ]
+    },
+    {
+      "case": "controller-003",
+      "source_start": 1230,
+      "source_end": 1235,
+      "crop": [
+        425,
+        108,
+        340,
+        264
+      ],
+      "native_review_crop": [
+        0,
+        0,
+        720,
+        560
+      ]
+    }
+  ],
+  "synchronization": "Unsynced manual timeline dragging/repaint versus continuous0..5s native movies",
+  "pixel_aspect": "Source uncorrected720:576 preview matched by normalized square-pixel comparison only; actual AEP/movie retainPAL128/117",
+  "limits": [
+    "Fitted camera, approximate red and controller count23 remain explicit",
+    "Source UI/cursor/selection boxes/ghosting not copied into native composition",
+    "Original crops are local review inputs excluded from Git/distribution",
+    "Source controller viewer clips bottom canvas; corresponding bottom16native pixels trimmed in right review only to exclude source toolbar. Native delivery remains full576 height."
+  ],
+  "supersedes": "course2-p34-delayed-wave-001 sharp versions omitted observed DOF; prior pending feedback not transferred",
+  "native_optics": "DepthOfField on; Aperture5mm actual14.173228px; Blur100; Focus linked fittedZoom",
+  "hashes": {
+    "fixed-004": "8b78048e47fb6564ffc74686789a8a02422f355e6caefebc1f82c0c5c1c0b173",
+    "controller-003": "8738e5d5fbcb9ddea55fb08796900e334bf05ec262fcaa4411f38b2965362e09"
+  },
+  "comparison_sha256": "24683821c14120d7ddc92601a5a2bfc2581aea5cbd6c5d1e1798d62f70f2444d"
+}

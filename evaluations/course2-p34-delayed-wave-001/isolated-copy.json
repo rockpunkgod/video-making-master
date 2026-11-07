@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "case": "samples/course2-delayed-wave-001/variation-isolated-004",
+  "executed_paths": [
+    "cache/isolated-delayed-wave-skill-002/ae-advanced-expressions/scripts/build_delayed_wave.py",
+    "cache/isolated-delayed-wave-skill-002/ae-advanced-expressions/scripts/delayed_wave.jsx",
+    "cache/isolated-delayed-wave-skill-002/ae-advanced-expressions/scripts/validate_delayed_wave.py",
+    "cache/isolated-delayed-wave-skill-002/ae-advanced-expressions/scripts/run_ae.py",
+    "cache/isolated-delayed-wave-skill-002/ae-advanced-expressions/scripts/render_ae.py"
+  ],
+  "cwd": "E:\\\u81ea\u5a92\u4f53",
+  "script_hashes": {
+    "build_delayed_wave.py": "2e38004d6225a74284d98c4a90b974a337e955ab9d6756fd2cd8539038085ef9",
+    "delayed_wave.jsx": "23220c2c7f3634e1e3d70eecd45ea302b5d3849495fcb29866203179fe9e5bc1",
+    "validate_delayed_wave.py": "0348553b093e8fd2d17d2c65286ddbb646102325b22ec0ee3d22adf359bfb0fe",
+    "run_ae.py": "75180dab8b906d34616e109b403675b1a0f3ee6a13eb735b000ae32f3d10e874",
+    "render_ae.py": "9fbadd6f74b52c07190c65cbb0f4133f8e002ca4680ae3979b8de45ecdbc3312"
+  },
+  "scope": "Actual copied Skill runtime; outside lab cwd; no lab tools imported",
+  "dof_enabled": true
+}

@@ -1,0 +1,262 @@
+{
+  "name": "COURSE34_DELAYED_WAVE",
+  "animation": "delayed-wave",
+  "width": 720,
+  "height": 576,
+  "fps": 25,
+  "duration": 10,
+  "count": 23,
+  "mode": "controller",
+  "amplitude": 36,
+  "rate": 3.53,
+  "spacing": 21,
+  "delay": 0.2,
+  "pixel_aspect": 1.0940170940170941,
+  "delivery_sar": "128/117",
+  "asset": "E:/自媒体/video-skills-lab/samples/course2-delayed-wave-001/bands-002/assets/bar.png",
+  "depth_of_field": {
+    "enabled": true,
+    "aperture_mm": 5,
+    "aperture_pixels": 14.173228346456694,
+    "blur_level": 100,
+    "focus": "linked_to_fitted_zoom",
+    "unit_conversion": "Actual AE26 CameraSettings GUI5mm readback14.1732283464567px on PAL720x576"
+  },
+  "camera": {
+    "status": "measured_camera_estimate_not_source_parameters",
+    "source_crop": [
+      538,
+      112,
+      320,
+      256
+    ],
+    "scale_to_native": 2.25,
+    "fit_parameters": [
+      522.3023605993261,
+      975.4165078943938,
+      -469.0760612191131,
+      -0.04883772306183752,
+      -0.9137665549302327,
+      -0.00021285291343699144,
+      7.20888875582261
+    ],
+    "position": [
+      522.3023605993261,
+      975.4165078943938,
+      -469.0760612191131
+    ],
+    "point_of_interest": [
+      495.0480812866186,
+      183.60666690470896,
+      140.96339918204848
+    ],
+    "roll_degrees": -0.01219557359700306,
+    "zoom": 1351.389708728895,
+    "rms_native_pixels": 1.9343229915337377,
+    "observations": [
+      {
+        "time": 0.16,
+        "index": 1,
+        "point": "top",
+        "source_crop_xy": [
+          79,
+          39
+        ],
+        "source_native_xy": [
+          177.75,
+          87.75
+        ]
+      },
+      {
+        "time": 0.16,
+        "index": 1,
+        "point": "bottom",
+        "source_crop_xy": [
+          34,
+          239
+        ],
+        "source_native_xy": [
+          76.5,
+          537.75
+        ]
+      },
+      {
+        "time": 0.16,
+        "index": 2,
+        "point": "top",
+        "source_crop_xy": [
+          85,
+          40
+        ],
+        "source_native_xy": [
+          191.25,
+          90.0
+        ]
+      },
+      {
+        "time": 0.16,
+        "index": 2,
+        "point": "bottom",
+        "source_crop_xy": [
+          47,
+          245
+        ],
+        "source_native_xy": [
+          105.75,
+          551.25
+        ]
+      },
+      {
+        "time": 4.8,
+        "index": 1,
+        "point": "top",
+        "source_crop_xy": [
+          76.5,
+          14
+        ],
+        "source_native_xy": [
+          172.125,
+          31.5
+        ]
+      },
+      {
+        "time": 4.8,
+        "index": 1,
+        "point": "bottom",
+        "source_crop_xy": [
+          28,
+          211
+        ],
+        "source_native_xy": [
+          63.0,
+          474.75
+        ]
+      },
+      {
+        "time": 4.8,
+        "index": 2,
+        "point": "top",
+        "source_crop_xy": [
+          84,
+          28
+        ],
+        "source_native_xy": [
+          189.0,
+          63.0
+        ]
+      },
+      {
+        "time": 4.8,
+        "index": 2,
+        "point": "bottom",
+        "source_crop_xy": [
+          42,
+          227
+        ],
+        "source_native_xy": [
+          94.5,
+          510.75
+        ]
+      },
+      {
+        "time": 7.88,
+        "index": 6,
+        "point": "bottom",
+        "source_crop_xy": [
+          75,
+          212
+        ],
+        "source_native_xy": [
+          168.75,
+          477.0
+        ]
+      },
+      {
+        "time": 7.88,
+        "index": 7,
+        "point": "bottom",
+        "source_crop_xy": [
+          87,
+          226
+        ],
+        "source_native_xy": [
+          195.75,
+          508.5
+        ]
+      },
+      {
+        "time": 7.88,
+        "index": 9,
+        "point": "bottom",
+        "source_crop_xy": [
+          106.5,
+          241
+        ],
+        "source_native_xy": [
+          239.625,
+          542.25
+        ]
+      },
+      {
+        "time": 7.88,
+        "index": 23,
+        "point": "top",
+        "source_crop_xy": [
+          206.5,
+          2
+        ],
+        "source_native_xy": [
+          464.625,
+          4.5
+        ]
+      },
+      {
+        "time": 7.88,
+        "index": 23,
+        "point": "bottom",
+        "source_crop_xy": [
+          233.5,
+          197
+        ],
+        "source_native_xy": [
+          525.375,
+          443.25
+        ]
+      }
+    ],
+    "heldout": {
+      "time": 7.88,
+      "index": 1,
+      "point": "bottom",
+      "source_crop_xy": [
+        30,
+        221
+      ],
+      "predicted_source_crop": [
+        30.697606865550775,
+        220.71380588233075
+      ],
+      "error_px": 0.7540307764621145
+    },
+    "limits": [
+      "13 source endpoint observations measured under source selection handles/compression",
+      "Camera/zoom fitted, not source parameter readback",
+      "Heldout firstbar bottom7.88sec was not included in endpoint fit"
+    ],
+    "native_mapping_calibration": {
+      "case": "fixed-001",
+      "observations": 345,
+      "old_assumption": "fx=zoom/PAR incorrect",
+      "actual_mapping": "Exact tested AE PAL model: physicalX=worldX*PAR; camera direction usesphysicalX; fx=zoom/PAR,fy=zoom.345 actual native points checked.",
+      "max_error_actual_native_pixels": 1.3184732671042186e-12
+    }
+  },
+  "motion_expectation": "required",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=34",
+  "inferred": [
+    "Final source camera fit from selected two-bar endpoints; not recovered source camera values",
+    "23bar fixed-stage count observed near15:45; controller final count not independently read, same23bar count reused",
+    "PAL128/117 derived from source160:117 display aspect ratio, not rounded1.09",
+    "Exact source redRGB not read; pure red chosen; caller PNG is explicit artwork variant"
+  ]
+}

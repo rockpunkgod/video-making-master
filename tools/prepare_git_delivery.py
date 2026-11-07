@@ -7,6 +7,13 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 CASES=[
+ 'samples/course2-delayed-wave-001/fixed-004',
+ 'samples/course2-delayed-wave-001/controller-003',
+ 'samples/course2-delayed-wave-001/bands-002',
+ 'samples/course2-delayed-wave-001/gradient-002',
+ 'samples/course2-delayed-wave-001/cyan-002',
+ 'samples/course2-delayed-wave-001/reverse-002',
+ 'samples/course2-delayed-wave-001/variation-isolated-004',
  'samples/course2-wave-001/sum-001',
  'samples/course2-wave-001/sine-001',
  'samples/course2-wave-001/product-002',
@@ -184,7 +191,7 @@ for path in (ROOT/'evaluations').rglob('*'):
 # These are necessary inputs, not disposable renders. Read the actual saved
 # Adobe dependencies before cleanup instead of guessing from folder names.
 supplemental=[]
-for name in ['native-media-dependencies.json','pr-media-dependencies.json','native-media-dependencies-p15.json','native-media-dependencies-p15-polar.json','native-media-dependencies-p15-streaks.json','native-media-dependencies-p15-assembly.json','native-media-dependencies-p16-core.json','native-media-dependencies-p16-noise.json','native-media-dependencies-p16-style.json','native-media-dependencies-p17-tunnel.json','native-media-dependencies-p17-streak.json','native-media-dependencies-p17-lines.json','native-media-dependencies-p18-proxies.json','native-media-dependencies-final-reconstruction.json','native-media-dependencies-final-reconstruction-005.json','native-media-dependencies-course2-spring.json','native-media-dependencies-course2-butterfly.json','native-media-dependencies-course2-magnifier.json','native-media-dependencies-course2-scroll.json','native-media-dependencies-course2-rotation-final.json','native-media-dependencies-course2-orbit.json','native-media-dependencies-course2-spiral.json','native-media-dependencies-course2-progress.json','native-media-dependencies-course2-cloud.json','native-media-dependencies-course2-pointing.json','native-media-dependencies-course2-index-array.json','native-media-dependencies-course2-wave.json']:
+for name in ['native-media-dependencies.json','pr-media-dependencies.json','native-media-dependencies-p15.json','native-media-dependencies-p15-polar.json','native-media-dependencies-p15-streaks.json','native-media-dependencies-p15-assembly.json','native-media-dependencies-p16-core.json','native-media-dependencies-p16-noise.json','native-media-dependencies-p16-style.json','native-media-dependencies-p17-tunnel.json','native-media-dependencies-p17-streak.json','native-media-dependencies-p17-lines.json','native-media-dependencies-p18-proxies.json','native-media-dependencies-final-reconstruction.json','native-media-dependencies-final-reconstruction-005.json','native-media-dependencies-course2-spring.json','native-media-dependencies-course2-butterfly.json','native-media-dependencies-course2-magnifier.json','native-media-dependencies-course2-scroll.json','native-media-dependencies-course2-rotation-final.json','native-media-dependencies-course2-orbit.json','native-media-dependencies-course2-spiral.json','native-media-dependencies-course2-progress.json','native-media-dependencies-course2-cloud.json','native-media-dependencies-course2-pointing.json','native-media-dependencies-course2-index-array.json','native-media-dependencies-course2-wave.json','native-media-dependencies-course2-delayed-wave.json']:
  audit=ROOT/'reports'/name
  if not audit.is_file():continue
  data=json.loads(audit.read_text(encoding='utf-8-sig'))

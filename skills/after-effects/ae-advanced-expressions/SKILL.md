@@ -1,9 +1,11 @@
 ---
 name: ae-advanced-expressions
-description: 使用AE表达式制作显隐、三维布局、数字、文字、弹簧、双翅和放大镜；纵横滑页与滑块三维旋转、圆周投影和自转、Write-on螺旋累积、Numbers进度联动和透明云层Alpha采样耀斑明确变体，以及单体/阵列自由指向、Write-on正弦波形叠加与包络。各分支保留明确的候选验证边界。
+description: 使用AE表达式制作显隐、三维布局、数字、文字、弹簧、双翅和放大镜；纵横滑页与滑块三维旋转、圆周投影和自转、Write-on螺旋累积、Numbers进度联动和透明云层Alpha采样耀斑明确变体，以及单体/阵列自由指向、Write-on正弦波形叠加与包络、递归延迟三维波浪。各分支保留明确的候选验证边界。
 ---
 
-0.14.2为candidate。十四个单元有各自原生证据；第21节四滑杆实现与第33节共用阵列布局单元，保留原法差异，整体反馈待答。第32节原版OpticalFlares未制作，不能以变体代替原版验收。不能泛称已掌握全部高级表达式。第10节旧002–005失败保留；replay006收到“这次方向对，可以保留”，仅绑定006方向与节奏，不代表绝对种子、逐字数字或全部泛化通过。
+0.15.0为candidate。十五个单元有各自原生证据；第21节四滑杆实现与第33节共用阵列布局单元，保留原法差异，整体反馈待答。第32节原版OpticalFlares未制作，不能以变体代替原版验收。不能泛称已掌握全部高级表达式。第10节旧002–005失败保留；replay006收到“这次方向对，可以保留”，仅绑定006方向与节奏，不代表绝对种子、逐字数字或全部泛化通过。
+
+递归延迟三维波浪先读references/delayed-wave.md，用有NumPy/Pillow的既有Python调用scripts/build_delayed_wave.py，再经run_ae.py/render_ae.py实际制作。保持上一层valueAtTime(time-.2)、满画幅Solid的1/80缩放、index透明度与底部控制层；保留课程景深/光圈5mm和Focus随Zoom；PAL工程与电影SAR明确保留，摄影机推定与控制器计数边界见tests/delayed-wave-results.json。
 
 第22节波形绘制先读references/wave-writeon.md，用scripts/build_wave_writeon.py选择sine/sum/product/decay或带明确Profile的slider，再经run_ae.py/render_ae.py实际制作。与第30节共用Write-on累积单元，保留相加、相乘、入出点linear和滑杆的课程差异；不替换为平滑矢量线或弹簧。参数、暗底PNG范围、推算键值与候选验证见tests/wave-writeon-results.json。
 

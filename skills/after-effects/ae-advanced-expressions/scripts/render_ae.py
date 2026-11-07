@@ -10,6 +10,13 @@ from launch_adobe import child_environment
 
 def check_output(root,cfg):
     report=validate(root/'final.mp4',cfg)
+    if cfg.get('animation')=='delayed-wave':
+        from validate_delayed_wave import validate as delayed_validate
+        audit=delayed_validate(root)
+        report['delayed_wave_quality']='delayed-wave-quality.json'
+        report['course_fidelity']='original_recursive_valueAtTime_method_fitted_camera_pending_review'
+        report['delivery_status']='candidate_unaccepted'
+        if audit['status']!='passed':report['status']='failed'
     if cfg.get('animation')=='wave-writeon':
         from validate_wave_writeon import validate as wave_validate
         audit=wave_validate(root)
@@ -151,6 +158,9 @@ def render(directory,executable,timeout,reuse=False):
     padding=cfg.get('delivery_padding')
     if padding is not None and padding!=[0,1]:raise ValueError('Unsupported delivery padding')
     filters=['-vf','pad=iw:ih+1:0:0:color=black'] if padding else []
+    if cfg.get('delivery_sar'):
+        if cfg['delivery_sar']!='128/117' or cfg.get('animation')!='delayed-wave' or padding:raise ValueError('Unsupported non-square delivery adapter')
+        filters=['-vf','setsar=128/117:max=1000']
     subprocess.run(['ffmpeg','-v','error','-n','-framerate',str(cfg['fps']),'-start_number',str(numbers[0]),'-i',str(root/'render'/f'frame_%0{digits}d.{suffix}'),*filters,
                     '-c:v','libx264','-crf','18','-pix_fmt','yuv420p','-movflags','+faststart',str(root/'final.mp4')],check=True,timeout=timeout)
     return check_output(root,cfg)

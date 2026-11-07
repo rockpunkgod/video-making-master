@@ -1,0 +1,1097 @@
+{
+  "status": "passed",
+  "checks": {
+    "native_dof_enabled": true,
+    "focus_linked_to_zoom": true,
+    "native_aperture_5mm": true,
+    "native_blur_100": true,
+    "actual_dof_control_difference": true,
+    "request_camera_readback": true,
+    "independent_pal_camera": true,
+    "full_movie": true,
+    "native_recursive_formula": true,
+    "native_expression_errors": true,
+    "native_projective_heldout": true,
+    "native_projective_training": true,
+    "actual_movie_wave_probes": true,
+    "native_checkpoints": true,
+    "actual_wave_control_difference": true,
+    "reopened_edit": true,
+    "native3d_unparented_index": true,
+    "camera_below_bars": true,
+    "control_below_bars": true,
+    "pal_geometry": true,
+    "actual_movie_sar": true,
+    "media": true
+  },
+  "frames": 200,
+  "video_sha256": "c81af498230eda7676f8a8af993910cc3b6351377e2914b405370ea59daa0b25",
+  "calibration": {
+    "training_points": 213,
+    "heldout_points": 72,
+    "max_training_error": 4.663219183382367e-10,
+    "max_heldout_error": 4.679309499898773e-10,
+    "matrix": [
+      [
+        0.0045877052828375365,
+        -0.0009778953313975423,
+        0.0009590279683054021,
+        -0.9924570373013033
+      ],
+      [
+        -0.0002270772748560484,
+        0.0020480888589351227,
+        0.004266874960519846,
+        0.12235217543280612
+      ],
+      [
+        -1.1184258476900494e-07,
+        -2.7148464751027e-06,
+        2.0916176738342454e-06,
+        0.003687649460413248
+      ]
+    ],
+    "scope": "Actual AE toComp camera calibration, independently computed world positions. Not source camera recovery.",
+    "max_independent_pal_camera_error": 1.1036995510350834e-12
+  },
+  "checkpoints": [
+    {
+      "frame": 0,
+      "rgb_mae": 1.5299881044238681
+    },
+    {
+      "frame": 50,
+      "rgb_mae": 1.6671449009773662
+    },
+    {
+      "frame": 100,
+      "rgb_mae": 1.5400993441358024
+    },
+    {
+      "frame": 150,
+      "rgb_mae": 1.656820666152263
+    },
+    {
+      "frame": 199,
+      "rgb_mae": 1.7964843749999997
+    }
+  ],
+  "wave_control_mean_rgb_difference": 24.727005369084363,
+  "dof_control_mean_rgb_difference": 0.45403083204732514,
+  "source_camera_measurement": {
+    "status": "not_applicable_variant_inputs",
+    "reason": "Source endpoints belong fixed40/3/10/0.2 scene; current inputs/camera differ, so current BAR projection errors are not source camera accuracy"
+  },
+  "visible_movie_probes": 19000,
+  "found_movie_probes": 19000,
+  "measurements": [
+    {
+      "frame": 0,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 1,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 2,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 3,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 4,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 5,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 6,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 7,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 8,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 9,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 10,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 11,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 12,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 13,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 14,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 15,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 16,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 17,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 18,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 19,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 20,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 21,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 22,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 23,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 24,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 25,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 26,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 27,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 28,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 29,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 30,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 31,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 32,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 33,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 34,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 35,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 36,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 37,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 38,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 39,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 40,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 41,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 42,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 43,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 44,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 45,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 46,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 47,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 48,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 49,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 50,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 51,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 52,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 53,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 54,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 55,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 56,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 57,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 58,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 59,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 60,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 61,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 62,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 63,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 64,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 65,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 66,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 67,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 68,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 69,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 70,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 71,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 72,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 73,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 74,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 75,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 76,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 77,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 78,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 79,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 80,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 81,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 82,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 83,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 84,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 85,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 86,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 87,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 88,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 89,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 90,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 91,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 92,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 93,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 94,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 95,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 96,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 97,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 98,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 99,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 100,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 101,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 102,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 103,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 104,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 105,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 106,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 107,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 108,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 109,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 110,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 111,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 112,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 113,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 114,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 115,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 116,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 117,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 118,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 119,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 120,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 121,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 122,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 123,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 124,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 125,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 126,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 127,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 128,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 129,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 130,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 131,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 132,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 133,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 134,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 135,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 136,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 137,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 138,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 139,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 140,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 141,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 142,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 143,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 144,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 145,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 146,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 147,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 148,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 149,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 150,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 151,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 152,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 153,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 154,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 155,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 156,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 157,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 158,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 159,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 160,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 161,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 162,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 163,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 164,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 165,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 166,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 167,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 168,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 169,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 170,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 171,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 172,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 173,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 174,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 175,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 176,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 177,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 178,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 179,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 180,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 181,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 182,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 183,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 184,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 185,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 186,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 187,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 188,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 189,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 190,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 191,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 192,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 193,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 194,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 195,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 196,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 197,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 198,
+      "found_points": 95,
+      "visible_points": 95
+    },
+    {
+      "frame": 199,
+      "found_points": 95,
+      "visible_points": 95
+    }
+  ],
+  "failures": [],
+  "native_trace_failures": [],
+  "limits": [
+    "Native camera calibration does not establish source camera identity",
+    "5centerline probes per bar per frame,5x5pixels,>=95% found; overlapping bars can share support",
+    "Source end points measured under UI handles; count/color/camera uncertainties retained",
+    "Technical pass does not confer human course-fidelity acceptance"
+  ]
+}

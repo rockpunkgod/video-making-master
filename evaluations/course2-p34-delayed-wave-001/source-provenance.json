@@ -1,0 +1,35 @@
+{
+  "source_url": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=34",
+  "video_seconds": 2568.16,
+  "audio_seconds": 1284.2025,
+  "actual_source_views": {
+    "global_watch": 18,
+    "technical_watch": 46,
+    "dense_25fps": 125,
+    "dense_range": "15:05-15:10"
+  },
+  "transcript": {
+    "engine": "existing faster-whisper-small offline int8 4CPU",
+    "segments_read": 352,
+    "installed_or_downloaded": false,
+    "uploaded": false
+  },
+  "video_only_second_half": "Sparse global views only; not full detail coverage",
+  "observed": [
+    "720x576 PAL25fps10sec and160:117 displayaspect",
+    "FullSolid scaled1/80,3D,recursive position previous.valueAtTime(time-.2)+[10,0,0]",
+    "Lead40*cos(3*time), layer opacity100-(index-1)*3",
+    "23bar fixedstage and disabledNull/camera below bars",
+    "Controller fudu/pinlv/jianju;36/3.53/21; all copies must read spacing",
+    "08:55 DOF enabled, LockZoom on, Aperture5mm, Blur100, creationZoom/Focus460.96mm"
+  ],
+  "inferred": [
+    "Final camera/zoom estimated from13source endpoints plus one heldout",
+    "FinalFocus follows fittedZoom; final original camera exactvalues not fully read",
+    "Controller23bar count reused from fixed stage, final count not independently read",
+    "Pure redRGB and ownPNG artwork choices not original material identity"
+  ],
+  "native_unit_probe": "native-aperture-unit-probe.json",
+  "source_frames_distributed": false,
+  "raw_video_distributed": false
+}

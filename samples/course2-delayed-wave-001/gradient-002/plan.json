@@ -1,0 +1,14 @@
+{
+  "skill": "ae-advanced-expressions",
+  "branch": "recursive-delayed-wave",
+  "status": "candidate",
+  "steps": [
+    "Full PAL Solid scaled1/80 or explicit own PNG",
+    "First3DPosition=value+[0,0,A*cos(w*time)]",
+    "Duplicate beneath first; followers read previousPosition.valueAtTime(time-delay)+[spacing,0,0]",
+    "Keep camera/Null below all bars and bind all follower copies",
+    "Native save/reopen/edit/restore, full trace, projections, actual movie pixel QA"
+  ],
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=34",
+  "course_fidelity": "Original recursive method, fitted camera/count/color bounds explicit"
+}

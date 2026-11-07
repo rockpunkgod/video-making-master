@@ -1,0 +1,25 @@
+{
+  "status": "actual_native_GUI_test",
+  "input_aperture_mm": 5,
+  "native_options": {
+    "ADBE Camera Zoom": 1094.01709399,
+    "ADBE Camera Depth of Field": 1,
+    "ADBE Camera Focus Distance": 1094.01709399,
+    "ADBE Camera Aperture": 14.1732283464567,
+    "ADBE Camera Blur Level": 100,
+    "ADBE Iris Shape": 1,
+    "ADBE Iris Rotation": 0,
+    "ADBE Iris Roundness": 0,
+    "ADBE Iris Aspect Ratio": 1,
+    "ADBE Iris Diffraction Fringe": 0,
+    "ADBE Iris Highlight Gain": 0,
+    "ADBE Iris Highlight Threshold": 1,
+    "ADBE Iris Hightlight Saturation": 0
+  },
+  "conversion": {
+    "pixels_per_mm": 2.834645669291339,
+    "observed_aperture_px": 14.1732283464567
+  },
+  "screenshot": "skills/after-effects/ae-advanced-expressions/tests/native-camera-5mm.png",
+  "scope": "Own PAL720x576 AE26 camera, not source screenshot; other probe lens settings50mm not source camera"
+}

@@ -1,0 +1,123 @@
+{
+  "retention": "Conclusions retained; old binaries removed after final published manifest and native dependency audit",
+  "cases": [
+    {
+      "case": "bands-001",
+      "status": "excluded_intermediate",
+      "reason": "Omitted source-observed DepthOfField; superseded by current DOF suite",
+      "old_receipt_status": "built",
+      "old_quality_status": "passed",
+      "video_sha256": "939c4f9209a6d4c5e394080a338c15f21f8dccc63de7f727ae9226713fb50011",
+      "notes": []
+    },
+    {
+      "case": "controller-001",
+      "status": "excluded_intermediate",
+      "reason": "Omitted source-observed DepthOfField; superseded by current DOF suite",
+      "old_receipt_status": "built",
+      "old_quality_status": "passed",
+      "video_sha256": "d69d84f4f0e11898f02d621b329c515bff6cf66c4d1e93b3c85c1e001db0dfd6",
+      "notes": []
+    },
+    {
+      "case": "controller-002",
+      "status": "excluded_intermediate",
+      "reason": "Omitted source-observed DepthOfField; superseded by current DOF suite",
+      "old_receipt_status": "built",
+      "old_quality_status": "passed",
+      "video_sha256": "21d8fe61b300377c9b8c3279670469fcf67fd50355315d8a1936c566076cff7a",
+      "notes": []
+    },
+    {
+      "case": "cyan-001",
+      "status": "excluded_intermediate",
+      "reason": "Omitted source-observed DepthOfField; superseded by current DOF suite",
+      "old_receipt_status": "built",
+      "old_quality_status": "passed",
+      "video_sha256": "a85fc4345a6e5113e0cb6c6cb178eedcbebdff4cf5d4fe56919d71c11f05e26b",
+      "notes": []
+    },
+    {
+      "case": "fixed-001",
+      "status": "excluded_intermediate",
+      "reason": "Omitted source-observed DepthOfField; superseded by current DOF suite",
+      "old_receipt_status": "built",
+      "old_quality_status": null,
+      "video_sha256": null,
+      "notes": []
+    },
+    {
+      "case": "fixed-002",
+      "status": "excluded_intermediate",
+      "reason": "Omitted source-observed DepthOfField; superseded by current DOF suite",
+      "old_receipt_status": "built",
+      "old_quality_status": "passed",
+      "video_sha256": "089664c553623435404556d1a936db654aadc746f0dc5cbe8451f29e1694c1f0",
+      "notes": []
+    },
+    {
+      "case": "fixed-003",
+      "status": "excluded_intermediate",
+      "reason": "Omitted source-observed DepthOfField; superseded by current DOF suite",
+      "old_receipt_status": "built",
+      "old_quality_status": "passed",
+      "video_sha256": "ed15e0135db1cbcffc0724f97bae26ef5bb3b31dcf56f6c2587cd54af6d3b1b4",
+      "notes": []
+    },
+    {
+      "case": "gradient-001",
+      "status": "excluded_intermediate",
+      "reason": "Omitted source-observed DepthOfField; superseded by current DOF suite",
+      "old_receipt_status": "built",
+      "old_quality_status": "passed",
+      "video_sha256": "faa7e2c67d9b8de956d516e9cb3224ffe6fb80a8d3ec1827d624a16adfba6273",
+      "notes": []
+    },
+    {
+      "case": "reverse-001",
+      "status": "excluded_intermediate",
+      "reason": "Omitted source-observed DepthOfField; superseded by current DOF suite",
+      "old_receipt_status": "built",
+      "old_quality_status": "passed",
+      "video_sha256": "ab16d8c2b507db2071289e6f477132b877b5509af913128a0bee3e53b33b4330",
+      "notes": []
+    },
+    {
+      "case": "variation-isolated-001",
+      "status": "excluded_intermediate",
+      "reason": "Omitted source-observed DepthOfField; superseded by current DOF suite",
+      "old_receipt_status": "built",
+      "old_quality_status": "passed",
+      "video_sha256": "0eaa353ac5a29529912752af2e563e705650680a6a85fa53795b56443625c63a",
+      "notes": [
+        "Some earlier camera fits used incorrect PAL assumptions or misidentified endpoint index; current13point fit supersedes",
+        "variation-isolated002 source-only diagnostic requested BAR23 in19bar scene; movie/core geometry was valid but diagnostic excluded, fixed in003/004"
+      ]
+    },
+    {
+      "case": "variation-isolated-002",
+      "status": "excluded_intermediate",
+      "reason": "Omitted source-observed DepthOfField; superseded by current DOF suite",
+      "old_receipt_status": "built",
+      "old_quality_status": "passed",
+      "video_sha256": "b92c2877001f419f4cdbe00f7787ec6a2fb209ce3a9b1cdba1e70ef515ec7091",
+      "notes": [
+        "Some earlier camera fits used incorrect PAL assumptions or misidentified endpoint index; current13point fit supersedes",
+        "variation-isolated002 source-only diagnostic requested BAR23 in19bar scene; movie/core geometry was valid but diagnostic excluded, fixed in003/004"
+      ]
+    },
+    {
+      "case": "variation-isolated-003",
+      "status": "excluded_intermediate",
+      "reason": "Omitted source-observed DepthOfField; superseded by current DOF suite",
+      "old_receipt_status": "built",
+      "old_quality_status": "passed",
+      "video_sha256": "b92c2877001f419f4cdbe00f7787ec6a2fb209ce3a9b1cdba1e70ef515ec7091",
+      "notes": [
+        "Some earlier camera fits used incorrect PAL assumptions or misidentified endpoint index; current13point fit supersedes",
+        "variation-isolated002 source-only diagnostic requested BAR23 in19bar scene; movie/core geometry was valid but diagnostic excluded, fixed in003/004"
+      ]
+    }
+  ],
+  "pending_prior_review": "Sharp fixed003/controller002 superseded; DOF newly observed after pending question"
+}

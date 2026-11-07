@@ -1,0 +1,693 @@
+{
+  "status": "native_suite_passed_candidate",
+  "unit": "delayed_wave",
+  "source_url": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=34",
+  "cases": [
+    {
+      "case": "fixed-004",
+      "directory": "samples/course2-delayed-wave-001/fixed-004",
+      "project": "samples/course2-delayed-wave-001/fixed-004/project.aep",
+      "project_sha256": "9c46f3c7564ba1d341c8ca98938fde9542876c9d4dd45f656d6e0a2ff4d81f7c",
+      "video": "samples/course2-delayed-wave-001/fixed-004/final.mp4",
+      "video_sha256": "8b78048e47fb6564ffc74686789a8a02422f355e6caefebc1f82c0c5c1c0b173",
+      "frames": 250,
+      "native_pngs": 9,
+      "status": "native_technical_passed_candidate",
+      "checks": {
+        "native_dof_enabled": true,
+        "focus_linked_to_zoom": true,
+        "native_aperture_5mm": true,
+        "native_blur_100": true,
+        "actual_dof_control_difference": true,
+        "request_camera_readback": true,
+        "independent_pal_camera": true,
+        "full_movie": true,
+        "native_recursive_formula": true,
+        "native_expression_errors": true,
+        "native_projective_heldout": true,
+        "native_projective_training": true,
+        "actual_movie_wave_probes": true,
+        "native_checkpoints": true,
+        "actual_wave_control_difference": true,
+        "reopened_edit": true,
+        "native3d_unparented_index": true,
+        "camera_below_bars": true,
+        "control_below_bars": true,
+        "pal_geometry": true,
+        "actual_movie_sar": true,
+        "media": true
+      },
+      "native_camera": {
+        "depth_of_field": 1,
+        "focus_distance": 1351.3896484375,
+        "focus_expression": "cameraOption.zoom",
+        "aperture": 14.173228263855,
+        "blur_level": 100,
+        "position": [
+          522.302368164062,
+          975.41650390625,
+          -469.076049804688
+        ],
+        "point_of_interest": [
+          495.048095703125,
+          183.606674194336,
+          140.963394165039
+        ],
+        "roll": -0.01219557318836,
+        "zoom": 1351.3896484375,
+        "index": 24
+      },
+      "formula_error": 2.79776202205539e-13,
+      "visible_movie_probes": 28750,
+      "found_movie_probes": 28750,
+      "max_native_checkpoint_rgb_mae": 1.5909971386316872,
+      "wave_control_rgb_difference": 12.07698286394033,
+      "dof_control_rgb_difference": 0.21992509002057614,
+      "calibration": {
+        "training_points": 258,
+        "heldout_points": 87,
+        "max_training_error": 1.0528912709648257e-09,
+        "max_heldout_error": 1.0530931276449802e-09,
+        "matrix": [
+          [
+            0.0045877052828447095,
+            -0.0009778953314017562,
+            0.0009590279683175265,
+            -0.9924570373017035
+          ],
+          [
+            -0.0002270772748501994,
+            0.002048088858939661,
+            0.004266874960512121,
+            0.12235217542956965
+          ],
+          [
+            -1.1184258475534399e-07,
+            -2.7148464751149516e-06,
+            2.0916176738903143e-06,
+            0.003687649460415531
+          ]
+        ],
+        "scope": "Actual AE toComp camera calibration, independently computed world positions. Not source camera recovery.",
+        "max_independent_pal_camera_error": 1.048526129676288e-12
+      },
+      "source_camera_measurement": {
+        "calibration_points": 13,
+        "max_native_error": 6.061221774021943,
+        "heldout_native_error": 1.6965567670067443,
+        "status": "measurement_only_not_aesthetic_acceptance"
+      }
+    },
+    {
+      "case": "controller-003",
+      "directory": "samples/course2-delayed-wave-001/controller-003",
+      "project": "samples/course2-delayed-wave-001/controller-003/project.aep",
+      "project_sha256": "fb6d65f8231d252052ede30ba25e57313405ccdaf963d56e2edfe53edc4ae50d",
+      "video": "samples/course2-delayed-wave-001/controller-003/final.mp4",
+      "video_sha256": "8738e5d5fbcb9ddea55fb08796900e334bf05ec262fcaa4411f38b2965362e09",
+      "frames": 250,
+      "native_pngs": 9,
+      "status": "native_technical_passed_candidate",
+      "checks": {
+        "native_dof_enabled": true,
+        "focus_linked_to_zoom": true,
+        "native_aperture_5mm": true,
+        "native_blur_100": true,
+        "actual_dof_control_difference": true,
+        "request_camera_readback": true,
+        "independent_pal_camera": true,
+        "full_movie": true,
+        "native_recursive_formula": true,
+        "native_expression_errors": true,
+        "native_projective_heldout": true,
+        "native_projective_training": true,
+        "actual_movie_wave_probes": true,
+        "native_checkpoints": true,
+        "actual_wave_control_difference": true,
+        "reopened_edit": true,
+        "native3d_unparented_index": true,
+        "camera_below_bars": true,
+        "control_below_bars": true,
+        "pal_geometry": true,
+        "actual_movie_sar": true,
+        "media": true
+      },
+      "native_camera": {
+        "depth_of_field": 1,
+        "focus_distance": 1351.3896484375,
+        "focus_expression": "cameraOption.zoom",
+        "aperture": 14.173228263855,
+        "blur_level": 100,
+        "position": [
+          522.302368164062,
+          975.41650390625,
+          -469.076049804688
+        ],
+        "point_of_interest": [
+          495.048095703125,
+          183.606674194336,
+          140.963394165039
+        ],
+        "roll": -0.01219557318836,
+        "zoom": 1351.3896484375,
+        "index": 25
+      },
+      "formula_error": 9.62641065e-06,
+      "visible_movie_probes": 22097,
+      "found_movie_probes": 22097,
+      "max_native_checkpoint_rgb_mae": 1.4592608667695472,
+      "wave_control_rgb_difference": 16.33382121270576,
+      "dof_control_rgb_difference": 0.2002322852366255,
+      "calibration": {
+        "training_points": 258,
+        "heldout_points": 87,
+        "max_training_error": 1.4124966190374397e-05,
+        "max_heldout_error": 1.0918589575733931e-05,
+        "matrix": [
+          [
+            0.004587705286996083,
+            -0.0009778953336005503,
+            0.0009590279726529656,
+            -0.9924570371730433
+          ],
+          [
+            -0.00022707727527020277,
+            0.002048088860874798,
+            0.0042668749650933485,
+            0.12235217647259078
+          ],
+          [
+            -1.1184258678160943e-07,
+            -2.7148464798326406e-06,
+            2.091617678506548e-06,
+            0.003687649467017969
+          ]
+        ],
+        "scope": "Actual AE toComp camera calibration, independently computed world positions. Not source camera recovery.",
+        "max_independent_pal_camera_error": 1.4249270388550556e-05
+      },
+      "source_camera_measurement": {
+        "status": "not_applicable_variant_inputs",
+        "reason": "Source endpoints belong fixed40/3/10/0.2 scene; current inputs/camera differ, so current BAR projection errors are not source camera accuracy"
+      }
+    },
+    {
+      "case": "bands-002",
+      "directory": "samples/course2-delayed-wave-001/bands-002",
+      "project": "samples/course2-delayed-wave-001/bands-002/project.aep",
+      "project_sha256": "8c9b65438aa1b626a5f04148eeb79765ec1aaa3968b9249799f5188c4ee4da64",
+      "video": "samples/course2-delayed-wave-001/bands-002/final.mp4",
+      "video_sha256": "5cebf24f36a598847e4e2ffa356e6910074fbb96d2419203a9637a5cece15d57",
+      "frames": 250,
+      "native_pngs": 9,
+      "status": "native_technical_passed_candidate",
+      "checks": {
+        "native_dof_enabled": true,
+        "focus_linked_to_zoom": true,
+        "native_aperture_5mm": true,
+        "native_blur_100": true,
+        "actual_dof_control_difference": true,
+        "request_camera_readback": true,
+        "independent_pal_camera": true,
+        "full_movie": true,
+        "native_recursive_formula": true,
+        "native_expression_errors": true,
+        "native_projective_heldout": true,
+        "native_projective_training": true,
+        "actual_movie_wave_probes": true,
+        "native_checkpoints": true,
+        "actual_wave_control_difference": true,
+        "reopened_edit": true,
+        "native3d_unparented_index": true,
+        "camera_below_bars": true,
+        "control_below_bars": true,
+        "pal_geometry": true,
+        "actual_movie_sar": true,
+        "media": true
+      },
+      "native_camera": {
+        "depth_of_field": 1,
+        "focus_distance": 1351.3896484375,
+        "focus_expression": "cameraOption.zoom",
+        "aperture": 14.173228263855,
+        "blur_level": 100,
+        "position": [
+          522.302368164062,
+          975.41650390625,
+          -469.076049804688
+        ],
+        "point_of_interest": [
+          495.048095703125,
+          183.606674194336,
+          140.963394165039
+        ],
+        "roll": -0.01219557318836,
+        "zoom": 1351.3896484375,
+        "index": 25
+      },
+      "formula_error": 9.62641065e-06,
+      "visible_movie_probes": 22097,
+      "found_movie_probes": 22097,
+      "max_native_checkpoint_rgb_mae": 1.6593388310185186,
+      "wave_control_rgb_difference": 23.233054430298353,
+      "dof_control_rgb_difference": 0.287377829218107,
+      "calibration": {
+        "training_points": 258,
+        "heldout_points": 87,
+        "max_training_error": 1.4124966190374397e-05,
+        "max_heldout_error": 1.0918589575733931e-05,
+        "matrix": [
+          [
+            0.004587705286996083,
+            -0.0009778953336005503,
+            0.0009590279726529656,
+            -0.9924570371730433
+          ],
+          [
+            -0.00022707727527020277,
+            0.002048088860874798,
+            0.0042668749650933485,
+            0.12235217647259078
+          ],
+          [
+            -1.1184258678160943e-07,
+            -2.7148464798326406e-06,
+            2.091617678506548e-06,
+            0.003687649467017969
+          ]
+        ],
+        "scope": "Actual AE toComp camera calibration, independently computed world positions. Not source camera recovery.",
+        "max_independent_pal_camera_error": 1.4249270388550556e-05
+      },
+      "source_camera_measurement": {
+        "status": "not_applicable_variant_inputs",
+        "reason": "Source endpoints belong fixed40/3/10/0.2 scene; current inputs/camera differ, so current BAR projection errors are not source camera accuracy"
+      }
+    },
+    {
+      "case": "gradient-002",
+      "directory": "samples/course2-delayed-wave-001/gradient-002",
+      "project": "samples/course2-delayed-wave-001/gradient-002/project.aep",
+      "project_sha256": "1da5751c9f320dd792d53239a2186d00b0cfed682a51a1d619cd1b1668a8b3a9",
+      "video": "samples/course2-delayed-wave-001/gradient-002/final.mp4",
+      "video_sha256": "4885ea7875502ba1f28f67116ad50a60923f9e72a923383adb961be910961209",
+      "frames": 250,
+      "native_pngs": 9,
+      "status": "native_technical_passed_candidate",
+      "checks": {
+        "native_dof_enabled": true,
+        "focus_linked_to_zoom": true,
+        "native_aperture_5mm": true,
+        "native_blur_100": true,
+        "actual_dof_control_difference": true,
+        "request_camera_readback": true,
+        "independent_pal_camera": true,
+        "full_movie": true,
+        "native_recursive_formula": true,
+        "native_expression_errors": true,
+        "native_projective_heldout": true,
+        "native_projective_training": true,
+        "actual_movie_wave_probes": true,
+        "native_checkpoints": true,
+        "actual_wave_control_difference": true,
+        "reopened_edit": true,
+        "native3d_unparented_index": true,
+        "camera_below_bars": true,
+        "control_below_bars": true,
+        "pal_geometry": true,
+        "actual_movie_sar": true,
+        "media": true
+      },
+      "native_camera": {
+        "depth_of_field": 1,
+        "focus_distance": 1351.3896484375,
+        "focus_expression": "cameraOption.zoom",
+        "aperture": 14.173228263855,
+        "blur_level": 100,
+        "position": [
+          522.302368164062,
+          975.41650390625,
+          -469.076049804688
+        ],
+        "point_of_interest": [
+          495.048095703125,
+          183.606674194336,
+          140.963394165039
+        ],
+        "roll": -0.01219557318836,
+        "zoom": 1351.3896484375,
+        "index": 25
+      },
+      "formula_error": 9.62641065e-06,
+      "visible_movie_probes": 22097,
+      "found_movie_probes": 22097,
+      "max_native_checkpoint_rgb_mae": 1.498630401234568,
+      "wave_control_rgb_difference": 21.280470357510286,
+      "dof_control_rgb_difference": 0.2806761188271605,
+      "calibration": {
+        "training_points": 258,
+        "heldout_points": 87,
+        "max_training_error": 1.4124966190374397e-05,
+        "max_heldout_error": 1.0918589575733931e-05,
+        "matrix": [
+          [
+            0.004587705286996083,
+            -0.0009778953336005503,
+            0.0009590279726529656,
+            -0.9924570371730433
+          ],
+          [
+            -0.00022707727527020277,
+            0.002048088860874798,
+            0.0042668749650933485,
+            0.12235217647259078
+          ],
+          [
+            -1.1184258678160943e-07,
+            -2.7148464798326406e-06,
+            2.091617678506548e-06,
+            0.003687649467017969
+          ]
+        ],
+        "scope": "Actual AE toComp camera calibration, independently computed world positions. Not source camera recovery.",
+        "max_independent_pal_camera_error": 1.4249270388550556e-05
+      },
+      "source_camera_measurement": {
+        "status": "not_applicable_variant_inputs",
+        "reason": "Source endpoints belong fixed40/3/10/0.2 scene; current inputs/camera differ, so current BAR projection errors are not source camera accuracy"
+      }
+    },
+    {
+      "case": "cyan-002",
+      "directory": "samples/course2-delayed-wave-001/cyan-002",
+      "project": "samples/course2-delayed-wave-001/cyan-002/project.aep",
+      "project_sha256": "68119c5b6dd1e56a56dedbbf3c36d7330b0bd1ca52d9f7c3c1d367ca3c765fa8",
+      "video": "samples/course2-delayed-wave-001/cyan-002/final.mp4",
+      "video_sha256": "f44bb6583b77c038c9d475e12cbb68d99bfbeaca5eabfa75afca029725c257d1",
+      "frames": 250,
+      "native_pngs": 9,
+      "status": "native_technical_passed_candidate",
+      "checks": {
+        "native_dof_enabled": true,
+        "focus_linked_to_zoom": true,
+        "native_aperture_5mm": true,
+        "native_blur_100": true,
+        "actual_dof_control_difference": true,
+        "request_camera_readback": true,
+        "independent_pal_camera": true,
+        "full_movie": true,
+        "native_recursive_formula": true,
+        "native_expression_errors": true,
+        "native_projective_heldout": true,
+        "native_projective_training": true,
+        "actual_movie_wave_probes": true,
+        "native_checkpoints": true,
+        "actual_wave_control_difference": true,
+        "reopened_edit": true,
+        "native3d_unparented_index": true,
+        "camera_below_bars": true,
+        "control_below_bars": true,
+        "pal_geometry": true,
+        "actual_movie_sar": true,
+        "media": true
+      },
+      "native_camera": {
+        "depth_of_field": 1,
+        "focus_distance": 1351.3896484375,
+        "focus_expression": "cameraOption.zoom",
+        "aperture": 14.173228263855,
+        "blur_level": 100,
+        "position": [
+          522.302368164062,
+          975.41650390625,
+          -469.076049804688
+        ],
+        "point_of_interest": [
+          495.048095703125,
+          183.606674194336,
+          140.963394165039
+        ],
+        "roll": -0.01219557318836,
+        "zoom": 1351.3896484375,
+        "index": 25
+      },
+      "formula_error": 9.62641065e-06,
+      "visible_movie_probes": 22097,
+      "found_movie_probes": 22097,
+      "max_native_checkpoint_rgb_mae": 1.673558867026749,
+      "wave_control_rgb_difference": 34.00309686856996,
+      "dof_control_rgb_difference": 0.40279385288065844,
+      "calibration": {
+        "training_points": 258,
+        "heldout_points": 87,
+        "max_training_error": 1.4124966190374397e-05,
+        "max_heldout_error": 1.0918589575733931e-05,
+        "matrix": [
+          [
+            0.004587705286996083,
+            -0.0009778953336005503,
+            0.0009590279726529656,
+            -0.9924570371730433
+          ],
+          [
+            -0.00022707727527020277,
+            0.002048088860874798,
+            0.0042668749650933485,
+            0.12235217647259078
+          ],
+          [
+            -1.1184258678160943e-07,
+            -2.7148464798326406e-06,
+            2.091617678506548e-06,
+            0.003687649467017969
+          ]
+        ],
+        "scope": "Actual AE toComp camera calibration, independently computed world positions. Not source camera recovery.",
+        "max_independent_pal_camera_error": 1.4249270388550556e-05
+      },
+      "source_camera_measurement": {
+        "status": "not_applicable_variant_inputs",
+        "reason": "Source endpoints belong fixed40/3/10/0.2 scene; current inputs/camera differ, so current BAR projection errors are not source camera accuracy"
+      }
+    },
+    {
+      "case": "reverse-002",
+      "directory": "samples/course2-delayed-wave-001/reverse-002",
+      "project": "samples/course2-delayed-wave-001/reverse-002/project.aep",
+      "project_sha256": "90b5dc2bcb3727a1d8accff9d0a89f09e3919056d5a37c7b0c6ceb40c259f6da",
+      "video": "samples/course2-delayed-wave-001/reverse-002/final.mp4",
+      "video_sha256": "8718eaa4fb0224efaf43e3e9c578503118dbbd09813cc27d119c72bd2ac10554",
+      "frames": 250,
+      "native_pngs": 9,
+      "status": "native_technical_passed_candidate",
+      "checks": {
+        "native_dof_enabled": true,
+        "focus_linked_to_zoom": true,
+        "native_aperture_5mm": true,
+        "native_blur_100": true,
+        "actual_dof_control_difference": true,
+        "request_camera_readback": true,
+        "independent_pal_camera": true,
+        "full_movie": true,
+        "native_recursive_formula": true,
+        "native_expression_errors": true,
+        "native_projective_heldout": true,
+        "native_projective_training": true,
+        "actual_movie_wave_probes": true,
+        "native_checkpoints": true,
+        "actual_wave_control_difference": true,
+        "reopened_edit": true,
+        "native3d_unparented_index": true,
+        "camera_below_bars": true,
+        "control_below_bars": true,
+        "pal_geometry": true,
+        "actual_movie_sar": true,
+        "media": true
+      },
+      "native_camera": {
+        "depth_of_field": 1,
+        "focus_distance": 1351.3896484375,
+        "focus_expression": "cameraOption.zoom",
+        "aperture": 14.173228263855,
+        "blur_level": 100,
+        "position": [
+          197.697631835938,
+          975.41650390625,
+          -469.076049804688
+        ],
+        "point_of_interest": [
+          224.951919555664,
+          183.606674194336,
+          140.963394165039
+        ],
+        "roll": 0.01219557318836,
+        "zoom": 1351.3896484375,
+        "index": 24
+      },
+      "formula_error": 2.79776202205539e-13,
+      "visible_movie_probes": 28750,
+      "found_movie_probes": 28750,
+      "max_native_checkpoint_rgb_mae": 1.5428843557098766,
+      "wave_control_rgb_difference": 12.076974022633744,
+      "dof_control_rgb_difference": 0.21992669753086422,
+      "calibration": {
+        "training_points": 258,
+        "heldout_points": 87,
+        "max_training_error": 5.690052690475967e-10,
+        "max_heldout_error": 5.859641653123519e-10,
+        "matrix": [
+          [
+            0.016126352351733972,
+            -0.0033743238238194764,
+            0.0018893861877771238,
+            0.9894952866760195
+          ],
+          [
+            0.0007844362127804914,
+            0.007075098862408675,
+            0.014739869296877015,
+            -0.14212971432311808
+          ],
+          [
+            3.8635910857946765e-07,
+            -9.37840518412756e-06,
+            7.225468627935488e-06,
+            0.01246076319808056
+          ]
+        ],
+        "scope": "Actual AE toComp camera calibration, independently computed world positions. Not source camera recovery.",
+        "max_independent_pal_camera_error": 1.1036995510350834e-12
+      },
+      "source_camera_measurement": {
+        "status": "not_applicable_variant_inputs",
+        "reason": "Source endpoints belong fixed40/3/10/0.2 scene; current inputs/camera differ, so current BAR projection errors are not source camera accuracy"
+      }
+    },
+    {
+      "case": "variation-isolated-004",
+      "directory": "samples/course2-delayed-wave-001/variation-isolated-004",
+      "project": "samples/course2-delayed-wave-001/variation-isolated-004/project.aep",
+      "project_sha256": "4eeff5eadb7b661ed07b2aed35c977a6c2e7b41f0dcdccbb16734cbf87a8b58e",
+      "video": "samples/course2-delayed-wave-001/variation-isolated-004/final.mp4",
+      "video_sha256": "c81af498230eda7676f8a8af993910cc3b6351377e2914b405370ea59daa0b25",
+      "frames": 200,
+      "native_pngs": 9,
+      "status": "native_technical_passed_candidate",
+      "checks": {
+        "native_dof_enabled": true,
+        "focus_linked_to_zoom": true,
+        "native_aperture_5mm": true,
+        "native_blur_100": true,
+        "actual_dof_control_difference": true,
+        "request_camera_readback": true,
+        "independent_pal_camera": true,
+        "full_movie": true,
+        "native_recursive_formula": true,
+        "native_expression_errors": true,
+        "native_projective_heldout": true,
+        "native_projective_training": true,
+        "actual_movie_wave_probes": true,
+        "native_checkpoints": true,
+        "actual_wave_control_difference": true,
+        "reopened_edit": true,
+        "native3d_unparented_index": true,
+        "camera_below_bars": true,
+        "control_below_bars": true,
+        "pal_geometry": true,
+        "actual_movie_sar": true,
+        "media": true
+      },
+      "native_camera": {
+        "depth_of_field": 1,
+        "focus_distance": 1351.3896484375,
+        "focus_expression": "cameraOption.zoom",
+        "aperture": 14.173228263855,
+        "blur_level": 100,
+        "position": [
+          522.302368164062,
+          975.41650390625,
+          -469.076049804688
+        ],
+        "point_of_interest": [
+          495.048095703125,
+          183.606674194336,
+          140.963394165039
+        ],
+        "roll": -0.01219557318836,
+        "zoom": 1351.3896484375,
+        "index": 20
+      },
+      "formula_error": 9.93649607039515e-14,
+      "visible_movie_probes": 19000,
+      "found_movie_probes": 19000,
+      "max_native_checkpoint_rgb_mae": 1.7964843749999997,
+      "wave_control_rgb_difference": 24.727005369084363,
+      "dof_control_rgb_difference": 0.45403083204732514,
+      "calibration": {
+        "training_points": 213,
+        "heldout_points": 72,
+        "max_training_error": 4.663219183382367e-10,
+        "max_heldout_error": 4.679309499898773e-10,
+        "matrix": [
+          [
+            0.0045877052828375365,
+            -0.0009778953313975423,
+            0.0009590279683054021,
+            -0.9924570373013033
+          ],
+          [
+            -0.0002270772748560484,
+            0.0020480888589351227,
+            0.004266874960519846,
+            0.12235217543280612
+          ],
+          [
+            -1.1184258476900494e-07,
+            -2.7148464751027e-06,
+            2.0916176738342454e-06,
+            0.003687649460413248
+          ]
+        ],
+        "scope": "Actual AE toComp camera calibration, independently computed world positions. Not source camera recovery.",
+        "max_independent_pal_camera_error": 1.1036995510350834e-12
+      },
+      "source_camera_measurement": {
+        "status": "not_applicable_variant_inputs",
+        "reason": "Source endpoints belong fixed40/3/10/0.2 scene; current inputs/camera differ, so current BAR projection errors are not source camera accuracy"
+      }
+    }
+  ],
+  "total_native_cases": 7,
+  "total_native_frames": 1700,
+  "native_pngs": 63,
+  "visible_movie_probes": 164888,
+  "found_movie_probes": 164888,
+  "independent_camera_model": "Physical worldX and camera-direction X multiplied by PAR, fxZoom/PAR and fyZoom; actual345 native points per23bar case checked; DLT training/heldout separate",
+  "native_media_audit": "reports/native-media-dependencies-course2-delayed-wave.json",
+  "native_media_audit_status": "completed7",
+  "negative_tests": {
+    "frozen-negative": "failed",
+    "wrong-wave-negative": "failed"
+  },
+  "independent_call": "isolated-copy.json",
+  "course_fidelity": {
+    "status": "pending_human_overall",
+    "original_recursive_method": true,
+    "observed_dof_restored": true,
+    "source_manual_timeline_unsynced": true,
+    "estimated_camera": true,
+    "exact_source_color_and_controller_count_unverified": true
+  },
+  "human_review": "human-review.json",
+  "visual_review": "visual-review.json",
+  "source_provenance": "source-provenance.json",
+  "limits": [
+    "Static controllers only; dynamic slider historical recursion not tested",
+    "Bright opaque720x576PNG only; not transparent/arbitrary size/video/text",
+    "No guarantee full allowed range combinations work; only actual recorded cases tested",
+    "Movie centerline probes can share support on overlapping bars",
+    "Native technical pass does not establish exact source camera/phase/identity"
+  ],
+  "knowledge_fusion": "Shares index/cos concepts with21/22/23/33; distinct recursive3D delayed property unit within same existing Skill",
+  "overall_curriculum_complete": false
+}

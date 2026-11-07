@@ -1,0 +1,14 @@
+{
+  "status": "actually_inspected",
+  "native_pngs_viewed": 63,
+  "method": "Seven contact sheets containing all nine actual native PNG per case; own full camera5mm GUI capture and three side-by-side comparison checkpoints also viewed",
+  "observations": [
+    "Wave-off control is a straight static bar array; expression-on has staggered top/bottom contours",
+    "Original shows UI handles, cursor, compression and repaint ghosting; not copied into native output",
+    "Controller spacing21 preserves intentional out-of-frame right bars; no automatic recentering",
+    "Three custom bright PNG textures follow same native3D wave; negative-spacing camera explicitly mirrored",
+    "DOF effect at5mm is slight; actual on/off image RGB differences measured rather than increasing aperture for appearance"
+  ],
+  "human_course_fidelity": "pending",
+  "aesthetic_scores": null
+}
