@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course2-distance-001\\arrows-blur-001\\final.mp4",
+  "sha256": "d56802f5d37234646d875453bd8b517261034b389e7c3199930ce2af09390e43",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 320,
+    "height": 240,
+    "fps": 25.0,
+    "duration": 5.0,
+    "decoded_frames": 125,
+    "unique_thumbnail_frames": 121
+  },
+  "motion_expectation": "required",
+  "static_pixel_check": null,
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": "",
+  "distance_quality": "distance-quality.json",
+  "course_fidelity": "original_length_linear_and_FastBlur_explicit_manual_replay_pending_review",
+  "delivery_status": "candidate_unaccepted"
+}

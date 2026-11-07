@@ -1,0 +1,13 @@
+{
+  "skill": "ae-advanced-expressions",
+  "branch": "distance-controller",
+  "status": "candidate",
+  "steps": [
+    "Centered unparented2D artwork",
+    "Same-space length or sub/length",
+    "Vector linear250/70 or scalar FastBlur40/0 over0..70distance",
+    "Explicit measured controller replay without target property keys",
+    "Native save/reopen/edit/restore, actual render and independent pixel/parameter checks"
+  ],
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=35"
+}

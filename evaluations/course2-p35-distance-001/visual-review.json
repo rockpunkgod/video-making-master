@@ -1,0 +1,15 @@
+{
+  "status": "actual_images_inspected",
+  "native_pngs": 63,
+  "method": "Nine contact sheets containing all seven actual native PNG per selected case, plus three actual side-by-side video checkpoints",
+  "observations": [
+    "Baseline scale enlarges nearest circle/letter and restores other targets; all mapping-off targets100%",
+    "Baseline blur smooths nearest badge; mapping-off remains sharp",
+    "Three self-authored image groups both map scale and nativeFastBlur",
+    "Independent reversed/re-timed/sub-length variant has realblur at1.8sec control phase",
+    "Source selection handles/cursor/repaint ghosting not reproduced; new artwork/matte/font remain explicit"
+  ],
+  "human_review": "human-review.json",
+  "technical_metrics_separate": true,
+  "aesthetic_numeric_scores": null
+}

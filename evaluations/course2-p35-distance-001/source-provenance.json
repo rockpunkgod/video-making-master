@@ -1,0 +1,69 @@
+{
+  "source_url": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=35",
+  "video_seconds": 1652.24,
+  "audio_seconds": 826.2185,
+  "source_views": {
+    "global_watch": 18,
+    "technical_watch": 37,
+    "interaction_crops_10fps": 100,
+    "interaction_ranges": [
+      "08:50-08:55",
+      "13:05-13:10"
+    ]
+  },
+  "additional_actual_source_frames": 7,
+  "additional_handle_overlay_review_images": 100,
+  "transcript": {
+    "segments_read": 217,
+    "engine": "existing local faster-whisper-small int8",
+    "models_installed_or_downloaded": false,
+    "audio_uploaded": false
+  },
+  "observed_expressions": {
+    "scale": "point1=transform.position; point2=thisComp.layer(\"控制\").transform.position; distance=length(point1,point2); linear(distance,0,70,[250,250],[70,70])",
+    "scale_alternative": "chazhi=sub(point1,point2); distance=length(chazhi); same linear output",
+    "blur": "point1=transform.position; point2=thisComp.layer(\"控制\").transform.position; distance=length(point1,point2); linear(distance,0,70,40,0)"
+  },
+  "inferred": {
+    "canvas": [
+      320,
+      240
+    ],
+    "canvas_basis": "Source recording comp preview300x225 is whole-recording-scaled; aPosition41/120 and latecontrol140/209 align at~0.94scale. Do not mistake recorded crop300x225 for native comp300x225",
+    "target_centers_proposal": [
+      [
+        41,
+        120
+      ],
+      [
+        121,
+        120
+      ],
+      [
+        201,
+        120
+      ],
+      [
+        281,
+        120
+      ]
+    ],
+    "par": 1,
+    "fps": "Actualcompfps not read;29.97 is Preview setting only",
+    "background": "Recorded bg mostlyRGB0/45/37..39; exact native color/render matte not read",
+    "artwork_size_font": "AI assets unavailable; own editable circle/text replacement dimensions/font remain inferred"
+  },
+  "final_scale_far": 70,
+  "final_scale_near": 250,
+  "blur_radius": 70,
+  "blur_near": 40,
+  "blur_far": 0,
+  "display_scale": 0.95,
+  "replay_profiles": [
+    "skills/after-effects/ae-advanced-expressions/examples/p35-scale-replay-inferred.json",
+    "skills/after-effects/ae-advanced-expressions/examples/p35-blur-replay-inferred.json"
+  ],
+  "replay_limits": "Measured10fps handdrag; source hadzero motionkeys. Handles/cursor/ghosting/clipping contaminate measurements; sevencenters manually inferred, interpolation explicit",
+  "raw_or_source_frames_distributed": false,
+  "video_only_tail": "Sparse global only; not complete detailed visual learning"
+}

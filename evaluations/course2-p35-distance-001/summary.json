@@ -1,0 +1,473 @@
+{
+  "status": "native_suite_passed_baselines_overall_accepted_with_explicit_limits",
+  "unit": "distance_controller",
+  "source_url": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=35",
+  "cases": [
+    {
+      "case": "scale-003",
+      "directory": "samples/course2-distance-001/scale-003",
+      "project": "samples/course2-distance-001/scale-003/project.aep",
+      "project_sha256": "8fabeaaa17227e93400f7275ba211c8cf0a8de5f54357828d6ed32a15182c974",
+      "video": "samples/course2-distance-001/scale-003/final.mp4",
+      "video_sha256": "b9da1fd724961d86b7f6df6001f70120923282a988078a003b46922c0af73139",
+      "frames": 125,
+      "native_pngs": 7,
+      "status": "native_technical_passed",
+      "checks": {
+        "full_movie": true,
+        "native_math": true,
+        "native_errors": true,
+        "native_checkpoints": true,
+        "actual_mapping_image_difference": true,
+        "actual_scale_boundaries": true,
+        "actual_blur_energy": true,
+        "reopen_edit": true,
+        "target_structure": true,
+        "native_fast_blur": true,
+        "media": true,
+        "geometry": true,
+        "controller_keys": true
+      },
+      "max_formula_error": 2.8421709430404e-14,
+      "native_method": "two-point",
+      "scale_visible_boundary_probes": 15542,
+      "scale_found_boundary_probes": 15542,
+      "blur_gradient_comparison": [],
+      "mapping_control_rgb_difference": 6.997916666666666,
+      "mapping_control_time": 0.6,
+      "max_native_checkpoint_rgb_mae": 0.5627126736111111
+    },
+    {
+      "case": "blur-001",
+      "directory": "samples/course2-distance-001/blur-001",
+      "project": "samples/course2-distance-001/blur-001/project.aep",
+      "project_sha256": "624f99ffd9066a9fda9d4c5a622d8d6f6d73e28ef201bc667451b6b0bfcc567f",
+      "video": "samples/course2-distance-001/blur-001/final.mp4",
+      "video_sha256": "1ecd343d0e9212cc5f515913e6bb1ad294bd4f1239a6288eca9ee66b8238c8cf",
+      "frames": 125,
+      "native_pngs": 7,
+      "status": "native_technical_passed",
+      "checks": {
+        "full_movie": true,
+        "native_math": true,
+        "native_errors": true,
+        "native_checkpoints": true,
+        "actual_mapping_image_difference": true,
+        "actual_scale_boundaries": true,
+        "actual_blur_energy": true,
+        "reopen_edit": true,
+        "target_structure": true,
+        "native_fast_blur": true,
+        "media": true,
+        "geometry": true,
+        "controller_keys": true
+      },
+      "max_formula_error": 7.105427357601e-15,
+      "native_method": "two-point",
+      "scale_visible_boundary_probes": 0,
+      "scale_found_boundary_probes": 0,
+      "blur_gradient_comparison": [
+        {
+          "target": 0,
+          "near_frames": 17,
+          "far_frames": 85,
+          "near_to_far_gradient_ratio": 0.05993828157770897
+        },
+        {
+          "target": 1,
+          "near_frames": 10,
+          "far_frames": 101,
+          "near_to_far_gradient_ratio": 0.052695643390298925
+        },
+        {
+          "target": 2,
+          "near_frames": 5,
+          "far_frames": 113,
+          "near_to_far_gradient_ratio": 0.05480358816797904
+        },
+        {
+          "target": 3,
+          "near_frames": 9,
+          "far_frames": 102,
+          "near_to_far_gradient_ratio": 0.06526759634587304
+        }
+      ],
+      "mapping_control_rgb_difference": 1.0134939236111111,
+      "mapping_control_time": 0.6,
+      "max_native_checkpoint_rgb_mae": 0.5087890625
+    },
+    {
+      "case": "digits-scale-001",
+      "directory": "samples/course2-distance-001/digits-scale-001",
+      "project": "samples/course2-distance-001/digits-scale-001/project.aep",
+      "project_sha256": "797a079abcb497778b828fdfe56a2cb15603bfac10d2842785cd447608c3a658",
+      "video": "samples/course2-distance-001/digits-scale-001/final.mp4",
+      "video_sha256": "56b62a4d9ae0b98560e836a5cc2d0e823c612ac6862457814db99029c4e7410e",
+      "frames": 125,
+      "native_pngs": 7,
+      "status": "native_technical_passed",
+      "checks": {
+        "full_movie": true,
+        "native_math": true,
+        "native_errors": true,
+        "native_checkpoints": true,
+        "actual_mapping_image_difference": true,
+        "actual_scale_boundaries": true,
+        "actual_blur_energy": true,
+        "reopen_edit": true,
+        "target_structure": true,
+        "native_fast_blur": true,
+        "media": true,
+        "geometry": true,
+        "controller_keys": true
+      },
+      "max_formula_error": 2.8421709430404e-14,
+      "native_method": "two-point",
+      "scale_visible_boundary_probes": 15535,
+      "scale_found_boundary_probes": 15535,
+      "blur_gradient_comparison": [],
+      "mapping_control_rgb_difference": 17.4441015625,
+      "mapping_control_time": 0.6,
+      "max_native_checkpoint_rgb_mae": 0.873459201388889
+    },
+    {
+      "case": "digits-blur-001",
+      "directory": "samples/course2-distance-001/digits-blur-001",
+      "project": "samples/course2-distance-001/digits-blur-001/project.aep",
+      "project_sha256": "7b0102b289cc93eda2a5a0c66593352aa541a6b0d438248c89ec7b67efe58750",
+      "video": "samples/course2-distance-001/digits-blur-001/final.mp4",
+      "video_sha256": "6ce8ab094dca74262384f168c4535331a9755f2389e3582a2c2d8d35b050f122",
+      "frames": 125,
+      "native_pngs": 7,
+      "status": "native_technical_passed",
+      "checks": {
+        "full_movie": true,
+        "native_math": true,
+        "native_errors": true,
+        "native_checkpoints": true,
+        "actual_mapping_image_difference": true,
+        "actual_scale_boundaries": true,
+        "actual_blur_energy": true,
+        "reopen_edit": true,
+        "target_structure": true,
+        "native_fast_blur": true,
+        "media": true,
+        "geometry": true,
+        "controller_keys": true
+      },
+      "max_formula_error": 7.105427357601e-15,
+      "native_method": "two-point",
+      "scale_visible_boundary_probes": 0,
+      "scale_found_boundary_probes": 0,
+      "blur_gradient_comparison": [
+        {
+          "target": 0,
+          "near_frames": 17,
+          "far_frames": 85,
+          "near_to_far_gradient_ratio": 0.25945798442636114
+        },
+        {
+          "target": 1,
+          "near_frames": 10,
+          "far_frames": 101,
+          "near_to_far_gradient_ratio": 0.22927068094425546
+        },
+        {
+          "target": 2,
+          "near_frames": 5,
+          "far_frames": 113,
+          "near_to_far_gradient_ratio": 0.27301461478207584
+        },
+        {
+          "target": 3,
+          "near_frames": 9,
+          "far_frames": 102,
+          "near_to_far_gradient_ratio": 0.2668523741121237
+        }
+      ],
+      "mapping_control_rgb_difference": 1.4006553819444445,
+      "mapping_control_time": 0.6,
+      "max_native_checkpoint_rgb_mae": 0.8150434027777779
+    },
+    {
+      "case": "shapes-scale-001",
+      "directory": "samples/course2-distance-001/shapes-scale-001",
+      "project": "samples/course2-distance-001/shapes-scale-001/project.aep",
+      "project_sha256": "5773c6470bbddea9b1f5be24ff122ea2830e1b5c804fd206fb2890ef77df5ca8",
+      "video": "samples/course2-distance-001/shapes-scale-001/final.mp4",
+      "video_sha256": "d7ab786f0f1aa3c7f749caeab077f664d37143c5ffcd272be8e5652c4a354050",
+      "frames": 125,
+      "native_pngs": 7,
+      "status": "native_technical_passed",
+      "checks": {
+        "full_movie": true,
+        "native_math": true,
+        "native_errors": true,
+        "native_checkpoints": true,
+        "actual_mapping_image_difference": true,
+        "actual_scale_boundaries": true,
+        "actual_blur_energy": true,
+        "reopen_edit": true,
+        "target_structure": true,
+        "native_fast_blur": true,
+        "media": true,
+        "geometry": true,
+        "controller_keys": true
+      },
+      "max_formula_error": 2.8421709430404e-14,
+      "native_method": "two-point",
+      "scale_visible_boundary_probes": 15532,
+      "scale_found_boundary_probes": 15532,
+      "blur_gradient_comparison": [],
+      "mapping_control_rgb_difference": 18.90814236111111,
+      "mapping_control_time": 0.6,
+      "max_native_checkpoint_rgb_mae": 0.7182855902777777
+    },
+    {
+      "case": "shapes-blur-001",
+      "directory": "samples/course2-distance-001/shapes-blur-001",
+      "project": "samples/course2-distance-001/shapes-blur-001/project.aep",
+      "project_sha256": "e22a2f35a500f2a734550234622486a619e958cc77588f6c41b1da092f057557",
+      "video": "samples/course2-distance-001/shapes-blur-001/final.mp4",
+      "video_sha256": "43c7fcd6c67b3dc22868e9eba3f3b0d12364f42fef0553fae34aa273292942a7",
+      "frames": 125,
+      "native_pngs": 7,
+      "status": "native_technical_passed",
+      "checks": {
+        "full_movie": true,
+        "native_math": true,
+        "native_errors": true,
+        "native_checkpoints": true,
+        "actual_mapping_image_difference": true,
+        "actual_scale_boundaries": true,
+        "actual_blur_energy": true,
+        "reopen_edit": true,
+        "target_structure": true,
+        "native_fast_blur": true,
+        "media": true,
+        "geometry": true,
+        "controller_keys": true
+      },
+      "max_formula_error": 7.105427357601e-15,
+      "native_method": "two-point",
+      "scale_visible_boundary_probes": 0,
+      "scale_found_boundary_probes": 0,
+      "blur_gradient_comparison": [
+        {
+          "target": 0,
+          "near_frames": 17,
+          "far_frames": 85,
+          "near_to_far_gradient_ratio": 0.2948347564458272
+        },
+        {
+          "target": 1,
+          "near_frames": 10,
+          "far_frames": 101,
+          "near_to_far_gradient_ratio": 0.2938285996487986
+        },
+        {
+          "target": 2,
+          "near_frames": 5,
+          "far_frames": 113,
+          "near_to_far_gradient_ratio": 0.5236490895385153
+        },
+        {
+          "target": 3,
+          "near_frames": 9,
+          "far_frames": 102,
+          "near_to_far_gradient_ratio": 0.4167212677055642
+        }
+      ],
+      "mapping_control_rgb_difference": 1.0223177083333332,
+      "mapping_control_time": 0.6,
+      "max_native_checkpoint_rgb_mae": 0.6817534722222223
+    },
+    {
+      "case": "arrows-scale-001",
+      "directory": "samples/course2-distance-001/arrows-scale-001",
+      "project": "samples/course2-distance-001/arrows-scale-001/project.aep",
+      "project_sha256": "616509e72acd224b2622a03a4e4a2c3902d5786d9af8d1553c42e0b2c8299cdb",
+      "video": "samples/course2-distance-001/arrows-scale-001/final.mp4",
+      "video_sha256": "541684f77b6f46bc89718e09be6083ed602f75c14bc35b58f63d7049584e8fe3",
+      "frames": 125,
+      "native_pngs": 7,
+      "status": "native_technical_passed",
+      "checks": {
+        "full_movie": true,
+        "native_math": true,
+        "native_errors": true,
+        "native_checkpoints": true,
+        "actual_mapping_image_difference": true,
+        "actual_scale_boundaries": true,
+        "actual_blur_energy": true,
+        "reopen_edit": true,
+        "target_structure": true,
+        "native_fast_blur": true,
+        "media": true,
+        "geometry": true,
+        "controller_keys": true
+      },
+      "max_formula_error": 2.8421709430404e-14,
+      "native_method": "two-point",
+      "scale_visible_boundary_probes": 15414,
+      "scale_found_boundary_probes": 15414,
+      "blur_gradient_comparison": [],
+      "mapping_control_rgb_difference": 8.980460069444446,
+      "mapping_control_time": 0.6,
+      "max_native_checkpoint_rgb_mae": 0.6950607638888888
+    },
+    {
+      "case": "arrows-blur-001",
+      "directory": "samples/course2-distance-001/arrows-blur-001",
+      "project": "samples/course2-distance-001/arrows-blur-001/project.aep",
+      "project_sha256": "a2095c1c172c0927b1eb5576eebc345bf469a39ea86bd7f174f6033c964e849e",
+      "video": "samples/course2-distance-001/arrows-blur-001/final.mp4",
+      "video_sha256": "d56802f5d37234646d875453bd8b517261034b389e7c3199930ce2af09390e43",
+      "frames": 125,
+      "native_pngs": 7,
+      "status": "native_technical_passed",
+      "checks": {
+        "full_movie": true,
+        "native_math": true,
+        "native_errors": true,
+        "native_checkpoints": true,
+        "actual_mapping_image_difference": true,
+        "actual_scale_boundaries": true,
+        "actual_blur_energy": true,
+        "reopen_edit": true,
+        "target_structure": true,
+        "native_fast_blur": true,
+        "media": true,
+        "geometry": true,
+        "controller_keys": true
+      },
+      "max_formula_error": 7.105427357601e-15,
+      "native_method": "two-point",
+      "scale_visible_boundary_probes": 0,
+      "scale_found_boundary_probes": 0,
+      "blur_gradient_comparison": [
+        {
+          "target": 0,
+          "near_frames": 17,
+          "far_frames": 85,
+          "near_to_far_gradient_ratio": 0.2636542870695653
+        },
+        {
+          "target": 1,
+          "near_frames": 10,
+          "far_frames": 101,
+          "near_to_far_gradient_ratio": 0.27895324901796975
+        },
+        {
+          "target": 2,
+          "near_frames": 5,
+          "far_frames": 113,
+          "near_to_far_gradient_ratio": 0.3380256267036583
+        },
+        {
+          "target": 3,
+          "near_frames": 9,
+          "far_frames": 102,
+          "near_to_far_gradient_ratio": 0.3314979362666905
+        }
+      ],
+      "mapping_control_rgb_difference": 1.1195529513888889,
+      "mapping_control_time": 0.6,
+      "max_native_checkpoint_rgb_mae": 0.6532638888888889
+    },
+    {
+      "case": "variation-isolated-002",
+      "directory": "samples/course2-distance-001/variation-isolated-002",
+      "project": "samples/course2-distance-001/variation-isolated-002/project.aep",
+      "project_sha256": "0a1fc25e48f45e4c6649cc2fd20800acd126efe6fba0726d1b5409b6ecb1f4f4",
+      "video": "samples/course2-distance-001/variation-isolated-002/final.mp4",
+      "video_sha256": "e5b9dcdfa3abc6954de672ff5f4a5e6075dcb881888e37d7cc58f750ed73831d",
+      "frames": 200,
+      "native_pngs": 7,
+      "status": "native_technical_passed",
+      "checks": {
+        "full_movie": true,
+        "native_math": true,
+        "native_errors": true,
+        "native_checkpoints": true,
+        "actual_mapping_image_difference": true,
+        "actual_scale_boundaries": true,
+        "actual_blur_energy": true,
+        "reopen_edit": true,
+        "target_structure": true,
+        "native_fast_blur": true,
+        "media": true,
+        "geometry": true,
+        "controller_keys": true
+      },
+      "max_formula_error": 0,
+      "native_method": "sub-length",
+      "scale_visible_boundary_probes": 0,
+      "scale_found_boundary_probes": 0,
+      "blur_gradient_comparison": [
+        {
+          "target": 0,
+          "near_frames": 7,
+          "far_frames": 179,
+          "near_to_far_gradient_ratio": 0.3357228966643766
+        },
+        {
+          "target": 1,
+          "near_frames": 6,
+          "far_frames": 185,
+          "near_to_far_gradient_ratio": 0.3696306764976177
+        },
+        {
+          "target": 2,
+          "near_frames": 12,
+          "far_frames": 176,
+          "near_to_far_gradient_ratio": 0.32356277994473964
+        },
+        {
+          "target": 3,
+          "near_frames": 19,
+          "far_frames": 148,
+          "near_to_far_gradient_ratio": 0.36356864273382344
+        }
+      ],
+      "mapping_control_rgb_difference": 1.3918142361111112,
+      "mapping_control_time": 1.8,
+      "max_native_checkpoint_rgb_mae": 0.6485199652777779
+    }
+  ],
+  "total_native_cases": 9,
+  "total_native_frames": 1200,
+  "native_pngs": 63,
+  "scale_visible_boundary_probes": 62023,
+  "scale_found_boundary_probes": 62023,
+  "native_media_audit": "reports/native-media-dependencies-course2-distance.json",
+  "native_media_audit_status": "completed9",
+  "negative_tests": {
+    "frozen-negative": "failed",
+    "wrong-mapping-negative": "failed",
+    "frozen-blur-negative": "failed"
+  },
+  "independent_call": "isolated-copy.json",
+  "course_fidelity": {
+    "status": "overall_baselines_accepted",
+    "accepted_cases": {
+      "scale-003": "b9da1fd724961d86b7f6df6001f70120923282a988078a003b46922c0af73139",
+      "blur-001": "1ecd343d0e9212cc5f515913e6bb1ad294bd4f1239a6288eca9ee66b8238c8cf"
+    },
+    "original_length_linear_and_fast_blur": true,
+    "original_hand_drag_adapted_to_measured_replay": true,
+    "source_artwork_canvas_fps_color_identity_unverified": true
+  },
+  "human_review": "human-review.json",
+  "visual_review": "visual-review.json",
+  "source_provenance": "source-provenance.json",
+  "limits": [
+    "Unparented2D centered4targets only; no3D orparent coordinate conversion",
+    "Opaque artwork on transparent44x44PNG only; noarbitrarysize/video/callertext rendering",
+    "Fixed320x240/PAR1/25fps and positions inferred/adapted; noexactsource geometryclaim",
+    "Controller replay is explicit keyframed measurement adaptation, not recovered course keys",
+    "Script parameter bounds are not exhaustive combination verification"
+  ],
+  "knowledge_fusion": "Shared distance/linear primitive with other expressions; scale vector andFastBlur scalar are two implementations in same distance_controller unit, not two newSkills",
+  "overall_curriculum_complete": false
+}

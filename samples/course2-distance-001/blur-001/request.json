@@ -1,0 +1,1351 @@
+{
+  "name": "COURSE35_DISTANCE",
+  "animation": "distance-controller",
+  "mode": "blur",
+  "width": 320,
+  "height": 240,
+  "pixel_aspect": 1,
+  "fps": 25,
+  "duration": 5,
+  "radius": 70,
+  "near_scale": 250,
+  "far_scale": 70,
+  "near_blur": 40,
+  "distance_method": "two-point",
+  "keyframes": [
+    {
+      "time": 0.0,
+      "position": [
+        205.454055,
+        214.881363
+      ]
+    },
+    {
+      "time": 0.1,
+      "position": [
+        127.223799,
+        205.660412
+      ]
+    },
+    {
+      "time": 0.2,
+      "position": [
+        74.807018,
+        191.859649
+      ]
+    },
+    {
+      "time": 0.3,
+      "position": [
+        47.462593,
+        183.948938
+      ]
+    },
+    {
+      "time": 0.4,
+      "position": [
+        35.263158,
+        172.105263
+      ]
+    },
+    {
+      "time": 0.5,
+      "position": [
+        29.649123,
+        165.438596
+      ]
+    },
+    {
+      "time": 0.6,
+      "position": [
+        30.0,
+        157.368421
+      ]
+    },
+    {
+      "time": 0.7,
+      "position": [
+        32.719298,
+        151.666667
+      ]
+    },
+    {
+      "time": 0.8,
+      "position": [
+        53.040936,
+        133.918129
+      ]
+    },
+    {
+      "time": 0.9,
+      "position": [
+        53.157895,
+        134.210526
+      ]
+    },
+    {
+      "time": 1.0,
+      "position": [
+        83.684211,
+        123.684211
+      ]
+    },
+    {
+      "time": 1.1,
+      "position": [
+        93.579794,
+        122.115611
+      ]
+    },
+    {
+      "time": 1.2,
+      "position": [
+        111.052632,
+        119.473684
+      ]
+    },
+    {
+      "time": 1.3,
+      "position": [
+        118.947368,
+        115.789474
+      ]
+    },
+    {
+      "time": 1.4,
+      "position": [
+        151.988304,
+        110.760234
+      ]
+    },
+    {
+      "time": 1.5,
+      "position": [
+        163.763091,
+        108.660814
+      ]
+    },
+    {
+      "time": 1.6,
+      "position": [
+        185.394737,
+        106.907895
+      ]
+    },
+    {
+      "time": 1.7,
+      "position": [
+        225.473684,
+        102.526316
+      ]
+    },
+    {
+      "time": 1.8,
+      "position": [
+        260.526316,
+        102.105263
+      ]
+    },
+    {
+      "time": 1.9,
+      "position": [
+        296.79198,
+        102.055138
+      ]
+    },
+    {
+      "time": 2.0,
+      "position": [
+        301.693364,
+        101.647597
+      ]
+    },
+    {
+      "time": 2.1,
+      "position": [
+        308.412914,
+        108.39121
+      ]
+    },
+    {
+      "time": 2.2,
+      "position": [
+        330.526316,
+        117.894737
+      ]
+    },
+    {
+      "time": 2.3,
+      "position": [
+        337.894737,
+        135.789474
+      ]
+    },
+    {
+      "time": 2.4,
+      "position": [
+        337.894737,
+        151.578947
+      ]
+    },
+    {
+      "time": 2.5,
+      "position": [
+        335.789474,
+        165.263158
+      ]
+    },
+    {
+      "time": 2.6,
+      "position": [
+        269.22184,
+        195.037875
+      ]
+    },
+    {
+      "time": 2.7,
+      "position": [
+        237.787267,
+        206.032721
+      ]
+    },
+    {
+      "time": 2.8,
+      "position": [
+        203.552632,
+        202.894737
+      ]
+    },
+    {
+      "time": 2.9,
+      "position": [
+        184.527138,
+        196.452508
+      ]
+    },
+    {
+      "time": 3.0,
+      "position": [
+        165.672515,
+        182.105263
+      ]
+    },
+    {
+      "time": 3.1,
+      "position": [
+        165.311005,
+        181.818182
+      ]
+    },
+    {
+      "time": 3.2,
+      "position": [
+        165.175439,
+        182.017544
+      ]
+    },
+    {
+      "time": 3.3,
+      "position": [
+        165.263158,
+        182.105263
+      ]
+    },
+    {
+      "time": 3.4,
+      "position": [
+        165.380117,
+        181.871345
+      ]
+    },
+    {
+      "time": 3.5,
+      "position": [
+        165.263158,
+        182.105263
+      ]
+    },
+    {
+      "time": 3.6,
+      "position": [
+        165.263158,
+        182.105263
+      ]
+    },
+    {
+      "time": 3.7,
+      "position": [
+        165.263158,
+        182.105263
+      ]
+    },
+    {
+      "time": 3.8,
+      "position": [
+        165.175439,
+        182.017544
+      ]
+    },
+    {
+      "time": 3.9,
+      "position": [
+        165.175439,
+        182.017544
+      ]
+    },
+    {
+      "time": 4.0,
+      "position": [
+        165.175439,
+        182.017544
+      ]
+    },
+    {
+      "time": 4.1,
+      "position": [
+        165.413534,
+        183.233083
+      ]
+    },
+    {
+      "time": 4.2,
+      "position": [
+        130.350877,
+        185.438596
+      ]
+    },
+    {
+      "time": 4.3,
+      "position": [
+        72.631579,
+        181.052632
+      ]
+    },
+    {
+      "time": 4.4,
+      "position": [
+        58.421053,
+        171.578947
+      ]
+    },
+    {
+      "time": 4.5,
+      "position": [
+        45.817123,
+        162.458404
+      ]
+    },
+    {
+      "time": 4.6,
+      "position": [
+        41.954887,
+        155.238095
+      ]
+    },
+    {
+      "time": 4.7,
+      "position": [
+        42.025698,
+        151.856052
+      ]
+    },
+    {
+      "time": 4.8,
+      "position": [
+        45.789474,
+        140.526316
+      ]
+    },
+    {
+      "time": 4.9,
+      "position": [
+        50.0,
+        136.315789
+      ]
+    },
+    {
+      "time": 5.0,
+      "position": [
+        50.0,
+        136.315789
+      ]
+    }
+  ],
+  "positions": [
+    [
+      41,
+      120
+    ],
+    [
+      121,
+      120
+    ],
+    [
+      201,
+      120
+    ],
+    [
+      281,
+      120
+    ]
+  ],
+  "background": [
+    0,
+    0.17647058823529413,
+    0.15294117647058825
+  ],
+  "controller_color": [
+    1,
+    1,
+    0.6
+  ],
+  "controller_opacity": 30,
+  "controller_diameter": 40,
+  "assets": [],
+  "motion_expectation": "required",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=35",
+  "inferred": [
+    "320x240canvas/PAR1 from recording and source positions; source Comp dialog not read",
+    "25fps is recording-replay adapter; source29.97 Preview not proof ofCompFPS",
+    "Own44px badge/Arial34 substitutes unavailableAI artwork; font/exactbounds not source identity",
+    "Source manual dragging mapped to measured controller keys; original had no motionKframes",
+    "Recorded darkgreen background approximated by explicit bottomSolid for predictable delivery; source matte implementation not read"
+  ],
+  "profile_provenance": {
+    "source_start": 785,
+    "source_end": 790,
+    "crop": [
+      552,
+      161,
+      300,
+      225
+    ],
+    "observations": [
+      {
+        "frame": 0,
+        "time": 0.0,
+        "source_crop_center": [
+          195.18135245901638,
+          204.1372950819672
+        ],
+        "method": "color_centroid_inferred",
+        "handle_matches": 0
+      },
+      {
+        "frame": 1,
+        "time": 0.1,
+        "source_crop_center": [
+          120.86260869565217,
+          195.37739130434784
+        ],
+        "method": "color_centroid_inferred",
+        "handle_matches": 0
+      },
+      {
+        "frame": 2,
+        "time": 0.2,
+        "source_crop_center": [
+          71.06666666666666,
+          182.26666666666668
+        ],
+        "method": "selection_handles",
+        "handle_matches": 3
+      },
+      {
+        "frame": 3,
+        "time": 0.3,
+        "source_crop_center": [
+          45.089463220675945,
+          174.75149105367794
+        ],
+        "method": "color_centroid_inferred",
+        "handle_matches": 2
+      },
+      {
+        "frame": 4,
+        "time": 0.4,
+        "source_crop_center": [
+          33.5,
+          163.5
+        ],
+        "method": "selection_handles",
+        "handle_matches": 6
+      },
+      {
+        "frame": 5,
+        "time": 0.5,
+        "source_crop_center": [
+          28.166666666666664,
+          157.16666666666666
+        ],
+        "method": "selection_handles",
+        "handle_matches": 6
+      },
+      {
+        "frame": 6,
+        "time": 0.6,
+        "source_crop_center": [
+          28.5,
+          149.5
+        ],
+        "method": "selection_handles",
+        "handle_matches": 6
+      },
+      {
+        "frame": 7,
+        "time": 0.7,
+        "source_crop_center": [
+          31.083333333333332,
+          144.08333333333331
+        ],
+        "method": "selection_handles",
+        "handle_matches": 3
+      },
+      {
+        "frame": 8,
+        "time": 0.8,
+        "source_crop_center": [
+          50.388888888888886,
+          127.22222222222223
+        ],
+        "method": "selection_handles",
+        "handle_matches": 7
+      },
+      {
+        "frame": 9,
+        "time": 0.9,
+        "source_crop_center": [
+          50.5,
+          127.5
+        ],
+        "method": "selection_handles",
+        "handle_matches": 3
+      },
+      {
+        "frame": 10,
+        "time": 1.0,
+        "source_crop_center": [
+          79.5,
+          117.5
+        ],
+        "method": "selection_handles",
+        "handle_matches": 5
+      },
+      {
+        "frame": 11,
+        "time": 1.1,
+        "source_crop_center": [
+          88.90080428954424,
+          116.00983020554067
+        ],
+        "method": "color_centroid_inferred",
+        "handle_matches": 1
+      },
+      {
+        "frame": 12,
+        "time": 1.2,
+        "source_crop_center": [
+          105.5,
+          113.5
+        ],
+        "method": "selection_handles",
+        "handle_matches": 5
+      },
+      {
+        "frame": 13,
+        "time": 1.3,
+        "source_crop_center": [
+          113,
+          110
+        ],
+        "method": "manual_handle_center_inferred",
+        "handle_matches": 2
+      },
+      {
+        "frame": 14,
+        "time": 1.4,
+        "source_crop_center": [
+          144.38888888888889,
+          105.22222222222223
+        ],
+        "method": "selection_handles",
+        "handle_matches": 5
+      },
+      {
+        "frame": 15,
+        "time": 1.5,
+        "source_crop_center": [
+          155.5749364944962,
+          103.22777307366638
+        ],
+        "method": "color_centroid_inferred",
+        "handle_matches": 1
+      },
+      {
+        "frame": 16,
+        "time": 1.6,
+        "source_crop_center": [
+          176.125,
+          101.5625
+        ],
+        "method": "selection_handles",
+        "handle_matches": 5
+      },
+      {
+        "frame": 17,
+        "time": 1.7,
+        "source_crop_center": [
+          214.2,
+          97.4
+        ],
+        "method": "selection_handles",
+        "handle_matches": 7
+      },
+      {
+        "frame": 18,
+        "time": 1.8,
+        "source_crop_center": [
+          247.5,
+          97.0
+        ],
+        "method": "selection_handles",
+        "handle_matches": 6
+      },
+      {
+        "frame": 19,
+        "time": 1.9,
+        "source_crop_center": [
+          281.95238095238096,
+          96.95238095238095
+        ],
+        "method": "selection_handles",
+        "handle_matches": 4
+      },
+      {
+        "frame": 20,
+        "time": 2.0,
+        "source_crop_center": [
+          286.60869565217394,
+          96.56521739130434
+        ],
+        "method": "selection_handles",
+        "handle_matches": 4
+      },
+      {
+        "frame": 21,
+        "time": 2.1,
+        "source_crop_center": [
+          292.99226804123714,
+          102.97164948453609
+        ],
+        "method": "color_centroid_inferred",
+        "handle_matches": 1
+      },
+      {
+        "frame": 22,
+        "time": 2.2,
+        "source_crop_center": [
+          314,
+          112
+        ],
+        "method": "manual_handle_center_inferred",
+        "handle_matches": 0
+      },
+      {
+        "frame": 23,
+        "time": 2.3,
+        "source_crop_center": [
+          321,
+          129
+        ],
+        "method": "manual_handle_center_inferred",
+        "handle_matches": 0
+      },
+      {
+        "frame": 24,
+        "time": 2.4,
+        "source_crop_center": [
+          321,
+          144
+        ],
+        "method": "manual_handle_center_inferred",
+        "handle_matches": 0
+      },
+      {
+        "frame": 25,
+        "time": 2.5,
+        "source_crop_center": [
+          319,
+          157
+        ],
+        "method": "manual_handle_center_inferred",
+        "handle_matches": 0
+      },
+      {
+        "frame": 26,
+        "time": 2.6,
+        "source_crop_center": [
+          255.7607476635514,
+          185.2859813084112
+        ],
+        "method": "color_centroid_inferred",
+        "handle_matches": 1
+      },
+      {
+        "frame": 27,
+        "time": 2.7,
+        "source_crop_center": [
+          225.897903372835,
+          195.73108477666364
+        ],
+        "method": "color_centroid_inferred",
+        "handle_matches": 1
+      },
+      {
+        "frame": 28,
+        "time": 2.8,
+        "source_crop_center": [
+          193.375,
+          192.75
+        ],
+        "method": "selection_handles",
+        "handle_matches": 6
+      },
+      {
+        "frame": 29,
+        "time": 2.9,
+        "source_crop_center": [
+          175.30078125,
+          186.6298828125
+        ],
+        "method": "color_centroid_inferred",
+        "handle_matches": 1
+      },
+      {
+        "frame": 30,
+        "time": 3.0,
+        "source_crop_center": [
+          157.38888888888889,
+          173.0
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 31,
+        "time": 3.1,
+        "source_crop_center": [
+          157.04545454545453,
+          172.72727272727272
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 32,
+        "time": 3.2,
+        "source_crop_center": [
+          156.91666666666666,
+          172.91666666666666
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 33,
+        "time": 3.3,
+        "source_crop_center": [
+          157.0,
+          173.0
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 34,
+        "time": 3.4,
+        "source_crop_center": [
+          157.11111111111111,
+          172.77777777777777
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 35,
+        "time": 3.5,
+        "source_crop_center": [
+          157.0,
+          173.0
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 36,
+        "time": 3.6,
+        "source_crop_center": [
+          157.0,
+          173.0
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 37,
+        "time": 3.7,
+        "source_crop_center": [
+          157.0,
+          173.0
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 38,
+        "time": 3.8,
+        "source_crop_center": [
+          156.91666666666666,
+          172.91666666666666
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 39,
+        "time": 3.9,
+        "source_crop_center": [
+          156.91666666666666,
+          172.91666666666666
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 40,
+        "time": 4.0,
+        "source_crop_center": [
+          156.91666666666666,
+          172.91666666666666
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 41,
+        "time": 4.1,
+        "source_crop_center": [
+          157.14285714285714,
+          174.07142857142858
+        ],
+        "method": "selection_handles",
+        "handle_matches": 5
+      },
+      {
+        "frame": 42,
+        "time": 4.2,
+        "source_crop_center": [
+          123.83333333333333,
+          176.16666666666666
+        ],
+        "method": "selection_handles",
+        "handle_matches": 3
+      },
+      {
+        "frame": 43,
+        "time": 4.3,
+        "source_crop_center": [
+          69,
+          172
+        ],
+        "method": "manual_handle_center_inferred",
+        "handle_matches": 1
+      },
+      {
+        "frame": 44,
+        "time": 4.4,
+        "source_crop_center": [
+          55.5,
+          163.0
+        ],
+        "method": "selection_handles",
+        "handle_matches": 5
+      },
+      {
+        "frame": 45,
+        "time": 4.5,
+        "source_crop_center": [
+          43.526267281105994,
+          154.33548387096775
+        ],
+        "method": "color_centroid_inferred",
+        "handle_matches": 2
+      },
+      {
+        "frame": 46,
+        "time": 4.6,
+        "source_crop_center": [
+          39.857142857142854,
+          147.47619047619048
+        ],
+        "method": "selection_handles",
+        "handle_matches": 7
+      },
+      {
+        "frame": 47,
+        "time": 4.7,
+        "source_crop_center": [
+          39.9244135534318,
+          144.2632493483927
+        ],
+        "method": "color_centroid_inferred",
+        "handle_matches": 1
+      },
+      {
+        "frame": 48,
+        "time": 4.8,
+        "source_crop_center": [
+          43.5,
+          133.5
+        ],
+        "method": "selection_handles",
+        "handle_matches": 5
+      },
+      {
+        "frame": 49,
+        "time": 4.9,
+        "source_crop_center": [
+          47.5,
+          129.5
+        ],
+        "method": "selection_handles",
+        "handle_matches": 6
+      }
+    ],
+    "status": "inferred_replay_profile_not_original_keys",
+    "limits": [
+      "Controller center by bright green connected component; source selection handles/cursor/ghosting can bias center",
+      "320x240 canvas inferred from41/120 position,80 native spacing and300x225 recorded preview; exact source dialog not shown",
+      "Sampled10fps interaction replay is adaptation; original had no motion keyframes",
+      "Initial simple brightgreen detector mistakenly chose left border and missed controller over black letters; excluded, replaced with yellow-component detector",
+      "Union of green-over-background and yellow-over-black detector; source repaint/cursor bias unresolved; not native controller ground truth",
+      "Display scale0.95 fitted from visible41/120 and140/209 positions; not sourceComp readback",
+      "Selection-handle and color-centroid measurements have source repaint/ghosting/cursor biases; not recovered original timeline"
+    ],
+    "display_scale_inferred": 0.95,
+    "native_canvas_inferred": [
+      320,
+      240
+    ],
+    "keyframes": [
+      {
+        "time": 0.0,
+        "position": [
+          205.454055,
+          214.881363
+        ],
+        "measurement_method": "color_centroid_inferred"
+      },
+      {
+        "time": 0.1,
+        "position": [
+          127.223799,
+          205.660412
+        ],
+        "measurement_method": "color_centroid_inferred"
+      },
+      {
+        "time": 0.2,
+        "position": [
+          74.807018,
+          191.859649
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 0.3,
+        "position": [
+          47.462593,
+          183.948938
+        ],
+        "measurement_method": "color_centroid_inferred"
+      },
+      {
+        "time": 0.4,
+        "position": [
+          35.263158,
+          172.105263
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 0.5,
+        "position": [
+          29.649123,
+          165.438596
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 0.6,
+        "position": [
+          30.0,
+          157.368421
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 0.7,
+        "position": [
+          32.719298,
+          151.666667
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 0.8,
+        "position": [
+          53.040936,
+          133.918129
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 0.9,
+        "position": [
+          53.157895,
+          134.210526
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 1.0,
+        "position": [
+          83.684211,
+          123.684211
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 1.1,
+        "position": [
+          93.579794,
+          122.115611
+        ],
+        "measurement_method": "color_centroid_inferred"
+      },
+      {
+        "time": 1.2,
+        "position": [
+          111.052632,
+          119.473684
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 1.3,
+        "position": [
+          118.947368,
+          115.789474
+        ],
+        "measurement_method": "manual_handle_center_inferred"
+      },
+      {
+        "time": 1.4,
+        "position": [
+          151.988304,
+          110.760234
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 1.5,
+        "position": [
+          163.763091,
+          108.660814
+        ],
+        "measurement_method": "color_centroid_inferred"
+      },
+      {
+        "time": 1.6,
+        "position": [
+          185.394737,
+          106.907895
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 1.7,
+        "position": [
+          225.473684,
+          102.526316
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 1.8,
+        "position": [
+          260.526316,
+          102.105263
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 1.9,
+        "position": [
+          296.79198,
+          102.055138
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 2.0,
+        "position": [
+          301.693364,
+          101.647597
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 2.1,
+        "position": [
+          308.412914,
+          108.39121
+        ],
+        "measurement_method": "color_centroid_inferred"
+      },
+      {
+        "time": 2.2,
+        "position": [
+          330.526316,
+          117.894737
+        ],
+        "measurement_method": "manual_handle_center_inferred"
+      },
+      {
+        "time": 2.3,
+        "position": [
+          337.894737,
+          135.789474
+        ],
+        "measurement_method": "manual_handle_center_inferred"
+      },
+      {
+        "time": 2.4,
+        "position": [
+          337.894737,
+          151.578947
+        ],
+        "measurement_method": "manual_handle_center_inferred"
+      },
+      {
+        "time": 2.5,
+        "position": [
+          335.789474,
+          165.263158
+        ],
+        "measurement_method": "manual_handle_center_inferred"
+      },
+      {
+        "time": 2.6,
+        "position": [
+          269.22184,
+          195.037875
+        ],
+        "measurement_method": "color_centroid_inferred"
+      },
+      {
+        "time": 2.7,
+        "position": [
+          237.787267,
+          206.032721
+        ],
+        "measurement_method": "color_centroid_inferred"
+      },
+      {
+        "time": 2.8,
+        "position": [
+          203.552632,
+          202.894737
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 2.9,
+        "position": [
+          184.527138,
+          196.452508
+        ],
+        "measurement_method": "color_centroid_inferred"
+      },
+      {
+        "time": 3.0,
+        "position": [
+          165.672515,
+          182.105263
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 3.1,
+        "position": [
+          165.311005,
+          181.818182
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 3.2,
+        "position": [
+          165.175439,
+          182.017544
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 3.3,
+        "position": [
+          165.263158,
+          182.105263
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 3.4,
+        "position": [
+          165.380117,
+          181.871345
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 3.5,
+        "position": [
+          165.263158,
+          182.105263
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 3.6,
+        "position": [
+          165.263158,
+          182.105263
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 3.7,
+        "position": [
+          165.263158,
+          182.105263
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 3.8,
+        "position": [
+          165.175439,
+          182.017544
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 3.9,
+        "position": [
+          165.175439,
+          182.017544
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 4.0,
+        "position": [
+          165.175439,
+          182.017544
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 4.1,
+        "position": [
+          165.413534,
+          183.233083
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 4.2,
+        "position": [
+          130.350877,
+          185.438596
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 4.3,
+        "position": [
+          72.631579,
+          181.052632
+        ],
+        "measurement_method": "manual_handle_center_inferred"
+      },
+      {
+        "time": 4.4,
+        "position": [
+          58.421053,
+          171.578947
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 4.5,
+        "position": [
+          45.817123,
+          162.458404
+        ],
+        "measurement_method": "color_centroid_inferred"
+      },
+      {
+        "time": 4.6,
+        "position": [
+          41.954887,
+          155.238095
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 4.7,
+        "position": [
+          42.025698,
+          151.856052
+        ],
+        "measurement_method": "color_centroid_inferred"
+      },
+      {
+        "time": 4.8,
+        "position": [
+          45.789474,
+          140.526316
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 4.9,
+        "position": [
+          50.0,
+          136.315789
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 5,
+        "position": [
+          50.0,
+          136.315789
+        ],
+        "measurement_method": "hold_last_measured"
+      }
+    ]
+  }
+}

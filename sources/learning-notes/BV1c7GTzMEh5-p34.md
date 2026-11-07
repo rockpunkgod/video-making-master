@@ -14,4 +14,4 @@
 
 实现与测试以evaluations/course2-p34-delayed-wave-001/summary.json为准：固定与控件基线、三个自制不透明亮色PNG、负间距镜像变体及独立Skill复制的8秒19条负幅度变参。保留原生可编辑递归表达式，不以独立闭式验证公式替换工程。源随机鼠标拖动/预览重绘与连续原生视频未精确同步，原片选择框/鼠标/UI不复刻。
 
-知识融合：index和空间分布与第21/33节共享概念，cos与第22/23节共用表达式知识；本节输出是递归3D延迟链，独立为既有ae-advanced-expressions中的delayed_wave单元，未按视频新增独立Skill。整体candidate，人工课程一致性待答；全部18来源/166章目标未完成。
+知识融合：index和空间分布与第21/33节共享概念，cos与第22/23节共用表达式知识；本节输出是递归3D延迟链，独立为既有ae-advanced-expressions中的delayed_wave单元，未按视频新增独立Skill。整体Skill仍candidate；fixed004/controller003补景深基线整体获用户认可，仅绑定对应SHA，精确机位/相位/计数/颜色边界不变；全部18来源/166章目标未完成。

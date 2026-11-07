@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "checks": {
+    "full_movie": true,
+    "native_math": true,
+    "native_errors": true,
+    "native_checkpoints": true,
+    "actual_mapping_image_difference": true,
+    "actual_scale_boundaries": true,
+    "actual_blur_energy": true,
+    "reopen_edit": true,
+    "target_structure": true,
+    "native_fast_blur": true,
+    "media": true,
+    "geometry": true,
+    "controller_keys": true
+  },
+  "frames": 125,
+  "video_sha256": "56b62a4d9ae0b98560e836a5cc2d0e823c612ac6862457814db99029c4e7410e",
+  "checkpoints": [
+    {
+      "frame": 0,
+      "rgb_mae": 0.8401953125
+    },
+    {
+      "frame": 31,
+      "rgb_mae": 0.8689496527777778
+    },
+    {
+      "frame": 62,
+      "rgb_mae": 0.6458376736111111
+    },
+    {
+      "frame": 93,
+      "rgb_mae": 0.873459201388889
+    },
+    {
+      "frame": 124,
+      "rgb_mae": 0.6431987847222222
+    }
+  ],
+  "mapping_control_rgb_difference": 17.4441015625,
+  "scale_visible_boundary_probes": 15535,
+  "scale_found_boundary_probes": 15535,
+  "pixel_failures": [],
+  "native_formula_failures": [],
+  "blur_gradient_comparison": [],
+  "blur_gradient_samples": null,
+  "limits": [
+    "Inferred hand-drag replay and own artwork/matte/canvas/fps; not recovered source identity",
+    "5x5 boundary support may include overlapping art; controller region excluded",
+    "Blur gradient comparison measures actual smoothing with visible controller disk excluded; not exact sourceFastBlur kernel identity",
+    "Native technical pass does not confer human course-fidelity acceptance"
+  ]
+}

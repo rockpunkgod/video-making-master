@@ -1,5 +1,5 @@
 {
-  "status": "source_learning_in_progress_no_native_production",
+  "status": "superseded_source_study_snapshot",
   "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=35",
   "raw": "cache/watch/watch-07ie3rz3/download/run-uf8gbagd/video.mp4",
   "video_seconds": 1652.24,
@@ -108,5 +108,7 @@
   "native_cases": 0,
   "skill_registered": false,
   "whole_course_complete": false,
-  "video_only_tail": "Only sparse global views; no complete visual detailed coverage"
+  "video_only_tail": "Only sparse global views; no complete visual detailed coverage",
+  "superseded_by": "evaluations/course2-p35-distance-001/summary.json",
+  "scope": "Historical state before native work; zero native cases belongs this oldsnapshot only"
 }

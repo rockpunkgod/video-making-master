@@ -3,7 +3,9 @@ name: ae-advanced-expressions
 description: 使用AE表达式制作显隐、三维布局、数字、文字、弹簧、双翅和放大镜；纵横滑页与滑块三维旋转、圆周投影和自转、Write-on螺旋累积、Numbers进度联动和透明云层Alpha采样耀斑明确变体，以及单体/阵列自由指向、Write-on正弦波形叠加与包络、递归延迟三维波浪。各分支保留明确的候选验证边界。
 ---
 
-0.15.0为candidate。十五个单元有各自原生证据；第21节四滑杆实现与第33节共用阵列布局单元，保留原法差异，整体反馈待答。第32节原版OpticalFlares未制作，不能以变体代替原版验收。不能泛称已掌握全部高级表达式。第10节旧002–005失败保留；replay006收到“这次方向对，可以保留”，仅绑定006方向与节奏，不代表绝对种子、逐字数字或全部泛化通过。
+0.16.0为candidate。十六个单元有各自原生证据；第21节四滑杆实现与第33节共用阵列布局单元，保留原法差异，整体反馈待答。第32节原版OpticalFlares未制作，不能以变体代替原版验收。不能泛称已掌握全部高级表达式。第10节旧002–005失败保留；replay006收到“这次方向对，可以保留”，仅绑定006方向与节奏，不代表绝对种子、逐字数字或全部泛化通过。
+
+距离控制缩放/模糊先读references/distance-controller.md，以scripts/build_distance_controller.py --mode scale或blur生成新输入，再经run_ae.py/render_ae.py原生执行。保留课程length/linear与FastBlur维度差异；九例1200帧、三组44像素透明PNG的双分支及独立变参通过。第34节补景深两基线、第35节两基线整体已认可，仅绑定记录SHA；推定机位、原AI替代、画布/字体和手动重放边界仍保留，不升级整个Skill。详见tests/distance-controller-results.json。
 
 递归延迟三维波浪先读references/delayed-wave.md，用有NumPy/Pillow的既有Python调用scripts/build_delayed_wave.py，再经run_ae.py/render_ae.py实际制作。保持上一层valueAtTime(time-.2)、满画幅Solid的1/80缩放、index透明度与底部控制层；保留课程景深/光圈5mm和Focus随Zoom；PAL工程与电影SAR明确保留，摄影机推定与控制器计数边界见tests/delayed-wave-results.json。
 

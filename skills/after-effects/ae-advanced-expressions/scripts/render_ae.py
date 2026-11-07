@@ -10,6 +10,13 @@ from launch_adobe import child_environment
 
 def check_output(root,cfg):
     report=validate(root/'final.mp4',cfg)
+    if cfg.get('animation')=='distance-controller':
+        from validate_distance_controller import validate as distance_validate
+        audit=distance_validate(root)
+        report['distance_quality']='distance-quality.json'
+        report['course_fidelity']='original_length_linear_and_FastBlur_explicit_manual_replay_pending_review'
+        report['delivery_status']='candidate_unaccepted'
+        if audit['status']!='passed':report['status']='failed'
     if cfg.get('animation')=='delayed-wave':
         from validate_delayed_wave import validate as delayed_validate
         audit=delayed_validate(root)

@@ -337,9 +337,9 @@
     },
     {
       "name": "ae-advanced-expressions",
-      "version": "0.15.0",
+      "version": "0.16.0",
       "status": "candidate",
-      "execution_status": "fifteen_units_with_course34_recursive3D_delay7cases1700frames_observed_DOF_threePNG_and_isolated_call_passed_human_review_pending",
+      "execution_status": "sixteen_units_with_course35_distance9cases1200frames_threePNGgroups_bothmodes_and_isolated_call_passed_p34p35_overall_baselines_accepted",
       "path": "skills/after-effects/ae-advanced-expressions",
       "dependencies": [
         "After Effects AE26 Chinese Windows tested",
@@ -372,7 +372,8 @@
         "原法sub/atan2弧度转角度驱动单体与index阵列朝向目标；字母−90、线条0和明确PNG朝向适配",
         "同一阵列布局单元的四滑杆间距/初始值控制、保持裁切与和目标朝向组合",
         "Write-on正弦相加、相乘、出入点linear包络和显式推算Slider三键；同原生笔迹累积单元的课程实现",
-        "上一图层valueAtTime递归延迟的三维条形波浪、index透明度与三Slider联动，含PAL/原生景深与明确推定摄影机"
+        "上一图层valueAtTime递归延迟的三维条形波浪、index透明度与三Slider联动，含PAL/原生景深与明确推定摄影机",
+        "同二维空间length或sub/length距离控制linear向量缩放与原生FastBlur标量，明确手动演示测量重放"
       ],
       "sources": [
         {
@@ -400,7 +401,8 @@
             31,
             32,
             33,
-            34
+            34,
+            35
           ]
         }
       ],
@@ -422,7 +424,8 @@
         "第33节：7例1260帧、三新PNG与独立6×4变参通过；源手动拖动的测量重放、a.ai/字体缺失与画布/背景推定明确保留，两基线整体反馈待答",
         "第21节同原理合并到阵列/自由指向：8例1245帧/三素材/独立变参/组合通过；圆形尺寸与RGB推定，源手动控件重放由画面推算，三基线反馈待答",
         "第22节：9例2200帧/三新暗底PNG/独立复制变参通过；正方形像素推定、Slider键值重建及原片手动时序未同步；单点点密度身份未证实，四段整体反馈待答",
-        "第34节：7例1700帧/三亮色PNG/独立调用/原生景深通过；最终摄影机、RGB与控件总数推定，手动源时间轴未同步，整体人工反馈待答"
+        "第34节：7例1700帧/三亮色PNG/独立调用/原生景深通过；最终摄影机、RGB与控件总数推定，手动源时间轴未同步，两个补景深基线整体已认可；不代表精确参数身份",
+        "第35节：两基线整体已认可，9例1200帧/三新素材双模式/独立变参通过；原AI、尺寸/字体、画布/PAR/FPS/RGB与测量重放仍有适配边界，任意父级/3D/尺寸未验证"
       ],
       "evidence_by_unit": {
         "threshold": "evaluations/course-p08-suite-001/summary.json",
@@ -439,7 +442,8 @@
         "loading_progress": "evaluations/course2-p31-progress-001/summary.json",
         "cloud_occlusion_native_variant": "evaluations/course2-p32-cloud-001/summary.json",
         "free_pointing": "evaluations/course2-p21-array-001/merged-array-pointing.json",
-        "delayed_wave": "evaluations/course2-p34-delayed-wave-001/summary.json"
+        "delayed_wave": "evaluations/course2-p34-delayed-wave-001/summary.json",
+        "distance_controller": "evaluations/course2-p35-distance-001/summary.json"
       },
       "p09_latest_user_feedback": "挺好的; retain current version; prior needs-adjustment response preserved",
       "accepted_candidate_artifacts": [
@@ -456,6 +460,34 @@
           "sha256": "552cfc459177e3e48b3c74c0946d2a70fa386ccf3dededc07458736ef5c551ec",
           "feedback": "整体符合，可以保留",
           "scope": "Course14 baseline002 odd/even motion, random reveal and overall rhythm; no approval transfer to variants or exact source parameter claims"
+        },
+        {
+          "unit": "p34",
+          "artifact": "samples/course2-delayed-wave-001/fixed-004/final.mp4",
+          "sha256": "8b78048e47fb6564ffc74686789a8a02422f355e6caefebc1f82c0c5c1c0b173",
+          "feedback": "整体符合，可以保留",
+          "scope": "Overall course effect accepted for this exactbaseline; sourceidentity and variantapproval not inferred"
+        },
+        {
+          "unit": "p34",
+          "artifact": "samples/course2-delayed-wave-001/controller-003/final.mp4",
+          "sha256": "8738e5d5fbcb9ddea55fb08796900e334bf05ec262fcaa4411f38b2965362e09",
+          "feedback": "整体符合，可以保留",
+          "scope": "Overall course effect accepted for this exactbaseline; sourceidentity and variantapproval not inferred"
+        },
+        {
+          "unit": "p35",
+          "artifact": "samples/course2-distance-001/scale-003/final.mp4",
+          "sha256": "b9da1fd724961d86b7f6df6001f70120923282a988078a003b46922c0af73139",
+          "feedback": "整体符合，可以保留",
+          "scope": "Overall course effect accepted for this exactbaseline; sourceidentity and variantapproval not inferred"
+        },
+        {
+          "unit": "p35",
+          "artifact": "samples/course2-distance-001/blur-001/final.mp4",
+          "sha256": "1ecd343d0e9212cc5f515913e6bb1ad294bd4f1239a6288eca9ee66b8238c8cf",
+          "feedback": "整体符合，可以保留",
+          "scope": "Overall course effect accepted for this exactbaseline; sourceidentity and variantapproval not inferred"
         }
       ],
       "host_recovery": "evaluations/course2-p26-p27-scroll-001/host-environment-recovery.json"

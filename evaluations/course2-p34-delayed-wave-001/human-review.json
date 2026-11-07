@@ -1,5 +1,5 @@
 {
-  "status": "pending",
+  "status": "accepted_overall_corrected_baselines_only",
   "comparison": "cache/reviews/course2-p34-delayed-wave-002/comparison.mp4",
   "comparison_sha256": "24683821c14120d7ddc92601a5a2bfc2581aea5cbd6c5d1e1798d62f70f2444d",
   "artifacts": {
@@ -8,5 +8,24 @@
   },
   "question": "Overall course wave/delay/opacity after observed DOF correction",
   "previous_sharp_review": "superseded; no user reply transferred",
-  "scope": "User overall aesthetic judgment separate from technical metrics; no exact camera/phase/color identity acceptance inferred"
+  "scope": "Overall wave/delay/opacity accepted for exactfixed004/controller003 correctedDOF movies; not exactcamera/phase/count/color identity orvariant approval",
+  "feedback": "整体符合，可以保留",
+  "history": [
+    {
+      "question_cases": [
+        "fixed-003",
+        "controller-002"
+      ],
+      "feedback": "整体符合，可以保留",
+      "disposition": "Superseded omittedDOF versions excluded; no restoration ofoldbinaries"
+    },
+    {
+      "question_cases": [
+        "fixed-004",
+        "controller-003"
+      ],
+      "feedback": "整体符合，可以保留",
+      "disposition": "Current retained baselines accepted"
+    }
+  ]
 }

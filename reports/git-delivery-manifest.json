@@ -1,6 +1,15 @@
 {
   "scope": "Standalone video-skills-lab progress snapshot; overall curriculum incomplete",
   "cases": [
+    "samples/course2-distance-001/scale-003",
+    "samples/course2-distance-001/blur-001",
+    "samples/course2-distance-001/digits-scale-001",
+    "samples/course2-distance-001/digits-blur-001",
+    "samples/course2-distance-001/shapes-scale-001",
+    "samples/course2-distance-001/shapes-blur-001",
+    "samples/course2-distance-001/arrows-scale-001",
+    "samples/course2-distance-001/arrows-blur-001",
+    "samples/course2-distance-001/variation-isolated-002",
     "samples/course2-delayed-wave-001/fixed-004",
     "samples/course2-delayed-wave-001/controller-003",
     "samples/course2-delayed-wave-001/bands-002",
@@ -1480,8 +1489,8 @@
     },
     {
       "path": "evaluations/course2-p34-delayed-wave-001/human-review.json",
-      "bytes": 687,
-      "sha256": "bd4e5ed92af432b0726e31b8d5a2581ce21ec36c490b14f62d4d93e8a761c0b7"
+      "bytes": 1271,
+      "sha256": "4c62783a495d7bc9998f31adbbd2187d2b76d79c947a81969efa3f35d99e173f"
     },
     {
       "path": "evaluations/course2-p34-delayed-wave-001/isolated-copy.json",
@@ -1510,8 +1519,8 @@
     },
     {
       "path": "evaluations/course2-p34-delayed-wave-001/summary.json",
-      "bytes": 26268,
-      "sha256": "70689f244bb31dac3e6a800b15c9a996290e9c0fb2de15a41ad2a255887a4595"
+      "bytes": 26496,
+      "sha256": "23e7813c986add3e7f539cdd07563885ea633434987ed359b2c6cee7cb770542"
     },
     {
       "path": "evaluations/course2-p34-delayed-wave-001/visual-review.json",
@@ -1522,6 +1531,56 @@
       "path": "evaluations/course2-p34-delayed-wave-001/wrong-wave-negative.json",
       "bytes": 45394,
       "sha256": "9a49654c86f31404b43c03a303e561b0aaaa912442fb0ae6ef86dd04c0cb2370"
+    },
+    {
+      "path": "evaluations/course2-p35-distance-001/frozen-blur-negative.json",
+      "bytes": 54317,
+      "sha256": "067f44332879dd33abf729792e4f579d468268c8028e62eb1768150306c637c5"
+    },
+    {
+      "path": "evaluations/course2-p35-distance-001/frozen-negative.json",
+      "bytes": 8264,
+      "sha256": "2fbd574f57962243725add47004a8087ca79a2816922db79b9da40b42e4b8353"
+    },
+    {
+      "path": "evaluations/course2-p35-distance-001/human-review.json",
+      "bytes": 831,
+      "sha256": "4cf41655c8c75b71a3e6476be8c8b1f3cc3354ad222c3dc843fd969a83a67df7"
+    },
+    {
+      "path": "evaluations/course2-p35-distance-001/isolated-copy.json",
+      "bytes": 1423,
+      "sha256": "1e457db4dfac65ab83d3b27214f1ec5ce25c34acaa82be3d8053e110ec8f3b60"
+    },
+    {
+      "path": "evaluations/course2-p35-distance-001/rejected-history.json",
+      "bytes": 1615,
+      "sha256": "0aa049aa6995b80f6b18cd6131e4a020ba336f09081a4837e69a6e830d430cdd"
+    },
+    {
+      "path": "evaluations/course2-p35-distance-001/review-context.json",
+      "bytes": 1388,
+      "sha256": "c7dfb4b33becbf0d130ab004c43bd66342b02f3c349880ca715f6566952fa7cf"
+    },
+    {
+      "path": "evaluations/course2-p35-distance-001/source-provenance.json",
+      "bytes": 2471,
+      "sha256": "2fff1439fe03a58fd5f93c2865392db73f1b39baa849eb477b0e072c7c37fb34"
+    },
+    {
+      "path": "evaluations/course2-p35-distance-001/summary.json",
+      "bytes": 17745,
+      "sha256": "b605eaf4e2545fb96963076d04d444a549c1bc092bdb6ab103d2739bd52cf3cd"
+    },
+    {
+      "path": "evaluations/course2-p35-distance-001/visual-review.json",
+      "bytes": 798,
+      "sha256": "78a54f7f16b7b7660b5265b70f70110465f8d52cb6dfea2a4c68de05bf1db1c5"
+    },
+    {
+      "path": "evaluations/course2-p35-distance-001/wrong-mapping-negative.json",
+      "bytes": 7908,
+      "sha256": "dd4248f2cea33f63f7d6db60ba7283f9f448f29f8e43a4dd37a920b36ccdeccf"
     },
     {
       "path": "evaluations/course2-p35-distance-study-001/blur-final-measurements.json",
@@ -1535,8 +1594,8 @@
     },
     {
       "path": "evaluations/course2-p35-distance-study-001/summary.json",
-      "bytes": 4129,
-      "sha256": "e88587865959eb3436435ed269c5da1cf8b1a7ed6ae16f73bd214d0cf6d8a2d3"
+      "bytes": 4286,
+      "sha256": "e5d4be4059dd7b47ac203a60fff0ee7102c3fc3fa87f6260aedd76d415d6304c"
     },
     {
       "path": "evaluations/first-skill.json",
@@ -8561,6 +8620,776 @@
       "path": "samples/course2-delayed-wave-001/variation-isolated-004/request.json",
       "bytes": 6065,
       "sha256": "fe92b4b8f3ffaf29e94ca928acfe69e704b1ed6c434e9ec81cab1266063e9cb3"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-blur-001/assets/art-0.png",
+      "bytes": 301,
+      "sha256": "5c7f1166c7f29de0aab6597a5aa9f7e7e0594e7f6c3124900addd494ec2bb5c0"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-blur-001/assets/art-1.png",
+      "bytes": 276,
+      "sha256": "e01a4cdc95accf916b45b6284fb7fe310532ca45188657e433c0ca72acdac0e5"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-blur-001/assets/art-2.png",
+      "bytes": 291,
+      "sha256": "4e783f1a059a441b2890adfa1964a1b828eba848e9ffc3f1960910dad086e11c"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-blur-001/assets/art-3.png",
+      "bytes": 322,
+      "sha256": "b1e654b9e6e63b4cc792ac6de077758937632ffb912a12fa29feecaaa064e405"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-blur-001/distance-quality.json",
+      "bytes": 54086,
+      "sha256": "efec7d4f5a48172a8bc5cc20a4e579d6700aaae30a80262dc7743e27e3fe662f"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-blur-001/final.mp4",
+      "bytes": 29671,
+      "sha256": "d56802f5d37234646d875453bd8b517261034b389e7c3199930ce2af09390e43"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-blur-001/native-control-mapping-off.png",
+      "bytes": 2489,
+      "sha256": "8713f56f818c77200f995fbe7b76d42986b06c48f0c6c5efd0bf29f571f4445d"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-blur-001/native-control-mapping-on.png",
+      "bytes": 6439,
+      "sha256": "41f55f286a1ac0776274ae03e21fdbadff8120c4d3e9cefa919d6db8cbc69502"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-blur-001/native-still-0.png",
+      "bytes": 2504,
+      "sha256": "31b6fc521aa42b52623461efbe21c12a4b7a2e6b223d63bbec99dcb0af970815"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-blur-001/native-still-124.png",
+      "bytes": 7173,
+      "sha256": "6a67c792c16f06100ef23e317ab25715f9cb5b6772d4e2d25421f3abf1fbba83"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-blur-001/native-still-31.png",
+      "bytes": 7928,
+      "sha256": "d699f78bc82c72565812ddd76ce77ac3fd392ae0d0c3eb7f414a9c43b4092714"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-blur-001/native-still-62.png",
+      "bytes": 2297,
+      "sha256": "b5c0f9e7c4b6144407eeb51a75eea539a8135b627cd38a22d2b7e26e10f6dd55"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-blur-001/native-still-93.png",
+      "bytes": 2525,
+      "sha256": "37b7423163107ff1bc988e61a81f4fb7cfa47bcaa1f99be3c935924eda07da2e"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-blur-001/plan.json",
+      "bytes": 505,
+      "sha256": "f68c3cfedc00bde8a72b6fc42a22bbd0b5a0e34da5453f4116b52d50efb68bc1"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-blur-001/project.aep",
+      "bytes": 168645,
+      "sha256": "a2095c1c172c0927b1eb5576eebc345bf469a39ea86bd7f174f6033c964e849e"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-blur-001/quality.json",
+      "bytes": 1024,
+      "sha256": "d3d26f03ea80835c5ce8a14bef36f4fe92d71e1ef7deb4f860fb0dcf3dd63a98"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-blur-001/receipt.json",
+      "bytes": 31395,
+      "sha256": "d3a9b27ad6316532b0d3df9a35ed0fbadfeddd652cfa4405e8c9af58d24c25dc"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-blur-001/request.json",
+      "bytes": 28674,
+      "sha256": "52f09c79f34653f65bfbab404575a8199af92aa519f5ce773520d18cada2d206"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-scale-001/assets/art-0.png",
+      "bytes": 301,
+      "sha256": "5c7f1166c7f29de0aab6597a5aa9f7e7e0594e7f6c3124900addd494ec2bb5c0"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-scale-001/assets/art-1.png",
+      "bytes": 276,
+      "sha256": "e01a4cdc95accf916b45b6284fb7fe310532ca45188657e433c0ca72acdac0e5"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-scale-001/assets/art-2.png",
+      "bytes": 291,
+      "sha256": "4e783f1a059a441b2890adfa1964a1b828eba848e9ffc3f1960910dad086e11c"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-scale-001/assets/art-3.png",
+      "bytes": 322,
+      "sha256": "b1e654b9e6e63b4cc792ac6de077758937632ffb912a12fa29feecaaa064e405"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-scale-001/distance-quality.json",
+      "bytes": 1617,
+      "sha256": "22d84ca62b750f35235d03e48a9bd5a6082e59585477425393165b5dcaa96b83"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-scale-001/final.mp4",
+      "bytes": 46701,
+      "sha256": "541684f77b6f46bc89718e09be6083ed602f75c14bc35b58f63d7049584e8fe3"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-scale-001/native-control-mapping-off.png",
+      "bytes": 2624,
+      "sha256": "530d884ef1e61d0a26bdbc56b7878c107e03ee8509920a8aac91408ce802d83b"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-scale-001/native-control-mapping-on.png",
+      "bytes": 5987,
+      "sha256": "a934e534c70891b3a5a3bb1ee6b005d11a136c0392bad8c7141a022c7ded131a"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-scale-001/native-still-0.png",
+      "bytes": 5772,
+      "sha256": "6fd76ffb49bd4a4da95a50ab0bbbc7cc9ebf1135b4612946a941d8453b68d57a"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-scale-001/native-still-124.png",
+      "bytes": 3878,
+      "sha256": "b0df0f406e6cffdf39ce527f894510bac13146b40cedb0ccd0dd3d3711ba384d"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-scale-001/native-still-31.png",
+      "bytes": 5809,
+      "sha256": "d81acb50a2276d1ef679f1a175965cc47836e6589c931d542d60411281ef5f95"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-scale-001/native-still-62.png",
+      "bytes": 3879,
+      "sha256": "742e0c3f49438328b8f3516dea8bdf7374272309b086ec31a76f7a4ce5627443"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-scale-001/native-still-93.png",
+      "bytes": 5681,
+      "sha256": "0573edc0e33f39778c2b04aeaca97a2e70932ae179ac37f85cdd4f8ba34d1a00"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-scale-001/plan.json",
+      "bytes": 505,
+      "sha256": "f68c3cfedc00bde8a72b6fc42a22bbd0b5a0e34da5453f4116b52d50efb68bc1"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-scale-001/project.aep",
+      "bytes": 160921,
+      "sha256": "616509e72acd224b2622a03a4e4a2c3902d5786d9af8d1553c42e0b2c8299cdb"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-scale-001/quality.json",
+      "bytes": 1025,
+      "sha256": "685ad74128cd67967e5d3afb43663ba16305b06869132c25feb7faa5acad84d9"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-scale-001/receipt.json",
+      "bytes": 38609,
+      "sha256": "96a3716d266e1470154f377be85a22ce1cff6787f36859b27ff14a7fc1c38e93"
+    },
+    {
+      "path": "samples/course2-distance-001/arrows-scale-001/request.json",
+      "bytes": 28566,
+      "sha256": "5a1aa0b75c8f8dff032cb65e2b3caf2d9345643011d881f167f9ea2a111166a1"
+    },
+    {
+      "path": "samples/course2-distance-001/blur-001/distance-quality.json",
+      "bytes": 54363,
+      "sha256": "26545a205d36c811f6bb3540b81582f457302e418f8f47bf62514e58c06e25f5"
+    },
+    {
+      "path": "samples/course2-distance-001/blur-001/final.mp4",
+      "bytes": 27398,
+      "sha256": "1ecd343d0e9212cc5f515913e6bb1ad294bd4f1239a6288eca9ee66b8238c8cf"
+    },
+    {
+      "path": "samples/course2-distance-001/blur-001/native-control-mapping-off.png",
+      "bytes": 6218,
+      "sha256": "2d46bb552a35100ec85c3c9df0ec68cb640fb87c83f3d16e53b8e8d647cb0344"
+    },
+    {
+      "path": "samples/course2-distance-001/blur-001/native-control-mapping-on.png",
+      "bytes": 8723,
+      "sha256": "d632a3d54d7d8aa20b543d2fc0e9a0b1f5e150e543266c745cc08f7ca4af1adb"
+    },
+    {
+      "path": "samples/course2-distance-001/blur-001/native-still-0.png",
+      "bytes": 6152,
+      "sha256": "9c7753d017fd3e0a0679165cd02f1b12832460b938ebd12ed58ef6dad924440f"
+    },
+    {
+      "path": "samples/course2-distance-001/blur-001/native-still-124.png",
+      "bytes": 8506,
+      "sha256": "5fbf8fe3affafe3ff8845df2b0da3db44d6663cdcf5511fd009ac3cebd40060b"
+    },
+    {
+      "path": "samples/course2-distance-001/blur-001/native-still-31.png",
+      "bytes": 8546,
+      "sha256": "e3205a9ec0bf618dfe66d6f0a8db89981c77e3a521db28d9302638ff8faa1359"
+    },
+    {
+      "path": "samples/course2-distance-001/blur-001/native-still-62.png",
+      "bytes": 7400,
+      "sha256": "a03efd37f8590fa4a0dbb9857a6815e395ad18afb063403fdc9de21bad1a9d67"
+    },
+    {
+      "path": "samples/course2-distance-001/blur-001/native-still-93.png",
+      "bytes": 6174,
+      "sha256": "504f4ebff3e6b0fcc6a06d49adf05679bfacfe32d3077caca963b89008b19fa9"
+    },
+    {
+      "path": "samples/course2-distance-001/blur-001/plan.json",
+      "bytes": 505,
+      "sha256": "f68c3cfedc00bde8a72b6fc42a22bbd0b5a0e34da5453f4116b52d50efb68bc1"
+    },
+    {
+      "path": "samples/course2-distance-001/blur-001/project.aep",
+      "bytes": 495407,
+      "sha256": "624f99ffd9066a9fda9d4c5a622d8d6f6d73e28ef201bc667451b6b0bfcc567f"
+    },
+    {
+      "path": "samples/course2-distance-001/blur-001/quality.json",
+      "bytes": 1017,
+      "sha256": "e7e95bf34fe981306ce03da555d9e8dcee438c9a8c2a3425f461b0630494036e"
+    },
+    {
+      "path": "samples/course2-distance-001/blur-001/receipt.json",
+      "bytes": 30859,
+      "sha256": "3bfb5da4c0bf486f884d19929cffb2ad9d2adaa3035e037141ebe4703a7cdcb0"
+    },
+    {
+      "path": "samples/course2-distance-001/blur-001/request.json",
+      "bytes": 28271,
+      "sha256": "a473721eb90bc6b72d08fbc423ad3107936fbd0930dd2642534e8cdd1d2528f2"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-blur-001/assets/art-0.png",
+      "bytes": 480,
+      "sha256": "1e29fed681490b85e95d7d33677bf31661443ce22684f33505cfcfd167da7591"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-blur-001/assets/art-1.png",
+      "bytes": 867,
+      "sha256": "dbc224ed6b6613e6c60a225bd2960482d38a593c0beb9eb760db38dd487e369f"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-blur-001/assets/art-2.png",
+      "bytes": 946,
+      "sha256": "a9e3f6be3c1c55aafc14ca8c37eecb011f43a58d125b75d8e0e1544f19b49c47"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-blur-001/assets/art-3.png",
+      "bytes": 666,
+      "sha256": "75461dd160c562e9db0001112fd1475ca995ab34aa7ac3b9ca14ea37ad205800"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-blur-001/distance-quality.json",
+      "bytes": 54245,
+      "sha256": "b65eb267c9452dc1dde9476d999ad6b521dcdf4b97f0a739644c391d2fd8c215"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-blur-001/final.mp4",
+      "bytes": 38141,
+      "sha256": "6ce8ab094dca74262384f168c4535331a9755f2389e3582a2c2d8d35b050f122"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-blur-001/native-control-mapping-off.png",
+      "bytes": 4498,
+      "sha256": "e8239a0fd81eb2fe86065225be188c14fd13edaeec4b1fe4d043e3cb32fc7b26"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-blur-001/native-control-mapping-on.png",
+      "bytes": 9653,
+      "sha256": "256b0b9283e253567ff3346bb47cf467cb913328ae27fc7db185f7d1cb26a20e"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-blur-001/native-still-0.png",
+      "bytes": 4505,
+      "sha256": "41aba8b18096269d7a24744825cf6f89d2af1aa0ef6eb97817ffd8d0eb49c73c"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-blur-001/native-still-124.png",
+      "bytes": 10314,
+      "sha256": "56dd9dbadceabf19c4bd6bf651198b0bdc1bb921dfe9ef78b29b89dfad0defcc"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-blur-001/native-still-31.png",
+      "bytes": 11245,
+      "sha256": "f82971dc318f0c218898f16483733e2c1ab6f6b58c36bc7f2d4bbe2c8b2f0712"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-blur-001/native-still-62.png",
+      "bytes": 4783,
+      "sha256": "e6579ba47147334b31ff002f021f804e805a1e2d1dd2c8380177bc88aef60e18"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-blur-001/native-still-93.png",
+      "bytes": 4535,
+      "sha256": "fd29fb3c5df1db87e3fa33edf3527a7b2e10e8417e50921d8a5c76fd5b482f4d"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-blur-001/plan.json",
+      "bytes": 505,
+      "sha256": "f68c3cfedc00bde8a72b6fc42a22bbd0b5a0e34da5453f4116b52d50efb68bc1"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-blur-001/project.aep",
+      "bytes": 168645,
+      "sha256": "7b0102b289cc93eda2a5a0c66593352aa541a6b0d438248c89ec7b67efe58750"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-blur-001/quality.json",
+      "bytes": 1024,
+      "sha256": "98500d8388845f0c7e1a392dbb5eef519c67826954476146972a5feff5154f2b"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-blur-001/receipt.json",
+      "bytes": 31395,
+      "sha256": "155ce52d9d133f53a42d7c60d3fc5866c0b241c7bda6e09e4169277e2f261a24"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-blur-001/request.json",
+      "bytes": 28674,
+      "sha256": "6cbc50868690a10aa3b735e5876bfb517888c9a6eeee93c96a0b1747609bd93a"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-scale-001/assets/art-0.png",
+      "bytes": 480,
+      "sha256": "1e29fed681490b85e95d7d33677bf31661443ce22684f33505cfcfd167da7591"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-scale-001/assets/art-1.png",
+      "bytes": 867,
+      "sha256": "dbc224ed6b6613e6c60a225bd2960482d38a593c0beb9eb760db38dd487e369f"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-scale-001/assets/art-2.png",
+      "bytes": 946,
+      "sha256": "a9e3f6be3c1c55aafc14ca8c37eecb011f43a58d125b75d8e0e1544f19b49c47"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-scale-001/assets/art-3.png",
+      "bytes": 666,
+      "sha256": "75461dd160c562e9db0001112fd1475ca995ab34aa7ac3b9ca14ea37ad205800"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-scale-001/distance-quality.json",
+      "bytes": 1606,
+      "sha256": "088d4009fbaa3363716eb7191e8bbdf0a5d17f24aed5bc1cdfb4684dfeb73d39"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-scale-001/final.mp4",
+      "bytes": 67283,
+      "sha256": "56b62a4d9ae0b98560e836a5cc2d0e823c612ac6862457814db99029c4e7410e"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-scale-001/native-control-mapping-off.png",
+      "bytes": 4488,
+      "sha256": "32e942f73ac101dbfd2bb751952a4de9a33b4154dd171856cd71a2423e322e58"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-scale-001/native-control-mapping-on.png",
+      "bytes": 11412,
+      "sha256": "02df225f4cd11e9996cd02a5348c2578911122e47952fbf9f674d084e77f5ea1"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-scale-001/native-still-0.png",
+      "bytes": 10598,
+      "sha256": "3bb566139f58159db67354f23a2a89d0a64d8d831e19907d68f88173a83aee97"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-scale-001/native-still-124.png",
+      "bytes": 5941,
+      "sha256": "1adf8b2c711404606266601c62456bbaa58ce3e38cc4b1c2184fa0bf974665f2"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-scale-001/native-still-31.png",
+      "bytes": 9852,
+      "sha256": "927456963d7689242c20d20a2384d5d27bb5b201aadad1ca030cd560ec0617be"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-scale-001/native-still-62.png",
+      "bytes": 5944,
+      "sha256": "1a6508e35ac04b45d1dbda81b07e60938606e0f8c945245225fc4e4b9d55dcbd"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-scale-001/native-still-93.png",
+      "bytes": 9607,
+      "sha256": "98ce05165fcdb05035a860321391195b6af7d74b27c9267850b4daa7a210b7f4"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-scale-001/plan.json",
+      "bytes": 505,
+      "sha256": "f68c3cfedc00bde8a72b6fc42a22bbd0b5a0e34da5453f4116b52d50efb68bc1"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-scale-001/project.aep",
+      "bytes": 160921,
+      "sha256": "797a079abcb497778b828fdfe56a2cb15603bfac10d2842785cd447608c3a658"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-scale-001/quality.json",
+      "bytes": 1025,
+      "sha256": "86898948b4fe6e4aa906723dc414dd31af533c4802ce5f3c71596dd7e159f8eb"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-scale-001/receipt.json",
+      "bytes": 38609,
+      "sha256": "eccf0d2de50d325fcf500a3cc45fe3ea728b10c6d6037967f2f02f92b28ad132"
+    },
+    {
+      "path": "samples/course2-distance-001/digits-scale-001/request.json",
+      "bytes": 28566,
+      "sha256": "4401548fb376ad57732ca650174ee46f24b963a1bc4cf631d3933d3305315d90"
+    },
+    {
+      "path": "samples/course2-distance-001/scale-003/distance-quality.json",
+      "bytes": 1610,
+      "sha256": "f256933b08dfc5448afa1d60118bfc7e88faa0db4b170a7b3320ea2b1a903df3"
+    },
+    {
+      "path": "samples/course2-distance-001/scale-003/final.mp4",
+      "bytes": 62236,
+      "sha256": "b9da1fd724961d86b7f6df6001f70120923282a988078a003b46922c0af73139"
+    },
+    {
+      "path": "samples/course2-distance-001/scale-003/native-control-mapping-off.png",
+      "bytes": 6664,
+      "sha256": "02c9702b46418a9bb2e8ef555ce35ceb2a35ad55cbac8e1707919eade8926bc6"
+    },
+    {
+      "path": "samples/course2-distance-001/scale-003/native-control-mapping-on.png",
+      "bytes": 9050,
+      "sha256": "d3e206f8ec798850646ee760d2541cdd79b094970e39c6526b7f0bd423841e1a"
+    },
+    {
+      "path": "samples/course2-distance-001/scale-003/native-still-0.png",
+      "bytes": 8703,
+      "sha256": "3748ec8a11ff3c105ee011615ae326a03db1c16c124c627b9466d5f1b8c8a68e"
+    },
+    {
+      "path": "samples/course2-distance-001/scale-003/native-still-124.png",
+      "bytes": 4763,
+      "sha256": "166fb37d6502419752f48326f8e11b0db437d8781d0aed9a7398d8fae2e962ca"
+    },
+    {
+      "path": "samples/course2-distance-001/scale-003/native-still-31.png",
+      "bytes": 9177,
+      "sha256": "f0b23f339038f2f03299d0e76ae7f0af2d9297f03e01e104c6188ba835f6806b"
+    },
+    {
+      "path": "samples/course2-distance-001/scale-003/native-still-62.png",
+      "bytes": 4764,
+      "sha256": "4c4ef3df2f579b8250bc2b6aff783504c983912e021b21ea99f76c858523ecd2"
+    },
+    {
+      "path": "samples/course2-distance-001/scale-003/native-still-93.png",
+      "bytes": 8975,
+      "sha256": "f85465191e143cf0e01e9e683045e8167f7aeb533f2cd8df043dab85f6c81187"
+    },
+    {
+      "path": "samples/course2-distance-001/scale-003/plan.json",
+      "bytes": 505,
+      "sha256": "f68c3cfedc00bde8a72b6fc42a22bbd0b5a0e34da5453f4116b52d50efb68bc1"
+    },
+    {
+      "path": "samples/course2-distance-001/scale-003/project.aep",
+      "bytes": 487673,
+      "sha256": "8fabeaaa17227e93400f7275ba211c8cf0a8de5f54357828d6ed32a15182c974"
+    },
+    {
+      "path": "samples/course2-distance-001/scale-003/quality.json",
+      "bytes": 1018,
+      "sha256": "80783e0cca397221c42559b7df2945320accc59a0827c61efa37102f1f1c9bb6"
+    },
+    {
+      "path": "samples/course2-distance-001/scale-003/receipt.json",
+      "bytes": 38069,
+      "sha256": "5e854f80a431574db2d43038d65b0619751af63c02a45dab3ff1e761b6d622b6"
+    },
+    {
+      "path": "samples/course2-distance-001/scale-003/request.json",
+      "bytes": 28159,
+      "sha256": "ebf3fb8f585a100d7389081e25df9a7674909f14221d6d5814fcae207ecc783a"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-blur-001/assets/art-0.png",
+      "bytes": 350,
+      "sha256": "2e98bb9640f4eb4e88f6b28e140704e95d4124e7fc350a7d8347188f7a25b7d3"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-blur-001/assets/art-1.png",
+      "bytes": 243,
+      "sha256": "69c858e747d84964be74d07313af20d35a4bed6b2acecac6fad7e96ba02c3dcc"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-blur-001/assets/art-2.png",
+      "bytes": 179,
+      "sha256": "9d0f396d53abbf5acf29668f3abd059a239548e849595437214d160e49423746"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-blur-001/assets/art-3.png",
+      "bytes": 302,
+      "sha256": "f25590feed60f3a277c652f199f9bdec341ab9e336698023ed7a946a9121c0e4"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-blur-001/distance-quality.json",
+      "bytes": 54257,
+      "sha256": "a3c2c90fc892178e86b54e781bb269e197178de631d8b56dd59983bd318b5181"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-blur-001/final.mp4",
+      "bytes": 31300,
+      "sha256": "43c7fcd6c67b3dc22868e9eba3f3b0d12364f42fef0553fae34aa273292942a7"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-blur-001/native-control-mapping-off.png",
+      "bytes": 2542,
+      "sha256": "fd83871d791a65f1e4989cb45571626cb881a8383e340824fbfae147b5e15df4"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-blur-001/native-control-mapping-on.png",
+      "bytes": 6586,
+      "sha256": "34fd1247d15b3cac79027a2d44be3fea88c35a7ec18191b3e1e36ff9b45a562e"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-blur-001/native-still-0.png",
+      "bytes": 2552,
+      "sha256": "75e8c5f3ab2224f7b4d73c4cbdf133ca85c1f6595c4fa5bb8c154f85a4d09ca4"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-blur-001/native-still-124.png",
+      "bytes": 7019,
+      "sha256": "b00bf67cd67e3dbd5c1dd909f7c827dbfd31fc1e4b33ad606b93038b8df375ed"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-blur-001/native-still-31.png",
+      "bytes": 8165,
+      "sha256": "d9122433b682625179cf3aadb939ad35c5285cf464bf7ea93b38554c04d67a20"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-blur-001/native-still-62.png",
+      "bytes": 2315,
+      "sha256": "8270735c4ba5a20dc0ed9cab4802ecbbad954fa8131518049cc8f169fb19faf8"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-blur-001/native-still-93.png",
+      "bytes": 2571,
+      "sha256": "e1817a271fa526f6acf0d97c1c1445add8ce57d50815b59270e9e9922a31e9ec"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-blur-001/plan.json",
+      "bytes": 505,
+      "sha256": "f68c3cfedc00bde8a72b6fc42a22bbd0b5a0e34da5453f4116b52d50efb68bc1"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-blur-001/project.aep",
+      "bytes": 168645,
+      "sha256": "e22a2f35a500f2a734550234622486a619e958cc77588f6c41b1da092f057557"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-blur-001/quality.json",
+      "bytes": 1024,
+      "sha256": "31a6b1068eb032a70f670a258ff3e4285f9285afbde5162ae049bcdbf2e0fb25"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-blur-001/receipt.json",
+      "bytes": 31395,
+      "sha256": "3b97f1e949d9d2b0facb7531981edac2330dd4a1e38d1dc14093b5fd674518b4"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-blur-001/request.json",
+      "bytes": 28674,
+      "sha256": "18444352f4e8978e7de6e6fb4450c66529ad4c0fbb1df45cad92d0613600a6f3"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-scale-001/assets/art-0.png",
+      "bytes": 350,
+      "sha256": "2e98bb9640f4eb4e88f6b28e140704e95d4124e7fc350a7d8347188f7a25b7d3"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-scale-001/assets/art-1.png",
+      "bytes": 243,
+      "sha256": "69c858e747d84964be74d07313af20d35a4bed6b2acecac6fad7e96ba02c3dcc"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-scale-001/assets/art-2.png",
+      "bytes": 179,
+      "sha256": "9d0f396d53abbf5acf29668f3abd059a239548e849595437214d160e49423746"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-scale-001/assets/art-3.png",
+      "bytes": 302,
+      "sha256": "f25590feed60f3a277c652f199f9bdec341ab9e336698023ed7a946a9121c0e4"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-scale-001/distance-quality.json",
+      "bytes": 1617,
+      "sha256": "f90fc0895ed56abff95545727b622098ab48af99a9a168c953f241e0d0a82b60"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-scale-001/final.mp4",
+      "bytes": 44808,
+      "sha256": "d7ab786f0f1aa3c7f749caeab077f664d37143c5ffcd272be8e5652c4a354050"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-scale-001/native-control-mapping-off.png",
+      "bytes": 2586,
+      "sha256": "8742a94fcf37a6c343538868225f74cc0e71ae70d32a44af973bfd4241aeb089"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-scale-001/native-control-mapping-on.png",
+      "bytes": 4135,
+      "sha256": "5d7fdaf4f1e6d9864e0f1c93e206a23d1623c1c6ed31cfbbb56cf96c76959c91"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-scale-001/native-still-0.png",
+      "bytes": 6336,
+      "sha256": "f8e1f247751c365df1c5a2e4d5aa3be9fa2bf46cfc425583b1945cb4a3306149"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-scale-001/native-still-124.png",
+      "bytes": 3990,
+      "sha256": "b440a082f19deacba857cb801cbd943a53d659c8f4f406cbd146328ae591f298"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-scale-001/native-still-31.png",
+      "bytes": 5960,
+      "sha256": "bd0d786e585a9f6f39a6696624a1ff1bb73a6c2f7c40371d48f9b38aa81de146"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-scale-001/native-still-62.png",
+      "bytes": 3986,
+      "sha256": "a6f080ae8ab3d2d5a42e001f7e7e93c696ca9d83312d098a1daaa276635cedb6"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-scale-001/native-still-93.png",
+      "bytes": 6101,
+      "sha256": "14f244deeff8eff7c61c2d3a3ba309fe02ae2a9bcb92634815221a33985ac09c"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-scale-001/plan.json",
+      "bytes": 505,
+      "sha256": "f68c3cfedc00bde8a72b6fc42a22bbd0b5a0e34da5453f4116b52d50efb68bc1"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-scale-001/project.aep",
+      "bytes": 160921,
+      "sha256": "5773c6470bbddea9b1f5be24ff122ea2830e1b5c804fd206fb2890ef77df5ca8"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-scale-001/quality.json",
+      "bytes": 1025,
+      "sha256": "4972367f1e49771765318adb02c73e3fdfcbfff5e95215a0569ca0a5b26591fd"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-scale-001/receipt.json",
+      "bytes": 38609,
+      "sha256": "fb1c4f3c248f547d4a7c88c7a57903e8f6f3c3072f73b638d3376390c174f9cf"
+    },
+    {
+      "path": "samples/course2-distance-001/shapes-scale-001/request.json",
+      "bytes": 28566,
+      "sha256": "ce00e69feb6015f4452aec9367197c940e9493495027644bef350e86088d1e39"
+    },
+    {
+      "path": "samples/course2-distance-001/variation-isolated-002/assets/art-0.png",
+      "bytes": 301,
+      "sha256": "5c7f1166c7f29de0aab6597a5aa9f7e7e0594e7f6c3124900addd494ec2bb5c0"
+    },
+    {
+      "path": "samples/course2-distance-001/variation-isolated-002/assets/art-1.png",
+      "bytes": 276,
+      "sha256": "e01a4cdc95accf916b45b6284fb7fe310532ca45188657e433c0ca72acdac0e5"
+    },
+    {
+      "path": "samples/course2-distance-001/variation-isolated-002/assets/art-2.png",
+      "bytes": 291,
+      "sha256": "4e783f1a059a441b2890adfa1964a1b828eba848e9ffc3f1960910dad086e11c"
+    },
+    {
+      "path": "samples/course2-distance-001/variation-isolated-002/assets/art-3.png",
+      "bytes": 322,
+      "sha256": "b1e654b9e6e63b4cc792ac6de077758937632ffb912a12fa29feecaaa064e405"
+    },
+    {
+      "path": "samples/course2-distance-001/variation-isolated-002/distance-quality.json",
+      "bytes": 86458,
+      "sha256": "d6f57817f64f41d05e7c9c873c281299c15a2be5989c30e94f9476e49eea6ccd"
+    },
+    {
+      "path": "samples/course2-distance-001/variation-isolated-002/final.mp4",
+      "bytes": 34791,
+      "sha256": "e5b9dcdfa3abc6954de672ff5f4a5e6075dcb881888e37d7cc58f750ed73831d"
+    },
+    {
+      "path": "samples/course2-distance-001/variation-isolated-002/native-control-mapping-off.png",
+      "bytes": 2584,
+      "sha256": "30a993a4a7515fb29a02c2a0c9b248645c13cf43c49310c428f013e2a30d3105"
+    },
+    {
+      "path": "samples/course2-distance-001/variation-isolated-002/native-control-mapping-on.png",
+      "bytes": 6687,
+      "sha256": "34aee2dd40f8b9bbd5877f60f35340ea32b0793d8bbf7d96a7e34400e52c5807"
+    },
+    {
+      "path": "samples/course2-distance-001/variation-isolated-002/native-still-0.png",
+      "bytes": 2536,
+      "sha256": "3efbcd4dbfab95c2a79a652d0807b735718c3be4836aca9aad3214297d9424b5"
+    },
+    {
+      "path": "samples/course2-distance-001/variation-isolated-002/native-still-100.png",
+      "bytes": 1814,
+      "sha256": "e6b0277dc49f40a8486a76c3cd037724695fb2d8c55797516a673665df3a720f"
+    },
+    {
+      "path": "samples/course2-distance-001/variation-isolated-002/native-still-150.png",
+      "bytes": 2515,
+      "sha256": "114623fb1bdf54b49a4aea18189c8b75a2a221c8553e37f017966ca4a95922af"
+    },
+    {
+      "path": "samples/course2-distance-001/variation-isolated-002/native-still-199.png",
+      "bytes": 6570,
+      "sha256": "9caf72fecfe4d0089755faed86f51d5eed617101e3619a4368b61d1f7da99001"
+    },
+    {
+      "path": "samples/course2-distance-001/variation-isolated-002/native-still-50.png",
+      "bytes": 7547,
+      "sha256": "49ee22d39b9fa95a4bdfbc5d766f956fe5d935f8169eb5a3b138becc28cd5c0b"
+    },
+    {
+      "path": "samples/course2-distance-001/variation-isolated-002/plan.json",
+      "bytes": 505,
+      "sha256": "f68c3cfedc00bde8a72b6fc42a22bbd0b5a0e34da5453f4116b52d50efb68bc1"
+    },
+    {
+      "path": "samples/course2-distance-001/variation-isolated-002/project.aep",
+      "bytes": 168785,
+      "sha256": "0a1fc25e48f45e4c6649cc2fd20800acd126efe6fba0726d1b5409b6ecb1f4f4"
+    },
+    {
+      "path": "samples/course2-distance-001/variation-isolated-002/quality.json",
+      "bytes": 1031,
+      "sha256": "d27865af9a42e060ef6c8e3ac3a13a0ab16b8f2cdb4480ab741f4b5230d0ee7c"
+    },
+    {
+      "path": "samples/course2-distance-001/variation-isolated-002/receipt.json",
+      "bytes": 48055,
+      "sha256": "de44ac3af905c536723dc27c4d5718cd6a6d3ff23e1a87e91a48aff8f0af1e2d"
+    },
+    {
+      "path": "samples/course2-distance-001/variation-isolated-002/request.json",
+      "bytes": 26573,
+      "sha256": "4e72947147aec3c7f7186b31bed4ade53a9f30158a5ee8f791bd7bbb1335dd93"
     },
     {
       "path": "samples/course2-index-array-001/controller-final-001/array-quality.json",
@@ -15902,6 +16731,34 @@
     "samples/course2-delayed-wave-001/cyan-002/assets/bar.png",
     "samples/course2-delayed-wave-001/gradient-002/assets/bar.png",
     "samples/course2-delayed-wave-001/variation-isolated-004/assets/bar.png",
+    "samples/course2-distance-001/arrows-blur-001/assets/art-0.png",
+    "samples/course2-distance-001/arrows-blur-001/assets/art-1.png",
+    "samples/course2-distance-001/arrows-blur-001/assets/art-2.png",
+    "samples/course2-distance-001/arrows-blur-001/assets/art-3.png",
+    "samples/course2-distance-001/arrows-scale-001/assets/art-0.png",
+    "samples/course2-distance-001/arrows-scale-001/assets/art-1.png",
+    "samples/course2-distance-001/arrows-scale-001/assets/art-2.png",
+    "samples/course2-distance-001/arrows-scale-001/assets/art-3.png",
+    "samples/course2-distance-001/digits-blur-001/assets/art-0.png",
+    "samples/course2-distance-001/digits-blur-001/assets/art-1.png",
+    "samples/course2-distance-001/digits-blur-001/assets/art-2.png",
+    "samples/course2-distance-001/digits-blur-001/assets/art-3.png",
+    "samples/course2-distance-001/digits-scale-001/assets/art-0.png",
+    "samples/course2-distance-001/digits-scale-001/assets/art-1.png",
+    "samples/course2-distance-001/digits-scale-001/assets/art-2.png",
+    "samples/course2-distance-001/digits-scale-001/assets/art-3.png",
+    "samples/course2-distance-001/shapes-blur-001/assets/art-0.png",
+    "samples/course2-distance-001/shapes-blur-001/assets/art-1.png",
+    "samples/course2-distance-001/shapes-blur-001/assets/art-2.png",
+    "samples/course2-distance-001/shapes-blur-001/assets/art-3.png",
+    "samples/course2-distance-001/shapes-scale-001/assets/art-0.png",
+    "samples/course2-distance-001/shapes-scale-001/assets/art-1.png",
+    "samples/course2-distance-001/shapes-scale-001/assets/art-2.png",
+    "samples/course2-distance-001/shapes-scale-001/assets/art-3.png",
+    "samples/course2-distance-001/variation-isolated-002/assets/art-0.png",
+    "samples/course2-distance-001/variation-isolated-002/assets/art-1.png",
+    "samples/course2-distance-001/variation-isolated-002/assets/art-2.png",
+    "samples/course2-distance-001/variation-isolated-002/assets/art-3.png",
     "samples/course2-index-array-001/dart-001/assets/input.png",
     "samples/course2-index-array-001/pointer-001/assets/input.png",
     "samples/course2-index-array-001/pointing-composed-001/assets/input.png",
@@ -16011,5 +16868,5 @@
     "repeated native audio/video exports"
   ],
   "portability": "Native projects retain original Windows media paths. Rebuild from the bundled scripts or relink the bundled inputs/assets; historical report references may point to local-only artifacts.",
-  "total_selected_bytes": 2531970412
+  "total_selected_bytes": 2535879276
 }

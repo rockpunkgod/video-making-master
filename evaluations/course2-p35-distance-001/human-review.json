@@ -1,0 +1,12 @@
+{
+  "status": "accepted_overall_baselines_only",
+  "feedback": "整体符合，可以保留",
+  "artifacts": {
+    "scale-003": "b9da1fd724961d86b7f6df6001f70120923282a988078a003b46922c0af73139",
+    "blur-001": "1ecd343d0e9212cc5f515913e6bb1ad294bd4f1239a6288eca9ee66b8238c8cf"
+  },
+  "comparison": "cache/reviews/course2-p35-distance-001/comparison.mp4",
+  "comparison_sha256": "0a63649ac391300f1e96ef9f084fea9026faa00e3bc71eac5e4ab57d19d3b733",
+  "question": "看过第35节左原版、右复刻后，靠近时放大、靠近时变模糊的整体效果是否符合课程？右侧为scale003/blur001；素材与轨迹推定范围已注明。",
+  "scope": "Overall near-scale/near-blur accepted for these exact baseline movies only; not exact sourceAI/font/canvas/RGB/control-profile identity or automatic approval of variants"
+}

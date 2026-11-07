@@ -1,0 +1,1356 @@
+{
+  "name": "COURSE35_DISTANCE",
+  "animation": "distance-controller",
+  "mode": "scale",
+  "width": 320,
+  "height": 240,
+  "pixel_aspect": 1,
+  "fps": 25,
+  "duration": 5,
+  "radius": 70,
+  "near_scale": 250,
+  "far_scale": 70,
+  "near_blur": 40,
+  "distance_method": "two-point",
+  "keyframes": [
+    {
+      "time": 0.0,
+      "position": [
+        110.438596,
+        110.438596
+      ]
+    },
+    {
+      "time": 0.1,
+      "position": [
+        128.894737,
+        110.315789
+      ]
+    },
+    {
+      "time": 0.2,
+      "position": [
+        144.210526,
+        113.684211
+      ]
+    },
+    {
+      "time": 0.3,
+      "position": [
+        143.976608,
+        114.093567
+      ]
+    },
+    {
+      "time": 0.4,
+      "position": [
+        162.631579,
+        114.210526
+      ]
+    },
+    {
+      "time": 0.5,
+      "position": [
+        165.263158,
+        114.736842
+      ]
+    },
+    {
+      "time": 0.6,
+      "position": [
+        194.526316,
+        113.684211
+      ]
+    },
+    {
+      "time": 0.7,
+      "position": [
+        197.894737,
+        113.684211
+      ]
+    },
+    {
+      "time": 0.8,
+      "position": [
+        220.183066,
+        114.874142
+      ]
+    },
+    {
+      "time": 0.9,
+      "position": [
+        229.323308,
+        114.536341
+      ]
+    },
+    {
+      "time": 1.0,
+      "position": [
+        239.473684,
+        114.210526
+      ]
+    },
+    {
+      "time": 1.1,
+      "position": [
+        251.503759,
+        114.887218
+      ]
+    },
+    {
+      "time": 1.2,
+      "position": [
+        262.406015,
+        114.43609
+      ]
+    },
+    {
+      "time": 1.3,
+      "position": [
+        268.660287,
+        114.92823
+      ]
+    },
+    {
+      "time": 1.4,
+      "position": [
+        274.469044,
+        117.812541
+      ]
+    },
+    {
+      "time": 1.5,
+      "position": [
+        291.403509,
+        118.77193
+      ]
+    },
+    {
+      "time": 1.6,
+      "position": [
+        293.508772,
+        120.877193
+      ]
+    },
+    {
+      "time": 1.7,
+      "position": [
+        301.112324,
+        125.268982
+      ]
+    },
+    {
+      "time": 1.8,
+      "position": [
+        306.068111,
+        138.018576
+      ]
+    },
+    {
+      "time": 1.9,
+      "position": [
+        305.087719,
+        149.649123
+      ]
+    },
+    {
+      "time": 2.0,
+      "position": [
+        299.473684,
+        167.368421
+      ]
+    },
+    {
+      "time": 2.1,
+      "position": [
+        280.890969,
+        185.866051
+      ]
+    },
+    {
+      "time": 2.2,
+      "position": [
+        240.526316,
+        205.789474
+      ]
+    },
+    {
+      "time": 2.3,
+      "position": [
+        212.369199,
+        209.462276
+      ]
+    },
+    {
+      "time": 2.4,
+      "position": [
+        128.596491,
+        199.122807
+      ]
+    },
+    {
+      "time": 2.5,
+      "position": [
+        77.368421,
+        196.315789
+      ]
+    },
+    {
+      "time": 2.6,
+      "position": [
+        19.473684,
+        172.105263
+      ]
+    },
+    {
+      "time": 2.7,
+      "position": [
+        15.789474,
+        160.0
+      ]
+    },
+    {
+      "time": 2.8,
+      "position": [
+        22.763158,
+        131.381579
+      ]
+    },
+    {
+      "time": 2.9,
+      "position": [
+        35.263158,
+        124.736842
+      ]
+    },
+    {
+      "time": 3.0,
+      "position": [
+        108.0,
+        108.0
+      ]
+    },
+    {
+      "time": 3.1,
+      "position": [
+        121.894737,
+        107.789474
+      ]
+    },
+    {
+      "time": 3.2,
+      "position": [
+        177.368421,
+        107.894737
+      ]
+    },
+    {
+      "time": 3.3,
+      "position": [
+        200.877193,
+        107.675439
+      ]
+    },
+    {
+      "time": 3.4,
+      "position": [
+        239.23445,
+        107.320574
+      ]
+    },
+    {
+      "time": 3.5,
+      "position": [
+        241.461988,
+        108.421053
+      ]
+    },
+    {
+      "time": 3.6,
+      "position": [
+        254.09611,
+        113.867277
+      ]
+    },
+    {
+      "time": 3.7,
+      "position": [
+        266.616541,
+        120.75188
+      ]
+    },
+    {
+      "time": 3.8,
+      "position": [
+        266.710526,
+        170.263158
+      ]
+    },
+    {
+      "time": 3.9,
+      "position": [
+        218.421053,
+        191.052632
+      ]
+    },
+    {
+      "time": 4.0,
+      "position": [
+        140.37594,
+        206.165414
+      ]
+    },
+    {
+      "time": 4.1,
+      "position": [
+        140.526316,
+        206.842105
+      ]
+    },
+    {
+      "time": 4.2,
+      "position": [
+        140.37594,
+        206.466165
+      ]
+    },
+    {
+      "time": 4.3,
+      "position": [
+        140.37594,
+        206.466165
+      ]
+    },
+    {
+      "time": 4.4,
+      "position": [
+        140.37594,
+        206.466165
+      ]
+    },
+    {
+      "time": 4.5,
+      "position": [
+        140.37594,
+        206.466165
+      ]
+    },
+    {
+      "time": 4.6,
+      "position": [
+        140.37594,
+        206.466165
+      ]
+    },
+    {
+      "time": 4.7,
+      "position": [
+        140.37594,
+        206.466165
+      ]
+    },
+    {
+      "time": 4.8,
+      "position": [
+        140.37594,
+        206.466165
+      ]
+    },
+    {
+      "time": 4.9,
+      "position": [
+        140.37594,
+        206.466165
+      ]
+    },
+    {
+      "time": 5.0,
+      "position": [
+        140.37594,
+        206.466165
+      ]
+    }
+  ],
+  "positions": [
+    [
+      41,
+      120
+    ],
+    [
+      121,
+      120
+    ],
+    [
+      201,
+      120
+    ],
+    [
+      281,
+      120
+    ]
+  ],
+  "background": [
+    0,
+    0.17647058823529413,
+    0.15294117647058825
+  ],
+  "controller_color": [
+    1,
+    1,
+    0.6
+  ],
+  "controller_opacity": 30,
+  "controller_diameter": 40,
+  "assets": [
+    "E:/自媒体/video-skills-lab/samples/course2-distance-001/shapes-scale-001/assets/art-0.png",
+    "E:/自媒体/video-skills-lab/samples/course2-distance-001/shapes-scale-001/assets/art-1.png",
+    "E:/自媒体/video-skills-lab/samples/course2-distance-001/shapes-scale-001/assets/art-2.png",
+    "E:/自媒体/video-skills-lab/samples/course2-distance-001/shapes-scale-001/assets/art-3.png"
+  ],
+  "motion_expectation": "required",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=35",
+  "inferred": [
+    "320x240canvas/PAR1 from recording and source positions; source Comp dialog not read",
+    "25fps is recording-replay adapter; source29.97 Preview not proof ofCompFPS",
+    "Own44px badge/Arial34 substitutes unavailableAI artwork; font/exactbounds not source identity",
+    "Source manual dragging mapped to measured controller keys; original had no motionKframes",
+    "Recorded darkgreen background approximated by explicit bottomSolid for predictable delivery; source matte implementation not read"
+  ],
+  "profile_provenance": {
+    "source_start": 530,
+    "source_end": 535,
+    "crop": [
+      529,
+      170,
+      300,
+      225
+    ],
+    "observations": [
+      {
+        "frame": 0,
+        "time": 0.0,
+        "source_crop_center": [
+          104.91666666666667,
+          104.91666666666667
+        ],
+        "method": "selection_handles",
+        "handle_matches": 3
+      },
+      {
+        "frame": 1,
+        "time": 0.1,
+        "source_crop_center": [
+          122.45,
+          104.8
+        ],
+        "method": "selection_handles",
+        "handle_matches": 5
+      },
+      {
+        "frame": 2,
+        "time": 0.2,
+        "source_crop_center": [
+          137.0,
+          108.0
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 3,
+        "time": 0.3,
+        "source_crop_center": [
+          136.77777777777777,
+          108.38888888888889
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 4,
+        "time": 0.4,
+        "source_crop_center": [
+          154.5,
+          108.5
+        ],
+        "method": "selection_handles",
+        "handle_matches": 7
+      },
+      {
+        "frame": 5,
+        "time": 0.5,
+        "source_crop_center": [
+          157.0,
+          109.0
+        ],
+        "method": "selection_handles",
+        "handle_matches": 7
+      },
+      {
+        "frame": 6,
+        "time": 0.6,
+        "source_crop_center": [
+          184.8,
+          108.0
+        ],
+        "method": "selection_handles",
+        "handle_matches": 5
+      },
+      {
+        "frame": 7,
+        "time": 0.7,
+        "source_crop_center": [
+          188.0,
+          108.0
+        ],
+        "method": "selection_handles",
+        "handle_matches": 6
+      },
+      {
+        "frame": 8,
+        "time": 0.8,
+        "source_crop_center": [
+          209.17391304347825,
+          109.1304347826087
+        ],
+        "method": "selection_handles",
+        "handle_matches": 6
+      },
+      {
+        "frame": 9,
+        "time": 0.9,
+        "source_crop_center": [
+          217.85714285714286,
+          108.80952380952381
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 10,
+        "time": 1.0,
+        "source_crop_center": [
+          227.5,
+          108.5
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 11,
+        "time": 1.1,
+        "source_crop_center": [
+          238.92857142857142,
+          109.14285714285714
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 12,
+        "time": 1.2,
+        "source_crop_center": [
+          249.28571428571428,
+          108.71428571428571
+        ],
+        "method": "selection_handles",
+        "handle_matches": 7
+      },
+      {
+        "frame": 13,
+        "time": 1.3,
+        "source_crop_center": [
+          255.22727272727272,
+          109.18181818181819
+        ],
+        "method": "selection_handles",
+        "handle_matches": 3
+      },
+      {
+        "frame": 14,
+        "time": 1.4,
+        "source_crop_center": [
+          260.7455919395466,
+          111.92191435768262
+        ],
+        "method": "color_centroid_inferred",
+        "handle_matches": 2
+      },
+      {
+        "frame": 15,
+        "time": 1.5,
+        "source_crop_center": [
+          276.8333333333333,
+          112.83333333333333
+        ],
+        "method": "selection_handles",
+        "handle_matches": 6
+      },
+      {
+        "frame": 16,
+        "time": 1.6,
+        "source_crop_center": [
+          278.8333333333333,
+          114.83333333333333
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 17,
+        "time": 1.7,
+        "source_crop_center": [
+          286.0567081604426,
+          119.00553250345781
+        ],
+        "method": "color_centroid_inferred",
+        "handle_matches": 1
+      },
+      {
+        "frame": 18,
+        "time": 1.8,
+        "source_crop_center": [
+          290.7647058823529,
+          131.11764705882354
+        ],
+        "method": "selection_handles",
+        "handle_matches": 4
+      },
+      {
+        "frame": 19,
+        "time": 1.9,
+        "source_crop_center": [
+          289.8333333333333,
+          142.16666666666669
+        ],
+        "method": "selection_handles",
+        "handle_matches": 4
+      },
+      {
+        "frame": 20,
+        "time": 2.0,
+        "source_crop_center": [
+          284.5,
+          159.0
+        ],
+        "method": "selection_handles",
+        "handle_matches": 4
+      },
+      {
+        "frame": 21,
+        "time": 2.1,
+        "source_crop_center": [
+          266.8464203233256,
+          176.5727482678984
+        ],
+        "method": "color_centroid_inferred",
+        "handle_matches": 2
+      },
+      {
+        "frame": 22,
+        "time": 2.2,
+        "source_crop_center": [
+          228.5,
+          195.5
+        ],
+        "method": "selection_handles",
+        "handle_matches": 3
+      },
+      {
+        "frame": 23,
+        "time": 2.3,
+        "source_crop_center": [
+          201.75073891625615,
+          198.98916256157636
+        ],
+        "method": "color_centroid_inferred",
+        "handle_matches": 1
+      },
+      {
+        "frame": 24,
+        "time": 2.4,
+        "source_crop_center": [
+          122.16666666666666,
+          189.16666666666666
+        ],
+        "method": "selection_handles",
+        "handle_matches": 5
+      },
+      {
+        "frame": 25,
+        "time": 2.5,
+        "source_crop_center": [
+          73.5,
+          186.5
+        ],
+        "method": "selection_handles",
+        "handle_matches": 5
+      },
+      {
+        "frame": 26,
+        "time": 2.6,
+        "source_crop_center": [
+          18.5,
+          163.5
+        ],
+        "method": "selection_handles",
+        "handle_matches": 5
+      },
+      {
+        "frame": 27,
+        "time": 2.7,
+        "source_crop_center": [
+          15,
+          152
+        ],
+        "method": "manual_handle_center_inferred",
+        "handle_matches": 5
+      },
+      {
+        "frame": 28,
+        "time": 2.8,
+        "source_crop_center": [
+          21.625,
+          124.8125
+        ],
+        "method": "selection_handles",
+        "handle_matches": 7
+      },
+      {
+        "frame": 29,
+        "time": 2.9,
+        "source_crop_center": [
+          33.5,
+          118.5
+        ],
+        "method": "selection_handles",
+        "handle_matches": 5
+      },
+      {
+        "frame": 30,
+        "time": 3.0,
+        "source_crop_center": [
+          102.6,
+          102.6
+        ],
+        "method": "selection_handles",
+        "handle_matches": 3
+      },
+      {
+        "frame": 31,
+        "time": 3.1,
+        "source_crop_center": [
+          115.8,
+          102.4
+        ],
+        "method": "selection_handles",
+        "handle_matches": 3
+      },
+      {
+        "frame": 32,
+        "time": 3.2,
+        "source_crop_center": [
+          168.5,
+          102.5
+        ],
+        "method": "selection_handles",
+        "handle_matches": 6
+      },
+      {
+        "frame": 33,
+        "time": 3.3,
+        "source_crop_center": [
+          190.83333333333334,
+          102.29166666666667
+        ],
+        "method": "selection_handles",
+        "handle_matches": 4
+      },
+      {
+        "frame": 34,
+        "time": 3.4,
+        "source_crop_center": [
+          227.27272727272728,
+          101.95454545454545
+        ],
+        "method": "selection_handles",
+        "handle_matches": 7
+      },
+      {
+        "frame": 35,
+        "time": 3.5,
+        "source_crop_center": [
+          229.38888888888889,
+          103.0
+        ],
+        "method": "selection_handles",
+        "handle_matches": 6
+      },
+      {
+        "frame": 36,
+        "time": 3.6,
+        "source_crop_center": [
+          241.3913043478261,
+          108.17391304347827
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 37,
+        "time": 3.7,
+        "source_crop_center": [
+          253.28571428571428,
+          114.71428571428571
+        ],
+        "method": "selection_handles",
+        "handle_matches": 3
+      },
+      {
+        "frame": 38,
+        "time": 3.8,
+        "source_crop_center": [
+          253.375,
+          161.75
+        ],
+        "method": "selection_handles",
+        "handle_matches": 4
+      },
+      {
+        "frame": 39,
+        "time": 3.9,
+        "source_crop_center": [
+          207.5,
+          181.5
+        ],
+        "method": "selection_handles",
+        "handle_matches": 3
+      },
+      {
+        "frame": 40,
+        "time": 4.0,
+        "source_crop_center": [
+          133.35714285714286,
+          195.85714285714286
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 41,
+        "time": 4.1,
+        "source_crop_center": [
+          133.5,
+          196.5
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 42,
+        "time": 4.2,
+        "source_crop_center": [
+          133.35714285714286,
+          196.14285714285714
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 43,
+        "time": 4.3,
+        "source_crop_center": [
+          133.35714285714286,
+          196.14285714285714
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 44,
+        "time": 4.4,
+        "source_crop_center": [
+          133.35714285714286,
+          196.14285714285714
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 45,
+        "time": 4.5,
+        "source_crop_center": [
+          133.35714285714286,
+          196.14285714285714
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 46,
+        "time": 4.6,
+        "source_crop_center": [
+          133.35714285714286,
+          196.14285714285714
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 47,
+        "time": 4.7,
+        "source_crop_center": [
+          133.35714285714286,
+          196.14285714285714
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 48,
+        "time": 4.8,
+        "source_crop_center": [
+          133.35714285714286,
+          196.14285714285714
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      },
+      {
+        "frame": 49,
+        "time": 4.9,
+        "source_crop_center": [
+          133.35714285714286,
+          196.14285714285714
+        ],
+        "method": "selection_handles",
+        "handle_matches": 8
+      }
+    ],
+    "status": "inferred_replay_profile_not_original_keys",
+    "limits": [
+      "Controller center by bright green connected component; source selection handles/cursor/ghosting can bias center",
+      "320x240 canvas inferred from41/120 position,80 native spacing and300x225 recorded preview; exact source dialog not shown",
+      "Sampled10fps interaction replay is adaptation; original had no motion keyframes",
+      "Initial simple brightgreen detector mistakenly chose left border and missed controller over black letters; excluded, replaced with yellow-component detector",
+      "Union of green-over-background and yellow-over-black detector; source repaint/cursor bias unresolved; not native controller ground truth",
+      "Display scale0.95 fitted from visible41/120 and140/209 positions; not sourceComp readback",
+      "Selection-handle and color-centroid measurements have source repaint/ghosting/cursor biases; not recovered original timeline"
+    ],
+    "display_scale_inferred": 0.95,
+    "native_canvas_inferred": [
+      320,
+      240
+    ],
+    "keyframes": [
+      {
+        "time": 0.0,
+        "position": [
+          110.438596,
+          110.438596
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 0.1,
+        "position": [
+          128.894737,
+          110.315789
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 0.2,
+        "position": [
+          144.210526,
+          113.684211
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 0.3,
+        "position": [
+          143.976608,
+          114.093567
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 0.4,
+        "position": [
+          162.631579,
+          114.210526
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 0.5,
+        "position": [
+          165.263158,
+          114.736842
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 0.6,
+        "position": [
+          194.526316,
+          113.684211
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 0.7,
+        "position": [
+          197.894737,
+          113.684211
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 0.8,
+        "position": [
+          220.183066,
+          114.874142
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 0.9,
+        "position": [
+          229.323308,
+          114.536341
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 1.0,
+        "position": [
+          239.473684,
+          114.210526
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 1.1,
+        "position": [
+          251.503759,
+          114.887218
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 1.2,
+        "position": [
+          262.406015,
+          114.43609
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 1.3,
+        "position": [
+          268.660287,
+          114.92823
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 1.4,
+        "position": [
+          274.469044,
+          117.812541
+        ],
+        "measurement_method": "color_centroid_inferred"
+      },
+      {
+        "time": 1.5,
+        "position": [
+          291.403509,
+          118.77193
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 1.6,
+        "position": [
+          293.508772,
+          120.877193
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 1.7,
+        "position": [
+          301.112324,
+          125.268982
+        ],
+        "measurement_method": "color_centroid_inferred"
+      },
+      {
+        "time": 1.8,
+        "position": [
+          306.068111,
+          138.018576
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 1.9,
+        "position": [
+          305.087719,
+          149.649123
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 2.0,
+        "position": [
+          299.473684,
+          167.368421
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 2.1,
+        "position": [
+          280.890969,
+          185.866051
+        ],
+        "measurement_method": "color_centroid_inferred"
+      },
+      {
+        "time": 2.2,
+        "position": [
+          240.526316,
+          205.789474
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 2.3,
+        "position": [
+          212.369199,
+          209.462276
+        ],
+        "measurement_method": "color_centroid_inferred"
+      },
+      {
+        "time": 2.4,
+        "position": [
+          128.596491,
+          199.122807
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 2.5,
+        "position": [
+          77.368421,
+          196.315789
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 2.6,
+        "position": [
+          19.473684,
+          172.105263
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 2.7,
+        "position": [
+          15.789474,
+          160.0
+        ],
+        "measurement_method": "manual_handle_center_inferred"
+      },
+      {
+        "time": 2.8,
+        "position": [
+          22.763158,
+          131.381579
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 2.9,
+        "position": [
+          35.263158,
+          124.736842
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 3.0,
+        "position": [
+          108.0,
+          108.0
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 3.1,
+        "position": [
+          121.894737,
+          107.789474
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 3.2,
+        "position": [
+          177.368421,
+          107.894737
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 3.3,
+        "position": [
+          200.877193,
+          107.675439
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 3.4,
+        "position": [
+          239.23445,
+          107.320574
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 3.5,
+        "position": [
+          241.461988,
+          108.421053
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 3.6,
+        "position": [
+          254.09611,
+          113.867277
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 3.7,
+        "position": [
+          266.616541,
+          120.75188
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 3.8,
+        "position": [
+          266.710526,
+          170.263158
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 3.9,
+        "position": [
+          218.421053,
+          191.052632
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 4.0,
+        "position": [
+          140.37594,
+          206.165414
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 4.1,
+        "position": [
+          140.526316,
+          206.842105
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 4.2,
+        "position": [
+          140.37594,
+          206.466165
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 4.3,
+        "position": [
+          140.37594,
+          206.466165
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 4.4,
+        "position": [
+          140.37594,
+          206.466165
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 4.5,
+        "position": [
+          140.37594,
+          206.466165
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 4.6,
+        "position": [
+          140.37594,
+          206.466165
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 4.7,
+        "position": [
+          140.37594,
+          206.466165
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 4.8,
+        "position": [
+          140.37594,
+          206.466165
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 4.9,
+        "position": [
+          140.37594,
+          206.466165
+        ],
+        "measurement_method": "selection_handles"
+      },
+      {
+        "time": 5,
+        "position": [
+          140.37594,
+          206.466165
+        ],
+        "measurement_method": "hold_last_measured"
+      }
+    ]
+  }
+}

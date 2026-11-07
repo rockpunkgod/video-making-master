@@ -1,0 +1,483 @@
+{
+  "status": "failed",
+  "checks": {
+    "full_movie": true,
+    "native_math": true,
+    "native_errors": true,
+    "native_checkpoints": false,
+    "actual_mapping_image_difference": true,
+    "actual_scale_boundaries": false,
+    "actual_blur_energy": true,
+    "reopen_edit": true,
+    "target_structure": true,
+    "native_fast_blur": true,
+    "media": true,
+    "geometry": true,
+    "controller_keys": true
+  },
+  "frames": 125,
+  "video_sha256": "b55c3d276b7c389b6517e8ea8893fc48bfc6c4f761afe495905d32a01b2e1d2a",
+  "checkpoints": [
+    {
+      "frame": 0,
+      "rgb_mae": 5.958515625
+    },
+    {
+      "frame": 31,
+      "rgb_mae": 6.089418402777778
+    },
+    {
+      "frame": 62,
+      "rgb_mae": 2.2801953125
+    },
+    {
+      "frame": 93,
+      "rgb_mae": 5.844214409722222
+    },
+    {
+      "frame": 124,
+      "rgb_mae": 0.4388932291666667
+    }
+  ],
+  "mapping_control_rgb_difference": 6.997916666666666,
+  "scale_visible_boundary_probes": 15542,
+  "scale_found_boundary_probes": 12277,
+  "pixel_failures": [
+    {
+      "frame": 0,
+      "found": 96,
+      "visible": 128
+    },
+    {
+      "frame": 1,
+      "found": 96,
+      "visible": 128
+    },
+    {
+      "frame": 2,
+      "found": 96,
+      "visible": 128
+    },
+    {
+      "frame": 3,
+      "found": 96,
+      "visible": 128
+    },
+    {
+      "frame": 4,
+      "found": 89,
+      "visible": 125
+    },
+    {
+      "frame": 5,
+      "found": 64,
+      "visible": 122
+    },
+    {
+      "frame": 6,
+      "found": 64,
+      "visible": 122
+    },
+    {
+      "frame": 7,
+      "found": 64,
+      "visible": 122
+    },
+    {
+      "frame": 8,
+      "found": 64,
+      "visible": 121
+    },
+    {
+      "frame": 9,
+      "found": 64,
+      "visible": 117
+    },
+    {
+      "frame": 10,
+      "found": 64,
+      "visible": 116
+    },
+    {
+      "frame": 11,
+      "found": 64,
+      "visible": 116
+    },
+    {
+      "frame": 12,
+      "found": 64,
+      "visible": 117
+    },
+    {
+      "frame": 13,
+      "found": 64,
+      "visible": 121
+    },
+    {
+      "frame": 14,
+      "found": 73,
+      "visible": 124
+    },
+    {
+      "frame": 15,
+      "found": 96,
+      "visible": 128
+    },
+    {
+      "frame": 16,
+      "found": 96,
+      "visible": 128
+    },
+    {
+      "frame": 17,
+      "found": 96,
+      "visible": 128
+    },
+    {
+      "frame": 18,
+      "found": 96,
+      "visible": 128
+    },
+    {
+      "frame": 19,
+      "found": 96,
+      "visible": 128
+    },
+    {
+      "frame": 20,
+      "found": 74,
+      "visible": 124
+    },
+    {
+      "frame": 21,
+      "found": 64,
+      "visible": 122
+    },
+    {
+      "frame": 22,
+      "found": 64,
+      "visible": 121
+    },
+    {
+      "frame": 23,
+      "found": 64,
+      "visible": 121
+    },
+    {
+      "frame": 24,
+      "found": 64,
+      "visible": 117
+    },
+    {
+      "frame": 25,
+      "found": 64,
+      "visible": 116
+    },
+    {
+      "frame": 26,
+      "found": 64,
+      "visible": 116
+    },
+    {
+      "frame": 27,
+      "found": 64,
+      "visible": 121
+    },
+    {
+      "frame": 28,
+      "found": 64,
+      "visible": 120
+    },
+    {
+      "frame": 29,
+      "found": 64,
+      "visible": 119
+    },
+    {
+      "frame": 30,
+      "found": 73,
+      "visible": 119
+    },
+    {
+      "frame": 31,
+      "found": 89,
+      "visible": 123
+    },
+    {
+      "frame": 32,
+      "found": 96,
+      "visible": 123
+    },
+    {
+      "frame": 33,
+      "found": 96,
+      "visible": 121
+    },
+    {
+      "frame": 34,
+      "found": 96,
+      "visible": 121
+    },
+    {
+      "frame": 35,
+      "found": 96,
+      "visible": 121
+    },
+    {
+      "frame": 36,
+      "found": 96,
+      "visible": 121
+    },
+    {
+      "frame": 37,
+      "found": 96,
+      "visible": 121
+    },
+    {
+      "frame": 38,
+      "found": 96,
+      "visible": 121
+    },
+    {
+      "frame": 39,
+      "found": 96,
+      "visible": 121
+    },
+    {
+      "frame": 40,
+      "found": 96,
+      "visible": 121
+    },
+    {
+      "frame": 41,
+      "found": 96,
+      "visible": 123
+    },
+    {
+      "frame": 42,
+      "found": 96,
+      "visible": 123
+    },
+    {
+      "frame": 43,
+      "found": 96,
+      "visible": 121
+    },
+    {
+      "frame": 44,
+      "found": 96,
+      "visible": 120
+    },
+    {
+      "frame": 45,
+      "found": 96,
+      "visible": 121
+    },
+    {
+      "frame": 46,
+      "found": 96,
+      "visible": 121
+    },
+    {
+      "frame": 47,
+      "found": 96,
+      "visible": 121
+    },
+    {
+      "frame": 48,
+      "found": 96,
+      "visible": 122
+    },
+    {
+      "frame": 49,
+      "found": 96,
+      "visible": 124
+    },
+    {
+      "frame": 50,
+      "found": 96,
+      "visible": 128
+    },
+    {
+      "frame": 51,
+      "found": 96,
+      "visible": 128
+    },
+    {
+      "frame": 52,
+      "found": 107,
+      "visible": 128
+    },
+    {
+      "frame": 64,
+      "found": 105,
+      "visible": 128
+    },
+    {
+      "frame": 65,
+      "found": 96,
+      "visible": 128
+    },
+    {
+      "frame": 66,
+      "found": 96,
+      "visible": 128
+    },
+    {
+      "frame": 67,
+      "found": 96,
+      "visible": 128
+    },
+    {
+      "frame": 68,
+      "found": 96,
+      "visible": 123
+    },
+    {
+      "frame": 69,
+      "found": 96,
+      "visible": 121
+    },
+    {
+      "frame": 70,
+      "found": 96,
+      "visible": 122
+    },
+    {
+      "frame": 71,
+      "found": 96,
+      "visible": 123
+    },
+    {
+      "frame": 72,
+      "found": 96,
+      "visible": 123
+    },
+    {
+      "frame": 73,
+      "found": 96,
+      "visible": 123
+    },
+    {
+      "frame": 74,
+      "found": 64,
+      "visible": 116
+    },
+    {
+      "frame": 75,
+      "found": 96,
+      "visible": 128
+    },
+    {
+      "frame": 76,
+      "found": 96,
+      "visible": 128
+    },
+    {
+      "frame": 77,
+      "found": 96,
+      "visible": 128
+    },
+    {
+      "frame": 78,
+      "found": 96,
+      "visible": 128
+    },
+    {
+      "frame": 79,
+      "found": 64,
+      "visible": 119
+    },
+    {
+      "frame": 80,
+      "found": 64,
+      "visible": 121
+    },
+    {
+      "frame": 81,
+      "found": 96,
+      "visible": 125
+    },
+    {
+      "frame": 82,
+      "found": 96,
+      "visible": 128
+    },
+    {
+      "frame": 83,
+      "found": 96,
+      "visible": 128
+    },
+    {
+      "frame": 84,
+      "found": 64,
+      "visible": 122
+    },
+    {
+      "frame": 85,
+      "found": 64,
+      "visible": 118
+    },
+    {
+      "frame": 86,
+      "found": 64,
+      "visible": 116
+    },
+    {
+      "frame": 87,
+      "found": 64,
+      "visible": 116
+    },
+    {
+      "frame": 88,
+      "found": 64,
+      "visible": 117
+    },
+    {
+      "frame": 89,
+      "found": 64,
+      "visible": 121
+    },
+    {
+      "frame": 90,
+      "found": 64,
+      "visible": 120
+    },
+    {
+      "frame": 91,
+      "found": 64,
+      "visible": 117
+    },
+    {
+      "frame": 92,
+      "found": 83,
+      "visible": 123
+    },
+    {
+      "frame": 93,
+      "found": 96,
+      "visible": 122
+    },
+    {
+      "frame": 94,
+      "found": 96,
+      "visible": 121
+    },
+    {
+      "frame": 95,
+      "found": 96,
+      "visible": 128
+    }
+  ],
+  "native_formula_failures": [],
+  "blur_gradient_comparison": [],
+  "blur_gradient_samples": null,
+  "limits": [
+    "Inferred hand-drag replay and own artwork/matte/canvas/fps; not recovered source identity",
+    "5x5 boundary support may include overlapping art; controller region excluded",
+    "Blur gradient comparison measures actual smoothing with visible controller disk excluded; not exact sourceFastBlur kernel identity",
+    "Native technical pass does not confer human course-fidelity acceptance"
+  ],
+  "negative_expected_rejection": true,
+  "provenance": "FFmpeg frozen actual native checkpoint, not Adobe execution"
+}

@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "case": "scale-001",
+      "reason": "Native2D Position spatial tangentAPI required3elements; initial2element array failed beforequeue; own unsaved failedproject preserved/closed after ownershipcheck",
+      "status": "failed",
+      "quality_status": null,
+      "failed_checks": [],
+      "video_sha256": null
+    },
+    {
+      "case": "scale-002",
+      "reason": "Zero spatial tangents gave up to~0.02px AE sampled position deviations from intendedlinearProfile; independent controller validation rejected. Replaced with collinear one-third tangent segments, not easing",
+      "status": "built",
+      "quality_status": "failed",
+      "failed_checks": [
+        "native_math"
+      ],
+      "video_sha256": "7263932ab40aeb4dbc73a665d8cbeca51ba65ea34569e17aa4e2d3d8f62c6238"
+    },
+    {
+      "case": "variation-isolated-001",
+      "reason": "Diagnostic fixed0.6sec was outside effectradius aftertime/profile/radiuschange, so realon/offPNG pair identical. Movie coremath/energychecks passed but controlgatefailed. Fresh002 uses explicit1.8sec responsive phase",
+      "status": "built",
+      "quality_status": "failed",
+      "failed_checks": [
+        "actual_mapping_image_difference"
+      ],
+      "video_sha256": "e5b9dcdfa3abc6954de672ff5f4a5e6075dcb881888e37d7cc58f750ed73831d"
+    }
+  ],
+  "cleanup": "Retain conclusions; intermediates removed only after published native dependency audit/manifest",
+  "detector_history": "Source studyv1/v2/v3color proposals retained as history; current50point replay uses inspected handles plus7manual centers and explicit inference"
+}

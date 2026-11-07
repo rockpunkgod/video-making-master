@@ -659,12 +659,16 @@
   "frames": 1700,
   "native_pngs": 63,
   "course_fidelity": {
-    "status": "pending_human_overall",
+    "status": "overall_corrected_baselines_accepted",
     "original_recursive_method": true,
     "observed_dof_restored": true,
     "source_manual_timeline_unsynced": true,
     "estimated_camera": true,
-    "exact_source_color_and_controller_count_unverified": true
+    "exact_source_color_and_controller_count_unverified": true,
+    "accepted_cases": {
+      "fixed-004": "8b78048e47fb6564ffc74686789a8a02422f355e6caefebc1f82c0c5c1c0b173",
+      "controller-003": "8738e5d5fbcb9ddea55fb08796900e334bf05ec262fcaa4411f38b2965362e09"
+    }
   },
   "limits": [
     "Static controllers only; dynamic slider historical recursion not tested",

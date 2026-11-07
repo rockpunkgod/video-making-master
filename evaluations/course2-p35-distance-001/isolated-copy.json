@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "case": "samples/course2-distance-001/variation-isolated-002",
+  "executed_paths": [
+    "cache/isolated-distance-skill-002/ae-advanced-expressions/scripts/build_distance_controller.py",
+    "cache/isolated-distance-skill-002/ae-advanced-expressions/scripts/distance_controller.jsx",
+    "cache/isolated-distance-skill-002/ae-advanced-expressions/scripts/validate_distance_controller.py",
+    "cache/isolated-distance-skill-002/ae-advanced-expressions/scripts/run_ae.py",
+    "cache/isolated-distance-skill-002/ae-advanced-expressions/scripts/render_ae.py"
+  ],
+  "cwd": "E:\\\u81ea\u5a92\u4f53",
+  "script_hashes": {
+    "build_distance_controller.py": "cbca827585dabf48c5091ed72adda21971a075e874d16c6720ae0fd58c286512",
+    "distance_controller.jsx": "d1faae5b2f611b547fc14c65a03a3b9f103e2d757c1c192c0c87ce5086f4c38c",
+    "validate_distance_controller.py": "172ce1fed35fef756a4d4ea5abb0f54eead8d17c97542eff99e39c627d375449",
+    "run_ae.py": "75180dab8b906d34616e109b403675b1a0f3ee6a13eb735b000ae32f3d10e874",
+    "render_ae.py": "7cf442c1746bc64ecdf78f71edadbf44dc5dd2ddd3d3a7b866df1e36a4389c63"
+  },
+  "scope": "Actual copied Skill runtime outside lab cwd; no lab tools imported",
+  "parameters": {
+    "mode": "blur",
+    "method": "sub-length",
+    "duration": 8,
+    "radius": 55,
+    "near_blur": 32,
+    "profile": "explicit mirrored hand-drag variant"
+  }
+}

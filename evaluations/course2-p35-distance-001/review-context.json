@@ -1,0 +1,39 @@
+{
+  "source_url": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=35",
+  "left": "Actual cropped original",
+  "right": "Actual AE native movies with original mapping expressions",
+  "segments": [
+    {
+      "case": "scale-003",
+      "source_start": 530,
+      "source_end": 535,
+      "source_crop": [
+        529,
+        170,
+        300,
+        225
+      ],
+      "native_sha256": "b9da1fd724961d86b7f6df6001f70120923282a988078a003b46922c0af73139"
+    },
+    {
+      "case": "blur-001",
+      "source_start": 785,
+      "source_end": 790,
+      "source_crop": [
+        552,
+        161,
+        300,
+        225
+      ],
+      "native_sha256": "1ecd343d0e9212cc5f515913e6bb1ad294bd4f1239a6288eca9ee66b8238c8cf"
+    }
+  ],
+  "comparison_sha256": "0a63649ac391300f1e96ef9f084fea9026faa00e3bc71eac5e4ab57d19d3b733",
+  "synchronization": "Native time follows10fps measured source handdrag with linear replay; not exact UI repaint/ghosting or source AEP timeline recovery",
+  "limits": [
+    "SourceAI unavailable; own editable circle/text, font and bounds inferred",
+    "320x240/PAR1/background sourceidentity inferred;25fps recording adapter",
+    "Each pane normalized640x480; source recording viewport crop may trim a few borderpixels",
+    "Original UI handles/cursor/ghosting not copied; original footage local-only excluded fromGit"
+  ]
+}
