@@ -10,6 +10,13 @@ from launch_adobe import child_environment
 
 def check_output(root,cfg):
     report=validate(root/'final.mp4',cfg)
+    if cfg.get('animation')=='index-array':
+        from validate_index_array import validate as array_validate
+        audit=array_validate(root)
+        report['array_quality']='array-quality.json'
+        report['course_fidelity']='source_mask_index_slider_method_manual_replay_and_composition_explicit'
+        report['delivery_status']='candidate_unaccepted'
+        if audit['status']!='passed':report['status']='failed'
     if cfg.get('animation')=='free-pointing':
         from validate_free_pointing import validate as pointing_validate
         audit=pointing_validate(root)

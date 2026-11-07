@@ -1,0 +1,2311 @@
+{
+  "status": "passed",
+  "checks": {
+    "full_movie": true,
+    "all_frame_pixel_envelope_and_probes": true,
+    "native_checkpoint_rgb": true,
+    "native_formula": true,
+    "profile_replay": true,
+    "composed_rotation": true,
+    "native_source_geometry": true,
+    "native_reopened": true,
+    "all_unparented_2d": true,
+    "controller_last": true,
+    "native_edit": true,
+    "actual_feedback_pixels": true,
+    "media": true
+  },
+  "video_sha256": "b4dc694876ce5b0a3d5b4b303eb4b898b652877f0ba90b5377be1040d7780a25",
+  "frames": 125,
+  "max_bbox_error_pixels": 1.125,
+  "visible_probes_checked": 2960,
+  "composed_pixel_axes_checked": 0,
+  "max_axis_error_degrees": null,
+  "max_native_formula_error": 0,
+  "max_profile_error": 0,
+  "max_rotation_error": 0,
+  "native_offcanvas_centers_counted": 160,
+  "feedback_global_mean_rgb_difference": 0.2943674045138889,
+  "all_frame_pixels": [
+    {
+      "frame": 0,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 1,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 2,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 3,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 4,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 5,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 6,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 7,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 8,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 9,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 10,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 11,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 12,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 13,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 14,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 15,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 16,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 17,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 18,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 19,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 20,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 21,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 22,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 23,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 24,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        125.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        127
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 25,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        175.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        177
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 26,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        175.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        177
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 27,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        205.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        207
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 28,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        205.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        207
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 29,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        205.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        207
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 30,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        215.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        217
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 31,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        215.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        217
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 32,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        245.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        587,
+        247
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 33,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        265.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        587,
+        267
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 34,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        265.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        587,
+        267
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 35,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        295.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        297
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 36,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        295.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        297
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 37,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        305.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        307
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 38,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        345.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        347
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 39,
+      "expected_bbox": [
+        53.84375,
+        0,
+        586.15625,
+        345.875
+      ],
+      "observed_bbox": [
+        54,
+        0,
+        586,
+        347
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 40,
+      "expected_bbox": [
+        53.84375,
+        3.34375,
+        586.15625,
+        375.875
+      ],
+      "observed_bbox": [
+        54,
+        3,
+        586,
+        377
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 41,
+      "expected_bbox": [
+        53.84375,
+        3.34375,
+        586.15625,
+        375.875
+      ],
+      "observed_bbox": [
+        54,
+        3,
+        586,
+        377
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 42,
+      "expected_bbox": [
+        53.84375,
+        3.34375,
+        586.15625,
+        375.875
+      ],
+      "observed_bbox": [
+        54,
+        3,
+        586,
+        377
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 43,
+      "expected_bbox": [
+        53.84375,
+        7.34375,
+        586.15625,
+        395.875
+      ],
+      "observed_bbox": [
+        54,
+        7,
+        586,
+        397
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 44,
+      "expected_bbox": [
+        53.84375,
+        7.34375,
+        586.15625,
+        395.875
+      ],
+      "observed_bbox": [
+        54,
+        7,
+        586,
+        397
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 45,
+      "expected_bbox": [
+        53.84375,
+        13.34375,
+        586.15625,
+        425.875
+      ],
+      "observed_bbox": [
+        54,
+        13,
+        586,
+        427
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 46,
+      "expected_bbox": [
+        53.84375,
+        13.34375,
+        586.15625,
+        425.875
+      ],
+      "observed_bbox": [
+        54,
+        13,
+        586,
+        427
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 47,
+      "expected_bbox": [
+        53.84375,
+        13.34375,
+        586.15625,
+        425.875
+      ],
+      "observed_bbox": [
+        54,
+        13,
+        586,
+        427
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 48,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 49,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 50,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 51,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 52,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 53,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 54,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 55,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 56,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 57,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 58,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 59,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 60,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 61,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 62,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 63,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 64,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 65,
+      "expected_bbox": [
+        53.84375,
+        19.34375,
+        586.15625,
+        455.875
+      ],
+      "observed_bbox": [
+        54,
+        19,
+        586,
+        457
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 66,
+      "expected_bbox": [
+        53.84375,
+        19.34375,
+        586.15625,
+        455.875
+      ],
+      "observed_bbox": [
+        54,
+        19,
+        586,
+        457
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 67,
+      "expected_bbox": [
+        53.84375,
+        19.34375,
+        586.15625,
+        455.875
+      ],
+      "observed_bbox": [
+        54,
+        19,
+        586,
+        457
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 68,
+      "expected_bbox": [
+        53.84375,
+        19.34375,
+        586.15625,
+        455.875
+      ],
+      "observed_bbox": [
+        54,
+        19,
+        586,
+        457
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 69,
+      "expected_bbox": [
+        53.84375,
+        19.34375,
+        586.15625,
+        455.875
+      ],
+      "observed_bbox": [
+        54,
+        19,
+        586,
+        457
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 70,
+      "expected_bbox": [
+        53.84375,
+        19.34375,
+        586.15625,
+        455.875
+      ],
+      "observed_bbox": [
+        54,
+        19,
+        586,
+        457
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 71,
+      "expected_bbox": [
+        53.84375,
+        19.34375,
+        586.15625,
+        455.875
+      ],
+      "observed_bbox": [
+        54,
+        19,
+        586,
+        457
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 72,
+      "expected_bbox": [
+        53.84375,
+        19.34375,
+        586.15625,
+        455.875
+      ],
+      "observed_bbox": [
+        54,
+        19,
+        586,
+        457
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 73,
+      "expected_bbox": [
+        53.84375,
+        19.34375,
+        586.15625,
+        455.875
+      ],
+      "observed_bbox": [
+        54,
+        19,
+        586,
+        457
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 74,
+      "expected_bbox": [
+        53.84375,
+        19.34375,
+        586.15625,
+        455.875
+      ],
+      "observed_bbox": [
+        54,
+        19,
+        586,
+        457
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 75,
+      "expected_bbox": [
+        53.84375,
+        19.34375,
+        586.15625,
+        455.875
+      ],
+      "observed_bbox": [
+        54,
+        19,
+        586,
+        457
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 76,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 77,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 78,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 79,
+      "expected_bbox": [
+        53.84375,
+        15.34375,
+        586.15625,
+        435.875
+      ],
+      "observed_bbox": [
+        54,
+        15,
+        586,
+        437
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 80,
+      "expected_bbox": [
+        53.84375,
+        13.34375,
+        586.15625,
+        425.875
+      ],
+      "observed_bbox": [
+        54,
+        13,
+        586,
+        427
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 81,
+      "expected_bbox": [
+        53.84375,
+        7.34375,
+        586.15625,
+        395.875
+      ],
+      "observed_bbox": [
+        54,
+        7,
+        586,
+        397
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 82,
+      "expected_bbox": [
+        53.84375,
+        7.34375,
+        586.15625,
+        395.875
+      ],
+      "observed_bbox": [
+        54,
+        7,
+        586,
+        397
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 83,
+      "expected_bbox": [
+        53.84375,
+        7.34375,
+        586.15625,
+        395.875
+      ],
+      "observed_bbox": [
+        54,
+        7,
+        586,
+        397
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 84,
+      "expected_bbox": [
+        53.84375,
+        7.34375,
+        586.15625,
+        395.875
+      ],
+      "observed_bbox": [
+        54,
+        7,
+        586,
+        397
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 85,
+      "expected_bbox": [
+        53.84375,
+        7.34375,
+        586.15625,
+        395.875
+      ],
+      "observed_bbox": [
+        54,
+        7,
+        586,
+        397
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 86,
+      "expected_bbox": [
+        53.84375,
+        7.34375,
+        586.15625,
+        395.875
+      ],
+      "observed_bbox": [
+        54,
+        7,
+        586,
+        397
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 87,
+      "expected_bbox": [
+        53.84375,
+        9.34375,
+        586.15625,
+        405.875
+      ],
+      "observed_bbox": [
+        54,
+        9,
+        586,
+        407
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 88,
+      "expected_bbox": [
+        53.84375,
+        11.34375,
+        586.15625,
+        415.875
+      ],
+      "observed_bbox": [
+        54,
+        11,
+        586,
+        417
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 89,
+      "expected_bbox": [
+        53.84375,
+        11.34375,
+        586.15625,
+        415.875
+      ],
+      "observed_bbox": [
+        54,
+        11,
+        586,
+        417
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 90,
+      "expected_bbox": [
+        53.84375,
+        11.34375,
+        586.15625,
+        415.875
+      ],
+      "observed_bbox": [
+        54,
+        11,
+        586,
+        417
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 91,
+      "expected_bbox": [
+        53.84375,
+        11.34375,
+        586.15625,
+        415.875
+      ],
+      "observed_bbox": [
+        54,
+        11,
+        586,
+        417
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 92,
+      "expected_bbox": [
+        53.84375,
+        11.34375,
+        586.15625,
+        415.875
+      ],
+      "observed_bbox": [
+        54,
+        11,
+        586,
+        417
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 93,
+      "expected_bbox": [
+        53.84375,
+        11.34375,
+        586.15625,
+        415.875
+      ],
+      "observed_bbox": [
+        54,
+        11,
+        586,
+        417
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 94,
+      "expected_bbox": [
+        53.84375,
+        11.34375,
+        586.15625,
+        415.875
+      ],
+      "observed_bbox": [
+        54,
+        11,
+        586,
+        417
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 95,
+      "expected_bbox": [
+        53.84375,
+        13.34375,
+        586.15625,
+        425.875
+      ],
+      "observed_bbox": [
+        54,
+        13,
+        586,
+        427
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 96,
+      "expected_bbox": [
+        53.84375,
+        13.34375,
+        586.15625,
+        425.875
+      ],
+      "observed_bbox": [
+        54,
+        13,
+        586,
+        427
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 97,
+      "expected_bbox": [
+        53.84375,
+        13.34375,
+        586.15625,
+        425.875
+      ],
+      "observed_bbox": [
+        54,
+        13,
+        586,
+        427
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 98,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 99,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 100,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 101,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 102,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 103,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 104,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 105,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 106,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 107,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 108,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 109,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 110,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 111,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 112,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 113,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 114,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 115,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 116,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 117,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 118,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 119,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 120,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 121,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 122,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 123,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    },
+    {
+      "frame": 124,
+      "expected_bbox": [
+        53.84375,
+        17.34375,
+        586.15625,
+        445.875
+      ],
+      "observed_bbox": [
+        54,
+        17,
+        586,
+        447
+      ],
+      "bbox_error": 1.125,
+      "visible_probes": 25,
+      "missed_probes": 0
+    }
+  ],
+  "native_checkpoint_rgb": [
+    {
+      "frame": 0,
+      "rgb_mae": 0.3108713107638889
+    },
+    {
+      "frame": 124,
+      "rgb_mae": 0.5360036892361112
+    },
+    {
+      "frame": 31,
+      "rgb_mae": 0.4870757378472222
+    },
+    {
+      "frame": 62,
+      "rgb_mae": 0.5452419704861111
+    },
+    {
+      "frame": 93,
+      "rgb_mae": 0.5394672309027778
+    }
+  ],
+  "failures": [],
+  "scope": "Course index/ceil/column/four-slider behavior and actual editable outputs; source mask size/color inferred, manual replay/UI ghost timing not recovered",
+  "limitations": [
+    "Envelope/probe QA is not whole-image source pixel identity or aesthetic review",
+    "Positions remain unclamped; overlap/cropping in source is preserved",
+    "Controller replay includes explicitly inferred edge-motion values, not recovered source keyframes",
+    "Optional course33pointing/PNG material are explicit composition variants"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "status": "candidate",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=21",
+  "method": "hang=ceil(index/5),lie=index-(hang-1)*5; directgrid or lie*xDistance-xInitial,hang*yDistance-yInitial",
+  "native": "Full320x240solid with centered circular ADD mask, native duplicate, disabled bottomNull and four sliders",
+  "adaptation": "PNG input replaces source circle; optional point profile composes explicit course33atan2 method",
+  "unclamped": true
+}

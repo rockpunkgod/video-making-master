@@ -1,0 +1,11 @@
+{
+  "status": "actual_build_failure",
+  "case": "fixed-001",
+  "receipt": {
+    "status": "failed",
+    "stage": "trace",
+    "error": "ReferenceError: \u5bf9\u8c61\u65e0\u6548",
+    "line": 30
+  },
+  "diagnosis": "Saved/reopened project invalidated cached output CompItem; re-find main() after reopen before native PNG export"
+}

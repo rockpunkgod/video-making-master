@@ -1,0 +1,52 @@
+{
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=21",
+  "segments": [
+    {
+      "source_interval": [
+        636,
+        641
+      ],
+      "case": "fixed-002",
+      "review_interval": [
+        0,
+        5
+      ]
+    },
+    {
+      "source_interval": [
+        895,
+        900
+      ],
+      "case": "controller-final-001",
+      "review_interval": [
+        5,
+        10
+      ]
+    },
+    {
+      "source_interval": [
+        870,
+        875
+      ],
+      "case": "controller-replay-001",
+      "review_interval": [
+        10,
+        15
+      ]
+    }
+  ],
+  "crop": [
+    542,
+    191,
+    304,
+    228
+  ],
+  "left": "Actual source, including selection boxes/preview ghosts",
+  "right": "Actual AE native output",
+  "scope": "Static layout comparison and inferred manual controller replay; not exact source project timeline sync",
+  "inferred": [
+    "Circle diameter25 and redRGB approximation",
+    "Y replay inferred from visible edge displacements;UI repaint/keys not recovered",
+    "Output640x480wrapper adaptation"
+  ]
+}

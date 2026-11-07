@@ -1,5 +1,7 @@
 # video-skills-lab
 
+第21节阵列复制已补齐主要技术流程：8份原生工程/视频、1245帧、三素材、独立变参及第33节朝向组合通过。作为既有阵列/自由指向单元的四滑杆实现变体合并，保留裁切与重叠；原课手动操作的重放、圆形尺寸/RGB推定及人工反馈边界明确，仍candidate。现144组原生交付，全部课程目标未完成。见evaluations/course2-p21-array-001/summary.json。
+
 第33节自由指向新增7例原生工程/视频、1260帧、22500次像素主轴与180帧有向字形检查，三新素材及独立6×4镜像轨迹通过。保留课程sub/atan2/字母−90/线条0和index位置原法；手动重放、原a.ai未获取及画布/背景推定有明确边界，整体反馈待答，ae-advanced-expressions0.14.0仍candidate。现136组原生交付，全部课程目标未完成。见evaluations/course2-p33-pointing-001/summary.json。
 
 第32节新增透明云层Alpha采样联动的内置LensFlare明确变体：5例原生工程/视频、850帧独立Alpha核对、三新素材和独立复制调用。课程原版OpticalFlares/GoldenSun缺失，未完成；保持candidate，不因技术通过升级。当前129组原生交付，全部课程目标仍未完成。见evaluations/course2-p32-cloud-001/summary.json。

@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course2-index-array-001\\variation-isolated-001\\final.mp4",
+  "sha256": "9014be329472916dc4d639a35c67b83f10fa18c4db0585fbeb2e843b3b2c5b74",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 640,
+    "height": 480,
+    "fps": 25.0,
+    "duration": 4.8,
+    "decoded_frames": 120,
+    "unique_thumbnail_frames": 120
+  },
+  "motion_expectation": "required",
+  "static_pixel_check": null,
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": "",
+  "array_quality": "array-quality.json",
+  "course_fidelity": "source_mask_index_slider_method_manual_replay_and_composition_explicit",
+  "delivery_status": "candidate_unaccepted"
+}

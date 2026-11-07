@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course2-index-array-001\\fixed-002\\final.mp4",
+  "sha256": "d25000fd3643ccde2b774c7c1c3beb29ebc00bf090027ecbaa02193c5d854e8c",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 640,
+    "height": 480,
+    "fps": 25.0,
+    "duration": 10.0,
+    "decoded_frames": 250,
+    "unique_thumbnail_frames": 1
+  },
+  "motion_expectation": "static",
+  "static_pixel_check": {
+    "comparison_frames": 249,
+    "max_mean_luma_difference": 0.0,
+    "max_allowed_mean_luma_difference": 0.1,
+    "native_png_sha256": [
+      "fa4b24da7653eee4a7805fd83be1a27c9408ce069d8a355ec711e81b6dc1607a",
+      "fa4b24da7653eee4a7805fd83be1a27c9408ce069d8a355ec711e81b6dc1607a",
+      "fa4b24da7653eee4a7805fd83be1a27c9408ce069d8a355ec711e81b6dc1607a",
+      "fa4b24da7653eee4a7805fd83be1a27c9408ce069d8a355ec711e81b6dc1607a",
+      "fa4b24da7653eee4a7805fd83be1a27c9408ce069d8a355ec711e81b6dc1607a"
+    ],
+    "native_pngs_identical": true,
+    "native_text_all150_frames_identical": false,
+    "native_index_array_all_frames_identical": true,
+    "codec_tolerance_reason": "The gate requires five byte-identical native PNGs AND either the original identical-native-text evidence or the explicitly scoped index-array native-transform/zero-key evidence. The0.1 video-codec tolerance was calibrated on independent byte-identical native exports; it cannot pass without that evidence."
+  },
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": "",
+  "array_quality": "array-quality.json",
+  "course_fidelity": "source_mask_index_slider_method_manual_replay_and_composition_explicit",
+  "delivery_status": "candidate_unaccepted"
+}

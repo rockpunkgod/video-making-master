@@ -1,0 +1,119 @@
+{
+  "status": "passed",
+  "projects": [
+    {
+      "case": "fixed-002",
+      "checks": {
+        "comp": true,
+        "count": true,
+        "index_order": true,
+        "unparented": true,
+        "position_expression": true,
+        "media": true,
+        "no_controller_original_fixed": true,
+        "original_solid_add_mask": true
+      }
+    },
+    {
+      "case": "controller-final-001",
+      "checks": {
+        "comp": true,
+        "count": true,
+        "index_order": true,
+        "unparented": true,
+        "position_expression": true,
+        "media": true,
+        "bottom_disabled_null": true,
+        "four_slider_controls": true,
+        "unclamped_subtraction": true,
+        "original_solid_add_mask": true
+      }
+    },
+    {
+      "case": "controller-replay-001",
+      "checks": {
+        "comp": true,
+        "count": true,
+        "index_order": true,
+        "unparented": true,
+        "position_expression": true,
+        "media": true,
+        "bottom_disabled_null": true,
+        "four_slider_controls": true,
+        "unclamped_subtraction": true,
+        "original_solid_add_mask": true
+      }
+    },
+    {
+      "case": "dart-001",
+      "checks": {
+        "comp": true,
+        "count": true,
+        "index_order": true,
+        "unparented": true,
+        "position_expression": true,
+        "media": true,
+        "bottom_disabled_null": true,
+        "four_slider_controls": true,
+        "unclamped_subtraction": true
+      }
+    },
+    {
+      "case": "pointer-001",
+      "checks": {
+        "comp": true,
+        "count": true,
+        "index_order": true,
+        "unparented": true,
+        "position_expression": true,
+        "media": true,
+        "bottom_disabled_null": true,
+        "four_slider_controls": true,
+        "unclamped_subtraction": true
+      }
+    },
+    {
+      "case": "triangle-001",
+      "checks": {
+        "comp": true,
+        "count": true,
+        "index_order": true,
+        "unparented": true,
+        "position_expression": true,
+        "media": true,
+        "bottom_disabled_null": true,
+        "four_slider_controls": true,
+        "unclamped_subtraction": true
+      }
+    },
+    {
+      "case": "pointing-composed-001",
+      "checks": {
+        "comp": true,
+        "count": true,
+        "index_order": true,
+        "unparented": true,
+        "position_expression": true,
+        "media": true,
+        "bottom_disabled_null": true,
+        "four_slider_controls": true,
+        "unclamped_subtraction": true
+      }
+    },
+    {
+      "case": "variation-isolated-001",
+      "checks": {
+        "comp": true,
+        "count": true,
+        "index_order": true,
+        "unparented": true,
+        "position_expression": true,
+        "media": true,
+        "bottom_disabled_null": true,
+        "four_slider_controls": true,
+        "unclamped_subtraction": true
+      }
+    }
+  ],
+  "source": "Actual saved native AEP readback"
+}

@@ -1,0 +1,272 @@
+{
+  "status": "agent_gross_frame_inspection_only_human_review_pending",
+  "native_pngs_viewed": 56,
+  "method": "8contact sheets each withall7nativePNG, plus25source scene crops and125source UI crops viewed",
+  "cases": [
+    {
+      "case": "fixed-002",
+      "images": [
+        {
+          "path": "samples/course2-index-array-001/fixed-002/native-control-layout-off.png",
+          "sha256": "2495d41262f14c2ef9f79c6e6aef09b24cdaab4925f0927dab7a115175b5ff81"
+        },
+        {
+          "path": "samples/course2-index-array-001/fixed-002/native-control-layout-on.png",
+          "sha256": "fa4b24da7653eee4a7805fd83be1a27c9408ce069d8a355ec711e81b6dc1607a"
+        },
+        {
+          "path": "samples/course2-index-array-001/fixed-002/native-still-0.png",
+          "sha256": "fa4b24da7653eee4a7805fd83be1a27c9408ce069d8a355ec711e81b6dc1607a"
+        },
+        {
+          "path": "samples/course2-index-array-001/fixed-002/native-still-125.png",
+          "sha256": "fa4b24da7653eee4a7805fd83be1a27c9408ce069d8a355ec711e81b6dc1607a"
+        },
+        {
+          "path": "samples/course2-index-array-001/fixed-002/native-still-187.png",
+          "sha256": "fa4b24da7653eee4a7805fd83be1a27c9408ce069d8a355ec711e81b6dc1607a"
+        },
+        {
+          "path": "samples/course2-index-array-001/fixed-002/native-still-249.png",
+          "sha256": "fa4b24da7653eee4a7805fd83be1a27c9408ce069d8a355ec711e81b6dc1607a"
+        },
+        {
+          "path": "samples/course2-index-array-001/fixed-002/native-still-62.png",
+          "sha256": "fa4b24da7653eee4a7805fd83be1a27c9408ce069d8a355ec711e81b6dc1607a"
+        }
+      ]
+    },
+    {
+      "case": "controller-final-001",
+      "images": [
+        {
+          "path": "samples/course2-index-array-001/controller-final-001/native-control-layout-off.png",
+          "sha256": "82151310b5d9c040bc6ba8a3954af42a5cfef37b6e6c03f68b4242e200c673f8"
+        },
+        {
+          "path": "samples/course2-index-array-001/controller-final-001/native-control-layout-on.png",
+          "sha256": "37247efdb99feb7e413fea6e681552e199e52e45c8175bc2214c089921ed8c1e"
+        },
+        {
+          "path": "samples/course2-index-array-001/controller-final-001/native-still-0.png",
+          "sha256": "37247efdb99feb7e413fea6e681552e199e52e45c8175bc2214c089921ed8c1e"
+        },
+        {
+          "path": "samples/course2-index-array-001/controller-final-001/native-still-125.png",
+          "sha256": "37247efdb99feb7e413fea6e681552e199e52e45c8175bc2214c089921ed8c1e"
+        },
+        {
+          "path": "samples/course2-index-array-001/controller-final-001/native-still-187.png",
+          "sha256": "37247efdb99feb7e413fea6e681552e199e52e45c8175bc2214c089921ed8c1e"
+        },
+        {
+          "path": "samples/course2-index-array-001/controller-final-001/native-still-249.png",
+          "sha256": "37247efdb99feb7e413fea6e681552e199e52e45c8175bc2214c089921ed8c1e"
+        },
+        {
+          "path": "samples/course2-index-array-001/controller-final-001/native-still-62.png",
+          "sha256": "37247efdb99feb7e413fea6e681552e199e52e45c8175bc2214c089921ed8c1e"
+        }
+      ]
+    },
+    {
+      "case": "controller-replay-001",
+      "images": [
+        {
+          "path": "samples/course2-index-array-001/controller-replay-001/native-control-layout-off.png",
+          "sha256": "290fc828fb27cd3bac22f02615357a28e32ef84deef2da50d80629235944db5f"
+        },
+        {
+          "path": "samples/course2-index-array-001/controller-replay-001/native-control-layout-on.png",
+          "sha256": "04aeb41e7714a01e55a7c631ea032f0bad775bd31e57599fa76c6bb12126fb46"
+        },
+        {
+          "path": "samples/course2-index-array-001/controller-replay-001/native-still-0.png",
+          "sha256": "4d75967db200329470ca23ac7a69a645632c3076ca4300125f455be3286e074d"
+        },
+        {
+          "path": "samples/course2-index-array-001/controller-replay-001/native-still-124.png",
+          "sha256": "de12e3ef776cbf8d4b381e9622c1d9558663bbd5c3d0d3afbcba0d86461bad78"
+        },
+        {
+          "path": "samples/course2-index-array-001/controller-replay-001/native-still-31.png",
+          "sha256": "1f6be3f27b51dbc669ab0bc9b91394cce7aedbdbcafb03721774d8faa6f76aa5"
+        },
+        {
+          "path": "samples/course2-index-array-001/controller-replay-001/native-still-62.png",
+          "sha256": "4036f639b76e291752551f353de543c77788c5b009b6c918607ca6fabbc2dfba"
+        },
+        {
+          "path": "samples/course2-index-array-001/controller-replay-001/native-still-93.png",
+          "sha256": "7fe18a6b920b079989c5fefda9de1c68f874e12217d973c6f79cdf1f2f188032"
+        }
+      ]
+    },
+    {
+      "case": "dart-001",
+      "images": [
+        {
+          "path": "samples/course2-index-array-001/dart-001/native-control-layout-off.png",
+          "sha256": "252f29dff763538e9ac0c10502e47a6a6a285ea90e650ce897285fc33b901a5c"
+        },
+        {
+          "path": "samples/course2-index-array-001/dart-001/native-control-layout-on.png",
+          "sha256": "a70bab30d3b9fdf05a78c9b2ce521be99ec8ca6afcb521fb89b8d5a1bd9e8e93"
+        },
+        {
+          "path": "samples/course2-index-array-001/dart-001/native-still-0.png",
+          "sha256": "866774e967d09c777cd5df3b13168aa937206bdf7020717a195cfb55a1573a16"
+        },
+        {
+          "path": "samples/course2-index-array-001/dart-001/native-still-124.png",
+          "sha256": "732e7487ec707b3e8c27ca6addcbe6e1dda0e15378fb4a8c9ae95faeb5c242bc"
+        },
+        {
+          "path": "samples/course2-index-array-001/dart-001/native-still-31.png",
+          "sha256": "e0cbe4b5031874cf1107a9bb1e87659ba7a72a12e91b4b94a926f7b9f2d1321c"
+        },
+        {
+          "path": "samples/course2-index-array-001/dart-001/native-still-62.png",
+          "sha256": "dc650586f4fa72935365f6dc68a84f31e7c35d59c49842ed5859197471a74c14"
+        },
+        {
+          "path": "samples/course2-index-array-001/dart-001/native-still-93.png",
+          "sha256": "85b6203b72a3527e420a62a24438daa968fddbeadcbd1c6f2b144ac0443ad03d"
+        }
+      ]
+    },
+    {
+      "case": "pointer-001",
+      "images": [
+        {
+          "path": "samples/course2-index-array-001/pointer-001/native-control-layout-off.png",
+          "sha256": "afee8fb1996c1ec9baebf73b6ee76160184274fd005efa79f22f9608ea977cc2"
+        },
+        {
+          "path": "samples/course2-index-array-001/pointer-001/native-control-layout-on.png",
+          "sha256": "69fbd6f666fb40df99472e7483ad97ed17b157819e3444e770f179a703332c14"
+        },
+        {
+          "path": "samples/course2-index-array-001/pointer-001/native-still-0.png",
+          "sha256": "af06b4b6610e36510dc76e3bf88d49dff9f98d762db993f0343ce7beab099ea6"
+        },
+        {
+          "path": "samples/course2-index-array-001/pointer-001/native-still-124.png",
+          "sha256": "a9b7bc5ecdb7f8e0cfd4f5a51210725d1f3260a9ed66751f82a40bc73d6ecbd9"
+        },
+        {
+          "path": "samples/course2-index-array-001/pointer-001/native-still-31.png",
+          "sha256": "1c829aae02c7f8aa8d20ba87072b7be5da991cd7aa3eeeda17dbe3d8e7fa5d15"
+        },
+        {
+          "path": "samples/course2-index-array-001/pointer-001/native-still-62.png",
+          "sha256": "d93bf05907ca55f756ecf3cc50b2dacba2176f0756c8b7804b03e86a7f0f98c5"
+        },
+        {
+          "path": "samples/course2-index-array-001/pointer-001/native-still-93.png",
+          "sha256": "a4595adb5b538def8984666780912fb6defb70eced19ce0783b085a17ad89a12"
+        }
+      ]
+    },
+    {
+      "case": "triangle-001",
+      "images": [
+        {
+          "path": "samples/course2-index-array-001/triangle-001/native-control-layout-off.png",
+          "sha256": "dd93140f87b870a08657c1387c62163e4f8016a992dd386d09e85f076d3b2dc0"
+        },
+        {
+          "path": "samples/course2-index-array-001/triangle-001/native-control-layout-on.png",
+          "sha256": "69832ba0dbc904b5611fcae98f322b1d74049c3d336df0244576838d035231cb"
+        },
+        {
+          "path": "samples/course2-index-array-001/triangle-001/native-still-0.png",
+          "sha256": "86ad00c4e75a9e38790e061cd6f33fbe9c57aec005269a6c5123aadf247a9b3d"
+        },
+        {
+          "path": "samples/course2-index-array-001/triangle-001/native-still-124.png",
+          "sha256": "132e45f324a061a1be782583140e808f82891a2555ee5dabd1ff8bcb78a919ab"
+        },
+        {
+          "path": "samples/course2-index-array-001/triangle-001/native-still-31.png",
+          "sha256": "bd0f1c37a91aacea1de54425b9c558721f2c807a176396271d90ea1c76b0cc8e"
+        },
+        {
+          "path": "samples/course2-index-array-001/triangle-001/native-still-62.png",
+          "sha256": "403f8abb84fb63172014c1658f08bac9931ad5b333c709a142536fd4800d3de9"
+        },
+        {
+          "path": "samples/course2-index-array-001/triangle-001/native-still-93.png",
+          "sha256": "8633e5b1911cb084b6bef1ab6058378f1094bcc313d21b9e612b53d309a3f0e7"
+        }
+      ]
+    },
+    {
+      "case": "pointing-composed-001",
+      "images": [
+        {
+          "path": "samples/course2-index-array-001/pointing-composed-001/native-control-layout-off.png",
+          "sha256": "1106696c62d78c8804b274214dea54212b0acc3a25a68e49b7c4f136a8d894cd"
+        },
+        {
+          "path": "samples/course2-index-array-001/pointing-composed-001/native-control-layout-on.png",
+          "sha256": "9bf0a1711c00a9cc1ff904fe7472977cebe7d8638a45abf6aaee776d52433f90"
+        },
+        {
+          "path": "samples/course2-index-array-001/pointing-composed-001/native-still-0.png",
+          "sha256": "3926808063075377e0ad7d37b811331b2bd31d7b123beb5ef112fe7f3cd49446"
+        },
+        {
+          "path": "samples/course2-index-array-001/pointing-composed-001/native-still-124.png",
+          "sha256": "943cd943a583f2cd573e868bcc67dfec557befee3ea9794a08b70a1c559d29c3"
+        },
+        {
+          "path": "samples/course2-index-array-001/pointing-composed-001/native-still-31.png",
+          "sha256": "655e36760b82f91727935704ec37d742d4df8adfebb878721c06e7c13824dc0f"
+        },
+        {
+          "path": "samples/course2-index-array-001/pointing-composed-001/native-still-62.png",
+          "sha256": "fb2089a81a4dbb1c0537c0ea618ceb0f28d57a282abe149100c6819a37e866fe"
+        },
+        {
+          "path": "samples/course2-index-array-001/pointing-composed-001/native-still-93.png",
+          "sha256": "b5e02731d94a0356938b9271914907bd96e5087c2d14177d1895dfb0a722e869"
+        }
+      ]
+    },
+    {
+      "case": "variation-isolated-001",
+      "images": [
+        {
+          "path": "samples/course2-index-array-001/variation-isolated-001/native-control-layout-off.png",
+          "sha256": "3f5aff93d5b30c6eabb6e6b8d12c42b8bfa956b71c598f254ef8a51df33b98ae"
+        },
+        {
+          "path": "samples/course2-index-array-001/variation-isolated-001/native-control-layout-on.png",
+          "sha256": "6338a1d74c0de4983cba4d7b6725e8bdec0697455a9020a80c7ca51659917780"
+        },
+        {
+          "path": "samples/course2-index-array-001/variation-isolated-001/native-still-0.png",
+          "sha256": "a4b731dbe5bd9f5ba2f6c51bcfb0e24fa380fafd75226e918e0aef6709a65964"
+        },
+        {
+          "path": "samples/course2-index-array-001/variation-isolated-001/native-still-119.png",
+          "sha256": "a4b731dbe5bd9f5ba2f6c51bcfb0e24fa380fafd75226e918e0aef6709a65964"
+        },
+        {
+          "path": "samples/course2-index-array-001/variation-isolated-001/native-still-30.png",
+          "sha256": "39c991c481d7975d1f0518830c0a98a7dcb0f4e2ef17bbc7695a8a6a92c72731"
+        },
+        {
+          "path": "samples/course2-index-array-001/variation-isolated-001/native-still-60.png",
+          "sha256": "28261b6a913fa5de44485840eb32a7b92f56782570f902ad9c32e722a3256ef6"
+        },
+        {
+          "path": "samples/course2-index-array-001/variation-isolated-001/native-still-90.png",
+          "sha256": "0bc27b2a393b0217423f176526670c3af5b2ef538a0e396eb006c1162aa3503c"
+        }
+      ]
+    }
+  ],
+  "finding": "Fixed5x5,finalcropped5throw,source-overlap replay,distinctPNGshapes andtargetpointing visible. Continuous playback aesthetics not self-certified."
+}

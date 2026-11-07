@@ -1,0 +1,39 @@
+{
+  "name": "COURSE_INDEX_ARRAY",
+  "animation": "index-array",
+  "width": 640,
+  "height": 480,
+  "native_width": 320,
+  "native_height": 240,
+  "fps": 25,
+  "duration": 10,
+  "layout": "controller",
+  "columns": 5,
+  "count": 25,
+  "values": [
+    54,
+    28,
+    57,
+    34
+  ],
+  "controller_profile": null,
+  "point_profile": null,
+  "heading_offset": 0,
+  "asset": null,
+  "art": null,
+  "circle_diameter": 25,
+  "color": [
+    1,
+    0,
+    0
+  ],
+  "motion_expectation": "static",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=21",
+  "inferred": [
+    "Final circle diameter25 inferred from400percent preview, precise source mask vertices/size unread",
+    "Pure red approximates source red; exact final picker RGB unread",
+    "640x480continuous output wrapper is display adaptation; native320x240square25fps10sec explicitly shown",
+    "Controller/target keyframes are explicit manual replay or new variation, not course-authored timeline keys",
+    "Localized Slider uses stable property slot1; source English Slider display spelling is not assumed on Chinese host"
+  ]
+}

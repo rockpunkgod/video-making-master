@@ -1,6 +1,14 @@
 {
   "scope": "Standalone video-skills-lab progress snapshot; overall curriculum incomplete",
   "cases": [
+    "samples/course2-index-array-001/fixed-002",
+    "samples/course2-index-array-001/controller-final-001",
+    "samples/course2-index-array-001/controller-replay-001",
+    "samples/course2-index-array-001/dart-001",
+    "samples/course2-index-array-001/pointer-001",
+    "samples/course2-index-array-001/triangle-001",
+    "samples/course2-index-array-001/pointing-composed-001",
+    "samples/course2-index-array-001/variation-isolated-001",
     "samples/course2-pointing-001/grid-baseline-002",
     "samples/course2-pointing-001/letter-baseline-002",
     "samples/course2-pointing-001/dart-001",
@@ -828,6 +836,66 @@
       "path": "evaluations/course-p18-proxy-suite-001/summary.json",
       "bytes": 22108,
       "sha256": "83bd7bba07ef69839adc3cc2da5848d09b73e121bf4564e5b6855986835a11de"
+    },
+    {
+      "path": "evaluations/course2-p21-array-001/frozen-replay-negative.json",
+      "bytes": 55839,
+      "sha256": "00f5f36b648f2f25fcff7489a3673b42d600d0ca9113448ca5e48decb7c5ad7c"
+    },
+    {
+      "path": "evaluations/course2-p21-array-001/human-review.json",
+      "bytes": 1096,
+      "sha256": "3f8f6a549c4116ab552354184ba47ad4525b23d86b894beea92bf24bdc1b1554"
+    },
+    {
+      "path": "evaluations/course2-p21-array-001/isolated-copy.json",
+      "bytes": 15851,
+      "sha256": "b2ac5d9f71e8e53477b1403607bc658c338aab58ad2a9265f46c5b2916d6b9bb"
+    },
+    {
+      "path": "evaluations/course2-p21-array-001/merged-array-pointing.json",
+      "bytes": 16894,
+      "sha256": "0829033040e0919b5e8ccc915819a055f44ad6b9bc916a7d6b71f20773cd0dac"
+    },
+    {
+      "path": "evaluations/course2-p21-array-001/moving-video-rejected-as-static.json",
+      "bytes": 2140,
+      "sha256": "20780f261b85afee62cbb56a8c101af5d38a1a590967efa65ab2f1b5c5febb0d"
+    },
+    {
+      "path": "evaluations/course2-p21-array-001/native-structure-check.json",
+      "bytes": 3054,
+      "sha256": "a3714e4053ab094df6330ebf8f5bc126b95fc0a0760f67eac3a3a1356e2e8d56"
+    },
+    {
+      "path": "evaluations/course2-p21-array-001/rejected-stale-reference.json",
+      "bytes": 341,
+      "sha256": "b14c2c2b927f1db4dc826bd0484c9d925cb50ba1a826d14df79c21dca330ade9"
+    },
+    {
+      "path": "evaluations/course2-p21-array-001/review-context.json",
+      "bytes": 1109,
+      "sha256": "589fef3e8b2b312faaf52b4a7b1a8d3d1d2b5b8a1bb9736158797bca11bcafa3"
+    },
+    {
+      "path": "evaluations/course2-p21-array-001/source-provenance.json",
+      "bytes": 6871,
+      "sha256": "d4f224104d46ed70c8f98f7486ff97f65c83aa915ffbef473ca1d620a070d715"
+    },
+    {
+      "path": "evaluations/course2-p21-array-001/source-replay-edge-inference.json",
+      "bytes": 5083,
+      "sha256": "5b65ac1fde0a5511cdb448d31c6e76f2a07abad9a693bd7605b50d5b4c9f36dd"
+    },
+    {
+      "path": "evaluations/course2-p21-array-001/summary.json",
+      "bytes": 10769,
+      "sha256": "46e77c74edcbbedf80d3e66293141349827b53214ece8a68aaf4adfc8d1081fd"
+    },
+    {
+      "path": "evaluations/course2-p21-array-001/visual-review.json",
+      "bytes": 12449,
+      "sha256": "b821d904b9574f1e2659afa10b2bf4465c76d14ad75a000e0d8b1a02fa2614aa"
     },
     {
       "path": "evaluations/course2-p23-spring-001/external-path-repair.json",
@@ -7784,6 +7852,621 @@
       "sha256": "64b1d97ef27e6e2d341d01a1fefa58d93e00f12f117bbac425e4680199c927fb"
     },
     {
+      "path": "samples/course2-index-array-001/controller-final-001/array-quality.json",
+      "bytes": 75028,
+      "sha256": "d4c26f52b60e942e8c84361c9ba0f4187fc4dc2d8fbf6bfd623cf7aed31859af"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-final-001/final.mp4",
+      "bytes": 26359,
+      "sha256": "1fbf10e32b05b7022991d230aa0fdbd0217fe90d8521bf5678bfc134a4ff4e9e"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-final-001/native-control-layout-off.png",
+      "bytes": 14957,
+      "sha256": "82151310b5d9c040bc6ba8a3954af42a5cfef37b6e6c03f68b4242e200c673f8"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-final-001/native-control-layout-on.png",
+      "bytes": 12904,
+      "sha256": "37247efdb99feb7e413fea6e681552e199e52e45c8175bc2214c089921ed8c1e"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-final-001/native-still-0.png",
+      "bytes": 12904,
+      "sha256": "37247efdb99feb7e413fea6e681552e199e52e45c8175bc2214c089921ed8c1e"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-final-001/native-still-125.png",
+      "bytes": 12904,
+      "sha256": "37247efdb99feb7e413fea6e681552e199e52e45c8175bc2214c089921ed8c1e"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-final-001/native-still-187.png",
+      "bytes": 12904,
+      "sha256": "37247efdb99feb7e413fea6e681552e199e52e45c8175bc2214c089921ed8c1e"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-final-001/native-still-249.png",
+      "bytes": 12904,
+      "sha256": "37247efdb99feb7e413fea6e681552e199e52e45c8175bc2214c089921ed8c1e"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-final-001/native-still-62.png",
+      "bytes": 12904,
+      "sha256": "37247efdb99feb7e413fea6e681552e199e52e45c8175bc2214c089921ed8c1e"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-final-001/plan.json",
+      "bytes": 474,
+      "sha256": "8a424bbe0b7ff581ac1f31b319bf225d1610061982c94f1c95030fc372eae514"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-final-001/project.aep",
+      "bytes": 454953,
+      "sha256": "3922cde2b670a0156c33e22f7582d40f658f684607465046b9b09d5ea0e54805"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-final-001/quality.json",
+      "bytes": 2035,
+      "sha256": "d3236fcb7fab09a8e717f4ed2c76a9769c25eaf504598c235e42ae0a4cac97c2"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-final-001/receipt.json",
+      "bytes": 315346,
+      "sha256": "6bc81a865b3bf0251362e2c15a79ea02aa6fc9705334d185fa2f15417aa1d174"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-final-001/request.json",
+      "bytes": 1136,
+      "sha256": "90d74b9118d2c464cccb8bb33e0ee745602a3e84614fcdb5e5a674772e38dd69"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-replay-001/array-quality.json",
+      "bytes": 38282,
+      "sha256": "7b6fd8800a958d69f31e9c1c6daa716edb33d523f380680cf99391246f46d188"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-replay-001/final.mp4",
+      "bytes": 43569,
+      "sha256": "ad118c0c8459c2108a454d5006b9d49b980eeb951917f3799b0a72aaaf2120d5"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-replay-001/inputs/controller-profile.json",
+      "bytes": 15394,
+      "sha256": "70d384525899ef0a76c06905cb55e93f0bd64b22b7157ca4f6387bcc0de69839"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-replay-001/native-control-layout-off.png",
+      "bytes": 12754,
+      "sha256": "290fc828fb27cd3bac22f02615357a28e32ef84deef2da50d80629235944db5f"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-replay-001/native-control-layout-on.png",
+      "bytes": 10088,
+      "sha256": "04aeb41e7714a01e55a7c631ea032f0bad775bd31e57599fa76c6bb12126fb46"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-replay-001/native-still-0.png",
+      "bytes": 7279,
+      "sha256": "4d75967db200329470ca23ac7a69a645632c3076ca4300125f455be3286e074d"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-replay-001/native-still-124.png",
+      "bytes": 15421,
+      "sha256": "de12e3ef776cbf8d4b381e9622c1d9558663bbd5c3d0d3afbcba0d86461bad78"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-replay-001/native-still-31.png",
+      "bytes": 12439,
+      "sha256": "1f6be3f27b51dbc669ab0bc9b91394cce7aedbdbcafb03721774d8faa6f76aa5"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-replay-001/native-still-62.png",
+      "bytes": 15406,
+      "sha256": "4036f639b76e291752551f353de543c77788c5b009b6c918607ca6fabbc2dfba"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-replay-001/native-still-93.png",
+      "bytes": 15335,
+      "sha256": "7fe18a6b920b079989c5fefda9de1c68f874e12217d973c6f79cdf1f2f188032"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-replay-001/plan.json",
+      "bytes": 474,
+      "sha256": "8a424bbe0b7ff581ac1f31b319bf225d1610061982c94f1c95030fc372eae514"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-replay-001/project.aep",
+      "bytes": 485115,
+      "sha256": "44e736307f83beee95d0b543f25d962b47789df31452c49f5ae239611bafe51b"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-replay-001/quality.json",
+      "bytes": 1023,
+      "sha256": "23cc22db2d807e5a56d531d22ade03f7f5a65e1818df9c8be9b18833084c6de0"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-replay-001/receipt.json",
+      "bytes": 157642,
+      "sha256": "a0c524be1c9b16316f09e6e2aa98ebbf0e980c3b2ea193ed6b4b99e4f0040ec7"
+    },
+    {
+      "path": "samples/course2-index-array-001/controller-replay-001/request.json",
+      "bytes": 18889,
+      "sha256": "34398b7f7ca3677c6e466bd111652637164f0fb52699846bafacb26b932e8051"
+    },
+    {
+      "path": "samples/course2-index-array-001/dart-001/array-quality.json",
+      "bytes": 40635,
+      "sha256": "ee92fb50e554d6194ec915cb1ccb292f8e400d5c558c4d951a8a0e4ce5c65597"
+    },
+    {
+      "path": "samples/course2-index-array-001/dart-001/assets/input.png",
+      "bytes": 1111,
+      "sha256": "b271a8810219f2b12b5e00968b09322febc12b8354daa94e1befbeba45cac659"
+    },
+    {
+      "path": "samples/course2-index-array-001/dart-001/final.mp4",
+      "bytes": 39575,
+      "sha256": "5f2c3c3bbb0798a32422024b7bc8d58b3e81824222193df9e17fef6489435f72"
+    },
+    {
+      "path": "samples/course2-index-array-001/dart-001/inputs/controller-profile.json",
+      "bytes": 15394,
+      "sha256": "70d384525899ef0a76c06905cb55e93f0bd64b22b7157ca4f6387bcc0de69839"
+    },
+    {
+      "path": "samples/course2-index-array-001/dart-001/native-control-layout-off.png",
+      "bytes": 9889,
+      "sha256": "252f29dff763538e9ac0c10502e47a6a6a285ea90e650ce897285fc33b901a5c"
+    },
+    {
+      "path": "samples/course2-index-array-001/dart-001/native-control-layout-on.png",
+      "bytes": 8307,
+      "sha256": "a70bab30d3b9fdf05a78c9b2ce521be99ec8ca6afcb521fb89b8d5a1bd9e8e93"
+    },
+    {
+      "path": "samples/course2-index-array-001/dart-001/native-still-0.png",
+      "bytes": 6817,
+      "sha256": "866774e967d09c777cd5df3b13168aa937206bdf7020717a195cfb55a1573a16"
+    },
+    {
+      "path": "samples/course2-index-array-001/dart-001/native-still-124.png",
+      "bytes": 10343,
+      "sha256": "732e7487ec707b3e8c27ca6addcbe6e1dda0e15378fb4a8c9ae95faeb5c242bc"
+    },
+    {
+      "path": "samples/course2-index-array-001/dart-001/native-still-31.png",
+      "bytes": 9169,
+      "sha256": "e0cbe4b5031874cf1107a9bb1e87659ba7a72a12e91b4b94a926f7b9f2d1321c"
+    },
+    {
+      "path": "samples/course2-index-array-001/dart-001/native-still-62.png",
+      "bytes": 10342,
+      "sha256": "dc650586f4fa72935365f6dc68a84f31e7c35d59c49842ed5859197471a74c14"
+    },
+    {
+      "path": "samples/course2-index-array-001/dart-001/native-still-93.png",
+      "bytes": 10339,
+      "sha256": "85b6203b72a3527e420a62a24438daa968fddbeadcbd1c6f2b144ac0443ad03d"
+    },
+    {
+      "path": "samples/course2-index-array-001/dart-001/plan.json",
+      "bytes": 474,
+      "sha256": "8a424bbe0b7ff581ac1f31b319bf225d1610061982c94f1c95030fc372eae514"
+    },
+    {
+      "path": "samples/course2-index-array-001/dart-001/project.aep",
+      "bytes": 525731,
+      "sha256": "484a87ac68b5b3786d911f767725879a83aa23ff854598b4614447f9a96556d4"
+    },
+    {
+      "path": "samples/course2-index-array-001/dart-001/quality.json",
+      "bytes": 1010,
+      "sha256": "8e346c4809f59be3f72d52bfe41dc3ca696c85a6b74c42fba1350e298ec45171"
+    },
+    {
+      "path": "samples/course2-index-array-001/dart-001/receipt.json",
+      "bytes": 157648,
+      "sha256": "b5fd2cf8ada5ea9bc93074c1f366ff2492f3166e6a06d0c5f8bdac8416e91c61"
+    },
+    {
+      "path": "samples/course2-index-array-001/dart-001/request.json",
+      "bytes": 19180,
+      "sha256": "858d0a430951df0889e561e6186069031a29f85628ca2758bb88cf996027cafe"
+    },
+    {
+      "path": "samples/course2-index-array-001/fixed-002/array-quality.json",
+      "bytes": 75025,
+      "sha256": "bddc69090b9d5e29deb1b6a331ad302115e3eb9dda1d60f0d3d9b528fbbe2dd5"
+    },
+    {
+      "path": "samples/course2-index-array-001/fixed-002/final.mp4",
+      "bytes": 26587,
+      "sha256": "d25000fd3643ccde2b774c7c1c3beb29ebc00bf090027ecbaa02193c5d854e8c"
+    },
+    {
+      "path": "samples/course2-index-array-001/fixed-002/native-control-layout-off.png",
+      "bytes": 17149,
+      "sha256": "2495d41262f14c2ef9f79c6e6aef09b24cdaab4925f0927dab7a115175b5ff81"
+    },
+    {
+      "path": "samples/course2-index-array-001/fixed-002/native-control-layout-on.png",
+      "bytes": 15423,
+      "sha256": "fa4b24da7653eee4a7805fd83be1a27c9408ce069d8a355ec711e81b6dc1607a"
+    },
+    {
+      "path": "samples/course2-index-array-001/fixed-002/native-still-0.png",
+      "bytes": 15423,
+      "sha256": "fa4b24da7653eee4a7805fd83be1a27c9408ce069d8a355ec711e81b6dc1607a"
+    },
+    {
+      "path": "samples/course2-index-array-001/fixed-002/native-still-125.png",
+      "bytes": 15423,
+      "sha256": "fa4b24da7653eee4a7805fd83be1a27c9408ce069d8a355ec711e81b6dc1607a"
+    },
+    {
+      "path": "samples/course2-index-array-001/fixed-002/native-still-187.png",
+      "bytes": 15423,
+      "sha256": "fa4b24da7653eee4a7805fd83be1a27c9408ce069d8a355ec711e81b6dc1607a"
+    },
+    {
+      "path": "samples/course2-index-array-001/fixed-002/native-still-249.png",
+      "bytes": 15423,
+      "sha256": "fa4b24da7653eee4a7805fd83be1a27c9408ce069d8a355ec711e81b6dc1607a"
+    },
+    {
+      "path": "samples/course2-index-array-001/fixed-002/native-still-62.png",
+      "bytes": 15423,
+      "sha256": "fa4b24da7653eee4a7805fd83be1a27c9408ce069d8a355ec711e81b6dc1607a"
+    },
+    {
+      "path": "samples/course2-index-array-001/fixed-002/plan.json",
+      "bytes": 474,
+      "sha256": "8a424bbe0b7ff581ac1f31b319bf225d1610061982c94f1c95030fc372eae514"
+    },
+    {
+      "path": "samples/course2-index-array-001/fixed-002/project.aep",
+      "bytes": 431435,
+      "sha256": "2a0f8c95045c5b16785e5b3e05154feaea69581c7500a448c2cf7deae5fb133f"
+    },
+    {
+      "path": "samples/course2-index-array-001/fixed-002/quality.json",
+      "bytes": 2016,
+      "sha256": "d8a47d4df4cfb812edf872c504e27368846b8024d517ff7851100209483e6187"
+    },
+    {
+      "path": "samples/course2-index-array-001/fixed-002/receipt.json",
+      "bytes": 315137,
+      "sha256": "6a0515dba5bcecc5a4e4aba3476e7b06311f694e66baf366edf8a213e285d57f"
+    },
+    {
+      "path": "samples/course2-index-array-001/fixed-002/request.json",
+      "bytes": 1131,
+      "sha256": "96844f1ce4c262650a303db922d387fe732adfbfcf2878279f68261a331bd5a9"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointer-001/array-quality.json",
+      "bytes": 41310,
+      "sha256": "487d32f19612be5f4529635d4899787642739f487f530b260444e5d01d15e97c"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointer-001/assets/input.png",
+      "bytes": 1155,
+      "sha256": "764aef5e84b1697b0edc1e70c4bb23c164c7d6eaa86f330b5aebed43bade98d7"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointer-001/final.mp4",
+      "bytes": 33363,
+      "sha256": "b4dc694876ce5b0a3d5b4b303eb4b898b652877f0ba90b5377be1040d7780a25"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointer-001/inputs/controller-profile.json",
+      "bytes": 15394,
+      "sha256": "70d384525899ef0a76c06905cb55e93f0bd64b22b7157ca4f6387bcc0de69839"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointer-001/native-control-layout-off.png",
+      "bytes": 7782,
+      "sha256": "afee8fb1996c1ec9baebf73b6ee76160184274fd005efa79f22f9608ea977cc2"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointer-001/native-control-layout-on.png",
+      "bytes": 6398,
+      "sha256": "69fbd6f666fb40df99472e7483ad97ed17b157819e3444e770f179a703332c14"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointer-001/native-still-0.png",
+      "bytes": 4894,
+      "sha256": "af06b4b6610e36510dc76e3bf88d49dff9f98d762db993f0343ce7beab099ea6"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointer-001/native-still-124.png",
+      "bytes": 8276,
+      "sha256": "a9b7bc5ecdb7f8e0cfd4f5a51210725d1f3260a9ed66751f82a40bc73d6ecbd9"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointer-001/native-still-31.png",
+      "bytes": 7103,
+      "sha256": "1c829aae02c7f8aa8d20ba87072b7be5da991cd7aa3eeeda17dbe3d8e7fa5d15"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointer-001/native-still-62.png",
+      "bytes": 8275,
+      "sha256": "d93bf05907ca55f756ecf3cc50b2dacba2176f0756c8b7804b03e86a7f0f98c5"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointer-001/native-still-93.png",
+      "bytes": 8276,
+      "sha256": "a4595adb5b538def8984666780912fb6defb70eced19ce0783b085a17ad89a12"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointer-001/plan.json",
+      "bytes": 474,
+      "sha256": "8a424bbe0b7ff581ac1f31b319bf225d1610061982c94f1c95030fc372eae514"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointer-001/project.aep",
+      "bytes": 525739,
+      "sha256": "3f45b8021d8d88bb55d623dd29a06d3d61dad6163baee33293a2f373562efbb7"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointer-001/quality.json",
+      "bytes": 1013,
+      "sha256": "6e4c441fb1626112274e791c6a1add038df714d012ce4316a9af388d43cd1916"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointer-001/receipt.json",
+      "bytes": 157651,
+      "sha256": "7347f0ce6f1dc9d2039a69d159001d6867876dd9d3d1cbf8acdabf0d082ee335"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointer-001/request.json",
+      "bytes": 19189,
+      "sha256": "d73e483b77c259c37656ba91f233eef0b75837e68d8903b701d3191b155eb5d7"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointing-composed-001/array-quality.json",
+      "bytes": 47893,
+      "sha256": "8b51362e7fe9412f28028f0d3e1a9af00fe4515415fcd03e30220d37b8e6110c"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointing-composed-001/assets/input.png",
+      "bytes": 1155,
+      "sha256": "764aef5e84b1697b0edc1e70c4bb23c164c7d6eaa86f330b5aebed43bade98d7"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointing-composed-001/final.mp4",
+      "bytes": 299645,
+      "sha256": "c92d1cb37b3fd4b6d4470eafd1d28d8c63ec548cec186d4d143d048027de8aa7"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointing-composed-001/inputs/point-profile.json",
+      "bytes": 14336,
+      "sha256": "585bd30e6d0e7335f58224efb818a1869a459888384ba31c5e4331d5f2c62094"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointing-composed-001/native-control-layout-off.png",
+      "bytes": 40376,
+      "sha256": "1106696c62d78c8804b274214dea54212b0acc3a25a68e49b7c4f136a8d894cd"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointing-composed-001/native-control-layout-on.png",
+      "bytes": 41555,
+      "sha256": "9bf0a1711c00a9cc1ff904fe7472977cebe7d8638a45abf6aaee776d52433f90"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointing-composed-001/native-still-0.png",
+      "bytes": 43170,
+      "sha256": "3926808063075377e0ad7d37b811331b2bd31d7b123beb5ef112fe7f3cd49446"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointing-composed-001/native-still-124.png",
+      "bytes": 41064,
+      "sha256": "943cd943a583f2cd573e868bcc67dfec557befee3ea9794a08b70a1c559d29c3"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointing-composed-001/native-still-31.png",
+      "bytes": 40366,
+      "sha256": "655e36760b82f91727935704ec37d742d4df8adfebb878721c06e7c13824dc0f"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointing-composed-001/native-still-62.png",
+      "bytes": 43519,
+      "sha256": "fb2089a81a4dbb1c0537c0ea618ceb0f28d57a282abe149100c6819a37e866fe"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointing-composed-001/native-still-93.png",
+      "bytes": 41116,
+      "sha256": "b5e02731d94a0356938b9271914907bd96e5087c2d14177d1895dfb0a722e869"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointing-composed-001/plan.json",
+      "bytes": 474,
+      "sha256": "8a424bbe0b7ff581ac1f31b319bf225d1610061982c94f1c95030fc372eae514"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointing-composed-001/project.aep",
+      "bytes": 533491,
+      "sha256": "373f7e08ceb75609cfc436461246fcc463ffb188eacce345b483008f1d84b316"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointing-composed-001/quality.json",
+      "bytes": 1024,
+      "sha256": "f8614badcb412542bacce8f54ca9c11801d09d27fcfbe1992d842d67c07ffec3"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointing-composed-001/receipt.json",
+      "bytes": 211297,
+      "sha256": "c64027c400f7912cecdbe214a5ebae519a4a1a856738d08c94f21e095d20a747"
+    },
+    {
+      "path": "samples/course2-index-array-001/pointing-composed-001/request.json",
+      "bytes": 17429,
+      "sha256": "e93c4a0bc230354660b293f0dc9c38f6a1cb09a015f629a2e6a7c0d1ab55b46c"
+    },
+    {
+      "path": "samples/course2-index-array-001/triangle-001/array-quality.json",
+      "bytes": 41143,
+      "sha256": "108cff52e4267b89873712ddf34d7804adc7133f3728f3bd459c777e6c768aa6"
+    },
+    {
+      "path": "samples/course2-index-array-001/triangle-001/assets/input.png",
+      "bytes": 1321,
+      "sha256": "7ad83c55882182f263e2266fec387ae00ca525f03f8643ef8b86e6927182c438"
+    },
+    {
+      "path": "samples/course2-index-array-001/triangle-001/final.mp4",
+      "bytes": 31931,
+      "sha256": "4c505317148a868d92579854606801bd9e32cb8e42b391b76770fab0c16e71fb"
+    },
+    {
+      "path": "samples/course2-index-array-001/triangle-001/inputs/controller-profile.json",
+      "bytes": 15394,
+      "sha256": "70d384525899ef0a76c06905cb55e93f0bd64b22b7157ca4f6387bcc0de69839"
+    },
+    {
+      "path": "samples/course2-index-array-001/triangle-001/native-control-layout-off.png",
+      "bytes": 10302,
+      "sha256": "dd93140f87b870a08657c1387c62163e4f8016a992dd386d09e85f076d3b2dc0"
+    },
+    {
+      "path": "samples/course2-index-array-001/triangle-001/native-control-layout-on.png",
+      "bytes": 8837,
+      "sha256": "69832ba0dbc904b5611fcae98f322b1d74049c3d336df0244576838d035231cb"
+    },
+    {
+      "path": "samples/course2-index-array-001/triangle-001/native-still-0.png",
+      "bytes": 6992,
+      "sha256": "86ad00c4e75a9e38790e061cd6f33fbe9c57aec005269a6c5123aadf247a9b3d"
+    },
+    {
+      "path": "samples/course2-index-array-001/triangle-001/native-still-124.png",
+      "bytes": 10324,
+      "sha256": "132e45f324a061a1be782583140e808f82891a2555ee5dabd1ff8bcb78a919ab"
+    },
+    {
+      "path": "samples/course2-index-array-001/triangle-001/native-still-31.png",
+      "bytes": 9370,
+      "sha256": "bd0f1c37a91aacea1de54425b9c558721f2c807a176396271d90ea1c76b0cc8e"
+    },
+    {
+      "path": "samples/course2-index-array-001/triangle-001/native-still-62.png",
+      "bytes": 10321,
+      "sha256": "403f8abb84fb63172014c1658f08bac9931ad5b333c709a142536fd4800d3de9"
+    },
+    {
+      "path": "samples/course2-index-array-001/triangle-001/native-still-93.png",
+      "bytes": 10319,
+      "sha256": "8633e5b1911cb084b6bef1ab6058378f1094bcc313d21b9e612b53d309a3f0e7"
+    },
+    {
+      "path": "samples/course2-index-array-001/triangle-001/plan.json",
+      "bytes": 474,
+      "sha256": "8a424bbe0b7ff581ac1f31b319bf225d1610061982c94f1c95030fc372eae514"
+    },
+    {
+      "path": "samples/course2-index-array-001/triangle-001/project.aep",
+      "bytes": 525739,
+      "sha256": "64f390d42cd716caf1136f4e8792ced9f73ed60b1f70a62130eba34c73f5afbf"
+    },
+    {
+      "path": "samples/course2-index-array-001/triangle-001/quality.json",
+      "bytes": 1014,
+      "sha256": "afbb8887ad92dceaa366ed5bc9914e47b13232ed901cd0ea40d8f1f7f73f50d8"
+    },
+    {
+      "path": "samples/course2-index-array-001/triangle-001/receipt.json",
+      "bytes": 157652,
+      "sha256": "1802f8836f3896f5cb198908baca192ba4a9ecacb0edcc6da1860df9cb8a819a"
+    },
+    {
+      "path": "samples/course2-index-array-001/triangle-001/request.json",
+      "bytes": 19188,
+      "sha256": "90b633a5e6084a2ff4fd7cc78c82ae86baa3915fd7049fd20537902a99899f1c"
+    },
+    {
+      "path": "samples/course2-index-array-001/variation-isolated-001/array-quality.json",
+      "bytes": 42478,
+      "sha256": "e67be5f0c81e82d84cb4ad351e24763cdb4b6b96969c67d869c58b1e0569f036"
+    },
+    {
+      "path": "samples/course2-index-array-001/variation-isolated-001/assets/input.png",
+      "bytes": 1321,
+      "sha256": "7ad83c55882182f263e2266fec387ae00ca525f03f8643ef8b86e6927182c438"
+    },
+    {
+      "path": "samples/course2-index-array-001/variation-isolated-001/final.mp4",
+      "bytes": 98188,
+      "sha256": "9014be329472916dc4d639a35c67b83f10fa18c4db0585fbeb2e843b3b2c5b74"
+    },
+    {
+      "path": "samples/course2-index-array-001/variation-isolated-001/inputs/controller-profile.json",
+      "bytes": 575,
+      "sha256": "6e9bdf61b5b4385153893a96bb26664a220e299638c73bc115a225616d75647b"
+    },
+    {
+      "path": "samples/course2-index-array-001/variation-isolated-001/native-control-layout-off.png",
+      "bytes": 16028,
+      "sha256": "3f5aff93d5b30c6eabb6e6b8d12c42b8bfa956b71c598f254ef8a51df33b98ae"
+    },
+    {
+      "path": "samples/course2-index-array-001/variation-isolated-001/native-control-layout-on.png",
+      "bytes": 14982,
+      "sha256": "6338a1d74c0de4983cba4d7b6725e8bdec0697455a9020a80c7ca51659917780"
+    },
+    {
+      "path": "samples/course2-index-array-001/variation-isolated-001/native-still-0.png",
+      "bytes": 9709,
+      "sha256": "a4b731dbe5bd9f5ba2f6c51bcfb0e24fa380fafd75226e918e0aef6709a65964"
+    },
+    {
+      "path": "samples/course2-index-array-001/variation-isolated-001/native-still-119.png",
+      "bytes": 9709,
+      "sha256": "a4b731dbe5bd9f5ba2f6c51bcfb0e24fa380fafd75226e918e0aef6709a65964"
+    },
+    {
+      "path": "samples/course2-index-array-001/variation-isolated-001/native-still-30.png",
+      "bytes": 9982,
+      "sha256": "39c991c481d7975d1f0518830c0a98a7dcb0f4e2ef17bbc7695a8a6a92c72731"
+    },
+    {
+      "path": "samples/course2-index-array-001/variation-isolated-001/native-still-60.png",
+      "bytes": 9707,
+      "sha256": "28261b6a913fa5de44485840eb32a7b92f56782570f902ad9c32e722a3256ef6"
+    },
+    {
+      "path": "samples/course2-index-array-001/variation-isolated-001/native-still-90.png",
+      "bytes": 21578,
+      "sha256": "0bc27b2a393b0217423f176526670c3af5b2ef538a0e396eb006c1162aa3503c"
+    },
+    {
+      "path": "samples/course2-index-array-001/variation-isolated-001/plan.json",
+      "bytes": 474,
+      "sha256": "8a424bbe0b7ff581ac1f31b319bf225d1610061982c94f1c95030fc372eae514"
+    },
+    {
+      "path": "samples/course2-index-array-001/variation-isolated-001/project.aep",
+      "bytes": 412929,
+      "sha256": "2cbfef27000b8a9561f0cec18dc02e4aefed3890c24a14510f2dd90a825f0c40"
+    },
+    {
+      "path": "samples/course2-index-array-001/variation-isolated-001/quality.json",
+      "bytes": 1025,
+      "sha256": "396a0368ae0677679141da2d479b6ea161782f0ad539be42e28b7612d5a5ed7e"
+    },
+    {
+      "path": "samples/course2-index-array-001/variation-isolated-001/receipt.json",
+      "bytes": 137629,
+      "sha256": "55ba399db336dc813a87c1dd9b46847147a499ce43d5917274a11349b555ca7b"
+    },
+    {
+      "path": "samples/course2-index-array-001/variation-isolated-001/request.json",
+      "bytes": 2099,
+      "sha256": "1ef6b972a3218f16b3700d9f1f1e21569269c2c2afc24ff69856ced5d586d3d0"
+    },
+    {
       "path": "samples/course2-magnifier-001/baseline-002/assets/lens.png",
       "bytes": 50317,
       "sha256": "03f08192a0cd9ee240cb373689a5c230ef36b504ba681a1a7b768654364aac59"
@@ -13864,6 +14547,11 @@
     "samples/course2-cloud-native-001/bands-003/assets/matte.png",
     "samples/course2-cloud-native-001/cells-002/assets/matte.png",
     "samples/course2-cloud-native-001/rings-001/assets/matte.png",
+    "samples/course2-index-array-001/dart-001/assets/input.png",
+    "samples/course2-index-array-001/pointer-001/assets/input.png",
+    "samples/course2-index-array-001/pointing-composed-001/assets/input.png",
+    "samples/course2-index-array-001/triangle-001/assets/input.png",
+    "samples/course2-index-array-001/variation-isolated-001/assets/input.png",
     "samples/course2-magnifier-001/baseline-002/assets/lens.png",
     "samples/course2-magnifier-001/grid-001/assets/content.png",
     "samples/course2-magnifier-001/grid-001/assets/lens.png",
@@ -13964,5 +14652,5 @@
     "repeated native audio/video exports"
   ],
   "portability": "Native projects retain original Windows media paths. Rebuild from the bundled scripts or relink the bundled inputs/assets; historical report references may point to local-only artifacts.",
-  "total_selected_bytes": 2504008613
+  "total_selected_bytes": 2511697323
 }

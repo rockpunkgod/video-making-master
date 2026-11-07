@@ -1,0 +1,1234 @@
+{
+  "name": "COURSE_INDEX_ARRAY",
+  "animation": "index-array",
+  "width": 640,
+  "height": 480,
+  "native_width": 320,
+  "native_height": 240,
+  "fps": 25,
+  "duration": 5,
+  "layout": "controller",
+  "columns": 5,
+  "count": 25,
+  "values": [
+    54,
+    28,
+    57,
+    34
+  ],
+  "controller_profile": {
+    "duration": 5,
+    "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=21",
+    "source_interval": [
+      870,
+      875
+    ],
+    "keyframes": [
+      {
+        "time": 0.0,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.04,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.08,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.12,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.16,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.2,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.24,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.28,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.32,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.36,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.4,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.44,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.48,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.52,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.56,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.6,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.64,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.68,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.72,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.76,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.8,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.84,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.88,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.92,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 0.96,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "time": 1.0,
+        "values": [
+          64,
+          32,
+          21,
+          28
+        ]
+      },
+      {
+        "time": 1.04,
+        "values": [
+          64,
+          32,
+          21,
+          28
+        ]
+      },
+      {
+        "time": 1.08,
+        "values": [
+          64,
+          32,
+          24,
+          28
+        ]
+      },
+      {
+        "time": 1.12,
+        "values": [
+          64,
+          32,
+          24,
+          28
+        ]
+      },
+      {
+        "time": 1.16,
+        "values": [
+          64,
+          32,
+          24,
+          28
+        ]
+      },
+      {
+        "time": 1.2,
+        "values": [
+          64,
+          32,
+          25,
+          28
+        ]
+      },
+      {
+        "time": 1.24,
+        "values": [
+          64,
+          32,
+          25,
+          28
+        ]
+      },
+      {
+        "time": 1.28,
+        "values": [
+          64,
+          32,
+          28,
+          28
+        ]
+      },
+      {
+        "time": 1.32,
+        "values": [
+          64,
+          32,
+          30,
+          28
+        ]
+      },
+      {
+        "time": 1.36,
+        "values": [
+          64,
+          32,
+          30,
+          28
+        ]
+      },
+      {
+        "time": 1.4,
+        "values": [
+          64,
+          32,
+          33,
+          28
+        ]
+      },
+      {
+        "time": 1.44,
+        "values": [
+          64,
+          32,
+          33,
+          28
+        ]
+      },
+      {
+        "time": 1.48,
+        "values": [
+          64,
+          32,
+          34,
+          28
+        ]
+      },
+      {
+        "time": 1.52,
+        "values": [
+          64,
+          32,
+          38,
+          28
+        ]
+      },
+      {
+        "time": 1.56,
+        "values": [
+          64,
+          32,
+          38,
+          28
+        ]
+      },
+      {
+        "time": 1.6,
+        "values": [
+          64,
+          32,
+          41,
+          28
+        ]
+      },
+      {
+        "time": 1.64,
+        "values": [
+          64,
+          32,
+          41,
+          28
+        ]
+      },
+      {
+        "time": 1.68,
+        "values": [
+          64,
+          32,
+          41,
+          28
+        ]
+      },
+      {
+        "time": 1.72,
+        "values": [
+          64,
+          32,
+          43,
+          28
+        ]
+      },
+      {
+        "time": 1.76,
+        "values": [
+          64,
+          32,
+          43,
+          28
+        ]
+      },
+      {
+        "time": 1.8,
+        "values": [
+          64,
+          32,
+          46,
+          28
+        ]
+      },
+      {
+        "time": 1.84,
+        "values": [
+          64,
+          32,
+          46,
+          28
+        ]
+      },
+      {
+        "time": 1.88,
+        "values": [
+          64,
+          32,
+          46,
+          28
+        ]
+      },
+      {
+        "time": 1.92,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 1.96,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 2.0,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 2.04,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 2.08,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 2.12,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 2.16,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 2.2,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 2.24,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 2.28,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 2.32,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 2.36,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 2.4,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 2.44,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 2.48,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 2.52,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 2.56,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 2.6,
+        "values": [
+          64,
+          32,
+          49,
+          28
+        ]
+      },
+      {
+        "time": 2.64,
+        "values": [
+          64,
+          32,
+          49,
+          28
+        ]
+      },
+      {
+        "time": 2.68,
+        "values": [
+          64,
+          32,
+          49,
+          28
+        ]
+      },
+      {
+        "time": 2.72,
+        "values": [
+          64,
+          32,
+          49,
+          28
+        ]
+      },
+      {
+        "time": 2.76,
+        "values": [
+          64,
+          32,
+          49,
+          28
+        ]
+      },
+      {
+        "time": 2.8,
+        "values": [
+          64,
+          32,
+          49,
+          28
+        ]
+      },
+      {
+        "time": 2.84,
+        "values": [
+          64,
+          32,
+          49,
+          28
+        ]
+      },
+      {
+        "time": 2.88,
+        "values": [
+          64,
+          32,
+          49,
+          28
+        ]
+      },
+      {
+        "time": 2.92,
+        "values": [
+          64,
+          32,
+          49,
+          28
+        ]
+      },
+      {
+        "time": 2.96,
+        "values": [
+          64,
+          32,
+          49,
+          28
+        ]
+      },
+      {
+        "time": 3.0,
+        "values": [
+          64,
+          32,
+          49,
+          28
+        ]
+      },
+      {
+        "time": 3.04,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 3.08,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 3.12,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 3.16,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "time": 3.2,
+        "values": [
+          64,
+          32,
+          46,
+          28
+        ]
+      },
+      {
+        "time": 3.24,
+        "values": [
+          64,
+          32,
+          43,
+          28
+        ]
+      },
+      {
+        "time": 3.28,
+        "values": [
+          64,
+          32,
+          43,
+          28
+        ]
+      },
+      {
+        "time": 3.32,
+        "values": [
+          64,
+          32,
+          43,
+          28
+        ]
+      },
+      {
+        "time": 3.36,
+        "values": [
+          64,
+          32,
+          43,
+          28
+        ]
+      },
+      {
+        "time": 3.4,
+        "values": [
+          64,
+          32,
+          43,
+          28
+        ]
+      },
+      {
+        "time": 3.44,
+        "values": [
+          64,
+          32,
+          43,
+          28
+        ]
+      },
+      {
+        "time": 3.48,
+        "values": [
+          64,
+          32,
+          44,
+          28
+        ]
+      },
+      {
+        "time": 3.52,
+        "values": [
+          64,
+          32,
+          45,
+          28
+        ]
+      },
+      {
+        "time": 3.56,
+        "values": [
+          64,
+          32,
+          45,
+          28
+        ]
+      },
+      {
+        "time": 3.6,
+        "values": [
+          64,
+          32,
+          45,
+          28
+        ]
+      },
+      {
+        "time": 3.64,
+        "values": [
+          64,
+          32,
+          45,
+          28
+        ]
+      },
+      {
+        "time": 3.68,
+        "values": [
+          64,
+          32,
+          45,
+          28
+        ]
+      },
+      {
+        "time": 3.72,
+        "values": [
+          64,
+          32,
+          45,
+          28
+        ]
+      },
+      {
+        "time": 3.76,
+        "values": [
+          64,
+          32,
+          45,
+          28
+        ]
+      },
+      {
+        "time": 3.8,
+        "values": [
+          64,
+          32,
+          46,
+          28
+        ]
+      },
+      {
+        "time": 3.84,
+        "values": [
+          64,
+          32,
+          46,
+          28
+        ]
+      },
+      {
+        "time": 3.88,
+        "values": [
+          64,
+          32,
+          46,
+          28
+        ]
+      },
+      {
+        "time": 3.92,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 3.96,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.0,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.04,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.08,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.12,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.16,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.2,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.24,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.28,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.32,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.36,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.4,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.44,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.48,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.52,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.56,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.6,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.64,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.68,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.72,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.76,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.8,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.84,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.88,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.92,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      },
+      {
+        "time": 4.96,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      }
+    ],
+    "explicit_observations": [
+      {
+        "source_time": 870,
+        "values": [
+          64,
+          32,
+          16,
+          28
+        ]
+      },
+      {
+        "source_time": 871,
+        "values": [
+          64,
+          32,
+          21,
+          28
+        ]
+      },
+      {
+        "source_time": 872,
+        "values": [
+          64,
+          32,
+          47,
+          28
+        ]
+      },
+      {
+        "source_time": 873,
+        "values": [
+          64,
+          32,
+          49,
+          28
+        ]
+      },
+      {
+        "source_time": 874,
+        "values": [
+          64,
+          32,
+          48,
+          28
+        ]
+      }
+    ],
+    "uncertainty": "Y motion between clear UI observations inferred from visible last-row edge displacement calibrated at47; original source repaint ghosting and source-native keys not recovered. Linear replay at25fps is explicitly authored."
+  },
+  "point_profile": null,
+  "heading_offset": 0,
+  "asset": "E:/自媒体/video-skills-lab/samples/course2-index-array-001/dart-001/assets/input.png",
+  "art": {
+    "source_width": 64,
+    "source_height": 64,
+    "support_box": [
+      -4.6875,
+      -10.9375,
+      4.6875,
+      10.9375
+    ],
+    "probe": [
+      -0.1953125,
+      -0.1953125
+    ]
+  },
+  "circle_diameter": 25,
+  "color": [
+    1,
+    0,
+    0
+  ],
+  "motion_expectation": "required",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=21",
+  "inferred": [
+    "Final circle diameter25 inferred from400percent preview, precise source mask vertices/size unread",
+    "Pure red approximates source red; exact final picker RGB unread",
+    "640x480continuous output wrapper is display adaptation; native320x240square25fps10sec explicitly shown",
+    "Controller/target keyframes are explicit manual replay or new variation, not course-authored timeline keys",
+    "Localized Slider uses stable property slot1; source English Slider display spelling is not assumed on Chinese host"
+  ]
+}

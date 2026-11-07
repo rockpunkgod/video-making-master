@@ -1,0 +1,93 @@
+{
+  "name": "COURSE_INDEX_ARRAY",
+  "animation": "index-array",
+  "width": 640,
+  "height": 480,
+  "native_width": 320,
+  "native_height": 240,
+  "fps": 25,
+  "duration": 4.8,
+  "layout": "controller",
+  "columns": 4,
+  "count": 18,
+  "values": [
+    54,
+    28,
+    57,
+    34
+  ],
+  "controller_profile": {
+    "duration": 4.8,
+    "source": "Self-created parameter variation, not a course timeline",
+    "keyframes": [
+      {
+        "time": 0,
+        "values": [
+          70,
+          35,
+          44,
+          22
+        ]
+      },
+      {
+        "time": 1.6,
+        "values": [
+          60,
+          30,
+          39,
+          18
+        ]
+      },
+      {
+        "time": 3.2,
+        "values": [
+          66,
+          33,
+          45,
+          24
+        ]
+      },
+      {
+        "time": 4.76,
+        "values": [
+          70,
+          35,
+          44,
+          22
+        ]
+      }
+    ]
+  },
+  "point_profile": null,
+  "heading_offset": 0,
+  "asset": "E:/自媒体/video-skills-lab/samples/course2-index-array-001/variation-isolated-001/assets/input.png",
+  "art": {
+    "source_width": 64,
+    "source_height": 64,
+    "support_box": [
+      -4.296875,
+      -10.9375,
+      4.296875,
+      10.9375
+    ],
+    "probe": [
+      -0.1953125,
+      -0.1953125
+    ]
+  },
+  "circle_diameter": 25,
+  "color": [
+    1,
+    0,
+    0
+  ],
+  "motion_expectation": "required",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=21",
+  "inferred": [
+    "Final circle diameter25 inferred from400percent preview, precise source mask vertices/size unread",
+    "Pure red approximates source red; exact final picker RGB unread",
+    "640x480continuous output wrapper is display adaptation; native320x240square25fps10sec explicitly shown",
+    "Controller/target keyframes are explicit manual replay or new variation, not course-authored timeline keys",
+    "Localized Slider uses stable property slot1; source English Slider display spelling is not assumed on Chinese host"
+  ]
+}

@@ -1,0 +1,4561 @@
+{
+  "status": "passed",
+  "checks": {
+    "full_movie": true,
+    "all_frame_pixel_envelope_and_probes": true,
+    "native_checkpoint_rgb": true,
+    "native_formula": true,
+    "profile_replay": true,
+    "composed_rotation": true,
+    "native_source_geometry": true,
+    "native_reopened": true,
+    "all_unparented_2d": true,
+    "controller_last": true,
+    "native_edit": true,
+    "actual_feedback_pixels": true,
+    "media": true
+  },
+  "video_sha256": "1fbf10e32b05b7022991d230aa0fdbd0217fe90d8521bf5678bfc134a4ff4e9e",
+  "frames": 250,
+  "max_bbox_error_pixels": 1,
+  "visible_probes_checked": 5000,
+  "composed_pixel_axes_checked": 0,
+  "max_axis_error_degrees": null,
+  "max_native_formula_error": 0,
+  "max_profile_error": 0,
+  "max_rotation_error": 0,
+  "native_offcanvas_centers_counted": 1250,
+  "feedback_global_mean_rgb_difference": 1.0396831597222222,
+  "all_frame_pixels": [
+    {
+      "frame": 0,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 1,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 2,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 3,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 4,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 5,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 6,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 7,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 8,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 9,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 10,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 11,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 12,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 13,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 14,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 15,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 16,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 17,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 18,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 19,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 20,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 21,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 22,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 23,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 24,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 25,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 26,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 27,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 28,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 29,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 30,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 31,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 32,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 33,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 34,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 35,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 36,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 37,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 38,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 39,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 40,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 41,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 42,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 43,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 44,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 45,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 46,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 47,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 48,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 49,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 50,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 51,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 52,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 53,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 54,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 55,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 56,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 57,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 58,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 59,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 60,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 61,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 62,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 63,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 64,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 65,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 66,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 67,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 68,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 69,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 70,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 71,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 72,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 73,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 74,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 75,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 76,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 77,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 78,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 79,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 80,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 81,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 82,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 83,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 84,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 85,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 86,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 87,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 88,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 89,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 90,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 91,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 92,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 93,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 94,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 95,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 96,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 97,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 98,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 99,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 100,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 101,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 102,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 103,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 104,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 105,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 106,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 107,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 108,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 109,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 110,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 111,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 112,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 113,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 114,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 115,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 116,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 117,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 118,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 119,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 120,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 121,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 122,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 123,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 124,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 125,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 126,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 127,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 128,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 129,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 130,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 131,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 132,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 133,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 134,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 135,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 136,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 137,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 138,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 139,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 140,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 141,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 142,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 143,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 144,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 145,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 146,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 147,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 148,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 149,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 150,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 151,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 152,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 153,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 154,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 155,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 156,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 157,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 158,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 159,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 160,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 161,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 162,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 163,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 164,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 165,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 166,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 167,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 168,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 169,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 170,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 171,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 172,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 173,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 174,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 175,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 176,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 177,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 178,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 179,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 180,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 181,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 182,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 183,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 184,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 185,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 186,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 187,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 188,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 189,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 190,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 191,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 192,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 193,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 194,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 195,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 196,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 197,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 198,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 199,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 200,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 201,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 202,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 203,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 204,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 205,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 206,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 207,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 208,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 209,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 210,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 211,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 212,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 213,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 214,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 215,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 216,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 217,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 218,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 219,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 220,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 221,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 222,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 223,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 224,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 225,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 226,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 227,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 228,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 229,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 230,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 231,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 232,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 233,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 234,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 235,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 236,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 237,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 238,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 239,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 240,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 241,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 242,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 243,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 244,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 245,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 246,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 247,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 248,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    },
+    {
+      "frame": 249,
+      "expected_bbox": [
+        27,
+        21,
+        509,
+        480
+      ],
+      "observed_bbox": [
+        26,
+        20,
+        510,
+        480
+      ],
+      "bbox_error": 1,
+      "visible_probes": 20,
+      "missed_probes": 0
+    }
+  ],
+  "native_checkpoint_rgb": [
+    {
+      "frame": 0,
+      "rgb_mae": 0.7754058159722222
+    },
+    {
+      "frame": 125,
+      "rgb_mae": 0.7754286024305556
+    },
+    {
+      "frame": 187,
+      "rgb_mae": 0.7754286024305556
+    },
+    {
+      "frame": 249,
+      "rgb_mae": 0.7752799479166667
+    },
+    {
+      "frame": 62,
+      "rgb_mae": 0.7754286024305556
+    }
+  ],
+  "failures": [],
+  "scope": "Course index/ceil/column/four-slider behavior and actual editable outputs; source mask size/color inferred, manual replay/UI ghost timing not recovered",
+  "limitations": [
+    "Envelope/probe QA is not whole-image source pixel identity or aesthetic review",
+    "Positions remain unclamped; overlap/cropping in source is preserved",
+    "Controller replay includes explicitly inferred edge-motion values, not recovered source keyframes",
+    "Optional course33pointing/PNG material are explicit composition variants"
+  ]
+}

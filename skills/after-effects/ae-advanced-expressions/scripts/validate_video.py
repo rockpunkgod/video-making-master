@@ -32,9 +32,19 @@ def validate(path,expected):
         still_hashes=[hashlib.sha256(p.read_bytes()).hexdigest() for p in stills if p.is_file()]
         native_receipt=json.loads((path.parent/'receipt.json').read_text(encoding='utf-8-sig'))
         native_text_stable=bool(native_receipt.get('text_layers')) and all(x['unique_frame_strings']==1 and x['consecutive_changes']==0 for x in native_receipt['text_layers'])
+        native_transform_stable=False
+        if expected.get('animation')=='index-array' and native_receipt.get('static_evidence',{}).get('kind')=='index-array-transform':
+            # A non-text static source must prove its own actual native transforms,
+            # zero authored animation keys, and five independently exported PNGs.
+            frames=round(expected['duration']*expected['fps']);indices=[0,frames//4,frames//2,frames*3//4,frames-1]
+            stills=[path.parent/f'native-still-{i}.png' for i in indices]
+            still_hashes=[hashlib.sha256(p.read_bytes()).hexdigest() for p in stills if p.is_file()]
+            trace=native_receipt.get('trace',[])
+            signatures={json.dumps(dict(values=x['values'],target=x['target'],nodes=x['nodes']),sort_keys=True) for x in trace}
+            native_transform_stable=(len(trace)==frames and native_receipt.get('native_frames_checked')==frames and native_receipt.get('motion_keyframes')==0 and len(signatures)==1 and native_receipt.get('static_evidence',{}).get('frames')==indices)
         native_png_stable=len(still_hashes)==5 and len(set(still_hashes))==1
-        static_result={'comparison_frames':len(values),'max_mean_luma_difference':max(values) if values else None,'max_allowed_mean_luma_difference':0.1,'native_png_sha256':still_hashes,'native_pngs_identical':native_png_stable,'native_text_all150_frames_identical':native_text_stable,'codec_tolerance_reason':'The gate requires five byte-identical native PNGs AND identical native text at all150 samples. The0.1 video-codec tolerance was calibrated on independent byte-identical native exports; it cannot pass without that evidence.'}
-        temporal_pass=diff.returncode==0 and len(values)==len(rows)-1 and max(values,default=999)<=0.1 and native_png_stable and native_text_stable
+        static_result={'comparison_frames':len(values),'max_mean_luma_difference':max(values) if values else None,'max_allowed_mean_luma_difference':0.1,'native_png_sha256':still_hashes,'native_pngs_identical':native_png_stable,'native_text_all150_frames_identical':native_text_stable,'native_index_array_all_frames_identical':native_transform_stable,'codec_tolerance_reason':'The gate requires five byte-identical native PNGs AND either the original identical-native-text evidence or the explicitly scoped index-array native-transform/zero-key evidence. The0.1 video-codec tolerance was calibrated on independent byte-identical native exports; it cannot pass without that evidence.'}
+        temporal_pass=diff.returncode==0 and len(values)==len(rows)-1 and max(values,default=999)<=0.1 and native_png_stable and (native_text_stable or native_transform_stable)
     else:temporal_pass=unique>1
     checks={'full_decode':decode.returncode==0 and not decode.stderr.strip(),'frame_hash_decode':hashes.returncode==0,'expected_temporal_behavior':temporal_pass,
             'width':s['width']==expected['width'],'height':s['height']==expected['height'],

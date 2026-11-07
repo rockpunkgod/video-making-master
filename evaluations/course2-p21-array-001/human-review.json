@@ -1,0 +1,23 @@
+[
+  {
+    "case": "fixed-002",
+    "video_sha256": "d25000fd3643ccde2b774c7c1c3beb29ebc00bf090027ecbaa02193c5d854e8c",
+    "status": "pending",
+    "scope": "Overall position, spacing changes and cropping only; inferred diameter/RGB and replay/UI timing limitations remain",
+    "comparison": "cache/reviews/course2-p21-array-001/comparison.mp4"
+  },
+  {
+    "case": "controller-final-001",
+    "video_sha256": "1fbf10e32b05b7022991d230aa0fdbd0217fe90d8521bf5678bfc134a4ff4e9e",
+    "status": "pending",
+    "scope": "Overall position, spacing changes and cropping only; inferred diameter/RGB and replay/UI timing limitations remain",
+    "comparison": "cache/reviews/course2-p21-array-001/comparison.mp4"
+  },
+  {
+    "case": "controller-replay-001",
+    "video_sha256": "ad118c0c8459c2108a454d5006b9d49b980eeb951917f3799b0a72aaaf2120d5",
+    "status": "pending",
+    "scope": "Overall position, spacing changes and cropping only; inferred diameter/RGB and replay/UI timing limitations remain",
+    "comparison": "cache/reviews/course2-p21-array-001/comparison.mp4"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "duration": 4.8,
+  "source": "Self-created parameter variation, not a course timeline",
+  "keyframes": [
+    {
+      "time": 0,
+      "values": [
+        70,
+        35,
+        44,
+        22
+      ]
+    },
+    {
+      "time": 1.6,
+      "values": [
+        60,
+        30,
+        39,
+        18
+      ]
+    },
+    {
+      "time": 3.2,
+      "values": [
+        66,
+        33,
+        45,
+        24
+      ]
+    },
+    {
+      "time": 4.76,
+      "values": [
+        70,
+        35,
+        44,
+        22
+      ]
+    }
+  ]
+}
