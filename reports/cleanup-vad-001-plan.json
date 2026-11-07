@@ -1,0 +1,65 @@
+{
+  "status": "planned",
+  "scopes": [
+    "cache/vad-source-001",
+    "cache/vad-isolated-001"
+  ],
+  "published_commit": "c7c65f80f1e6841aef7690ba7255c5462cbfdab4",
+  "manifest_sha256": "6211fc09079bdad4e07c0c2816612a89589d0b51304362ff2112470451188036",
+  "files": 12,
+  "bytes": 104040,
+  "keep_active": [],
+  "protected_delivery_files": 2898,
+  "skipped_links": [],
+  "targets": [
+    {
+      "path": "cache/vad-isolated-001/video-art-direction/agents/openai.yaml",
+      "bytes": 337
+    },
+    {
+      "path": "cache/vad-isolated-001/video-art-direction/examples/resonance-brief.json",
+      "bytes": 6526
+    },
+    {
+      "path": "cache/vad-isolated-001/video-art-direction/examples/resonance-current-review-brief.json",
+      "bytes": 3700
+    },
+    {
+      "path": "cache/vad-isolated-001/video-art-direction/references/direction-and-brief.md",
+      "bytes": 2764
+    },
+    {
+      "path": "cache/vad-isolated-001/video-art-direction/references/execution.md",
+      "bytes": 2433
+    },
+    {
+      "path": "cache/vad-isolated-001/video-art-direction/references/motion-and-sound-review.md",
+      "bytes": 3252
+    },
+    {
+      "path": "cache/vad-isolated-001/video-art-direction/references/source-translation.md",
+      "bytes": 2376
+    },
+    {
+      "path": "cache/vad-isolated-001/video-art-direction/scripts/__pycache__/art_direction.cpython-313.pyc",
+      "bytes": 31391
+    },
+    {
+      "path": "cache/vad-isolated-001/video-art-direction/scripts/art_direction.py",
+      "bytes": 18224
+    },
+    {
+      "path": "cache/vad-isolated-001/video-art-direction/SKILL.md",
+      "bytes": 4095
+    },
+    {
+      "path": "cache/vad-isolated-001/video-art-direction/tests/test_evidence_gate.py",
+      "bytes": 7861
+    },
+    {
+      "path": "cache/vad-source-001/read-evidence.json",
+      "bytes": 21081
+    }
+  ],
+  "authorization": "User requested keeping only deliverables after library publication; scope restricted to this independent lab"
+}
