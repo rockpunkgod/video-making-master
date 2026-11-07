@@ -337,9 +337,9 @@
     },
     {
       "name": "ae-advanced-expressions",
-      "version": "0.14.1",
+      "version": "0.14.2",
       "status": "candidate",
-      "execution_status": "fourteen_units_with_index_array_controller_extension8cases1245frames_crosscourse_pointing_composition_human_review_pending",
+      "execution_status": "fourteen_units_with_course22_native_Write-on_wave_extension9cases2200frames_threePNG_and_isolated_call_passed_human_review_pending",
       "path": "skills/after-effects/ae-advanced-expressions",
       "dependencies": [
         "After Effects AE26 Chinese Windows tested",
@@ -369,7 +369,8 @@
         "Numbers效果if/else原始value驱动左锚点进度条、三键pingpong标题和独立调整层固定色场候选",
         "透明云层Alpha采样驱动耀斑亮度，内置LensFlare明确变体；原课OpticalFlares缺失未完成",
         "原法sub/atan2弧度转角度驱动单体与index阵列朝向目标；字母−90、线条0和明确PNG朝向适配",
-        "同一阵列布局单元的四滑杆间距/初始值控制、保持裁切与和目标朝向组合"
+        "同一阵列布局单元的四滑杆间距/初始值控制、保持裁切与和目标朝向组合",
+        "Write-on正弦相加、相乘、出入点linear包络和显式推算Slider三键；同原生笔迹累积单元的课程实现"
       ],
       "sources": [
         {
@@ -385,6 +386,7 @@
           "id": "BV1c7GTzMEh5",
           "parts": [
             21,
+            22,
             23,
             24,
             25,
@@ -415,7 +417,8 @@
         "第31节：5例1750帧/三新PNG/独立调用通过；Gulim与AdobeHeitiStd缺失，实际替代字体和111/130字形补偿、部分布局及调色身份有适配边界；整体反馈待答",
         "第32节：5例850帧/三新遮挡图/独立复制调用为内置LensFlare明确变体；原课OpticalFlares和GoldenSun缺失未制作，光学身份及人工反馈未验",
         "第33节：7例1260帧、三新PNG与独立6×4变参通过；源手动拖动的测量重放、a.ai/字体缺失与画布/背景推定明确保留，两基线整体反馈待答",
-        "第21节同原理合并到阵列/自由指向：8例1245帧/三素材/独立变参/组合通过；圆形尺寸与RGB推定，源手动控件重放由画面推算，三基线反馈待答"
+        "第21节同原理合并到阵列/自由指向：8例1245帧/三素材/独立变参/组合通过；圆形尺寸与RGB推定，源手动控件重放由画面推算，三基线反馈待答",
+        "第22节：9例2200帧/三新暗底PNG/独立复制变参通过；正方形像素推定、Slider键值重建及原片手动时序未同步；单点点密度身份未证实，四段整体反馈待答"
       ],
       "evidence_by_unit": {
         "threshold": "evaluations/course-p08-suite-001/summary.json",
@@ -428,7 +431,7 @@
         "scroll_ui": "evaluations/course2-p26-p27-scroll-001/summary.json",
         "rotation_slider": "evaluations/course2-p28-rotation-study-001/summary.json",
         "orbit_projections": "evaluations/course2-p29-orbit-001/summary.json",
-        "spiral_writeon": "evaluations/course2-p30-spiral-001/summary.json",
+        "spiral_writeon": "evaluations/course2-p22-wave-001/merged-writeon.json",
         "loading_progress": "evaluations/course2-p31-progress-001/summary.json",
         "cloud_occlusion_native_variant": "evaluations/course2-p32-cloud-001/summary.json",
         "free_pointing": "evaluations/course2-p21-array-001/merged-array-pointing.json"

@@ -1,0 +1,58 @@
+{
+  "source_url": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=22",
+  "left": "Real cropped original recording",
+  "right": "Actual native AE movies5..10s; no frozen reference replacement",
+  "segments": [
+    {
+      "case": "sum-001",
+      "source_start": 860,
+      "source_end": 865,
+      "crop": [
+        543,
+        145,
+        342,
+        274
+      ]
+    },
+    {
+      "case": "product-002",
+      "source_start": 1088,
+      "source_end": 1093,
+      "crop": [
+        574,
+        148,
+        340,
+        272
+      ]
+    },
+    {
+      "case": "decay-001",
+      "source_start": 1395,
+      "source_end": 1400,
+      "crop": [
+        574,
+        148,
+        340,
+        272
+      ]
+    },
+    {
+      "case": "slider-inferred-001",
+      "source_start": 1520,
+      "source_end": 1525,
+      "crop": [
+        574,
+        148,
+        340,
+        272
+      ]
+    }
+  ],
+  "synchronization": "Not synchronized; source manual scrub/repaint lags, right authored continuous draw",
+  "limits": [
+    "Original UI selections/cursor/ghosts retained in original crop",
+    "Slider profile is inferred, not source key recovery",
+    "Local review originals excluded from distribution"
+  ],
+  "selection_note": "Rejected18:05-18:10 review interval because transient100% viewer zoom; selected18:08-18:13 with all125cropped frames inspected"
+}

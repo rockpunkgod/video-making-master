@@ -1,0 +1,23 @@
+{
+  "status": "measured_not_aesthetic_acceptance",
+  "source_timestamp": "18:08",
+  "source_visible_comp_time": "00:07:11 at25fps",
+  "native_movie_frame": 186,
+  "source_crop": [
+    574,
+    148,
+    340,
+    272
+  ],
+  "source_white_pixels": 1397,
+  "native_white_pixels": 2463,
+  "source_to_native_within2px": 0.9556191839656406,
+  "native_to_source_within2px": 0.6402760860738936,
+  "source_to_native_median_px": 0.0,
+  "native_to_source_median_px": 1.0,
+  "limits": [
+    "One source checkpoint only; source pointer/compression/repaint retained",
+    "Crop measured from viewer; square pixels inferred",
+    "No whole-course or continuous timing acceptance"
+  ]
+}

@@ -7,6 +7,15 @@ from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 CASES=[
+ 'samples/course2-wave-001/sum-001',
+ 'samples/course2-wave-001/sine-001',
+ 'samples/course2-wave-001/product-002',
+ 'samples/course2-wave-001/decay-001',
+ 'samples/course2-wave-001/slider-inferred-001',
+ 'samples/course2-wave-001/grid-001',
+ 'samples/course2-wave-001/circuit-001',
+ 'samples/course2-wave-001/gradient-001',
+ 'samples/course2-wave-001/variation-isolated-002',
  'samples/course2-index-array-001/fixed-002',
  'samples/course2-index-array-001/controller-final-001',
  'samples/course2-index-array-001/controller-replay-001',
@@ -159,7 +168,7 @@ for name in CASES:
  for path in folder.rglob('*'):
   if not path.is_file():continue
   rel=path.relative_to(folder)
-  if path.name=='native-progress.json':continue
+  if path.name in {'native-progress.json','wrong-product-negative.json','frozen-negative.json'}:continue
   if rel.parts[0] in {'inputs','assets'}:
    if path.suffix.lower() in {'.aep','.png','.jpg','.jpeg','.wav','.mp3','.mp4','.mov','.json','.md'}:chosen.append(path)
   elif len(rel.parts)==1 and (path.name in {'project.aep','project.prproj','final.mp4','native-mix.wav','credits.md'} or path.suffix.lower()=='.json'):
@@ -175,7 +184,7 @@ for path in (ROOT/'evaluations').rglob('*'):
 # These are necessary inputs, not disposable renders. Read the actual saved
 # Adobe dependencies before cleanup instead of guessing from folder names.
 supplemental=[]
-for name in ['native-media-dependencies.json','pr-media-dependencies.json','native-media-dependencies-p15.json','native-media-dependencies-p15-polar.json','native-media-dependencies-p15-streaks.json','native-media-dependencies-p15-assembly.json','native-media-dependencies-p16-core.json','native-media-dependencies-p16-noise.json','native-media-dependencies-p16-style.json','native-media-dependencies-p17-tunnel.json','native-media-dependencies-p17-streak.json','native-media-dependencies-p17-lines.json','native-media-dependencies-p18-proxies.json','native-media-dependencies-final-reconstruction.json','native-media-dependencies-final-reconstruction-005.json','native-media-dependencies-course2-spring.json','native-media-dependencies-course2-butterfly.json','native-media-dependencies-course2-magnifier.json','native-media-dependencies-course2-scroll.json','native-media-dependencies-course2-rotation-final.json','native-media-dependencies-course2-orbit.json','native-media-dependencies-course2-spiral.json','native-media-dependencies-course2-progress.json','native-media-dependencies-course2-cloud.json','native-media-dependencies-course2-pointing.json','native-media-dependencies-course2-index-array.json']:
+for name in ['native-media-dependencies.json','pr-media-dependencies.json','native-media-dependencies-p15.json','native-media-dependencies-p15-polar.json','native-media-dependencies-p15-streaks.json','native-media-dependencies-p15-assembly.json','native-media-dependencies-p16-core.json','native-media-dependencies-p16-noise.json','native-media-dependencies-p16-style.json','native-media-dependencies-p17-tunnel.json','native-media-dependencies-p17-streak.json','native-media-dependencies-p17-lines.json','native-media-dependencies-p18-proxies.json','native-media-dependencies-final-reconstruction.json','native-media-dependencies-final-reconstruction-005.json','native-media-dependencies-course2-spring.json','native-media-dependencies-course2-butterfly.json','native-media-dependencies-course2-magnifier.json','native-media-dependencies-course2-scroll.json','native-media-dependencies-course2-rotation-final.json','native-media-dependencies-course2-orbit.json','native-media-dependencies-course2-spiral.json','native-media-dependencies-course2-progress.json','native-media-dependencies-course2-cloud.json','native-media-dependencies-course2-pointing.json','native-media-dependencies-course2-index-array.json','native-media-dependencies-course2-wave.json']:
  audit=ROOT/'reports'/name
  if not audit.is_file():continue
  data=json.loads(audit.read_text(encoding='utf-8-sig'))

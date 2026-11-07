@@ -1,0 +1,18 @@
+{
+  "status": "agent_checkpoint_review_only",
+  "selected_native_pngs_viewed": 63,
+  "additional_rejected_or_duplicate_pngs_viewed": 14,
+  "method": "Nine selected contact sheets, actual native PNG exports at five times plus true effect-off/on",
+  "findings": [
+    "White traces accumulate with distinct sum/product envelopes",
+    "Product002 preserves point stamps after actualsource0.003 correction",
+    "Decay amplitude reduces spatially and slider first grows then decays",
+    "Three self-created dark PNG materials retain imagery under white traces"
+  ],
+  "not_proven": [
+    "Continuous aesthetics",
+    "Exact source slider keys",
+    "Full-frame source identity"
+  ],
+  "human": "pending"
+}

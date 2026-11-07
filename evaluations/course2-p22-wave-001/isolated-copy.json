@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "executed_paths": [
+    "cache\\isolated-wave-skill-001\\ae-advanced-expressions\\scripts\\build_wave_writeon.py",
+    "cache\\isolated-wave-skill-001\\ae-advanced-expressions\\scripts\\run_ae.py",
+    "cache\\isolated-wave-skill-001\\ae-advanced-expressions\\scripts\\render_ae.py"
+  ],
+  "script_hashes": {
+    "build_wave_writeon.py": "9806335a101fd4b2202783c86c18b4b6adf0653f24e357014d4abc4040fd48c7",
+    "render_ae.py": "8c3f18e4571c832739f0455de2bdb37d8fdf2b94a9e03147da5f9cbd7a75c4ad",
+    "run_ae.py": "75180dab8b906d34616e109b403675b1a0f3ee6a13eb735b000ae32f3d10e874",
+    "validate_wave_writeon.py": "e7b747690b137aca8bab29326bae59d60da3a291bc9993b94d93ab9bc4c98531",
+    "wave_writeon.jsx": "b1fa18f4fe39666fd5569ca0b59577df76a4e5e86bd63e007f1e4956be5c8897"
+  },
+  "case": "samples/course2-wave-001/variation-isolated-002",
+  "source_scope": "Entire Skill copied; builder refreshed after course product spacing corrected; actual isolated variation rerun"
+}

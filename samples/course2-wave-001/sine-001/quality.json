@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\course2-wave-001\\sine-001\\final.mp4",
+  "sha256": "0766b11091426b601a4dd8da75a9fef01a098f8a22eadc5b34bbba287252477f",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 720,
+    "height": 576,
+    "fps": 25.0,
+    "duration": 10.0,
+    "decoded_frames": 250,
+    "unique_thumbnail_frames": 250
+  },
+  "motion_expectation": "required",
+  "static_pixel_check": null,
+  "audio_sync": "not_applicable",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": "",
+  "wave_quality": "wave-quality.json",
+  "course_fidelity": "course22_native_Write-on_original_formula_stages_pending_review",
+  "delivery_status": "candidate_unaccepted"
+}

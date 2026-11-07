@@ -1,0 +1,19 @@
+{
+  "skill": "ae-advanced-expressions",
+  "unit": "writeon_history",
+  "branch": "course22-wave-composition",
+  "status": "candidate",
+  "source": {
+    "id": "BV1c7GTzMEh5",
+    "page": 22,
+    "url": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=22"
+  },
+  "steps": [
+    "Create black full-frame Solid or copy declared material",
+    "Apply native Write-on and reviewed course expression",
+    "Save/reopen/edit brush/restore",
+    "Trace native formula and export effect on/off PNGs",
+    "Render actual AE frames and check retained history pixels"
+  ],
+  "course_fidelity": "original expressions; explicit adapters and source uncertainty retained"
+}

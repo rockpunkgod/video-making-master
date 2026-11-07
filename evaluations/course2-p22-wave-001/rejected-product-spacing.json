@@ -1,0 +1,10 @@
+{
+  "status": "excluded_course_fidelity_mismatch",
+  "case": "product-001",
+  "native_build_succeeded": true,
+  "native_video_succeeded": true,
+  "old_native_spacing": 0.00100708007812,
+  "old_video_sha256": "bca1c9eaf1d3e5d2e2af5670fdb7f08e834ec9fb619039d1c524a99db497abe8",
+  "reason": "Editing field0.00 was not final source value.18:02..18:10 actual refreshedUI shows0.003. Rereproduced source inproduct002. Native technical pass did not establish course fidelity.",
+  "replacement": "product-002"
+}

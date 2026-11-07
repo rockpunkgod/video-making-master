@@ -1,9 +1,11 @@
 ---
 name: ae-advanced-expressions
-description: 使用AE表达式制作显隐、三维布局、数字、文字、弹簧、双翅和放大镜；纵横滑页与滑块三维旋转、圆周投影和自转、Write-on螺旋累积、Numbers进度联动和透明云层Alpha采样耀斑明确变体，以及单体/阵列自由指向。各分支保留明确的候选验证边界。
+description: 使用AE表达式制作显隐、三维布局、数字、文字、弹簧、双翅和放大镜；纵横滑页与滑块三维旋转、圆周投影和自转、Write-on螺旋累积、Numbers进度联动和透明云层Alpha采样耀斑明确变体，以及单体/阵列自由指向、Write-on正弦波形叠加与包络。各分支保留明确的候选验证边界。
 ---
 
-0.14.1为candidate。十四个单元有各自原生证据；第21节四滑杆实现与第33节共用阵列布局单元，保留原法差异，整体反馈待答。第32节原版OpticalFlares未制作，不能以变体代替原版验收。不能泛称已掌握全部高级表达式。第10节旧002–005失败保留；replay006收到“这次方向对，可以保留”，仅绑定006方向与节奏，不代表绝对种子、逐字数字或全部泛化通过。
+0.14.2为candidate。十四个单元有各自原生证据；第21节四滑杆实现与第33节共用阵列布局单元，保留原法差异，整体反馈待答。第32节原版OpticalFlares未制作，不能以变体代替原版验收。不能泛称已掌握全部高级表达式。第10节旧002–005失败保留；replay006收到“这次方向对，可以保留”，仅绑定006方向与节奏，不代表绝对种子、逐字数字或全部泛化通过。
+
+第22节波形绘制先读references/wave-writeon.md，用scripts/build_wave_writeon.py选择sine/sum/product/decay或带明确Profile的slider，再经run_ae.py/render_ae.py实际制作。与第30节共用Write-on累积单元，保留相加、相乘、入出点linear和滑杆的课程差异；不替换为平滑矢量线或弹簧。参数、暗底PNG范围、推算键值与候选验证见tests/wave-writeon-results.json。
 
 阵列的四滑杆实现先读references/index-array.md，使用有Pillow的既有Python调用scripts/build_index_array.py及同目录run_ae.py/render_ae.py。保持满画幅红Solid/圆形ADDMask、duplicate/index/ceil、底部禁用Null和四控制器，不自动居中或裁切修复。8例1245帧含三素材、独立变参和第33节朝向组合；固定/控件末态是原课静态布局，控件变化为明确推算重放，细节见tests/index-array-results.json。
 

@@ -1,0 +1,31 @@
+{
+  "status": "candidate",
+  "unit": "spiral_writeon",
+  "reason": "One native Write-on history mechanism; preserve spiral radius/ellipse and wave sum/product/envelope as distinct parameterized implementations",
+  "implementations": [
+    {
+      "source": "BV1c7GTzMEh5?p=30",
+      "evidence": "evaluations/course2-p30-spiral-001/summary.json",
+      "cases": 7,
+      "frames": 1356
+    },
+    {
+      "source": "BV1c7GTzMEh5?p=22",
+      "evidence": "evaluations/course2-p22-wave-001/summary.json",
+      "cases": 9,
+      "frames": 2200
+    }
+  ],
+  "total_cases": 16,
+  "total_frames": 3556,
+  "limits": [
+    "Source square-pixel identity inferred; enabled course stages isolated from disabled old demonstration layers",
+    "Source manual timeline scrubbing and UI repaint not exactly synchronized with continuous native movies",
+    "Slider three-key envelope rebuilt from visible samples: exact initial/key times and source interpolation not recovered",
+    "One product source checkpoint measured95.56% source-to-native but64.03% native-to-source white pixels within2 source pixels; not full pixel identity or aesthetic acceptance",
+    "All modes remain candidate pending case-specific human feedback; no inference from prior chapter approvals",
+    "Video-only second half has sparse global views, not full technical duplicate coverage",
+    "Caller-material adapter tested only with three dark opaque720x576PNG fixtures",
+    "Course30Particular3Dportion remains blocked; merging does not clear it"
+  ]
+}

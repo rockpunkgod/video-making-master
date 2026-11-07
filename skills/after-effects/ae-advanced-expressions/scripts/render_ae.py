@@ -10,6 +10,13 @@ from launch_adobe import child_environment
 
 def check_output(root,cfg):
     report=validate(root/'final.mp4',cfg)
+    if cfg.get('animation')=='wave-writeon':
+        from validate_wave_writeon import validate as wave_validate
+        audit=wave_validate(root)
+        report['wave_quality']='wave-quality.json'
+        report['course_fidelity']='course22_native_Write-on_original_formula_stages_pending_review'
+        report['delivery_status']='candidate_unaccepted'
+        if audit['status']!='passed':report['status']='failed'
     if cfg.get('animation')=='index-array':
         from validate_index_array import validate as array_validate
         audit=array_validate(root)

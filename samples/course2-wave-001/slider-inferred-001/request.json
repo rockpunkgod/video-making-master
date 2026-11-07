@@ -1,0 +1,45 @@
+{
+  "name": "COURSE22_SLIDER",
+  "animation": "wave-writeon",
+  "width": 720,
+  "height": 576,
+  "fps": 25,
+  "duration": 10,
+  "mode": "slider",
+  "rate_a": 4,
+  "amplitude_a": 80,
+  "rate_b": 20,
+  "amplitude_b": 20,
+  "speed": 75,
+  "offset_y": 288,
+  "brush_size": 2,
+  "hardness": 0.79,
+  "requested_spacing": 0.01,
+  "asset": null,
+  "slider_profile": [
+    {
+      "time": 0,
+      "value": 100
+    },
+    {
+      "time": 2.08,
+      "value": 275.01
+    },
+    {
+      "time": 9.96,
+      "value": 0
+    }
+  ],
+  "motion_expectation": "required",
+  "source": {
+    "id": "BV1c7GTzMEh5",
+    "page": 22,
+    "url": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=22"
+  },
+  "limits": [
+    "Square pixels inferred; source720x576/25fps/10s and expressions observed",
+    "Enabled course stage isolated into its own editable project; old disabled demonstration stages omitted",
+    "No exact source project or full-frame aesthetic identity claim",
+    "Slider profile is caller-authored or explicitly source-inferred, never recovered source keys"
+  ]
+}

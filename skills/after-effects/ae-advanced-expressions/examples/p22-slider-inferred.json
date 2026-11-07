@@ -1,0 +1,19 @@
+{
+  "source": "BV1c7GTzMEh5 p22 25:08/25:14/25:16/25:20/25:24",
+  "status": "inferred_not_recovered_source_keys",
+  "keyframes": [
+    {
+      "time": 0,
+      "value": 100
+    },
+    {
+      "time": 2.08,
+      "value": 275.01
+    },
+    {
+      "time": 9.96,
+      "value": 0
+    }
+  ],
+  "evidence": "Three source diamond keys; peak275.01 near2:02/2:03,zero9:24,187.71 at1:01 and14.03 at9:14. Timing/initial100 reconstructed, not exact source key readback."
+}

@@ -1,0 +1,32 @@
+{
+  "name": "COURSE22_SUM",
+  "animation": "wave-writeon",
+  "width": 720,
+  "height": 576,
+  "fps": 25,
+  "duration": 10,
+  "mode": "sum",
+  "rate_a": 3,
+  "amplitude_a": 80,
+  "rate_b": 20,
+  "amplitude_b": 20,
+  "speed": 60,
+  "offset_y": 288,
+  "brush_size": 2,
+  "hardness": 0.79,
+  "requested_spacing": 0.01,
+  "asset": "E:/自媒体/video-skills-lab/samples/course2-wave-001/circuit-001/assets/material.png",
+  "slider_profile": null,
+  "motion_expectation": "required",
+  "source": {
+    "id": "BV1c7GTzMEh5",
+    "page": 22,
+    "url": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=22"
+  },
+  "limits": [
+    "Square pixels inferred; source720x576/25fps/10s and expressions observed",
+    "Enabled course stage isolated into its own editable project; old disabled demonstration stages omitted",
+    "No exact source project or full-frame aesthetic identity claim",
+    "Caller dark PNG is an explicit OnOriginalImage material variant, original course uses black Solid"
+  ]
+}
