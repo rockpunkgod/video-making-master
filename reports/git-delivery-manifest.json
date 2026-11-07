@@ -1,6 +1,8 @@
 {
   "scope": "Standalone video-skills-lab progress snapshot; overall curriculum incomplete",
   "cases": [
+    "samples/art-direction-demo-001/line-motion-test-002",
+    "samples/art-direction-demo-001/line-full-001",
     "samples/composition-demo-001/resonance-002",
     "samples/course2-distance-001/scale-003",
     "samples/course2-distance-001/blur-001",
@@ -2425,8 +2427,273 @@
     },
     {
       "path": "evaluations/video-art-direction-001/summary.json",
-      "bytes": 2350,
-      "sha256": "eb6cf7bf00d6ac9ddf489c1bf56cf0b137d96eaa3add4357618b7bb935dcd07c"
+      "bytes": 2619,
+      "sha256": "9113de89cd6f0ba0b9323f417222101126b1e589ca9a872b1a8f2587daef0cd5"
+    },
+    {
+      "path": "evaluations/video-art-direction-native-001/color-failure-and-repair.json",
+      "bytes": 772,
+      "sha256": "6f2c8562a71400114b81b454b6199ef3cebc94b05774e191bde11384c60d9765"
+    },
+    {
+      "path": "evaluations/video-art-direction-native-001/full-film-review/brief.json",
+      "bytes": 3397,
+      "sha256": "a8415ee21b28d75219ea118759e60c4c5ad75a8a3e4b9c4cac87bfdff8dd827d"
+    },
+    {
+      "path": "evaluations/video-art-direction-native-001/full-film-review/review-packet.json",
+      "bytes": 4327,
+      "sha256": "f10f8a79a6f1d5bcc16c2ead35bb6bf3f5600939a8b63cdb97b5a5786e3836a7"
+    },
+    {
+      "path": "evaluations/video-art-direction-native-001/full-film-review/review-template.json",
+      "bytes": 601,
+      "sha256": "f2a8fb2f28512714fd51f092c02e950be562430b252b33003b1ba670dd96f122"
+    },
+    {
+      "path": "evaluations/video-art-direction-native-001/full-film-review/reviewer-prompt.md",
+      "bytes": 766,
+      "sha256": "66f70ea6841c76cf2ed37e38e1e16bc414baa3b8e09c5bf409cb44ae7c443b0f"
+    },
+    {
+      "path": "evaluations/video-art-direction-native-001/full-film-review/technical-observations.json",
+      "bytes": 226,
+      "sha256": "9149251e29bbab5505cb45c8fa994d3fd585e27770913fbe402b276422e2d9e0"
+    },
+    {
+      "path": "evaluations/video-art-direction-native-001/pending-review-check.json",
+      "bytes": 814,
+      "sha256": "d12ff2efc37d4ff01f4877b6e6e25f7887cb70aa2749ce37ef2e5baf1cb402f4"
+    },
+    {
+      "path": "evaluations/video-art-direction-native-001/rejected-case-quality.json",
+      "bytes": 1238,
+      "sha256": "34261d50ec90813d55a6c441ca88c055182cc3c8d43f44fc7a51e3159a9820c4"
+    },
+    {
+      "path": "evaluations/video-art-direction-native-001/report.md",
+      "bytes": 1891,
+      "sha256": "999a0fcc3531e7773d4b67633c5fc9a1230a3c38b358d7bc26d0c07f2d228e04"
+    },
+    {
+      "path": "evaluations/video-art-direction-native-001/review-brief.json",
+      "bytes": 5270,
+      "sha256": "aa8b15b53fec97705e6ee0f9ee37110a6103634ce4a606df72e7faa2ff0915e8"
+    },
+    {
+      "path": "evaluations/video-art-direction-native-001/summary.json",
+      "bytes": 2946,
+      "sha256": "acc69c24ff9cbac15f88a6b6314b7a2e2f6144a1a031231de7ae625fe0cf60f0"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/assets/harmony.wav",
+      "bytes": 3840044,
+      "sha256": "026fe143dff98c5ffbb0e655bb94945552bbc6da7884a2dd8191a36f35b18272"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/assets/impulses.wav",
+      "bytes": 3840044,
+      "sha256": "e270e6aa26202071897a5ed41ec4dbffd2f66380dcae563aee5ebbec976e8c07"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/assets/score.wav",
+      "bytes": 3840044,
+      "sha256": "94e4b33319767fb316624f80e746f465655f8126e3be31ffe0478683867babb6"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/audio-authorship.json",
+      "bytes": 197,
+      "sha256": "2689fc6067cbe6ec3c86332fe021cef529c612477c5c165a61ba59daf169e2c9"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/direction-brief.json",
+      "bytes": 6526,
+      "sha256": "86d9baef1206dcd578c417d0740b945f78b1835104664c61cb9399fde103685a"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/final.mp4",
+      "bytes": 830662,
+      "sha256": "2b76a48a60dda3cf08fcd9d6ddd404645a0aa9f89feb9bad978a443ba381e499"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/line-quality.json",
+      "bytes": 1238,
+      "sha256": "f41b2a1a529b46e71ece2d1e71222563982f7016728c1f9e6cef53ead2ca718e"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/native-render.json",
+      "bytes": 299,
+      "sha256": "e3e48054d28ac330d1aa9cedde930b7261db7576f93d4636b67dfcaaec46ef51"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/native-still-0.png",
+      "bytes": 19000,
+      "sha256": "b7b9177dea1a328578bbc3a0e85a208a646bb18777947c50db446dcd46df9441"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/native-still-144.png",
+      "bytes": 30859,
+      "sha256": "68fa1a7760bd45b3997463ea72c18658d084608eaf8bc6275121a5cfe5c78d68"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/native-still-174.png",
+      "bytes": 36863,
+      "sha256": "28c0cce9dc7c0cec5631d945fd30fbdcf9f31a681c51128be7280d31c2fc0503"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/native-still-264.png",
+      "bytes": 36563,
+      "sha256": "247cdd5c0750530085e81ab00ea5a2a514d06668dd097b0a890855987ea50d53"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/native-still-330.png",
+      "bytes": 30172,
+      "sha256": "cdf68eb44f2645cdfb46c64e1358c8400e6b8529e5d45c8c2e6e1e3e1ed9452c"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/native-still-405.png",
+      "bytes": 33518,
+      "sha256": "c9311672dacba08da14d07e395939e842810805e69c79157f61b819c2cfca781"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/native-still-42.png",
+      "bytes": 30618,
+      "sha256": "5e5ff4dfdc7ccd65e3df49d5a45f1691d435270fe542746e84a7a459b2bfc1c9"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/native-still-480.png",
+      "bytes": 39868,
+      "sha256": "73bf3b578901bf9ed0a1a72a9237ccd7297c900c1dd502505f78bdcb5625d1c4"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/native-still-555.png",
+      "bytes": 44459,
+      "sha256": "6c2b00a8ecd667dbb4e208fa88ec2a0370308059bb0b666b39b22337c4609c57"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/native-still-597.png",
+      "bytes": 32088,
+      "sha256": "fd70892bd1d492c34467c89b606af6a3a3fb95cf0cea39515fa3c3100635ea3f"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/native-still-75.png",
+      "bytes": 33417,
+      "sha256": "d6e9735e5633be5daa91b0807a2e05c45f4f73869d641e32ce87520f1d0519b8"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/plan.json",
+      "bytes": 579,
+      "sha256": "ba07243b18402fc19ad86291e0f4c3287db257b9aedb885d319c3a4487ac0986"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/project.aep",
+      "bytes": 153277,
+      "sha256": "8a887df7f4640c1aed951d403f6ff01375eb746eaccd448c10f25e266bfa09d6"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/quality.json",
+      "bytes": 834,
+      "sha256": "4801a3c738feecc4032177eea4d71d4aa7fd4bd3e02a032a63ef8c14f20aafdf"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/receipt.json",
+      "bytes": 2211945,
+      "sha256": "7144b76a17e9d58aa83eb393d0203dc3baa6624b3d78bfe45c460e12f5eafa38"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-full-001/request.json",
+      "bytes": 1625,
+      "sha256": "ba51f0025483ed97a62fa388a723f1fa20fc72f022be959874b2acf34c19d4c1"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-motion-test-002/assets/harmony.wav",
+      "bytes": 1152044,
+      "sha256": "2af484fce354d1fb7b8c63f29faf3ee48e0ca262d06ae49ba4f21479c0f1864a"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-motion-test-002/assets/impulses.wav",
+      "bytes": 1152044,
+      "sha256": "86a9a4ecabb9cef1e4efbfae7ce75f5eb326395758065d9d7f792a1342b1092d"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-motion-test-002/assets/score.wav",
+      "bytes": 1152044,
+      "sha256": "86a9a4ecabb9cef1e4efbfae7ce75f5eb326395758065d9d7f792a1342b1092d"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-motion-test-002/audio-authorship.json",
+      "bytes": 196,
+      "sha256": "0b855e7312383eda1f4ab6ae9aeed6fc1ece53b1c89c3436f7161adf3ade897d"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-motion-test-002/direction-brief.json",
+      "bytes": 6526,
+      "sha256": "86d9baef1206dcd578c417d0740b945f78b1835104664c61cb9399fde103685a"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-motion-test-002/final.mp4",
+      "bytes": 181882,
+      "sha256": "121a0356e738a0bb46035fa5b30a4f079e6a74e3ae7fd110f39eb72c18ee4af5"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-motion-test-002/line-quality.json",
+      "bytes": 1239,
+      "sha256": "44ded4efaadbbbde83aff238cd893b9d1b03b8af4c9119430793771d4f3b22f3"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-motion-test-002/native-render.json",
+      "bytes": 299,
+      "sha256": "dcfcc97fa5e33fea7985e49854ee71f17574530a9be9a614b2597c45a98ed672"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-motion-test-002/native-still-0.png",
+      "bytes": 19000,
+      "sha256": "b7b9177dea1a328578bbc3a0e85a208a646bb18777947c50db446dcd46df9441"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-motion-test-002/native-still-144.png",
+      "bytes": 30859,
+      "sha256": "68fa1a7760bd45b3997463ea72c18658d084608eaf8bc6275121a5cfe5c78d68"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-motion-test-002/native-still-174.png",
+      "bytes": 36863,
+      "sha256": "28c0cce9dc7c0cec5631d945fd30fbdcf9f31a681c51128be7280d31c2fc0503"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-motion-test-002/native-still-42.png",
+      "bytes": 30618,
+      "sha256": "5e5ff4dfdc7ccd65e3df49d5a45f1691d435270fe542746e84a7a459b2bfc1c9"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-motion-test-002/native-still-75.png",
+      "bytes": 33417,
+      "sha256": "d6e9735e5633be5daa91b0807a2e05c45f4f73869d641e32ce87520f1d0519b8"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-motion-test-002/plan.json",
+      "bytes": 578,
+      "sha256": "cec84596f2f61f0185db3bd12b478a8b7d2b2f5290be3d323f43c76144973ee1"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-motion-test-002/project.aep",
+      "bytes": 133967,
+      "sha256": "72d026b65d3c8269e472efe082f3f14042ee379708a7ad536cf3b8c13fc2152f"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-motion-test-002/quality.json",
+      "bytes": 840,
+      "sha256": "ec374ce738e5ca83607df6086f39ed31c50f7c4c6ae3f2c722b53953ef579039"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-motion-test-002/receipt.json",
+      "bytes": 610499,
+      "sha256": "34f9daab002caff3cc4882976e0578fa62ea071df069c17896eb3812d46f027e"
+    },
+    {
+      "path": "samples/art-direction-demo-001/line-motion-test-002/request.json",
+      "bytes": 1638,
+      "sha256": "123ee354a57ff2f10f81625f8d1b9734ffde56d9c77bd9a0f56ab9490900c722"
     },
     {
       "path": "samples/composition-demo-001/resonance-002/assets/accents.wav",
@@ -16924,6 +17191,10 @@
     }
   ],
   "supplemental_native_media": [
+    "samples/art-direction-demo-001/line-full-001/assets/harmony.wav",
+    "samples/art-direction-demo-001/line-full-001/assets/impulses.wav",
+    "samples/art-direction-demo-001/line-motion-test-002/assets/harmony.wav",
+    "samples/art-direction-demo-001/line-motion-test-002/assets/impulses.wav",
     "samples/composition-demo-001/resonance-002/assets/accents.wav",
     "samples/composition-demo-001/resonance-002/assets/pad.wav",
     "samples/composition-demo-001/resonance-002/assets/pulse.wav",
@@ -17102,5 +17373,5 @@
     "repeated native audio/video exports"
   ],
   "portability": "Native projects retain original Windows media paths. Rebuild from the bundled scripts or relink the bundled inputs/assets; historical report references may point to local-only artifacts.",
-  "total_selected_bytes": 2559943603
+  "total_selected_bytes": 2579605412
 }

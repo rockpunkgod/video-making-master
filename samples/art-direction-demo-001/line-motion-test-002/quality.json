@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "path": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\samples\\art-direction-demo-001\\line-motion-test-002\\final.mp4",
+  "sha256": "121a0356e738a0bb46035fa5b30a4f079e6a74e3ae7fd110f39eb72c18ee4af5",
+  "checks": {
+    "full_decode": true,
+    "frame_hash_decode": true,
+    "expected_temporal_behavior": true,
+    "width": true,
+    "height": true,
+    "fps": true,
+    "duration": true,
+    "frame_count": true
+  },
+  "observed": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30.0,
+    "duration": 6.0,
+    "decoded_frames": 180,
+    "unique_thumbnail_frames": 147
+  },
+  "motion_expectation": "required",
+  "static_pixel_check": null,
+  "audio_sync": "not_reviewed",
+  "visual_review": "not_reviewed",
+  "native_project_editability": "not_checked_by_this_tool",
+  "stderr": ""
+}

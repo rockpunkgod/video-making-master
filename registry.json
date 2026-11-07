@@ -596,7 +596,7 @@
       "name": "video-art-direction",
       "version": "0.1.0",
       "status": "candidate",
-      "execution_status": "contract_tools_tested_artistic_end_to_end_pending",
+      "execution_status": "contract_tools_and_first_native_direction_passed_artistic_review_pending",
       "path": "skills/video-art-direction",
       "role": "direction_brief_and_continuous_audiovisual_review",
       "dependencies": [
@@ -618,8 +618,11 @@
       ],
       "evidence": "evaluations/video-art-direction-001/summary.json",
       "blockers": [
-        "New directions not yet natively produced and independently reviewed",
-        "Continuous playback/listening judgments cannot be inferred from preflight or declarations"
+        "Independent normal-speed continuous playback and actual listening review not completed",
+        "Cross-theme art-direction generalization not yet demonstrated"
+      ],
+      "additional_evidence": [
+        "evaluations/video-art-direction-native-001/summary.json"
       ]
     }
   ],
@@ -665,6 +668,20 @@
       ],
       "editable_project": "samples/composition-demo-001/resonance-002/project.aep",
       "video": "samples/composition-demo-001/resonance-002/final.mp4"
+    },
+    {
+      "name": "resonance-single-line",
+      "status": "native_demo_checked_continuous_audiovisual_review_pending",
+      "config": "skills/video-art-direction/examples/resonance-brief.json",
+      "production_brief": "samples/art-direction-demo-001/line-full-001/direction-brief.json",
+      "build": "tools/build_sparse_line_demo.py",
+      "evidence": "evaluations/video-art-direction-native-001/summary.json",
+      "skills": [
+        "video-art-direction",
+        "ae-advanced-expressions: wave/delay principles, original continuous-vector adaptation"
+      ],
+      "editable_project": "samples/art-direction-demo-001/line-full-001/project.aep",
+      "video": "samples/art-direction-demo-001/line-full-001/final.mp4"
     }
   ],
   "workflows": {

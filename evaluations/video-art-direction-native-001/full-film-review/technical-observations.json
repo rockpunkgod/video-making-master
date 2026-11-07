@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "video_sha256": "2b76a48a60dda3cf08fcd9d6ddd404645a0aa9f89feb9bad978a443ba381e499",
+  "metadata_matches_brief": true,
+  "required_audio_present": true,
+  "full_decode": true,
+  "stderr": ""
+}

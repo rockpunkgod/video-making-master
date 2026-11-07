@@ -1,0 +1,14 @@
+{
+  "status": "original_direction_native_test_pending",
+  "selected_brief": "E:\\\u81ea\u5a92\u4f53\\video-skills-lab\\skills\\video-art-direction\\examples\\resonance-brief.json",
+  "brief_sha256": "86d9baef1206dcd578c417d0740b945f78b1835104664c61cb9399fde103685a",
+  "duration": 20,
+  "subtractions": [
+    "chapter cards",
+    "112-vector field",
+    "orbit scene",
+    "header and footer",
+    "continuous pad"
+  ],
+  "scope": "Live editable vector path with amplitude control; new original variant of wave/delay principles, not the course Write-on workflow"
+}

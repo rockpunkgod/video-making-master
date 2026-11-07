@@ -1,0 +1,64 @@
+{
+  "status": "native_selected_direction_produced_technical_checks_passed_artistic_review_pending",
+  "selected_direction": "single-line",
+  "brief_at_production": "samples/art-direction-demo-001/line-full-001/direction-brief.json",
+  "brief_sha256": "86d9baef1206dcd578c417d0740b945f78b1835104664c61cb9399fde103685a",
+  "native_cases": [
+    {
+      "case": "line-motion-test-002",
+      "directory": "samples/art-direction-demo-001/line-motion-test-002",
+      "project_sha256": "72d026b65d3c8269e472efe082f3f14042ee379708a7ad536cf3b8c13fc2152f",
+      "video_sha256": "121a0356e738a0bb46035fa5b30a4f079e6a74e3ae7fd110f39eb72c18ee4af5",
+      "frames": 180,
+      "checks": "line-quality.json",
+      "native_edit": "Half-amplitude saved, reopened, sampled, restored and reopened; actual readback retained",
+      "fonts": []
+    },
+    {
+      "case": "line-full-001",
+      "directory": "samples/art-direction-demo-001/line-full-001",
+      "project_sha256": "8a887df7f4640c1aed951d403f6ff01375eb746eaccd448c10f25e266bfa09d6",
+      "video_sha256": "2b76a48a60dda3cf08fcd9d6ddd404645a0aa9f89feb9bad978a443ba381e499",
+      "frames": 600,
+      "checks": "line-quality.json",
+      "native_edit": "Half-amplitude saved, reopened, sampled, restored and reopened; actual readback retained",
+      "fonts": [
+        {
+          "requested": "MicrosoftYaHei",
+          "actual": "MicrosoftYaHei"
+        }
+      ]
+    }
+  ],
+  "exploration": "Three directions proposed in skills/video-art-direction/examples/resonance-brief.json; one selected and actually produced; other two not rendered",
+  "technical_repair": "color-failure-and-repair.json",
+  "subtractive_choices": [
+    "No chapter cards",
+    "No vector-field scene",
+    "No orbit scene",
+    "No header or footer",
+    "No continuous pad",
+    "One final title only"
+  ],
+  "media_audit": "reports/native-media-dependencies-sparse-line.json",
+  "continuous_motion_experience": "pending",
+  "actual_listening": "pending",
+  "independent_artistic_review": "pending",
+  "user_acceptance": "pending",
+  "artistic_refinement_rounds": 0,
+  "remaining_budget": 2,
+  "skill_status": "candidate",
+  "limitations": [
+    "New vector path is an original adaptation, not the course Write-on workflow",
+    "AE createPath support actually exercised in this host; no cross-version API claim",
+    "One selected direction produced, no cross-theme artistic generalization yet",
+    "Static frames and full-frame numeric checks do not establish real motion or listening quality"
+  ],
+  "overall_curriculum": "incomplete",
+  "review_packet": "full-film-review/review-packet.json",
+  "review_gate": "pending-review-check.json",
+  "production_adaptations": [
+    "Font selected as MicrosoftYaHei instead of the initial Source Han suggestion; no missing-font claim"
+  ],
+  "actual_failed_render_negative_test": "rejected-case-quality.json"
+}

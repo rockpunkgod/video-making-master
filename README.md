@@ -1,8 +1,10 @@
 # video-skills-lab
 
+艺术指导首个实作：[《共振》一条线版](samples/art-direction-demo-001/line-full-001/final.mp4)，保留可编辑AE工程、活路径表达式与振幅控件、两条原创声音分轨。先做6秒短段，修正实际发现的白色描边错误后制作20秒全片；未凭技术通过声明听感/节奏通过。原生交付现172组，详见[evaluations/video-art-direction-native-001/summary.json](evaluations/video-art-direction-native-001/summary.json)。
+
 新增[Video Art Direction](skills/video-art-direction/SKILL.md)：把Distinctive AI Design的探索—制作—精修方法转为视频流程。先为同一主题提出2–3种真正不同的镜头方向，确定具体Brief，再组合制作技能；遇惯性才引入真实随机种子。独立评审必须依据真实成片全长正常播放与实际试听，截图和技术指标不能替代运动、节奏和听感。每轮优先通过减法修正最重要的1–3项，默认最多两轮，剩余问题如实交付。
 
-此次提供《共振》三种下一版方向、选定Brief、可独立调用的方案/评审工具，以及现有真实成片的版本绑定评审包。新方向尚未制作，现有片声画艺术评审仍待完成；工具测试不代表审美验收。见[evaluations/video-art-direction-001/summary.json](evaluations/video-art-direction-001/summary.json)。课程复刻的严格原法要求继续有效，全部18条来源的完整学习未完成。
+此次提供《共振》三种下一版方向、选定Brief、可独立调用的方案/评审工具，以及现有真实成片的版本绑定评审包。随后已把“一条线”方向制作成6秒实测与20秒完整AE工程/影片，780帧技术检查通过；声画艺术评审仍待完成，工具测试不代表审美验收。见[evaluations/video-art-direction-001/summary.json](evaluations/video-art-direction-001/summary.json)。课程复刻的严格原法要求继续有效，全部18条来源的完整学习未完成。
 
 新增原创泛化演示《共振》：20秒1080p30，组合延迟轮廓、动态文字、目标朝向、距离联动、递归三维波浪和椭圆轨道，保留可编辑工程及三条配乐分轨。真实600帧渲染和像素/音频检查通过；这是新构图组合示例，审美待用户观看，完整课程学习尚未完成。交付见samples/composition-demo-001/resonance-002，验证见evaluations/resonance-demo-001/summary.json。当前170组原生交付，既有Skill状态保持按registry记录。
 

@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "checks": {
+    "native_expression_errors_absent": true,
+    "path_formula_all_frames": true,
+    "actual_edit_survives_save_reopen": true,
+    "native_color_matches_brief": true,
+    "no_large_framewise_path_jump": true,
+    "actual_video_frame_count": true,
+    "dark_line_present_every_frame": true,
+    "final_audio_matches_authored_score": true,
+    "decoded_audio_not_clipped": true
+  },
+  "video_sha256": "121a0356e738a0bb46035fa5b30a4f079e6a74e3ae7fd110f39eb72c18ee4af5",
+  "native_frames": 180,
+  "actual_decoded_video_frames": 180,
+  "max_path_error_pixels": 3.0515775620187924e-05,
+  "max_half_amplitude_error_pixels": 3.051757846606051e-05,
+  "max_restoration_error_pixels": 0.0,
+  "maximum_vertex_step_pixels_per_frame": 8.243530273437045,
+  "minimum_detected_line_pixels": 5256,
+  "audio_correlation": 0.9999963735898796,
+  "decoded_audio_peak": 0.190499946475029,
+  "static_frame_review": "separate",
+  "continuous_motion_experience": "pending",
+  "actual_listening": "pending",
+  "independent_artistic_review": "pending",
+  "scope": "Objective rendering/control checks only. Sampling every frame does not prove normal-speed viewing, listening or aesthetic success."
+}

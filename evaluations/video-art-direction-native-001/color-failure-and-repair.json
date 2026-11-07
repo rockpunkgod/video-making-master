@@ -1,0 +1,25 @@
+{
+  "status": "rejected_for_brief_color_mismatch",
+  "case": "line-motion-test-001",
+  "generic_video_decode_checks": "passed",
+  "video_sha256": "ff711354e99fc2d941b124342345fbf9fc29fb3feb9b1746abc9ecf4a05a2b98",
+  "native_still_sha256": "f8d6e3d4724d1adf6251e796654614042a22bfb5c4a71b7761de0a11c6797434",
+  "observed_native_line_rgb": [
+    255,
+    255,
+    255
+  ],
+  "required_rgb": [
+    36,
+    37,
+    34
+  ],
+  "corrected_native_line_rgb": [
+    36,
+    37,
+    34
+  ],
+  "repair": "Changed stroke expression RGB result to RGBA and inspected all expressions, then rebuilt/re-rendered a fresh case",
+  "artistic_refinement_round": false,
+  "scope": "Actual static color mismatch and technical repair; not an independent artistic review"
+}

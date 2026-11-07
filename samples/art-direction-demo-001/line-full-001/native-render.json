@@ -1,0 +1,13 @@
+{
+  "aerender_exit": 0,
+  "frames": 600,
+  "expected": 600,
+  "mfr": "OFF",
+  "cache_percent": 10,
+  "memory_percent": 50,
+  "full_resolution": true,
+  "project_bit_depth": 16,
+  "native_output_codec": "tiff",
+  "native_output_pixel_format": "rgba",
+  "native_output_channel_bits": 8
+}

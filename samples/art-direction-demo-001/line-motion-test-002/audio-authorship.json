@@ -1,0 +1,8 @@
+{
+  "source": "Original sparse sine partials; no noise or constant pad",
+  "sample_rate": 48000,
+  "channels": 2,
+  "seconds": 6,
+  "peak": 0.19038144901875392,
+  "listening": "pending"
+}
