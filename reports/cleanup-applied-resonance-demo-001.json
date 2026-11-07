@@ -1,0 +1,2950 @@
+{
+  "status": "completed",
+  "scopes": [
+    "samples/composition-demo-001",
+    "cache/resonance-demo-001"
+  ],
+  "published_commit": "a7bf34455f43d08c3df55c69b9294e9e70104310",
+  "manifest_sha256": "8aed666975bb6c82c8cc5b5ecf044d5ff796a44959a2cea04b008b6fe578b46c",
+  "files": 732,
+  "bytes": 5708097524,
+  "keep_active": [],
+  "protected_delivery_files": 2898,
+  "skipped_links": [],
+  "targets": [
+    {
+      "path": "cache/resonance-demo-001/resonance-commit.log",
+      "bytes": 3098
+    },
+    {
+      "path": "cache/resonance-demo-001/resonance-delivery-final.log",
+      "bytes": 92
+    },
+    {
+      "path": "cache/resonance-demo-001/resonance-delivery-prepare.log",
+      "bytes": 92
+    },
+    {
+      "path": "cache/resonance-demo-001/resonance-native-audit.jsx",
+      "bytes": 3214
+    },
+    {
+      "path": "cache/resonance-demo-001/resonance-native-close.json",
+      "bytes": 55
+    },
+    {
+      "path": "cache/resonance-demo-001/resonance-release-native-memory.jsx",
+      "bytes": 741
+    },
+    {
+      "path": "cache/resonance-demo-001/resonance001-build.log",
+      "bytes": 211754
+    },
+    {
+      "path": "cache/resonance-demo-001/resonance001-render.log",
+      "bytes": 0
+    },
+    {
+      "path": "cache/resonance-demo-001/resonance002-build.log",
+      "bytes": 211727
+    },
+    {
+      "path": "cache/resonance-demo-001/resonance002-contact.jpg",
+      "bytes": 105314
+    },
+    {
+      "path": "cache/resonance-demo-001/resonance002-native-audit-final.log",
+      "bytes": 1025
+    },
+    {
+      "path": "cache/resonance-demo-001/resonance002-package.log",
+      "bytes": 415
+    },
+    {
+      "path": "cache/resonance-demo-001/resonance002-qa-final.log",
+      "bytes": 2162
+    },
+    {
+      "path": "cache/resonance-demo-001/resonance002-render.log",
+      "bytes": 0
+    },
+    {
+      "path": "cache/resonance-demo-001/resonance002-validation-final.log",
+      "bytes": 2005
+    },
+    {
+      "path": "cache/resonance-demo-001/resonance002-validation.log",
+      "bytes": 2003
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/aerender.log",
+      "bytes": 4590
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/assets/accents.wav",
+      "bytes": 3840044
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/assets/pad.wav",
+      "bytes": 3840044
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/assets/pulse.wav",
+      "bytes": 3840044
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/assets/score.wav",
+      "bytes": 3840044
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/audio-authorship.json",
+      "bytes": 334
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/build.jsx",
+      "bytes": 15530
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/native-still-0.png",
+      "bytes": 18828
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/native-still-135.png",
+      "bytes": 238408
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/native-still-186.png",
+      "bytes": 142922
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/native-still-24.png",
+      "bytes": 53255
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/native-still-252.png",
+      "bytes": 143505
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/native-still-294.png",
+      "bytes": 291572
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/native-still-330.png",
+      "bytes": 246112
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/native-still-396.png",
+      "bytes": 257160
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/native-still-474.png",
+      "bytes": 432309
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/native-still-519.png",
+      "bytes": 257311
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/native-still-558.png",
+      "bytes": 256993
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/native-still-597.png",
+      "bytes": 190437
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/native-still-75.png",
+      "bytes": 187804
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/plan.json",
+      "bytes": 1118
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/project.aep",
+      "bytes": 2738313
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/project.aep 日志/AE 2026-11-7 11-09-55.txt",
+      "bytes": 5553
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/receipt.json",
+      "bytes": 108350
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00000.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00001.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00002.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00003.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00004.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00005.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00006.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00007.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00008.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00009.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00010.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00011.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00012.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00013.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00014.tif",
+      "bytes": 8312524
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00015.tif",
+      "bytes": 8312532
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00016.tif",
+      "bytes": 8312540
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00017.tif",
+      "bytes": 8312552
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00018.tif",
+      "bytes": 8312564
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00019.tif",
+      "bytes": 8312572
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00020.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00021.tif",
+      "bytes": 8312644
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00022.tif",
+      "bytes": 8312680
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00023.tif",
+      "bytes": 8312708
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00024.tif",
+      "bytes": 8312732
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00025.tif",
+      "bytes": 8312756
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00026.tif",
+      "bytes": 8312772
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00027.tif",
+      "bytes": 8312780
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00028.tif",
+      "bytes": 8312788
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00029.tif",
+      "bytes": 8312820
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00030.tif",
+      "bytes": 8312888
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00031.tif",
+      "bytes": 8312928
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00032.tif",
+      "bytes": 8312940
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00033.tif",
+      "bytes": 8312956
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00034.tif",
+      "bytes": 8312940
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00035.tif",
+      "bytes": 8312948
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00036.tif",
+      "bytes": 8312960
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00037.tif",
+      "bytes": 8312972
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00038.tif",
+      "bytes": 8312980
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00039.tif",
+      "bytes": 8312984
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00040.tif",
+      "bytes": 8313000
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00041.tif",
+      "bytes": 8313028
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00042.tif",
+      "bytes": 8313032
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00043.tif",
+      "bytes": 8313048
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00044.tif",
+      "bytes": 8313076
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00045.tif",
+      "bytes": 8313096
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00046.tif",
+      "bytes": 8313112
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00047.tif",
+      "bytes": 8313112
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00048.tif",
+      "bytes": 8313116
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00049.tif",
+      "bytes": 8313120
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00050.tif",
+      "bytes": 8313136
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00051.tif",
+      "bytes": 8313140
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00052.tif",
+      "bytes": 8313148
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00053.tif",
+      "bytes": 8313148
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00054.tif",
+      "bytes": 8313152
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00055.tif",
+      "bytes": 8313168
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00056.tif",
+      "bytes": 8313168
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00057.tif",
+      "bytes": 8313172
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00058.tif",
+      "bytes": 8313180
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00059.tif",
+      "bytes": 8313180
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00060.tif",
+      "bytes": 8313176
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00061.tif",
+      "bytes": 8313180
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00062.tif",
+      "bytes": 8313184
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00063.tif",
+      "bytes": 8313184
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00064.tif",
+      "bytes": 8313184
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00065.tif",
+      "bytes": 8313188
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00066.tif",
+      "bytes": 8313192
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00067.tif",
+      "bytes": 8313188
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00068.tif",
+      "bytes": 8313192
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00069.tif",
+      "bytes": 8313192
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00070.tif",
+      "bytes": 8313192
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00071.tif",
+      "bytes": 8313188
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00072.tif",
+      "bytes": 8313188
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00073.tif",
+      "bytes": 8313188
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00074.tif",
+      "bytes": 8313188
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00075.tif",
+      "bytes": 8313188
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00076.tif",
+      "bytes": 8313192
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00077.tif",
+      "bytes": 8313192
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00078.tif",
+      "bytes": 8313192
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00079.tif",
+      "bytes": 8313196
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00080.tif",
+      "bytes": 8313204
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00081.tif",
+      "bytes": 8313196
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00082.tif",
+      "bytes": 8313200
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00083.tif",
+      "bytes": 8313196
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/render/frame_00084.tif",
+      "bytes": 0
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-001/request.json",
+      "bytes": 1592
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/aerender.log",
+      "bytes": 22337
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/audio-loudness.txt",
+      "bytes": 36127
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/build.jsx",
+      "bytes": 16172
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/encoding-failed.mp4",
+      "bytes": 0
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/native-audit.jsx",
+      "bytes": 3221
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/project.aep 日志/AE 2026-11-7 11-14-25.txt",
+      "bytes": 16838
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00000.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00001.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00002.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00003.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00004.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00005.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00006.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00007.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00008.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00009.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00010.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00011.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00012.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00013.tif",
+      "bytes": 8312520
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00014.tif",
+      "bytes": 8312524
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00015.tif",
+      "bytes": 8312532
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00016.tif",
+      "bytes": 8312540
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00017.tif",
+      "bytes": 8312552
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00018.tif",
+      "bytes": 8312564
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00019.tif",
+      "bytes": 8312572
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00020.tif",
+      "bytes": 8312608
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00021.tif",
+      "bytes": 8312644
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00022.tif",
+      "bytes": 8312680
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00023.tif",
+      "bytes": 8312708
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00024.tif",
+      "bytes": 8312732
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00025.tif",
+      "bytes": 8312756
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00026.tif",
+      "bytes": 8312772
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00027.tif",
+      "bytes": 8312780
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00028.tif",
+      "bytes": 8312788
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00029.tif",
+      "bytes": 8312820
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00030.tif",
+      "bytes": 8312888
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00031.tif",
+      "bytes": 8312928
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00032.tif",
+      "bytes": 8312940
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00033.tif",
+      "bytes": 8312956
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00034.tif",
+      "bytes": 8312940
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00035.tif",
+      "bytes": 8312948
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00036.tif",
+      "bytes": 8312960
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00037.tif",
+      "bytes": 8312972
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00038.tif",
+      "bytes": 8312980
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00039.tif",
+      "bytes": 8312984
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00040.tif",
+      "bytes": 8313000
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00041.tif",
+      "bytes": 8313028
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00042.tif",
+      "bytes": 8313032
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00043.tif",
+      "bytes": 8313048
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00044.tif",
+      "bytes": 8313076
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00045.tif",
+      "bytes": 8313096
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00046.tif",
+      "bytes": 8313112
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00047.tif",
+      "bytes": 8313112
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00048.tif",
+      "bytes": 8313116
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00049.tif",
+      "bytes": 8313120
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00050.tif",
+      "bytes": 8313136
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00051.tif",
+      "bytes": 8313140
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00052.tif",
+      "bytes": 8313148
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00053.tif",
+      "bytes": 8313148
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00054.tif",
+      "bytes": 8313152
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00055.tif",
+      "bytes": 8313168
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00056.tif",
+      "bytes": 8313168
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00057.tif",
+      "bytes": 8313172
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00058.tif",
+      "bytes": 8313180
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00059.tif",
+      "bytes": 8313180
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00060.tif",
+      "bytes": 8313176
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00061.tif",
+      "bytes": 8313180
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00062.tif",
+      "bytes": 8313184
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00063.tif",
+      "bytes": 8313184
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00064.tif",
+      "bytes": 8313184
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00065.tif",
+      "bytes": 8313188
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00066.tif",
+      "bytes": 8313192
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00067.tif",
+      "bytes": 8313188
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00068.tif",
+      "bytes": 8313192
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00069.tif",
+      "bytes": 8313192
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00070.tif",
+      "bytes": 8313192
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00071.tif",
+      "bytes": 8313188
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00072.tif",
+      "bytes": 8313188
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00073.tif",
+      "bytes": 8313188
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00074.tif",
+      "bytes": 8313188
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00075.tif",
+      "bytes": 8313188
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00076.tif",
+      "bytes": 8313192
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00077.tif",
+      "bytes": 8313192
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00078.tif",
+      "bytes": 8313192
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00079.tif",
+      "bytes": 8313196
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00080.tif",
+      "bytes": 8313204
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00081.tif",
+      "bytes": 8313196
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00082.tif",
+      "bytes": 8313200
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00083.tif",
+      "bytes": 8313196
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00084.tif",
+      "bytes": 8313200
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00085.tif",
+      "bytes": 8313208
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00086.tif",
+      "bytes": 8313200
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00087.tif",
+      "bytes": 8313204
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00088.tif",
+      "bytes": 8313204
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00089.tif",
+      "bytes": 8313204
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00090.tif",
+      "bytes": 8313208
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00091.tif",
+      "bytes": 8313212
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00092.tif",
+      "bytes": 8313212
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00093.tif",
+      "bytes": 8313212
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00094.tif",
+      "bytes": 8313212
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00095.tif",
+      "bytes": 8313216
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00096.tif",
+      "bytes": 8313216
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00097.tif",
+      "bytes": 8313216
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00098.tif",
+      "bytes": 8313216
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00099.tif",
+      "bytes": 8313216
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00100.tif",
+      "bytes": 8313216
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00101.tif",
+      "bytes": 8313220
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00102.tif",
+      "bytes": 8313212
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00103.tif",
+      "bytes": 8313216
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00104.tif",
+      "bytes": 8313220
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00105.tif",
+      "bytes": 8313208
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00106.tif",
+      "bytes": 8313204
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00107.tif",
+      "bytes": 8313192
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00108.tif",
+      "bytes": 8313184
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00109.tif",
+      "bytes": 8313164
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00110.tif",
+      "bytes": 8313140
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00111.tif",
+      "bytes": 8313120
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00112.tif",
+      "bytes": 8313088
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00113.tif",
+      "bytes": 8313064
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00114.tif",
+      "bytes": 8313032
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00115.tif",
+      "bytes": 8312992
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00116.tif",
+      "bytes": 8312960
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00117.tif",
+      "bytes": 8312920
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00118.tif",
+      "bytes": 8312880
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00119.tif",
+      "bytes": 8312840
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00120.tif",
+      "bytes": 8312796
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00121.tif",
+      "bytes": 8312752
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00122.tif",
+      "bytes": 8312708
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00123.tif",
+      "bytes": 8312700
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00124.tif",
+      "bytes": 8312688
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00125.tif",
+      "bytes": 8312684
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00126.tif",
+      "bytes": 8312672
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00127.tif",
+      "bytes": 8312660
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00128.tif",
+      "bytes": 8312668
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00129.tif",
+      "bytes": 8312672
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00130.tif",
+      "bytes": 8312728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00131.tif",
+      "bytes": 8312768
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00132.tif",
+      "bytes": 8312804
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00133.tif",
+      "bytes": 8312832
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00134.tif",
+      "bytes": 8312848
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00135.tif",
+      "bytes": 8312884
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00136.tif",
+      "bytes": 8312960
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00137.tif",
+      "bytes": 8312992
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00138.tif",
+      "bytes": 8313004
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00139.tif",
+      "bytes": 8313008
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00140.tif",
+      "bytes": 8313032
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00141.tif",
+      "bytes": 8313064
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00142.tif",
+      "bytes": 8313064
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00143.tif",
+      "bytes": 8313076
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00144.tif",
+      "bytes": 8313096
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00145.tif",
+      "bytes": 8313108
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00146.tif",
+      "bytes": 8313132
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00147.tif",
+      "bytes": 8313152
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00148.tif",
+      "bytes": 8313160
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00149.tif",
+      "bytes": 8313172
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00150.tif",
+      "bytes": 8313168
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00151.tif",
+      "bytes": 8313192
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00152.tif",
+      "bytes": 8313228
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00153.tif",
+      "bytes": 8313244
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00154.tif",
+      "bytes": 8313276
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00155.tif",
+      "bytes": 8313276
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00156.tif",
+      "bytes": 8313292
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00157.tif",
+      "bytes": 8313280
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00158.tif",
+      "bytes": 8313276
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00159.tif",
+      "bytes": 8313280
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00160.tif",
+      "bytes": 8313280
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00161.tif",
+      "bytes": 8313284
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00162.tif",
+      "bytes": 8313296
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00163.tif",
+      "bytes": 8313304
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00164.tif",
+      "bytes": 8313308
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00165.tif",
+      "bytes": 8313308
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00166.tif",
+      "bytes": 8313312
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00167.tif",
+      "bytes": 8313316
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00168.tif",
+      "bytes": 8313312
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00169.tif",
+      "bytes": 8313324
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00170.tif",
+      "bytes": 8313320
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00171.tif",
+      "bytes": 8313320
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00172.tif",
+      "bytes": 8313320
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00173.tif",
+      "bytes": 8313300
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00174.tif",
+      "bytes": 8313300
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00175.tif",
+      "bytes": 8313300
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00176.tif",
+      "bytes": 8313292
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00177.tif",
+      "bytes": 8313292
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00178.tif",
+      "bytes": 8313300
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00179.tif",
+      "bytes": 8313296
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00180.tif",
+      "bytes": 8313308
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00181.tif",
+      "bytes": 8313312
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00182.tif",
+      "bytes": 8313308
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00183.tif",
+      "bytes": 8313316
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00184.tif",
+      "bytes": 8313304
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00185.tif",
+      "bytes": 8313304
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00186.tif",
+      "bytes": 8313308
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00187.tif",
+      "bytes": 8313292
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00188.tif",
+      "bytes": 8313280
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00189.tif",
+      "bytes": 8313292
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00190.tif",
+      "bytes": 8313304
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00191.tif",
+      "bytes": 8313308
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00192.tif",
+      "bytes": 8313296
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00193.tif",
+      "bytes": 8313304
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00194.tif",
+      "bytes": 8313312
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00195.tif",
+      "bytes": 8313300
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00196.tif",
+      "bytes": 8313300
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00197.tif",
+      "bytes": 8313288
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00198.tif",
+      "bytes": 8313296
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00199.tif",
+      "bytes": 8313308
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00200.tif",
+      "bytes": 8313316
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00201.tif",
+      "bytes": 8313328
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00202.tif",
+      "bytes": 8313328
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00203.tif",
+      "bytes": 8313336
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00204.tif",
+      "bytes": 8313328
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00205.tif",
+      "bytes": 8313328
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00206.tif",
+      "bytes": 8313336
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00207.tif",
+      "bytes": 8313336
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00208.tif",
+      "bytes": 8313356
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00209.tif",
+      "bytes": 8313360
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00210.tif",
+      "bytes": 8313352
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00211.tif",
+      "bytes": 8313360
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00212.tif",
+      "bytes": 8313352
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00213.tif",
+      "bytes": 8313340
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00214.tif",
+      "bytes": 8313336
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00215.tif",
+      "bytes": 8313348
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00216.tif",
+      "bytes": 8313360
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00217.tif",
+      "bytes": 8313364
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00218.tif",
+      "bytes": 8313372
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00219.tif",
+      "bytes": 8313380
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00220.tif",
+      "bytes": 8313364
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00221.tif",
+      "bytes": 8313352
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00222.tif",
+      "bytes": 8313332
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00223.tif",
+      "bytes": 8313312
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00224.tif",
+      "bytes": 8313316
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00225.tif",
+      "bytes": 8313308
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00226.tif",
+      "bytes": 8313320
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00227.tif",
+      "bytes": 8313308
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00228.tif",
+      "bytes": 8313316
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00229.tif",
+      "bytes": 8313316
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00230.tif",
+      "bytes": 8313300
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00231.tif",
+      "bytes": 8313292
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00232.tif",
+      "bytes": 8313292
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00233.tif",
+      "bytes": 8313296
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00234.tif",
+      "bytes": 8313312
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00235.tif",
+      "bytes": 8313300
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00236.tif",
+      "bytes": 8313292
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00237.tif",
+      "bytes": 8313284
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00238.tif",
+      "bytes": 8313284
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00239.tif",
+      "bytes": 8313268
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00240.tif",
+      "bytes": 8313276
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00241.tif",
+      "bytes": 8313276
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00242.tif",
+      "bytes": 8313280
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00243.tif",
+      "bytes": 8313284
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00244.tif",
+      "bytes": 8313284
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00245.tif",
+      "bytes": 8313288
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00246.tif",
+      "bytes": 8313272
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00247.tif",
+      "bytes": 8313288
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00248.tif",
+      "bytes": 8313276
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00249.tif",
+      "bytes": 8313284
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00250.tif",
+      "bytes": 8313292
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00251.tif",
+      "bytes": 8313288
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00252.tif",
+      "bytes": 8313296
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00253.tif",
+      "bytes": 8313288
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00254.tif",
+      "bytes": 8313304
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00255.tif",
+      "bytes": 8313312
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00256.tif",
+      "bytes": 8313316
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00257.tif",
+      "bytes": 8313312
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00258.tif",
+      "bytes": 8313316
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00259.tif",
+      "bytes": 8313304
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00260.tif",
+      "bytes": 8313300
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00261.tif",
+      "bytes": 8313312
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00262.tif",
+      "bytes": 8313312
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00263.tif",
+      "bytes": 8313292
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00264.tif",
+      "bytes": 8313288
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00265.tif",
+      "bytes": 8313280
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00266.tif",
+      "bytes": 8313264
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00267.tif",
+      "bytes": 8313268
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00268.tif",
+      "bytes": 8313264
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00269.tif",
+      "bytes": 8313260
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00270.tif",
+      "bytes": 8313260
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00271.tif",
+      "bytes": 8313232
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00272.tif",
+      "bytes": 8313212
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00273.tif",
+      "bytes": 8313192
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00274.tif",
+      "bytes": 8313164
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00275.tif",
+      "bytes": 8313100
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00276.tif",
+      "bytes": 8313112
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00277.tif",
+      "bytes": 8313148
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00278.tif",
+      "bytes": 8313188
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00279.tif",
+      "bytes": 8313252
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00280.tif",
+      "bytes": 8313284
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00281.tif",
+      "bytes": 8313340
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00282.tif",
+      "bytes": 8313376
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00283.tif",
+      "bytes": 8313404
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00284.tif",
+      "bytes": 8313472
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00285.tif",
+      "bytes": 8313588
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00286.tif",
+      "bytes": 8313668
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00287.tif",
+      "bytes": 8313768
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00288.tif",
+      "bytes": 8313872
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00289.tif",
+      "bytes": 8313948
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00290.tif",
+      "bytes": 8314004
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00291.tif",
+      "bytes": 8314120
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00292.tif",
+      "bytes": 8314192
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00293.tif",
+      "bytes": 8314320
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00294.tif",
+      "bytes": 8314372
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00295.tif",
+      "bytes": 8314428
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00296.tif",
+      "bytes": 8314488
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00297.tif",
+      "bytes": 8314536
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00298.tif",
+      "bytes": 8314636
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00299.tif",
+      "bytes": 8314688
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00300.tif",
+      "bytes": 8314716
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00301.tif",
+      "bytes": 8314780
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00302.tif",
+      "bytes": 8314812
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00303.tif",
+      "bytes": 8314856
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00304.tif",
+      "bytes": 8314888
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00305.tif",
+      "bytes": 8314932
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00306.tif",
+      "bytes": 8314940
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00307.tif",
+      "bytes": 8314956
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00308.tif",
+      "bytes": 8314976
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00309.tif",
+      "bytes": 8314976
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00310.tif",
+      "bytes": 8314996
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00311.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00312.tif",
+      "bytes": 8315064
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00313.tif",
+      "bytes": 8315056
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00314.tif",
+      "bytes": 8315052
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00315.tif",
+      "bytes": 8315100
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00316.tif",
+      "bytes": 8315104
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00317.tif",
+      "bytes": 8315136
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00318.tif",
+      "bytes": 8315152
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00319.tif",
+      "bytes": 8315156
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00320.tif",
+      "bytes": 8315116
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00321.tif",
+      "bytes": 8315112
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00322.tif",
+      "bytes": 8315052
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00323.tif",
+      "bytes": 8315044
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00324.tif",
+      "bytes": 8315052
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00325.tif",
+      "bytes": 8315016
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00326.tif",
+      "bytes": 8314948
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00327.tif",
+      "bytes": 8314908
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00328.tif",
+      "bytes": 8314948
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00329.tif",
+      "bytes": 8314940
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00330.tif",
+      "bytes": 8314900
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00331.tif",
+      "bytes": 8314872
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00332.tif",
+      "bytes": 8314840
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00333.tif",
+      "bytes": 8314796
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00334.tif",
+      "bytes": 8314792
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00335.tif",
+      "bytes": 8314796
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00336.tif",
+      "bytes": 8314744
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00337.tif",
+      "bytes": 8314672
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00338.tif",
+      "bytes": 8314688
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00339.tif",
+      "bytes": 8314684
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00340.tif",
+      "bytes": 8314652
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00341.tif",
+      "bytes": 8314632
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00342.tif",
+      "bytes": 8314620
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00343.tif",
+      "bytes": 8314604
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00344.tif",
+      "bytes": 8314576
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00345.tif",
+      "bytes": 8314544
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00346.tif",
+      "bytes": 8314524
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00347.tif",
+      "bytes": 8314516
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00348.tif",
+      "bytes": 8314524
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00349.tif",
+      "bytes": 8314472
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00350.tif",
+      "bytes": 8314460
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00351.tif",
+      "bytes": 8314476
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00352.tif",
+      "bytes": 8314464
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00353.tif",
+      "bytes": 8314436
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00354.tif",
+      "bytes": 8314416
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00355.tif",
+      "bytes": 8314432
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00356.tif",
+      "bytes": 8314416
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00357.tif",
+      "bytes": 8314420
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00358.tif",
+      "bytes": 8314440
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00359.tif",
+      "bytes": 8314464
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00360.tif",
+      "bytes": 8314456
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00361.tif",
+      "bytes": 8314484
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00362.tif",
+      "bytes": 8314476
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00363.tif",
+      "bytes": 8314476
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00364.tif",
+      "bytes": 8314528
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00365.tif",
+      "bytes": 8314572
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00366.tif",
+      "bytes": 8314608
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00367.tif",
+      "bytes": 8314624
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00368.tif",
+      "bytes": 8314544
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00369.tif",
+      "bytes": 8314568
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00370.tif",
+      "bytes": 8314632
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00371.tif",
+      "bytes": 8314652
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00372.tif",
+      "bytes": 8314696
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00373.tif",
+      "bytes": 8314740
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00374.tif",
+      "bytes": 8314772
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00375.tif",
+      "bytes": 8314784
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00376.tif",
+      "bytes": 8314776
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00377.tif",
+      "bytes": 8314796
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00378.tif",
+      "bytes": 8314840
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00379.tif",
+      "bytes": 8314920
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00380.tif",
+      "bytes": 8314960
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00381.tif",
+      "bytes": 8314964
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00382.tif",
+      "bytes": 8315028
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00383.tif",
+      "bytes": 8315068
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00384.tif",
+      "bytes": 8315080
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00385.tif",
+      "bytes": 8315100
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00386.tif",
+      "bytes": 8315172
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00387.tif",
+      "bytes": 8315168
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00388.tif",
+      "bytes": 8315180
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00389.tif",
+      "bytes": 8315224
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00390.tif",
+      "bytes": 8315232
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00391.tif",
+      "bytes": 8315200
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00392.tif",
+      "bytes": 8315200
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00393.tif",
+      "bytes": 8315248
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00394.tif",
+      "bytes": 8315272
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00395.tif",
+      "bytes": 8315272
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00396.tif",
+      "bytes": 8315272
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00397.tif",
+      "bytes": 8315276
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00398.tif",
+      "bytes": 8315248
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00399.tif",
+      "bytes": 8315240
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00400.tif",
+      "bytes": 8315284
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00401.tif",
+      "bytes": 8315280
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00402.tif",
+      "bytes": 8315200
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00403.tif",
+      "bytes": 8315192
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00404.tif",
+      "bytes": 8315156
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00405.tif",
+      "bytes": 8315132
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00406.tif",
+      "bytes": 8315104
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00407.tif",
+      "bytes": 8315072
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00408.tif",
+      "bytes": 8315080
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00409.tif",
+      "bytes": 8315028
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00410.tif",
+      "bytes": 8315028
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00411.tif",
+      "bytes": 8314936
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00412.tif",
+      "bytes": 8314916
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00413.tif",
+      "bytes": 8314912
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00414.tif",
+      "bytes": 8314888
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00415.tif",
+      "bytes": 8314868
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00416.tif",
+      "bytes": 8314832
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00417.tif",
+      "bytes": 8314828
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00418.tif",
+      "bytes": 8314780
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00419.tif",
+      "bytes": 8314756
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00420.tif",
+      "bytes": 8314756
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00421.tif",
+      "bytes": 8314728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00422.tif",
+      "bytes": 8314680
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00423.tif",
+      "bytes": 8314664
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00424.tif",
+      "bytes": 8314640
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00425.tif",
+      "bytes": 8314648
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00426.tif",
+      "bytes": 8314604
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00427.tif",
+      "bytes": 8314588
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00428.tif",
+      "bytes": 8314564
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00429.tif",
+      "bytes": 8314544
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00430.tif",
+      "bytes": 8314532
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00431.tif",
+      "bytes": 8314524
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00432.tif",
+      "bytes": 8314492
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00433.tif",
+      "bytes": 8314468
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00434.tif",
+      "bytes": 8314492
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00435.tif",
+      "bytes": 8314440
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00436.tif",
+      "bytes": 8314452
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00437.tif",
+      "bytes": 8314444
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00438.tif",
+      "bytes": 8314396
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00439.tif",
+      "bytes": 8314364
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00440.tif",
+      "bytes": 8314368
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00441.tif",
+      "bytes": 8314344
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00442.tif",
+      "bytes": 8314332
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00443.tif",
+      "bytes": 8314344
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00444.tif",
+      "bytes": 8314344
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00445.tif",
+      "bytes": 8314300
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00446.tif",
+      "bytes": 8314296
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00447.tif",
+      "bytes": 8314344
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00448.tif",
+      "bytes": 8314316
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00449.tif",
+      "bytes": 8314340
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00450.tif",
+      "bytes": 8314312
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00451.tif",
+      "bytes": 8314312
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00452.tif",
+      "bytes": 8314260
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00453.tif",
+      "bytes": 8314260
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00454.tif",
+      "bytes": 8314252
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00455.tif",
+      "bytes": 8314228
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00456.tif",
+      "bytes": 8314236
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00457.tif",
+      "bytes": 8314244
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00458.tif",
+      "bytes": 8314184
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00459.tif",
+      "bytes": 8314188
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00460.tif",
+      "bytes": 8314220
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00461.tif",
+      "bytes": 8314176
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00462.tif",
+      "bytes": 8314156
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00463.tif",
+      "bytes": 8314140
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00464.tif",
+      "bytes": 8314100
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00465.tif",
+      "bytes": 8314068
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00466.tif",
+      "bytes": 8314008
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00467.tif",
+      "bytes": 8313960
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00468.tif",
+      "bytes": 8313928
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00469.tif",
+      "bytes": 8313852
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00470.tif",
+      "bytes": 8313780
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00471.tif",
+      "bytes": 8313752
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00472.tif",
+      "bytes": 8313668
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00473.tif",
+      "bytes": 8313628
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00474.tif",
+      "bytes": 8313572
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00475.tif",
+      "bytes": 8313540
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00476.tif",
+      "bytes": 8313480
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00477.tif",
+      "bytes": 8313408
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00478.tif",
+      "bytes": 8313356
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00479.tif",
+      "bytes": 8313272
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00480.tif",
+      "bytes": 8313264
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00481.tif",
+      "bytes": 8313260
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00482.tif",
+      "bytes": 8313288
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00483.tif",
+      "bytes": 8313300
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00484.tif",
+      "bytes": 8313296
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00485.tif",
+      "bytes": 8313336
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00486.tif",
+      "bytes": 8313344
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00487.tif",
+      "bytes": 8313388
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00488.tif",
+      "bytes": 8313416
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00489.tif",
+      "bytes": 8313424
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00490.tif",
+      "bytes": 8313452
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00491.tif",
+      "bytes": 8313452
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00492.tif",
+      "bytes": 8313444
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00493.tif",
+      "bytes": 8313452
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00494.tif",
+      "bytes": 8313468
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00495.tif",
+      "bytes": 8313512
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00496.tif",
+      "bytes": 8313536
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00497.tif",
+      "bytes": 8313548
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00498.tif",
+      "bytes": 8313568
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00499.tif",
+      "bytes": 8313608
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00500.tif",
+      "bytes": 8313632
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00501.tif",
+      "bytes": 8313672
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00502.tif",
+      "bytes": 8313688
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00503.tif",
+      "bytes": 8313704
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00504.tif",
+      "bytes": 8313716
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00505.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00506.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00507.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00508.tif",
+      "bytes": 8313720
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00509.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00510.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00511.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00512.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00513.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00514.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00515.tif",
+      "bytes": 8313720
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00516.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00517.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00518.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00519.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00520.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00521.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00522.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00523.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00524.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00525.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00526.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00527.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00528.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00529.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00530.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00531.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00532.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00533.tif",
+      "bytes": 8313732
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00534.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00535.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00536.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00537.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00538.tif",
+      "bytes": 8313732
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00539.tif",
+      "bytes": 8313732
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00540.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00541.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00542.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00543.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00544.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00545.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00546.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00547.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00548.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00549.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00550.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00551.tif",
+      "bytes": 8313732
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00552.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00553.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00554.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00555.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00556.tif",
+      "bytes": 8313720
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00557.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00558.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00559.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00560.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00561.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00562.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00563.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00564.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00565.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00566.tif",
+      "bytes": 8313732
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00567.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00568.tif",
+      "bytes": 8313720
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00569.tif",
+      "bytes": 8313720
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00570.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00571.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00572.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00573.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00574.tif",
+      "bytes": 8313728
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00575.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00576.tif",
+      "bytes": 8313724
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00577.tif",
+      "bytes": 8313716
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00578.tif",
+      "bytes": 8313712
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00579.tif",
+      "bytes": 8313700
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00580.tif",
+      "bytes": 8313680
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00581.tif",
+      "bytes": 8313652
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00582.tif",
+      "bytes": 8313620
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00583.tif",
+      "bytes": 8313588
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00584.tif",
+      "bytes": 8313552
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00585.tif",
+      "bytes": 8313492
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00586.tif",
+      "bytes": 8313432
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00587.tif",
+      "bytes": 8313368
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00588.tif",
+      "bytes": 8313312
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00589.tif",
+      "bytes": 8313248
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00590.tif",
+      "bytes": 8313180
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00591.tif",
+      "bytes": 8313092
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00592.tif",
+      "bytes": 8313012
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00593.tif",
+      "bytes": 8312932
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00594.tif",
+      "bytes": 8312844
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00595.tif",
+      "bytes": 8312752
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00596.tif",
+      "bytes": 8312672
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00597.tif",
+      "bytes": 8312600
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00598.tif",
+      "bytes": 8312548
+    },
+    {
+      "path": "samples/composition-demo-001/resonance-002/render/frame_00599.tif",
+      "bytes": 8312520
+    }
+  ],
+  "authorization": "User requested keeping only deliverables after library publication; scope restricted to this independent lab",
+  "deleted_files": 732,
+  "deleted_bytes": 5708097524,
+  "errors": [],
+  "retained_hash_changes": [],
+  "completed_at": "2026-11-07 11:27:36"
+}
