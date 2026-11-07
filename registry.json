@@ -337,9 +337,9 @@
     },
     {
       "name": "ae-advanced-expressions",
-      "version": "0.13.0",
+      "version": "0.14.0",
       "status": "candidate",
-      "execution_status": "thirteen_units_with_native_evidence_cloud850frames_explicit_nativeflare_variant_original_OpticalFlares_blocked",
+      "execution_status": "fourteen_units_native_evidence_free_pointing7cases1260frames_manual_replay_human_review_pending",
       "path": "skills/after-effects/ae-advanced-expressions",
       "dependencies": [
         "After Effects AE26 Chinese Windows tested",
@@ -366,7 +366,8 @@
         "无关键帧cos/sin圆周运动、独立XY投影与同步自转，PNG替换和半径/角速度候选",
         "原生Write-on螺旋累积、固定及滑杆椭圆、方形像素新图片显露适配候选",
         "Numbers效果if/else原始value驱动左锚点进度条、三键pingpong标题和独立调整层固定色场候选",
-        "透明云层Alpha采样驱动耀斑亮度，内置LensFlare明确变体；原课OpticalFlares缺失未完成"
+        "透明云层Alpha采样驱动耀斑亮度，内置LensFlare明确变体；原课OpticalFlares缺失未完成",
+        "原法sub/atan2弧度转角度驱动单体与index阵列朝向目标；字母−90、线条0和明确PNG朝向适配"
       ],
       "sources": [
         {
@@ -390,7 +391,8 @@
             29,
             30,
             31,
-            32
+            32,
+            33
           ]
         }
       ],
@@ -408,7 +410,8 @@
         "第29节：6例1800帧/三图片/独立复制调用通过；素材色彩尺寸推定，时间轴拖动未同步，整体人工反馈待答",
         "第30节：Write-on7例1356帧通过；Particular缺失导致三维粒子部分未制作，PAR/时长及控制器缓动边界有说明，整体人工反馈待答",
         "第31节：5例1750帧/三新PNG/独立调用通过；Gulim与AdobeHeitiStd缺失，实际替代字体和111/130字形补偿、部分布局及调色身份有适配边界；整体反馈待答",
-        "第32节：5例850帧/三新遮挡图/独立复制调用为内置LensFlare明确变体；原课OpticalFlares和GoldenSun缺失未制作，光学身份及人工反馈未验"
+        "第32节：5例850帧/三新遮挡图/独立复制调用为内置LensFlare明确变体；原课OpticalFlares和GoldenSun缺失未制作，光学身份及人工反馈未验",
+        "第33节：7例1260帧、三新PNG与独立6×4变参通过；源手动拖动的测量重放、a.ai/字体缺失与画布/背景推定明确保留，两基线整体反馈待答"
       ],
       "evidence_by_unit": {
         "threshold": "evaluations/course-p08-suite-001/summary.json",
@@ -423,7 +426,8 @@
         "orbit_projections": "evaluations/course2-p29-orbit-001/summary.json",
         "spiral_writeon": "evaluations/course2-p30-spiral-001/summary.json",
         "loading_progress": "evaluations/course2-p31-progress-001/summary.json",
-        "cloud_occlusion_native_variant": "evaluations/course2-p32-cloud-001/summary.json"
+        "cloud_occlusion_native_variant": "evaluations/course2-p32-cloud-001/summary.json",
+        "free_pointing": "evaluations/course2-p33-pointing-001/summary.json"
       },
       "p09_latest_user_feedback": "挺好的; retain current version; prior needs-adjustment response preserved",
       "accepted_candidate_artifacts": [

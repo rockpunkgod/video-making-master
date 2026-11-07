@@ -1,0 +1,25 @@
+{
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=33",
+  "original_crop": [
+    561,
+    169,
+    304,
+    228
+  ],
+  "grid_source_interval": [
+    810,
+    816
+  ],
+  "letter_source_interval": [
+    508,
+    514
+  ],
+  "left": "Real cropped source, including source preview ghosting and UI",
+  "right": "Actual continuous AE render, measured center replay and linear interpolation; no source-native animation keys recovered",
+  "time_alignment": "Mapped6seconds recording time, source repaint/ghost frames and original anchors unverified; not exact composition-frame synchronization",
+  "adaptations": [
+    "Own a badge and ArialMT font; original a.ai unavailable",
+    "Canvas inference, approximate background/target appearance, output wrapper and native vector rasterization",
+    "12grid and30letter ghost/ambiguous source frames excluded, interpolation authored between accepted observations"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "status": "passed",
+  "projects": [
+    {
+      "case": "grid-baseline-002",
+      "checks": {
+        "comp": true,
+        "count": true,
+        "unparented": true,
+        "source_expression": true,
+        "target_order": true,
+        "target_opacity": true,
+        "wrapper": true,
+        "media": true,
+        "native_index_grid": true
+      }
+    },
+    {
+      "case": "letter-baseline-002",
+      "checks": {
+        "comp": true,
+        "count": true,
+        "unparented": true,
+        "source_expression": true,
+        "target_order": true,
+        "target_opacity": true,
+        "wrapper": true,
+        "media": true,
+        "own_font_and_vector": true
+      }
+    },
+    {
+      "case": "dart-001",
+      "checks": {
+        "comp": true,
+        "count": true,
+        "unparented": true,
+        "source_expression": true,
+        "target_order": true,
+        "target_opacity": true,
+        "wrapper": true,
+        "media": true,
+        "native_index_grid": true
+      }
+    },
+    {
+      "case": "pointer-001",
+      "checks": {
+        "comp": true,
+        "count": true,
+        "unparented": true,
+        "source_expression": true,
+        "target_order": true,
+        "target_opacity": true,
+        "wrapper": true,
+        "media": true,
+        "native_index_grid": true
+      }
+    },
+    {
+      "case": "triangle-001",
+      "checks": {
+        "comp": true,
+        "count": true,
+        "unparented": true,
+        "source_expression": true,
+        "target_order": true,
+        "target_opacity": true,
+        "wrapper": true,
+        "media": true,
+        "native_index_grid": true
+      }
+    },
+    {
+      "case": "letter-png-001",
+      "checks": {
+        "comp": true,
+        "count": true,
+        "unparented": true,
+        "source_expression": true,
+        "target_order": true,
+        "target_opacity": true,
+        "wrapper": true,
+        "media": true
+      }
+    },
+    {
+      "case": "variation-isolated-001",
+      "checks": {
+        "comp": true,
+        "count": true,
+        "unparented": true,
+        "source_expression": true,
+        "target_order": true,
+        "target_opacity": true,
+        "wrapper": true,
+        "media": true,
+        "native_index_grid": true
+      }
+    }
+  ],
+  "scope": "Actual saved AE project readback, not only generated script inspection"
+}

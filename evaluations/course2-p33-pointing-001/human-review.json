@@ -1,0 +1,16 @@
+[
+  {
+    "case": "grid-baseline-002",
+    "video_sha256": "650285f7438421c51bd2e765887c0a9b8a7bf0db991017708fa36a0fba1c1f94",
+    "status": "pending",
+    "scope": "Overall pointing motion only; manual replay/own artwork limitations remain",
+    "comparison": "cache/reviews/course2-p33-pointing-001/grid-comparison.mp4"
+  },
+  {
+    "case": "letter-baseline-002",
+    "video_sha256": "52cac119abb736aeeb2437343cbab879cf6f5a335eda6f16d7a3433b64d318f6",
+    "status": "pending",
+    "scope": "Overall pointing motion only; manual replay/own artwork limitations remain",
+    "comparison": "cache/reviews/course2-p33-pointing-001/letter-comparison.mp4"
+  }
+]

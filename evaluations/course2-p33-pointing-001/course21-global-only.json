@@ -1,0 +1,59 @@
+{
+  "status": "global_only_incomplete",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=21",
+  "video_duration": 1810.4,
+  "global_frames_viewed": 12,
+  "transcript_read": false,
+  "technical_pass": false,
+  "native_reproduction": false,
+  "frames": [
+    {
+      "path": "cache/watch/watch-z4_99m2f/frames/frame_0001.jpg",
+      "sha256": "5dd2b9256bedbde020e805d3c73f82e9213e32dc2575f63d225761f0f9dfa0f7"
+    },
+    {
+      "path": "cache/watch/watch-z4_99m2f/frames/frame_0014.jpg",
+      "sha256": "d05a0c93b300282f49c1349a509d24af0ab42c39bc8b87737cc31fd8680c94f3"
+    },
+    {
+      "path": "cache/watch/watch-z4_99m2f/frames/frame_0036.jpg",
+      "sha256": "25c608fa624ec3a3422a92604eef13affe68bad573a726712333760a1be5acb5"
+    },
+    {
+      "path": "cache/watch/watch-z4_99m2f/frames/frame_0106.jpg",
+      "sha256": "4de39d5e9975fffccae6a5821b225abc5d7931097b6b2992a56d626a1ff5135f"
+    },
+    {
+      "path": "cache/watch/watch-z4_99m2f/frames/frame_0129.jpg",
+      "sha256": "10ac61d7c1c86f2ee5f4ae7da9c69bd15d3943c9ccbd347a2616e82c4c655ca9"
+    },
+    {
+      "path": "cache/watch/watch-z4_99m2f/frames/frame_0170.jpg",
+      "sha256": "f25dbd71e463f5fd56dca04488d2a47dd71113d280bf1341af7717ba5dbec9b0"
+    },
+    {
+      "path": "cache/watch/watch-z4_99m2f/frames/frame_0189.jpg",
+      "sha256": "3226806e29c7c23b39f130fb352779cfddf33c8c41c16c8ead62cc58ae814042"
+    },
+    {
+      "path": "cache/watch/watch-z4_99m2f/frames/frame_0206.jpg",
+      "sha256": "8e2d638927eac731818880d0e3c413ca85137f2863c0fe237dc435f463802298"
+    },
+    {
+      "path": "cache/watch/watch-z4_99m2f/frames/frame_0228.jpg",
+      "sha256": "98ef88857c50238c93873f55d6c05c66ebea4f8fdddd25fc1849a9b515eca85c"
+    },
+    {
+      "path": "cache/watch/watch-z4_99m2f/frames/frame_0298.jpg",
+      "sha256": "2e9872198b25130d62dadbdae0e46526975b4583fa04cdce587a57c54e11888d"
+    },
+    {
+      "path": "cache/watch/watch-z4_99m2f/frames/frame_0330.jpg",
+      "sha256": "bb545d63c5a6939b5e710445526d694216943612c544f44e47c9833eb952d7ed"
+    },
+    {
+      "path": "cache/watch/watch-z4_99m2f/frames/frame_0364.jpg",
+      "sha256": "17d40e2c1a366992c08f8dbba9010f98fa17fa890ab075149ce3f955cd11c4df"
+    }
+  ]
+}

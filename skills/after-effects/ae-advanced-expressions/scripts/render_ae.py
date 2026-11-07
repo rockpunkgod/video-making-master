@@ -10,6 +10,13 @@ from launch_adobe import child_environment
 
 def check_output(root,cfg):
     report=validate(root/'final.mp4',cfg)
+    if cfg.get('animation')=='free-pointing':
+        from validate_free_pointing import validate as pointing_validate
+        audit=pointing_validate(root)
+        report['pointing_quality']='pointing-quality.json'
+        report['course_fidelity']='original_atan2_method_manual_replay_artwork_adaptation_pending_review'
+        report['delivery_status']='candidate_unaccepted'
+        if audit['status']!='passed':report['status']='failed'
     if cfg.get('animation')=='cloud-occlusion':
         from validate_cloud_occlusion import validate as cloud_validate
         audit=cloud_validate(root)

@@ -1,0 +1,2238 @@
+{
+  "status": "detector_unsuitable_for_near_isotropic_glyph",
+  "actual_failed_report": {
+    "status": "failed",
+    "checks": {
+      "full_movie": true,
+      "all_frame_pixel_axis": false,
+      "native_checkpoint_rgb": true,
+      "source_formula": true,
+      "replay_position": true,
+      "grid_index_position": true,
+      "quantized_key_times": true,
+      "zero_rotation_keys": true,
+      "unparented_2d": true,
+      "native_reopened": true,
+      "target_edit": true,
+      "actual_feedback_pixels": true,
+      "media": true,
+      "native_wrapper_collapse": true
+    },
+    "video_sha256": "4a821501e406088014e48f9b10b967e0ebc827cd8672a6263114a22c4bed00ca",
+    "frames": 180,
+    "pixel_axes_checked": 180,
+    "max_axis_error_degrees": 3.3583763979982564,
+    "max_replay_position_error": 0.019634084705984378,
+    "max_grid_position_error": 0,
+    "max_native_formula_error": 7.673861546209082e-13,
+    "max_key_time_error_seconds": 1.3020833330656956e-05,
+    "feedback_global_mean_rgb_difference": 2.145451388888889,
+    "local_artwork_axis_degrees": -79.25302564401979,
+    "failures": [
+      {
+        "frame": 0,
+        "index": 2,
+        "error": 0.5279959586706866,
+        "anisotropy": 1.4006897924763613
+      },
+      {
+        "frame": 1,
+        "index": 2,
+        "error": 0.2641218630108426,
+        "anisotropy": 1.400444814591
+      },
+      {
+        "frame": 2,
+        "index": 2,
+        "error": 0.086659883797509,
+        "anisotropy": 1.4024133440241426
+      },
+      {
+        "frame": 3,
+        "index": 2,
+        "error": 0.5666056501010814,
+        "anisotropy": 1.405501462220187
+      },
+      {
+        "frame": 4,
+        "index": 2,
+        "error": 0.4808791971189237,
+        "anisotropy": 1.4087230608285888
+      },
+      {
+        "frame": 5,
+        "index": 2,
+        "error": 0.3845398799227553,
+        "anisotropy": 1.4025976856371845
+      },
+      {
+        "frame": 6,
+        "index": 2,
+        "error": 0.4013013564486556,
+        "anisotropy": 1.4131486185626132
+      },
+      {
+        "frame": 7,
+        "index": 2,
+        "error": 0.32998354232908866,
+        "anisotropy": 1.4139692461138738
+      },
+      {
+        "frame": 8,
+        "index": 2,
+        "error": 0.1545068709373254,
+        "anisotropy": 1.4069420059104345
+      },
+      {
+        "frame": 9,
+        "index": 2,
+        "error": 0.9019475006702464,
+        "anisotropy": 1.4232019443930792
+      },
+      {
+        "frame": 10,
+        "index": 2,
+        "error": 0.3017753640997398,
+        "anisotropy": 1.386195169729387
+      },
+      {
+        "frame": 11,
+        "index": 2,
+        "error": 0.314215754600184,
+        "anisotropy": 1.3962926953925634
+      },
+      {
+        "frame": 12,
+        "index": 2,
+        "error": 0.9888695250352839,
+        "anisotropy": 1.4155650202117893
+      },
+      {
+        "frame": 13,
+        "index": 2,
+        "error": 0.48014333576941226,
+        "anisotropy": 1.4063197867836001
+      },
+      {
+        "frame": 14,
+        "index": 2,
+        "error": 0.391099717603538,
+        "anisotropy": 1.4012985629207186
+      },
+      {
+        "frame": 15,
+        "index": 2,
+        "error": 1.088208571613393,
+        "anisotropy": 1.413675602250993
+      },
+      {
+        "frame": 16,
+        "index": 2,
+        "error": 0.5959421285783719,
+        "anisotropy": 1.4211862271718794
+      },
+      {
+        "frame": 17,
+        "index": 2,
+        "error": 0.03320003234500746,
+        "anisotropy": 1.3993126637026787
+      },
+      {
+        "frame": 18,
+        "index": 2,
+        "error": 0.31667663132998314,
+        "anisotropy": 1.40407807677504
+      },
+      {
+        "frame": 19,
+        "index": 2,
+        "error": 0.1352689665266098,
+        "anisotropy": 1.4076342642051862
+      },
+      {
+        "frame": 20,
+        "index": 2,
+        "error": 0.043871496866131565,
+        "anisotropy": 1.3984129517723851
+      },
+      {
+        "frame": 21,
+        "index": 2,
+        "error": 0.11695603295322599,
+        "anisotropy": 1.4167596814701
+      },
+      {
+        "frame": 22,
+        "index": 2,
+        "error": 0.15978168486890354,
+        "anisotropy": 1.3992501486951714
+      },
+      {
+        "frame": 23,
+        "index": 2,
+        "error": 0.7189132953872104,
+        "anisotropy": 1.4027623782174088
+      },
+      {
+        "frame": 24,
+        "index": 2,
+        "error": 0.35164273246761013,
+        "anisotropy": 1.3953458134508228
+      },
+      {
+        "frame": 25,
+        "index": 2,
+        "error": 0.12800796771512069,
+        "anisotropy": 1.4048675264994257
+      },
+      {
+        "frame": 26,
+        "index": 2,
+        "error": 0.6199129773827394,
+        "anisotropy": 1.4129749578016995
+      },
+      {
+        "frame": 27,
+        "index": 2,
+        "error": 0.004488992418941962,
+        "anisotropy": 1.4010817326995906
+      },
+      {
+        "frame": 28,
+        "index": 2,
+        "error": 0.3655406533274572,
+        "anisotropy": 1.4053421964721806
+      },
+      {
+        "frame": 29,
+        "index": 2,
+        "error": 0.13151833528797852,
+        "anisotropy": 1.401354068365929
+      },
+      {
+        "frame": 30,
+        "index": 2,
+        "error": 0.067309931729028,
+        "anisotropy": 1.4091131420657474
+      },
+      {
+        "frame": 31,
+        "index": 2,
+        "error": 0.04386244396657446,
+        "anisotropy": 1.4005229098268464
+      },
+      {
+        "frame": 32,
+        "index": 2,
+        "error": 0.26266145368690275,
+        "anisotropy": 1.3857586426373845
+      },
+      {
+        "frame": 33,
+        "index": 2,
+        "error": 0.43479515573474714,
+        "anisotropy": 1.4003773251262606
+      },
+      {
+        "frame": 34,
+        "index": 2,
+        "error": 0.038690422293939264,
+        "anisotropy": 1.3975319773423978
+      },
+      {
+        "frame": 35,
+        "index": 2,
+        "error": 0.7833757128941272,
+        "anisotropy": 1.4049861229416643
+      },
+      {
+        "frame": 36,
+        "index": 2,
+        "error": 0.8926184987626868,
+        "anisotropy": 1.413615318429003
+      },
+      {
+        "frame": 37,
+        "index": 2,
+        "error": 0.0062683115000936596,
+        "anisotropy": 1.4052592137544195
+      },
+      {
+        "frame": 38,
+        "index": 2,
+        "error": 0.14819437050800843,
+        "anisotropy": 1.4121026990887167
+      },
+      {
+        "frame": 39,
+        "index": 2,
+        "error": 0.5887718392254868,
+        "anisotropy": 1.4173923309804046
+      },
+      {
+        "frame": 40,
+        "index": 2,
+        "error": 0.24501446723479603,
+        "anisotropy": 1.4080710084499135
+      },
+      {
+        "frame": 41,
+        "index": 2,
+        "error": 0.37862889466453,
+        "anisotropy": 1.3963316860986084
+      },
+      {
+        "frame": 42,
+        "index": 2,
+        "error": 1.0946121931414723,
+        "anisotropy": 1.3982302292641753
+      },
+      {
+        "frame": 43,
+        "index": 2,
+        "error": 0.5257362379313122,
+        "anisotropy": 1.4098317967871488
+      },
+      {
+        "frame": 44,
+        "index": 2,
+        "error": 0.03903902035824558,
+        "anisotropy": 1.3874656788321085
+      },
+      {
+        "frame": 45,
+        "index": 2,
+        "error": 0.5392880742545572,
+        "anisotropy": 1.401347137979996
+      },
+      {
+        "frame": 46,
+        "index": 2,
+        "error": 0.4654232060296408,
+        "anisotropy": 1.4030011947724617
+      },
+      {
+        "frame": 47,
+        "index": 2,
+        "error": 0.2828884815398851,
+        "anisotropy": 1.392670974669139
+      },
+      {
+        "frame": 48,
+        "index": 2,
+        "error": 0.794463510408832,
+        "anisotropy": 1.3961948603324528
+      },
+      {
+        "frame": 49,
+        "index": 2,
+        "error": 0.7886842328340435,
+        "anisotropy": 1.4053427223182222
+      },
+      {
+        "frame": 50,
+        "index": 2,
+        "error": 0.15109393510283553,
+        "anisotropy": 1.3996278595753158
+      },
+      {
+        "frame": 51,
+        "index": 2,
+        "error": 0.21985149053699615,
+        "anisotropy": 1.4006876684416754
+      },
+      {
+        "frame": 52,
+        "index": 2,
+        "error": 0.5035581069957971,
+        "anisotropy": 1.4208889961933953
+      },
+      {
+        "frame": 53,
+        "index": 2,
+        "error": 1.4895334478645026,
+        "anisotropy": 1.3999611365757039
+      },
+      {
+        "frame": 54,
+        "index": 2,
+        "error": 0.006376382302136108,
+        "anisotropy": 1.397199063479041
+      },
+      {
+        "frame": 55,
+        "index": 2,
+        "error": 0.11646299435193441,
+        "anisotropy": 1.3930244208905864
+      },
+      {
+        "frame": 56,
+        "index": 2,
+        "error": 0.11354162038998084,
+        "anisotropy": 1.3942114664322862
+      },
+      {
+        "frame": 57,
+        "index": 2,
+        "error": 0.26178451219773535,
+        "anisotropy": 1.4012788358866157
+      },
+      {
+        "frame": 58,
+        "index": 2,
+        "error": 0.09795077453266288,
+        "anisotropy": 1.4115676129409798
+      },
+      {
+        "frame": 59,
+        "index": 2,
+        "error": 0.7181496244997447,
+        "anisotropy": 1.4138178949168478
+      },
+      {
+        "frame": 60,
+        "index": 2,
+        "error": 0.4929583984968531,
+        "anisotropy": 1.4019829863939628
+      },
+      {
+        "frame": 61,
+        "index": 2,
+        "error": 1.029192043823187,
+        "anisotropy": 1.3971054974438564
+      },
+      {
+        "frame": 62,
+        "index": 2,
+        "error": 0.0766624209999236,
+        "anisotropy": 1.409304071536577
+      },
+      {
+        "frame": 63,
+        "index": 2,
+        "error": 0.274663454209076,
+        "anisotropy": 1.4069325243958146
+      },
+      {
+        "frame": 64,
+        "index": 2,
+        "error": 0.03386901392582331,
+        "anisotropy": 1.4007844516475563
+      },
+      {
+        "frame": 65,
+        "index": 2,
+        "error": 0.4366785641966544,
+        "anisotropy": 1.4021278446350909
+      },
+      {
+        "frame": 66,
+        "index": 2,
+        "error": 1.0931817409296514,
+        "anisotropy": 1.4058112034956918
+      },
+      {
+        "frame": 67,
+        "index": 2,
+        "error": 0.6070944804690726,
+        "anisotropy": 1.3954914360554642
+      },
+      {
+        "frame": 68,
+        "index": 2,
+        "error": 0.48088257157417047,
+        "anisotropy": 1.4134942876779675
+      },
+      {
+        "frame": 69,
+        "index": 2,
+        "error": 0.21809063265118311,
+        "anisotropy": 1.403562225930621
+      },
+      {
+        "frame": 70,
+        "index": 2,
+        "error": 0.33449730550921686,
+        "anisotropy": 1.4040462520185897
+      },
+      {
+        "frame": 71,
+        "index": 2,
+        "error": 0.437012355299089,
+        "anisotropy": 1.4043307265402556
+      },
+      {
+        "frame": 72,
+        "index": 2,
+        "error": 0.03314216627518363,
+        "anisotropy": 1.3991919427480664
+      },
+      {
+        "frame": 73,
+        "index": 2,
+        "error": 0.05007281814118869,
+        "anisotropy": 1.3909368449797093
+      },
+      {
+        "frame": 74,
+        "index": 2,
+        "error": 0.24900196672138009,
+        "anisotropy": 1.3999789599650765
+      },
+      {
+        "frame": 75,
+        "index": 2,
+        "error": 1.2886097611761897,
+        "anisotropy": 1.4002418686652287
+      },
+      {
+        "frame": 76,
+        "index": 2,
+        "error": 0.21143861062148517,
+        "anisotropy": 1.4089753842165071
+      },
+      {
+        "frame": 77,
+        "index": 2,
+        "error": 0.05954430086313778,
+        "anisotropy": 1.4032285059306573
+      },
+      {
+        "frame": 78,
+        "index": 2,
+        "error": 0.7477895080660915,
+        "anisotropy": 1.4019612883178403
+      },
+      {
+        "frame": 79,
+        "index": 2,
+        "error": 0.4838415517208432,
+        "anisotropy": 1.4048831155957997
+      },
+      {
+        "frame": 80,
+        "index": 2,
+        "error": 0.1668842924443652,
+        "anisotropy": 1.4001191878554649
+      },
+      {
+        "frame": 81,
+        "index": 2,
+        "error": 0.770262593321263,
+        "anisotropy": 1.4113106627927678
+      },
+      {
+        "frame": 82,
+        "index": 2,
+        "error": 0.8513685631539829,
+        "anisotropy": 1.3943450273236861
+      },
+      {
+        "frame": 83,
+        "index": 2,
+        "error": 0.6866611079381642,
+        "anisotropy": 1.393650200222961
+      },
+      {
+        "frame": 84,
+        "index": 2,
+        "error": 0.2638991607883838,
+        "anisotropy": 1.4055338367355599
+      },
+      {
+        "frame": 85,
+        "index": 2,
+        "error": 0.0473643340572778,
+        "anisotropy": 1.4058380443229255
+      },
+      {
+        "frame": 86,
+        "index": 2,
+        "error": 0.31387381041727735,
+        "anisotropy": 1.4030663443946199
+      },
+      {
+        "frame": 87,
+        "index": 2,
+        "error": 0.5995677430712902,
+        "anisotropy": 1.3894471699119493
+      },
+      {
+        "frame": 88,
+        "index": 2,
+        "error": 0.5273698431037417,
+        "anisotropy": 1.4041110698172223
+      },
+      {
+        "frame": 89,
+        "index": 2,
+        "error": 0.033126898438183616,
+        "anisotropy": 1.4060263342838388
+      },
+      {
+        "frame": 90,
+        "index": 2,
+        "error": 0.6323036837206928,
+        "anisotropy": 1.4073843102547077
+      },
+      {
+        "frame": 91,
+        "index": 2,
+        "error": 0.7820512684449596,
+        "anisotropy": 1.4079177054797456
+      },
+      {
+        "frame": 92,
+        "index": 2,
+        "error": 0.9117854492607478,
+        "anisotropy": 1.415006560969683
+      },
+      {
+        "frame": 93,
+        "index": 2,
+        "error": 0.29134243131625226,
+        "anisotropy": 1.4097428551569546
+      },
+      {
+        "frame": 94,
+        "index": 2,
+        "error": 0.26651576771206464,
+        "anisotropy": 1.414312601544679
+      },
+      {
+        "frame": 95,
+        "index": 2,
+        "error": 0.05901534392614849,
+        "anisotropy": 1.3898509585956318
+      },
+      {
+        "frame": 96,
+        "index": 2,
+        "error": 0.6912236253529045,
+        "anisotropy": 1.4072327797442303
+      },
+      {
+        "frame": 97,
+        "index": 2,
+        "error": 0.38038098614418914,
+        "anisotropy": 1.413499460141514
+      },
+      {
+        "frame": 98,
+        "index": 2,
+        "error": 0.44477801135428763,
+        "anisotropy": 1.4084300667262288
+      },
+      {
+        "frame": 99,
+        "index": 2,
+        "error": 0.2888527186124179,
+        "anisotropy": 1.3927271121804903
+      },
+      {
+        "frame": 100,
+        "index": 2,
+        "error": 1.9980794418784171,
+        "anisotropy": 1.4690567368013914
+      },
+      {
+        "frame": 101,
+        "index": 2,
+        "error": 3.3583763979982564,
+        "anisotropy": 1.441395956672206
+      },
+      {
+        "frame": 102,
+        "index": 2,
+        "error": 2.9630286100447165,
+        "anisotropy": 1.4633690212453803
+      },
+      {
+        "frame": 103,
+        "index": 2,
+        "error": 1.904771534976362,
+        "anisotropy": 1.4648935351068073
+      },
+      {
+        "frame": 104,
+        "index": 2,
+        "error": 2.5747877066605724,
+        "anisotropy": 1.4583134808283327
+      },
+      {
+        "frame": 105,
+        "index": 2,
+        "error": 3.2518795484000975,
+        "anisotropy": 1.4314565010060507
+      },
+      {
+        "frame": 106,
+        "index": 2,
+        "error": 0.5087691582193656,
+        "anisotropy": 1.4051747082812138
+      },
+      {
+        "frame": 107,
+        "index": 2,
+        "error": 0.4137984457437369,
+        "anisotropy": 1.4068846879444759
+      },
+      {
+        "frame": 108,
+        "index": 2,
+        "error": 0.0228141069233061,
+        "anisotropy": 1.409040503103628
+      },
+      {
+        "frame": 109,
+        "index": 2,
+        "error": 0.11615385678294388,
+        "anisotropy": 1.4055839530111813
+      },
+      {
+        "frame": 110,
+        "index": 2,
+        "error": 0.9713891079891255,
+        "anisotropy": 1.401806142381515
+      },
+      {
+        "frame": 111,
+        "index": 2,
+        "error": 0.5150755385644743,
+        "anisotropy": 1.4019780258975452
+      },
+      {
+        "frame": 112,
+        "index": 2,
+        "error": 0.13335163399068506,
+        "anisotropy": 1.4040214618150233
+      },
+      {
+        "frame": 113,
+        "index": 2,
+        "error": 0.07041794844462856,
+        "anisotropy": 1.4131303230191732
+      },
+      {
+        "frame": 114,
+        "index": 2,
+        "error": 0.006711141578648494,
+        "anisotropy": 1.4070665300426548
+      },
+      {
+        "frame": 115,
+        "index": 2,
+        "error": 0.014773152717054927,
+        "anisotropy": 1.4096367111355506
+      },
+      {
+        "frame": 116,
+        "index": 2,
+        "error": 0.7718935704551768,
+        "anisotropy": 1.4002884916244351
+      },
+      {
+        "frame": 117,
+        "index": 2,
+        "error": 1.2137691876744725,
+        "anisotropy": 1.4034336679254176
+      },
+      {
+        "frame": 118,
+        "index": 2,
+        "error": 1.2137691876744725,
+        "anisotropy": 1.4034336679254176
+      },
+      {
+        "frame": 119,
+        "index": 2,
+        "error": 1.2137691876744725,
+        "anisotropy": 1.4034336679254176
+      },
+      {
+        "frame": 120,
+        "index": 2,
+        "error": 1.2137691876744725,
+        "anisotropy": 1.4034336679254176
+      },
+      {
+        "frame": 121,
+        "index": 2,
+        "error": 0.3666013120480329,
+        "anisotropy": 1.4043926438752405
+      },
+      {
+        "frame": 122,
+        "index": 2,
+        "error": 0.3817202888326392,
+        "anisotropy": 1.409944437846645
+      },
+      {
+        "frame": 123,
+        "index": 2,
+        "error": 0.22734221510563657,
+        "anisotropy": 1.4035130884793752
+      },
+      {
+        "frame": 124,
+        "index": 2,
+        "error": 1.4475030783331135,
+        "anisotropy": 1.4146256284992949
+      },
+      {
+        "frame": 125,
+        "index": 2,
+        "error": 0.04324306009203838,
+        "anisotropy": 1.402617618158941
+      },
+      {
+        "frame": 126,
+        "index": 2,
+        "error": 0.45394409200764585,
+        "anisotropy": 1.3983914065808616
+      },
+      {
+        "frame": 127,
+        "index": 2,
+        "error": 1.1834525434647958,
+        "anisotropy": 1.401288896252119
+      },
+      {
+        "frame": 128,
+        "index": 2,
+        "error": 0.18790495730178236,
+        "anisotropy": 1.4028895575361962
+      },
+      {
+        "frame": 129,
+        "index": 2,
+        "error": 0.11144488298066335,
+        "anisotropy": 1.4001753241514594
+      },
+      {
+        "frame": 130,
+        "index": 2,
+        "error": 0.11141678336247196,
+        "anisotropy": 1.4072782209229047
+      },
+      {
+        "frame": 131,
+        "index": 2,
+        "error": 0.1515955715761379,
+        "anisotropy": 1.399267259687545
+      },
+      {
+        "frame": 132,
+        "index": 2,
+        "error": 0.5355034043595879,
+        "anisotropy": 1.3981413013534976
+      },
+      {
+        "frame": 133,
+        "index": 2,
+        "error": 0.5355034043595879,
+        "anisotropy": 1.3981413013534976
+      },
+      {
+        "frame": 134,
+        "index": 2,
+        "error": 0.5355034043595879,
+        "anisotropy": 1.3981413013534976
+      },
+      {
+        "frame": 135,
+        "index": 2,
+        "error": 0.5355034043595879,
+        "anisotropy": 1.3981413013534976
+      },
+      {
+        "frame": 136,
+        "index": 2,
+        "error": 0.5268890323378628,
+        "anisotropy": 1.3999540879313315
+      },
+      {
+        "frame": 137,
+        "index": 2,
+        "error": 0.8324173253317895,
+        "anisotropy": 1.3993948306815502
+      },
+      {
+        "frame": 138,
+        "index": 2,
+        "error": 0.038480346473875215,
+        "anisotropy": 1.3991096505845384
+      },
+      {
+        "frame": 139,
+        "index": 2,
+        "error": 0.3022858446315695,
+        "anisotropy": 1.401882707527493
+      },
+      {
+        "frame": 140,
+        "index": 2,
+        "error": 0.281731764520714,
+        "anisotropy": 1.3999310117724657
+      },
+      {
+        "frame": 141,
+        "index": 2,
+        "error": 0.2571543811485526,
+        "anisotropy": 1.3991533562006657
+      },
+      {
+        "frame": 142,
+        "index": 2,
+        "error": 0.2571543811485526,
+        "anisotropy": 1.3991533562006657
+      },
+      {
+        "frame": 143,
+        "index": 2,
+        "error": 0.2571543811485526,
+        "anisotropy": 1.3991533562006657
+      },
+      {
+        "frame": 144,
+        "index": 2,
+        "error": 0.2747782096788569,
+        "anisotropy": 1.401115691851958
+      },
+      {
+        "frame": 145,
+        "index": 2,
+        "error": 0.07989435400804723,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 146,
+        "index": 2,
+        "error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 147,
+        "index": 2,
+        "error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 148,
+        "index": 2,
+        "error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 149,
+        "index": 2,
+        "error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 150,
+        "index": 2,
+        "error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 151,
+        "index": 2,
+        "error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 152,
+        "index": 2,
+        "error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 153,
+        "index": 2,
+        "error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 154,
+        "index": 2,
+        "error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 155,
+        "index": 2,
+        "error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 156,
+        "index": 2,
+        "error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 157,
+        "index": 2,
+        "error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 158,
+        "index": 2,
+        "error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 159,
+        "index": 2,
+        "error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 160,
+        "index": 2,
+        "error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 161,
+        "index": 2,
+        "error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 162,
+        "index": 2,
+        "error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 163,
+        "index": 2,
+        "error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 164,
+        "index": 2,
+        "error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 165,
+        "index": 2,
+        "error": 0.17075232004447116,
+        "anisotropy": 1.4049302017963718
+      },
+      {
+        "frame": 166,
+        "index": 2,
+        "error": 0.8383296011427319,
+        "anisotropy": 1.407771774294433
+      },
+      {
+        "frame": 167,
+        "index": 2,
+        "error": 0.42624155662599605,
+        "anisotropy": 1.4053070772239744
+      },
+      {
+        "frame": 168,
+        "index": 2,
+        "error": 0.32388498433851964,
+        "anisotropy": 1.3973510327081469
+      },
+      {
+        "frame": 169,
+        "index": 2,
+        "error": 0.13448195749532488,
+        "anisotropy": 1.3944025856054034
+      },
+      {
+        "frame": 170,
+        "index": 2,
+        "error": 0.14148343144108821,
+        "anisotropy": 1.3943423294113333
+      },
+      {
+        "frame": 171,
+        "index": 2,
+        "error": 0.31283618595739426,
+        "anisotropy": 1.393910126337761
+      },
+      {
+        "frame": 172,
+        "index": 2,
+        "error": 0.16395848299089266,
+        "anisotropy": 1.405021247858232
+      },
+      {
+        "frame": 173,
+        "index": 2,
+        "error": 0.09304786847610558,
+        "anisotropy": 1.4026485590317437
+      },
+      {
+        "frame": 174,
+        "index": 2,
+        "error": 0.4677329140411075,
+        "anisotropy": 1.408290720894507
+      },
+      {
+        "frame": 175,
+        "index": 2,
+        "error": 0.4726211303434411,
+        "anisotropy": 1.395864268108225
+      },
+      {
+        "frame": 176,
+        "index": 2,
+        "error": 0.1814820242728814,
+        "anisotropy": 1.4009341468459837
+      },
+      {
+        "frame": 177,
+        "index": 2,
+        "error": 0.27403476217835987,
+        "anisotropy": 1.3961217101119818
+      },
+      {
+        "frame": 178,
+        "index": 2,
+        "error": 0.4336639358023149,
+        "anisotropy": 1.4043437192059296
+      },
+      {
+        "frame": 179,
+        "index": 2,
+        "error": 0.0667491021764306,
+        "anisotropy": 1.4065355442155463
+      }
+    ],
+    "all_frame_pixel_measurements": [
+      {
+        "frame": 0,
+        "index": 2,
+        "axis_error": 0.5279959586706866,
+        "anisotropy": 1.4006897924763613
+      },
+      {
+        "frame": 1,
+        "index": 2,
+        "axis_error": 0.2641218630108426,
+        "anisotropy": 1.400444814591
+      },
+      {
+        "frame": 2,
+        "index": 2,
+        "axis_error": 0.086659883797509,
+        "anisotropy": 1.4024133440241426
+      },
+      {
+        "frame": 3,
+        "index": 2,
+        "axis_error": 0.5666056501010814,
+        "anisotropy": 1.405501462220187
+      },
+      {
+        "frame": 4,
+        "index": 2,
+        "axis_error": 0.4808791971189237,
+        "anisotropy": 1.4087230608285888
+      },
+      {
+        "frame": 5,
+        "index": 2,
+        "axis_error": 0.3845398799227553,
+        "anisotropy": 1.4025976856371845
+      },
+      {
+        "frame": 6,
+        "index": 2,
+        "axis_error": 0.4013013564486556,
+        "anisotropy": 1.4131486185626132
+      },
+      {
+        "frame": 7,
+        "index": 2,
+        "axis_error": 0.32998354232908866,
+        "anisotropy": 1.4139692461138738
+      },
+      {
+        "frame": 8,
+        "index": 2,
+        "axis_error": 0.1545068709373254,
+        "anisotropy": 1.4069420059104345
+      },
+      {
+        "frame": 9,
+        "index": 2,
+        "axis_error": 0.9019475006702464,
+        "anisotropy": 1.4232019443930792
+      },
+      {
+        "frame": 10,
+        "index": 2,
+        "axis_error": 0.3017753640997398,
+        "anisotropy": 1.386195169729387
+      },
+      {
+        "frame": 11,
+        "index": 2,
+        "axis_error": 0.314215754600184,
+        "anisotropy": 1.3962926953925634
+      },
+      {
+        "frame": 12,
+        "index": 2,
+        "axis_error": 0.9888695250352839,
+        "anisotropy": 1.4155650202117893
+      },
+      {
+        "frame": 13,
+        "index": 2,
+        "axis_error": 0.48014333576941226,
+        "anisotropy": 1.4063197867836001
+      },
+      {
+        "frame": 14,
+        "index": 2,
+        "axis_error": 0.391099717603538,
+        "anisotropy": 1.4012985629207186
+      },
+      {
+        "frame": 15,
+        "index": 2,
+        "axis_error": 1.088208571613393,
+        "anisotropy": 1.413675602250993
+      },
+      {
+        "frame": 16,
+        "index": 2,
+        "axis_error": 0.5959421285783719,
+        "anisotropy": 1.4211862271718794
+      },
+      {
+        "frame": 17,
+        "index": 2,
+        "axis_error": 0.03320003234500746,
+        "anisotropy": 1.3993126637026787
+      },
+      {
+        "frame": 18,
+        "index": 2,
+        "axis_error": 0.31667663132998314,
+        "anisotropy": 1.40407807677504
+      },
+      {
+        "frame": 19,
+        "index": 2,
+        "axis_error": 0.1352689665266098,
+        "anisotropy": 1.4076342642051862
+      },
+      {
+        "frame": 20,
+        "index": 2,
+        "axis_error": 0.043871496866131565,
+        "anisotropy": 1.3984129517723851
+      },
+      {
+        "frame": 21,
+        "index": 2,
+        "axis_error": 0.11695603295322599,
+        "anisotropy": 1.4167596814701
+      },
+      {
+        "frame": 22,
+        "index": 2,
+        "axis_error": 0.15978168486890354,
+        "anisotropy": 1.3992501486951714
+      },
+      {
+        "frame": 23,
+        "index": 2,
+        "axis_error": 0.7189132953872104,
+        "anisotropy": 1.4027623782174088
+      },
+      {
+        "frame": 24,
+        "index": 2,
+        "axis_error": 0.35164273246761013,
+        "anisotropy": 1.3953458134508228
+      },
+      {
+        "frame": 25,
+        "index": 2,
+        "axis_error": 0.12800796771512069,
+        "anisotropy": 1.4048675264994257
+      },
+      {
+        "frame": 26,
+        "index": 2,
+        "axis_error": 0.6199129773827394,
+        "anisotropy": 1.4129749578016995
+      },
+      {
+        "frame": 27,
+        "index": 2,
+        "axis_error": 0.004488992418941962,
+        "anisotropy": 1.4010817326995906
+      },
+      {
+        "frame": 28,
+        "index": 2,
+        "axis_error": 0.3655406533274572,
+        "anisotropy": 1.4053421964721806
+      },
+      {
+        "frame": 29,
+        "index": 2,
+        "axis_error": 0.13151833528797852,
+        "anisotropy": 1.401354068365929
+      },
+      {
+        "frame": 30,
+        "index": 2,
+        "axis_error": 0.067309931729028,
+        "anisotropy": 1.4091131420657474
+      },
+      {
+        "frame": 31,
+        "index": 2,
+        "axis_error": 0.04386244396657446,
+        "anisotropy": 1.4005229098268464
+      },
+      {
+        "frame": 32,
+        "index": 2,
+        "axis_error": 0.26266145368690275,
+        "anisotropy": 1.3857586426373845
+      },
+      {
+        "frame": 33,
+        "index": 2,
+        "axis_error": 0.43479515573474714,
+        "anisotropy": 1.4003773251262606
+      },
+      {
+        "frame": 34,
+        "index": 2,
+        "axis_error": 0.038690422293939264,
+        "anisotropy": 1.3975319773423978
+      },
+      {
+        "frame": 35,
+        "index": 2,
+        "axis_error": 0.7833757128941272,
+        "anisotropy": 1.4049861229416643
+      },
+      {
+        "frame": 36,
+        "index": 2,
+        "axis_error": 0.8926184987626868,
+        "anisotropy": 1.413615318429003
+      },
+      {
+        "frame": 37,
+        "index": 2,
+        "axis_error": 0.0062683115000936596,
+        "anisotropy": 1.4052592137544195
+      },
+      {
+        "frame": 38,
+        "index": 2,
+        "axis_error": 0.14819437050800843,
+        "anisotropy": 1.4121026990887167
+      },
+      {
+        "frame": 39,
+        "index": 2,
+        "axis_error": 0.5887718392254868,
+        "anisotropy": 1.4173923309804046
+      },
+      {
+        "frame": 40,
+        "index": 2,
+        "axis_error": 0.24501446723479603,
+        "anisotropy": 1.4080710084499135
+      },
+      {
+        "frame": 41,
+        "index": 2,
+        "axis_error": 0.37862889466453,
+        "anisotropy": 1.3963316860986084
+      },
+      {
+        "frame": 42,
+        "index": 2,
+        "axis_error": 1.0946121931414723,
+        "anisotropy": 1.3982302292641753
+      },
+      {
+        "frame": 43,
+        "index": 2,
+        "axis_error": 0.5257362379313122,
+        "anisotropy": 1.4098317967871488
+      },
+      {
+        "frame": 44,
+        "index": 2,
+        "axis_error": 0.03903902035824558,
+        "anisotropy": 1.3874656788321085
+      },
+      {
+        "frame": 45,
+        "index": 2,
+        "axis_error": 0.5392880742545572,
+        "anisotropy": 1.401347137979996
+      },
+      {
+        "frame": 46,
+        "index": 2,
+        "axis_error": 0.4654232060296408,
+        "anisotropy": 1.4030011947724617
+      },
+      {
+        "frame": 47,
+        "index": 2,
+        "axis_error": 0.2828884815398851,
+        "anisotropy": 1.392670974669139
+      },
+      {
+        "frame": 48,
+        "index": 2,
+        "axis_error": 0.794463510408832,
+        "anisotropy": 1.3961948603324528
+      },
+      {
+        "frame": 49,
+        "index": 2,
+        "axis_error": 0.7886842328340435,
+        "anisotropy": 1.4053427223182222
+      },
+      {
+        "frame": 50,
+        "index": 2,
+        "axis_error": 0.15109393510283553,
+        "anisotropy": 1.3996278595753158
+      },
+      {
+        "frame": 51,
+        "index": 2,
+        "axis_error": 0.21985149053699615,
+        "anisotropy": 1.4006876684416754
+      },
+      {
+        "frame": 52,
+        "index": 2,
+        "axis_error": 0.5035581069957971,
+        "anisotropy": 1.4208889961933953
+      },
+      {
+        "frame": 53,
+        "index": 2,
+        "axis_error": 1.4895334478645026,
+        "anisotropy": 1.3999611365757039
+      },
+      {
+        "frame": 54,
+        "index": 2,
+        "axis_error": 0.006376382302136108,
+        "anisotropy": 1.397199063479041
+      },
+      {
+        "frame": 55,
+        "index": 2,
+        "axis_error": 0.11646299435193441,
+        "anisotropy": 1.3930244208905864
+      },
+      {
+        "frame": 56,
+        "index": 2,
+        "axis_error": 0.11354162038998084,
+        "anisotropy": 1.3942114664322862
+      },
+      {
+        "frame": 57,
+        "index": 2,
+        "axis_error": 0.26178451219773535,
+        "anisotropy": 1.4012788358866157
+      },
+      {
+        "frame": 58,
+        "index": 2,
+        "axis_error": 0.09795077453266288,
+        "anisotropy": 1.4115676129409798
+      },
+      {
+        "frame": 59,
+        "index": 2,
+        "axis_error": 0.7181496244997447,
+        "anisotropy": 1.4138178949168478
+      },
+      {
+        "frame": 60,
+        "index": 2,
+        "axis_error": 0.4929583984968531,
+        "anisotropy": 1.4019829863939628
+      },
+      {
+        "frame": 61,
+        "index": 2,
+        "axis_error": 1.029192043823187,
+        "anisotropy": 1.3971054974438564
+      },
+      {
+        "frame": 62,
+        "index": 2,
+        "axis_error": 0.0766624209999236,
+        "anisotropy": 1.409304071536577
+      },
+      {
+        "frame": 63,
+        "index": 2,
+        "axis_error": 0.274663454209076,
+        "anisotropy": 1.4069325243958146
+      },
+      {
+        "frame": 64,
+        "index": 2,
+        "axis_error": 0.03386901392582331,
+        "anisotropy": 1.4007844516475563
+      },
+      {
+        "frame": 65,
+        "index": 2,
+        "axis_error": 0.4366785641966544,
+        "anisotropy": 1.4021278446350909
+      },
+      {
+        "frame": 66,
+        "index": 2,
+        "axis_error": 1.0931817409296514,
+        "anisotropy": 1.4058112034956918
+      },
+      {
+        "frame": 67,
+        "index": 2,
+        "axis_error": 0.6070944804690726,
+        "anisotropy": 1.3954914360554642
+      },
+      {
+        "frame": 68,
+        "index": 2,
+        "axis_error": 0.48088257157417047,
+        "anisotropy": 1.4134942876779675
+      },
+      {
+        "frame": 69,
+        "index": 2,
+        "axis_error": 0.21809063265118311,
+        "anisotropy": 1.403562225930621
+      },
+      {
+        "frame": 70,
+        "index": 2,
+        "axis_error": 0.33449730550921686,
+        "anisotropy": 1.4040462520185897
+      },
+      {
+        "frame": 71,
+        "index": 2,
+        "axis_error": 0.437012355299089,
+        "anisotropy": 1.4043307265402556
+      },
+      {
+        "frame": 72,
+        "index": 2,
+        "axis_error": 0.03314216627518363,
+        "anisotropy": 1.3991919427480664
+      },
+      {
+        "frame": 73,
+        "index": 2,
+        "axis_error": 0.05007281814118869,
+        "anisotropy": 1.3909368449797093
+      },
+      {
+        "frame": 74,
+        "index": 2,
+        "axis_error": 0.24900196672138009,
+        "anisotropy": 1.3999789599650765
+      },
+      {
+        "frame": 75,
+        "index": 2,
+        "axis_error": 1.2886097611761897,
+        "anisotropy": 1.4002418686652287
+      },
+      {
+        "frame": 76,
+        "index": 2,
+        "axis_error": 0.21143861062148517,
+        "anisotropy": 1.4089753842165071
+      },
+      {
+        "frame": 77,
+        "index": 2,
+        "axis_error": 0.05954430086313778,
+        "anisotropy": 1.4032285059306573
+      },
+      {
+        "frame": 78,
+        "index": 2,
+        "axis_error": 0.7477895080660915,
+        "anisotropy": 1.4019612883178403
+      },
+      {
+        "frame": 79,
+        "index": 2,
+        "axis_error": 0.4838415517208432,
+        "anisotropy": 1.4048831155957997
+      },
+      {
+        "frame": 80,
+        "index": 2,
+        "axis_error": 0.1668842924443652,
+        "anisotropy": 1.4001191878554649
+      },
+      {
+        "frame": 81,
+        "index": 2,
+        "axis_error": 0.770262593321263,
+        "anisotropy": 1.4113106627927678
+      },
+      {
+        "frame": 82,
+        "index": 2,
+        "axis_error": 0.8513685631539829,
+        "anisotropy": 1.3943450273236861
+      },
+      {
+        "frame": 83,
+        "index": 2,
+        "axis_error": 0.6866611079381642,
+        "anisotropy": 1.393650200222961
+      },
+      {
+        "frame": 84,
+        "index": 2,
+        "axis_error": 0.2638991607883838,
+        "anisotropy": 1.4055338367355599
+      },
+      {
+        "frame": 85,
+        "index": 2,
+        "axis_error": 0.0473643340572778,
+        "anisotropy": 1.4058380443229255
+      },
+      {
+        "frame": 86,
+        "index": 2,
+        "axis_error": 0.31387381041727735,
+        "anisotropy": 1.4030663443946199
+      },
+      {
+        "frame": 87,
+        "index": 2,
+        "axis_error": 0.5995677430712902,
+        "anisotropy": 1.3894471699119493
+      },
+      {
+        "frame": 88,
+        "index": 2,
+        "axis_error": 0.5273698431037417,
+        "anisotropy": 1.4041110698172223
+      },
+      {
+        "frame": 89,
+        "index": 2,
+        "axis_error": 0.033126898438183616,
+        "anisotropy": 1.4060263342838388
+      },
+      {
+        "frame": 90,
+        "index": 2,
+        "axis_error": 0.6323036837206928,
+        "anisotropy": 1.4073843102547077
+      },
+      {
+        "frame": 91,
+        "index": 2,
+        "axis_error": 0.7820512684449596,
+        "anisotropy": 1.4079177054797456
+      },
+      {
+        "frame": 92,
+        "index": 2,
+        "axis_error": 0.9117854492607478,
+        "anisotropy": 1.415006560969683
+      },
+      {
+        "frame": 93,
+        "index": 2,
+        "axis_error": 0.29134243131625226,
+        "anisotropy": 1.4097428551569546
+      },
+      {
+        "frame": 94,
+        "index": 2,
+        "axis_error": 0.26651576771206464,
+        "anisotropy": 1.414312601544679
+      },
+      {
+        "frame": 95,
+        "index": 2,
+        "axis_error": 0.05901534392614849,
+        "anisotropy": 1.3898509585956318
+      },
+      {
+        "frame": 96,
+        "index": 2,
+        "axis_error": 0.6912236253529045,
+        "anisotropy": 1.4072327797442303
+      },
+      {
+        "frame": 97,
+        "index": 2,
+        "axis_error": 0.38038098614418914,
+        "anisotropy": 1.413499460141514
+      },
+      {
+        "frame": 98,
+        "index": 2,
+        "axis_error": 0.44477801135428763,
+        "anisotropy": 1.4084300667262288
+      },
+      {
+        "frame": 99,
+        "index": 2,
+        "axis_error": 0.2888527186124179,
+        "anisotropy": 1.3927271121804903
+      },
+      {
+        "frame": 100,
+        "index": 2,
+        "axis_error": 1.9980794418784171,
+        "anisotropy": 1.4690567368013914
+      },
+      {
+        "frame": 101,
+        "index": 2,
+        "axis_error": 3.3583763979982564,
+        "anisotropy": 1.441395956672206
+      },
+      {
+        "frame": 102,
+        "index": 2,
+        "axis_error": 2.9630286100447165,
+        "anisotropy": 1.4633690212453803
+      },
+      {
+        "frame": 103,
+        "index": 2,
+        "axis_error": 1.904771534976362,
+        "anisotropy": 1.4648935351068073
+      },
+      {
+        "frame": 104,
+        "index": 2,
+        "axis_error": 2.5747877066605724,
+        "anisotropy": 1.4583134808283327
+      },
+      {
+        "frame": 105,
+        "index": 2,
+        "axis_error": 3.2518795484000975,
+        "anisotropy": 1.4314565010060507
+      },
+      {
+        "frame": 106,
+        "index": 2,
+        "axis_error": 0.5087691582193656,
+        "anisotropy": 1.4051747082812138
+      },
+      {
+        "frame": 107,
+        "index": 2,
+        "axis_error": 0.4137984457437369,
+        "anisotropy": 1.4068846879444759
+      },
+      {
+        "frame": 108,
+        "index": 2,
+        "axis_error": 0.0228141069233061,
+        "anisotropy": 1.409040503103628
+      },
+      {
+        "frame": 109,
+        "index": 2,
+        "axis_error": 0.11615385678294388,
+        "anisotropy": 1.4055839530111813
+      },
+      {
+        "frame": 110,
+        "index": 2,
+        "axis_error": 0.9713891079891255,
+        "anisotropy": 1.401806142381515
+      },
+      {
+        "frame": 111,
+        "index": 2,
+        "axis_error": 0.5150755385644743,
+        "anisotropy": 1.4019780258975452
+      },
+      {
+        "frame": 112,
+        "index": 2,
+        "axis_error": 0.13335163399068506,
+        "anisotropy": 1.4040214618150233
+      },
+      {
+        "frame": 113,
+        "index": 2,
+        "axis_error": 0.07041794844462856,
+        "anisotropy": 1.4131303230191732
+      },
+      {
+        "frame": 114,
+        "index": 2,
+        "axis_error": 0.006711141578648494,
+        "anisotropy": 1.4070665300426548
+      },
+      {
+        "frame": 115,
+        "index": 2,
+        "axis_error": 0.014773152717054927,
+        "anisotropy": 1.4096367111355506
+      },
+      {
+        "frame": 116,
+        "index": 2,
+        "axis_error": 0.7718935704551768,
+        "anisotropy": 1.4002884916244351
+      },
+      {
+        "frame": 117,
+        "index": 2,
+        "axis_error": 1.2137691876744725,
+        "anisotropy": 1.4034336679254176
+      },
+      {
+        "frame": 118,
+        "index": 2,
+        "axis_error": 1.2137691876744725,
+        "anisotropy": 1.4034336679254176
+      },
+      {
+        "frame": 119,
+        "index": 2,
+        "axis_error": 1.2137691876744725,
+        "anisotropy": 1.4034336679254176
+      },
+      {
+        "frame": 120,
+        "index": 2,
+        "axis_error": 1.2137691876744725,
+        "anisotropy": 1.4034336679254176
+      },
+      {
+        "frame": 121,
+        "index": 2,
+        "axis_error": 0.3666013120480329,
+        "anisotropy": 1.4043926438752405
+      },
+      {
+        "frame": 122,
+        "index": 2,
+        "axis_error": 0.3817202888326392,
+        "anisotropy": 1.409944437846645
+      },
+      {
+        "frame": 123,
+        "index": 2,
+        "axis_error": 0.22734221510563657,
+        "anisotropy": 1.4035130884793752
+      },
+      {
+        "frame": 124,
+        "index": 2,
+        "axis_error": 1.4475030783331135,
+        "anisotropy": 1.4146256284992949
+      },
+      {
+        "frame": 125,
+        "index": 2,
+        "axis_error": 0.04324306009203838,
+        "anisotropy": 1.402617618158941
+      },
+      {
+        "frame": 126,
+        "index": 2,
+        "axis_error": 0.45394409200764585,
+        "anisotropy": 1.3983914065808616
+      },
+      {
+        "frame": 127,
+        "index": 2,
+        "axis_error": 1.1834525434647958,
+        "anisotropy": 1.401288896252119
+      },
+      {
+        "frame": 128,
+        "index": 2,
+        "axis_error": 0.18790495730178236,
+        "anisotropy": 1.4028895575361962
+      },
+      {
+        "frame": 129,
+        "index": 2,
+        "axis_error": 0.11144488298066335,
+        "anisotropy": 1.4001753241514594
+      },
+      {
+        "frame": 130,
+        "index": 2,
+        "axis_error": 0.11141678336247196,
+        "anisotropy": 1.4072782209229047
+      },
+      {
+        "frame": 131,
+        "index": 2,
+        "axis_error": 0.1515955715761379,
+        "anisotropy": 1.399267259687545
+      },
+      {
+        "frame": 132,
+        "index": 2,
+        "axis_error": 0.5355034043595879,
+        "anisotropy": 1.3981413013534976
+      },
+      {
+        "frame": 133,
+        "index": 2,
+        "axis_error": 0.5355034043595879,
+        "anisotropy": 1.3981413013534976
+      },
+      {
+        "frame": 134,
+        "index": 2,
+        "axis_error": 0.5355034043595879,
+        "anisotropy": 1.3981413013534976
+      },
+      {
+        "frame": 135,
+        "index": 2,
+        "axis_error": 0.5355034043595879,
+        "anisotropy": 1.3981413013534976
+      },
+      {
+        "frame": 136,
+        "index": 2,
+        "axis_error": 0.5268890323378628,
+        "anisotropy": 1.3999540879313315
+      },
+      {
+        "frame": 137,
+        "index": 2,
+        "axis_error": 0.8324173253317895,
+        "anisotropy": 1.3993948306815502
+      },
+      {
+        "frame": 138,
+        "index": 2,
+        "axis_error": 0.038480346473875215,
+        "anisotropy": 1.3991096505845384
+      },
+      {
+        "frame": 139,
+        "index": 2,
+        "axis_error": 0.3022858446315695,
+        "anisotropy": 1.401882707527493
+      },
+      {
+        "frame": 140,
+        "index": 2,
+        "axis_error": 0.281731764520714,
+        "anisotropy": 1.3999310117724657
+      },
+      {
+        "frame": 141,
+        "index": 2,
+        "axis_error": 0.2571543811485526,
+        "anisotropy": 1.3991533562006657
+      },
+      {
+        "frame": 142,
+        "index": 2,
+        "axis_error": 0.2571543811485526,
+        "anisotropy": 1.3991533562006657
+      },
+      {
+        "frame": 143,
+        "index": 2,
+        "axis_error": 0.2571543811485526,
+        "anisotropy": 1.3991533562006657
+      },
+      {
+        "frame": 144,
+        "index": 2,
+        "axis_error": 0.2747782096788569,
+        "anisotropy": 1.401115691851958
+      },
+      {
+        "frame": 145,
+        "index": 2,
+        "axis_error": 0.07989435400804723,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 146,
+        "index": 2,
+        "axis_error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 147,
+        "index": 2,
+        "axis_error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 148,
+        "index": 2,
+        "axis_error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 149,
+        "index": 2,
+        "axis_error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 150,
+        "index": 2,
+        "axis_error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 151,
+        "index": 2,
+        "axis_error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 152,
+        "index": 2,
+        "axis_error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 153,
+        "index": 2,
+        "axis_error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 154,
+        "index": 2,
+        "axis_error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 155,
+        "index": 2,
+        "axis_error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 156,
+        "index": 2,
+        "axis_error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 157,
+        "index": 2,
+        "axis_error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 158,
+        "index": 2,
+        "axis_error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 159,
+        "index": 2,
+        "axis_error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 160,
+        "index": 2,
+        "axis_error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 161,
+        "index": 2,
+        "axis_error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 162,
+        "index": 2,
+        "axis_error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 163,
+        "index": 2,
+        "axis_error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 164,
+        "index": 2,
+        "axis_error": 0.07802803605505915,
+        "anisotropy": 1.402351189047713
+      },
+      {
+        "frame": 165,
+        "index": 2,
+        "axis_error": 0.17075232004447116,
+        "anisotropy": 1.4049302017963718
+      },
+      {
+        "frame": 166,
+        "index": 2,
+        "axis_error": 0.8383296011427319,
+        "anisotropy": 1.407771774294433
+      },
+      {
+        "frame": 167,
+        "index": 2,
+        "axis_error": 0.42624155662599605,
+        "anisotropy": 1.4053070772239744
+      },
+      {
+        "frame": 168,
+        "index": 2,
+        "axis_error": 0.32388498433851964,
+        "anisotropy": 1.3973510327081469
+      },
+      {
+        "frame": 169,
+        "index": 2,
+        "axis_error": 0.13448195749532488,
+        "anisotropy": 1.3944025856054034
+      },
+      {
+        "frame": 170,
+        "index": 2,
+        "axis_error": 0.14148343144108821,
+        "anisotropy": 1.3943423294113333
+      },
+      {
+        "frame": 171,
+        "index": 2,
+        "axis_error": 0.31283618595739426,
+        "anisotropy": 1.393910126337761
+      },
+      {
+        "frame": 172,
+        "index": 2,
+        "axis_error": 0.16395848299089266,
+        "anisotropy": 1.405021247858232
+      },
+      {
+        "frame": 173,
+        "index": 2,
+        "axis_error": 0.09304786847610558,
+        "anisotropy": 1.4026485590317437
+      },
+      {
+        "frame": 174,
+        "index": 2,
+        "axis_error": 0.4677329140411075,
+        "anisotropy": 1.408290720894507
+      },
+      {
+        "frame": 175,
+        "index": 2,
+        "axis_error": 0.4726211303434411,
+        "anisotropy": 1.395864268108225
+      },
+      {
+        "frame": 176,
+        "index": 2,
+        "axis_error": 0.1814820242728814,
+        "anisotropy": 1.4009341468459837
+      },
+      {
+        "frame": 177,
+        "index": 2,
+        "axis_error": 0.27403476217835987,
+        "anisotropy": 1.3961217101119818
+      },
+      {
+        "frame": 178,
+        "index": 2,
+        "axis_error": 0.4336639358023149,
+        "anisotropy": 1.4043437192059296
+      },
+      {
+        "frame": 179,
+        "index": 2,
+        "axis_error": 0.0667491021764306,
+        "anisotropy": 1.4065355442155463
+      }
+    ],
+    "native_checkpoint_rgb": [
+      {
+        "frame": 0,
+        "rgb_mae": 1.325578342013889
+      },
+      {
+        "frame": 120,
+        "rgb_mae": 1.3114930555555555
+      },
+      {
+        "frame": 15,
+        "rgb_mae": 1.3589539930555556
+      },
+      {
+        "frame": 150,
+        "rgb_mae": 1.3037239583333333
+      },
+      {
+        "frame": 179,
+        "rgb_mae": 1.3621082899305557
+      },
+      {
+        "frame": 30,
+        "rgb_mae": 1.34845703125
+      },
+      {
+        "frame": 60,
+        "rgb_mae": 1.348427734375
+      },
+      {
+        "frame": 90,
+        "rgb_mae": 1.3242578125
+      }
+    ],
+    "scope": "Technical pointing/replay/editability only; source manual interaction, original artwork/font identity and exact UI repaint synchronization remain unverified",
+    "limitations": [
+      "Pixel PCA is an undirected axis modulo180 degrees; directional heading is defined by explicit offset and native transform formula",
+      "PNG adapter currently tested for bright yellow/white elongated artwork inside40pixel diameter; dark/round artwork unsupported by axis validator",
+      "Input replay uses observed centers and authored linear interpolation, not source animation curves",
+      "Off/on pixel difference establishes actual effect, not aesthetic quality"
+    ]
+  },
+  "reason": "Lowercase a covariance ratio1.386..1.469 is below elongated-axis assumption; use directed full-silhouette matching against actual native zero-rotation export, validate with actual wrong-rotation negative"
+}

@@ -1,0 +1,8 @@
+{
+  "status": "candidate",
+  "source": "https://www.bilibili.com/video/BV1c7GTzMEh5/?p=33",
+  "method": "point1=transform.position;point2=target.position;chazhi=sub(point1,point2);angle=Math.atan2(chazhi[1],chazhi[0]);radiansToDegrees(angle)+explicitOffset",
+  "grid": "row=Math.ceil(index/5);column=index-(row-1)*5;x=column*64-32;y=row*48-24;[x,y]",
+  "scope": "2D unparented layers only; no lookAt/AutoOrient/smoothing substitution",
+  "replay": "Explicit measured manual UI replay, not course-authored animation"
+}

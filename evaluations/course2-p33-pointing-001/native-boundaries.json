@@ -1,0 +1,56 @@
+{
+  "status": "built",
+  "project_reopened": true,
+  "host": "26.0x67",
+  "quadrant_and_coincident": [
+    {
+      "target": [
+        240,
+        120
+      ],
+      "expected": 180,
+      "actual": 180,
+      "error": 0
+    },
+    {
+      "target": [
+        160,
+        200
+      ],
+      "expected": -90,
+      "actual": -90,
+      "error": 0
+    },
+    {
+      "target": [
+        80,
+        120
+      ],
+      "expected": 0,
+      "actual": 0,
+      "error": 0
+    },
+    {
+      "target": [
+        160,
+        40
+      ],
+      "expected": 90,
+      "actual": 90,
+      "error": 0
+    },
+    {
+      "target": [
+        160,
+        120
+      ],
+      "expected": 0,
+      "actual": 0,
+      "error": 0
+    }
+  ],
+  "coincident_reopened": 0,
+  "course_branch": "Exact source grid zero offset; no unwrap/hold repair added",
+  "coincident_semantics": "Native returns0 for atan2(0,0); physical pointing direction is undefined there",
+  "source_project_sha256_unchanged": "a2e6cf6778250080519455829bc19e94fccdc2ad6e48522946cda9fbb1f7ce8f"
+}

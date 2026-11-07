@@ -1,0 +1,8 @@
+{
+  "case": "grid-baseline-001",
+  "status": "superseded",
+  "reason": "Initial connected-component position sampler excluded leading two source frames and joined anti-aliased line edges; replaced with color-supported circle edges and explicit ambiguous-frame exclusion",
+  "native_build_status": "built",
+  "max_native_formula_error": 5.6843418860808e-14,
+  "video_sha256": "68be11a19a75f1c6df1ea5f25213c4865a36d6f3b1ba863cce0c8dadd17c340f"
+}
